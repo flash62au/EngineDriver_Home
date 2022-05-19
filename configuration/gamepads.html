@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>Changes &mdash; Engine Driver Test  documentation</title>
+  <title>Gamepads &mdash; Engine Driver Test  documentation</title>
   
 
   
@@ -46,8 +46,8 @@
     
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Prerequisites" href="../prerequisites/index.html" />
-    <link rel="prev" title="Downloads" href="../downloads/index.html" /> 
+    <link rel="next" title="Screenshots" href="../screenshots/index.html" />
+    <link rel="prev" title="In Phone Loco Sounds" href="ipls.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -98,18 +98,18 @@
               <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="../about/index.html">About</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../downloads/index.html">Downloads</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Changes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../changes/index.html">Changes</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../prerequisites/index.html">Prerequisites</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../operation/index.html">Operation</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="../operation/wifi_issues.html">WiFi Issues</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../operation/gamepads.html">Gamepads</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../configuration/index.html">Configuration</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../configuration/preferences.html">Preferences</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../configuration/functions.html">Function Buttons</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../configuration/ipls.html">In Phone Loco Sounds</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../configuration/gamepads.html">Gamepads</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Configuration</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="preferences.html">Preferences</a></li>
+<li class="toctree-l2"><a class="reference internal" href="functions.html">Function Buttons</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ipls.html">In Phone Loco Sounds</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Gamepads</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../screenshots/index.html">Screenshots</a></li>
@@ -164,14 +164,16 @@
     
       <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
         
-      <li>Changes</li>
+          <li><a href="index.html">Configuration</a> &raquo;</li>
+        
+      <li>Gamepads</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
           
             
-              <a href="https://github.com/flash62au/EngineDriver_Home/blob/main/docs/changes/index.rst" class="fa fa-github"> Edit on GitHub</a>
+              <a href="https://github.com/flash62au/EngineDriver_Home/blob/main/docs/configuration/gamepads.rst" class="fa fa-github"> Edit on GitHub</a>
             
           
         
@@ -185,43 +187,9 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="changes">
-<h1>Changes<a class="headerlink" href="#changes" title="Permalink to this headline">¶</a></h1>
-<p>Current production version chnages include:</p>
-<ul class="simple">
-<li><p>‘In Device’ loco sounds (first two throttles only). (Many thanks to Robert Posener for testing.)</p></li>
-<li><p>Support longer text on Route buttons.</p></li>
-<li><p>Move to Scoped Storage. (Enforced by Google for Android 11.) Engine Driver’s data files are now stored in ../Android/data/jmri.enginedriver/files</p></li>
-<li><p>Update target API from 29 to 30</p></li>
-<li><p>Improvements when switching layouts in the preference screens</p></li>
-<li><p>‘Limit Speed’ and ‘Pause’ added to the Horizontal Layouts</p></li>
-<li><p>Show roster lists from unknown servers</p></li>
-</ul>
-<p>Changes for the beta version include:</p>
-<ul class="simple">
-<li><p>Option for Server Description on the Action bar</p></li>
-<li><p>More improvements to In-Phone Loco Sounds</p></li>
-<li><p>Option for haptic feedback on button presses</p></li>
-<li><p>Option to select a local image for roster locos</p></li>
-<li><p>Option to use a normal keyboard (bluetooth or USB) as a gamepad type</p></li>
-<li><p>Option to link F1&amp;F2 to the IPLS Bell and Horn</p></li>
-<li><p>additional TTS options</p></li>
-<li><p>Volume buttons, for speed control, work on most screens</p></li>
-<li><p>Loco images now cached locally</p></li>
-<li><p>Web maintains state when navigating</p></li>
-<li><p>Hide the status and navigation bars on Lock&amp;Dim screen.</p></li>
-<li><p>Reset gamepads on start</p></li>
-<li><p>Fix: Show proper function keys for “Request LocoID” feature</p></li>
-<li><p>Fix: Several gamepad issues</p></li>
-<li><p>Fix: Engine Driver not appearing in recent apps list</p></li>
-<li><p>Fix: Reconnect screen created extra entry in the recent apps list on Samsung S5</p></li>
-<li><p>Fix: Prevent crashes reported to Play Store</p></li>
-<li><p>Fix: TTS speed bugs</p></li>
-</ul>
-<div class="section" id="all-changes">
-<h2>All Changes<a class="headerlink" href="#all-changes" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://raw.githubusercontent.com/JMRI/EngineDriver/master/changelog-and-todo-list.txt">view complete changelog</a></p>
-</div>
+  <div class="section" id="gamepads">
+<h1>Gamepads<a class="headerlink" href="#gamepads" title="Permalink to this headline">¶</a></h1>
+<p>TBA</p>
 </div>
 
 
@@ -230,8 +198,8 @@
           </div>
           <footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-        <a href="../prerequisites/index.html" class="btn btn-neutral float-right" title="Prerequisites" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
-        <a href="../downloads/index.html" class="btn btn-neutral float-left" title="Downloads" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../screenshots/index.html" class="btn btn-neutral float-right" title="Screenshots" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="ipls.html" class="btn btn-neutral float-left" title="In Phone Loco Sounds" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
     </div>
 
   <hr/>
