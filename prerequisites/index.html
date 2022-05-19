@@ -100,7 +100,10 @@
 <li class="toctree-l1"><a class="reference internal" href="../downloads/index.html">Downloads</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../changes/index.html">Changes</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Prerequisites</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../operation/index.html">Operation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../operation/index.html">Operation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../operation/wifi_issues.html">WiFi Issues</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="../configuration/index.html">Configuration</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../screenshots/index.html">Screenshots</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../videos/index.html">Videos</a></li>
@@ -177,7 +180,28 @@
             
   <div class="section" id="prerequisites">
 <h1>Prerequisites<a class="headerlink" href="#prerequisites" title="Permalink to this headline">¶</a></h1>
-<p>testing 4</p>
+<div class="section" id="for-jmri">
+<h2>For JMRI<a class="headerlink" href="#for-jmri" title="Permalink to this headline">¶</a></h2>
+<p>Verify your Android device can connect to your network via WiFi and obtain an IP address.
+Make sure you are running one of the latest versions of <a class="reference external" href="https://jmri.org/">JMRI</a> (3.8 works, 4.20+ works much better) on your PC, connected to your layout.
+Start up JMRI and verify you can use JMRI’s included “Throttle” window to control a loco on your layout.</p>
+<p>Start the <a class="reference external" href="https://www.jmri.org/help/en/package/jmri/jmrit/withrottle/Protocol.shtml">WiThrottle</a> function of JMRI, located in DecoderPro under Tools, Throttles.
+It is also highly recommended that you start the <a class="reference external" href="https://www.jmri.org/help/en/html/web/index.shtml">JMRI Web Server function</a> (Tools, Start JMRI Web Server).
+Both of these should be added to Preferences, Start Up as well.</p>
+</div>
+<div class="section" id="for-mrc-wifi">
+<h2>For MRC Wifi<a class="headerlink" href="#for-mrc-wifi" title="Permalink to this headline">¶</a></h2>
+<p>Connect the <a class="reference external" href="https://www.modelrectifier.com/category-s/332.htm">MRC WiFi module</a>, and verify your device can connect to its network and obtain an IP address.
+Note for MRC users: David Fuller has provided some <a class="reference external" href="https://enginedriver.mstevetodd.com/sites/enginedriver.mstevetodd.com/files/EngineDriver_App-MRC_Wi-Fi_Module_Settings.pdf">additional setup information [here]</a>.</p>
+</div>
+<div class="section" id="for-digitrax-lnwi">
+<h2>For Digitrax LnWi<a class="headerlink" href="#for-digitrax-lnwi" title="Permalink to this headline">¶</a></h2>
+<p>Connect the <a class="reference external" href="https://www.digitrax.com/products/wireless/lnwi/">Digitrax LnWi</a>, and verify your device can connect to its network and obtain an IP address.</p>
+</div>
+<div class="section" id="for-dcc-ex-wifi">
+<h2>For DCC++EX WiFi<a class="headerlink" href="#for-dcc-ex-wifi" title="Permalink to this headline">¶</a></h2>
+<p>TBA</p>
+</div>
 </div>
 
 
