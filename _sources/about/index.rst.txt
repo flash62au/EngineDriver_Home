@@ -2,7 +2,6 @@
 About
 *******************************************
 
-
 This free Android application connects to a `WiThrottle Server <https://jmri.org/help/en/package/jmri/jmrit/withrottle/UserInterface.shtml>`_ to control model trains. 
 
 Supported servers include `JMRI <https://jmri.org/>`_, `DCC-EX <https://dcc-ex.com/>`_, `MRC Prodigy WiFi <https://www.modelrectifier.com/category-s/332.htm>`_, `Digitrax LnWi <https://www.digitrax.com/products/wireless/lnwi/>`_, and `WifiTrax (for NCE) <http://wifitrax.com/products/product-WFD-30-detail.html>`_. 
