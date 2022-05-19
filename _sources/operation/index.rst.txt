@@ -28,4 +28,5 @@ You can also "fling" left or right to jump quickly back and forth between the Th
     :maxdepth: 1
 
     wifi_issues
+    gamepads
 
