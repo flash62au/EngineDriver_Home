@@ -15,12 +15,11 @@ Documentation
 The steps listed here provide guidance on how to make and preview complex changes.
 
 * You need to have an appropriate text editor and Git installed on your machine. For Windows we recommend the free `Visual Studio Code IDE (VSC) <https://code.visualstudio.com/>`_ and `GitHub Desktop <https://desktop.github.com/>`_.
-* Install a current version of Python 3 (which also installs pip). The Microsoft Store contains Python published by the Python Software Foundation for Windows. Then use pip to install the required packages pip install sphinx sphinx_rtd_theme sphinxcontrib-spelling.
+* Install a current version of Python 3 (which also installs pip). The Microsoft Store contains Python published by the Python Software Foundation for Windows. 
+* Then use pip to install the required packages pip install 'sphinx' and the theme 'sphinx_rtd_theme'.  Open and command propmt and enter: 
   
- * Also install Sphinx and the template for local previews of your changes. Open and command propmt and enter: 
-  
-  * pip install -U sphinx
-  * pip install sphinx-rtd-theme
+ * pip install -U sphinx
+ * pip install sphinx-rtd-theme
   
 * On Githib, clone the EngineDriver_Home repository. `(See Cloning a repository in GitHub) <https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository>`_ 
 * Using Github Desktop, clone you repository to your local machine.
