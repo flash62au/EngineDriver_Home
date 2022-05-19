@@ -20,3 +20,16 @@ Entering roster entries, and defining routes and turnouts on the server will all
 EngineDriver will show additional info if the JMRI Web Server is started (such as roster details and icon images).
 
 Note for MRC users: David Fuller has provided some `additional setup information [here] <https://enginedriver.mstevetodd.com/sites/enginedriver.mstevetodd.com/files/EngineDriver_App-MRC_Wi-Fi_Module_Settings.pdf>`_.
+
+----------------
+Addional Details
+----------------
+
+.. toctree::
+    :maxdepth: 1
+
+    preferences
+    functions
+    ipls
+    gamepads
+
