@@ -29,5 +29,5 @@ The steps listed here provide guidance on how to make and preview complex change
 * Using Github Desktop, clone you repository to your local machine.
 * Edit the files in the EngineDriver_Home/docs folder. 
 * Save, then check and preview your changes by running 'make github' from the root of the dcc-ex.github.io folder. This must be done from cmd.exe in Windows, not PowerShell. If any warnings are reported, fix these and run make github again. Then go to your local directory EngineDriver_Home/docs/_build/html and open index.html in Chrome or another browser.  
-* Use Github Desktop to commit and then push your changes.
+* Use Github Desktop to commit and then push your changes.  You can check the actions to see if it built correctly.  You can preview the pages on github at https://<yourname>.github.io/EngineDriver_Home
 * Go to GitHub and issue a pull request for your branch to be pulled into the main branch. Once it’s merged in by one of the admins, your changes will go live!
