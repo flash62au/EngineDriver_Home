@@ -12,15 +12,15 @@ TBA
 Documentation
 -------------
 
-The steps listed here provide guidance on how to make and preview complex changes.
+The steps listed here provide guidance on how to make and preview changes to the documentation.
 
-* You need to install a numbe rof tools on you local machine:
+* You need to install a number of tools on you local machine:
  
  * An appropriate text editor. For Windows we recommend the free `Visual Studio Code IDE (VSC) <https://code.visualstudio.com/>`_.
  * A version of Git. For Windows we recommend the free `GitHub Desktop <https://desktop.github.com/>`_.
  * A current version of Python 3 (which also installs pip). The Microsoft Store contains Python published by the Python Software Foundation for Windows. 
 
-* Then use pip to install the required packages pip install 'sphinx' and the theme 'sphinx_rtd_theme'.  Open and command propmt and enter: 
+* Then use pip to install the required packages; 'sphinx' and the theme 'sphinx_rtd_theme'.  Open and command prompt and enter: 
   
  * pip install -U sphinx
  * pip install sphinx-rtd-theme
