@@ -20,7 +20,7 @@ import sphinx_rtd_theme
 
 project = 'Engine Driver Test'
 copyright = 'M Steve Todd'
-author = 'Steve, Peter'
+author = 'M Steve Todd, Peter Akers'
 
 
 # -- General configuration ---------------------------------------------------
@@ -96,8 +96,8 @@ html_theme_options = {
 html_context = {
     'display_github': True,
     'github_user': 'flash62au',
-    'github_repo': 'flash62au.github.io/webtest',
-    'github_version': 'sphinx/docs/',
+    'github_repo': 'EngineDriver_Home',
+    'github_version': 'main/docs/',
 }
 
 #leave this off to have todos invisible, set to true to render them and make the easy to see
