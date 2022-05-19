@@ -31,4 +31,4 @@ Connect the `Digitrax LnWi <https://www.digitrax.com/products/wireless/lnwi/>`_,
 For DCC++EX WiFi
 --------------------------------
 
-TBA
+`DCC++EX <https://dcc-ex.com/index.html>` includes a built-in `WiThrottle Server <https://dcc-ex.com/throttles/protocols.html#the-withrottle-server>'. Build your `DCC++EX Command Station <https://dcc-ex.com/get-started/index.html>, add `WiFi <https://dcc-ex.com/get-started/wifi-setup.html>', then connect EngineDriver following `these steps <https://dcc-ex.com/throttles/protocols.html#the-withrottle-server>'.
