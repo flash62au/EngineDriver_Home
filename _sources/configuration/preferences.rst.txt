@@ -119,7 +119,7 @@ TBA
     * 'Pause' button Rate
     * 'Pause' button Step
 
- * Consist Function Follow Preferences
+* Consist Function Follow Preferences
 
   * Consist Functions - Follow Rule Style
   * Selective Lead Unit Sound?
