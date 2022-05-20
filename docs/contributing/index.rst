@@ -63,7 +63,11 @@ The steps listed here provide guidance on how to edit and preview changes to the
   * ``pip install -U sphinx``
   * ``pip install sphinx-rtd-theme``
   
-* On Githib, clone the EngineDriver_Home repository. `(See Cloning a repository in GitHub) <https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository>`_ 
+* On Githib
+
+  * Clone the EngineDriver_Home repository. `(See Cloning a repository in GitHub) <https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository>`_ 
+  * open the repository settings, go to the 'Pages' section and chnage the 'soruce-branch' to ``gh-pages`` ``/ (root)``.
+
 * Using Github Desktop, clone you repository to your local machine.
 * Edit the files in the ``EngineDriver_Home/docs`` folder. 
 * Save, then check and preview your changes by running ``make github`` from the root of the ``EngineDriver_Home`` folder. This must be done from ``cmd.exe`` in Windows, not ``PowerShell``. If any warnings are reported, fix these and run make github again. Then go to your local directory ``EngineDriver_Home/docs/_build/html`` and open ``index.html`` in Chrome or another browser.  
