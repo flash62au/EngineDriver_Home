@@ -55,6 +55,9 @@ The steps listed here provide guidance on how to edit and preview changes to the
 * You need to install a number of tools on you local machine:
  
   * An appropriate text editor. For Windows we recommend the free `Visual Studio Code IDE (VSC) <https://code.visualstudio.com/>`_.
+
+    * If using VSC, we recomend installing the ``reStructuredText Syntax highlighting`` extension.
+
   * A version of Git. For Windows we recommend the free `GitHub Desktop <https://desktop.github.com/>`_.
   * A current version of Python 3 (which also installs pip). The Microsoft Store contains Python published by the Python Software Foundation for Windows. 
 
