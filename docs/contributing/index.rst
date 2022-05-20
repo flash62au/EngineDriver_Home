@@ -2,6 +2,10 @@
 Contributing
 *******************************************
 
+.. |br| raw:: html
+
+   <br />
+
 ----
 Code
 ----
@@ -14,7 +18,7 @@ Here are all the steps needed for Microsoft Windows:
 
 * On Githib, clone the JMRI/EngineDriver repository. `(See Cloning a repository in GitHub) <https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository>`_ 
 * Install Android Studio.
-* Open Android Studio (if necessary, close any open project and restart, so you get the Welcome Wizard)
+* Open Android Studio |br|\ (If necessary, close any open project and restart, so you get the Welcome Wizard)
 * Select ``Check out project from Version control`` -> Git
 * In the Clone Repository window, enter the Git Repository URL: ``https://github.com/JMRI/EngineDriver``, -> ``Clone``.  Note this is the original repoisitory, not your clone.
 * Open the project. 
@@ -54,12 +58,12 @@ The steps listed here provide guidance on how to edit and preview changes to the
 
 * You need to install a number of tools on you local machine:
  
-  * An appropriate text editor. For Windows we recommend the free `Visual Studio Code IDE (VSC) <https://code.visualstudio.com/>`_. 
+  * An appropriate text editor. |br|\ For Windows we recommend the free `Visual Studio Code IDE (VSC) <https://code.visualstudio.com/>`_. 
 
     * If using VSC, we recommend installing the ``reStructuredText Syntax highlighting`` extension.
 
-  * A version of Git. For Windows we recommend the free `GitHub Desktop <https://desktop.github.com/>`_.
-  * A current version of Python 3 (which also installs pip). The Microsoft Store contains Python published by the Python Software Foundation for Windows. 
+  * A version of Git. |br|\ For Windows we recommend the free `GitHub Desktop <https://desktop.github.com/>`_.
+  * A current version of Python 3 (which also installs pip). |br|\ The Microsoft Store contains Python published by the Python Software Foundation for Windows. 
 
 * Then use pip to install the required packages; 'sphinx' and the theme 'sphinx_rtd_theme'.  Open and command prompt and enter: 
   
@@ -73,6 +77,6 @@ The steps listed here provide guidance on how to edit and preview changes to the
 
 * Using Github Desktop, clone you repository to your local machine.
 * Edit the files in the ``EngineDriver_Home/docs`` folder. 
-* Save, then check and preview your changes by running ``make github`` from the root of the ``EngineDriver_Home`` folder. This must be done from ``cmd.exe`` in Windows, not ``PowerShell``. If any warnings are reported, fix these and run make github again. Then go to your local directory ``EngineDriver_Home/docs/_build/html`` and open ``index.html`` in Chrome or another browser.  
-* Use Github Desktop to commit and then push your changes.  You can check the actions to see if it built correctly.  You can preview the pages on github at ``https://<yourname>.github.io/EngineDriver_Home``
-* Go to GitHub and issue a pull request for your branch to be pulled into the main branch. Once it's merged in by one of the admins, your changes will go live!
+* Save, then check and preview your changes by running ``make github`` from the root of the ``EngineDriver_Home`` folder. |br|\ This must be done from ``cmd.exe`` in Windows, not ``PowerShell``. If any warnings are reported, fix these and run make github again. Then go to your local directory ``EngineDriver_Home/docs/_build/html`` and open ``index.html`` in Chrome or another browser.  
+* Use Github Desktop to commit and then push your changes. |br|\ You can check the actions to see if it built correctly. |br|\ You can preview the pages on github at ``https://<yourname>.github.io/EngineDriver_Home``
+* Go to GitHub and issue a pull request for your branch to be pulled into the main branch. |br|\ Once it's merged in by one of the admins, your changes will go live!
