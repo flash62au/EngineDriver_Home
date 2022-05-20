@@ -17,10 +17,10 @@ On the Android device you intend to test on
 Here are all the steps needed for Microsoft Windows:
 
 * On Githib, clone the JMRI/EngineDriver repository. `(See Cloning a repository in GitHub) <https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository>`_ 
-* Install Android Studio.
+* Install `Android Studio <https://developer.android.com/studio>`_.
 * Open Android Studio |br|\ (If necessary, close any open project and restart, so you get the Welcome Wizard)
 * Select ``Check out project from Version control`` -> Git
-* In the Clone Repository window, enter the Git Repository URL: ``https://github.com/JMRI/EngineDriver``, -> ``Clone``.  Note this is the original repoisitory, not your clone.
+* In the Clone Repository window, enter the Git Repository URL: ``https://github.com/JMRI/EngineDriver``, -> ``Clone``.  |br|\ *Note this is the original repoisitory, not your clone.*
 * Open the project. 
 * Only if needed...
 
@@ -30,7 +30,7 @@ Here are all the steps needed for Microsoft Windows:
   * Click Run.
   * You will likely get one or more error messages about missing components. Click on the link in each message and Android Studio will automatically download the missing components.
 
-To test you changes:
+To test your changes:
 
 * Connect your phone via USB
 * In the Select Deployment Target window, your attached phone should show under Connected Devices.
@@ -39,7 +39,7 @@ To test you changes:
 
 To publish your changes:
 
-* Android Studio, commit and push you changes to *your own* github repository.. To do this you will need to define a new remote ``https://github.com/<your name>/EngineDriver``
+* Android Studio, commit and push you changes to *your own* github repository.. |br|\ To do this you will need to define a new remote ``https://github.com/<your name>/EngineDriver``
 * Go to GitHub and issue a pull request for your branch to be pulled into the original repository. Once it's merged in by one of the admins, your changes will go live!
 
 
