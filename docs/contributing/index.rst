@@ -65,7 +65,7 @@ The steps listed here provide guidance on how to edit and preview changes to the
   * A version of Git. |br|\ For Windows we recommend the free `GitHub Desktop <https://desktop.github.com/>`_.
   * A current version of Python 3 (which also installs pip). |br|\ The Microsoft Store contains Python published by the Python Software Foundation for Windows. 
 
-* Then use pip to install the required packages; 'sphinx' and the theme 'sphinx_rtd_theme'.  Open and command prompt and enter: 
+* Then use pip to install the required packages; 'sphinx' and the theme 'sphinx_rtd_theme'.  |br|\ Open and command prompt and enter: 
   
   * ``pip install -U sphinx``
   * ``pip install sphinx-rtd-theme``
