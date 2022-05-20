@@ -43,9 +43,9 @@ To publish your changes:
 Documentation
 -------------
 
-All documentation is done using reStructuredText, for which you can find information on the official website: `reStructuredText <https://docutils.sourceforge.io/rst.html>`_
+All documentation is done using **reStructuredText**, for which you can find information on the official website: `reStructuredText <https://docutils.sourceforge.io/rst.html>`_
 or the `Sphinx <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html>`_ document builder tool website.
-reStructuredText is a markdown type language, for typesetting documents from websites to PDF or LaTeX documents. 
+**reStructuredText** is a markdown type language, for typesetting documents from websites to PDF or LaTeX documents. 
 This Website is built upon this technology, so you should make yourself familiar with this by looking through the links provided.
 
 reStructuredText `QuickReference Guide <https://docutils.sourceforge.io/docs/user/rst/quickref.html>`_ 
@@ -54,9 +54,9 @@ The steps listed here provide guidance on how to edit and preview changes to the
 
 * You need to install a number of tools on you local machine:
  
-  * An appropriate text editor. For Windows we recommend the free `Visual Studio Code IDE (VSC) <https://code.visualstudio.com/>`_.
+  * An appropriate text editor. For Windows we recommend the free `Visual Studio Code IDE (VSC) <https://code.visualstudio.com/>`_. 
 
-    * If using VSC, we recomend installing the ``reStructuredText Syntax highlighting`` extension.
+    * If using VSC, we recommend installing the ``reStructuredText Syntax highlighting`` extension.
 
   * A version of Git. For Windows we recommend the free `GitHub Desktop <https://desktop.github.com/>`_.
   * A current version of Python 3 (which also installs pip). The Microsoft Store contains Python published by the Python Software Foundation for Windows. 
