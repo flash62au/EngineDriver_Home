@@ -2,7 +2,6 @@
 Gamepads
 *******************************************
 
-
 ----------------------
 Connecting your device
 ----------------------
@@ -72,24 +71,30 @@ Tested gamepads
 These we have had the most success with…
 
 **Mocute ...**
-http://www.ebay.com.au/itm/Bluetooth-Wireless-Gamepad-Controller-Joystick-For-Android-IOS-iPhone-ipad-WY-/263074805365?var=&hash=item3d407af675 
 
-http://www.ebay.com/itm/Wireless-Bluetooth-Gamepad-Remote-Control-Selfie-Shutter-For-iPhone-Android-UB/122270268904?ssPageName=STRK%3AMEBIDX%3AIT&_trksid=p2060353.m2749.l2649 
+.. image:: ../_static/images/gamepads/bt_controller1.jpg
+   :scale: 50 %
 
 They are available from a variety of different sellers on ebay and elsewhere. 
-
-Their quality is cheap which is reflected in the price, so don't expect a long life from them.
+Their quality is not brilliant which is reflected in the price, so don't expect a long life from them.
 
 **MagicSeeR1**
-This has been successful, but you need to re-select the mode every time you switch it on.  These seem to be slightly better quality than the ones above.
 
-These we have had some success with... 
-http://www.ebay.com/itm/Wireless-Bluetooth-3-0-Remote-Controller-Gamepad-for-Android-IOS-VR-Black/152589258632?ssPageName=STRK%3AMEBIDX%3AIT&_trksid=p2060353.m2749.l2649 
+.. image:: ../_static/images/gamepads/bt_controller2.jpg
+   :scale: 50 %
+
+This has been successful, but you need to re-select the mode every time you switch it on.  
+These seem to be slightly better quality than the one above, but are more expensive.
 
 **Flydigi Wee 2**
 This has been successful.
+
+^^^^^^^^^^^^^^^^^^^^^^^^
 Not Recommended gamepads
+^^^^^^^^^^^^^^^^^^^^^^^^
 These work, but have issues which make them not recommended. 
+
+TBA
 
 ^^^^^^^^^^^^^^^^^^^^
 Unsupported gamepads
