@@ -189,7 +189,83 @@
             
   <div class="section" id="gamepads">
 <h1>Gamepads<a class="headerlink" href="#gamepads" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="connecting-your-device">
+<h2>Connecting your device<a class="headerlink" href="#connecting-your-device" title="Permalink to this headline">¶</a></h2>
+<p>The following instructions work for the <strong>mocute</strong> devices.
+Other devices require similar steps, but the mechanism to change the <code class="docutils literal notranslate"><span class="pre">mode</span></code> may be different.</p>
+<ul class="simple">
+<li><p>On the gamepad, the small button is Start/Power. Press for a couple seconds until LED comes on.</p></li>
+<li><p>On your <strong>Android device</strong> go to the settings, then Bluetooth, and make sure Bluetooth is turned ON.</p></li>
+<li><p>Now click <code class="docutils literal notranslate"><span class="pre">More</span> <span class="pre">Settings</span></code>. Within a few seconds a new device should appear in the <code class="docutils literal notranslate"><span class="pre">Available</span> <span class="pre">devices</span></code> section. (The name of the device may make it apparent that it is the gamepad, but it may just be a string of hexadecimal numbers.)</p></li>
+<li><p>Select the new device. Many devices will be paired at this point, but if it asks for a pairing code try <code class="docutils literal notranslate"><span class="pre">0000</span></code> or <code class="docutils literal notranslate"><span class="pre">1234</span></code> (check the instructions that came with the gamepad.)</p></li>
+<li><p>After pairing you should see an item in the Notifications regarding the gamepad. Click that item and make sure that “Show virtual keyboard” is ON.</p></li>
+<li><p>Configuring the gamepad for MTK mode</p></li>
+<li><p>Turn your gamepad OFF by holding the Start/Power button for about 5 seconds until the LED goes out and stays out.</p></li>
+<li><p>Move the slide switch on the side to the <code class="docutils literal notranslate"><span class="pre">GAME</span></code> position (towards the joystick).</p></li>
+<li><p>Hold down the button specified in your gamepad instructions for MTK mode. Typically this is the <code class="docutils literal notranslate"><span class="pre">Y</span></code> button. While still holding that button down, press the Start/Power button until the LED turns on. Release the buttons as soon as the LED turns on.</p></li>
+</ul>
+<p>This configuration procedure should only be required once. In the future your gamepad should be in MTK mode when you turn it on.   <strong>(Not true of the MagicSeeR1)</strong></p>
+<p>We have found that some gamepads work well in iCade mode as well. Feel free to experiment. To use iCade mode, follow the steps above but use the button your instructions specify for iCade (typically “X”).</p>
+</div>
+<div class="section" id="running-engine-driver-with-the-gamepad">
+<h2>Running Engine Driver with the Gamepad<a class="headerlink" href="#running-engine-driver-with-the-gamepad" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>In Engine Driver,</p>
+<ul>
+<li><p>Set up the device (see above)</p></li>
+<li><p>Start Engine Driver</p></li>
+<li><p>In the preferences select a gamepad type.</p></li>
+<li><p>Select a loco as normal and return to the Throttle page.</p></li>
+<li><p>In the Gamepad section of Engine Driver’s Preferences, select a gamepad corresponding to the gamepad mode you configured on the device (above). We recommend <code class="docutils literal notranslate"><span class="pre">MTK-rotate</span></code> for MKT mode, and <code class="docutils literal notranslate"><span class="pre">iCade+DPAD-rotate</span></code> for iCade mode.</p></li>
+<li><p>You can optionally change what the gamepad buttons do - see below.</p></li>
+</ul>
+</li>
+<li><p>On the Throtttle Screen</p>
+<ul>
+<li><p>When you press any of the buttons on the gamepad for the first time, a test page will appear.  Press all four DPad buttons in turn and the Four main buttons to pass the test, and return to the throttle page.</p></li>
+<li><p>By default, The DPAD (joystick) on the gamepad will control throttle up, down and direction.</p></li>
+<li><p>By default, The four individual Buttons on the gamepad will control functions F0, F1, F2 and STOP for the selected throttle.</p></li>
+<li><p>If you have engines assigned to more than one Engine Driver throttle, by default a short press of the Start Button will move the gamepad to the next assigned throttle. If you have changed the Preferences for the Start Button Action to ESTOP, then a short press will set the speed for all your Engine Driver throttles to zero.</p></li>
+<li><p>If the Select Button is present on your gamepad, by default, pressing it will move the gamepad to the next assigned throttle.</p></li>
+<li><p>Engine Driver’s on-screen buttons continue to function as before. Use them to add or drop locos, and to access any additional function buttons.</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="remapping-gamepad-buttons">
+<h2>Remapping gamepad buttons<a class="headerlink" href="#remapping-gamepad-buttons" title="Permalink to this headline">¶</a></h2>
+<p>All the buttons of the gamepad that can be assessed by Engine Driver can be remapped to perform most of the features and functions of the Engine Driver Throttle Screen.</p>
 <p>TBA</p>
+</div>
+<div class="section" id="multiple-gamepads">
+<h2>Multiple gamepads<a class="headerlink" href="#multiple-gamepads" title="Permalink to this headline">¶</a></h2>
+<p>TBA</p>
+</div>
+<div class="section" id="sample-gamepads">
+<h2>Sample gamepads<a class="headerlink" href="#sample-gamepads" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="tested-gamepads">
+<h3>Tested gamepads<a class="headerlink" href="#tested-gamepads" title="Permalink to this headline">¶</a></h3>
+<p>These we have had the most success with…</p>
+<p><strong>Mocute …</strong>
+<a class="reference external" href="http://www.ebay.com.au/itm/Bluetooth-Wireless-Gamepad-Controller-Joystick-For-Android-IOS-iPhone-ipad-WY-/263074805365?var=&amp;hash=item3d407af675">http://www.ebay.com.au/itm/Bluetooth-Wireless-Gamepad-Controller-Joystick-For-Android-IOS-iPhone-ipad-WY-/263074805365?var=&amp;hash=item3d407af675</a></p>
+<p><a class="reference external" href="http://www.ebay.com/itm/Wireless-Bluetooth-Gamepad-Remote-Control-Selfie-Shutter-For-iPhone-Android-UB/122270268904?ssPageName=STRK%3AMEBIDX%3AIT&amp;_trksid=p2060353.m2749.l2649">http://www.ebay.com/itm/Wireless-Bluetooth-Gamepad-Remote-Control-Selfie-Shutter-For-iPhone-Android-UB/122270268904?ssPageName=STRK%3AMEBIDX%3AIT&amp;_trksid=p2060353.m2749.l2649</a></p>
+<p>They are available from a variety of different sellers on ebay and elsewhere.</p>
+<p>Their quality is cheap which is reflected in the price, so don’t expect a long life from them.</p>
+<p><strong>MagicSeeR1</strong>
+This has been successful, but you need to re-select the mode every time you switch it on.  These seem to be slightly better quality than the ones above.</p>
+<p>These we have had some success with…
+<a class="reference external" href="http://www.ebay.com/itm/Wireless-Bluetooth-3-0-Remote-Controller-Gamepad-for-Android-IOS-VR-Black/152589258632?ssPageName=STRK%3AMEBIDX%3AIT&amp;_trksid=p2060353.m2749.l2649">http://www.ebay.com/itm/Wireless-Bluetooth-3-0-Remote-Controller-Gamepad-for-Android-IOS-VR-Black/152589258632?ssPageName=STRK%3AMEBIDX%3AIT&amp;_trksid=p2060353.m2749.l2649</a></p>
+<p><strong>Flydigi Wee 2</strong>
+This has been successful.
+Not Recommended gamepads
+These work, but have issues which make them not recommended.</p>
+</div>
+<div class="section" id="unsupported-gamepads">
+<h3>Unsupported gamepads<a class="headerlink" href="#unsupported-gamepads" title="Permalink to this headline">¶</a></h3>
+<p><strong>VR Box</strong>
+<a class="reference external" href="http://www.ebay.com.au/itm/Bluetooth-Self-timer-Remote-Controller-Gamepad-for-Android-IOS-VR-3D-White-SB/311834056448?ssPageName=STRK%3AMEBIDX%3AIT&amp;_trksid=p2060353.m2749.l2649">http://www.ebay.com.au/itm/Bluetooth-Self-timer-Remote-Controller-Gamepad-for-Android-IOS-VR-3D-White-SB/311834056448?ssPageName=STRK%3AMEBIDX%3AIT&amp;_trksid=p2060353.m2749.l2649</a></p>
+</div>
+</div>
 </div>
 
 
