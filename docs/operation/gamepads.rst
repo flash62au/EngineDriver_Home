@@ -2,6 +2,10 @@
 Gamepads
 *******************************************
 
+.. |br| raw:: html
+
+   <br />
+
 ----------------------
 Connecting your device
 ----------------------
@@ -89,6 +93,19 @@ These seem to be slightly better quality than the one above, but are more expens
 **Flydigi Wee 2**
 This has been successful.
 
+**Utopia 360**
+This has been successful with the 'Android C' mode.
+
+**DIY Arduino ESP32 + keypad + Rotary Encoder**
+This has been successful with the 'Android C' mode.
+See https://github.com/flash62au/WiTcontroller for details
+
+**Normal Keyboard**
+This has been successful.  See below for the keystroke meanings when using a keyboard.
+
+Note: In the gamepage test screen, just select 'Skip' to use the keyboard.
+
+
 ^^^^^^^^^^^^^^^^^^^^^^^^
 Not Recommended gamepads
 ^^^^^^^^^^^^^^^^^^^^^^^^
@@ -102,3 +119,35 @@ Unsupported gamepads
 
 **VR Box**
 http://www.ebay.com.au/itm/Bluetooth-Self-timer-Remote-Controller-Gamepad-for-Android-IOS-VR-3D-White-SB/311834056448?ssPageName=STRK%3AMEBIDX%3AIT&_trksid=p2060353.m2749.l2649 
+
+----
+
+-----------------
+Keyboard Commands
+-----------------
+
+for use when ``Keyboard`` is selected as the gamepad type
+
+* 'Up' or 'Page Up' or '+' or '=' = Increase Speed
+* 'Media Next' = Increase Speed * 2
+* 'Down' or 'Page Down' or '-' = Decrease Speed
+* 'Media Previous' = Decrease Speed * 2
+* 'Home' or 'X' = Stop
+* Left or '[' = Reverse (Forward if buttons swapped in preferences)
+* Right or ']' = Forward (Ahead) (Reverse if buttons swapped in preferences)
+* 'D' = Direction - Toggle Forward/Reverse
+* 'N' = Next Throttle
+* 'End' or 'Z' = All stop |br|\
+* F00 - F28 = Function |br|\ Must be 'F' followed by two digits |br|\  or 'F11' followed by two 'F' button equivalents F10=0, F1-F9=1-9
+* '0'-'9' = Functions 0-9 |br|\ Without a preceding 'F', 'S' or 'L' |br|\ or 'F10' - 'F9'  F10=0, F1-F9=1-9 |br|\
+* S000 - S100 = Speed |br|\ Must be 'S' followed by three digits |br|\  or 'F12' followed by two 'F' button equivalents F10=0, F1-F9=1-9 |br|\
+* 'L' = Limit Speed
+* 'P' = Pause Speed
+* In Phone Loco Sounds (IPLS)  
+  * 'B' = Bell 
+  * 'H' = Horn / Whistle 
+  * Shift + 'H' = Short Horn 
+  * 'M' or 'Volume Mute' = Mute IPLS
+* T0 - T5 = Specify a throttle for next command |br|\ Must be 'T' followed by one digit |br|\ or 'Esc' followed by two 'F' button equivalents F10=0, F1-F9=1-9 |br|\ The following command will sent to the specified throttle regardless of the currently selected gamepad throttle.
+
+All other keyCodes are ignored
