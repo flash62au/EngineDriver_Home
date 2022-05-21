@@ -256,6 +256,14 @@ Their quality is not brilliant which is reflected in the price, so don’t expec
 These seem to be slightly better quality than the one above, but are more expensive.</p>
 <p><strong>Flydigi Wee 2</strong>
 This has been successful.</p>
+<p><strong>Utopia 360</strong>
+This has been successful with the ‘Android C’ mode.</p>
+<p><strong>DIY Arduino ESP32 + keypad + Rotary Encoder</strong>
+This has been successful with the ‘Android C’ mode.
+See <a class="reference external" href="https://github.com/flash62au/WiTcontroller">https://github.com/flash62au/WiTcontroller</a> for details</p>
+<p><strong>Normal Keyboard</strong>
+This has been successful.  See below for the keystroke meanings when using a keyboard.</p>
+<p>Note: In the gamepage test screen, just select ‘Skip’ to use the keyboard.</p>
 </div>
 <div class="section" id="not-recommended-gamepads">
 <h3>Not Recommended gamepads<a class="headerlink" href="#not-recommended-gamepads" title="Permalink to this headline">¶</a></h3>
@@ -267,6 +275,35 @@ This has been successful.</p>
 <p><strong>VR Box</strong>
 <a class="reference external" href="http://www.ebay.com.au/itm/Bluetooth-Self-timer-Remote-Controller-Gamepad-for-Android-IOS-VR-3D-White-SB/311834056448?ssPageName=STRK%3AMEBIDX%3AIT&amp;_trksid=p2060353.m2749.l2649">http://www.ebay.com.au/itm/Bluetooth-Self-timer-Remote-Controller-Gamepad-for-Android-IOS-VR-3D-White-SB/311834056448?ssPageName=STRK%3AMEBIDX%3AIT&amp;_trksid=p2060353.m2749.l2649</a></p>
 </div>
+</div>
+<hr class="docutils" />
+<div class="section" id="keyboard-commands">
+<h2>Keyboard Commands<a class="headerlink" href="#keyboard-commands" title="Permalink to this headline">¶</a></h2>
+<p>for use when <code class="docutils literal notranslate"><span class="pre">Keyboard</span></code> is selected as the gamepad type</p>
+<ul class="simple">
+<li><p>‘Up’ or ‘Page Up’ or ‘+’ or ‘=’ = Increase Speed</p></li>
+<li><p>‘Media Next’ = Increase Speed * 2</p></li>
+<li><p>‘Down’ or ‘Page Down’ or ‘-‘ = Decrease Speed</p></li>
+<li><p>‘Media Previous’ = Decrease Speed * 2</p></li>
+<li><p>‘Home’ or ‘X’ = Stop</p></li>
+<li><p>Left or ‘[‘ = Reverse (Forward if buttons swapped in preferences)</p></li>
+<li><p>Right or ‘]’ = Forward (Ahead) (Reverse if buttons swapped in preferences)</p></li>
+<li><p>‘D’ = Direction - Toggle Forward/Reverse</p></li>
+<li><p>‘N’ = Next Throttle</p></li>
+<li><p>‘End’ or ‘Z’ = All stop <br /></p></li>
+<li><p>F00 - F28 = Function <br />Must be ‘F’ followed by two digits <br /> or ‘F11’ followed by two ‘F’ button equivalents F10=0, F1-F9=1-9</p></li>
+<li><p>‘0’-‘9’ = Functions 0-9 <br />Without a preceding ‘F’, ‘S’ or ‘L’ <br />or ‘F10’ - ‘F9’  F10=0, F1-F9=1-9 <br /></p></li>
+<li><p>S000 - S100 = Speed <br />Must be ‘S’ followed by three digits <br /> or ‘F12’ followed by two ‘F’ button equivalents F10=0, F1-F9=1-9 <br /></p></li>
+<li><p>‘L’ = Limit Speed</p></li>
+<li><p>‘P’ = Pause Speed</p></li>
+<li><p>In Phone Loco Sounds (IPLS)
+* ‘B’ = Bell
+* ‘H’ = Horn / Whistle
+* Shift + ‘H’ = Short Horn
+* ‘M’ or ‘Volume Mute’ = Mute IPLS</p></li>
+<li><p>T0 - T5 = Specify a throttle for next command <br />Must be ‘T’ followed by one digit <br />or ‘Esc’ followed by two ‘F’ button equivalents F10=0, F1-F9=1-9 <br />The following command will sent to the specified throttle regardless of the currently selected gamepad throttle.</p></li>
+</ul>
+<p>All other keyCodes are ignored</p>
 </div>
 </div>
 
