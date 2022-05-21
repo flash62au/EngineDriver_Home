@@ -2,7 +2,7 @@
 Changes
 *******************************************
 
-Current production version chnages include:
+Current production version changes include:
 
 * 'In Device' loco sounds (first two throttles only). (Many thanks to Robert Posener for testing.)
 * Support longer text on Route buttons.
