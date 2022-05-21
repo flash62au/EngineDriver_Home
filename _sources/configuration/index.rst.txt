@@ -28,6 +28,7 @@ Addional Details
 .. toctree::
     :maxdepth: 1
 
+    setup_wizard
     preferences
     functions
     ipls
