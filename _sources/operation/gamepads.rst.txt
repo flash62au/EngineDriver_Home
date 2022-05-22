@@ -10,7 +10,7 @@ Gamepads
 Connecting your device
 ----------------------
 
-The following instructions work for the **mocute** devices. 
+The following instructions work for the **mocute** and **MagicSeeR1** gamepads. 
 Other devices require similar steps, but the mechanism to change the ``mode`` may be different. 
 
 * On the gamepad, the small button is Start/Power. Press for a couple seconds until LED comes on. 
@@ -18,14 +18,21 @@ Other devices require similar steps, but the mechanism to change the ``mode`` ma
 * Now click ``More Settings``. Within a few seconds a new device should appear in the ``Available devices`` section. (The name of the device may make it apparent that it is the gamepad, but it may just be a string of hexadecimal numbers.) 
 * Select the new device. Many devices will be paired at this point, but if it asks for a pairing code try ``0000`` or ``1234`` (check the instructions that came with the gamepad.) 
 * After pairing you should see an item in the Notifications regarding the gamepad. Click that item and make sure that “Show virtual keyboard” is ON. 
-* Configuring the gamepad for MTK mode 
-* Turn your gamepad OFF by holding the Start/Power button for about 5 seconds until the LED goes out and stays out. 
-* Move the slide switch on the side to the ``GAME`` position (towards the joystick). 
-* Hold down the button specified in your gamepad instructions for MTK mode. Typically this is the ``Y`` button. While still holding that button down, press the Start/Power button until the LED turns on. Release the buttons as soon as the LED turns on. 
+* Set the mode of the gamepad:
 
-This configuration procedure should only be required once. In the future your gamepad should be in MTK mode when you turn it on.   **(Not true of the MagicSeeR1)**
+  * For the **mocute** gamepads (MTK mode)
+  
+    * Turn your gamepad OFF by holding the Start/Power button for about 5 seconds until the LED goes out and stays out. 
+    * Move the slide switch on the side to the ``GAME`` position (towards the joystick). 
+    * Hold down the button specified in your gamepad instructions for MTK mode. Typically this is the ``Y`` button. While still holding that button down, press the Start/Power button until the LED turns on. Release the buttons as soon as the LED turns on. |br|\ |br|\ This configuration procedure should only be required once. In the future your gamepad should be in MTK mode when you turn it on. |br|\  *(This not true of the MagicSeeR1 which must be set every time you turn it on)* |br|\ |br|\
+  
+  * For the **MagicSeeR1** gamepads (Mode B)
+  
+    * Turn the device on by moving the slide switch on the side to the ``ON`` position
+    * Wait for the gamepad to connect to Android device (the LED will stop blinking)
+    * Hold down the ``Mode`` buton and press the ``B`` button. |br|\ |br|\ **This configuration procedure which must be done every time you turn it on**
 
-We have found that some gamepads work well in iCade mode as well. Feel free to experiment. To use iCade mode, follow the steps above but use the button your instructions specify for iCade (typically “X”). 
+We have found that some gamepads work well in **iCade** mode as well. Feel free to experiment. To use iCade mode, follow the steps above but use the button your instructions specify for iCade (typically “X”). 
 
 
 --------------------------------------
@@ -38,8 +45,8 @@ Running Engine Driver with the Gamepad
   * Start Engine Driver 
   * In the preferences select a gamepad type.
   * Select a loco as normal and return to the Throttle page. 
-  * In the Gamepad section of Engine Driver's Preferences, select a gamepad corresponding to the gamepad mode you configured on the device (above). We recommend ``MTK-rotate`` for MKT mode, and ``iCade+DPAD-rotate`` for iCade mode. 
-  * You can optionally change what the gamepad buttons do - see below. 
+  * In the Gamepad section of Engine Driver's Preferences, select a gamepad corresponding to the gamepad mode you configured on the device (above). |br|\ For the **mocute** gamepads we recommend ``MTK-rotate`` for MKT mode, and ``iCade+DPAD-rotate`` for iCade mode. |br|\ For the **MagixSeeR1** you must use ``MagicSeeR1 Mode B``.
+  * You can optionally change what the gamepad buttons do. (`See Gamepad Configuration <../configuration/gamepads.html>`_ for details.)
 
 * On the Throtttle Screen
 
@@ -56,13 +63,19 @@ Remapping gamepad buttons
 
 All the buttons of the gamepad that can be assessed by Engine Driver can be remapped to perform most of the features and functions of the Engine Driver Throttle Screen.
 
-TBA
+`See Gamepad Configuration <../configuration/gamepads.html>`_ for details.
 
 -----------------
 Multiple gamepads
 -----------------
 
-TBA
+Engine Driver supports up to 4 gamepads at the same time.  All the gamepads must be of the same type.
+
+As you connect each gamepad, you will be force to go to the gamepad test screen.  THe new gamepad will be automatically assigned to the next throttle that does not have a gamepad assigned to it.
+
+An indicator ``1``, ``2`` etc. will show near the throttle speed to indicate which throttle each gamepad is controlling.
+
+----
 
 -----------------
 Sample gamepads 
@@ -87,20 +100,24 @@ Their quality is not brilliant which is reflected in the price, so don't expect 
 .. image:: ../_static/images/gamepads/bt_controller2.jpg
    :scale: 50 %
 
-This has been successful, but you need to re-select the mode every time you switch it on.  
+This has been successful, **but you need to re-select 'mode B' every time you switch it on.**  
 These seem to be slightly better quality than the one above, but are more expensive.
 
 **Flydigi Wee 2**
+
 This has been successful.
 
 **Utopia 360**
+
 This has been successful with the 'Android C' mode.
 
 **DIY Arduino ESP32 + keypad + Rotary Encoder**
+
 This has been successful with the 'Android C' mode.
 See https://github.com/flash62au/WiTcontroller for details
 
 **Normal Keyboard**
+
 This has been successful.  See below for the keystroke meanings when using a keyboard.
 
 Note: In the gamepage test screen, just select 'Skip' to use the keyboard.
@@ -109,6 +126,7 @@ Note: In the gamepage test screen, just select 'Skip' to use the keyboard.
 ^^^^^^^^^^^^^^^^^^^^^^^^
 Not Recommended gamepads
 ^^^^^^^^^^^^^^^^^^^^^^^^
+
 These work, but have issues which make them not recommended. 
 
 TBA
@@ -126,7 +144,7 @@ http://www.ebay.com.au/itm/Bluetooth-Self-timer-Remote-Controller-Gamepad-for-An
 Keyboard Commands
 -----------------
 
-for use when ``Keyboard`` is selected as the gamepad type
+For use when ``Keyboard`` is selected as the gamepad type
 
 * 'Up' or 'Page Up' or '+' or '=' = Increase Speed
 * 'Media Next' = Increase Speed * 2

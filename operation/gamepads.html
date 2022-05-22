@@ -192,7 +192,7 @@
 <h1>Gamepads<a class="headerlink" href="#gamepads" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="connecting-your-device">
 <h2>Connecting your device<a class="headerlink" href="#connecting-your-device" title="Permalink to this headline">¶</a></h2>
-<p>The following instructions work for the <strong>mocute</strong> devices.
+<p>The following instructions work for the <strong>mocute</strong> and <strong>MagicSeeR1</strong> gamepads.
 Other devices require similar steps, but the mechanism to change the <code class="docutils literal notranslate"><span class="pre">mode</span></code> may be different.</p>
 <ul class="simple">
 <li><p>On the gamepad, the small button is Start/Power. Press for a couple seconds until LED comes on.</p></li>
@@ -200,13 +200,26 @@ Other devices require similar steps, but the mechanism to change the <code class
 <li><p>Now click <code class="docutils literal notranslate"><span class="pre">More</span> <span class="pre">Settings</span></code>. Within a few seconds a new device should appear in the <code class="docutils literal notranslate"><span class="pre">Available</span> <span class="pre">devices</span></code> section. (The name of the device may make it apparent that it is the gamepad, but it may just be a string of hexadecimal numbers.)</p></li>
 <li><p>Select the new device. Many devices will be paired at this point, but if it asks for a pairing code try <code class="docutils literal notranslate"><span class="pre">0000</span></code> or <code class="docutils literal notranslate"><span class="pre">1234</span></code> (check the instructions that came with the gamepad.)</p></li>
 <li><p>After pairing you should see an item in the Notifications regarding the gamepad. Click that item and make sure that “Show virtual keyboard” is ON.</p></li>
-<li><p>Configuring the gamepad for MTK mode</p></li>
+<li><p>Set the mode of the gamepad:</p>
+<ul>
+<li><p>For the <strong>mocute</strong> gamepads (MTK mode)</p>
+<ul>
 <li><p>Turn your gamepad OFF by holding the Start/Power button for about 5 seconds until the LED goes out and stays out.</p></li>
 <li><p>Move the slide switch on the side to the <code class="docutils literal notranslate"><span class="pre">GAME</span></code> position (towards the joystick).</p></li>
-<li><p>Hold down the button specified in your gamepad instructions for MTK mode. Typically this is the <code class="docutils literal notranslate"><span class="pre">Y</span></code> button. While still holding that button down, press the Start/Power button until the LED turns on. Release the buttons as soon as the LED turns on.</p></li>
+<li><p>Hold down the button specified in your gamepad instructions for MTK mode. Typically this is the <code class="docutils literal notranslate"><span class="pre">Y</span></code> button. While still holding that button down, press the Start/Power button until the LED turns on. Release the buttons as soon as the LED turns on. <br /><br />This configuration procedure should only be required once. In the future your gamepad should be in MTK mode when you turn it on. <br /> <em>(This not true of the MagicSeeR1 which must be set every time you turn it on)</em> <br /><br /></p></li>
 </ul>
-<p>This configuration procedure should only be required once. In the future your gamepad should be in MTK mode when you turn it on.   <strong>(Not true of the MagicSeeR1)</strong></p>
-<p>We have found that some gamepads work well in iCade mode as well. Feel free to experiment. To use iCade mode, follow the steps above but use the button your instructions specify for iCade (typically “X”).</p>
+</li>
+<li><p>For the <strong>MagicSeeR1</strong> gamepads (Mode B)</p>
+<ul>
+<li><p>Turn the device on by moving the slide switch on the side to the <code class="docutils literal notranslate"><span class="pre">ON</span></code> position</p></li>
+<li><p>Wait for the gamepad to connect to Android device (the LED will stop blinking)</p></li>
+<li><p>Hold down the <code class="docutils literal notranslate"><span class="pre">Mode</span></code> buton and press the <code class="docutils literal notranslate"><span class="pre">B</span></code> button. <br /><br /><strong>This configuration procedure which must be done every time you turn it on</strong></p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>We have found that some gamepads work well in <strong>iCade</strong> mode as well. Feel free to experiment. To use iCade mode, follow the steps above but use the button your instructions specify for iCade (typically “X”).</p>
 </div>
 <div class="section" id="running-engine-driver-with-the-gamepad">
 <h2>Running Engine Driver with the Gamepad<a class="headerlink" href="#running-engine-driver-with-the-gamepad" title="Permalink to this headline">¶</a></h2>
@@ -217,8 +230,8 @@ Other devices require similar steps, but the mechanism to change the <code class
 <li><p>Start Engine Driver</p></li>
 <li><p>In the preferences select a gamepad type.</p></li>
 <li><p>Select a loco as normal and return to the Throttle page.</p></li>
-<li><p>In the Gamepad section of Engine Driver’s Preferences, select a gamepad corresponding to the gamepad mode you configured on the device (above). We recommend <code class="docutils literal notranslate"><span class="pre">MTK-rotate</span></code> for MKT mode, and <code class="docutils literal notranslate"><span class="pre">iCade+DPAD-rotate</span></code> for iCade mode.</p></li>
-<li><p>You can optionally change what the gamepad buttons do - see below.</p></li>
+<li><p>In the Gamepad section of Engine Driver’s Preferences, select a gamepad corresponding to the gamepad mode you configured on the device (above). <br />For the <strong>mocute</strong> gamepads we recommend <code class="docutils literal notranslate"><span class="pre">MTK-rotate</span></code> for MKT mode, and <code class="docutils literal notranslate"><span class="pre">iCade+DPAD-rotate</span></code> for iCade mode. <br />For the <strong>MagixSeeR1</strong> you must use <code class="docutils literal notranslate"><span class="pre">MagicSeeR1</span> <span class="pre">Mode</span> <span class="pre">B</span></code>.</p></li>
+<li><p>You can optionally change what the gamepad buttons do. (<a class="reference external" href="../configuration/gamepads.html">See Gamepad Configuration</a> for details.)</p></li>
 </ul>
 </li>
 <li><p>On the Throtttle Screen</p>
@@ -236,12 +249,15 @@ Other devices require similar steps, but the mechanism to change the <code class
 <div class="section" id="remapping-gamepad-buttons">
 <h2>Remapping gamepad buttons<a class="headerlink" href="#remapping-gamepad-buttons" title="Permalink to this headline">¶</a></h2>
 <p>All the buttons of the gamepad that can be assessed by Engine Driver can be remapped to perform most of the features and functions of the Engine Driver Throttle Screen.</p>
-<p>TBA</p>
+<p><a class="reference external" href="../configuration/gamepads.html">See Gamepad Configuration</a> for details.</p>
 </div>
 <div class="section" id="multiple-gamepads">
 <h2>Multiple gamepads<a class="headerlink" href="#multiple-gamepads" title="Permalink to this headline">¶</a></h2>
-<p>TBA</p>
+<p>Engine Driver supports up to 4 gamepads at the same time.  All the gamepads must be of the same type.</p>
+<p>As you connect each gamepad, you will be force to go to the gamepad test screen.  THe new gamepad will be automatically assigned to the next throttle that does not have a gamepad assigned to it.</p>
+<p>An indicator <code class="docutils literal notranslate"><span class="pre">1</span></code>, <code class="docutils literal notranslate"><span class="pre">2</span></code> etc. will show near the throttle speed to indicate which throttle each gamepad is controlling.</p>
 </div>
+<hr class="docutils" />
 <div class="section" id="sample-gamepads">
 <h2>Sample gamepads<a class="headerlink" href="#sample-gamepads" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="tested-gamepads">
@@ -253,17 +269,17 @@ Other devices require similar steps, but the mechanism to change the <code class
 Their quality is not brilliant which is reflected in the price, so don’t expect a long life from them.</p>
 <p><strong>MagicSeeR1</strong></p>
 <a class="reference internal image-reference" href="../_images/bt_controller2.jpg"><img alt="../_images/bt_controller2.jpg" src="../_images/bt_controller2.jpg" style="width: 273.5px; height: 254.5px;" /></a>
-<p>This has been successful, but you need to re-select the mode every time you switch it on.
+<p>This has been successful, <strong>but you need to re-select ‘mode B’ every time you switch it on.</strong>
 These seem to be slightly better quality than the one above, but are more expensive.</p>
-<p><strong>Flydigi Wee 2</strong>
-This has been successful.</p>
-<p><strong>Utopia 360</strong>
-This has been successful with the ‘Android C’ mode.</p>
-<p><strong>DIY Arduino ESP32 + keypad + Rotary Encoder</strong>
-This has been successful with the ‘Android C’ mode.
+<p><strong>Flydigi Wee 2</strong></p>
+<p>This has been successful.</p>
+<p><strong>Utopia 360</strong></p>
+<p>This has been successful with the ‘Android C’ mode.</p>
+<p><strong>DIY Arduino ESP32 + keypad + Rotary Encoder</strong></p>
+<p>This has been successful with the ‘Android C’ mode.
 See <a class="reference external" href="https://github.com/flash62au/WiTcontroller">https://github.com/flash62au/WiTcontroller</a> for details</p>
-<p><strong>Normal Keyboard</strong>
-This has been successful.  See below for the keystroke meanings when using a keyboard.</p>
+<p><strong>Normal Keyboard</strong></p>
+<p>This has been successful.  See below for the keystroke meanings when using a keyboard.</p>
 <p>Note: In the gamepage test screen, just select ‘Skip’ to use the keyboard.</p>
 </div>
 <div class="section" id="not-recommended-gamepads">
@@ -280,7 +296,7 @@ This has been successful.  See below for the keystroke meanings when using a key
 <hr class="docutils" />
 <div class="section" id="keyboard-commands">
 <h2>Keyboard Commands<a class="headerlink" href="#keyboard-commands" title="Permalink to this headline">¶</a></h2>
-<p>for use when <code class="docutils literal notranslate"><span class="pre">Keyboard</span></code> is selected as the gamepad type</p>
+<p>For use when <code class="docutils literal notranslate"><span class="pre">Keyboard</span></code> is selected as the gamepad type</p>
 <ul class="simple">
 <li><p>‘Up’ or ‘Page Up’ or ‘+’ or ‘=’ = Increase Speed</p></li>
 <li><p>‘Media Next’ = Increase Speed * 2</p></li>

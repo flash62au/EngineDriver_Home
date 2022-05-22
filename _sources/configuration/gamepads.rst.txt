@@ -1,5 +1,53 @@
 *******************************************
 Gamepads
 *******************************************
+.. |br| raw:: html
 
-TBA
+   <br />
+
+All the buttons plus the four directions of te DPad can be set to any of the following actions
+
+* All Stop |br|\ stops all locos controled by the device only.
+* Stop
+* Forward
+* Reverse
+* Forward/Reverse Toggle
+* Increase Speed
+* Decrease Speed
+* Limit Speed
+* Pause
+* Next Throttle
+* Function 00/Light
+* Function 01/Bell |br|\ Note that this only sends the function to the loco/consist, and will not play the IPLS Bell, *unless the specific preference is set to do so.*
+* Function 02/Horn |br|\ Note that this only sends the function to the loco/consist, and will not play the IPLS Horn, *unless the specific preference is set to do so.*
+* Function 03
+* Function 04
+* Function 05
+* Function 06
+* Function 07
+* Function 08
+* Function 09
+* Function 10
+* Function 11
+* Function 12
+* Function 13
+* Function 14
+* Function 15
+* Function 16
+* Function 17
+* Function 18
+* Function 19
+* Function 20
+* Function 21
+* Function 22
+* Function 23
+* Function 24
+* Function 25
+* Function 26
+* Function 27
+* Function 28
+* Mute (IPLS) |br|\ 'In Phone Loco sounds' must be enabled for the current thottle
+* Bell (IPLS) |br|\ 'In Phone Loco sounds' must be enabled for the current thottle
+* Horn (IPLS) |br|\ 'In Phone Loco sounds' must be enabled for the current thottle
+* Horn Short (IPLS) |br|\ 'In Phone Loco sounds' must be enabled for the current thottle
+* Speak Current Speed |br|\ 'Text to Speach (TTS)' must be enabled for this to work
