@@ -39,22 +39,30 @@ We have found that some gamepads work well in **iCade** mode as well. Feel free 
 Running Engine Driver with the Gamepad
 --------------------------------------
 
-* In Engine Driver, 
+* Set up the gamepad and connect to the Android device (see above)
+* Start Engine Driver
+* Connect to a wiThrottle server 
+* Select a loco as normal and return to the Throttle page. 
+* In the Engine Driver preferences
  
-  * Set up the device (see above)
-  * Start Engine Driver 
-  * In the preferences select a gamepad type.
-  * Select a loco as normal and return to the Throttle page. 
-  * In the Gamepad section of Engine Driver's Preferences, select a gamepad corresponding to the gamepad mode you configured on the device (above). |br|\ For the **mocute** gamepads we recommend ``MTK-rotate`` for MKT mode, and ``iCade+DPAD-rotate`` for iCade mode. |br|\ For the **MagixSeeR1** you must use ``MagicSeeR1 Mode B``.
+  * Select a gamepad type. |br|\ In the Gamepad section of Engine Driver's Preferences, select a gamepad corresponding to the gamepad mode you configured on the device (above).
+
+    * For the **mocute** gamepads we recommend ``MTK-rotate`` for MKT mode, and ``iCade+DPAD-rotate`` for iCade mode. 
+    * For the **MagicSeeR1** you must use ``MagicSeeR1 Mode B``.
+
   * You can optionally change what the gamepad buttons do. (`See Gamepad Configuration <../configuration/gamepads.html>`_ for details.)
 
 * On the Throtttle Screen
 
   * When you press any of the buttons on the gamepad for the first time, a test page will appear.  Press all four DPad buttons in turn and the Four main buttons to pass the test, and return to the throttle page.
+
+    * Pressing ``Skip`` will complete the test and allow you to use the gamepad, even if it is not functionn correctly.  (i.e. The mode is incorrect)
+    * Pressing ``Reset`` will reset all the gamepads you have connected, and will force you back to the test screen when attempt to use them again.
+
   * By default, The DPAD (joystick) on the gamepad will control throttle up, down and direction. 
   * By default, The four individual Buttons on the gamepad will control functions F0, F1, F2 and STOP for the selected throttle. 
-  * If you have engines assigned to more than one Engine Driver throttle, by default a short press of the Start Button will move the gamepad to the next assigned throttle. If you have changed the Preferences for the Start Button Action to ESTOP, then a short press will set the speed for all your Engine Driver throttles to zero. 
-  * If the Select Button is present on your gamepad, by default, pressing it will move the gamepad to the next assigned throttle.
+  * If you have engines assigned to more than one Engine Driver throttle, by default a short press of the ``Start`` Button will move the gamepad to the next assigned throttle. If you have changed the Preferences for the ``Start`` Button Action to ``ESTOP``, then a short press will set the speed for all your Engine Driver throttles to zero. 
+  * If the ``Select`` Button is present on your gamepad, by default, pressing it will move the gamepad to the next assigned throttle.
   * Engine Driver's on-screen buttons continue to function as before. Use them to add or drop locos, and to access any additional function buttons. 
 
 -------------------------
