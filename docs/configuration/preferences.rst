@@ -6,7 +6,10 @@ TBA
 
 
 * Show Advanced Preferences?
-* Device Preferences
+
+------------------
+Device Preferences
+------------------
 
   * Throttle Name
   * Screen orientation
@@ -19,7 +22,9 @@ TBA
     * Swipe Through Turnouts?
     * Swipe through Routes?
    
-* Throttle Screen Appearance Preferences
+--------------------------------------
+Throttle Screen Appearance Preferences
+--------------------------------------
 
   * Throttle Screen Layout
   * Number of throttles 
@@ -84,7 +89,9 @@ TBA
     * Background Image File Name
     * Background Image Position
 
-* Throttle Screen Action Bar Preferences
+--------------------------------------
+Throttle Screen Action Bar Preferences
+--------------------------------------
 
   * Emergency Stop button?
   * Layout Power button?
@@ -119,7 +126,9 @@ TBA
     * 'Pause' button Rate
     * 'Pause' button Step
 
-* Consist Function Follow Preferences
+-----------------------------------
+Consist Function Follow Preferences
+-----------------------------------
 
   * Consist Functions - Follow Rule Style
   * Selective Lead Unit Sound?
@@ -137,7 +146,9 @@ TBA
   * String 5
   * Action for String 5
 
-* Additional Throttle Control Source Preferences
+----------------------------------------------
+Additional Throttle Control Source Preferences
+----------------------------------------------
 
   * Volume Button Preferences
  
@@ -198,7 +209,9 @@ TBA
     * On Gamepad Test complete
     * On Gamepad Test key press
 
-* Select Loco Preferences
+-----------------------
+Select Loco Preferences
+-----------------------
 
   * Stop on Release?
   * Drop Loco before acquire?
@@ -210,7 +223,9 @@ TBA
   * Control consist Lights on long click
   * Filter Roster
 
-* In Phone Loco Sounds
+--------------------
+In Phone Loco Sounds
+--------------------
 
   * Throttle 1 Loco Sounds
   * Throttle 2 Loco Sounds
@@ -226,7 +241,9 @@ TBA
       * Bell button Latching/Momentary
       * F1 and F2 activate Bell and Horn?
    
-* Connect Preferences
+-------------------
+Connect Preferences
+-------------------
 
   * Maximum Recent Connections
   * Auto-Connect to WiThrottle Server?
@@ -237,18 +254,24 @@ TBA
   * Feedback on Disconnect
   * Background Alert
 
-* Web Screen Preferences
+----------------------
+Web Screen Preferences
+----------------------
 
   * Web Screen Orientation
   * Initial Web Screen Page
 
-* Turnouts and Routes Preferences
+-------------------------------
+Turnouts and Routes Preferences
+-------------------------------
 
   * Hide Sys Route Names?
   * Location Delimiter
   * Hide if no user name?
 
-* Children's (Timer) Preferences
+------------------------------
+Children's (Timer) Preferences
+------------------------------
 
   * Time limited running
   * Restart Password
@@ -258,7 +281,9 @@ TBA
   * Default time for Button
   * Notes for the Timer:
 
-* Import/Export/Reset &Log Preferences
+------------------------------------
+Import/Export/Reset &Log Preferences
+------------------------------------
 
   * Import, Export or Reset
   * Import from current Server (manually)
