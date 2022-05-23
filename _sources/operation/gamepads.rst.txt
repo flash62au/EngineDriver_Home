@@ -48,7 +48,7 @@ Running Engine Driver with the Gamepad
   * Select a gamepad type. |br|\ In the Gamepad section of Engine Driver's Preferences, select a gamepad corresponding to the gamepad mode you configured on the device (above).
 
     * For the **mocute** gamepads we recommend ``MTK-rotate`` for MKT mode, and ``iCade+DPAD-rotate`` for iCade mode. 
-    * For the **MagicSeeR1** you must use ``MagicSeeR1 Mode B``.
+    * For the **MagicSeeR1** you must use ``MagicSeeR1 Android-Game B``.
 
   * You can optionally change what the gamepad buttons do. (`See Gamepad Configuration <../configuration/gamepads.html>`_ for details.)
 
@@ -56,7 +56,7 @@ Running Engine Driver with the Gamepad
 
   * When you press any of the buttons on the gamepad for the first time, a test page will appear.  Press all four DPad buttons in turn and the Four main buttons to pass the test, and return to the throttle page.
 
-    * Pressing ``Skip`` will complete the test and allow you to use the gamepad, even if it is not functionn correctly.  (i.e. The mode is incorrect)
+    * Pressing ``Skip`` will complete the test and allow you to use the gamepad, even if it is not functioning correctly.  (e.g. The mode is incorrect)
     * Pressing ``Reset`` will reset all the gamepads you have connected, and will force you back to the test screen when attempt to use them again.
 
   * By default, The DPAD (joystick) on the gamepad will control throttle up, down and direction. 
@@ -69,7 +69,7 @@ Running Engine Driver with the Gamepad
 Remapping gamepad buttons
 -------------------------
 
-All the buttons of the gamepad that can be assessed by Engine Driver can be remapped to perform most of the features and functions of the Engine Driver Throttle Screen.
+All the buttons of the gamepad that can be accessed by Engine Driver can be remapped to perform most of the features and functions of the Engine Driver Throttle Screen.
 
 `See Gamepad Configuration <../configuration/gamepads.html>`_ for details.
 
