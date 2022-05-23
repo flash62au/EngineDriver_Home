@@ -10,9 +10,9 @@ Gamepads
 
    <br />
 
-All the buttons plus the four directions of te DPad can be set to any of the following actions
+All the buttons plus the four directions of the DPad can be set to any of the following actions:
 
-* All Stop |br|\ stops all locos controled by the device only.
+* All Stop |br|\ Stops all locos controled by the device only.
 * Stop
 * Forward
 * Reverse
@@ -23,8 +23,8 @@ All the buttons plus the four directions of te DPad can be set to any of the fol
 * Pause
 * Next Throttle
 * Function 00/Light
-* Function 01/Bell |br|\ Note that this only sends the function to the loco/consist, and will not play the IPLS Bell, *unless the specific preference is set to do so.*
-* Function 02/Horn |br|\ Note that this only sends the function to the loco/consist, and will not play the IPLS Horn, *unless the specific preference is set to do so.*
+* Function 01/Bell |br|\ Note that this only sends the function to the loco/consist, and will not play the IPLS Bell, unless the ``F1 and F2 activate Bell and Horn?`` preference is set to do so.
+* Function 02/Horn |br|\ Note that this only sends the function to the loco/consist, and will not play the IPLS Horn, unless the ``F1 and F2 activate Bell and Horn?`` preference is set to do so.
 * Function 03
 * Function 04
 * Function 05
@@ -51,8 +51,8 @@ All the buttons plus the four directions of te DPad can be set to any of the fol
 * Function 26
 * Function 27
 * Function 28
-* Mute (IPLS) |br|\ 'In Phone Loco sounds' must be enabled for the current thottle
-* Bell (IPLS) |br|\ 'In Phone Loco sounds' must be enabled for the current thottle
-* Horn (IPLS) |br|\ 'In Phone Loco sounds' must be enabled for the current thottle
-* Horn Short (IPLS) |br|\ 'In Phone Loco sounds' must be enabled for the current thottle
-* Speak Current Speed |br|\ 'Text to Speach (TTS)' must be enabled for this to work
+* Mute (IPLS) |br|\ 'In Phone Loco sounds' must be enabled for the current thottle ``Throttle 1 Loco Sounds`` or ``Throttle 2 Loco Sounds``
+* Bell (IPLS) |br|\ 'In Phone Loco sounds' must be enabled for the current thottle ``Throttle 1 Loco Sounds`` or ``Throttle 2 Loco Sounds``
+* Horn (IPLS) |br|\ 'In Phone Loco sounds' must be enabled for the current thottle ``Throttle 1 Loco Sounds`` or ``Throttle 2 Loco Sounds``
+* Horn Short (IPLS) |br|\ 'In Phone Loco sounds' must be enabled for the current thottle ``Throttle 1 Loco Sounds`` or ``Throttle 2 Loco Sounds``
+* Speak Current Speed |br|\ 'Text to Speach (TTS)' ``Voice Response`` preference must be enabled for this to work

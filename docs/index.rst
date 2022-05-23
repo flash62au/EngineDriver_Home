@@ -2,7 +2,15 @@
 JMRI Engine Driver Throttle
 *******************************************
 
+.. meta::
+   :description: JMRI Engine Driver Throttle
+   :keywords: Engine Driver EngineDriver JMRI manual help
+
 This free Android application connects to a WiThrottle Server to control model trains. 
+
+.. image:: ./_static/images/screenshots/throttle_vertical_outline.png
+   :scale: 12 %
+   :align: right
 
 Supported servers include JMRI, DCC-EX, MRC Prodigy WiFi, Digitrax LnWi, and WifiTrax (for NCE). 
 Once connected, you can control your locomotives and your entire model railroad. 

@@ -10,9 +10,17 @@ Contributing
 
    <br />
 
+.. contents::
+
 ----
-Code
-----
+
+------------------------
+Contributing to the Code
+------------------------
+
+Engine Driver is open source software written in Java. The source code is available on `github.com/JMRI/EngineDriver <https://github.com/JMRI/EngineDriver>`_.
+
+It is recommended that you contact M Steve Todd if you intend to contribute to the code base, before you start working on Engine Driver.
 
 On the Android device you intend to test on
 
@@ -46,10 +54,13 @@ To publish your changes:
 * Android Studio, commit and push you changes to *your own* github repository.. |br|\ To do this you will need to define a new remote ``https://github.com/<your name>/EngineDriver``
 * Go to GitHub and issue a pull request for your branch to be pulled into the original repository. Once it's merged in by one of the admins, your changes will go live!
 
+----
 
--------------
-Documentation
--------------
+---------------------------------
+Contributing to the Documentation
+---------------------------------
+
+This documentation is open source and can be accessed on `github.com/flash62au/EngineDriver_Home <https://github.com/flash62au/EngineDriver_Home>`_
 
 All documentation is done using **reStructuredText**, for which you can find information on the official website: `reStructuredText <https://docutils.sourceforge.io/rst.html>`_
 or the `Sphinx <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html>`_ document builder tool website.
