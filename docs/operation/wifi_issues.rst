@@ -2,6 +2,23 @@
 WiFi Issues
 *******************************************
 
+-------------
+Wrong Network
+-------------
+
+TBA
+
+---------
+Firewalls
+---------
+
+TBA
+
+
+---------------------------------
+Using Mobile Data instead of WiFi
+---------------------------------
+
 *UPDATE: as of EngineDriver 2.26.115, EngineDriver now handles this situation by "forcing" the local wifi connection. 
 There is an "Allow Mobile Data Connection" preference that can be enabled if needed.*
 
