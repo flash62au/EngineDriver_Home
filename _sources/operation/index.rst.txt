@@ -10,6 +10,10 @@ Operation
 
    <br />
 
+-------------------------------
+Quick Start / Basic Information
+-------------------------------
+
 * On your Android device, make sure you are connected to same network as the WiThrottle server's network.
 * Start the Engine Driver app 
 
@@ -33,6 +37,63 @@ Operation
 * You can also "fling" left or right to jump quickly back and forth between the Throttle, Routes, Turnouts and Web pages (use Preferences to choose)
 
 ----
+
+--------------------
+Detailed Information 
+--------------------
+
+^^^^^^^^^^^^^^^^
+Locomotive Icons
+^^^^^^^^^^^^^^^^
+
+The Roster List, and Recent Locos List on the Select Loco screen will show icons fo you locos if:
+
+* The **Web Server** (not just the wiThrottle server) is running on the JMRI server
+* The loco itself has an icon added for it in the JMRI roster
+
+
+**For wiThrottle servers that do support a roster but don't support Locomotive Icons**
+
+There are three ways to load & store your Engine Icon Image in Engine Driver 2.32.142 and above.
+
+1. Automatically from your existing JMRI Roster & Media 
+  
+  * Start JMRI and capture and load your images into JMRI Roster & Media panel as normal
+  * Start the WiThrottle server.
+  * Start the Web Server.
+  * Connect Engine Driver to JMRI WiThrottle Server Discovered Server 'My JMRI Railroad' or type in the IP address : Port# 
+  * Touch [Select] and load Locos then [Release] and repeat until you've loaded All the locos with Images into a throttle. 
+ 
+Requirements for this to work:
+
+* have identical names (from JMRI Roster ID to DCC++EX EXRAIL Roster ID)  example ID;    "PE 1225"
+* have image icons displayed
+
+These Image Icons will automatically be saved on the Android smartphone in a new 'recent_engine_list' folder for you.
+
+2. Manually entered directly into your Android Engine Driver folder
+  
+  * Capture then rename the image exactly like the Roster ID name in JMRI & EXRAIL and save as a .JPG file, then  place the engine Image into your Android smartphone in the |br|\ 'My Files/Android/data/jmri.enginedriver/files/recent_engine_list' folder |br|\ example image name;  PE 1225.jpg
+
+3. Select an image on the phone/device (which can be taken on the phones camera)
+
+ * In the Roster List on the Select Loco screen
+
+   * Long press on the loco
+   * press the ``New Image`` button, which will lauch the Android system's default app for choosing images 
+   * find and select an image
+   * click ``Save`` |br|\ |br|\ You can replace an image with the ``New Image`` button or remove it with the ``Remove`` button
+
+Notes:
+
+* If the loco already has an image in the JMRI Roster, you won't be able to choose a local image
+* If you later add an image in the JMRI Roster for the loco, it will automatically overwrite the local image
+
+
+---------------------
+Additional Infomation
+---------------------
+
 
 .. toctree::
     :maxdepth: 1

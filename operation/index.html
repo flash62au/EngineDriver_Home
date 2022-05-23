@@ -192,6 +192,8 @@
             
   <div class="section" id="operation">
 <h1>Operation<a class="headerlink" href="#operation" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="quick-start-basic-information">
+<h2>Quick Start / Basic Information<a class="headerlink" href="#quick-start-basic-information" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li><p>On your Android device, make sure you are connected to same network as the WiThrottle server’s network.</p></li>
 <li><p>Start the Engine Driver app</p>
@@ -215,13 +217,76 @@
 <li><p>Press your phone’s Menu button to access screens for Turnout, Route and Power control, as well as adjust settings and set numerous preferences.</p></li>
 <li><p>You can also “fling” left or right to jump quickly back and forth between the Throttle, Routes, Turnouts and Web pages (use Preferences to choose)</p></li>
 </ul>
+</div>
 <hr class="docutils" />
+<div class="section" id="detailed-information">
+<h2>Detailed Information<a class="headerlink" href="#detailed-information" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="locomotive-icons">
+<h3>Locomotive Icons<a class="headerlink" href="#locomotive-icons" title="Permalink to this headline">¶</a></h3>
+<p>The Roster List, and Recent Locos List on the Select Loco screen will show icons fo you locos if:</p>
+<ul class="simple">
+<li><p>The <strong>Web Server</strong> (not just the wiThrottle server) is running on the JMRI server</p></li>
+<li><p>The loco itself has an icon added for it in the JMRI roster</p></li>
+</ul>
+<p><strong>For wiThrottle servers that do support a roster but don’t support Locomotive Icons</strong></p>
+<p>There are three ways to load &amp; store your Engine Icon Image in Engine Driver 2.32.142 and above.</p>
+<ol class="arabic simple">
+<li><p>Automatically from your existing JMRI Roster &amp; Media</p></li>
+</ol>
+<blockquote>
+<div><ul class="simple">
+<li><p>Start JMRI and capture and load your images into JMRI Roster &amp; Media panel as normal</p></li>
+<li><p>Start the WiThrottle server.</p></li>
+<li><p>Start the Web Server.</p></li>
+<li><p>Connect Engine Driver to JMRI WiThrottle Server Discovered Server ‘My JMRI Railroad’ or type in the IP address : Port#</p></li>
+<li><p>Touch [Select] and load Locos then [Release] and repeat until you’ve loaded All the locos with Images into a throttle.</p></li>
+</ul>
+</div></blockquote>
+<p>Requirements for this to work:</p>
+<ul class="simple">
+<li><p>have identical names (from JMRI Roster ID to DCC++EX EXRAIL Roster ID)  example ID;    “PE 1225”</p></li>
+<li><p>have image icons displayed</p></li>
+</ul>
+<p>These Image Icons will automatically be saved on the Android smartphone in a new ‘recent_engine_list’ folder for you.</p>
+<ol class="arabic simple" start="2">
+<li><p>Manually entered directly into your Android Engine Driver folder</p></li>
+</ol>
+<blockquote>
+<div><ul class="simple">
+<li><p>Capture then rename the image exactly like the Roster ID name in JMRI &amp; EXRAIL and save as a .JPG file, then  place the engine Image into your Android smartphone in the <br />‘My Files/Android/data/jmri.enginedriver/files/recent_engine_list’ folder <br />example image name;  PE 1225.jpg</p></li>
+</ul>
+</div></blockquote>
+<ol class="arabic simple" start="3">
+<li><p>Select an image on the phone/device (which can be taken on the phones camera)</p></li>
+</ol>
+<blockquote>
+<div><ul class="simple">
+<li><p>In the Roster List on the Select Loco screen</p>
+<ul>
+<li><p>Long press on the loco</p></li>
+<li><p>press the <code class="docutils literal notranslate"><span class="pre">New</span> <span class="pre">Image</span></code> button, which will lauch the Android system’s default app for choosing images</p></li>
+<li><p>find and select an image</p></li>
+<li><p>click <code class="docutils literal notranslate"><span class="pre">Save</span></code> <br /><br />You can replace an image with the <code class="docutils literal notranslate"><span class="pre">New</span> <span class="pre">Image</span></code> button or remove it with the <code class="docutils literal notranslate"><span class="pre">Remove</span></code> button</p></li>
+</ul>
+</li>
+</ul>
+</div></blockquote>
+<p>Notes:</p>
+<ul class="simple">
+<li><p>If the loco already has an image in the JMRI Roster, you won’t be able to choose a local image</p></li>
+<li><p>If you later add an image in the JMRI Roster for the loco, it will automatically overwrite the local image</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="additional-infomation">
+<h2>Additional Infomation<a class="headerlink" href="#additional-infomation" title="Permalink to this headline">¶</a></h2>
 <div class="toctree-wrapper compound">
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="wifi_issues.html">WiFi Issues</a></li>
 <li class="toctree-l1"><a class="reference internal" href="gamepads.html">Gamepads</a></li>
 <li class="toctree-l1"><a class="reference internal" href="faq.html">Frequently Asked Questions</a></li>
 </ul>
+</div>
 </div>
 </div>
 
