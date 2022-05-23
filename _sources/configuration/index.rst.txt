@@ -6,6 +6,12 @@ Configuration
    :description: JMRI Engine Driver Throttle
    :keywords: Engine Driver EngineDriver JMRI manual help configuration preferences
 
+.. contents::
+
+-------------
+Engine Driver
+-------------
+
 Engine Driver is highly configurable.
 
 Most configuration options are found in the ``Preferences`` which is accessed via the overflow menu which is normally three dots (⁞) or three bars (≡).
@@ -20,6 +26,8 @@ Some of the many Preferences include:
 
 Look around in Preferences, there are a huge number of settings to personalize EngineDriver, including many more if you enable "Show Advanced Preferences".
 
+The full list of preferences can be found [`here <./preferences.html>`_]
+
 The **Functions buttons** are changed via the ``Function Buttons`` menu option
 
 Some of the Function button preferences include:
@@ -28,7 +36,7 @@ Some of the Function button preferences include:
 * If you have entered labels for a roster entry in JMRI, these labels will be used for that entry, and can be copied from the dialog (access the menu after selecting a loco). 
 * You can remove buttons by blanking out the labels.
 
-The full list of preferences can be found [`here <./preferences.html>`_]
+----
 
 -------------------------------------
 On the wiThrottle server side (JMRI)
