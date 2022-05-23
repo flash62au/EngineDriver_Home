@@ -2,6 +2,10 @@
 Operation
 *******************************************
 
+.. meta::
+   :description: JMRI Engine Driver Throttle
+   :keywords: Engine Driver EngineDriver JMRI manual help operation
+
 .. |br| raw:: html
 
    <br />
@@ -13,7 +17,7 @@ Operation
 
 * Click on the discovered address, 
 
-  * If the server never appears in the discovered list, type in the IP address and Port of the WiThrottle server (Using the values shown on the JMRI WiThrottle window) and press ``Connect``. ||br|\ Note: this is somtimes possible even if you are on the same network. |br|\ |br|\ NOTE: see \[`here <./wifi_issues.html>`_\] for wifi connection issues. |br|\ There is also a "demo" server at jmri.mstevetodd.com, port 44444 that you can connect to for testing. |br|\ |br|\
+  * If the server never appears in the discovered list, type in the IP address and Port of the WiThrottle server (Using the values shown on the JMRI WiThrottle window) and press ``Connect``. |br|\ Note: this is sometimes possible even if you are on the same network. |br|\ |br|\ NOTE: see \[`here <./wifi_issues.html>`_\] for wifi connection issues. |br|\ There is also a "demo" server at jmri.mstevetodd.com, port 44444 that you can connect to for testing. |br|\ |br|\ 
 
 * On the throttle screen, click on the ``Select`` loco button for each loco.
 * On the next screen, click on a loco from the Roster or Recent lists, or enter the loco address (verify short or long), and press ``Acquire``. You will be returned to the Throttle screen.

@@ -2,11 +2,22 @@
 Frequently Asked Questions
 *******************************************
 
-TBA
+.. meta::
+   :description: JMRI Engine Driver Throttle
+   :keywords: Engine Driver EngineDriver JMRI manual help faq frequently asked questions
 
-----------
-Connection
-----------
+.. |br| raw:: html
+
+   <br />
+
+.. contents::
+    
+
+----
+
+--------------------------------
+Connecting - Wifi and wiThrottle
+--------------------------------
 
 Q. Why doesn't my Android device automatically connect to my WiFi network?
 
@@ -50,11 +61,13 @@ Type them in the two fields and click ``Connect``
 
 Q. Why doesn't Engine Driver remember the servers I have connected to?
 
-A. Check the Engine Driver preferences and make sure the <???> preference is not set to zero.
+A. Check the Engine Driver preferences and make sure the ``Maximum Recent Locos`` preference is not set to zero.
 
 ----
 
-**Connecting to different servers/railroads**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Connecting to different servers/railroads
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Q. I want to switch to a different server on the same network. 
 
@@ -66,16 +79,18 @@ A. You need to exit Engine Driver, change WiFi networks in the Android settings,
 
 ----
 
-**Save/load preferences for different servers**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Save/load preferences for different servers
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 You can set up difference preferences for difference server/railroads and have them automatically load when you connect to that server.
-The most common use of this (so far) is to remember the locos relevant to that railroad.  E.g. I run N scale and HO Scale.  When I connect to one of the N Scale layouts I use it shows me my N Scale locos in the recent locos list, but when I connect to one of the HO layouts I use, it show me the my recently used HO locos.
+The most common use of this (so far) is to remember the locos relevant to that railroad.  E.g. I run N scale and HO Scale.  When I connect to one of the N Scale layouts I use it shows me my N Scale locos in the recent locos list, but when I connect to one of the HO layouts I use, it shows me the my recently used HO locos.
 
 * Preferences
 * Export/Imports
 * <etc>
 
-Q. What is this jmri.mstevetodd.com in the server list?
+Q. What is this **jmri.mstevetodd.com** in the server list?
 
 A. *jmri.mstevetodd.com* is a demo server, which can be used for testing. It has roster entries, turnouts, routes and an active panel for you to try.
 
@@ -97,9 +112,9 @@ A. The loco needs to be added to the JMRI roster on your server computer.  Refer
 
 Q. Why is my loco is not remembered in the recent locos list?
 
-A1. If the loco is in your roster, check the preference <???> so that locos in the roster will be included in the recent locos list.
+A1. If the loco is in your roster, check the preference ``Roster in Recent Locos?`` so that locos in the roster will be included in the recent locos list.
 
-A2. If no locos are remembered (and you have confirmed the preference above) make sure the <???> preference is not set to zero.
+A2. If no locos are remembered (and you have confirmed the preference above) make sure the ``Maximum Recent Locos`` preference is not set to zero.
 
 Q. The JMRI loco list is too long, I can't find my locos easily
 
@@ -115,7 +130,7 @@ Engine Driver can create consists on-the-fly by simply select multiple locos, on
 
 <stuff goes here>
 
-Note: Make sure that the <Drop before Acquire <???> preference is set to 'No'.
+Note: Make sure that the ``Drop Loco before acquire?`` preference is set to 'No'.
 
 A2. Normal Consists
 
@@ -133,17 +148,13 @@ Will appear in the loco list as…
 
 Q. I can't create on-the-fly consists?
 
-A. Make sure that the <Drop before Acquire ???> preference is set to 'No'.
+A. Make sure that the ``Drop Loco before acquire?`` preference is set to 'No'.
 
 Q. The lights of the locos in my consist are wrong?
 
-A. If you use on-the-fly consists, you can control the lights.
+A1. If you use on-the-fly consists, you can control the lights by clicking ``Select`` then click on the ``Edit Lights`` button
 
-Set the ??? preference
-
-Long click on the Select Loco button.
-
-Set the lights of each loco (other the lead) 
+A2. You can control the ligths with a Long click on the ``Select`` Loco button, if you set the ``Control consist Lights on long click`` preference.
 
 Q. Can't control my loco?
 
@@ -167,7 +178,9 @@ A. You can:
 Changing the appearance of Engine Driver
 ----------------------------------------
 
-**Global changes (Themes)**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Global changes (Themes)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 You can switch between four different themes by changing the preference. 
 
@@ -177,22 +190,25 @@ You can switch between four different themes by changing the preference.
 * The Dark theme. 
 * The Colourful theme.
 
-Engine Driver will automatically close and restart after changing the preference for it to be fully activated. 
+----
 
-
-**Changing the Throttle page**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Changing the Throttle page
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Q. I want to change the appearance of Throttle Screen
 
 A. There are currently four different Throttle Screen designs
 
-* Default / Original.  - Horizontal sliders (optional). Allows up to three throttles, one below the other. Optionally you can show a web page on the bottom half of the screen.
-* Simple. - Vertical sliders. Allows up to six throttles,side by side. No function buttons are shown. You cannot show a web page on the bottom half of the screen.  
-* Vertical. - Vertical sliders.  Allows exactly two throttles, one beside the other. Function buttons between the sliders. Optionally you can show a web page on the bottom half of the screen.
-* Big Buttons - Left. - No Sliders. Only one throttle. Function buttons on the right of screen.Optionally you can show a web page on the bottom half of the screen.
+* Default / Original. |br|\ - Horizontal sliders (optional). Allows up to three throttles, one below the other. Optionally you can show a web page on the bottom half of the screen.
+* Simple. |br|\ - Vertical sliders. Allows up to six throttles,side by side. No function buttons are shown. You cannot show a web page on the bottom half of the screen.  
+* Vertical. |br|\ - Vertical sliders.  Allows exactly two throttles, one beside the other. Function buttons between the sliders. Optionally you can show a web page on the bottom half of the screen.
+* Vertical Left. |br|\ - Vertical slider.  Allows exactly one throttle. Function buttons beside the slider. Optionally you can show a web page on the bottom half of the screen.
+* Vertical Right. |br|\ - Vertical slider.  Allows exactly one throttle. Function buttons beside the slider. Optionally you can show a web page on the bottom half of the screen.
+* Big Buttons - Left. |br|\ - No Sliders. Only one throttle. Function buttons on the right of screen.Optionally you can show a web page on the bottom half of the screen.
 * ...
 
-Engine Driver will automatically close and restart after changing the preference so it to be fully activated. 
+Engine Driver will automatically reload the throttle sceen after closing the preferences screen. 
 
 Q. I want vertical sliders, not horizontal
 
@@ -226,7 +242,11 @@ This can happen if you entered an address to select the loco rather than selecti
 
 You can force the default function labels in the preferences.
 
-**Speed slider VS speed buttons**
+----
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Speed slider VS speed buttons
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Some people find the speed slider difficult to control.
 
@@ -246,11 +266,9 @@ A2. Reduce the height of the loco select and direction buttons
 
 A3. Keep the number of locos to 1 or two.
 
-**Hiding the title bar and navigation bar.** 
-
-Immersive mode 
-
-Swiping up
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Direction Buttons
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Q. I don't like the direction buttons in that order
 
@@ -264,25 +282,81 @@ e.g. North South, West East, Up Down.
 
 <stuff goes here>
 
-**Showing the web page at the bottom of the throttle page**
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Hiding the title bar and navigation bar.
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+TBA
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Immersive mode 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+TBA
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Swiping up or Down
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+TBA
+
+----
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Showing the web page at the bottom of the throttle page
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 <also point to the swipe up option>
 
-**Changing the loco selection page**
+----
+
+--------------------------------------------
+Changing the loco selection page
+--------------------------------------------
 
 <stuff goes here>
 
-**Locos in the roster not showing.**
+----
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Locos in the roster not showing
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 <stuff goes here>
 
-**Changing the connection page**
+----
+
+--------------------------------------------
+Changing the connection page
+--------------------------------------------
 
 <stuff goes here>
 
 Can't remove test server
 
-**Changing the turnouts page**
+----
+
+--------------------------------------------
+Changing the turnouts page
+--------------------------------------------
 
 <stuff goes here>
+
+-------------------------------------
+Conserving power on your phone/tablet
+-------------------------------------
+
+Q. My Phone/table runs out of power too quickly
+
+A. You should
+
+* Keep the brightness of the device as low as practical
+* Disable Bluetooth and NFC if you are not using them
+* You can also 
+
+  * Set the preference to dim screen on swipe up.  If you are not using the throttle temporarily (i.e the train does not need any control for a little while), dim the screen until you need it back.
+  * Set the preference to dim screen on shake.  If you are not using the throttle temporarily (i.e the train does not need any control for a little while), dim the screen until you need it back.
+
+If your device has an AMOLED display, theoretically, the High Contrast Outline theme should use less power (though this is unproven).
 

@@ -4,7 +4,9 @@
 <html class="writer-html5" lang="en" >
 <head>
   <meta charset="utf-8" />
-  
+  <meta content="JMRI Engine Driver Throttle" name="description" />
+<meta content="Engine Driver EngineDriver JMRI manual help faq frequently asked questions" name="keywords" />
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
   <title>Frequently Asked Questions &mdash; Engine Driver Test  documentation</title>
@@ -112,6 +114,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../configuration/functions.html">Function Buttons</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../configuration/ipls.html">In Phone Loco Sounds</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../configuration/gamepads.html">Gamepads</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../configuration/new_device.html">Moving to a new phone/device</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../screenshots/index.html">Screenshots</a></li>
@@ -190,10 +193,46 @@
            <div itemprop="articleBody">
             
   <div class="section" id="frequently-asked-questions">
-<h1>Frequently Asked Questions<a class="headerlink" href="#frequently-asked-questions" title="Permalink to this headline">¶</a></h1>
-<p>TBA</p>
-<div class="section" id="connection">
-<h2>Connection<a class="headerlink" href="#connection" title="Permalink to this headline">¶</a></h2>
+<h1><a class="toc-backref" href="#id1">Frequently Asked Questions</a><a class="headerlink" href="#frequently-asked-questions" title="Permalink to this headline">¶</a></h1>
+<div class="contents topic" id="contents">
+<p class="topic-title">Contents</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#frequently-asked-questions" id="id1">Frequently Asked Questions</a></p>
+<ul>
+<li><p><a class="reference internal" href="#connecting-wifi-and-withrottle" id="id2">Connecting - Wifi and wiThrottle</a></p>
+<ul>
+<li><p><a class="reference internal" href="#connecting-to-different-servers-railroads" id="id3">Connecting to different servers/railroads</a></p></li>
+<li><p><a class="reference internal" href="#save-load-preferences-for-different-servers" id="id4">Save/load preferences for different servers</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#selecting-locomotives-to-control" id="id5">Selecting locomotives to control</a></p></li>
+<li><p><a class="reference internal" href="#changing-the-appearance-of-engine-driver" id="id6">Changing the appearance of Engine Driver</a></p>
+<ul>
+<li><p><a class="reference internal" href="#global-changes-themes" id="id7">Global changes (Themes)</a></p></li>
+<li><p><a class="reference internal" href="#changing-the-throttle-page" id="id8">Changing the Throttle page</a></p></li>
+<li><p><a class="reference internal" href="#speed-slider-vs-speed-buttons" id="id9">Speed slider VS speed buttons</a></p></li>
+<li><p><a class="reference internal" href="#direction-buttons" id="id10">Direction Buttons</a></p></li>
+<li><p><a class="reference internal" href="#hiding-the-title-bar-and-navigation-bar" id="id11">Hiding the title bar and navigation bar.</a></p></li>
+<li><p><a class="reference internal" href="#immersive-mode" id="id12">Immersive mode</a></p></li>
+<li><p><a class="reference internal" href="#swiping-up-or-down" id="id13">Swiping up or Down</a></p></li>
+<li><p><a class="reference internal" href="#showing-the-web-page-at-the-bottom-of-the-throttle-page" id="id14">Showing the web page at the bottom of the throttle page</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#changing-the-loco-selection-page" id="id15">Changing the loco selection page</a></p>
+<ul>
+<li><p><a class="reference internal" href="#locos-in-the-roster-not-showing" id="id16">Locos in the roster not showing</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#changing-the-connection-page" id="id17">Changing the connection page</a></p></li>
+<li><p><a class="reference internal" href="#changing-the-turnouts-page" id="id18">Changing the turnouts page</a></p></li>
+<li><p><a class="reference internal" href="#conserving-power-on-your-phone-tablet" id="id19">Conserving power on your phone/tablet</a></p></li>
+</ul>
+</li>
+</ul>
+</div>
+<hr class="docutils" />
+<div class="section" id="connecting-wifi-and-withrottle">
+<h2><a class="toc-backref" href="#id2">Connecting - Wifi and wiThrottle</a><a class="headerlink" href="#connecting-wifi-and-withrottle" title="Permalink to this headline">¶</a></h2>
 <ol class="upperalpha simple" start="17">
 <li><p>Why doesn’t my Android device automatically connect to my WiFi network?</p></li>
 </ol>
@@ -237,10 +276,11 @@
 <li><p>Why doesn’t Engine Driver remember the servers I have connected to?</p></li>
 </ol>
 <ol class="upperalpha simple">
-<li><p>Check the Engine Driver preferences and make sure the &lt;???&gt; preference is not set to zero.</p></li>
+<li><p>Check the Engine Driver preferences and make sure the <code class="docutils literal notranslate"><span class="pre">Maximum</span> <span class="pre">Recent</span> <span class="pre">Locos</span></code> preference is not set to zero.</p></li>
 </ol>
 <hr class="docutils" />
-<p><strong>Connecting to different servers/railroads</strong></p>
+<div class="section" id="connecting-to-different-servers-railroads">
+<h3><a class="toc-backref" href="#id3">Connecting to different servers/railroads</a><a class="headerlink" href="#connecting-to-different-servers-railroads" title="Permalink to this headline">¶</a></h3>
 <ol class="upperalpha simple" start="17">
 <li><p>I want to switch to a different server on the same network.</p></li>
 </ol>
@@ -253,17 +293,19 @@
 <ol class="upperalpha simple">
 <li><p>You need to exit Engine Driver, change WiFi networks in the Android settings, then restart Engine Driver.</p></li>
 </ol>
+</div>
 <hr class="docutils" />
-<p><strong>Save/load preferences for different servers</strong></p>
+<div class="section" id="save-load-preferences-for-different-servers">
+<h3><a class="toc-backref" href="#id4">Save/load preferences for different servers</a><a class="headerlink" href="#save-load-preferences-for-different-servers" title="Permalink to this headline">¶</a></h3>
 <p>You can set up difference preferences for difference server/railroads and have them automatically load when you connect to that server.
-The most common use of this (so far) is to remember the locos relevant to that railroad.  E.g. I run N scale and HO Scale.  When I connect to one of the N Scale layouts I use it shows me my N Scale locos in the recent locos list, but when I connect to one of the HO layouts I use, it show me the my recently used HO locos.</p>
+The most common use of this (so far) is to remember the locos relevant to that railroad.  E.g. I run N scale and HO Scale.  When I connect to one of the N Scale layouts I use it shows me my N Scale locos in the recent locos list, but when I connect to one of the HO layouts I use, it shows me the my recently used HO locos.</p>
 <ul class="simple">
 <li><p>Preferences</p></li>
 <li><p>Export/Imports</p></li>
 <li><p>&lt;etc&gt;</p></li>
 </ul>
 <ol class="upperalpha simple" start="17">
-<li><p>What is this jmri.mstevetodd.com in the server list?</p></li>
+<li><p>What is this <strong>jmri.mstevetodd.com</strong> in the server list?</p></li>
 </ol>
 <ol class="upperalpha simple">
 <li><p><em>jmri.mstevetodd.com</em> is a demo server, which can be used for testing. It has roster entries, turnouts, routes and an active panel for you to try.</p></li>
@@ -276,9 +318,10 @@ The most common use of this (so far) is to remember the locos relevant to that r
 <li><p>Swipe right on an entry to remove it.</p></li>
 </ol>
 </div>
+</div>
 <hr class="docutils" />
 <div class="section" id="selecting-locomotives-to-control">
-<h2>Selecting locomotives to control<a class="headerlink" href="#selecting-locomotives-to-control" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#id5">Selecting locomotives to control</a><a class="headerlink" href="#selecting-locomotives-to-control" title="Permalink to this headline">¶</a></h2>
 <ol class="upperalpha simple" start="17">
 <li><p>Why can’t I can’t see my loco in the roster?</p></li>
 </ol>
@@ -288,8 +331,8 @@ The most common use of this (so far) is to remember the locos relevant to that r
 <ol class="upperalpha simple" start="17">
 <li><p>Why is my loco is not remembered in the recent locos list?</p></li>
 </ol>
-<p>A1. If the loco is in your roster, check the preference &lt;???&gt; so that locos in the roster will be included in the recent locos list.</p>
-<p>A2. If no locos are remembered (and you have confirmed the preference above) make sure the &lt;???&gt; preference is not set to zero.</p>
+<p>A1. If the loco is in your roster, check the preference <code class="docutils literal notranslate"><span class="pre">Roster</span> <span class="pre">in</span> <span class="pre">Recent</span> <span class="pre">Locos?</span></code> so that locos in the roster will be included in the recent locos list.</p>
+<p>A2. If no locos are remembered (and you have confirmed the preference above) make sure the <code class="docutils literal notranslate"><span class="pre">Maximum</span> <span class="pre">Recent</span> <span class="pre">Locos</span></code> preference is not set to zero.</p>
 <ol class="upperalpha simple" start="17">
 <li><p>The JMRI loco list is too long, I can’t find my locos easily</p></li>
 </ol>
@@ -303,7 +346,7 @@ The most common use of this (so far) is to remember the locos relevant to that r
 <p>A1. On the fly Consists in Engine Driver</p>
 <p>Engine Driver can create consists on-the-fly by simply select multiple locos, one after the other…</p>
 <p>&lt;stuff goes here&gt;</p>
-<p>Note: Make sure that the &lt;Drop before Acquire &lt;???&gt; preference is set to ‘No’.</p>
+<p>Note: Make sure that the <code class="docutils literal notranslate"><span class="pre">Drop</span> <span class="pre">Loco</span> <span class="pre">before</span> <span class="pre">acquire?</span></code> preference is set to ‘No’.</p>
 <p>A2. Normal Consists</p>
 <p>Note you can’t create a normal consist with Engine Driver, but you can control one if it has already been setup.</p>
 <p>&lt;stuff goes here&gt;</p>
@@ -315,17 +358,13 @@ The most common use of this (so far) is to remember the locos relevant to that r
 <li><p>I can’t create on-the-fly consists?</p></li>
 </ol>
 <ol class="upperalpha simple">
-<li><p>Make sure that the &lt;Drop before Acquire ???&gt; preference is set to ‘No’.</p></li>
+<li><p>Make sure that the <code class="docutils literal notranslate"><span class="pre">Drop</span> <span class="pre">Loco</span> <span class="pre">before</span> <span class="pre">acquire?</span></code> preference is set to ‘No’.</p></li>
 </ol>
 <ol class="upperalpha simple" start="17">
 <li><p>The lights of the locos in my consist are wrong?</p></li>
 </ol>
-<ol class="upperalpha simple">
-<li><p>If you use on-the-fly consists, you can control the lights.</p></li>
-</ol>
-<p>Set the ??? preference</p>
-<p>Long click on the Select Loco button.</p>
-<p>Set the lights of each loco (other the lead)</p>
+<p>A1. If you use on-the-fly consists, you can control the lights by clicking <code class="docutils literal notranslate"><span class="pre">Select</span></code> then click on the <code class="docutils literal notranslate"><span class="pre">Edit</span> <span class="pre">Lights</span></code> button</p>
+<p>A2. You can control the ligths with a Long click on the <code class="docutils literal notranslate"><span class="pre">Select</span></code> Loco button, if you set the <code class="docutils literal notranslate"><span class="pre">Control</span> <span class="pre">consist</span> <span class="pre">Lights</span> <span class="pre">on</span> <span class="pre">long</span> <span class="pre">click</span></code> preference.</p>
 <ol class="upperalpha simple" start="17">
 <li><p>Can’t control my loco?</p></li>
 </ol>
@@ -352,8 +391,9 @@ The most common use of this (so far) is to remember the locos relevant to that r
 </div>
 <hr class="docutils" />
 <div class="section" id="changing-the-appearance-of-engine-driver">
-<h2>Changing the appearance of Engine Driver<a class="headerlink" href="#changing-the-appearance-of-engine-driver" title="Permalink to this headline">¶</a></h2>
-<p><strong>Global changes (Themes)</strong></p>
+<h2><a class="toc-backref" href="#id6">Changing the appearance of Engine Driver</a><a class="headerlink" href="#changing-the-appearance-of-engine-driver" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="global-changes-themes">
+<h3><a class="toc-backref" href="#id7">Global changes (Themes)</a><a class="headerlink" href="#global-changes-themes" title="Permalink to this headline">¶</a></h3>
 <p>You can switch between four different themes by changing the preference.</p>
 <ul class="simple">
 <li><p>The original theme</p></li>
@@ -362,8 +402,10 @@ The most common use of this (so far) is to remember the locos relevant to that r
 <li><p>The Dark theme.</p></li>
 <li><p>The Colourful theme.</p></li>
 </ul>
-<p>Engine Driver will automatically close and restart after changing the preference for it to be fully activated.</p>
-<p><strong>Changing the Throttle page</strong></p>
+</div>
+<hr class="docutils" />
+<div class="section" id="changing-the-throttle-page">
+<h3><a class="toc-backref" href="#id8">Changing the Throttle page</a><a class="headerlink" href="#changing-the-throttle-page" title="Permalink to this headline">¶</a></h3>
 <ol class="upperalpha simple" start="17">
 <li><p>I want to change the appearance of Throttle Screen</p></li>
 </ol>
@@ -371,13 +413,15 @@ The most common use of this (so far) is to remember the locos relevant to that r
 <li><p>There are currently four different Throttle Screen designs</p></li>
 </ol>
 <ul class="simple">
-<li><p>Default / Original.  - Horizontal sliders (optional). Allows up to three throttles, one below the other. Optionally you can show a web page on the bottom half of the screen.</p></li>
-<li><p>Simple. - Vertical sliders. Allows up to six throttles,side by side. No function buttons are shown. You cannot show a web page on the bottom half of the screen.</p></li>
-<li><p>Vertical. - Vertical sliders.  Allows exactly two throttles, one beside the other. Function buttons between the sliders. Optionally you can show a web page on the bottom half of the screen.</p></li>
-<li><p>Big Buttons - Left. - No Sliders. Only one throttle. Function buttons on the right of screen.Optionally you can show a web page on the bottom half of the screen.</p></li>
+<li><p>Default / Original. <br />- Horizontal sliders (optional). Allows up to three throttles, one below the other. Optionally you can show a web page on the bottom half of the screen.</p></li>
+<li><p>Simple. <br />- Vertical sliders. Allows up to six throttles,side by side. No function buttons are shown. You cannot show a web page on the bottom half of the screen.</p></li>
+<li><p>Vertical. <br />- Vertical sliders.  Allows exactly two throttles, one beside the other. Function buttons between the sliders. Optionally you can show a web page on the bottom half of the screen.</p></li>
+<li><p>Vertical Left. <br />- Vertical slider.  Allows exactly one throttle. Function buttons beside the slider. Optionally you can show a web page on the bottom half of the screen.</p></li>
+<li><p>Vertical Right. <br />- Vertical slider.  Allows exactly one throttle. Function buttons beside the slider. Optionally you can show a web page on the bottom half of the screen.</p></li>
+<li><p>Big Buttons - Left. <br />- No Sliders. Only one throttle. Function buttons on the right of screen.Optionally you can show a web page on the bottom half of the screen.</p></li>
 <li><p>…</p></li>
 </ul>
-<p>Engine Driver will automatically close and restart after changing the preference so it to be fully activated.</p>
+<p>Engine Driver will automatically reload the throttle sceen after closing the preferences screen.</p>
 <ol class="upperalpha simple" start="17">
 <li><p>I want vertical sliders, not horizontal</p></li>
 </ol>
@@ -410,7 +454,10 @@ The most common use of this (so far) is to remember the locos relevant to that r
 </ol>
 <p>This can happen if you entered an address to select the loco rather than selecting from the roster list.</p>
 <p>You can force the default function labels in the preferences.</p>
-<p><strong>Speed slider VS speed buttons</strong></p>
+</div>
+<hr class="docutils" />
+<div class="section" id="speed-slider-vs-speed-buttons">
+<h3><a class="toc-backref" href="#id9">Speed slider VS speed buttons</a><a class="headerlink" href="#speed-slider-vs-speed-buttons" title="Permalink to this headline">¶</a></h3>
 <p>Some people find the speed slider difficult to control.</p>
 <p>There are options to:</p>
 <ul class="simple">
@@ -425,9 +472,9 @@ The most common use of this (so far) is to remember the locos relevant to that r
 <p>A1. Try the ‘Immersive mode’ preference. (see below)</p>
 <p>A2. Reduce the height of the loco select and direction buttons</p>
 <p>A3. Keep the number of locos to 1 or two.</p>
-<p><strong>Hiding the title bar and navigation bar.</strong></p>
-<p>Immersive mode</p>
-<p>Swiping up</p>
+</div>
+<div class="section" id="direction-buttons">
+<h3><a class="toc-backref" href="#id10">Direction Buttons</a><a class="headerlink" href="#direction-buttons" title="Permalink to this headline">¶</a></h3>
 <ol class="upperalpha simple" start="17">
 <li><p>I don’t like the direction buttons in that order</p></li>
 </ol>
@@ -438,17 +485,65 @@ The most common use of this (so far) is to remember the locos relevant to that r
 <p>Labeling the direction buttons for the directions/conventions of your railroad/railway.</p>
 <p>e.g. North South, West East, Up Down.</p>
 <p>&lt;stuff goes here&gt;</p>
-<p><strong>Showing the web page at the bottom of the throttle page</strong></p>
+</div>
+<div class="section" id="hiding-the-title-bar-and-navigation-bar">
+<h3><a class="toc-backref" href="#id11">Hiding the title bar and navigation bar.</a><a class="headerlink" href="#hiding-the-title-bar-and-navigation-bar" title="Permalink to this headline">¶</a></h3>
+<p>TBA</p>
+</div>
+<div class="section" id="immersive-mode">
+<h3><a class="toc-backref" href="#id12">Immersive mode</a><a class="headerlink" href="#immersive-mode" title="Permalink to this headline">¶</a></h3>
+<p>TBA</p>
+</div>
+<div class="section" id="swiping-up-or-down">
+<h3><a class="toc-backref" href="#id13">Swiping up or Down</a><a class="headerlink" href="#swiping-up-or-down" title="Permalink to this headline">¶</a></h3>
+<p>TBA</p>
+</div>
+<hr class="docutils" />
+<div class="section" id="showing-the-web-page-at-the-bottom-of-the-throttle-page">
+<h3><a class="toc-backref" href="#id14">Showing the web page at the bottom of the throttle page</a><a class="headerlink" href="#showing-the-web-page-at-the-bottom-of-the-throttle-page" title="Permalink to this headline">¶</a></h3>
 <p>&lt;also point to the swipe up option&gt;</p>
-<p><strong>Changing the loco selection page</strong></p>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="changing-the-loco-selection-page">
+<h2><a class="toc-backref" href="#id15">Changing the loco selection page</a><a class="headerlink" href="#changing-the-loco-selection-page" title="Permalink to this headline">¶</a></h2>
 <p>&lt;stuff goes here&gt;</p>
-<p><strong>Locos in the roster not showing.</strong></p>
+<hr class="docutils" />
+<div class="section" id="locos-in-the-roster-not-showing">
+<h3><a class="toc-backref" href="#id16">Locos in the roster not showing</a><a class="headerlink" href="#locos-in-the-roster-not-showing" title="Permalink to this headline">¶</a></h3>
 <p>&lt;stuff goes here&gt;</p>
-<p><strong>Changing the connection page</strong></p>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="changing-the-connection-page">
+<h2><a class="toc-backref" href="#id17">Changing the connection page</a><a class="headerlink" href="#changing-the-connection-page" title="Permalink to this headline">¶</a></h2>
 <p>&lt;stuff goes here&gt;</p>
 <p>Can’t remove test server</p>
-<p><strong>Changing the turnouts page</strong></p>
+</div>
+<hr class="docutils" />
+<div class="section" id="changing-the-turnouts-page">
+<h2><a class="toc-backref" href="#id18">Changing the turnouts page</a><a class="headerlink" href="#changing-the-turnouts-page" title="Permalink to this headline">¶</a></h2>
 <p>&lt;stuff goes here&gt;</p>
+</div>
+<div class="section" id="conserving-power-on-your-phone-tablet">
+<h2><a class="toc-backref" href="#id19">Conserving power on your phone/tablet</a><a class="headerlink" href="#conserving-power-on-your-phone-tablet" title="Permalink to this headline">¶</a></h2>
+<ol class="upperalpha simple" start="17">
+<li><p>My Phone/table runs out of power too quickly</p></li>
+</ol>
+<ol class="upperalpha simple">
+<li><p>You should</p></li>
+</ol>
+<ul class="simple">
+<li><p>Keep the brightness of the device as low as practical</p></li>
+<li><p>Disable Bluetooth and NFC if you are not using them</p></li>
+<li><p>You can also</p>
+<ul>
+<li><p>Set the preference to dim screen on swipe up.  If you are not using the throttle temporarily (i.e the train does not need any control for a little while), dim the screen until you need it back.</p></li>
+<li><p>Set the preference to dim screen on shake.  If you are not using the throttle temporarily (i.e the train does not need any control for a little while), dim the screen until you need it back.</p></li>
+</ul>
+</li>
+</ul>
+<p>If your device has an AMOLED display, theoretically, the High Contrast Outline theme should use less power (though this is unproven).</p>
 </div>
 </div>
 
