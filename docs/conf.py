@@ -18,7 +18,7 @@ import sphinx_rtd_theme
 
 # -- Project information -----------------------------------------------------
 
-project = 'Engine Driver Test'
+project = 'Engine Driver Throttle Home'
 copyright = 'M Steve Todd'
 author = 'M Steve Todd, Peter Akers'
 

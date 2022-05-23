@@ -16,7 +16,7 @@ Supported servers include JMRI, DCC-EX, MRC Prodigy WiFi, Digitrax LnWi, and Wif
 Once connected, you can control your locomotives and your entire model railroad. 
 Speed, direction, and up to 29 DCC functions are supported for one to six locomotives or consists. 
 You can create and edit consists (software-defined). 
-You can also control layout power, turnouts, routes, and access JMRI web panels and windows.
+You can also control layout power, turnouts/points, routes, and access JMRI web panels and windows.
 
 `More information <./about/index.html>`_
 
