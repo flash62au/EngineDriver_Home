@@ -42,6 +42,26 @@ Quick Start / Basic Information
 Detailed Information 
 --------------------
 
+.. contents::
+
+^^^^^^^^^^^^^^^^
+Connecting
+^^^^^^^^^^^^^^^^
+
+TBA
+
+^^^^^^^^^^^^^^^^
+Selecting Locos
+^^^^^^^^^^^^^^^^
+
+TBA
+
+^^^^^^^^^^^^^^^
+Other stuff
+^^^^^^^^^^^^^^^
+
+TBA
+
 ^^^^^^^^^^^^^^^^
 Locomotive Icons
 ^^^^^^^^^^^^^^^^
