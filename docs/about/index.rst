@@ -1,6 +1,9 @@
 *******************************************
 About
 *******************************************
+.. meta::
+   :description: JMRI Engine Driver Throttle
+   :keywords: Engine Driver EngineDriver JMRI manual help
 
 This free Android application connects to a `WiThrottle Server <https://jmri.org/help/en/package/jmri/jmrit/withrottle/UserInterface.shtml>`_ to control model trains. 
 

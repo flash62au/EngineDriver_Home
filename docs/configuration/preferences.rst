@@ -2,16 +2,25 @@
 Preferences
 *******************************************
 
-TBA
+.. meta::
+   :description: JMRI Engine Driver Throttle
+   :keywords: Engine Driver EngineDriver JMRI manual help preferences
 
+.. |br| raw:: html
 
-* Show Advanced Preferences?
+   <br />
+
+.. contents::
+    
+----
+
+* Show Advanced Preferences? |br|\ Check this to show the additional preferences
 
 ------------------
 Device Preferences
 ------------------
 
-  * Throttle Name
+  * Throttle Name |br|\ Use this to enter a unique name for you device/phone.  The name will appear in the wiThrottle window in JMRI.
   * Screen orientation
   * Theme/Style
   * Localisation
@@ -163,12 +172,12 @@ Additional Throttle Control Source Preferences
     * Speed button Change Amount
     * Gamepad Button Click Volume %
     * Speed button Repeat Delay
-    * Gamepad button action <!-- X     -->
-    * Gamepad button action <!-- Y    -->
-    * Gamepad button action <!-- A     -->
-    * Gamepad button action <!-- B     -->
-    * Gamepad button action <!-- Start(Lower)     -->
-    * Gamepad button action <!-- Return(Upper)     -->
+    * Gamepad button action <!-- X -->
+    * Gamepad button action <!-- Y -->
+    * Gamepad button action <!-- A -->
+    * Gamepad button action <!-- B -->
+    * Gamepad button action <!-- Start(Lower) -->
+    * Gamepad button action <!-- Return(Upper) -->
     * Gamepad DPAD Up action
     * Gamepad DPAD Right action
     * Gamepad DPAD Down action

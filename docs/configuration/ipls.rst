@@ -2,6 +2,10 @@
 In Phone Loco Sounds
 *******************************************
 
+.. meta::
+   :description: JMRI Engine Driver Throttle
+   :keywords: Engine Driver EngineDriver JMRI manual help virtual sounds IPLS In Phone Loco Sounds
+
 Virtual Sounds
 
 TBA
