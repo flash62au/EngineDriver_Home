@@ -288,16 +288,17 @@
 </div>
 <div class="section" id="locomotive-icons-in-the-roster">
 <h3><a class="toc-backref" href="#id11">Locomotive Icons in the Roster</a><a class="headerlink" href="#locomotive-icons-in-the-roster" title="Permalink to this headline">¶</a></h3>
-<p>The Roster List, and Recent Locos List on the Select Loco screen will automatically show icons for your locos only if:</p>
+<p>The <strong>Roster List</strong>, and <strong>Recent Locos List</strong> on the Select Loco screen will automatically show icons for your locos only if:</p>
 <ul class="simple">
 <li><p>The <strong>Web Server</strong> (not just the wiThrottle server) is running on the JMRI server</p></li>
 <li><p>The loco itself has an icon added for it in the JMRI roster <br />OR</p></li>
 <li><p>A locally cached or manually chosen image is avialable for the loco (see below)</p></li>
+<li><p>For the <strong>Recent Locos list</strong>, the loco was originally selected from a roster. (i.e. Not entered as a DCC Address)</p></li>
 </ul>
 <p><strong>For wiThrottle servers that do support a roster but don’t support Locomotive Icons</strong></p>
 <p>There are three ways to load &amp; store your Locomotive Icon Image in Engine Driver 2.32.142 and above.</p>
 <ol class="arabic simple">
-<li><p>Automatically from your existing JMRI Roster &amp; Media</p></li>
+<li><p><strong>Automatically from your existing JMRI Roster &amp; Media</strong></p></li>
 </ol>
 <blockquote>
 <div><ul class="simple">
@@ -307,28 +308,43 @@
 <li><p>Connect Engine Driver to JMRI WiThrottle Server Discovered Server ‘My JMRI Railroad’ or type in the IP address : Port#</p></li>
 <li><p>Click <code class="docutils literal notranslate"><span class="pre">Select</span></code> and load your Locos then <code class="docutils literal notranslate"><span class="pre">Release</span></code> and repeat until you’ve loaded all the locomotives you require with Images into a throttle.</p></li>
 </ul>
-</div></blockquote>
+<p>These Loco Icons will automatically be saved on the Android device/phone in a new ‘/Android/data/jmri.enginedriver/files/recent_engine_list/<strong>recent_engine_list</strong>’ folder for you.</p>
 <p>Requirements for this to work:</p>
-<ul class="simple">
+<blockquote>
+<div><ul class="simple">
 <li><p>Have identical names (from JMRI Roster ID to DCC++EX EXRAIL Roster ID)  example ID;    “PE 1225”</p></li>
 <li><p>Have image icons displayed for the locomotives</p></li>
 </ul>
-<p>These Image Icons will automatically be saved on the Android smartphone in a new ‘recent_engine_list’ folder for you.</p>
+</div></blockquote>
+</div></blockquote>
 <ol class="arabic simple" start="2">
-<li><p>Manually entered directly into your Android Engine Driver folder</p></li>
+<li><p><strong>Manually entered directly into your Android Engine Driver folder</strong></p></li>
 </ol>
 <blockquote>
 <div><ul class="simple">
 <li><p>Capture then rename the image exactly like the Roster ID name in JMRI &amp; EXRAIL and save as a .PNG file</p></li>
-<li><p>Then place the engine Image into your Android device/phone in the <br />‘My Files/Android/data/jmri.enginedriver/files/recent_engine_list’ folder <br />example image name;  PE 1225.png</p></li>
+<li><p>Then place the engine Image into your Android device/phone in the <br />‘My /Android/data/jmri.enginedriver/files/recent_engine_list’ folder <br />example image name;  PE 1225.png</p></li>
+</ul>
+<p>Note: certain characters are not allowed in file names so need to be substituted with “_” (underscore) if you have used them in your roster name. They are:</p>
+<ul class="simple">
+<li><p>/ (forward slash)</p></li>
+<li><p>” (double quote)</p></li>
+<li><p>\ (back slash)</p></li>
+<li><ul>
+<li><p>(asterix)</p></li>
+</ul>
+</li>
+<li><p>? (question mark)</p></li>
+<li><p>&lt; (less than)</p></li>
+<li><p>&gt; (greater than)</p></li>
 </ul>
 </div></blockquote>
 <ol class="arabic simple" start="3">
-<li><p>Select an image on the phone/device (which can be taken on the phone’s camera)</p></li>
+<li><p><strong>Select an image on the phone/device (which can be taken on the phone’s camera)</strong></p></li>
 </ol>
 <blockquote>
 <div><ul class="simple">
-<li><p>In the Roster List on the Select Loco screen</p>
+<li><p>In the <strong>Roster List</strong> on the Select Loco screen</p>
 <ul>
 <li><p>Long press on the loco</p></li>
 <li><p>press the <code class="docutils literal notranslate"><span class="pre">New</span> <span class="pre">Image</span></code> button, which will lauch the Android system’s default app for choosing images</p></li>
@@ -338,13 +354,15 @@
 </li>
 </ul>
 </div></blockquote>
-<p>Notes:</p>
+<p><strong>General Notes on the Local Loco Icons:</strong></p>
 <ul class="simple">
-<li><p>If the loco already has an image in the JMRI Roster, you won’t be able to choose a local image</p></li>
-<li><p>If you later add an image in the JMRI Roster for the loco, it will automatically overwrite the local image</p></li>
+<li><p>If the loco already has an image in the JMRI Roster (of the currently connected wiThrottle server), you won’t be able to choose a local image.</p></li>
+<li><p>If you later add an image in the JMRI Roster for the loco (or later connect to a wiThrottle server that has an image), it will automatically overwrite the local image with the one on the server.</p></li>
+<li><p>In the Recent Locos list you <em>can not</em> add images to locos entered by a DCC address. (i.e. not from the roster)</p></li>
 </ul>
 </div>
 </div>
+<hr class="docutils" />
 <div class="section" id="additional-infomation">
 <h2><a class="toc-backref" href="#id12">Additional Infomation</a><a class="headerlink" href="#additional-infomation" title="Permalink to this headline">¶</a></h2>
 <div class="toctree-wrapper compound">
