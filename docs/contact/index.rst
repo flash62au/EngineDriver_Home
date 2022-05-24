@@ -10,6 +10,8 @@ Support & Contact
 email
 -----
 
+`mstevetodd@mstevetodd.com <mailto:mstevetodd@mstevetodd.com>`_
+
 ------
 Forums
 ------
