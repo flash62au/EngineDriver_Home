@@ -20,6 +20,8 @@ You can also control layout power, turnouts/points, routes, and access JMRI web 
 
 `More information <./about/index.html>`_
 
+`Using Engine Driver <./operation/index.html>`_
+
 .. toctree::
    :hidden:
    :maxdepth: 4

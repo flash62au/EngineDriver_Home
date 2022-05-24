@@ -14,15 +14,30 @@ Preferences
     
 ----
 
-* Show Advanced Preferences? |br|\ Check this to show the additional preferences
+* Show Advanced Preferences?
+  
+    Check this to show the additional preferences
 
 ------------------
 Device Preferences
 ------------------
 
-  * Throttle Name |br|\ Use this to enter a unique name for you device/phone.  The name will appear in the wiThrottle window in JMRI.
+  * Throttle Name
+  
+      Use this to enter a unique name for your device/phone.  The name will appear in the wiThrottle window in JMRI.
+  
   * Screen orientation
   * Theme/Style
+
+      You can switch between different themes by changing this preference. 
+
+      * The original theme 
+      * The high contrast theme. |br|\ Similar to the original theme, without the textured background with deeper blacks and brighter whites. 
+      * The high contrast outline theme. |br|\ For people who like white text on a black background.
+      * The Dark theme. 
+      * The Colourful theme.
+
+
   * Localisation
   * Left/Right Swipe Preferences
   
@@ -36,6 +51,51 @@ Throttle Screen Appearance Preferences
 --------------------------------------
 
   * Throttle Screen Layout
+
+      There are a number of different Throttle Screen designs
+
+      * Default / Original /Horizontal
+     
+            Horizontal sliders. Direction Buttons. Function Buttons. Allows up to three throttles, one below the other. Optionally you can show a web page on the bottom half of the screen.
+      
+      * Simple
+       
+            Vertical sliders. Direction Buttons. Allows up to six throttles,side by side. No function buttons are shown by default, but up to 3 can be shown. You cannot show a web page on the bottom half of the screen.  
+      
+      * Vertical
+       
+            Vertical sliders.  Direction Buttons. Function Buttons. Allows exactly two throttles, one beside the other. Function buttons between the sliders. Optionally you can show a web page on the bottom half of the screen.
+
+      * Vertical Left
+       
+            Vertical slider. Direction Buttons. Function Buttons. Allows exactly one throttle. Function buttons beside the slider. Optionally you can show a web page on the bottom half of the screen.
+
+      * Vertical Right
+       
+            Vertical slider. Direction Buttons. Function Buttons. Allows exactly one throttle. Function buttons beside the slider. Optionally you can show a web page on the bottom half of the screen.
+
+      * Big Buttons - Left
+       
+            No Sliders. Only one throttle. Direction Buttons. Function buttons on the right of screen.Optionally you can show a web page on the bottom half of the screen.
+
+      * Horizontal Switching/Shunting
+       
+            Horizontal sliders %100 %0 -%100. Function Buttons. Allows up to three throttles, one below the other. Optionally you can show a web page on the bottom half of the screen.
+
+      * Vertical Switching/Shunting
+       
+            Vertical sliders %100 %0 -%100. Function Buttons. Allows exactly two throttles, one beside the other. Function buttons between the sliders. Optionally you can show a web page on the bottom half of the screen.
+
+      * Vertical Switching/Shunting Left
+       
+            Vertical slider %100 %0 -%100. Function Buttons. Allows exactly one throttle. Function buttons beside the slider. Optionally you can show a web page on the bottom half of the screen.
+
+      * Vertical Switching/Shunting Right
+       
+            Vertical slider %100 %0 -%100. Function Buttons. Allows exactly one throttle. Function buttons beside the slider. Optionally you can show a web page on the bottom half of the screen. 
+
+      Engine Driver will automatically reload the throttle sceen after closing the preferences screen. 
+
   * Number of throttles 
   * Speed Slider and Buttons Preferences
   
@@ -116,7 +176,9 @@ Throttle Screen Action Bar Preferences
   * In phone sounds button
   * Show Server Description
 
-* Throttle Control Preferences
+------------------------------
+Throttle Control Preferences
+------------------------------
 
   * Speed Units
   * Maximum throttle Percentage
@@ -240,15 +302,13 @@ In Phone Loco Sounds
   * Throttle 2 Loco Sounds
   * Additional Preferences
 
-    * In Phone Loco Sounds
-
-      * In Phone Momentum
-      * Don't clip loco step sounds
-      * In Phone Loco Sounds Volume
-      * In Phone Bell Sounds Volume
-      * In Phone Horn/Whistle Sounds Volume
-      * Bell button Latching/Momentary
-      * F1 and F2 activate Bell and Horn?
+    * In Phone Momentum
+    * Don't clip loco step sounds
+    * In Phone Loco Sounds Volume
+    * In Phone Bell Sounds Volume
+    * In Phone Horn/Whistle Sounds Volume
+    * Bell button Latching/Momentary
+    * F1 and F2 activate Bell and Horn?
    
 -------------------
 Connect Preferences
