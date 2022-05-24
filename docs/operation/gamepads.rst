@@ -10,14 +10,22 @@ Gamepads
 
    <br />
 
-----------------------
-Connecting your device
-----------------------
+----------------------------------------------
+Connecting your Gamepad to your Android Device
+----------------------------------------------
 
 The following instructions work for the **mocute** and **MagicSeeR1** gamepads. 
 Other devices require similar steps, but the mechanism to change the ``mode`` may be different. 
 
-* On the gamepad, the small button is Start/Power. Press for a couple seconds until LED comes on. 
+* Turn on
+  * For the **mocute** gamepads
+  
+    * On the gamepad, the small button is Start/Power. Press for a couple seconds until LED comes on. 
+
+  * For the **MagicSeeR1** gamepads (Mode B)
+
+    * There is a dedicated on/off switch. 
+
 * On your **Android device** go to the settings, then Bluetooth, and make sure Bluetooth is turned ON. 
 * Now click ``More Settings``. Within a few seconds a new device should appear in the ``Available devices`` section. (The name of the device may make it apparent that it is the gamepad, but it may just be a string of hexadecimal numbers.) 
 * Select the new device. Many devices will be paired at this point, but if it asks for a pairing code try ``0000`` or ``1234`` (check the instructions that came with the gamepad.) 
@@ -83,9 +91,9 @@ Multiple gamepads
 
 Engine Driver supports up to 4 gamepads at the same time.  All the gamepads must be of the same type.
 
-As you connect each gamepad, you will be force to go to the gamepad test screen.  THe new gamepad will be automatically assigned to the next throttle that does not have a gamepad assigned to it.
+As you connect each gamepad, you will be force to go to the gamepad test screen.  The new gamepad will be automatically assigned to the next throttle that does not have a gamepad assigned to it.
 
-An indicator ``1``, ``2`` etc. will show near the throttle speed to indicate which throttle each gamepad is controlling.
+An indicator ``1``, ``2`` etc. will show near the throttle speed to indicate which throttle each gamepad is controlling.  Only one gamepad can be active on a single throttle at one time.
 
 ----
 
