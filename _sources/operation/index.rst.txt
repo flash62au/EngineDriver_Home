@@ -116,7 +116,7 @@ The **Roster List**, and **Recent Locos List** on the Select Loco screen will au
 
 * The **Web Server** (not just the wiThrottle server) is running on the JMRI server
 * The loco itself has an icon added for it in the JMRI roster |br|\ OR
-* A locally cached or manually chosen image is avialable for the loco (see below)
+* A locally cached or manually chosen image is avilable for the loco (see below)
 * For the **Recent Locos list**, the loco was originally selected from a roster. (i.e. Not entered as a DCC Address)
 
 
@@ -130,9 +130,9 @@ There are three ways to load & store your Locomotive Icon Image in Engine Driver
   * Start the WiThrottle server.
   * Start the Web Server.
   * Connect Engine Driver to JMRI WiThrottle Server Discovered Server 'My JMRI Railroad' or type in the IP address : Port# 
-  * Click ``Select`` and load your Locos then ``Release`` and repeat until you've loaded all the locomotives you require with Images into a throttle. 
+  * Click ``Select`` and load your Locos then ``Release`` and repeat until you've loaded all the locomotives you require with Icons into a throttle. 
  
-  These Loco Icons will automatically be saved on the Android device/phone in a new '/Android/data/jmri.enginedriver/files/recent_engine_list/**recent_engine_list**' folder for you.
+  These Loco Icons will automatically be saved/cached on the Android device/phone in a new '/Android/data/jmri.enginedriver/files/recent_engine_list/**recent_engine_list**' folder for you.
 
   Requirements for this to work:
 
@@ -142,7 +142,7 @@ There are three ways to load & store your Locomotive Icon Image in Engine Driver
 2. **Manually entered directly into your Android Engine Driver folder**
   
   * Capture then rename the image exactly like the Roster ID name in JMRI & EXRAIL and save as a .PNG file
-  * Then place the engine Image into your Android device/phone in the |br|\ 'My /Android/data/jmri.enginedriver/files/recent_engine_list' folder |br|\ example image name;  PE 1225.png
+  * Then place the engine Image into your Android device/phone in the |br|\ '/Android/data/jmri.enginedriver/files/recent_engine_list' folder |br|\ example image name;  PE 1225.png
 
   Note: certain characters are not allowed in file names so need to be substituted with "_" (underscore) if you have used them in your roster name. They are:
 
