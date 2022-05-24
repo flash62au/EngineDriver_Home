@@ -194,18 +194,32 @@
             
   <div class="section" id="gamepads">
 <h1>Gamepads<a class="headerlink" href="#gamepads" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="connecting-your-device">
-<h2>Connecting your device<a class="headerlink" href="#connecting-your-device" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="connecting-your-gamepad-to-your-android-device">
+<h2>Connecting your Gamepad to your Android Device<a class="headerlink" href="#connecting-your-gamepad-to-your-android-device" title="Permalink to this headline">¶</a></h2>
 <p>The following instructions work for the <strong>mocute</strong> and <strong>MagicSeeR1</strong> gamepads.
 Other devices require similar steps, but the mechanism to change the <code class="docutils literal notranslate"><span class="pre">mode</span></code> may be different.</p>
-<ul class="simple">
+<ul>
+<li><p>Turn on
+* For the <strong>mocute</strong> gamepads</p>
+<blockquote>
+<div><ul class="simple">
 <li><p>On the gamepad, the small button is Start/Power. Press for a couple seconds until LED comes on.</p></li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li><p>For the <strong>MagicSeeR1</strong> gamepads (Mode B)</p>
+<ul>
+<li><p>There is a dedicated on/off switch.</p></li>
+</ul>
+</li>
+</ul>
+</li>
 <li><p>On your <strong>Android device</strong> go to the settings, then Bluetooth, and make sure Bluetooth is turned ON.</p></li>
 <li><p>Now click <code class="docutils literal notranslate"><span class="pre">More</span> <span class="pre">Settings</span></code>. Within a few seconds a new device should appear in the <code class="docutils literal notranslate"><span class="pre">Available</span> <span class="pre">devices</span></code> section. (The name of the device may make it apparent that it is the gamepad, but it may just be a string of hexadecimal numbers.)</p></li>
 <li><p>Select the new device. Many devices will be paired at this point, but if it asks for a pairing code try <code class="docutils literal notranslate"><span class="pre">0000</span></code> or <code class="docutils literal notranslate"><span class="pre">1234</span></code> (check the instructions that came with the gamepad.)</p></li>
 <li><p>After pairing you should see an item in the Notifications regarding the gamepad. Click that item and make sure that “Show virtual keyboard” is ON.</p></li>
 <li><p>Set the mode of the gamepad:</p>
-<ul>
+<ul class="simple">
 <li><p>For the <strong>mocute</strong> gamepads (MTK mode)</p>
 <ul>
 <li><p>Turn your gamepad OFF by holding the Start/Power button for about 5 seconds until the LED goes out and stays out.</p></li>
@@ -268,8 +282,8 @@ Other devices require similar steps, but the mechanism to change the <code class
 <div class="section" id="multiple-gamepads">
 <h2>Multiple gamepads<a class="headerlink" href="#multiple-gamepads" title="Permalink to this headline">¶</a></h2>
 <p>Engine Driver supports up to 4 gamepads at the same time.  All the gamepads must be of the same type.</p>
-<p>As you connect each gamepad, you will be force to go to the gamepad test screen.  THe new gamepad will be automatically assigned to the next throttle that does not have a gamepad assigned to it.</p>
-<p>An indicator <code class="docutils literal notranslate"><span class="pre">1</span></code>, <code class="docutils literal notranslate"><span class="pre">2</span></code> etc. will show near the throttle speed to indicate which throttle each gamepad is controlling.</p>
+<p>As you connect each gamepad, you will be force to go to the gamepad test screen.  The new gamepad will be automatically assigned to the next throttle that does not have a gamepad assigned to it.</p>
+<p>An indicator <code class="docutils literal notranslate"><span class="pre">1</span></code>, <code class="docutils literal notranslate"><span class="pre">2</span></code> etc. will show near the throttle speed to indicate which throttle each gamepad is controlling.  Only one gamepad can be active on a single throttle at one time.</p>
 </div>
 <hr class="docutils" />
 <div class="section" id="sample-gamepads">
