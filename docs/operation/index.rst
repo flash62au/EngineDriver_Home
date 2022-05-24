@@ -93,8 +93,6 @@ TBA
 Locomotive Icons
 ^^^^^^^^^^^^^^^^
 
-.. _locomotive_icons:
-
 The Roster List, and Recent Locos List on the Select Loco screen will show icons for your locos if:
 
 * The **Web Server** (not just the wiThrottle server) is running on the JMRI server
