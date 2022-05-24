@@ -10,6 +10,10 @@ Operation
 
    <br />
 
+.. contents::
+
+----
+
 -------------------------------
 Quick Start / Basic Information
 -------------------------------
@@ -42,27 +46,43 @@ Quick Start / Basic Information
 Detailed Information 
 --------------------
 
-.. contents::
-
 ^^^^^^^^^^^^^^^^
 Connecting
 ^^^^^^^^^^^^^^^^
 
 TBA
 
-^^^^^^^^^^^^^^^^
-Selecting Locos
-^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Selecting / Releasing Locos
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 TBA
 
-Also see `Locomotive Icons <#locomotive_icons>`_ below.
+Single loco
+
+On the fly / In Phone Consists
+
+- direction
+- changing order
+- removing
+
+Also see `Locomotive Icons <#locomotive-icons-in-the-roster>`_ below.
 
 ^^^^^^^^^^^^^^^
 Running Trains
 ^^^^^^^^^^^^^^^
 
 TBA
+
+Sliders
+
+Direction
+
+Functions
+
+Volume Keys
+
+Gamepads
 
 ^^^^^^^^^^^^^^^^^
 Turnouts / Points
@@ -76,9 +96,9 @@ Routes
 
 TBA
 
-^^^^^^^^^^^^^^^
-Panels
-^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^
+Panels and Web Pages
+^^^^^^^^^^^^^^^^^^^^^^
 
 TBA
 
@@ -88,15 +108,15 @@ Other stuff
 
 TBA
 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Locomotive Icons in the Roster
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-^^^^^^^^^^^^^^^^
-Locomotive Icons
-^^^^^^^^^^^^^^^^
-
-The Roster List, and Recent Locos List on the Select Loco screen will show icons for your locos if:
+The Roster List, and Recent Locos List on the Select Loco screen will automatically show icons for your locos only if:
 
 * The **Web Server** (not just the wiThrottle server) is running on the JMRI server
-* The loco itself has an icon added for it in the JMRI roster
+* The loco itself has an icon added for it in the JMRI roster |br|\ OR
+* A locally cached or manually chosen image is avialable for the loco (see below)
 
 
 **For wiThrottle servers that do support a roster but don't support Locomotive Icons**

@@ -120,7 +120,7 @@ Q. The JMRI loco list is too long, I can't find my locos easily
 
 A. You can use the filter option to reduce the list 
 
-<stuff goes here>
+TBA
 
 Q. How do I work with Consists
 
@@ -128,7 +128,7 @@ A1. On the fly Consists in Engine Driver
 
 Engine Driver can create consists on-the-fly by simply select multiple locos, one after the other...
 
-<stuff goes here>
+TBA
 
 Note: Make sure that the ``Drop Loco before acquire?`` preference is set to 'No'.
 
@@ -136,7 +136,7 @@ A2. Normal Consists
 
 Note you can't create a normal consist with Engine Driver, but you can control one if it has already been setup.
 
-<stuff goes here>
+TBA
 
 Remember that this type of consist can cause problems later if the loco has not been removed from the consist first and you want to control it as an individual loco. 
 
@@ -168,9 +168,18 @@ Q. I sometimes accidently press the direction button when changing speed
 
 A. You can:
 
-* Disable 'Direction change while moving?' preference (recommended)
-* Increase speed slider/button height
-* Decrease loco and direction button height
+  * Disable 'Direction change while moving?' preference (recommended)
+  * Increase speed slider/button height
+  * Decrease loco and direction button height
+
+Q. No Locomotive Icons appear in the Roster
+
+A. The Roster List, and Recent Locos List on the Select Loco screen will automatically show icons for your locos only if:
+
+  * The **Web Server** (not just the wiThrottle server) is running on the JMRI server
+  * The loco itself has an icon added for it in the JMRI roster |br|\ OR
+  * A locally cached or manually chosen image is available for the loco (see 'Locomotive Icons' on the `Operation page <../operations/index.html>`_)
+
 
 ----
 
@@ -182,7 +191,9 @@ Changing the appearance of Engine Driver
 Global changes (Themes)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-You can switch between four different themes by changing the preference. 
+Q. I want to change the appearance of the app
+
+A. You can switch between different themes by changing the preference. 
 
 * The original theme 
 * The high contrast theme. Similar to the original theme, without the textured background with deeper blacks and brighter whites. 
@@ -198,17 +209,20 @@ Changing the Throttle page
 
 Q. I want to change the appearance of Throttle Screen
 
-A. There are currently four different Throttle Screen designs
+A. There are a number of different Throttle Screen designs.  Look at the `Operation <../operaion/index.html>`_ page for details
 
-* Default / Original. |br|\ - Horizontal sliders (optional). Allows up to three throttles, one below the other. Optionally you can show a web page on the bottom half of the screen.
-* Simple. |br|\ - Vertical sliders. Allows up to six throttles,side by side. No function buttons are shown. You cannot show a web page on the bottom half of the screen.  
-* Vertical. |br|\ - Vertical sliders.  Allows exactly two throttles, one beside the other. Function buttons between the sliders. Optionally you can show a web page on the bottom half of the screen.
-* Vertical Left. |br|\ - Vertical slider.  Allows exactly one throttle. Function buttons beside the slider. Optionally you can show a web page on the bottom half of the screen.
-* Vertical Right. |br|\ - Vertical slider.  Allows exactly one throttle. Function buttons beside the slider. Optionally you can show a web page on the bottom half of the screen.
-* Big Buttons - Left. |br|\ - No Sliders. Only one throttle. Function buttons on the right of screen.Optionally you can show a web page on the bottom half of the screen.
-* ...
+  * Default / Original /Horizontal
+  * Simple  
+  * Vertical
+  * Vertical Left
+  * Vertical Right
+  * Big Buttons - Left
+  * Horizontal Switching/Shunting
+  * Vertical Switching/Shunting
+  * Vertical Switching/Shunting Left
+  * Vertical Switching/Shunting Right 
 
-Engine Driver will automatically reload the throttle sceen after closing the preferences screen. 
+     Engine Driver will automatically reload the throttle sceen after closing the preferences screen. 
 
 Q. I want vertical sliders, not horizontal
 
@@ -218,9 +232,9 @@ Q. I want to control more than one train
 
 A. You can control between one and six trains with Engine Driver, depending on which Throttle Screen type (see above) you have chosen. Each train can have one or more locomotives in consist. 
 
-The screen space is shared between throttles, so set the “Number of Throttles” appropriately.
+     The screen space is shared between throttles, so set the “Number of Throttles” appropriately.
 
-Note that the different Throttle Screen options (above) support different numbers on throttles.
+     Note that the different Throttle Screen options (above) support different numbers on throttles.
 
 Q. In want to change the labels of the function buttons that are displayed 
 
@@ -238,9 +252,9 @@ Q. My loco shows the wrong Function labels
 
 A. Functions of loco are generally set in the JMRI roster.  Engine Driver may be showing the functions of a loco with the same address from the Roster.
 
-This can happen if you entered an address to select the loco rather than selecting from the roster list.
+      This can happen if you entered an address to select the loco rather than selecting from the roster list.
 
-You can force the default function labels in the preferences.
+      You can force the default function labels in the preferences.
 
 ----
 
@@ -256,7 +270,7 @@ There are options to:
 * Add speed buttons to the ends of the slider (with further options to increase the separation)
 * Replace the slider with large speed buttons only.
 
-(If you are using a gamepad or ESU MCII, then you may like to remove the slider AND the speed buttons.)
+      (If you are using a gamepad or ESU MCII, then you may like to remove the slider AND the speed buttons.)
 
 Q. I have a small screen Android device.  It doesn't fit well?
 
