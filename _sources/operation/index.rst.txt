@@ -148,8 +148,8 @@ There are three ways to load & store your Locomotive Icon Image in Engine Driver
 
   * / (forward slash) 
   * " (double quote)
-  * \\ (back slash)
-  * * (asterix)
+  * \\ (backslash)
+  * \* (asterix)
   * ? (question mark)
   * < (less than)
   * > (greater than)
