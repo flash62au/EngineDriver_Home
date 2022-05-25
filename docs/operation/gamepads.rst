@@ -134,8 +134,9 @@ This has been successful with the 'Android C' mode.
 
 **DIY Arduino ESP32 + keypad + Rotary Encoder**
 
-This has been successful with the 'Android C' mode.
-See https://github.com/flash62au/WiTcontroller for details
+This is a DIY gamepad with a keypad and physical dial.
+
+See https://github.com/flash62au/WiTcontroller for details.
 
 **Normal Keyboard**
 
@@ -157,7 +158,12 @@ Unsupported gamepads
 ^^^^^^^^^^^^^^^^^^^^
 
 **VR Box**
-http://www.ebay.com.au/itm/Bluetooth-Self-timer-Remote-Controller-Gamepad-for-Android-IOS-VR-3D-White-SB/311834056448?ssPageName=STRK%3AMEBIDX%3AIT&_trksid=p2060353.m2749.l2649 
+
+Support for this type of gamepad was removed from engine driver.
+
+.. image:: ../_static/images/gamepads/vrbox.png
+   :scale: 70 %
+
 
 ----
 
@@ -165,7 +171,7 @@ http://www.ebay.com.au/itm/Bluetooth-Self-timer-Remote-Controller-Gamepad-for-An
 Keyboard Commands
 -----------------
 
-For use when ``Keyboard`` is selected as the gamepad type
+For use when ``Keyboard`` is selected as the gamepad type:
 
 * 'Up' or 'Page Up' or '+' or '=' = Increase Speed
 * 'Media Next' = Increase Speed * 2
@@ -189,4 +195,6 @@ For use when ``Keyboard`` is selected as the gamepad type
   * 'M' or 'Volume Mute' = Mute IPLS
 * T0 - T5 = Specify a throttle for next command |br|\ Must be 'T' followed by one digit |br|\ or 'Esc' followed by two 'F' button equivalents F10=0, F1-F9=1-9 |br|\ The following command will sent to the specified throttle regardless of the currently selected gamepad throttle.
 
-All other keyCodes are ignored
+All other keyCodes are ignored.
+
+These same keycodes are used by the DIY Arduino controllers.
