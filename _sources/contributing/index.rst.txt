@@ -36,7 +36,7 @@ Here are all the steps needed for Microsoft Windows:
 * Install `Android Studio <https://developer.android.com/studio>`_.
 * Open Android Studio |br|\ (If necessary, close any open project and restart, so you get the Welcome Wizard)
 * Select ``Check out project from Version control`` -> Git
-* In the Clone Repository window, enter the Git Repository URL: ``https://github.com/JMRI/EngineDriver``, -> ``Clone``.  |br|\ *Note this is the original repoisitory, not your clone.*
+* In the Clone Repository window, enter the Git Repository URL: ``https://github.com/JMRI/EngineDriver``, -> ``Clone``.  |br|\ *Note this is the original repository, not your clone.*
 * Open the project. 
 * Only if needed...
 
@@ -107,15 +107,16 @@ The steps listed here provide guidance on how to edit and preview changes to the
 Style Guidelines
 ^^^^^^^^^^^^^^^^
 
-* Use British/Australian spelling (e.g. 'colour' not 'color')
-*	Use railway terminology that is understandable by all English-speaking people |br|\ Where there are clear differences from US to non-US terminology use both with a slash between. e.g. turnouts/points, consists/multiple units, switching/shunting
+* Use British/Australian spelling e.g. 'colour' not 'color'.  (Primarily because it is used in more English speaking countries)
+*	Use railway terminology that is understandable by all English-speaking people. |br|\ Where there are clear differences from US to non-US terminology use both with a slash between. e.g. turnouts/points, consists/multiple units, switching/shunting.  (Primarily because JMRI uses the US terminology)
 *	No full stop at the end of a numbered or unnumbered list
 *	Numbered lists should be avoided, unless there is a specific need
 * Use first person (you and your; not I, me, my or am) language
-*	A string of nouns sould be sequenced in alphabetic order, unless it makes more sense within the context to display them in some other sequence
+*	A string of nouns should be sequenced in alphabetic order, unless it makes more sense within the context to display them in some other sequence
 * Double quotes (") should only be used for quoting text from people, documents or web sites
 *	No quotes around 'Also See' type references
-*	Avoid '(above)' or '(below)' in text.  Use hyperext links instead
+*	Avoid '(above)' or '(below)' in text.  Use hypertext links instead
 *	'TODO' or 'TBA' in the text means that it is still a work-in-process and needs to be updated.  It may be followed by descriptive text in italics describing the issue to be fixed
-* Use \`\`\ ``literal text blocks``\`\` when descibing buttons, menu items, preferences
-*  Avoid using 'phone' alone. Preferably use 'Android device/phone'
+* Use \`\`\ ``literal text blocks``\`\` when describing buttons, menu items, preferences
+* Avoid using 'phone' alone. Preferably use 'Android device/phone'
+* For dates, use dd-mmm-yyyy or yyyy-mm-dd to avoid confusion with the way dates are uniquely written in the US. |br|\ e.g. 2-Mar-2022 or 2022-3-2, not 2-3-2022 

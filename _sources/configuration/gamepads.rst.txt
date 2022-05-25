@@ -31,7 +31,7 @@ Configuring the buttons
 
 All the buttons, plus the four directions of the DPad, can be set to any of the following actions:
 
-* All Stop |br|\ Stops all locos controled by the device only.
+* All Stop |br|\ Stops all locos controlled by the device only.
 * Stop
 * Forward
 * Reverse
@@ -70,8 +70,8 @@ All the buttons, plus the four directions of the DPad, can be set to any of the 
 * Function 26
 * Function 27
 * Function 28
-* Mute (IPLS) |br|\ 'In Phone Loco sounds' must be enabled for the current thottle ``Throttle 1 Loco Sounds`` or ``Throttle 2 Loco Sounds``
-* Bell (IPLS) |br|\ 'In Phone Loco sounds' must be enabled for the current thottle ``Throttle 1 Loco Sounds`` or ``Throttle 2 Loco Sounds``
-* Horn (IPLS) |br|\ 'In Phone Loco sounds' must be enabled for the current thottle ``Throttle 1 Loco Sounds`` or ``Throttle 2 Loco Sounds``
-* Horn Short (IPLS) |br|\ 'In Phone Loco sounds' must be enabled for the current thottle ``Throttle 1 Loco Sounds`` or ``Throttle 2 Loco Sounds``
-* Speak Current Speed |br|\ 'Text to Speach (TTS)' ``Voice Response`` preference must be enabled for this to work
+* Mute (IPLS) |br|\ 'In Phone Loco sounds' must be enabled for the current throttle ``Throttle 1 Loco Sounds`` or ``Throttle 2 Loco Sounds``
+* Bell (IPLS) |br|\ 'In Phone Loco sounds' must be enabled for the current throttle ``Throttle 1 Loco Sounds`` or ``Throttle 2 Loco Sounds``
+* Horn (IPLS) |br|\ 'In Phone Loco sounds' must be enabled for the current throttle ``Throttle 1 Loco Sounds`` or ``Throttle 2 Loco Sounds``
+* Horn Short (IPLS) |br|\ 'In Phone Loco sounds' must be enabled for the current throttle ``Throttle 1 Loco Sounds`` or ``Throttle 2 Loco Sounds``
+* Speak Current Speed |br|\ 'Text to Speech (TTS)' ``Voice Response`` preference must be enabled for this to work

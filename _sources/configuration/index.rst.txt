@@ -24,9 +24,9 @@ Some of the many Preferences include:
 * You can set the initial web page for the full-size web panel, or enable the smaller web view on the throttle screen. 
 * There are also settings to help maximize the use of your device's smaller screen by hiding items not relevant to you.
 
-Look around in Preferences, there are a huge number of settings to personalize EngineDriver, including many more if you enable ``Show Advanced Preferences``.
+Look around in Preferences, there are a huge number of settings to personalize Engine Driver, including many more if you enable ``Show Advanced Preferences``.
 
-The full list of preferences can be found [`here <./preferences.html>`_]
+See below, and/or the `full list of preferences <./preferences.html>`_ for more information.
 
 The **Functions buttons** are changed via the ``Function Buttons`` menu option
 
@@ -43,16 +43,16 @@ On the wiThrottle server side (JMRI)
 -------------------------------------
 
 * Check your preferences/settings to insure you allow or disallow the control features desired. 
-* If you've defined your turnouts and routes in a panel file, make sure to specify "user names" for those you'd like to see listed on your throttle. 
-* You can also "filter" the turnouts shown using the WiThrottle->Filter Controls option in the WiThrottle window.
+* If you've defined your turnouts/points and routes in a panel file, make sure to specify 'user names' for those you'd like to see listed on your throttle. 
+* You can also 'filter' the turnouts shown using the WiThrottle->Filter Controls option in the WiThrottle window.
 * Entering roster entries, and defining routes and turnouts on the server will all make your Engine Driver throttle more powerful and easier to use (though not required). 
 * Engine Driver will show additional info if the JMRI Web Server is started (such as roster details and icon images).
 
 Note for MRC users: David Fuller has provided some `additional setup information [here] <https://enginedriver.mstevetodd.com/sites/enginedriver.mstevetodd.com/files/EngineDriver_App-MRC_Wi-Fi_Module_Settings.pdf>`_.
 
-----------------
-Addional Details
-----------------
+------------------
+Additional Details
+------------------
 
 .. toctree::
     :maxdepth: 1

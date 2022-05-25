@@ -42,7 +42,7 @@ your DCC base station directly while you are running your trains.
 Notes:
 
 * 'WiThrottle' is a trademark owned by Brett Hoffman.
-* 'WiThrottle' is a propriatory  `iOS app <https://www.withrottle.com/html/home.html>`_ developed by Brett Hoffman which has similar capabilities to Engine Driver.
+* 'WiThrottle' is a proprietary  `iOS app <https://www.withrottle.com/html/home.html>`_ developed by Brett Hoffman which has similar capabilities to Engine Driver.
 * The 'WiThrottle protocol' is a proprietary protocol developed by Brett Hoffman.  It is used JMRI, Engine Driver and a number of DCC Command Stations.
 * References in this website to a 'WiThottle Server', refer to a server that can process and communicate via the 'WiThrottle protocol'.
 
