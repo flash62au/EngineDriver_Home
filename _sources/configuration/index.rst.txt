@@ -18,13 +18,13 @@ Most configuration options are found in the ``Preferences`` which is accessed vi
 
 Some of the many Preferences include:
 
-* You can turn off the "stop on release" feature
+* You can turn off the ``stop on release`` preference
 * You can set a Maximum value and Maximum change% for the throttle sliders. 
 * If the throttle slider is too small for your fingers, increase the size. 
 * You can set the initial web page for the full-size web panel, or enable the smaller web view on the throttle screen. 
 * There are also settings to help maximize the use of your device's smaller screen by hiding items not relevant to you.
 
-Look around in Preferences, there are a huge number of settings to personalize EngineDriver, including many more if you enable "Show Advanced Preferences".
+Look around in Preferences, there are a huge number of settings to personalize EngineDriver, including many more if you enable ``Show Advanced Preferences``.
 
 The full list of preferences can be found [`here <./preferences.html>`_]
 
