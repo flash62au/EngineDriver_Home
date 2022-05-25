@@ -25,7 +25,7 @@ Moving to a new phone/device
 
 * Connect your new Android device/phone to your PC 
 * Copy the files you saved onto the new device in the Engine Driver folder ``/Android/data/jmri.enginedriver/files`` .
-* Cisconnect the Android device/phone
+* Disconnect the Android device/phone
 
 **Re-start Engine Driver on the New Android device/phone**
 

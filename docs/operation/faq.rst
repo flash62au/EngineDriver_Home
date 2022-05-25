@@ -49,7 +49,7 @@ Q. Why doesn't Engine Driver automatically find my server?
 
 I can manually connect to my Server / Railroad, but it never finds it automatically.
 
-A1. One reason can be your router doesnt not support the 'Bonjour' protocol. There is not much you can do if this is the case other than trying a different router.
+A1. One reason can be your router doesn't not support the 'Bonjour' protocol. There is not much you can do if this is the case other than trying a different router.
 
 A2. 4.5ghz and 5ghz. <stuff goes here>
 

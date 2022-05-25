@@ -25,7 +25,7 @@ Glossary
 |USB                      |Universal Serial Bus                                           |
 +-------------------------+---------------------------------------------------------------+
 |WiThrottle               |Trademark owned by Brett Hoffman |br|                          |
-|                         |propriatory iOS app developed by Brett Hoffman                 |
+|                         |proprietary iOS app developed by Brett Hoffman                 |
 +-------------------------+---------------------------------------------------------------+
 |WiThrottle protocol      |proprietary protocol developed by Brett Hoffman                |
 +-------------------------+---------------------------------------------------------------+

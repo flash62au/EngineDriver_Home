@@ -142,7 +142,7 @@ See https://github.com/flash62au/WiTcontroller for details.
 
 This has been successful.  See below for the keystroke meanings when using a keyboard.
 
-Note: In the gamepage test screen, just select 'Skip' to use the keyboard.
+Note: In the gamepad test screen, just select 'Skip' to use the keyboard.
 
 
 ^^^^^^^^^^^^^^^^^^^^^^^^

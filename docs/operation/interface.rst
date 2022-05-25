@@ -75,9 +75,9 @@ This screen allows you to display all Routes that have been defined in JMRI or D
 Web Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-This screen displays a web brower interface that lets you view any web page. Normally this will be a web page on your JMRI server. 
+This screen displays a web browser interface that lets you view any web page. Normally this will be a web page on your JMRI server. 
 
-From the JMRI web server you can view and interact with additonal features of JMRI.  The menu at the top right of the web panel screen allows you to further display:
+From the JMRI web server you can view and interact with additional features of JMRI.  The menu at the top right of the web panel screen allows you to further display:
 
 * Rosters
 * Operations
