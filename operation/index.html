@@ -206,7 +206,7 @@
 <li><p><a class="reference internal" href="#turnouts-points" id="id7">Turnouts / Points</a></p></li>
 <li><p><a class="reference internal" href="#routes" id="id8">Routes</a></p></li>
 <li><p><a class="reference internal" href="#panels-and-web-pages" id="id9">Panels and Web Pages</a></p></li>
-<li><p><a class="reference internal" href="#other-stuff" id="id10">Other stuff</a></p></li>
+<li><p><a class="reference internal" href="#other-stuff-tba" id="id10">Other stuff TBA</a></p></li>
 <li><p><a class="reference internal" href="#locomotive-icons-in-the-roster" id="id11">Locomotive Icons in the Roster</a></p></li>
 </ul>
 </li>
@@ -218,28 +218,54 @@
 <hr class="docutils" />
 <div class="section" id="quick-start-basic-information">
 <h2><a class="toc-backref" href="#id2">Quick Start / Basic Information</a><a class="headerlink" href="#quick-start-basic-information" title="Permalink to this headline">¶</a></h2>
-<ul class="simple">
+<ul>
+<li><p>Start your wiThrottle server</p>
+<ul>
+<li><p>For JMRI, Start the <a class="reference external" href="https://www.jmri.org/help/en/package/jmri/jmrit/withrottle/Protocol.shtml">WiThrottle</a> function of JMRI, located in DecoderPro under Tools, Throttles. It is also highly recommended that you start the <a class="reference external" href="https://www.jmri.org/help/en/html/web/index.shtml">JMRI Web Server function</a> (Tools, Start JMRI Web Server).</p></li>
+<li><p>For other devices, turning them on a waiting a minute or two should be sufficient.</p>
+<p>See the <a class="reference external" href="../prerequisites/index.html">Prerequisites</a> page for more infomation.</p>
+</li>
+</ul>
+</li>
 <li><p>On your Android device, make sure you are connected to same network as the WiThrottle server’s network.</p></li>
 <li><p>Start the Engine Driver app</p>
 <ul>
-<li><p>The first time you run Engine Driver you will need to go through the Setup Wizard to enable the permissions and select a few significant preferences.  See the <a class="reference external" href="../configuration/setup_wizard.html">Setup Wizard</a> page for more infomation.</p></li>
+<li><p>The first time you run Engine Driver you will need to go through the Setup Wizard to enable the permissions and select a few significant preferences.</p>
+<p>See the <a class="reference external" href="../configuration/setup_wizard.html">Setup Wizard</a> page for more infomation.</p>
+</li>
 </ul>
 </li>
 <li><p>Wait for your server’s address to show up in “Discovered Servers”.</p></li>
 <li><p>Click on the discovered address,</p>
-<ul>
+<ul class="simple">
 <li><p>If the server does not show up, check that are on the same network as the WiThrottle server.</p></li>
-<li><p>If the server <em>never</em> appears in the discovered list, type in the IP address and Port of the WiThrottle server (Using the values shown on the JMRI WiThrottle window) and press <code class="docutils literal notranslate"><span class="pre">Connect</span></code>. <br />Note: this is sometimes possible even if you are on the same network. <br /><br />NOTE: see the <a class="reference external" href="./wifi_issues.html">WiFi connection page</a> for more assistance on connection issues. <br />There is also a “demo” server at <strong>jmri.mstevetodd.com</strong>, port <strong>44444</strong> that you can connect to for testing. <br /><br /></p></li>
+<li><p>If the server <em>never</em> appears in the discovered list, type in the IP address and Port of the WiThrottle server (Using the values shown on the JMRI WiThrottle window) and press <code class="docutils literal notranslate"><span class="pre">Connect</span></code>. <br />Note: this situation is sometimes possible even if you are on the same network. <br /><br />NOTE: see the <a class="reference external" href="./wifi_issues.html">WiFi connection page</a> for more assistance on connection issues. <br />There is also a “demo” server at <strong>jmri.mstevetodd.com</strong>, port <strong>44444</strong> that you can connect to for testing. <br /><br /></p></li>
 </ul>
 </li>
-<li><p>On the throttle screen, click on the <code class="docutils literal notranslate"><span class="pre">Select</span></code> loco button for each loco.</p></li>
-<li><p>On the next  (Loco Select) screen, click on a loco from the Roster or Recent lists, or enter the loco address (verify short or long), and press <code class="docutils literal notranslate"><span class="pre">Acquire</span></code>. You will be returned to the Throttle screen.</p></li>
-<li><p>Repeat using another <code class="docutils literal notranslate"><span class="pre">Select</span></code> button to acquire another loco to create an on-the-fly consist.</p></li>
-<li><p>Operate your loco using the slider, or volume hardware buttons, or optional buttons for speed, and the reverse, stop and forward buttons to control direction.</p></li>
-<li><p>To release all locos, just press the Back button and exit the app. This will also stop your locos (can be overridden in preferences). You can reassign the volume control by clicking on * the speed indicator (the small “v” shows which has control).</p></li>
-<li><p>To create a consist “on-the-fly”, simply select additional locos for the same throttle, then select which way the new loco if facing. Direction and speed will be sent for all. Release will release all for that throttle.</p></li>
+<li><p>On the throttle screen, click on the <code class="docutils literal notranslate"><span class="pre">Select</span></code> loco button.</p></li>
+<li><p>On the next (Loco Select) screen, either:</p>
+<ul>
+<li><p>click on a loco from the Roster or Recent lists,</p></li>
+<li><p>or enter the loco address (verify short or long), and press <code class="docutils literal notranslate"><span class="pre">Acquire</span></code>.</p>
+<p>You will be returned to the Throttle screen.</p>
+<p>For Consists / multiple units, see the note below</p>
+</li>
+</ul>
+</li>
+<li><p>Operate your loco</p>
+<ul class="simple">
+<li><p>Use the slider, or volume hardware buttons, or optional buttons for speed,</p></li>
+<li><p>Use the <code class="docutils literal notranslate"><span class="pre">Forward</span></code> and <code class="docutils literal notranslate"><span class="pre">Reverse</span></code> buttons to control direction.</p></li>
+</ul>
+</li>
 <li><p>Press your phone’s Menu button to access screens for Turnout, Route and Power control, as well as adjust settings and set numerous preferences.</p></li>
-<li><p>You can also “fling” left or right to jump quickly back and forth between the Throttle, Routes, Turnouts and Web pages (use Preferences to choose)</p></li>
+<li><p>You can also “fling” left or right to jump quickly back and forth between the Throttle, Routes, Turnouts and Web pages (use Preferences to choose) <br /><br /></p></li>
+<li><p>To release a single loco (or consist), click <code class="docutils literal notranslate"><span class="pre">Select</span></code> again and click the <code class="docutils literal notranslate"><span class="pre">Release</span></code> button.</p></li>
+<li><p>To release all locos, just press the <code class="docutils literal notranslate"><span class="pre">Back</span></code> button and exit the app. <br />This will also stop your locos (can be overridden in preferences).</p></li>
+</ul>
+<p>Note:</p>
+<ul class="simple">
+<li><p>To create a consist “on-the-fly”, simply select additional locos for the same throttle, then select which way the new loco if facing. Direction and speed will be sent for all. Release will release all for that throttle.</p></li>
 </ul>
 </div>
 <hr class="docutils" />
@@ -248,12 +274,16 @@
 <div class="section" id="connecting">
 <h3><a class="toc-backref" href="#id4">Connecting</a><a class="headerlink" href="#connecting" title="Permalink to this headline">¶</a></h3>
 <p>TBA</p>
+<p>Connecting to the network</p>
+<p>Connecting the wiThrottle server</p>
+<p>Auto connecting</p>
+<p><a class="reference external" href="./wifi_issues.html">Connection issues</a></p>
 </div>
 <div class="section" id="selecting-releasing-locos">
 <h3><a class="toc-backref" href="#id5">Selecting / Releasing Locos</a><a class="headerlink" href="#selecting-releasing-locos" title="Permalink to this headline">¶</a></h3>
 <p>TBA</p>
 <p>Single loco</p>
-<p>On the fly / In Phone Consists</p>
+<p>On the fly / In Phone Consists (Multiple Units)</p>
 <ul class="simple">
 <li><p>direction</p></li>
 <li><p>changing order</p></li>
@@ -267,8 +297,14 @@
 <p>Sliders</p>
 <p>Direction</p>
 <p>Functions</p>
+<ul class="simple">
+<li><p>Common Functions</p></li>
+<li><p>Function Labels</p></li>
+<li><p>Functions in consists</p></li>
+</ul>
 <p>Volume Keys</p>
-<p>Gamepads</p>
+<p>IPLS</p>
+<p>Gamepads  See <a class="reference external" href="./gamepads.html">gamepads</a></p>
 </div>
 <div class="section" id="turnouts-points">
 <h3><a class="toc-backref" href="#id7">Turnouts / Points</a><a class="headerlink" href="#turnouts-points" title="Permalink to this headline">¶</a></h3>
@@ -282,8 +318,8 @@
 <h3><a class="toc-backref" href="#id9">Panels and Web Pages</a><a class="headerlink" href="#panels-and-web-pages" title="Permalink to this headline">¶</a></h3>
 <p>TBA</p>
 </div>
-<div class="section" id="other-stuff">
-<h3><a class="toc-backref" href="#id10">Other stuff</a><a class="headerlink" href="#other-stuff" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="other-stuff-tba">
+<h3><a class="toc-backref" href="#id10">Other stuff TBA</a><a class="headerlink" href="#other-stuff-tba" title="Permalink to this headline">¶</a></h3>
 <p>TBA</p>
 </div>
 <div class="section" id="locomotive-icons-in-the-roster">
