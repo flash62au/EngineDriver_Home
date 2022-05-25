@@ -6,25 +6,27 @@ Moving to a new phone/device
    :description: JMRI Engine Driver Throttle
    :keywords: Engine Driver EngineDriver JMRI manual help
 
-On the old device
+**On the old Android device/phone**
 
 * Start Engine Driver
 * Use ``Export`` function in Engine Driver preferences
 
-On a PC
+**On a PC**
 
-* connect your old device to your PC 
-* copy the files in the Engine Driver folder ``/Android/data/jmri.enginedriver/files`` off your old device to the PC
+* Connect your old Android device/phone to your PC 
+* Copy the files in the Engine Driver folder ``/Android/data/jmri.enginedriver/files`` off your old device to the PC
 
-On the new Device
+**On the new Android device/phone**
 
 * Install Engine Driver 
 * Run it once. Then Exit.  (This will create the Engine Driver folder)
 
-On a PC
-* connect your new device to your PC 
-* copy the files you saved onto the new device in the Engine Driver folder ``/Android/data/jmri.enginedriver/files`` .
-* disconnect the device
+**On a PC**
 
-Re-start Engine Driver on the New Device
+* Connect your new Android device/phone to your PC 
+* Copy the files you saved onto the new device in the Engine Driver folder ``/Android/data/jmri.enginedriver/files`` .
+* Cisconnect the Android device/phone
+
+**Re-start Engine Driver on the New Android device/phone**
+
 * Use the ``Import`` function in Engine Driver preferences

@@ -10,7 +10,26 @@ Gamepads
 
    <br />
 
-All the buttons plus the four directions of the DPad can be set to any of the following actions:
+^^^^^^^^^^^^^^^^^^^^^^^^^
+Selecting a Gamepad Type
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Choose a gamepad type in the ``Gamepad type`` preference.  Available options include:
+
+* Mocute 
+* MagicSeeR1
+* Flydigi Wee 2
+* Utopia 360
+* DIY Arduino ESP32 + keypad + Rotary Encoder
+* Normal Keyboard
+
+See `Selecting Gamepads </operation/gamepads.html#sample-gamepads>`_ for more infomation.
+
+^^^^^^^^^^^^^^^^^^^^^^^^^
+Configuring the buttons
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+All the buttons, plus the four directions of the DPad, can be set to any of the following actions:
 
 * All Stop |br|\ Stops all locos controled by the device only.
 * Stop

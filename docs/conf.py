@@ -20,7 +20,7 @@ import sphinx_rtd_theme
 
 project = 'Engine Driver Throttle Home'
 copyright = 'M Steve Todd'
-author = 'M Steve Todd, Peter Akers'
+author = 'M Steve Todd, Peter Akers, Robert Posener'
 
 
 # -- General configuration ---------------------------------------------------

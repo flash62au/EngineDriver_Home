@@ -180,6 +180,9 @@ A. The Roster List, and Recent Locos List on the Select Loco screen will automat
   * The loco itself has an icon added for it in the JMRI roster |br|\ OR
   * A locally cached or manually chosen image is available for the loco (see 'Locomotive Icons' on the `Operation page <../operations/index.html>`_)
 
+Q. Why can't I control 6 locos
+
+A. only the 'Simple' throttle layout allows for 6 throttles
 
 ----
 
