@@ -39,6 +39,9 @@ Device Preferences
 
 
   * Localisation
+
+      Changing this setting not only changes the language that is used, it also changes the railway terminology (eg, Selecting 'Use Phone’s global setting' and having this set to 'English (Australia)' then causes the term 'Points' to be displayed rather than 'Turnouts' as is displayed when 'English (US)' is selected). In the Preferences screen and the Throttle Screen Layout selection screen (where 'shunting' is displayed rather than 'switching').  This is not guaranteed to operate on all text on all screens. 
+
   * Left/Right Swipe Preferences
   
     * Disable full screen Swipe?

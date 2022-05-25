@@ -22,6 +22,19 @@ You can also control layout power, turnouts/points, routes, and access JMRI web 
 
 `Using Engine Driver <./operation/index.html>`_
 
+---------------------
+Why Use Engine Driver
+---------------------
+
+You can use Engine Driver to operate your DCC model railway without being physically
+tethered by any wires. This allows you to walk around your layout, following your trains
+and/or position yourself anywhere around your layout (eg, at your favourite viewing
+position).
+
+You only need to interact with JMRI and/or your DCC base station directly when setting up or
+re-configuring your layout. Once configured, you do not need to operate either JMRI or
+your DCC base station directly while you are running your trains. 
+
 .. toctree::
    :hidden:
    :maxdepth: 4
