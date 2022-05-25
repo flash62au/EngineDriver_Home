@@ -23,14 +23,14 @@ Quick Start / Basic Information
   * For JMRI, Start the `WiThrottle <https://www.jmri.org/help/en/package/jmri/jmrit/withrottle/Protocol.shtml>`_ function of JMRI, located in DecoderPro under Tools, Throttles. It is also highly recommended that you start the `JMRI Web Server function <https://www.jmri.org/help/en/html/web/index.shtml>`_ (Tools, Start JMRI Web Server). 
   * For other devices, turning them on a waiting a minute or two should be sufficient.
 
-    See the `Prerequisites <../prerequisites/index.html>`_ page for more infomation.
+    See the `Prerequisites <../prerequisites/index.html>`_ page for more information.
 
 * On your Android device, make sure you are connected to same network as the WiThrottle server's network.
 * Start the Engine Driver app 
 
   * The first time you run Engine Driver you will need to go through the Setup Wizard to enable the permissions and select a few significant preferences.  
    
-    See the `Setup Wizard <../configuration/setup_wizard.html>`_ page for more infomation.
+    See the `Setup Wizard <../configuration/setup_wizard.html>`_ page for more information.
 
 * Wait for your server's address to show up in "Discovered Servers".
 * Click on the discovered address, 
