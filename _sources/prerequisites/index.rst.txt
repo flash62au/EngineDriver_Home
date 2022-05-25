@@ -15,6 +15,7 @@ Make sure you are running one of the latest versions of `JMRI <https://jmri.org/
 Start up JMRI and verify you can use JMRI's included "Throttle" window to control a loco on your layout.
 
 Start the `WiThrottle <https://www.jmri.org/help/en/package/jmri/jmrit/withrottle/Protocol.shtml>`_ function of JMRI, located in DecoderPro under Tools, Throttles.  
+
 It is also highly recommended that you start the `JMRI Web Server function <https://www.jmri.org/help/en/html/web/index.shtml>`_ (Tools, Start JMRI Web Server). 
 Both of these should be added to Preferences, Start Up as well.
 

@@ -100,3 +100,22 @@ The steps listed here provide guidance on how to edit and preview changes to the
 * Save, then check and preview your changes by running ``make github`` from the root of the ``EngineDriver_Home`` folder. |br|\ This must be done from ``cmd.exe`` in Windows, not ``PowerShell``. If any warnings are reported, fix these and run make github again. Then go to your local directory ``EngineDriver_Home/docs/_build/html`` and open ``index.html`` in Chrome or another browser.  
 * Use Github Desktop to commit and then push your changes. |br|\ You can check the actions to see if it built correctly. |br|\ You can preview the pages on github at ``https://<yourname>.github.io/EngineDriver_Home``
 * Go to GitHub and issue a pull request for your branch to be pulled into the main branch. |br|\ Once it's merged in by one of the admins, your changes will go live!
+
+----
+
+^^^^^^^^^^^^^^^^
+Style Guidelines
+^^^^^^^^^^^^^^^^
+
+* Use British/Australian spelling (e.g. 'colour' not 'color')
+*	Use railway terminology that is understandable by all English-speaking people |br|\ Where there are clear differences from US to non-US terminology use both with a slash between. e.g. turnouts/points, consists/multiple units, switching/shunting
+*	No full stop at the end of a numbered or unnumbered list
+*	Numbered lists should be avoided, unless there is a specific need
+* Use first person (you and your; not I, me, my or am) language
+*	A string of nouns sould be sequenced in alphabetic order, unless it makes more sense within the context to display them in some other sequence
+* Double quotes (") should only be used for quoting text from people, documents or web sites
+*	No quotes around 'Also See' type references
+*	Avoid '(above)' or '(below)' in text.  Use hyperext links instead
+*	'TODO' or 'TBA' in the text means that it is still a work-in-process and needs to be updated.  It may be followed by descriptive text in italics describing the issue to be fixed
+* Use \`\`\ ``literal text blocks``\`\` when descibing buttons, menu items, preferences
+*  Avoid using 'phone' alone. Preferably use 'Android device/phone'

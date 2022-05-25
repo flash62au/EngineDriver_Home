@@ -1,5 +1,5 @@
 *******************************************
-Interface
+Usere Interface
 *******************************************
 
 .. meta::
@@ -18,74 +18,72 @@ Interface
 Main Screens
 -------------
 
-TBA
-
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Connection Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-This screen allows you to 
+This screen allows you to connect to a WiThrottle Server, which you must do to control your trains.
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Throttle Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This screen allows you to control:
-The direction of your trains
-The speed of your trains
-Initiating special locomotive decoder functions like:
-Turning the light on or off
-Ringing the bell
-Tooting the whistle/horn
-Toolbar/Status Row/Action Area
-TODO Resolve what this area is called and standardise in Help AND the Engine Driver app TODO
-The Toolbar Area displays:
-The app name (“Engine Driver”)
-Various optionally configured buttons:
-Emergency Stop
-Track Power
-Flashlight
-Fast Clock
-Throttle Web View
-Layout Switching
-In Phone Sound
-Hamburger Menu
-The “optionally configured buttons” are configured via the Preferences > Throttle Screen Status Row Preferences.
-Throttle Area
-The Throttle may configured to be simple buttons that allow you to increase or decrease the locomotive’s speed in pre-defined steps.  Alternatively, the Throttle may be configured as a slider.  A slider can be configured as one-directional or bi-directional.  Bi-directional sliders are useful for when you are shunting backwards and forwards a lot.
+
+* The speed and direction of your trains
+* Initiate special locomotive decoder functions like the light, bell, horn 
+* Accessing the Action Bar buttons and Menu features. |br|\ These include:
+
+  * Emergency Stop
+  * Track Power
+  * Flashlight
+  * Throttle Web View
+  * Throttle Layout Switching
+  * Layout Switching
+  * In Phone Loco Sound
+
+      The optionally configured buttons are configured via the Preferences > Throttle Screen Status Row Preferences.
+      Throttle Area
+
+The Throttle may configured to be simple buttons that allow you to increase or decrease the locomotive's speed in pre-defined steps.  Alternatively, the Throttle may be configured as a slider.  A slider can be configured as one-directional (0-100) or bi-directional (-100 - 0 - +100).  Bi-directional sliders are useful for when you are switching/shunting. i.e. moving backwards and forwards a lot.
+
 Direction Buttons Area
 
 Function Buttons Scroll Area
+
 Function Buttons are displayed here.  If there are too many to display in the screen area allocated, then the area becomes scrollable (but without scroll bars) so that they can all be viewed and pressed as needed.
+
 Web View Area
+
 Your JMRI Layout panel is displayed here if you have configured it to do so in Preferences. TODO
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Turnouts/Points Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-This screen allows you to display all Points that have been defined in JMRI.
-Points can be changed from Closed to Thrown and vice versa be pressing on either the “Closed” or “Thrown” buttons
+This screen allows you to display all Turnouts/Points that have been defined in JMRI.
+
+Turnouts/Points can be changed from Closed to Thrown and vice versa be pressing on either the “Closed” or “Thrown” buttons
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Routes Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-This screen allows you to display all Routes that have been defined in JMRI.
+This screen allows you to display all Routes that have been defined in JMRI or DCC++EX.
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Web Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-This screen displays a separate Engine Driver screen that displays a web brower interface that lets you view any web page. Normally this will be a web page on your JMRI server. 
+This screen displays a web brower interface that lets you view any web page. Normally this will be a web page on your JMRI server. 
 
-From the JMRI web serer you can view an interact with.  The hamburger menu at the top right of the web panel screen allows you to further display:
+From the JMRI web server you can view and interact with additonal features of JMRI.  The menu at the top right of the web panel screen allows you to further display:
 
 * Rosters
 * Operations
 * Trains
 * Tables
-* Turnouts / Points |br|\ A list of turnouts is displayed in tabular form.  Turnouts can be changed from Closed to Thrown and vice versa by pressing on the “State” column's “closed” or “thrown” words.
+* Turnouts/Points |br|\ A list of turnouts is displayed in tabular form.  Turnouts can be changed from Closed to Thrown and vice versa by pressing on the “State” column's “closed” or “thrown” words.
 * Sensors
 * Routes
 * Reporters
