@@ -303,8 +303,8 @@ These seem to be slightly better quality than the one above, but are more expens
 <p><strong>Utopia 360</strong></p>
 <p>This has been successful with the ‘Android C’ mode.</p>
 <p><strong>DIY Arduino ESP32 + keypad + Rotary Encoder</strong></p>
-<p>This has been successful with the ‘Android C’ mode.
-See <a class="reference external" href="https://github.com/flash62au/WiTcontroller">https://github.com/flash62au/WiTcontroller</a> for details</p>
+<p>This is a DIY gamepad with a keypad and physical dial.</p>
+<p>See <a class="reference external" href="https://github.com/flash62au/WiTcontroller">https://github.com/flash62au/WiTcontroller</a> for details.</p>
 <p><strong>Normal Keyboard</strong></p>
 <p>This has been successful.  See below for the keystroke meanings when using a keyboard.</p>
 <p>Note: In the gamepage test screen, just select ‘Skip’ to use the keyboard.</p>
@@ -316,14 +316,15 @@ See <a class="reference external" href="https://github.com/flash62au/WiTcontroll
 </div>
 <div class="section" id="unsupported-gamepads">
 <h3>Unsupported gamepads<a class="headerlink" href="#unsupported-gamepads" title="Permalink to this headline">¶</a></h3>
-<p><strong>VR Box</strong>
-<a class="reference external" href="http://www.ebay.com.au/itm/Bluetooth-Self-timer-Remote-Controller-Gamepad-for-Android-IOS-VR-3D-White-SB/311834056448?ssPageName=STRK%3AMEBIDX%3AIT&amp;_trksid=p2060353.m2749.l2649">http://www.ebay.com.au/itm/Bluetooth-Self-timer-Remote-Controller-Gamepad-for-Android-IOS-VR-3D-White-SB/311834056448?ssPageName=STRK%3AMEBIDX%3AIT&amp;_trksid=p2060353.m2749.l2649</a></p>
+<p><strong>VR Box</strong></p>
+<p>Support for this type of gamepad was removed from engine driver.</p>
+<a class="reference internal image-reference" href="../_images/vrbox.png"><img alt="../_images/vrbox.png" src="../_images/vrbox.png" style="width: 219.79999999999998px; height: 119.69999999999999px;" /></a>
 </div>
 </div>
 <hr class="docutils" />
 <div class="section" id="keyboard-commands">
 <h2>Keyboard Commands<a class="headerlink" href="#keyboard-commands" title="Permalink to this headline">¶</a></h2>
-<p>For use when <code class="docutils literal notranslate"><span class="pre">Keyboard</span></code> is selected as the gamepad type</p>
+<p>For use when <code class="docutils literal notranslate"><span class="pre">Keyboard</span></code> is selected as the gamepad type:</p>
 <ul class="simple">
 <li><p>‘Up’ or ‘Page Up’ or ‘+’ or ‘=’ = Increase Speed</p></li>
 <li><p>‘Media Next’ = Increase Speed * 2</p></li>
@@ -347,7 +348,8 @@ See <a class="reference external" href="https://github.com/flash62au/WiTcontroll
 * ‘M’ or ‘Volume Mute’ = Mute IPLS</p></li>
 <li><p>T0 - T5 = Specify a throttle for next command <br />Must be ‘T’ followed by one digit <br />or ‘Esc’ followed by two ‘F’ button equivalents F10=0, F1-F9=1-9 <br />The following command will sent to the specified throttle regardless of the currently selected gamepad throttle.</p></li>
 </ul>
-<p>All other keyCodes are ignored</p>
+<p>All other keyCodes are ignored.</p>
+<p>These same keycodes are used by the DIY Arduino controllers.</p>
 </div>
 </div>
 
