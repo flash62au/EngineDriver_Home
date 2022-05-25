@@ -1,0 +1,487 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta content="JMRI Engine Driver Throttle" name="description" />
+<meta content="Engine Driver EngineDriver JMRI manual help interface" name="keywords" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Interface &mdash; Engine Driver Throttle Home  documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/dccex_theme.css" type="text/css" />
+
+  
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/js/platform.js"></script>
+        <script src="../_static/js/extra.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="WiFi Issues" href="wifi_issues.html" />
+    <link rel="prev" title="Operation" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search"  style="background: white" >
+          
+
+          
+            <a href="../index.html">
+          
+
+          
+            
+            <img src="../_static/logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../about/index.html">About</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../downloads/index.html">Downloads</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../changes/index.html">Changes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../prerequisites/index.html">Prerequisites</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Operation</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Interface</a></li>
+<li class="toctree-l2"><a class="reference internal" href="wifi_issues.html">WiFi Issues</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gamepads.html">Gamepads</a></li>
+<li class="toctree-l2"><a class="reference internal" href="faq.html">Frequently Asked Questions</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../configuration/index.html">Configuration</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../configuration/setup_wizard.html">Setup Wizard</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../configuration/preferences.html">Preferences</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../configuration/functions.html">Function Buttons</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../configuration/ipls.html">In Phone Loco Sounds (IPLS)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../configuration/gamepads.html">Gamepads</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../configuration/new_device.html">Moving to a new phone/device</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../screenshots/index.html">Screenshots</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../videos/index.html">Videos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../contributing/index.html">Contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../contact/index.html">Support &amp; Contact</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Engine Driver Throttle Home</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="index.html">Operation</a> &raquo;</li>
+        
+      <li>Interface</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            
+              <a href="https://github.com/flash62au/EngineDriver_Home/blob/main/docs/operation/interface.rst" class="fa fa-github"> Edit on GitHub</a>
+            
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="interface">
+<h1><a class="toc-backref" href="#id1">Interface</a><a class="headerlink" href="#interface" title="Permalink to this headline">¶</a></h1>
+<div class="contents topic" id="contents">
+<p class="topic-title">Contents</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#interface" id="id1">Interface</a></p>
+<ul>
+<li><p><a class="reference internal" href="#main-screens" id="id2">Main Screens</a></p>
+<ul>
+<li><p><a class="reference internal" href="#connection-screen" id="id3">Connection Screen</a></p></li>
+<li><p><a class="reference internal" href="#throttle-screen" id="id4">Throttle Screen</a></p></li>
+<li><p><a class="reference internal" href="#turnouts-points-screen" id="id5">Turnouts/Points Screen</a></p></li>
+<li><p><a class="reference internal" href="#routes-screen" id="id6">Routes Screen</a></p></li>
+<li><p><a class="reference internal" href="#web-screen" id="id7">Web Screen</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#secondary-support-screens" id="id8">Secondary / Support Screens</a></p>
+<ul>
+<li><p><a class="reference internal" href="#intro-setup-wizard-screen" id="id9">Intro/Setup Wizard Screen</a></p></li>
+<li><p><a class="reference internal" href="#power-screen" id="id10">Power Screen</a></p></li>
+<li><p><a class="reference internal" href="#preferences-screen" id="id11">Preferences Screen</a></p></li>
+<li><p><a class="reference internal" href="#in-phone-loco-sounds-screen" id="id12">In Phone Loco Sounds Screen</a></p></li>
+<li><p><a class="reference internal" href="#function-defaults-screen" id="id13">Function Defaults Screen</a></p></li>
+<li><p><a class="reference internal" href="#gamepad-test-screen" id="id14">Gamepad Test Screen</a></p></li>
+<li><p><a class="reference internal" href="#view-log-screen" id="id15">View Log Screen</a></p></li>
+<li><p><a class="reference internal" href="#about-screen" id="id16">About Screen</a></p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<hr class="docutils" />
+<div class="section" id="main-screens">
+<h2><a class="toc-backref" href="#id2">Main Screens</a><a class="headerlink" href="#main-screens" title="Permalink to this headline">¶</a></h2>
+<p>TBA</p>
+<div class="section" id="connection-screen">
+<h3><a class="toc-backref" href="#id3">Connection Screen</a><a class="headerlink" href="#connection-screen" title="Permalink to this headline">¶</a></h3>
+<p>This screen allows you to</p>
+</div>
+<div class="section" id="throttle-screen">
+<h3><a class="toc-backref" href="#id4">Throttle Screen</a><a class="headerlink" href="#throttle-screen" title="Permalink to this headline">¶</a></h3>
+<p>This screen allows you to control:
+The direction of your trains
+The speed of your trains
+Initiating special locomotive decoder functions like:
+Turning the light on or off
+Ringing the bell
+Tooting the whistle/horn
+Toolbar/Status Row/Action Area
+TODO Resolve what this area is called and standardise in Help AND the Engine Driver app TODO
+The Toolbar Area displays:
+The app name (“Engine Driver”)
+Various optionally configured buttons:
+Emergency Stop
+Track Power
+Flashlight
+Fast Clock
+Throttle Web View
+Layout Switching
+In Phone Sound
+Hamburger Menu
+The “optionally configured buttons” are configured via the Preferences &gt; Throttle Screen Status Row Preferences.
+Throttle Area
+The Throttle may configured to be simple buttons that allow you to increase or decrease the locomotive’s speed in pre-defined steps.  Alternatively, the Throttle may be configured as a slider.  A slider can be configured as one-directional or bi-directional.  Bi-directional sliders are useful for when you are shunting backwards and forwards a lot.
+Direction Buttons Area</p>
+<p>Function Buttons Scroll Area
+Function Buttons are displayed here.  If there are too many to display in the screen area allocated, then the area becomes scrollable (but without scroll bars) so that they can all be viewed and pressed as needed.
+Web View Area
+Your JMRI Layout panel is displayed here if you have configured it to do so in Preferences. TODO</p>
+</div>
+<div class="section" id="turnouts-points-screen">
+<h3><a class="toc-backref" href="#id5">Turnouts/Points Screen</a><a class="headerlink" href="#turnouts-points-screen" title="Permalink to this headline">¶</a></h3>
+<p>This screen allows you to display all Points that have been defined in JMRI.
+Points can be changed from Closed to Thrown and vice versa be pressing on either the “Closed” or “Thrown” buttons</p>
+</div>
+<div class="section" id="routes-screen">
+<h3><a class="toc-backref" href="#id6">Routes Screen</a><a class="headerlink" href="#routes-screen" title="Permalink to this headline">¶</a></h3>
+<p>This screen allows you to display all Routes that have been defined in JMRI.</p>
+</div>
+<div class="section" id="web-screen">
+<h3><a class="toc-backref" href="#id7">Web Screen</a><a class="headerlink" href="#web-screen" title="Permalink to this headline">¶</a></h3>
+<p>This screen displays a separate Engine Driver screen that displays a web brower interface that lets you view any web page. Normally this will be a web page on your JMRI server.</p>
+<p>From the JMRI web serer you can view an interact with.  The hamburger menu at the top right of the web panel screen allows you to further display:</p>
+<ul class="simple">
+<li><p>Rosters</p></li>
+<li><p>Operations</p></li>
+<li><p>Trains</p></li>
+<li><p>Tables</p></li>
+<li><p>Turnouts / Points <br />A list of turnouts is displayed in tabular form.  Turnouts can be changed from Closed to Thrown and vice versa by pressing on the “State” column’s “closed” or “thrown” words.</p></li>
+<li><p>Sensors</p></li>
+<li><p>Routes</p></li>
+<li><p>Reporters</p></li>
+<li><p>Memories</p></li>
+<li><p>Blocks</p></li>
+<li><p>Layout Blocks</p></li>
+<li><p>Lights</p></li>
+<li><p>Signal Masts</p></li>
+<li><p>Signal Heads</p></li>
+<li><p>Locations</p></li>
+<li><p>Cars</p></li>
+<li><p>Engines</p></li>
+<li><p>ID Tags</p></li>
+</ul>
+<p>This can be used for:</p>
+<ul class="simple">
+<li><p>A webThrottle screen</p></li>
+<li><p>Your JMRI layout panel(s)</p></li>
+<li><p>Any URL in a full screen.  This is in addition to being able to display your JMRI layout panel in a small section of the main Throttle Screen.</p></li>
+</ul>
+<p>Tap on any of the Open Windows to expand its view.  You can then resize the panel by pinching and zooming.  It is sometimes useful to rotate your device to landscape mode, so as to better view your layout.</p>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="secondary-support-screens">
+<h2><a class="toc-backref" href="#id8">Secondary / Support Screens</a><a class="headerlink" href="#secondary-support-screens" title="Permalink to this headline">¶</a></h2>
+<p>TBA</p>
+<div class="section" id="intro-setup-wizard-screen">
+<h3><a class="toc-backref" href="#id9">Intro/Setup Wizard Screen</a><a class="headerlink" href="#intro-setup-wizard-screen" title="Permalink to this headline">¶</a></h3>
+<p>This screen allows you to</p>
+</div>
+<div class="section" id="power-screen">
+<h3><a class="toc-backref" href="#id10">Power Screen</a><a class="headerlink" href="#power-screen" title="Permalink to this headline">¶</a></h3>
+<p>This screen allows you to toggle the state of track power to your layout.</p>
+<ul class="simple">
+<li><p>When the button is displayed in green, it indicates that track power is “On”.</p></li>
+<li><p>When the button is displayed in red, it indicates that track power is “Off”.</p></li>
+<li><p>Pressing a green button will cause the button to be changed to red and the track power will be turned “Off”.</p></li>
+<li><p>Pressing a red button will cause the button to be changed to green and the track power will be turned “On”.</p></li>
+</ul>
+</div>
+<div class="section" id="preferences-screen">
+<h3><a class="toc-backref" href="#id11">Preferences Screen</a><a class="headerlink" href="#preferences-screen" title="Permalink to this headline">¶</a></h3>
+<p>This screen allows you to configure the Engine Driver app for how you want it to operate for you.</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 44%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 34%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Format/Capability</p></th>
+<th class="head"><p>Web View</p></th>
+<th class="head"><p>Function
+Buttons</p></th>
+<th class="head"><p>Throttle Control</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Horizontal (1-3)</p></td>
+<td><p>✓</p></td>
+<td><p>✓</p></td>
+<td><p>0-100 + Direction Buttons</p></td>
+</tr>
+<tr class="row-odd"><td><p>Vertical (2)</p></td>
+<td><p>✓</p></td>
+<td><p>✓</p></td>
+<td><p>0-100 + Direction Buttons</p></td>
+</tr>
+<tr class="row-even"><td><p>Big Buttons - Left (1)</p></td>
+<td><p>🗴</p></td>
+<td><p>✓</p></td>
+<td><p>0-100 + Direction Buttons</p></td>
+</tr>
+<tr class="row-odd"><td><p>Big Buttons - Right (1)</p></td>
+<td><p>🗴</p></td>
+<td><p>✓</p></td>
+<td><p>0-100 + Direction Buttons</p></td>
+</tr>
+<tr class="row-even"><td><p>Vertical - Left (1)</p></td>
+<td><p>✓</p></td>
+<td><p>✓</p></td>
+<td><p>0-100 + Direction Buttons</p></td>
+</tr>
+<tr class="row-odd"><td><p>Vertical - Right (1)</p></td>
+<td><p>✓</p></td>
+<td><p>✓</p></td>
+<td><p>0-100 + Direction Buttons</p></td>
+</tr>
+<tr class="row-even"><td><p>Vertical Shunting (2) <br />
+Vertical Switching (2)</p></td>
+<td><p>✓</p></td>
+<td><p>✓</p></td>
+<td><p>-100 - 0 - +100</p></td>
+</tr>
+<tr class="row-odd"><td><p>Vertical Shunting - Left (1) <br />
+Vertical Switching - Left (1)</p></td>
+<td><p>✓</p></td>
+<td><p>✓</p></td>
+<td><p>-100 - 0 - +100</p></td>
+</tr>
+<tr class="row-even"><td><p>Vertical Shunting - Right (1) <br />
+Vertical Switching - Right (1)</p></td>
+<td><p>✓</p></td>
+<td><p>✓</p></td>
+<td><p>-100 - 0 - +100</p></td>
+</tr>
+<tr class="row-odd"><td><p>Horizontal Shunting (1-3) <br />
+Horizontal Switching  (1-3)</p></td>
+<td><p>✓</p></td>
+<td><p>✓</p></td>
+<td><p>-100 - 0 - +100</p></td>
+</tr>
+<tr class="row-even"><td><p>Simple (Tablet Recommended) (1-6)</p></td>
+<td><p>🗴</p></td>
+<td><p>see note</p></td>
+<td><p>0-100 + Direction Buttons</p></td>
+</tr>
+</tbody>
+</table>
+<p>Notes:</p>
+<ul class="simple">
+<li><p>The number is brackets after the Throttle Screen Layout name is the maximum number of throttles that the layout can support.</p></li>
+<li><p>The ‘Simple’ Throttle Screen Layout is designed to allow for up to 6 throttles simultaneously.  <br />It is recommended that this only be used on a tablet device, because of the screen real estate demands that 6 throttles requires. <br />When this Throttle Screen Layout is selected, the ‘Number of Throttles’ preferences options is activated.  You can then use this to restrict the number of throttles being displayed on the ‘Simple’ Throttle Screen Layout.  <br />Also the “Functions Area Size” preferences options is activated.  You can then use this to control how many Function Buttons are displayed with each throttle.  By defult, not Functionbuttons will be shown. <br />If you have selected In Phone Loco Sounds, then you will want to set this to 4 (for Mute, Light, Bell and Whistle/Horn).</p></li>
+</ul>
+</div>
+<div class="section" id="in-phone-loco-sounds-screen">
+<h3><a class="toc-backref" href="#id12">In Phone Loco Sounds Screen</a><a class="headerlink" href="#in-phone-loco-sounds-screen" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="function-defaults-screen">
+<h3><a class="toc-backref" href="#id13">Function Defaults Screen</a><a class="headerlink" href="#function-defaults-screen" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="gamepad-test-screen">
+<h3><a class="toc-backref" href="#id14">Gamepad Test Screen</a><a class="headerlink" href="#gamepad-test-screen" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="view-log-screen">
+<h3><a class="toc-backref" href="#id15">View Log Screen</a><a class="headerlink" href="#view-log-screen" title="Permalink to this headline">¶</a></h3>
+<p>This screen allows you to view the internal Engine Driver app log of events.
+This is sometimes useful for analysing problems.</p>
+<p>The option to <code class="docutils literal notranslate"><span class="pre">Start</span> <span class="pre">recording</span> <span class="pre">to</span> <span class="pre">file</span></code> creates a user-accessible file that can be sent to the Engine Driver app developers or the Groupio help group to assist you in resolving a problem.
+The file will be located on your mobile phone at:
+Internal storage …/engine_driver
+and will be named something like:
+logcat9999999999999.txt</p>
+</div>
+<div class="section" id="about-screen">
+<h3><a class="toc-backref" href="#id16">About Screen</a><a class="headerlink" href="#about-screen" title="Permalink to this headline">¶</a></h3>
+<p>This screen displays TODO</p>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="wifi_issues.html" class="btn btn-neutral float-right" title="WiFi Issues" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="index.html" class="btn btn-neutral float-left" title="Operation" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright M Steve Todd.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

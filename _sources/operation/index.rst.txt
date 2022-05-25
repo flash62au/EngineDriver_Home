@@ -208,14 +208,11 @@ There are three ways to load & store your Locomotive Icon Image in Engine Driver
 
 ----
 
----------------------
-Additional Infomation
----------------------
-
-
 .. toctree::
+    :hidden:
     :maxdepth: 1
 
+    interface
     wifi_issues
     gamepads
     faq
