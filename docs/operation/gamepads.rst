@@ -18,6 +18,7 @@ The following instructions work for the **mocute** and **MagicSeeR1** gamepads.
 Other devices require similar steps, but the mechanism to change the ``mode`` may be different. 
 
 * Turn on
+  
   * For the **mocute** gamepads
   
     * On the gamepad, the small button is Start/Power. Press for a couple seconds until LED comes on. 

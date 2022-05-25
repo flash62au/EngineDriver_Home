@@ -92,7 +92,8 @@ The steps listed here provide guidance on how to edit and preview changes to the
 * On Githib
 
   * Clone the EngineDriver_Home repository. `(See Cloning a repository in GitHub) <https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository>`_ 
-  * open the repository settings, go to the 'Pages' section and chnage the 'soruce-branch' to ``gh-pages`` ``/ (root)``.
+  * Open the repository settings (the gear icon), go to the 'Pages' section and change the 'source-branch' to ``gh-pages`` ``/ (root)``.
+  * The repository must be ``public``
 
 * Using Github Desktop, clone you repository to your local machine.
 * Edit the files in the ``EngineDriver_Home/docs`` folder. 

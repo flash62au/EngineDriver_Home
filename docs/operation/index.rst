@@ -18,27 +18,49 @@ Operation
 Quick Start / Basic Information
 -------------------------------
 
+* Start your wiThrottle server
+
+  * For JMRI, Start the `WiThrottle <https://www.jmri.org/help/en/package/jmri/jmrit/withrottle/Protocol.shtml>`_ function of JMRI, located in DecoderPro under Tools, Throttles. It is also highly recommended that you start the `JMRI Web Server function <https://www.jmri.org/help/en/html/web/index.shtml>`_ (Tools, Start JMRI Web Server). 
+  * For other devices, turning them on a waiting a minute or two should be sufficient.
+
+    See the `Prerequisites <../prerequisites/index.html>`_ page for more infomation.
+
 * On your Android device, make sure you are connected to same network as the WiThrottle server's network.
 * Start the Engine Driver app 
 
-  * The first time you run Engine Driver you will need to go through the Setup Wizard to enable the permissions and select a few significant preferences.  See the `Setup Wizard <../configuration/setup_wizard.html>`_ page for more infomation.
+  * The first time you run Engine Driver you will need to go through the Setup Wizard to enable the permissions and select a few significant preferences.  
+   
+    See the `Setup Wizard <../configuration/setup_wizard.html>`_ page for more infomation.
 
 * Wait for your server's address to show up in "Discovered Servers".
 * Click on the discovered address, 
 
   * If the server does not show up, check that are on the same network as the WiThrottle server.   
-  * If the server *never* appears in the discovered list, type in the IP address and Port of the WiThrottle server (Using the values shown on the JMRI WiThrottle window) and press ``Connect``. |br|\ Note: this is sometimes possible even if you are on the same network. |br|\ |br|\ NOTE: see the `WiFi connection page <./wifi_issues.html>`_ for more assistance on connection issues. |br|\ There is also a "demo" server at **jmri.mstevetodd.com**, port **44444** that you can connect to for testing. |br|\ |br|\ 
+  * If the server *never* appears in the discovered list, type in the IP address and Port of the WiThrottle server (Using the values shown on the JMRI WiThrottle window) and press ``Connect``. |br|\ Note: this situation is sometimes possible even if you are on the same network. |br|\ |br|\ NOTE: see the `WiFi connection page <./wifi_issues.html>`_ for more assistance on connection issues. |br|\ There is also a "demo" server at **jmri.mstevetodd.com**, port **44444** that you can connect to for testing. |br|\ |br|\ 
 
-* On the throttle screen, click on the ``Select`` loco button for each loco.
-* On the next  (Loco Select) screen, click on a loco from the Roster or Recent lists, or enter the loco address (verify short or long), and press ``Acquire``. You will be returned to the Throttle screen.
-* Repeat using another ``Select`` button to acquire another loco to create an on-the-fly consist.
-* Operate your loco using the slider, or volume hardware buttons, or optional buttons for speed, and the reverse, stop and forward buttons to control direction.
-* To release all locos, just press the Back button and exit the app. This will also stop your locos (can be overridden in preferences). You can reassign the volume control by clicking on * the speed indicator (the small "v" shows which has control).
+* On the throttle screen, click on the ``Select`` loco button.
+* On the next (Loco Select) screen, either:
 
-* To create a consist "on-the-fly", simply select additional locos for the same throttle, then select which way the new loco if facing. Direction and speed will be sent for all. Release will release all for that throttle.
+  * click on a loco from the Roster or Recent lists, 
+  * or enter the loco address (verify short or long), and press ``Acquire``. 
+
+    You will be returned to the Throttle screen.
+
+    For Consists / multiple units, see the note below
+
+* Operate your loco 
+  
+  * Use the slider, or volume hardware buttons, or optional buttons for speed, 
+  * Use the ``Forward`` and ``Reverse`` buttons to control direction.
 
 * Press your phone's Menu button to access screens for Turnout, Route and Power control, as well as adjust settings and set numerous preferences.
-* You can also "fling" left or right to jump quickly back and forth between the Throttle, Routes, Turnouts and Web pages (use Preferences to choose)
+* You can also "fling" left or right to jump quickly back and forth between the Throttle, Routes, Turnouts and Web pages (use Preferences to choose) |br|\ |br|\ 
+* To release a single loco (or consist), click ``Select`` again and click the ``Release`` button.
+* To release all locos, just press the ``Back`` button and exit the app. |br|\ This will also stop your locos (can be overridden in preferences). 
+
+Note:
+
+* To create a consist "on-the-fly", simply select additional locos for the same throttle, then select which way the new loco if facing. Direction and speed will be sent for all. Release will release all for that throttle.
 
 ----
 
@@ -52,6 +74,14 @@ Connecting
 
 TBA
 
+Connecting to the network
+
+Connecting the wiThrottle server
+
+Auto connecting
+
+`Connection issues <./wifi_issues.html>`_
+
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Selecting / Releasing Locos
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -60,7 +90,7 @@ TBA
 
 Single loco
 
-On the fly / In Phone Consists
+On the fly / In Phone Consists (Multiple Units)
 
 - direction
 - changing order
@@ -80,9 +110,16 @@ Direction
 
 Functions
 
+- Common Functions
+- Function Labels
+- Functions in consists
+
 Volume Keys
 
-Gamepads
+IPLS
+
+Gamepads  See `gamepads <./gamepads.html>`_
+
 
 ^^^^^^^^^^^^^^^^^
 Turnouts / Points
@@ -103,7 +140,7 @@ Panels and Web Pages
 TBA
 
 ^^^^^^^^^^^^^^^
-Other stuff
+Other stuff TBA
 ^^^^^^^^^^^^^^^
 
 TBA
