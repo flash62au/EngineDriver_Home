@@ -30,6 +30,9 @@ There are four main screens:
 Connection Screen
 ^^^^^^^^^^^^^^^^^
 
+.. image:: ../_static/images/screenshots/connect.png
+   :align: right
+
 This screen is the first screen you normally see when starting Engine Driver. 
 
 It allows you choose which WiThrottle Server to connect, which you must do to control your trains.
@@ -46,6 +49,10 @@ If you only ever connect to one WiThrottle server you can effectively bypass thi
 
 Throttle Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. image:: ../_static/images/screenshots/throttle_vertical_outline.png
+   :scale: 8 %
+   :align: right
 
 This screen allows you to control:
 

@@ -109,7 +109,7 @@ todo_include_todos = False
 #}
 
 html_css_files = [
-    'css/dccex_theme.css',
+    'css/engine_driver_home_theme.css',
 #    'css/layout.css',
 #    'css/roundslider.min.css',
 #    'css/throttle.css'
@@ -119,7 +119,6 @@ html_js_files = [
     'js/platform.js',
     'js/extra.js',
 #    'js/commandController.js',
-#    'js/exwebthrottle.js',
 #    'js/fnMaster.js',
 #    'js/jquery-3.2.1.min.js',
 #    'js/jquery-ui.min.js',
