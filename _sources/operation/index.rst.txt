@@ -17,8 +17,8 @@ Operation
 
 ----
 
-Quick Start / Basic Information
--------------------------------
+Quick Start / Getting Started
+-----------------------------
 
 
 * Confirm that your devices meet the `Prerequisites <../prerequisites/index.html>`_
@@ -84,20 +84,51 @@ Connecting
 Connecting to the network
 """"""""""""""""""""""""""
 
+.. image:: ../_static/images/parts/network2.png
+   :scale: 30 %
+   :align: right
+
+.. image:: ../_static/images/parts/network1.png
+   :scale: 30 %
+   :align: right
+
 TBA
 
-`Connection issues <./wifi_issues.html>`_
+* Use Android's Network/Wifi settings to connect to the same network as your WiThrottle server.
+* 
+
+Also see `Connection issues <./wifi_issues.html>`_ if you are having difficulties.
+
 
 Connecting the WiThrottle server
 """"""""""""""""""""""""""""""""""
 
+.. image:: ../_static/images/parts/connecting_ip_address.png
+   :scale: 30 %
+   :align: right
+
+.. image:: ../_static/images/parts/connecting_discovered_servers.png
+   :scale: 30 %
+   :align: right
+
+.. image:: ../_static/images/parts/connecting_recent_servers.png
+   :scale: 30 %
+   :align: right
+
 TBA
 
-- Address and Port
-- Discovered Servers
-- Recent servers
+* Start Engine Driver |br|\ You will be presented with the Connection Screen
+* There are three ways you can select a server to connect to
+
+  - Address and Port
+  - Discovered Servers
+  - Recent servers
+
 
 If you only ever connect to one WiThrottle server you can effectively bypass this screen by setting the ``Auto-Connect to WiThrottle Server?`` preference.
+
+Also see `Connection issues <./wifi_issues.html>`_ if you are having difficulties.
+
 
 ----
 
