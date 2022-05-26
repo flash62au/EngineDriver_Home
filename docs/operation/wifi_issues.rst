@@ -6,20 +6,17 @@ WiFi Issues
    :description: JMRI Engine Driver Throttle
    :keywords: Engine Driver EngineDriver JMRI manual help wifi 
 
--------------
 Wrong Network
 -------------
 
 TBA
 
----------
 Firewalls
 ---------
 
 TBA
 
 
----------------------------------
 Using Mobile Data instead of WiFi
 ---------------------------------
 

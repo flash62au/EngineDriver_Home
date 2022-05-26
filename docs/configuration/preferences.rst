@@ -18,7 +18,6 @@ Preferences
   
     Check this to show the additional preferences
 
-------------------
 Device Preferences
 ------------------
 
@@ -49,7 +48,6 @@ Device Preferences
     * Swipe Through Turnouts?
     * Swipe through Routes?
    
---------------------------------------
 Throttle Screen Appearance Preferences
 --------------------------------------
 
@@ -161,7 +159,6 @@ Throttle Screen Appearance Preferences
     * Background Image File Name
     * Background Image Position
 
---------------------------------------
 Throttle Screen Action Bar Preferences
 --------------------------------------
 
@@ -179,7 +176,6 @@ Throttle Screen Action Bar Preferences
   * In phone sounds button
   * Show Server Description
 
-------------------------------
 Throttle Control Preferences
 ------------------------------
 
@@ -200,7 +196,6 @@ Throttle Control Preferences
     * 'Pause' button Rate
     * 'Pause' button Step
 
------------------------------------
 Consist Function Follow Preferences
 -----------------------------------
 
@@ -220,7 +215,6 @@ Consist Function Follow Preferences
   * String 5
   * Action for String 5
 
-----------------------------------------------
 Additional Throttle Control Source Preferences
 ----------------------------------------------
 
@@ -283,7 +277,6 @@ Additional Throttle Control Source Preferences
     * On Gamepad Test complete
     * On Gamepad Test key press
 
------------------------
 Select Loco Preferences
 -----------------------
 
@@ -297,7 +290,6 @@ Select Loco Preferences
   * Control consist Lights on long click
   * Filter Roster
 
---------------------
 In Phone Loco Sounds
 --------------------
 
@@ -313,7 +305,6 @@ In Phone Loco Sounds
     * Bell button Latching/Momentary
     * F1 and F2 activate Bell and Horn?
    
--------------------
 Connect Preferences
 -------------------
 
@@ -326,14 +317,12 @@ Connect Preferences
   * Feedback on Disconnect
   * Background Alert
 
-----------------------
 Web Screen Preferences
 ----------------------
 
   * Web Screen Orientation
   * Initial Web Screen Page
 
--------------------------------
 Turnouts and Routes Preferences
 -------------------------------
 
@@ -341,7 +330,6 @@ Turnouts and Routes Preferences
   * Location Delimiter
   * Hide if no user name?
 
-------------------------------
 Children's (Timer) Preferences
 ------------------------------
 
@@ -353,7 +341,6 @@ Children's (Timer) Preferences
   * Default time for Button
   * Notes for the Timer:
 
-------------------------------------
 Import/Export/Reset &Log Preferences
 ------------------------------------
 
