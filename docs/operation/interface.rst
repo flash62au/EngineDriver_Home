@@ -28,9 +28,9 @@ There are four main screens:
 Connection Screen
 ^^^^^^^^^^^^^^^^^
 
-This screen is the first screen you normally  when starting Engine Driver
+This screen is the first screen you normally see when starting Engine Driver. 
 
-It allows you to connect to a WiThrottle Server, which you must do to control your trains.
+It allows you choose which WiThrottle Server to connect, which you must do to control your trains.
 
 TBA
 
@@ -40,6 +40,8 @@ TBA
 
 Once you select a server the 'Throttle Screen' will be automatically displayed.
 
+If you only ever connect to one WiThrottle server you can effectively bypass this screen by setting the ``Auto-Connect to WiThrottle Server?`` preference.
+
 Throttle Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -47,9 +49,10 @@ This screen allows you to control:
 
 * The speed and direction of your trains
 * Initiate special locomotive decoder functions like the light, bell, horn 
-* Accessing the Action Bar buttons and Menu features. |br|\ These include:
+* Accessing the Action Bar buttons and Menu features. 
+  |br|\ These include:
 
-  * Emergency Stop
+  * All Stop
   * Track Power
   * Flashlight
   * Throttle Web View
@@ -174,43 +177,9 @@ Preferences Screen
 
 Accessed from the menu on the any of the main screens as ``Preferences``.
 
-This screen allows you to configure the Engine Driver app for how you want it to operate for you.
+This screen allows you to configure Engine Driver for how you want it to operate for you.
 
-+-----------------------------------+---------+---------+---------------------------+
-|Format/Capability                  |Web View |Function |Throttle Control           |
-|                                   |         |Buttons  |                           |
-+===================================+=========+=========+===========================+
-|Horizontal (1-3)                   |    ✓    |    ✓    |0-100 + Direction Buttons  |
-+-----------------------------------+---------+---------+---------------------------+
-|Vertical (2)                       |    ✓    |    ✓    |0-100 + Direction Buttons  |
-+-----------------------------------+---------+---------+---------------------------+
-|Big Buttons - Left (1)             |    🗴    |    ✓    |0-100 + Direction Buttons  |
-+-----------------------------------+---------+---------+---------------------------+
-|Big Buttons - Right (1)            |    🗴    |    ✓    |0-100 + Direction Buttons  |
-+-----------------------------------+---------+---------+---------------------------+
-|Vertical - Left (1)                |    ✓    |    ✓    |0-100 + Direction Buttons  |
-+-----------------------------------+---------+---------+---------------------------+
-|Vertical - Right (1)               |    ✓    |    ✓    |0-100 + Direction Buttons  |
-+-----------------------------------+---------+---------+---------------------------+
-|Vertical Shunting (2) |br|         |    ✓    |    ✓    | \-100 - 0 - +100          |
-|Vertical Switching (2)             |         |         |                           |
-+-----------------------------------+---------+---------+---------------------------+
-|Vertical Shunting - Left (1) |br|  |    ✓    |    ✓    | \-100 - 0 - +100          |
-|Vertical Switching - Left (1)      |         |         |                           |
-+-----------------------------------+---------+---------+---------------------------+
-|Vertical Shunting - Right (1) |br| |    ✓    |    ✓    | \-100 - 0 - +100          |
-|Vertical Switching - Right (1)     |         |         |                           |
-+-----------------------------------+---------+---------+---------------------------+
-|Horizontal Shunting (1-3) |br|     |    ✓    |    ✓    | \-100 - 0 - +100          |
-|Horizontal Switching  (1-3)        |         |         |                           |
-+-----------------------------------+---------+---------+---------------------------+
-|Simple (Tablet Recommended) (1-6)  |    🗴    |see note |0-100 + Direction Buttons  |
-+-----------------------------------+---------+---------+---------------------------+
-
-Notes:
-
-* The number is brackets after the Throttle Screen Layout name is the maximum number of throttles that the layout can support.
-* The 'Simple' Throttle Screen Layout is designed to allow for up to 6 throttles simultaneously.  |br|\ It is recommended that this only be used on a tablet device, because of the screen real estate demands that 6 throttles requires. |br|\ When this Throttle Screen Layout is selected, the 'Number of Throttles' preferences options is activated.  You can then use this to restrict the number of throttles being displayed on the 'Simple' Throttle Screen Layout.  |br|\ Also the “Functions Area Size” preferences options is activated.  You can then use this to control how many Function Buttons are displayed with each throttle.  By default, not Function buttons will be shown. |br|\ If you have selected In Phone Loco Sounds, then you will want to set this to 4 (for Mute, Light, Bell and Whistle/Horn).
+See `Preferences <../configuration/preferences.html>`_ for details on the preferences that can be set.
 
 In Phone Loco Sounds Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -240,7 +209,7 @@ TBA
 
 Accessed from the menu on the any of the main screens as ``View Log``.
 
-This screen allows you to view the internal Engine Driver app log of events.
+This screen allows you to view the internal Engine Driver log of events.
 This is sometimes useful for analysing problems.
 
 The option to ``Start recording to file`` creates a user-accessible file that can be sent to the Engine Driver app developers or the Groupio help group to assist you in resolving a problem.
@@ -254,4 +223,63 @@ About Screen
 
 This screen displays 
 
+* Information about Engine Driver, 
+* Information about the WiThrottle Server it is currently connected to (if any), and 
+* A page of basic information about Engine Driver
+
 TODO 
+
+----
+
+Common Elements
+---------------
+
+Action Bar
+^^^^^^^^^^
+
+The Action Bar appears at the top of all screen. It will show different information and different buttons depending on a) the particular screen and b) preferences you have set.
+
+The Action Bar can display:
+
+* The app name (“Engine Driver”)
+* Optionally configured information:
+
+  * Fast Clock
+
+* Optionally configured buttons:
+
+  * All Stop
+  * Emergency Stop
+  * Track Power
+  * Flashlight
+  * Throttle Web View
+  * Throttle Layout Switching
+  * In Phone Sound
+
+* The Overflow Menu, which is normally three dots (⁞) or three bars (≡).   (Main Screens only)
+
+The optionally configured items are configured via the corresponding preferences in the ``Throttle Screen Action Bar Preferences`` preference group.
+
+
+Overflow Menu
+^^^^^^^^^^^^^
+
+The Overflow Menu (or simply 'Menu') appears in the Action Bar at the top of most of the main screens. It will show different options depending on a) the particular screen, b) preferences you have set and c) the state of certain elements in the app.
+
+The Overflow Menu can display
+
+* Throttle
+* Turnouts/Points
+* Routes
+* Web
+* PowerPreferences
+* Function Defaults
+* Gamepads
+
+  * Gamepad Test 1
+  * Gamepad Test ...
+
+* Loco Sounds
+* View Log
+* Exit
+* About

@@ -117,6 +117,7 @@ Style Guidelines
 * Use British/Australian spelling e.g. 'colour' not 'color'.  (Primarily because it is used in more English speaking countries)
 *	Use railway terminology that is understandable by all English-speaking people. |br|\ Where there are clear differences from US to non-US terminology use both with a slash between. e.g. turnouts/points, consists/multiple units, switching/shunting.  (Primarily because JMRI uses the US terminology)
 * In general use 'loco' instead of 'locomotive' or 'engine'
+* Use 'Engine Driver' not 'Engine Driver app', 'EngineDriver' or 'Engine Driver Throttle' (except on the first page)
 *	No full stop at the end of a numbered or unnumbered list
 *	Numbered lists should be avoided, unless there is a specific need
 * Use first person (you and your; not I, me, my or am) language

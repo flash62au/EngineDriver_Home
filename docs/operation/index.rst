@@ -15,7 +15,6 @@ Operation
 
 ----
 
--------------------------------
 Quick Start / Basic Information
 -------------------------------
 
@@ -32,7 +31,7 @@ Quick Start / Basic Information
   
   * Make sure you are connected to same network as the WiThrottle server's network.
 
-  * Start the Engine Driver app 
+  * Start Engine Driver 
 
     * The first time you run Engine Driver you will need to go through the Setup Wizard to agree to the permissions and select a few key preferences  
    
@@ -74,17 +73,12 @@ Note:
 
 ----
 
---------------------
 Detailed Information 
 --------------------
 
-^^^^^^^^^^^^^^^^
 Connecting
 ^^^^^^^^^^^^^^^^
 
-TBA
-
-""""""""""""""""""""""""""
 Connecting to the network
 """"""""""""""""""""""""""
 
@@ -92,27 +86,24 @@ TBA
 
 `Connection issues <./wifi_issues.html>`_
 
-""""""""""""""""""""""""""""""""""
 Connecting the WiThrottle server
 """"""""""""""""""""""""""""""""""
 
 TBA
 
-""""""""""""""""""""""""""
-Auto connecting
-""""""""""""""""""""""""""
+- Address and Port
+- Discovered Servers
+- Recent servers
 
-TBA
+If you only ever connect to one WiThrottle server you can effectively bypass this screen by setting the ``Auto-Connect to WiThrottle Server?`` preference.
 
 ----
 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Selecting / Releasing Locos and Consists/Multiple Units
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 TBA
 
-""""""""""""""""""""""""""""""""""
 Single loco
 """"""""""""""""""""""""""""""""""
 
@@ -125,7 +116,6 @@ TBA
 
 Also see `Locomotive Icons <#locomotive-icons-in-the-roster>`_ below.
 
-""""""""""""""""""""""""""""""""""""""""""""""""
 On the fly / In Phone Consists (Multiple Units)
 """"""""""""""""""""""""""""""""""""""""""""""""
 
@@ -135,13 +125,11 @@ On the fly / In Phone Consists (Multiple Units)
 
 ----
 
-^^^^^^^^^^^^^^^
 Running Trains
 ^^^^^^^^^^^^^^^
 
 TBA
 
-""""""""""""""""""""""""""""""""""
 Speed
 """"""""""""""""""""""""""""""""""
 
@@ -152,7 +140,6 @@ TBA
 - volume keys
 - gamepads
 
-""""""""""""""""""""""""""""""""""
 Direction
 """"""""""""""""""""""""""""""""""
 
@@ -162,7 +149,6 @@ TBA
 - throttle screen layouts without direction buttons  (Switching/Shunting)
 - gamepads
 
-""""""""""""""""""""""""""""""""""
 Functions
 """"""""""""""""""""""""""""""""""
 
@@ -173,7 +159,6 @@ TBA
 - Functions in consists
 - gamepads
 
-""""""""""""""""""""""""""""""""""
 IPLS
 """"""""""""""""""""""""""""""""""
 
@@ -184,37 +169,31 @@ TBA
 - custom 
 - gamepads
 
-""""""""""""""""""""""""""""""""""
 Gamepads  
 """"""""""""""""""""""""""""""""""
 
 See `gamepads <./gamepads.html>`_
 
-^^^^^^^^^^^^^^^^^^^
 Action bar and menu
 ^^^^^^^^^^^^^^^^^^^
 
 TBA
 
-""""""""""""""""""""""""""""""""""
 Track Power
 """"""""""""""""""""""""""""""""""
 
 TBA
 
-""""""""""""""""""""""""""""""""""
 In Phone Loco Sounds (IPLS)
 """"""""""""""""""""""""""""""""""
 
 TBA
 
-""""""""""""""""""""""""""""""""""
 Power
 """"""""""""""""""""""""""""""""""
 
 TBA
 
-""""""""""""""""""""""""""""""""""
 Flashlight 
 """"""""""""""""""""""""""""""""""
 
@@ -222,7 +201,6 @@ TBA
 
 ----
 
-^^^^^^^^^^^^^^^^^
 Turnouts / Points
 ^^^^^^^^^^^^^^^^^
 
@@ -230,7 +208,6 @@ TBA
 
 ----
 
-^^^^^^^^^^^^^^^
 Routes
 ^^^^^^^^^^^^^^^
 
@@ -238,7 +215,6 @@ TBA
 
 ----
 
-^^^^^^^^^^^^^^^^^^^^^^
 Panels and Web Pages
 ^^^^^^^^^^^^^^^^^^^^^^
 
@@ -246,24 +222,22 @@ TBA
 
 ----
 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Pushing the Engine Driver App to the background
+Pushing Engine Driver to the background
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 TBA
 
 ----
 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Exiting Engine Driver
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-To exit the Engine Driver app, you can:
+To exit Engine Driver, you can:
 
 * Press the Android ``Back`` button once from the main screens (more than once if you are on one of the secondary screens) |br|\ OR
 * Menu > Exit
 
-Exiting the Engine Driver app 
+Exiting Engine Driver 
 
 * Disconnects from the WiThrottle server.
 * Stops playing all In Phone Loco Sounds (if any were configured).
@@ -278,4 +252,5 @@ Exiting the Engine Driver app
     interface
     wifi_issues
     gamepads
+    esu_mcii
     faq

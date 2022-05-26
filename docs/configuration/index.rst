@@ -37,7 +37,7 @@ Some of the Function button preferences include:
 
 ----
 
-On the wiThrottle server side (JMRI)
+On the WiThrottle server side (JMRI)
 ------------------------------------
 
 * Check your preferences/settings to insure you allow or disallow the control features desired. 
