@@ -62,5 +62,6 @@ Additional Details
     functions
     ipls
     gamepads
+    loco_icons
     new_device
 

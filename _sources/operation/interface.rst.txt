@@ -1,5 +1,5 @@
 *******************************************
-Usere Interface
+User Interface
 *******************************************
 
 .. meta::
@@ -11,6 +11,7 @@ Usere Interface
    <br />
 
 .. contents::
+   :depth: 3
     
 ----
 
@@ -18,11 +19,28 @@ Usere Interface
 Main Screens
 -------------
 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Connection Screen
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+There are four main screens:
 
-This screen allows you to connect to a WiThrottle Server, which you must do to control your trains.
+* Connection Screen
+* Throttle Screen
+* Turnouts/Points Screen
+* Routes Screen
+
+^^^^^^^^^^^^^^^^^
+Connection Screen
+^^^^^^^^^^^^^^^^^
+
+This screen is the first screen you normally  when starting Engine Driver
+
+It allows you to connect to a WiThrottle Server, which you must do to control your trains.
+
+TBA
+
+- Address and Port
+- Discovered Servers
+- Recent servers
+
+Once you select a server the 'Throttle Screen' will be automatically displayed.
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Throttle Screen
@@ -43,19 +61,30 @@ This screen allows you to control:
   * In Phone Loco Sound
 
       The optionally configured buttons are configured via the Preferences > Throttle Screen Status Row Preferences.
-      Throttle Area
+
+""""""""""""""""""""""""""""""""""""
+Throttle Area
+""""""""""""""""""""""""""""""""""""
 
 The Throttle may configured to be simple buttons that allow you to increase or decrease the locomotive's speed in pre-defined steps.  Alternatively, the Throttle may be configured as a slider.  A slider can be configured as one-directional (0-100) or bi-directional (-100 - 0 - +100).  Bi-directional sliders are useful for when you are switching/shunting. i.e. moving backwards and forwards a lot.
 
+""""""""""""""""""""""""""""""""""""
 Direction Buttons Area
+""""""""""""""""""""""""""""""""""""
 
+""""""""""""""""""""""""""""""""""""
 Function Buttons Scroll Area
+""""""""""""""""""""""""""""""""""""
 
 Function Buttons are displayed here.  If there are too many to display in the screen area allocated, then the area becomes scrollable (but without scroll bars) so that they can all be viewed and pressed as needed.
 
+""""""""""""""""""""""""""""""""""""
 Web View Area
+""""""""""""""""""""""""""""""""""""
 
 Your JMRI Layout panel is displayed here if you have configured it to do so in Preferences. TODO
+
+----
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Turnouts/Points Screen

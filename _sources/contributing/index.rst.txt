@@ -99,7 +99,7 @@ The steps listed here provide guidance on how to edit and preview changes to the
   
   * Using GitHub Desktop, clone your repository to your local machine
   * Edit the files in the ``EngineDriver_Home/docs`` folder
-  * Save, then check and preview your changes by running ``make github`` from the root of the ``EngineDriver_Home`` folder. [#makegithub]_ |br|\ This must be done from ``cmd.exe`` in Windows, not ``PowerShell``. |br|\ If any warnings are reported, fix these and run make github again
+  * Save, then check and preview your changes by running ``make github`` from the root of the ``EngineDriver_Home`` folder. [#makegithub]_ |br|\ This must be done from ``cmd.exe`` in Windows, not ``PowerShell``. |br|\ If any warnings are reported, fix these and run make GitHub again
   * Preview your changes locally by going to your local directory ``EngineDriver_Home/docs/_build/html`` and open ``index.html`` in your web browser of choice.  
   * Use GitHub Desktop to commit and then push your changes
 

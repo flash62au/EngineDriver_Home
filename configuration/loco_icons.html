@@ -5,11 +5,11 @@
 <head>
   <meta charset="utf-8" />
   <meta content="JMRI Engine Driver Throttle" name="description" />
-<meta content="Engine Driver EngineDriver JMRI manual help" name="keywords" />
+<meta content="Engine Driver EngineDriver JMRI manual help virtual sounds IPLS In Phone Loco Sounds" name="keywords" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>Moving to a new phone/device &mdash; Engine Driver Throttle Home  documentation</title>
+  <title>Loco Icons in the Roster &mdash; Engine Driver Throttle Home  documentation</title>
   
 
   
@@ -48,8 +48,8 @@
     
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Screenshots" href="../screenshots/index.html" />
-    <link rel="prev" title="Loco Icons in the Roster" href="loco_icons.html" /> 
+    <link rel="next" title="Moving to a new phone/device" href="new_device.html" />
+    <link rel="prev" title="Gamepads" href="gamepads.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -115,8 +115,8 @@
 <li class="toctree-l2"><a class="reference internal" href="functions.html">Function Buttons</a></li>
 <li class="toctree-l2"><a class="reference internal" href="ipls.html">In Phone Loco Sounds (IPLS)</a></li>
 <li class="toctree-l2"><a class="reference internal" href="gamepads.html">Gamepads</a></li>
-<li class="toctree-l2"><a class="reference internal" href="loco_icons.html">Loco Icons in the Roster</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">Moving to a new phone/device</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Loco Icons in the Roster</a></li>
+<li class="toctree-l2"><a class="reference internal" href="new_device.html">Moving to a new phone/device</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../screenshots/index.html">Screenshots</a></li>
@@ -174,14 +174,14 @@
         
           <li><a href="index.html">Configuration</a> &raquo;</li>
         
-      <li>Moving to a new phone/device</li>
+      <li>Loco Icons in the Roster</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
           
             
-              <a href="https://github.com/flash62au/EngineDriver_Home/blob/main/docs/configuration/new_device.rst" class="fa fa-github"> Edit on GitHub</a>
+              <a href="https://github.com/flash62au/EngineDriver_Home/blob/main/docs/configuration/loco_icons.rst" class="fa fa-github"> Edit on GitHub</a>
             
           
         
@@ -195,32 +195,76 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="moving-to-a-new-phone-device">
-<h1>Moving to a new phone/device<a class="headerlink" href="#moving-to-a-new-phone-device" title="Permalink to this headline">¶</a></h1>
-<p><strong>On the old Android device/phone</strong></p>
+  <div class="section" id="loco-icons-in-the-roster">
+<h1>Loco Icons in the Roster<a class="headerlink" href="#loco-icons-in-the-roster" title="Permalink to this headline">¶</a></h1>
+<p>The <strong>Roster List</strong>, and <strong>Recent Locos List</strong> on the Select Loco screen will automatically show icons for your locos only if:</p>
 <ul class="simple">
-<li><p>Start Engine Driver</p></li>
-<li><p>Use <code class="docutils literal notranslate"><span class="pre">Export</span></code> function in Engine Driver preferences</p></li>
+<li><p>The <strong>Web Server</strong> (not just the WiThrottle server) is running on the JMRI server</p></li>
+<li><p>The loco itself has an icon added for it in the JMRI roster <br />OR</p></li>
+<li><p>A locally cached or manually chosen image is available for the loco (see below)</p></li>
+<li><p>For the <strong>Recent Locos list</strong>, the loco was originally selected from a roster. (i.e. Not entered as a DCC Address)</p></li>
 </ul>
-<p><strong>On a PC</strong></p>
-<ul class="simple">
-<li><p>Connect your old Android device/phone to your PC</p></li>
-<li><p>Copy the files in the Engine Driver folder <code class="docutils literal notranslate"><span class="pre">/Android/data/jmri.enginedriver/files</span></code> off your old device to the PC</p></li>
+<p><strong>For WiThrottle servers that do support a roster but don’t support Locomotive Icons</strong></p>
+<p>There are three ways to load &amp; store your Locomotive Icon Image in Engine Driver 2.32.142 and above.</p>
+<ol class="arabic simple">
+<li><p><strong>Automatically from your existing JMRI Roster &amp; Media</strong></p></li>
+</ol>
+<blockquote>
+<div><ul class="simple">
+<li><p>Start JMRI and capture and load your images into JMRI Roster &amp; Media panel as normal</p></li>
+<li><p>Start the WiThrottle server.</p></li>
+<li><p>Start the Web Server.</p></li>
+<li><p>Connect Engine Driver to JMRI WiThrottle Server Discovered Server ‘My JMRI Railroad’ or type in the IP address : Port#</p></li>
+<li><p>Click <code class="docutils literal notranslate"><span class="pre">Select</span></code> and load your Locos then <code class="docutils literal notranslate"><span class="pre">Release</span></code> and repeat until you’ve loaded all the locomotives you require with Icons into a throttle.</p></li>
 </ul>
-<p><strong>On the new Android device/phone</strong></p>
-<ul class="simple">
-<li><p>Install Engine Driver</p></li>
-<li><p>Run it once. Then Exit.  (This will create the Engine Driver folder)</p></li>
+<p>These Loco Icons will automatically be saved/cached on the Android device/phone in a new ‘/Android/data/jmri.enginedriver/files/recent_engine_list/<strong>recent_engine_list</strong>’ folder for you.</p>
+<p>Requirements for this to work:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Have identical names (from JMRI Roster ID to DCC++EX EXRAIL Roster ID)  example ID;    “PE 1225”</p></li>
+<li><p>Have image icons displayed for the locomotives</p></li>
 </ul>
-<p><strong>On a PC</strong></p>
-<ul class="simple">
-<li><p>Connect your new Android device/phone to your PC</p></li>
-<li><p>Copy the files you saved onto the new device in the Engine Driver folder <code class="docutils literal notranslate"><span class="pre">/Android/data/jmri.enginedriver/files</span></code> .</p></li>
-<li><p>Disconnect the Android device/phone</p></li>
+</div></blockquote>
+</div></blockquote>
+<ol class="arabic simple" start="2">
+<li><p><strong>Manually entered directly into your Android Engine Driver folder</strong></p></li>
+</ol>
+<blockquote>
+<div><ul class="simple">
+<li><p>Capture then rename the image exactly like the Roster ID name in JMRI &amp; EXRAIL and save as a .PNG file</p></li>
+<li><p>Then place the engine Image into your Android device/phone in the <br />‘/Android/data/jmri.enginedriver/files/recent_engine_list’ folder <br />example image name;  PE 1225.png</p></li>
 </ul>
-<p><strong>Re-start Engine Driver on the New Android device/phone</strong></p>
+<p>Note: certain characters are not allowed in file names so need to be substituted with “_” (underscore) if you have used them in your roster name. They are:</p>
 <ul class="simple">
-<li><p>Use the <code class="docutils literal notranslate"><span class="pre">Import</span></code> function in Engine Driver preferences</p></li>
+<li><p>/ (forward slash)</p></li>
+<li><p>” (double quote)</p></li>
+<li><p>\ (backslash)</p></li>
+<li><p>* (asterisk)</p></li>
+<li><p>? (question mark)</p></li>
+<li><p>&lt; (less than)</p></li>
+<li><p>&gt; (greater than)</p></li>
+</ul>
+</div></blockquote>
+<ol class="arabic simple" start="3">
+<li><p><strong>Select an image on the phone/device (which can be taken on the phone’s camera)</strong></p></li>
+</ol>
+<blockquote>
+<div><ul class="simple">
+<li><p>In the <strong>Roster List</strong> on the Select Loco screen</p>
+<ul>
+<li><p>Long press on the loco</p></li>
+<li><p>press the <code class="docutils literal notranslate"><span class="pre">New</span> <span class="pre">Image</span></code> button, which will launch the Android system’s default app for choosing images</p></li>
+<li><p>find and select an image</p></li>
+<li><p>click <code class="docutils literal notranslate"><span class="pre">Save</span></code> <br /><br />You can replace an image with the <code class="docutils literal notranslate"><span class="pre">New</span> <span class="pre">Image</span></code> button or remove it with the <code class="docutils literal notranslate"><span class="pre">Remove</span></code> button</p></li>
+</ul>
+</li>
+</ul>
+</div></blockquote>
+<p><strong>General Notes on the Local Loco Icons:</strong></p>
+<ul class="simple">
+<li><p>If the loco already has an image in the JMRI Roster (of the currently connected WiThrottle server), you won’t be able to choose a local image.</p></li>
+<li><p>If you later add an image in the JMRI Roster for the loco (or later connect to a WiThrottle server that has an image), it will automatically overwrite the local image with the one on the server.</p></li>
+<li><p>In the Recent Locos list you <em>can not</em> add images to locos entered by a DCC address. (i.e. not from the roster)</p></li>
 </ul>
 </div>
 
@@ -230,8 +274,8 @@
           </div>
           <footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-        <a href="../screenshots/index.html" class="btn btn-neutral float-right" title="Screenshots" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
-        <a href="loco_icons.html" class="btn btn-neutral float-left" title="Loco Icons in the Roster" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="new_device.html" class="btn btn-neutral float-right" title="Moving to a new phone/device" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="gamepads.html" class="btn btn-neutral float-left" title="Gamepads" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
     </div>
 
   <hr/>

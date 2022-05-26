@@ -18,9 +18,9 @@ Speed, direction, and up to 29 DCC functions are supported for one to six locomo
 You can create and edit consists (software-defined). 
 You can also control layout power, turnouts/points, routes, and access JMRI web panels and windows.
 
-See `here for more information <./about/index.html>`_.
+See `About <./about/index.html>`_ for more information.
 
-See `Using Engine Driver <./operation/index.html>`_ for more details on how to use Engine Driver.
+See `Operation <./operation/index.html>`_ for details on how to use Engine Driver.
 
 ---------------------
 Why Use Engine Driver
