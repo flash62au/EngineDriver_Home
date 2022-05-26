@@ -1,3 +1,7 @@
+h1 .h1 {
+  text-transform: uppercase;
+}
+
 h4, .h4 {
   font-size: 100%;
   font-style: italic;
