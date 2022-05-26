@@ -132,7 +132,7 @@ Running Trains
 
 TBA
 
-Speed
+Controlling Speed
 """"""""""""""""""""""""""""""""""
 
 TBA
@@ -142,7 +142,7 @@ TBA
 - volume keys
 - gamepads
 
-Direction
+Controlling Direction
 """"""""""""""""""""""""""""""""""
 
 TBA
@@ -151,7 +151,7 @@ TBA
 - throttle screen layouts without direction buttons  (Switching/Shunting)
 - gamepads
 
-Functions
+DCC Functions
 """"""""""""""""""""""""""""""""""
 
 TBA
@@ -161,8 +161,8 @@ TBA
 - Functions in consists
 - gamepads
 
-IPLS
-""""""""""""""""""""""""""""""""""
+Virtual Sounds - In Phone Loco Sounds (IPLS)
+""""""""""""""""""""""""""""""""""""""""""""
 
 TBA
 
@@ -174,9 +174,11 @@ TBA
 Gamepads  
 """"""""""""""""""""""""""""""""""
 
+TBA
+
 See `gamepads <./gamepads.html>`_
 
-Action bar and menu
+Action Bar and Menu
 ^^^^^^^^^^^^^^^^^^^
 
 TBA
@@ -224,7 +226,7 @@ TBA
 
 ----
 
-Pushing Engine Driver to the background
+Pushing Engine Driver to the Background
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 TBA
@@ -239,7 +241,7 @@ To exit Engine Driver, you can:
 * Press the Android :guilabel:`Back` button once from the main screens (more than once if you are on one of the secondary screens) |br|\ OR
 * Menu > Exit
 
-Exiting Engine Driver 
+Exiting Engine Driver:
 
 * Disconnects from the WiThrottle server.
 * Stops playing all In Phone Loco Sounds (if any were configured).
