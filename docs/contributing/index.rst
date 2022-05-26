@@ -10,7 +10,9 @@ Contributing
 
    <br />
 
-.. contents::
+.. sidebar:: On this page
+  
+  .. contents::
 
 ----
 

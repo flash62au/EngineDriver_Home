@@ -10,8 +10,10 @@ Preferences
 
    <br />
 
-.. contents::
-  :depth: 2
+.. sidebar:: On this page
+
+  .. contents::
+    :depth: 2
     
 ----
 

@@ -6,6 +6,12 @@ Prerequisites
    :description: JMRI Engine Driver Throttle
    :keywords: Engine Driver EngineDriver JMRI manual help prerequisites
 
+.. sidebar:: On this page
+  
+  .. contents::
+
+----
+
 Android Device/Phone
 --------------------
 

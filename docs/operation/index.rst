@@ -10,8 +10,10 @@ Operation
 
    <br />
 
-.. contents::
-   :depth: 3
+.. sidebar:: On this page
+
+  .. contents::
+    :depth: 3
 
 ----
 

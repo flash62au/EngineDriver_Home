@@ -6,7 +6,10 @@ Configuration
    :description: JMRI Engine Driver Throttle
    :keywords: Engine Driver EngineDriver JMRI manual help configuration preferences
 
-.. contents::
+.. sidebar:: On this page
+  
+  .. contents::
+
 
 Engine Driver
 -------------

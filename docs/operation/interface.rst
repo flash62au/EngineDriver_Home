@@ -10,8 +10,10 @@ User Interface
 
    <br />
 
-.. contents::
-   :depth: 3
+.. sidebar:: On this page
+  
+  .. contents::
+     :depth: 3
     
 ----
 
@@ -32,7 +34,7 @@ This screen is the first screen you normally see when starting Engine Driver.
 
 It allows you choose which WiThrottle Server to connect, which you must do to control your trains.
 
-TBA
+TODO
 
 - Address and Port
 - Discovered Servers
@@ -70,12 +72,12 @@ The Throttle may configured to be simple buttons that allow you to increase or d
 Direction Buttons Area
 """"""""""""""""""""""""""""""""""""
 
-TBA
+TODO
 
 Function Buttons Scroll Area
 """"""""""""""""""""""""""""""""""""
 
-TBA
+TODO
 
 Function Buttons are displayed here.  If there are too many to display in the screen area allocated, then the area becomes scrollable (but without scroll bars) so that they can all be viewed and pressed as needed.
 
@@ -89,7 +91,7 @@ Your JMRI Layout panel is displayed here if you have configured it to do so in P
 Turnouts/Points Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-TBA
+TODO
 
 Accessed from the menu on the any of the main screens as ``Turnouts`` or ``Points`` or by swiping right from the Throttle Screen if enabled in the Left with the ``Swipe through Turnouts?`` or ``Swipe through Points?`` preference.
 
@@ -100,7 +102,7 @@ Turnouts/Points can be changed from Closed to Thrown and vice versa be pressing 
 Routes Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-TBA
+TODO
 
 Accessed from the menu on the any of the main screens as ``Routes`` or by swiping left from the Throttle Screen if enabled in the Left with the ``Swipe through Routes?`` preference.
 
@@ -109,7 +111,7 @@ This screen allows you to display all Routes that have been defined in JMRI or D
 Web Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-TBA
+TODO
 
 Accessed from the menu on the any of the main screens as ``Turnouts`` or ``Points`` or by swiping left or right twice from the Throttle Screen if enabled in the Left with the ``Swipe through Web?`` preference.
 It can also be accessed, if the ``Screen orientation`` preference is set to ``Auto Web``, by rotating the Android Device/Phone.
@@ -151,12 +153,12 @@ Tap on any of the Open Windows to expand its view.  You can then resize the pane
 Secondary / Support Screens
 -------------------------------
 
-TBA
+TODO
 
 Intro/Setup Wizard Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-TBA
+TODO
 
 
 
@@ -184,28 +186,28 @@ See `Preferences <../configuration/preferences.html>`_ for details on the prefer
 In Phone Loco Sounds Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-TBA
+TODO
 
 Accessed from the menu on the Throttle Screen as ``Loco Sounds`` or from the Status Bar if enabled with the ``In phone sounds button`` preference.
 
 Function Defaults Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-TBA
+TODO
 
 Accessed from the menu on the Throttle Screen as ``Function Defaults``.
 
 Gamepad Test Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-TBA
+TODO
 
 Accessed from the menu on the Throttle Screen as ``Gamepads`` -> ``Gamepad Test X``. (where 'X' is the number of the gamepad.)
 
 View Log Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-TBA
+TODO
 
 Accessed from the menu on the any of the main screens as ``View Log``.
 
