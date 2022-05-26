@@ -58,9 +58,9 @@ There are three ways to load & store your Locomotive Icon Image in Engine Driver
  * In the **Roster List** on the Select Loco screen
 
    * Long press on the loco
-   * press the ``New Image`` button, which will launch the Android system's default app for choosing images 
+   * press the :guilabel:`New Image` button, which will launch the Android system's default app for choosing images 
    * find and select an image
-   * click ``Save`` |br|\ |br|\ You can replace an image with the ``New Image`` button or remove it with the ``Remove`` button
+   * click :guilabel:`Save` |br|\ |br|\ You can replace an image with the :guilabel:`New Image` button or remove it with the :guilabel:`Remove` button
 
 **General Notes on the Local Loco Icons:**
 
