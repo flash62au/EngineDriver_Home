@@ -24,11 +24,13 @@ Contribution to both the code and documentation is welcome.  See [`here <../cont
 Engine Driver currently has minSDKVersion set to 16, which equates to Android OS 4.1 (JELLYBEAN). 
 Info on minSDKVersion available `[here] <https://developer.android.com/guide/topics/manifest/uses-sdk-element#ApiLevels>`_.
 
+See `Operation <./operation/index.html>`_ for details on how to use Engine Driver.
+
 ----
 
 Notes:
 
 * 'WiThrottle' is a trademark owned by Brett Hoffman.
-* 'WiThrottle' is a propriatory `iOS app <https://www.withrottle.com/html/home.html>`_ developed by Brett Hoffman which has similar capabilities to Engine Driver.
+* 'WiThrottle' is a proprietary `iOS app <https://www.withrottle.com/html/home.html>`_ developed by Brett Hoffman which has similar capabilities to Engine Driver.
 * The 'WiThrottle protocol' is a proprietary protocol developed by Brett Hoffman.  It is used JMRI, Engine Driver and a number of DCC Command Stations.
 * References in this website to a 'WiThottle Server', refer to a server that can process and communicate via the 'WiThrottle protocol'.

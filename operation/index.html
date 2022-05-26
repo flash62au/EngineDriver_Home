@@ -106,6 +106,7 @@
 <li class="toctree-l2"><a class="reference internal" href="interface.html">User Interface</a></li>
 <li class="toctree-l2"><a class="reference internal" href="wifi_issues.html">WiFi Issues</a></li>
 <li class="toctree-l2"><a class="reference internal" href="gamepads.html">Gamepads</a></li>
+<li class="toctree-l2"><a class="reference internal" href="esu_mcii.html">ESU MobileControl II</a></li>
 <li class="toctree-l2"><a class="reference internal" href="faq.html">Frequently Asked Questions</a></li>
 </ul>
 </li>
@@ -195,6 +196,8 @@
             
   <div class="section" id="operation">
 <h1><a class="toc-backref" href="#id3">Operation</a><a class="headerlink" href="#operation" title="Permalink to this headline">¶</a></h1>
+<div class="sidebar">
+<p class="sidebar-title">On this page</p>
 <div class="contents topic" id="contents">
 <p class="topic-title">Contents</p>
 <ul class="simple">
@@ -210,13 +213,14 @@
 <li><p><a class="reference internal" href="#turnouts-points" id="id10">Turnouts / Points</a></p></li>
 <li><p><a class="reference internal" href="#routes" id="id11">Routes</a></p></li>
 <li><p><a class="reference internal" href="#panels-and-web-pages" id="id12">Panels and Web Pages</a></p></li>
-<li><p><a class="reference internal" href="#pushing-the-engine-driver-app-to-the-background" id="id13">Pushing the Engine Driver App to the background</a></p></li>
+<li><p><a class="reference internal" href="#pushing-engine-driver-to-the-background" id="id13">Pushing Engine Driver to the background</a></p></li>
 <li><p><a class="reference internal" href="#exiting-engine-driver" id="id14">Exiting Engine Driver</a></p></li>
 </ul>
 </li>
 </ul>
 </li>
 </ul>
+</div>
 </div>
 <hr class="docutils" />
 <div class="section" id="quick-start-basic-information">
@@ -234,7 +238,7 @@
 <li><p><strong>On your Android device/phone</strong></p>
 <ul>
 <li><p>Make sure you are connected to same network as the WiThrottle server’s network.</p></li>
-<li><p>Start the Engine Driver app</p>
+<li><p>Start Engine Driver</p>
 <ul>
 <li><p>The first time you run Engine Driver you will need to go through the Setup Wizard to agree to the permissions and select a few key preferences</p>
 <p>See the <a class="reference external" href="../configuration/setup_wizard.html">Setup Wizard</a> page for more information.</p>
@@ -281,7 +285,6 @@
 <h2><a class="toc-backref" href="#id5">Detailed Information</a><a class="headerlink" href="#detailed-information" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="connecting">
 <h3><a class="toc-backref" href="#id6">Connecting</a><a class="headerlink" href="#connecting" title="Permalink to this headline">¶</a></h3>
-<p>TBA</p>
 <div class="section" id="connecting-to-the-network">
 <h4>Connecting to the network<a class="headerlink" href="#connecting-to-the-network" title="Permalink to this headline">¶</a></h4>
 <p>TBA</p>
@@ -290,10 +293,12 @@
 <div class="section" id="connecting-the-withrottle-server">
 <h4>Connecting the WiThrottle server<a class="headerlink" href="#connecting-the-withrottle-server" title="Permalink to this headline">¶</a></h4>
 <p>TBA</p>
-</div>
-<div class="section" id="auto-connecting">
-<h4>Auto connecting<a class="headerlink" href="#auto-connecting" title="Permalink to this headline">¶</a></h4>
-<p>TBA</p>
+<ul class="simple">
+<li><p>Address and Port</p></li>
+<li><p>Discovered Servers</p></li>
+<li><p>Recent servers</p></li>
+</ul>
+<p>If you only ever connect to one WiThrottle server you can effectively bypass this screen by setting the <code class="docutils literal notranslate"><span class="pre">Auto-Connect</span> <span class="pre">to</span> <span class="pre">WiThrottle</span> <span class="pre">Server?</span></code> preference.</p>
 </div>
 </div>
 <hr class="docutils" />
@@ -404,19 +409,19 @@
 <p>TBA</p>
 </div>
 <hr class="docutils" />
-<div class="section" id="pushing-the-engine-driver-app-to-the-background">
-<h3><a class="toc-backref" href="#id13">Pushing the Engine Driver App to the background</a><a class="headerlink" href="#pushing-the-engine-driver-app-to-the-background" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="pushing-engine-driver-to-the-background">
+<h3><a class="toc-backref" href="#id13">Pushing Engine Driver to the background</a><a class="headerlink" href="#pushing-engine-driver-to-the-background" title="Permalink to this headline">¶</a></h3>
 <p>TBA</p>
 </div>
 <hr class="docutils" />
 <div class="section" id="exiting-engine-driver">
 <h3><a class="toc-backref" href="#id14">Exiting Engine Driver</a><a class="headerlink" href="#exiting-engine-driver" title="Permalink to this headline">¶</a></h3>
-<p>To exit the Engine Driver app, you can:</p>
+<p>To exit Engine Driver, you can:</p>
 <ul class="simple">
 <li><p>Press the Android <code class="docutils literal notranslate"><span class="pre">Back</span></code> button once from the main screens (more than once if you are on one of the secondary screens) <br />OR</p></li>
 <li><p>Menu &gt; Exit</p></li>
 </ul>
-<p>Exiting the Engine Driver app</p>
+<p>Exiting Engine Driver</p>
 <ul class="simple">
 <li><p>Disconnects from the WiThrottle server.</p></li>
 <li><p>Stops playing all In Phone Loco Sounds (if any were configured).</p></li>

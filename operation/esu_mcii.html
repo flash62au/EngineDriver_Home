@@ -5,11 +5,11 @@
 <head>
   <meta charset="utf-8" />
   <meta content="JMRI Engine Driver Throttle" name="description" />
-<meta content="Engine Driver EngineDriver JMRI manual help WiFi" name="keywords" />
+<meta content="Engine Driver EngineDriver JMRI manual help ESU MobileControl MC2 MCII" name="keywords" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>WiFi Issues &mdash; Engine Driver Throttle Home  documentation</title>
+  <title>ESU MobileControl II &mdash; Engine Driver Throttle Home  documentation</title>
   
 
   
@@ -48,8 +48,8 @@
     
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Gamepads" href="gamepads.html" />
-    <link rel="prev" title="User Interface" href="interface.html" /> 
+    <link rel="next" title="Frequently Asked Questions" href="faq.html" />
+    <link rel="prev" title="Gamepads" href="gamepads.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -104,9 +104,9 @@
 <li class="toctree-l1"><a class="reference internal" href="../prerequisites/index.html">Prerequisites</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="index.html">Operation</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="interface.html">User Interface</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">WiFi Issues</a></li>
+<li class="toctree-l2"><a class="reference internal" href="wifi_issues.html">WiFi Issues</a></li>
 <li class="toctree-l2"><a class="reference internal" href="gamepads.html">Gamepads</a></li>
-<li class="toctree-l2"><a class="reference internal" href="esu_mcii.html">ESU MobileControl II</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">ESU MobileControl II</a></li>
 <li class="toctree-l2"><a class="reference internal" href="faq.html">Frequently Asked Questions</a></li>
 </ul>
 </li>
@@ -175,14 +175,14 @@
         
           <li><a href="index.html">Operation</a> &raquo;</li>
         
-      <li>WiFi Issues</li>
+      <li>ESU MobileControl II</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
           
             
-              <a href="https://github.com/flash62au/EngineDriver_Home/blob/main/docs/operation/wifi_issues.rst" class="fa fa-github"> Edit on GitHub</a>
+              <a href="https://github.com/flash62au/EngineDriver_Home/blob/main/docs/operation/esu_mcii.rst" class="fa fa-github"> Edit on GitHub</a>
             
           
         
@@ -196,48 +196,26 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="wifi-issues">
-<h1><a class="toc-backref" href="#id1">WiFi Issues</a><a class="headerlink" href="#wifi-issues" title="Permalink to this headline">¶</a></h1>
-<div class="sidebar">
-<p class="sidebar-title">On this page</p>
-<div class="contents topic" id="contents">
-<p class="topic-title">Contents</p>
-<ul class="simple">
-<li><p><a class="reference internal" href="#wifi-issues" id="id1">WiFi Issues</a></p>
-<ul>
-<li><p><a class="reference internal" href="#wrong-network" id="id2">Wrong Network</a></p></li>
-<li><p><a class="reference internal" href="#firewalls" id="id3">Firewalls</a></p></li>
-<li><p><a class="reference internal" href="#using-mobile-data-instead-of-wifi" id="id4">Using Mobile Data instead of WiFi</a></p></li>
-</ul>
-</li>
-</ul>
-</div>
-</div>
-<div class="section" id="wrong-network">
-<h2><a class="toc-backref" href="#id2">Wrong Network</a><a class="headerlink" href="#wrong-network" title="Permalink to this headline">¶</a></h2>
-<p>Recent versions of Android have a very confusing <em>feature</em>, sometimes called ‘Smart Network Switching’, that will ignore a connected WiFi network if that network cannot reach the Internet.</p>
-<p>This can cause problems if you sometimes use your device to connect to the internet on one network, but you WiThrottle server is on a different network that does not have an internet connection.</p>
-<p>Some devices have a setting to turn off this feature, some do not.
-Some provide a notification that “Wi-Fi has no internet access, Tap for options”, followed by “This network has no internet access. Stay connected?” that can be used to disable this feature and remain connected to the WiFi.
-If you missed the prompt, you can “forget” the network, and reenter your WiFi credentials to get the prompt again.</p>
-</div>
-<div class="section" id="firewalls">
-<h2><a class="toc-backref" href="#id3">Firewalls</a><a class="headerlink" href="#firewalls" title="Permalink to this headline">¶</a></h2>
-<p>TBA</p>
-<p>Your PC’s firewall software can prevent Engine Driver from connecting. You may need to add an exception in your firewall software for JMRI or disable the firewall to allow Engine Driver to connect.</p>
-</div>
-<div class="section" id="using-mobile-data-instead-of-wifi">
-<h2><a class="toc-backref" href="#id4">Using Mobile Data instead of WiFi</a><a class="headerlink" href="#using-mobile-data-instead-of-wifi" title="Permalink to this headline">¶</a></h2>
-<p><em>UPDATE: as of EngineDriver 2.26.115, EngineDriver now handles this situation by “forcing” the local WiFi connection.
-There is an ``Allow Mobile Data Connection`` preference that can be enabled if needed.</em></p>
-<p>Recent versions of Android have a very confusing <em>feature</em>, sometimes called ‘Smart Network Switching’, that will ignore a connected WiFi network if that network cannot reach the Internet.
-The network shows as connected, and EngineDriver server discovery works, but clicking on the discovered server or Connect button does not work.</p>
-<p>EngineDriver will show a message “Using MOBILE network, not WiFi. check WiFi settings”, when this mode is encountered.</p>
-<p>Some devices have a setting to turn off this feature, some do not.
-Some provide a notification that “Wi-Fi has no internet access, Tap for options”, followed by “This network has no internet access. Stay connected?” that can be used to disable this feature and remain connected to the WiFi.
-If you missed the prompt, you can “forget” the network, and reenter your WiFi credentials to get the prompt again.</p>
-<p>Workaround: If you are unable to turn off the feature, you can enable “Airplane Mode”, then enable ONLY WiFi, and then connect your WiFi.</p>
-</div>
+  <div class="section" id="esu-mobilecontrol-ii">
+<h1>ESU MobileControl II<a class="headerlink" href="#esu-mobilecontrol-ii" title="Permalink to this headline">¶</a></h1>
+<p>As well as being able to control speed of the selected throttle with the control knob, it’s also possible to switch direction via the zero-position end-stop switch.</p>
+<p>Up to three trains can be controlled at once - the train being operated by the control knob is highlighted by the small ‘v’ in the speed indicator. Switch between operated trains by clicking the appropriate speed indicator. It is also possible to assign one of the device side
+buttons to switch to the next operated train - by default, the bottom-right button is assigned to this function.</p>
+<p>When assigned to control a train, the Green LED is lit. When no trains are assigned, the Green LED flashes.
+In addition, you can use the Stop button to pause the currently operated train, or to stop all controlled trains. A short press of the Stop button (default, less than 1/2 second) pauses operation of the currently controlled train. The Red LED will flash quickly to denote this. On a second press of the Stop button, the currently operated train will resume at the previous set speed. A long press of the Stop button (default, greater than 1/2 second) will stop all controlled trains. The Red LED will flash slowly to denote this. On a second press of the Stop button, all controlled trains will remain stationary and it will be possible to again control the currently selected train.</p>
+<p>Whilst in stop mode, the on-screen speed change buttons and bar are disabled for currently stopped throttles. Switching between controlled throttles is also disabled.</p>
+<p>It is possible to configure the device side buttons to perform various actions. The default assignment is as follows:</p>
+<dl class="simple">
+<dt>Top-left</dt><dd><p>Increase speed</p>
+</dd>
+<dt>Bottom-left</dt><dd><p>Decrease speed</p>
+</dd>
+<dt>Top-right</dt><dd><p>Toggle direction</p>
+</dd>
+<dt>Bottom-right</dt><dd><p>Select next throttle</p>
+</dd>
+</dl>
+<p>These assignments can be modified via the ESU MobileControl II Options page in Preferences.</p>
 </div>
 
 
@@ -246,8 +224,8 @@ If you missed the prompt, you can “forget” the network, and reenter your WiF
           </div>
           <footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-        <a href="gamepads.html" class="btn btn-neutral float-right" title="Gamepads" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
-        <a href="interface.html" class="btn btn-neutral float-left" title="User Interface" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="faq.html" class="btn btn-neutral float-right" title="Frequently Asked Questions" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="gamepads.html" class="btn btn-neutral float-left" title="Gamepads" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
     </div>
 
   <hr/>

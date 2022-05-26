@@ -5,7 +5,7 @@
 <head>
   <meta charset="utf-8" />
   <meta content="JMRI Engine Driver Throttle" name="description" />
-<meta content="Engine Driver EngineDriver JMRI manual help faq frequently asked questions" name="keywords" />
+<meta content="Engine Driver EngineDriver JMRI manual help FAQ frequently asked questions" name="keywords" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
@@ -49,7 +49,7 @@
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="Configuration" href="../configuration/index.html" />
-    <link rel="prev" title="Gamepads" href="gamepads.html" /> 
+    <link rel="prev" title="ESU MobileControl II" href="esu_mcii.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -106,6 +106,7 @@
 <li class="toctree-l2"><a class="reference internal" href="interface.html">User Interface</a></li>
 <li class="toctree-l2"><a class="reference internal" href="wifi_issues.html">WiFi Issues</a></li>
 <li class="toctree-l2"><a class="reference internal" href="gamepads.html">Gamepads</a></li>
+<li class="toctree-l2"><a class="reference internal" href="esu_mcii.html">ESU MobileControl II</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">Frequently Asked Questions</a></li>
 </ul>
 </li>
@@ -197,6 +198,8 @@
             
   <div class="section" id="frequently-asked-questions">
 <h1><a class="toc-backref" href="#id1">Frequently Asked Questions</a><a class="headerlink" href="#frequently-asked-questions" title="Permalink to this headline">¶</a></h1>
+<div class="sidebar">
+<p class="sidebar-title">On this page</p>
 <div class="contents topic" id="contents">
 <p class="topic-title">Contents</p>
 <ul class="simple">
@@ -233,20 +236,24 @@
 </li>
 </ul>
 </div>
+</div>
 <hr class="docutils" />
 <div class="section" id="connecting-wifi-and-withrottle">
 <h2><a class="toc-backref" href="#id2">Connecting - Wifi and WiThrottle</a><a class="headerlink" href="#connecting-wifi-and-withrottle" title="Permalink to this headline">¶</a></h2>
 <ol class="upperalpha simple" start="17">
 <li><p>Why doesn’t my Android device automatically connect to my WiFi network?</p></li>
 </ol>
-<ol class="upperalpha simple">
+<blockquote>
+<div><ol class="upperalpha simple">
 <li><p>I have noticed that some older android phones won’t automatically reconnect to a network that does not have internet access, and nothing I have been able to do can resolve it.</p></li>
 </ol>
+</div></blockquote>
 <p>I have in the past put a shortcut on the homepage to the network settings to make it easy to get there and select the network, before starting ED.</p>
 <ol class="upperalpha simple" start="17">
 <li><p>I can’t connect to my Server /Railroad</p></li>
 </ol>
-<p>A1. Check the following:</p>
+<blockquote>
+<div><p>A1. Check the following:</p>
 <ul class="simple">
 <li><p>Check that you are connected to a WiFi network</p></li>
 <li><p>Check that you are connected to the same WiFi network as your WiThrottle server</p></li>
@@ -254,48 +261,61 @@
 </ul>
 <p>A2. Possible Mobile data connection problem</p>
 <p>If Engine Driver can see the WiThrottle server but displays an error when you try to connect to it… If you are using a phone with a SIM, and the WiFi network your JMRI server is on does not have internet access. You may have to turn ‘mobile data’ off on your device.  See <a class="reference external" href="./wifi_issues.html">[here] for more information</a>.</p>
+</div></blockquote>
 <ol class="upperalpha simple" start="17">
 <li><p>Engine Driver Connects, but I can’t control any locos</p></li>
 </ol>
-<ol class="upperalpha simple">
+<blockquote>
+<div><ol class="upperalpha simple">
 <li><p>Powering the layout on</p></li>
 </ol>
 <p>&lt;stuff goes here&gt;</p>
 <p>Some DCC command stations need to be turned on.</p>
+</div></blockquote>
 <ol class="upperalpha simple" start="17">
 <li><p>Why doesn’t Engine Driver automatically find my server?</p></li>
 </ol>
-<p>I can manually connect to my Server / Railroad, but it never finds it automatically.</p>
+<blockquote>
+<div><p>I can manually connect to my Server / Railroad, but it never finds it automatically.</p>
 <p>A1. One reason can be your router doesn’t not support the ‘Bonjour’ protocol. There is not much you can do if this is the case other than trying a different router.</p>
 <p>A2. 4.5ghz and 5ghz. &lt;stuff goes here&gt;</p>
+</div></blockquote>
 <ol class="upperalpha simple" start="17">
 <li><p>If Engine Driver can’t find my Server/Railroad automatically</p></li>
 </ol>
-<ol class="upperalpha simple">
+<blockquote>
+<div><ol class="upperalpha simple">
 <li><p>Look for the ip address and port in the WiThrottle window in JMRI</p></li>
 </ol>
 <p>Type them in the two fields and click <code class="docutils literal notranslate"><span class="pre">Connect</span></code></p>
+</div></blockquote>
 <ol class="upperalpha simple" start="17">
 <li><p>Why doesn’t Engine Driver remember the servers I have connected to?</p></li>
 </ol>
-<ol class="upperalpha simple">
+<blockquote>
+<div><ol class="upperalpha simple">
 <li><p>Check the Engine Driver preferences and make sure the <code class="docutils literal notranslate"><span class="pre">Maximum</span> <span class="pre">Recent</span> <span class="pre">Locos</span></code> preference is not set to zero.</p></li>
 </ol>
+</div></blockquote>
 <hr class="docutils" />
 <div class="section" id="connecting-to-different-servers-railroads">
 <h3><a class="toc-backref" href="#id3">Connecting to different servers/railroads</a><a class="headerlink" href="#connecting-to-different-servers-railroads" title="Permalink to this headline">¶</a></h3>
 <ol class="upperalpha simple" start="17">
 <li><p>I want to switch to a different server on the same network.</p></li>
 </ol>
-<ol class="upperalpha simple">
+<blockquote>
+<div><ol class="upperalpha simple">
 <li><p>You need to exit Engine Driver and restart.</p></li>
 </ol>
+</div></blockquote>
 <ol class="upperalpha simple" start="17">
 <li><p>I want to switch to a different server on a different network.</p></li>
 </ol>
-<ol class="upperalpha simple">
+<blockquote>
+<div><ol class="upperalpha simple">
 <li><p>You need to exit Engine Driver, change WiFi networks in the Android settings, then restart Engine Driver.</p></li>
 </ol>
+</div></blockquote>
 </div>
 <hr class="docutils" />
 <div class="section" id="save-load-preferences-for-different-servers">
@@ -310,16 +330,20 @@ The most common use of this (so far) is to remember the locos relevant to that r
 <ol class="upperalpha simple" start="17">
 <li><p>What is this <strong>jmri.mstevetodd.com</strong> in the server list?</p></li>
 </ol>
-<ol class="upperalpha simple">
+<blockquote>
+<div><ol class="upperalpha simple">
 <li><p><em>jmri.mstevetodd.com</em> is a demo server, which can be used for testing. It has roster entries, turnouts, routes and an active panel for you to try.</p></li>
 </ol>
 <p>There is a preference to allow you to permanently remove it from the list if you wish.</p>
+</div></blockquote>
 <ol class="upperalpha simple" start="17">
 <li><p>How do I clear unwanted servers from the list</p></li>
 </ol>
-<ol class="upperalpha simple">
+<blockquote>
+<div><ol class="upperalpha simple">
 <li><p>Swipe right on an entry to remove it.</p></li>
 </ol>
+</div></blockquote>
 </div>
 </div>
 <hr class="docutils" />
@@ -328,62 +352,79 @@ The most common use of this (so far) is to remember the locos relevant to that r
 <ol class="upperalpha simple" start="17">
 <li><p>Why can’t I can’t see my loco in the roster?</p></li>
 </ol>
-<ol class="upperalpha simple">
+<blockquote>
+<div><ol class="upperalpha simple">
 <li><p>The loco needs to be added to the JMRI roster on your server computer.  Refer to the JMRI documentation to see how.</p></li>
 </ol>
+</div></blockquote>
 <ol class="upperalpha simple" start="17">
 <li><p>Why is my loco is not remembered in the recent locos list?</p></li>
 </ol>
-<p>A1. If the loco is in your roster, check the preference <code class="docutils literal notranslate"><span class="pre">Roster</span> <span class="pre">in</span> <span class="pre">Recent</span> <span class="pre">Locos?</span></code> so that locos in the roster will be included in the recent locos list.</p>
+<blockquote>
+<div><p>A1. If the loco is in your roster, check the preference <code class="docutils literal notranslate"><span class="pre">Roster</span> <span class="pre">in</span> <span class="pre">Recent</span> <span class="pre">Locos?</span></code> so that locos in the roster will be included in the recent locos list.</p>
 <p>A2. If no locos are remembered (and you have confirmed the preference above) make sure the <code class="docutils literal notranslate"><span class="pre">Maximum</span> <span class="pre">Recent</span> <span class="pre">Locos</span></code> preference is not set to zero.</p>
+</div></blockquote>
 <ol class="upperalpha simple" start="17">
 <li><p>The JMRI loco list is too long, I can’t find my locos easily</p></li>
 </ol>
-<ol class="upperalpha simple">
+<blockquote>
+<div><ol class="upperalpha simple">
 <li><p>You can use the filter option to reduce the list</p></li>
 </ol>
-<p>TBA</p>
+<p>TODO</p>
+</div></blockquote>
 <ol class="upperalpha simple" start="17">
 <li><p>How do I work with Consists</p></li>
 </ol>
-<p>A1. On the fly Consists in Engine Driver</p>
+<blockquote>
+<div><p>A1. On the fly Consists in Engine Driver</p>
 <p>Engine Driver can create consists on-the-fly by simply select multiple locos, one after the other…</p>
-<p>TBA</p>
+<p>TODO</p>
 <p>Note: Make sure that the <code class="docutils literal notranslate"><span class="pre">Drop</span> <span class="pre">Loco</span> <span class="pre">before</span> <span class="pre">acquire?</span></code> preference is set to ‘No’.</p>
 <p>A2. Normal Consists</p>
 <p>Note you can’t create a normal consist with Engine Driver, but you can control one if it has already been setup.</p>
-<p>TBA</p>
+<p>TODO</p>
 <p>Remember that this type of consist can cause problems later if the loco has not been removed from the consist first and you want to control it as an individual loco.</p>
 <p>A3. JMRI Consists</p>
 <p>&lt;stuff goes here&gt;</p>
 <p>Will appear in the loco list as…</p>
+</div></blockquote>
 <ol class="upperalpha simple" start="17">
 <li><p>I can’t create on-the-fly consists?</p></li>
 </ol>
-<ol class="upperalpha simple">
+<blockquote>
+<div><ol class="upperalpha simple">
 <li><p>Make sure that the <code class="docutils literal notranslate"><span class="pre">Drop</span> <span class="pre">Loco</span> <span class="pre">before</span> <span class="pre">acquire?</span></code> preference is set to ‘No’.</p></li>
 </ol>
+</div></blockquote>
 <ol class="upperalpha simple" start="17">
 <li><p>The lights of the locos in my consist are wrong?</p></li>
 </ol>
-<p>A1. If you use on-the-fly consists, you can control the lights by clicking <code class="docutils literal notranslate"><span class="pre">Select</span></code> then click on the <code class="docutils literal notranslate"><span class="pre">Edit</span> <span class="pre">Lights</span></code> button</p>
+<blockquote>
+<div><p>A1. If you use on-the-fly consists, you can control the lights by clicking <code class="docutils literal notranslate"><span class="pre">Select</span></code> then click on the <code class="docutils literal notranslate"><span class="pre">Edit</span> <span class="pre">Lights</span></code> button</p>
 <p>A2. You can control the lights with a Long click on the <code class="docutils literal notranslate"><span class="pre">Select</span></code> Loco button, if you set the <code class="docutils literal notranslate"><span class="pre">Control</span> <span class="pre">consist</span> <span class="pre">Lights</span> <span class="pre">on</span> <span class="pre">long</span> <span class="pre">click</span></code> preference.</p>
+</div></blockquote>
 <ol class="upperalpha simple" start="17">
 <li><p>Can’t control my loco?</p></li>
 </ol>
-<ol class="upperalpha simple">
+<blockquote>
+<div><ol class="upperalpha simple">
 <li><p>If you can control the lights but not the motor, check that the loco is not in a ‘normal’ consist.</p></li>
 </ol>
+</div></blockquote>
 <ol class="upperalpha simple" start="17">
 <li><p>I sometimes accidently press the volume keys</p></li>
 </ol>
-<ol class="upperalpha simple">
+<blockquote>
+<div><ol class="upperalpha simple">
 <li><p>You can disable the volume keys in the preferences.</p></li>
 </ol>
+</div></blockquote>
 <ol class="upperalpha simple" start="17">
 <li><p>I sometimes accidently press the direction button when changing speed</p></li>
 </ol>
-<ol class="upperalpha simple">
+<blockquote>
+<div><ol class="upperalpha simple">
 <li><p>You can:</p></li>
 </ol>
 <blockquote>
@@ -393,10 +434,12 @@ The most common use of this (so far) is to remember the locos relevant to that r
 <li><p>Decrease loco and direction button height</p></li>
 </ul>
 </div></blockquote>
+</div></blockquote>
 <ol class="upperalpha simple" start="17">
 <li><p>No Locomotive Icons appear in the Roster</p></li>
 </ol>
-<ol class="upperalpha simple">
+<blockquote>
+<div><ol class="upperalpha simple">
 <li><p>The Roster List, and Recent Locos List on the Select Loco screen will automatically show icons for your locos only if:</p></li>
 </ol>
 <blockquote>
@@ -406,12 +449,15 @@ The most common use of this (so far) is to remember the locos relevant to that r
 <li><p>A locally cached or manually chosen image is available for the loco (see ‘Locomotive Icons’ on the <a class="reference external" href="../operations/index.html">Operation page</a>)</p></li>
 </ul>
 </div></blockquote>
+</div></blockquote>
 <ol class="upperalpha simple" start="17">
 <li><p>Why can’t I control 6 locos</p></li>
 </ol>
-<ol class="upperalpha simple">
+<blockquote>
+<div><ol class="upperalpha simple">
 <li><p>only the ‘Simple’ throttle layout allows for 6 throttles</p></li>
 </ol>
+</div></blockquote>
 </div>
 <hr class="docutils" />
 <div class="section" id="changing-the-appearance-of-engine-driver">
@@ -421,16 +467,20 @@ The most common use of this (so far) is to remember the locos relevant to that r
 <ol class="upperalpha simple" start="17">
 <li><p>I want to change the appearance of the app</p></li>
 </ol>
-<ol class="upperalpha simple">
+<blockquote>
+<div><ol class="upperalpha simple">
 <li><p>You can switch between different themes by changing the preference.</p></li>
 </ol>
-<ul class="simple">
+<blockquote>
+<div><ul class="simple">
 <li><p>The original theme</p></li>
 <li><p>The high contrast theme. Similar to the original theme, without the textured background with deeper blacks and brighter whites.</p></li>
 <li><p>The high contrast outline theme. For people who like white text on a black background.</p></li>
 <li><p>The Dark theme.</p></li>
 <li><p>The Colourful theme.</p></li>
 </ul>
+</div></blockquote>
+</div></blockquote>
 </div>
 <hr class="docutils" />
 <div class="section" id="changing-the-throttle-page">
@@ -438,11 +488,12 @@ The most common use of this (so far) is to remember the locos relevant to that r
 <ol class="upperalpha simple" start="17">
 <li><p>I want to change the appearance of Throttle Screen</p></li>
 </ol>
-<ol class="upperalpha simple">
+<blockquote>
+<div><ol class="upperalpha simple">
 <li><p>There are a number of different Throttle Screen designs.  Look at the <a class="reference external" href="../operaion/index.html">Operation</a> page for details</p></li>
 </ol>
 <blockquote>
-<div><ul>
+<div><ul class="simple">
 <li><p>Default / Original /Horizontal</p></li>
 <li><p>Simple</p></li>
 <li><p>Vertical</p></li>
@@ -452,44 +503,49 @@ The most common use of this (so far) is to remember the locos relevant to that r
 <li><p>Horizontal Switching/Shunting</p></li>
 <li><p>Vertical Switching/Shunting</p></li>
 <li><p>Vertical Switching/Shunting Left</p></li>
-<li><p>Vertical Switching/Shunting Right</p>
-<blockquote>
-<div><p>Engine Driver will automatically reload the throttle sceen after closing the preferences screen.</p>
-</div></blockquote>
-</li>
+<li><p>Vertical Switching/Shunting Right</p></li>
 </ul>
+<p>Engine Driver will automatically reload the throttle sceen after closing the preferences screen.</p>
+</div></blockquote>
 </div></blockquote>
 <ol class="upperalpha simple" start="17">
 <li><p>I want vertical sliders, not horizontal</p></li>
 </ol>
-<ol class="upperalpha simple">
+<blockquote>
+<div><ol class="upperalpha simple">
 <li><p>See the ‘Simple’ and ‘Vertical’ Throttle Page type options above.</p></li>
 </ol>
+</div></blockquote>
 <ol class="upperalpha simple" start="17">
 <li><p>I want to control more than one train</p></li>
 </ol>
-<ol class="upperalpha">
-<li><p>You can control between one and six trains with Engine Driver, depending on which Throttle Screen type (see above) you have chosen. Each train can have one or more locomotives in consist.</p>
 <blockquote>
-<div><p>The screen space is shared between throttles, so set the “Number of Throttles” appropriately.</p>
+<div><ol class="upperalpha">
+<li><p>You can control between one and six trains with Engine Driver, depending on which Throttle Screen type (see above) you have chosen. Each train can have one or more locomotives in consist.</p>
+<p>The screen space is shared between throttles, so set the “Number of Throttles” appropriately.</p>
 <p>Note that the different Throttle Screen options (above) support different numbers on throttles.</p>
-</div></blockquote>
 </li>
 </ol>
+</div></blockquote>
 <ol class="upperalpha simple" start="17">
 <li><p>In want to change the labels of the function buttons that are displayed</p></li>
 </ol>
-<p>A1. Change the function button defaults in Engine Driver, for locos without Roster Entries</p>
+<blockquote>
+<div><p>A1. Change the function button defaults in Engine Driver, for locos without Roster Entries</p>
 <p>A2. Roster entries include function button labels, and can be changed in JMRI</p>
+</div></blockquote>
 <ol class="upperalpha simple" start="17">
 <li><p>My locos have different functions but all the Function buttons appear the same for every locomotive</p></li>
 </ol>
-<p>A1. There is a Preference “Use default function labels?” which can override the labels from the roster entry.  Confirm that you have not turned it on.</p>
+<blockquote>
+<div><p>A1. There is a Preference “Use default function labels?” which can override the labels from the roster entry.  Confirm that you have not turned it on.</p>
 <p>A2. You need to setup the individual functions for each of your locos in JMRI.</p>
+</div></blockquote>
 <ol class="upperalpha simple" start="17">
 <li><p>My loco shows the wrong Function labels</p></li>
 </ol>
-<ol class="upperalpha">
+<blockquote>
+<div><ol class="upperalpha">
 <li><p>Functions of loco are generally set in the JMRI roster.  Engine Driver may be showing the functions of a loco with the same address from the Roster.</p>
 <blockquote>
 <div><p>This can happen if you entered an address to select the loco rather than selecting from the roster list.</p>
@@ -497,12 +553,14 @@ The most common use of this (so far) is to remember the locos relevant to that r
 </div></blockquote>
 </li>
 </ol>
+</div></blockquote>
 </div>
 <hr class="docutils" />
 <div class="section" id="speed-slider-vs-speed-buttons">
 <h3><a class="toc-backref" href="#id9">Speed slider VS speed buttons</a><a class="headerlink" href="#speed-slider-vs-speed-buttons" title="Permalink to this headline">¶</a></h3>
 <p>Some people find the speed slider difficult to control.</p>
-<p>There are options to:</p>
+<blockquote>
+<div><p>There are options to:</p>
 <ul>
 <li><p>Change the height of slider</p></li>
 <li><p>Add speed buttons to the ends of the slider (with further options to increase the separation)</p></li>
@@ -512,71 +570,78 @@ The most common use of this (so far) is to remember the locos relevant to that r
 </div></blockquote>
 </li>
 </ul>
+</div></blockquote>
 <ol class="upperalpha simple" start="17">
 <li><p>I have a small screen Android device.  It doesn’t fit well?</p></li>
 </ol>
-<p>A1. Try the ‘Immersive mode’ preference. (see below)</p>
+<blockquote>
+<div><p>A1. Try the ‘Immersive mode’ preference. (see below)</p>
 <p>A2. Reduce the height of the loco select and direction buttons</p>
 <p>A3. Keep the number of locos to 1 or two.</p>
+</div></blockquote>
 </div>
 <div class="section" id="direction-buttons">
 <h3><a class="toc-backref" href="#id10">Direction Buttons</a><a class="headerlink" href="#direction-buttons" title="Permalink to this headline">¶</a></h3>
 <ol class="upperalpha simple" start="17">
 <li><p>I don’t like the direction buttons in that order</p></li>
 </ol>
-<ol class="upperalpha simple">
+<blockquote>
+<div><ol class="upperalpha simple">
 <li><p>If you tend to think that forward should be to the right and reverse to the left, you can change the buttons positions in the preferences.</p></li>
 </ol>
 <p>You can also change them on the fly.</p>
 <p>Labeling the direction buttons for the directions/conventions of your railroad/railway.</p>
 <p>e.g. North South, West East, Up Down.</p>
 <p>&lt;stuff goes here&gt;</p>
+</div></blockquote>
 </div>
 <div class="section" id="hiding-the-title-bar-and-navigation-bar">
 <h3><a class="toc-backref" href="#id11">Hiding the title bar and navigation bar</a><a class="headerlink" href="#hiding-the-title-bar-and-navigation-bar" title="Permalink to this headline">¶</a></h3>
-<p>TBA</p>
+<p>TODO</p>
 </div>
 <div class="section" id="immersive-mode">
 <h3><a class="toc-backref" href="#id12">Immersive mode</a><a class="headerlink" href="#immersive-mode" title="Permalink to this headline">¶</a></h3>
-<p>TBA</p>
+<p>TODO</p>
 </div>
 <div class="section" id="swiping-up-or-down">
 <h3><a class="toc-backref" href="#id13">Swiping up or Down</a><a class="headerlink" href="#swiping-up-or-down" title="Permalink to this headline">¶</a></h3>
-<p>TBA</p>
+<p>TODO</p>
 </div>
 <hr class="docutils" />
 <div class="section" id="showing-the-web-page-at-the-bottom-of-the-throttle-page">
 <h3><a class="toc-backref" href="#id14">Showing the web page at the bottom of the throttle page</a><a class="headerlink" href="#showing-the-web-page-at-the-bottom-of-the-throttle-page" title="Permalink to this headline">¶</a></h3>
-<p>&lt;also point to the swipe up option&gt;</p>
+<p>TODO
+&lt;also point to the swipe up option&gt;</p>
 </div>
 </div>
 <hr class="docutils" />
 <div class="section" id="changing-the-loco-selection-page">
 <h2><a class="toc-backref" href="#id15">Changing the loco selection page</a><a class="headerlink" href="#changing-the-loco-selection-page" title="Permalink to this headline">¶</a></h2>
-<p>&lt;stuff goes here&gt;</p>
+<p>TODO</p>
 <hr class="docutils" />
 <div class="section" id="locos-in-the-roster-not-showing">
 <h3><a class="toc-backref" href="#id16">Locos in the roster not showing</a><a class="headerlink" href="#locos-in-the-roster-not-showing" title="Permalink to this headline">¶</a></h3>
-<p>&lt;stuff goes here&gt;</p>
+<p>TODO</p>
 </div>
 </div>
 <hr class="docutils" />
 <div class="section" id="changing-the-connection-page">
 <h2><a class="toc-backref" href="#id17">Changing the connection page</a><a class="headerlink" href="#changing-the-connection-page" title="Permalink to this headline">¶</a></h2>
-<p>&lt;stuff goes here&gt;</p>
+<p>TODO</p>
 <p>Can’t remove test server</p>
 </div>
 <hr class="docutils" />
 <div class="section" id="changing-the-turnouts-page">
 <h2><a class="toc-backref" href="#id18">Changing the turnouts page</a><a class="headerlink" href="#changing-the-turnouts-page" title="Permalink to this headline">¶</a></h2>
-<p>TBA</p>
+<p>TODO</p>
 </div>
 <div class="section" id="conserving-power-on-your-phone-tablet">
 <h2><a class="toc-backref" href="#id19">Conserving power on your phone/tablet</a><a class="headerlink" href="#conserving-power-on-your-phone-tablet" title="Permalink to this headline">¶</a></h2>
 <ol class="upperalpha simple" start="17">
 <li><p>My Phone/table runs out of power too quickly</p></li>
 </ol>
-<ol class="upperalpha simple">
+<blockquote>
+<div><ol class="upperalpha simple">
 <li><p>You should</p></li>
 </ol>
 <ul class="simple">
@@ -590,6 +655,7 @@ The most common use of this (so far) is to remember the locos relevant to that r
 </li>
 </ul>
 <p>If your device has an AMOLED display, theoretically, the High Contrast Outline theme should use less power (though this is unproven).</p>
+</div></blockquote>
 </div>
 </div>
 
@@ -600,7 +666,7 @@ The most common use of this (so far) is to remember the locos relevant to that r
           <footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
         <a href="../configuration/index.html" class="btn btn-neutral float-right" title="Configuration" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
-        <a href="gamepads.html" class="btn btn-neutral float-left" title="Gamepads" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="esu_mcii.html" class="btn btn-neutral float-left" title="ESU MobileControl II" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
     </div>
 
   <hr/>

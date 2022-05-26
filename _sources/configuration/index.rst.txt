@@ -6,7 +6,10 @@ Configuration
    :description: JMRI Engine Driver Throttle
    :keywords: Engine Driver EngineDriver JMRI manual help configuration preferences
 
-.. contents::
+.. sidebar:: On this page
+  
+  .. contents::
+
 
 Engine Driver
 -------------
@@ -37,7 +40,7 @@ Some of the Function button preferences include:
 
 ----
 
-On the wiThrottle server side (JMRI)
+On the WiThrottle server side (JMRI)
 ------------------------------------
 
 * Check your preferences/settings to insure you allow or disallow the control features desired. 
