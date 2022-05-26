@@ -39,19 +39,19 @@ Quick Start / Basic Information
    
       See the `Setup Wizard <../configuration/setup_wizard.html>`_ page for more information.
 
-  * Wait for your server's address to show up in "Discovered Servers"
+  * Wait for your server's address to show up in 'Discovered Servers'
 
   * Click on the discovered address
 
     * If the server does not show up, check that are on the same network as the WiThrottle server.   
-    * If the server *never* appears in the discovered list, type in the IP address and Port of the WiThrottle server (Using the values shown on the JMRI WiThrottle window) and press ``Connect``. |br|\ Note: this situation is sometimes possible even if you are on the same network. |br|\ |br|\ NOTE: see the `WiFi connection page <./wifi_issues.html>`_ for more assistance on connection issues. |br|\ There is also a "demo" server at **jmri.mstevetodd.com**, port **44444** that you can connect to for testing. |br|\ |br|\ 
+    * If the server *never* appears in the discovered list, type in the IP address and Port of the WiThrottle server (Using the values shown on the JMRI WiThrottle window) and press :guilabel:`Connect`. |br|\ Note: this situation is sometimes possible even if you are on the same network. |br|\ |br|\ NOTE: see the `WiFi connection page <./wifi_issues.html>`_ for more assistance on connection issues. |br|\ There is also a "demo" server at **jmri.mstevetodd.com**, port **44444** that you can connect to for testing. |br|\ |br|\ 
 
-  * On the throttle screen, click on the ``Select`` loco button
+  * On the throttle screen, click on the :guilabel:`Select` loco button
 
   * On the next (Loco Select) screen, either:
 
     * click on a loco from the Roster or Recent lists
-    * or enter the loco address (verify short or long), and press ``Acquire``
+    * or enter the loco address (verify short or long), and press :guilabel:`Acquire`
 
       You will be returned to the Throttle screen.
 
@@ -60,14 +60,14 @@ Quick Start / Basic Information
   * Operate your loco 
   
     * Use the slider, or volume hardware buttons, or optional buttons for speed
-    * Use the ``Forward`` and ``Reverse`` buttons to control direction
+    * Use the :guilabel:`Forward` and :guilabel:`Reverse` buttons to control direction
 
   * Press your phone's Menu button to access screens for Turnout, Route and Power control, as well as adjust settings and set numerous preferences
   * You can also "fling" left or right to jump quickly back and forth between the Throttle, Routes, Turnouts and Web pages (use Preferences to choose) |br|\ |br|\ 
 
-  * To release a single loco (or consist), click ``Select`` again and click the ``Release`` button
+  * To release a single loco (or consist), click :guilabel:`Select` again and click the :guilabel:`Release` button
 
-  * To release all locos, just press the ``Back`` button and exit the app. |br|\ This will also stop your locos (can be overridden in preferences)
+  * To release all locos, just press the :guilabel:`Back` button and exit the app. |br|\ This will also stop your locos (can be overridden in preferences)
 
 Note:
 
@@ -236,7 +236,7 @@ Exiting Engine Driver
 
 To exit Engine Driver, you can:
 
-* Press the Android ``Back`` button once from the main screens (more than once if you are on one of the secondary screens) |br|\ OR
+* Press the Android :guilabel:`Back` button once from the main screens (more than once if you are on one of the secondary screens) |br|\ OR
 * Menu > Exit
 
 Exiting Engine Driver 

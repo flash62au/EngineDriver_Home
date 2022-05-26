@@ -19,7 +19,7 @@ This can cause problems if you sometimes use your device to connect to the inter
 
 Some devices have a setting to turn off this feature, some do not. 
 Some provide a notification that "Wi-Fi has no internet access, Tap for options", followed by "This network has no internet access. Stay connected?" that can be used to disable this feature and remain connected to the WiFi. 
-If you missed the prompt, you can "forget" the network, and reenter your WiFi credentials to get the prompt again.
+If you missed the prompt, you can 'forget' the network, and reenter your WiFi credentials to get the prompt again.
 
 Firewalls
 ---------
@@ -32,8 +32,7 @@ Your PC's firewall software can prevent Engine Driver from connecting. You may n
 Using Mobile Data instead of WiFi
 ---------------------------------
 
-*UPDATE: as of EngineDriver 2.26.115, EngineDriver now handles this situation by "forcing" the local WiFi connection. 
-There is an ``Allow Mobile Data Connection`` preference that can be enabled if needed.*
+*UPDATE: as of EngineDriver 2.26.115, EngineDriver now handles this situation by "forcing" the local WiFi connection.  There is an* ``Allow Mobile Data Connection`` *preference that can be enabled if needed.*
 
 Recent versions of Android have a very confusing *feature*, sometimes called 'Smart Network Switching', that will ignore a connected WiFi network if that network cannot reach the Internet. 
 The network shows as connected, and EngineDriver server discovery works, but clicking on the discovered server or Connect button does not work.
@@ -44,4 +43,4 @@ Some devices have a setting to turn off this feature, some do not.
 Some provide a notification that "Wi-Fi has no internet access, Tap for options", followed by "This network has no internet access. Stay connected?" that can be used to disable this feature and remain connected to the WiFi. 
 If you missed the prompt, you can "forget" the network, and reenter your WiFi credentials to get the prompt again.
 
-Workaround: If you are unable to turn off the feature, you can enable "Airplane Mode", then enable ONLY WiFi, and then connect your WiFi.
+Workaround: If you are unable to turn off the feature, you can enable 'Airplane Mode', then enable ONLY WiFi, and then connect your WiFi.

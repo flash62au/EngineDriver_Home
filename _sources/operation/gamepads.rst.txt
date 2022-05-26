@@ -43,13 +43,13 @@ Other devices require similar steps, but the mechanism to change the ``mode`` ma
   
     * Turn your gamepad OFF by holding the Start/Power button for about 5 seconds until the LED goes out and stays out. 
     * Move the slide switch on the side to the ``GAME`` position (towards the joystick). 
-    * Hold down the button specified in your gamepad instructions for MTK mode. Typically this is the ``Y`` button. While still holding that button down, press the Start/Power button until the LED turns on. Release the buttons as soon as the LED turns on. |br|\ |br|\ This configuration procedure should only be required once. In the future your gamepad should be in MTK mode when you turn it on. |br|\  *(This not true of the MagicSeeR1 which must be set every time you turn it on)* |br|\ |br|\
+    * Hold down the button specified in your gamepad instructions for MTK mode. Typically this is the :guilabel:`Y` button. While still holding that button down, press the Start/Power button until the LED turns on. Release the buttons as soon as the LED turns on. |br|\ |br|\ This configuration procedure should only be required once. In the future your gamepad should be in MTK mode when you turn it on. |br|\  *(This not true of the MagicSeeR1 which must be set every time you turn it on)* |br|\ |br|\
   
   * For the **MagicSeeR1** gamepads (Mode B)
   
     * Turn the device on by moving the slide switch on the side to the ``ON`` position
     * Wait for the gamepad to connect to Android device (the LED will stop blinking)
-    * Hold down the ``Mode`` buton and press the ``B`` button. |br|\ |br|\ **This configuration procedure which must be done every time you turn it on**
+    * Hold down the :guilabel:`Mode` buton and press the :guilabel:`B` button. |br|\ |br|\ **This configuration procedure which must be done every time you turn it on**
 
 We have found that some gamepads work well in **iCade** mode as well. Feel free to experiment. To use iCade mode, follow the steps above but use the button your instructions specify for iCade (typically “X”). 
 
@@ -73,13 +73,13 @@ Running Engine Driver with the Gamepad
 
   * When you press any of the buttons on the gamepad for the first time, a test page will appear.  Press all four DPad buttons in turn and the Four main buttons to pass the test, and return to the throttle page.
 
-    * Pressing ``Skip`` will complete the test and allow you to use the gamepad, even if it is not functioning correctly.  (e.g. The mode is incorrect)
-    * Pressing ``Reset`` will reset all the gamepads you have connected, and will force you back to the test screen when attempt to use them again.
+    * Pressing :guilabel:`Skip` will complete the test and allow you to use the gamepad, even if it is not functioning correctly.  (e.g. The mode is incorrect)
+    * Pressing :guilabel:`Reset` will reset all the gamepads you have connected, and will force you back to the test screen when attempt to use them again.
 
   * By default, The DPAD (joystick) on the gamepad will control throttle up, down and direction. 
   * By default, The four individual Buttons on the gamepad will control functions F0, F1, F2 and STOP for the selected throttle. 
-  * If you have engines assigned to more than one Engine Driver throttle, by default a short press of the ``Start`` Button will move the gamepad to the next assigned throttle. If you have changed the Preferences for the ``Start`` Button Action to ``ESTOP``, then a short press will set the speed for all your Engine Driver throttles to zero. 
-  * If the ``Select`` Button is present on your gamepad, by default, pressing it will move the gamepad to the next assigned throttle.
+  * If you have engines assigned to more than one Engine Driver throttle, by default a short press of the :guilabel:`Start` Button will move the gamepad to the next assigned throttle. If you have changed the Preferences for the :guilabel:`Start` Button Action to ``ESTOP``, then a short press will set the speed for all your Engine Driver throttles to zero. 
+  * If the :guilabel:`Select` Button is present on your gamepad, by default, pressing it will move the gamepad to the next assigned throttle.
   * Engine Driver's on-screen buttons continue to function as before. Use them to add or drop locos, and to access any additional function buttons. 
 
 Remapping gamepad buttons
@@ -170,27 +170,27 @@ Keyboard Commands
 
 For use when ``Keyboard`` is selected as the gamepad type:
 
-* 'Up' or 'Page Up' or '+' or '=' = Increase Speed
-* 'Media Next' = Increase Speed * 2
-* 'Down' or 'Page Down' or '-' = Decrease Speed
-* 'Media Previous' = Decrease Speed * 2
-* 'Home' or 'X' = Stop
-* Left or '[' = Reverse (Forward if buttons swapped in preferences)
-* Right or ']' = Forward (Ahead) (Reverse if buttons swapped in preferences)
-* 'D' = Direction - Toggle Forward/Reverse
-* 'N' = Next Throttle
-* 'End' or 'Z' = All stop |br|\
-* F00 - F28 = Function |br|\ Must be 'F' followed by two digits |br|\  or 'F11' followed by two 'F' button equivalents F10=0, F1-F9=1-9
-* '0'-'9' = Functions 0-9 |br|\ Without a preceding 'F', 'S' or 'L' |br|\ or 'F10' - 'F9'  F10=0, F1-F9=1-9 |br|\
-* S000 - S100 = Speed |br|\ Must be 'S' followed by three digits |br|\  or 'F12' followed by two 'F' button equivalents F10=0, F1-F9=1-9 |br|\
-* 'L' = Limit Speed
-* 'P' = Pause Speed
+* :guilabel:`Up` or :guilabel:`Page Up` or :guilabel:`+` or :guilabel:`=` = Increase Speed
+* :guilabel:`Media Next` = Increase Speed * 2
+* :guilabel:`Down` or :guilabel:`Page Down` or :guilabel:`-` = Decrease Speed
+* :guilabel:`Media Previous` = Decrease Speed * 2
+* :guilabel:`Home` or :guilabel:`X` = Stop
+* :guilabel:`Left` or :guilabel:`[` = Reverse (Forward if buttons swapped in preferences)
+* :guilabel:`Right` or :guilabel:`]` = Forward (Ahead) (Reverse if buttons swapped in preferences)
+* :guilabel:`D` = Direction - Toggle Forward/Reverse
+* :guilabel:`N` = Next Throttle
+* :guilabel:`End` or :guilabel:`Z` = All stop |br|\
+* F00 - F28 = Function |br|\ Must be :guilabel:`F` followed by two digits |br|\  or :guilabel:`F11` followed by two :guilabel:`F` button equivalents F10=0, F1-F9=1-9
+* :guilabel:`0` - :guilabel:`9` = Functions 0-9 |br|\ Without a preceding :guilabel:`F`, :guilabel:`S` or :guilabel:`L` |br|\ or :guilabel:`F10` - :guilabel:`F9`  F10=0, F1-F9=1-9 |br|\
+* S000 - S100 = Speed |br|\ Must be :guilabel:`S` followed by three digits |br|\  or :guilabel:`F12` followed by two :guilabel:`F` button equivalents F10=0, F1-F9=1-9 |br|\
+* :guilabel:`L` = Limit Speed
+* :guilabel:`P` = Pause Speed
 * In Phone Loco Sounds (IPLS)  
-  * 'B' = Bell 
-  * 'H' = Horn / Whistle 
-  * Shift + 'H' = Short Horn 
-  * 'M' or 'Volume Mute' = Mute IPLS
-* T0 - T5 = Specify a throttle for next command |br|\ Must be 'T' followed by one digit |br|\ or 'Esc' followed by two 'F' button equivalents F10=0, F1-F9=1-9 |br|\ The following command will sent to the specified throttle regardless of the currently selected gamepad throttle.
+  * :guilabel:`B` = Bell 
+  * :guilabel:`H` = Horn / Whistle 
+  * :guilabel:`Shift` + :guilabel:`H` = Short Horn 
+  * :guilabel:`M` or :guilabel:`Volume Mute` = Mute IPLS
+* T0 - T5 = Specify a throttle for next command |br|\ Must be :guilabel:`T` followed by one digit |br|\ or :guilabel:`Esc` followed by two :guilabel:`F` button equivalents F10=0, F1-F9=1-9 |br|\ The following command will sent to the specified throttle regardless of the currently selected gamepad throttle.
 
 All other keyCodes are ignored.
 

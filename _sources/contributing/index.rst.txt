@@ -128,6 +128,7 @@ Style Guidelines
 *	No quotes around 'Also See' type references
 *	Avoid '(above)' or '(below)' in text.  Use hypertext links instead
 *	'TODO' or 'TBA' in the text means that it is still a work-in-process and needs to be updated.  It may be followed by descriptive text in italics describing the issue to be fixed
-* Use \`\`\ ``literal text blocks``\`\` when describing buttons, menu items, preferences
+* Use \`\`\literal text blocks\`\` when describing buttons, menu items, preferences  - ``literal text blocks``
+* Use \:guilabel\:\`\GUI labels\` for buttons  - :guilabel:`GUI labels`
 * Avoid using 'phone' alone. Preferably use 'Android device/phone'
 * For dates, use dd-mmm-yyyy or yyyy-mm-dd to avoid confusion with the way dates are uniquely written in the US. |br|\ e.g. 2-Mar-2022 or 2022-3-2, not 2-3-2022 
