@@ -81,13 +81,27 @@ Connecting
 
 TBA
 
+""""""""""""""""""""""""""
 Connecting to the network
+""""""""""""""""""""""""""
 
-Connecting the wiThrottle server
-
-Auto connecting
+TBA
 
 `Connection issues <./wifi_issues.html>`_
+
+""""""""""""""""""""""""""""""""""
+Connecting the wiThrottle server
+""""""""""""""""""""""""""""""""""
+
+TBA
+
+""""""""""""""""""""""""""
+Auto connecting
+""""""""""""""""""""""""""
+
+TBA
+
+----
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Selecting / Releasing Locos
@@ -95,15 +109,28 @@ Selecting / Releasing Locos
 
 TBA
 
+""""""""""""""""""""""""""""""""""
 Single loco
+""""""""""""""""""""""""""""""""""
 
+TBA
+
+* DCC Address
+* Roster
+* Recent Locos
+* Recent Consists
+
+Also see `Locomotive Icons <#locomotive-icons-in-the-roster>`_ below.
+
+""""""""""""""""""""""""""""""""""""""""""""""""
 On the fly / In Phone Consists (Multiple Units)
+""""""""""""""""""""""""""""""""""""""""""""""""
 
 - direction
 - changing order
 - removing
 
-Also see `Locomotive Icons <#locomotive-icons-in-the-roster>`_ below.
+----
 
 ^^^^^^^^^^^^^^^
 Running Trains
@@ -111,21 +138,53 @@ Running Trains
 
 TBA
 
-Sliders
+""""""""""""""""""""""""""""""""""
+Speed
+""""""""""""""""""""""""""""""""""
 
+TBA
+
+- sliders
+- speed buttons
+- volume keys
+- gamepads
+
+""""""""""""""""""""""""""""""""""
 Direction
+""""""""""""""""""""""""""""""""""
 
+TBA
+
+- throttle screen layouts with direction buttons
+- throttle screen layouts without direction buttons
+- gamepads
+
+""""""""""""""""""""""""""""""""""
 Functions
+""""""""""""""""""""""""""""""""""
+
+TBA
 
 - Common Functions
 - Function Labels
 - Functions in consists
+- gamepads
 
-Volume Keys
-
+""""""""""""""""""""""""""""""""""
 IPLS
+""""""""""""""""""""""""""""""""""
 
-Gamepads  See `gamepads <./gamepads.html>`_
+TBA
+
+- steam
+- diesel
+- custom 
+
+""""""""""""""""""""""""""""""""""
+Gamepads  
+""""""""""""""""""""""""""""""""""
+
+See `gamepads <./gamepads.html>`_
 
 ^^^^^^^^^^^^^^^^^^^
 Action bar and menu
@@ -133,13 +192,31 @@ Action bar and menu
 
 TBA
 
+""""""""""""""""""""""""""""""""""
 Track Power
+""""""""""""""""""""""""""""""""""
 
-IPLS
+TBA
 
+""""""""""""""""""""""""""""""""""
+In Phone Loco Sounds (IPLS)
+""""""""""""""""""""""""""""""""""
+
+TBA
+
+""""""""""""""""""""""""""""""""""
 Power
+""""""""""""""""""""""""""""""""""
 
+TBA
+
+""""""""""""""""""""""""""""""""""
 Flashlight 
+""""""""""""""""""""""""""""""""""
+
+TBA
+
+----
 
 ^^^^^^^^^^^^^^^^^
 Turnouts / Points
@@ -147,17 +224,23 @@ Turnouts / Points
 
 TBA
 
+----
+
 ^^^^^^^^^^^^^^^
 Routes
 ^^^^^^^^^^^^^^^
 
 TBA
 
+----
+
 ^^^^^^^^^^^^^^^^^^^^^^
 Panels and Web Pages
 ^^^^^^^^^^^^^^^^^^^^^^
 
 TBA
+
+----
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Exiting the Engine Driver App
@@ -174,11 +257,7 @@ Exiting the Engine Driver app
 * Stops playing all In Phone Loco Sounds (if any were configured).
 
 
-^^^^^^^^^^^^^^^
-Other stuff TBA
-^^^^^^^^^^^^^^^
-
-TBA
+----
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Locomotive Icons in the Roster
