@@ -28,7 +28,7 @@ On the Android device you intend to test on
 
 Here are all the steps needed for Microsoft Windows:
 
-* On Githib
+* On GitHub
   
   * Clone the JMRI/EngineDriver repository. `(See Cloning a repository in GitHub) <https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository>`_ 
   * Create a Personal Access Token that will allow you remotely update your repository.  See \[`here <https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token>`_\] for details.   Copy the full code of the token somewhere as you will need it later.
@@ -55,7 +55,7 @@ To test your changes:
 
 To publish your changes:
 
-* Android Studio, commit and push your changes to *your own* github repository.. |br|\ To do this you will need to define a new remote ``https://github.com/<your name>/EngineDriver``
+* Android Studio, commit and push your changes to *your own* GitHub repository.. |br|\ To do this you will need to define a new remote ``https://github.com/<your name>/EngineDriver``
 * Go to GitHub and issue a pull request for your branch to be pulled into the original repository. Once it's merged in by one of the admins, your changes will go live!
 
 ----
@@ -82,24 +82,31 @@ The steps listed here provide guidance on how to edit and preview changes to the
     * If using VSC, we recommend installing the ``reStructuredText Syntax highlighting`` extension.
 
   * A version of Git. |br|\ For Windows we recommend the free `GitHub Desktop <https://desktop.github.com/>`_.
-  * A current version of Python 3 (which also installs pip). |br|\ The Microsoft Store contains Python published by the Python Software Foundation for Windows. 
+  * A current version of 'Python 3' (which also installs 'pip'). |br|\ The Microsoft Store contains Python published by the Python Software Foundation for Windows. 
 
-* Then use pip to install the required packages; 'sphinx' and the theme 'sphinx_rtd_theme'.  |br|\ Open and command prompt and enter: 
+* Then use 'pip' to install the required packages; 'sphinx' and the theme 'sphinx_rtd_theme'.  |br|\ Open and command prompt and enter: 
   
   * ``pip install -U sphinx``
   * ``pip install sphinx-rtd-theme``
   
-* On Githib
+* On GitHub
 
-  * Clone the EngineDriver_Home repository. `(See Cloning a repository in GitHub) <https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository>`_ 
-  * Open the repository settings (the gear icon), go to the 'Pages' section and change the 'source-branch' to ``gh-pages`` ``/ (root)``.
-  * The repository must be ``public``
+  * Clone the ``https://flash62au.github.io/EngineDriver_Home`` repository. `(See Cloning a repository in GitHub) <https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository>`_ 
+  * Open the your repository settings (the gear icon), go to the 'Pages' section and change the 'source-branch' to ``gh-pages`` ``/ (root)``.
+  * Your repository must be ``public``
 
-* Using Github Desktop, clone you repository to your local machine.
-* Edit the files in the ``EngineDriver_Home/docs`` folder. 
-* Save, then check and preview your changes by running ``make github`` from the root of the ``EngineDriver_Home`` folder. [#makegithub]_ |br|\ This must be done from ``cmd.exe`` in Windows, not ``PowerShell``. If any warnings are reported, fix these and run make github again. Then go to your local directory ``EngineDriver_Home/docs/_build/html`` and open ``index.html`` in Chrome or another browser.  
-* Use Github Desktop to commit and then push your changes. |br|\ You can check the actions to see if it built correctly. |br|\ You can preview the pages on github at ``https://<yourname>.github.io/EngineDriver_Home``
-* Go to GitHub and issue a pull request for your branch to be pulled into the main branch. |br|\ Once it's merged in by one of the admins, your changes will go live!
+* On your PC
+  
+  * Using GitHub Desktop, clone your repository to your local machine
+  * Edit the files in the ``EngineDriver_Home/docs`` folder
+  * Save, then check and preview your changes by running ``make github`` from the root of the ``EngineDriver_Home`` folder. [#makegithub]_ |br|\ This must be done from ``cmd.exe`` in Windows, not ``PowerShell``. |br|\ If any warnings are reported, fix these and run make github again
+  * Preview your changes locally by going to your local directory ``EngineDriver_Home/docs/_build/html`` and open ``index.html`` in your web browser of choice.  
+  * Use GitHub Desktop to commit and then push your changes
+
+* In GitHub
+  
+  * You can check the 'actions' to see if it built correctly. |br|\ You can preview the pages on GitHub at ``https://<yourname>.github.io/EngineDriver_Home``
+  * Issue a pull request for your branch to be pulled into the main branch. |br|\ Once it's merged in by one of the admins, your changes will go live!
 
 
 .. [#makegithub] There is a batch file ``make github.bat`` in the ``EngineDriver_Home`` folder which should be able to be double-clicked on the run this command. It will pause at the end to allow you see if there are any issues.
