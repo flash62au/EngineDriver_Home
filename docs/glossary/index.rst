@@ -38,6 +38,9 @@ Glossary
 |Switching |br|           | The process of moving individual carriages to/from specific   |
 |Shunting                 | locations on yards or sidings                                 |
 +-------------------------+---------------------------------------------------------------+
+|loco |br|                |                                                               |
+|locomotive               |                                                               |
++-------------------------+---------------------------------------------------------------+
 
 ==============
 References

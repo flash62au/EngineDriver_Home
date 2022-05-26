@@ -97,9 +97,12 @@ The steps listed here provide guidance on how to edit and preview changes to the
 
 * Using Github Desktop, clone you repository to your local machine.
 * Edit the files in the ``EngineDriver_Home/docs`` folder. 
-* Save, then check and preview your changes by running ``make github`` from the root of the ``EngineDriver_Home`` folder. |br|\ This must be done from ``cmd.exe`` in Windows, not ``PowerShell``. If any warnings are reported, fix these and run make github again. Then go to your local directory ``EngineDriver_Home/docs/_build/html`` and open ``index.html`` in Chrome or another browser.  
+* Save, then check and preview your changes by running ``make github`` from the root of the ``EngineDriver_Home`` folder. [#makegithub]_ |br|\ This must be done from ``cmd.exe`` in Windows, not ``PowerShell``. If any warnings are reported, fix these and run make github again. Then go to your local directory ``EngineDriver_Home/docs/_build/html`` and open ``index.html`` in Chrome or another browser.  
 * Use Github Desktop to commit and then push your changes. |br|\ You can check the actions to see if it built correctly. |br|\ You can preview the pages on github at ``https://<yourname>.github.io/EngineDriver_Home``
 * Go to GitHub and issue a pull request for your branch to be pulled into the main branch. |br|\ Once it's merged in by one of the admins, your changes will go live!
+
+
+.. [#makegithub] There is a batch file ``make github.bat`` in the ``EngineDriver_Home`` folder which should be able to be double-clicked on the run this command. It will pause at the end to allow you see if there are any issues.
 
 ----
 
@@ -109,6 +112,7 @@ Style Guidelines
 
 * Use British/Australian spelling e.g. 'colour' not 'color'.  (Primarily because it is used in more English speaking countries)
 *	Use railway terminology that is understandable by all English-speaking people. |br|\ Where there are clear differences from US to non-US terminology use both with a slash between. e.g. turnouts/points, consists/multiple units, switching/shunting.  (Primarily because JMRI uses the US terminology)
+* In general use 'loco' instead of 'locomotive' or 'engine'
 *	No full stop at the end of a numbered or unnumbered list
 *	Numbered lists should be avoided, unless there is a specific need
 * Use first person (you and your; not I, me, my or am) language
