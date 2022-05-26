@@ -15,8 +15,7 @@ Frequently Asked Questions
 
 ----
 
---------------------------------
-Connecting - Wifi and wiThrottle
+Connecting - Wifi and WiThrottle
 --------------------------------
 
 Q. Why doesn't my Android device automatically connect to my WiFi network?
@@ -30,12 +29,12 @@ Q. I can't connect to my Server /Railroad
 A1. Check the following:
 
 * Check that you are connected to a WiFi network
-* Check that you are connected to the same WiFi network as your wiThrottle server
+* Check that you are connected to the same WiFi network as your WiThrottle server
 * Check that JMRI and its WiThrottle Server feature are started
 
 A2. Possible Mobile data connection problem
 
-If Engine Driver can see the wiThrottle server but displays an error when you try to connect to it… If you are using a phone with a SIM, and the WiFi network your JMRI server is on does not have internet access. You may have to turn 'mobile data' off on your device.  See `[here] for more information <./wifi_issues.html>`_.
+If Engine Driver can see the WiThrottle server but displays an error when you try to connect to it… If you are using a phone with a SIM, and the WiFi network your JMRI server is on does not have internet access. You may have to turn 'mobile data' off on your device.  See `[here] for more information <./wifi_issues.html>`_.
 
 Q. Engine Driver Connects, but I can't control any locos
 
@@ -65,7 +64,6 @@ A. Check the Engine Driver preferences and make sure the ``Maximum Recent Locos`
 
 ----
 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Connecting to different servers/railroads
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -79,7 +77,6 @@ A. You need to exit Engine Driver, change WiFi networks in the Android settings,
 
 ----
 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Save/load preferences for different servers
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -102,7 +99,6 @@ A. Swipe right on an entry to remove it.
 
 ----
 
---------------------------------
 Selecting locomotives to control
 --------------------------------
 
@@ -154,7 +150,7 @@ Q. The lights of the locos in my consist are wrong?
 
 A1. If you use on-the-fly consists, you can control the lights by clicking ``Select`` then click on the ``Edit Lights`` button
 
-A2. You can control the ligths with a Long click on the ``Select`` Loco button, if you set the ``Control consist Lights on long click`` preference.
+A2. You can control the lights with a Long click on the ``Select`` Loco button, if you set the ``Control consist Lights on long click`` preference.
 
 Q. Can't control my loco?
 
@@ -176,7 +172,7 @@ Q. No Locomotive Icons appear in the Roster
 
 A. The Roster List, and Recent Locos List on the Select Loco screen will automatically show icons for your locos only if:
 
-  * The **Web Server** (not just the wiThrottle server) is running on the JMRI server
+  * The **Web Server** (not just the WiThrottle server) is running on the JMRI server
   * The loco itself has an icon added for it in the JMRI roster |br|\ OR
   * A locally cached or manually chosen image is available for the loco (see 'Locomotive Icons' on the `Operation page <../operations/index.html>`_)
 
@@ -186,11 +182,9 @@ A. only the 'Simple' throttle layout allows for 6 throttles
 
 ----
 
-----------------------------------------
 Changing the appearance of Engine Driver
 ----------------------------------------
 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Global changes (Themes)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -206,7 +200,6 @@ A. You can switch between different themes by changing the preference.
 
 ----
 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Changing the Throttle page
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -261,7 +254,6 @@ A. Functions of loco are generally set in the JMRI roster.  Engine Driver may be
 
 ----
 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Speed slider VS speed buttons
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -283,7 +275,6 @@ A2. Reduce the height of the loco select and direction buttons
 
 A3. Keep the number of locos to 1 or two.
 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Direction Buttons
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -300,19 +291,16 @@ e.g. North South, West East, Up Down.
 <stuff goes here>
 
 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Hiding the title bar and navigation bar.
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Hiding the title bar and navigation bar
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 TBA
 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Immersive mode 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 TBA
 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Swiping up or Down
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -320,7 +308,6 @@ TBA
 
 ----
 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Showing the web page at the bottom of the throttle page
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -328,7 +315,6 @@ Showing the web page at the bottom of the throttle page
 
 ----
 
---------------------------------------------
 Changing the loco selection page
 --------------------------------------------
 
@@ -336,7 +322,6 @@ Changing the loco selection page
 
 ----
 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Locos in the roster not showing
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -344,7 +329,6 @@ Locos in the roster not showing
 
 ----
 
---------------------------------------------
 Changing the connection page
 --------------------------------------------
 
@@ -354,13 +338,11 @@ Can't remove test server
 
 ----
 
---------------------------------------------
 Changing the turnouts page
 --------------------------------------------
 
-<stuff goes here>
+TBA
 
--------------------------------------
 Conserving power on your phone/tablet
 -------------------------------------
 

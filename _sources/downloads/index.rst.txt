@@ -6,7 +6,6 @@ Downloads
    :description: JMRI Engine Driver Throttle
    :keywords: Engine Driver EngineDriver JMRI manual help downloads
 
-----------
 Play Store
 ----------
 The Published version is available in the `Google Play Store <https://play.google.com/store/apps/details?id=jmri.enginedriver>`_ and direct download below.
@@ -14,15 +13,13 @@ The Published version is available in the `Google Play Store <https://play.googl
 If you'd like to help test early versions, please join the `Beta program <https://play.google.com/apps/testing/jmri.enginedriver>`_.
 
 
--------------------------
 Current published version
 -------------------------
 
 `EngineDriver-2.31.139.apk <../_static/apk/EngineDriver-2.31.139.apk>`_
 
-----------------------
-Older or other vesions
-----------------------
+Older or other versions
+-----------------------
 
 * `EngineDriver-2.32.149.apk <../_static/apk/EngineDriver-2.32.149.apk>`_
 * `EngineDriver-2.31.139.apk <../_static/apk/EngineDriver-2.31.139.apk>`_

@@ -6,19 +6,16 @@ Support & Contact
    :description: JMRI Engine Driver Throttle
    :keywords: Engine Driver EngineDriver JMRI manual help support
 
------
 email
 -----
 
 `mstevetodd@mstevetodd.com <mailto:mstevetodd@mstevetodd.com>`_
 
-------
 Forums
 ------
 
 `groups.io <https://groups.io/g/jmriusers/topics>`_
 
---------
 Facebook
 --------
 

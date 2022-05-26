@@ -10,9 +10,8 @@ Gamepads
 
    <br />
 
-^^^^^^^^^^^^^^^^^^^^^^^^^
 Selecting a Gamepad Type
-^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 Choose a gamepad type in the ``Gamepad type`` preference.  Available options include:
 
@@ -23,11 +22,10 @@ Choose a gamepad type in the ``Gamepad type`` preference.  Available options inc
 * DIY Arduino ESP32 + keypad + Rotary Encoder
 * Normal Keyboard
 
-See `Selecting Gamepads </operation/gamepads.html#sample-gamepads>`_ for more infomation.
+See `Selecting Gamepads </operation/gamepads.html#sample-gamepads>`_ for more information.
 
-^^^^^^^^^^^^^^^^^^^^^^^^^
 Configuring the buttons
-^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^
 
 All the buttons, plus the four directions of the DPad, can be set to any of the following actions:
 

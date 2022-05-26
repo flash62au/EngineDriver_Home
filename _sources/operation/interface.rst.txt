@@ -15,7 +15,6 @@ User Interface
     
 ----
 
--------------
 Main Screens
 -------------
 
@@ -26,7 +25,6 @@ There are four main screens:
 * Turnouts/Points Screen
 * Routes Screen
 
-^^^^^^^^^^^^^^^^^
 Connection Screen
 ^^^^^^^^^^^^^^^^^
 
@@ -42,7 +40,6 @@ TBA
 
 Once you select a server the 'Throttle Screen' will be automatically displayed.
 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Throttle Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -62,23 +59,23 @@ This screen allows you to control:
 
       The optionally configured buttons are configured via the Preferences > Throttle Screen Status Row Preferences.
 
-""""""""""""""""""""""""""""""""""""
 Throttle Area
 """"""""""""""""""""""""""""""""""""
 
 The Throttle may configured to be simple buttons that allow you to increase or decrease the locomotive's speed in pre-defined steps.  Alternatively, the Throttle may be configured as a slider.  A slider can be configured as one-directional (0-100) or bi-directional (-100 - 0 - +100).  Bi-directional sliders are useful for when you are switching/shunting. i.e. moving backwards and forwards a lot.
 
-""""""""""""""""""""""""""""""""""""
 Direction Buttons Area
 """"""""""""""""""""""""""""""""""""
 
-""""""""""""""""""""""""""""""""""""
+TBA
+
 Function Buttons Scroll Area
 """"""""""""""""""""""""""""""""""""
 
+TBA
+
 Function Buttons are displayed here.  If there are too many to display in the screen area allocated, then the area becomes scrollable (but without scroll bars) so that they can all be viewed and pressed as needed.
 
-""""""""""""""""""""""""""""""""""""
 Web View Area
 """"""""""""""""""""""""""""""""""""
 
@@ -86,23 +83,33 @@ Your JMRI Layout panel is displayed here if you have configured it to do so in P
 
 ----
 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Turnouts/Points Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+TBA
+
+Accessed from the menu on the any of the main screens as ``Turnouts`` or ``Points`` or by swiping right from the Throttle Screen if enabled in the Left with the ``Swipe through Turnouts?`` or ``Swipe through Points?`` preference.
 
 This screen allows you to display all Turnouts/Points that have been defined in JMRI.
 
 Turnouts/Points can be changed from Closed to Thrown and vice versa be pressing on either the “Closed” or “Thrown” buttons
 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Routes Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+TBA
+
+Accessed from the menu on the any of the main screens as ``Routes`` or by swiping left from the Throttle Screen if enabled in the Left with the ``Swipe through Routes?`` preference.
+
 This screen allows you to display all Routes that have been defined in JMRI or DCC++EX.
 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Web Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+TBA
+
+Accessed from the menu on the any of the main screens as ``Turnouts`` or ``Points`` or by swiping left or right twice from the Throttle Screen if enabled in the Left with the ``Swipe through Web?`` preference.
+It can also be accessed, if the ``Screen orientation`` preference is set to ``Auto Web``, by rotating the Android Device/Phone.
 
 This screen displays a web browser interface that lets you view any web page. Normally this will be a web page on your JMRI server. 
 
@@ -138,23 +145,22 @@ Tap on any of the Open Windows to expand its view.  You can then resize the pane
 
 ----
 
--------------------------------
 Secondary / Support Screens
 -------------------------------
 
 TBA
 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Intro/Setup Wizard Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-This screen allows you to 
+TBA
 
 
 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Power Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Accessed from the menu on the Throttle Screen as ``Power`` or from the Status Bar if enabled with the ``Layout Power button?`` preference.
 
 This screen allows you to toggle the state of track power to your layout.
 
@@ -163,9 +169,10 @@ This screen allows you to toggle the state of track power to your layout.
 * Pressing a green button will cause the button to be changed to red and the track power will be turned “Off”.
 * Pressing a red button will cause the button to be changed to green and the track power will be turned “On”.
 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Preferences Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Accessed from the menu on the any of the main screens as ``Preferences``.
 
 This screen allows you to configure the Engine Driver app for how you want it to operate for you.
 
@@ -203,23 +210,35 @@ This screen allows you to configure the Engine Driver app for how you want it to
 Notes:
 
 * The number is brackets after the Throttle Screen Layout name is the maximum number of throttles that the layout can support.
-* The 'Simple' Throttle Screen Layout is designed to allow for up to 6 throttles simultaneously.  |br|\ It is recommended that this only be used on a tablet device, because of the screen real estate demands that 6 throttles requires. |br|\ When this Throttle Screen Layout is selected, the 'Number of Throttles' preferences options is activated.  You can then use this to restrict the number of throttles being displayed on the 'Simple' Throttle Screen Layout.  |br|\ Also the “Functions Area Size” preferences options is activated.  You can then use this to control how many Function Buttons are displayed with each throttle.  By defult, not Functionbuttons will be shown. |br|\ If you have selected In Phone Loco Sounds, then you will want to set this to 4 (for Mute, Light, Bell and Whistle/Horn).
+* The 'Simple' Throttle Screen Layout is designed to allow for up to 6 throttles simultaneously.  |br|\ It is recommended that this only be used on a tablet device, because of the screen real estate demands that 6 throttles requires. |br|\ When this Throttle Screen Layout is selected, the 'Number of Throttles' preferences options is activated.  You can then use this to restrict the number of throttles being displayed on the 'Simple' Throttle Screen Layout.  |br|\ Also the “Functions Area Size” preferences options is activated.  You can then use this to control how many Function Buttons are displayed with each throttle.  By default, not Function buttons will be shown. |br|\ If you have selected In Phone Loco Sounds, then you will want to set this to 4 (for Mute, Light, Bell and Whistle/Horn).
 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 In Phone Loco Sounds Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TBA
+
+Accessed from the menu on the Throttle Screen as ``Loco Sounds`` or from the Status Bar if enabled with the ``In phone sounds button`` preference.
+
 Function Defaults Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TBA
+
+Accessed from the menu on the Throttle Screen as ``Function Defaults``.
+
 Gamepad Test Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TBA
+
+Accessed from the menu on the Throttle Screen as ``Gamepads`` -> ``Gamepad Test X``. (where 'X' is the number of the gamepad.)
+
 View Log Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+TBA
+
+Accessed from the menu on the any of the main screens as ``View Log``.
 
 This screen allows you to view the internal Engine Driver app log of events.
 This is sometimes useful for analysing problems.
@@ -230,8 +249,9 @@ Internal storage .../engine_driver
 and will be named something like:
 logcat9999999999999.txt
 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 About Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-This screen displays TODO 
+This screen displays 
+
+TODO 

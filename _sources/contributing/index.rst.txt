@@ -14,7 +14,6 @@ Contributing
 
 ----
 
-------------------------
 Contributing to the Code
 ------------------------
 
@@ -60,7 +59,6 @@ To publish your changes:
 
 ----
 
----------------------------------
 Contributing to the Documentation
 ---------------------------------
 
@@ -113,7 +111,6 @@ The steps listed here provide guidance on how to edit and preview changes to the
 
 ----
 
-^^^^^^^^^^^^^^^^
 Style Guidelines
 ^^^^^^^^^^^^^^^^
 

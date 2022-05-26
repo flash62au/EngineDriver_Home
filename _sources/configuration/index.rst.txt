@@ -8,7 +8,6 @@ Configuration
 
 .. contents::
 
--------------
 Engine Driver
 -------------
 
@@ -38,9 +37,8 @@ Some of the Function button preferences include:
 
 ----
 
--------------------------------------
 On the wiThrottle server side (JMRI)
--------------------------------------
+------------------------------------
 
 * Check your preferences/settings to insure you allow or disallow the control features desired. 
 * If you've defined your turnouts/points and routes in a panel file, make sure to specify 'user names' for those you'd like to see listed on your throttle. 
@@ -50,7 +48,6 @@ On the wiThrottle server side (JMRI)
 
 Note for MRC users: David Fuller has provided some `additional setup information [here] <https://enginedriver.mstevetodd.com/sites/enginedriver.mstevetodd.com/files/EngineDriver_App-MRC_Wi-Fi_Module_Settings.pdf>`_.
 
-------------------
 Additional Details
 ------------------
 

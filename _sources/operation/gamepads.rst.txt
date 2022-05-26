@@ -10,7 +10,6 @@ Gamepads
 
    <br />
 
-----------------------------------------------
 Connecting your Gamepad to your Android Device
 ----------------------------------------------
 
@@ -47,8 +46,6 @@ Other devices require similar steps, but the mechanism to change the ``mode`` ma
 
 We have found that some gamepads work well in **iCade** mode as well. Feel free to experiment. To use iCade mode, follow the steps above but use the button your instructions specify for iCade (typically “X”). 
 
-
---------------------------------------
 Running Engine Driver with the Gamepad
 --------------------------------------
 
@@ -78,7 +75,6 @@ Running Engine Driver with the Gamepad
   * If the ``Select`` Button is present on your gamepad, by default, pressing it will move the gamepad to the next assigned throttle.
   * Engine Driver's on-screen buttons continue to function as before. Use them to add or drop locos, and to access any additional function buttons. 
 
--------------------------
 Remapping gamepad buttons
 -------------------------
 
@@ -86,7 +82,6 @@ All the buttons of the gamepad that can be accessed by Engine Driver can be rema
 
 `See Gamepad Configuration <../configuration/gamepads.html>`_ for details.
 
------------------
 Multiple gamepads
 -----------------
 
@@ -98,11 +93,9 @@ An indicator ``1``, ``2`` etc. will show near the throttle speed to indicate whi
 
 ----
 
------------------
 Sample gamepads 
 -----------------
 
-^^^^^^^^^^^^^^^
 Tested gamepads
 ^^^^^^^^^^^^^^^
 
@@ -145,7 +138,6 @@ This has been successful.  See below for the keystroke meanings when using a key
 Note: In the gamepad test screen, just select 'Skip' to use the keyboard.
 
 
-^^^^^^^^^^^^^^^^^^^^^^^^
 Not Recommended gamepads
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -153,7 +145,6 @@ These work, but have issues which make them not recommended.
 
 TBA
 
-^^^^^^^^^^^^^^^^^^^^
 Unsupported gamepads
 ^^^^^^^^^^^^^^^^^^^^
 
@@ -167,7 +158,6 @@ Support for this type of gamepad was removed from engine driver.
 
 ----
 
------------------
 Keyboard Commands
 -----------------
 

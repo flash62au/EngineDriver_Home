@@ -37,7 +37,6 @@ Changes for the beta version include:
 * Fix: Prevent crashes reported to Play Store
 * Fix: TTS speed bugs
 
------------
 All Changes
 -----------
 
