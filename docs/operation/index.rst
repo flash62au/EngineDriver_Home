@@ -87,25 +87,26 @@ Connecting to the network
 .. sidebar:: 
   :class: sidebar_no_background
 
-  .. image:: ../_static/images/parts/network2.png
+  .. image:: ../_static/images/parts/network1.png
     :scale: 30 %
     :align: right
 
   |br|
 
-  .. image:: ../_static/images/parts/network1.png
+  .. image:: ../_static/images/parts/network2.png
     :scale: 30 %
     :align: right
 
 TBA
 
-* Use Android's Network/Wifi settings to connect to the same network as your WiThrottle server.
-* 
+* Use Android's Network/Wifi settings to connect to the same network as your WiThrottle server
+* With some exceptions, your device's IP Address should be similar to the server's IP address (the first three blocks of numbers will be identical)
 
-Also see `Connection issues <./wifi_issues.html>`_ if you are having difficulties.
+  * For your Android device / phone, you can see its address in the Engine Driver menu option ``About``, at the top of the screen
+  * For a JMRI server, see the WiThrottle window for its address 
+  * For other devices, see the instructions for that device
 
-
-|br|
+Also see `WiFi issues <./wifi_issues.html>`_ if you are having difficulties.
 
 |br|
 
