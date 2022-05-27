@@ -10,9 +10,9 @@ User Interface
 
    <br />
 
-.. sidebar:: On this page
-  
-  .. contents::
+.. sidebar::
+
+  .. contents:: On This Page
      :depth: 3
     
 ----

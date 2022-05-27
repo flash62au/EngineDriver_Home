@@ -10,9 +10,9 @@ Preferences
 
    <br />
 
-.. sidebar:: On this page
+.. sidebar::
 
-  .. contents::
+  .. contents:: On This Page
     :depth: 2
     
 ----

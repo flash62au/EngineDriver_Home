@@ -9,6 +9,10 @@ Glossary / References
 
    <br />
 
+ .. sidebar::
+
+  .. contents:: On This Page  
+
 Glossary
 ==================
 
