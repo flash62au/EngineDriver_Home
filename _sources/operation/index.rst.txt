@@ -85,7 +85,7 @@ Connecting to the network
 """"""""""""""""""""""""""
 
 .. sidebar:: 
-  :class: sidebar_no_background
+  :class: sidebar-no-background
 
   .. image:: ../_static/images/parts/network1.png
     :scale: 30 %
@@ -114,7 +114,7 @@ Connecting the WiThrottle server
 """"""""""""""""""""""""""""""""""
 
 .. sidebar:: 
-  :class: sidebar_no_background
+  :class: sidebar-no-background
 
   .. image:: ../_static/images/parts/connecting_ip_address.png
     :scale: 30 %
