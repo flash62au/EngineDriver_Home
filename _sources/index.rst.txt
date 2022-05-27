@@ -12,7 +12,7 @@ Engine Driver
 
 ----
 
-**JMRI Engine Driver Throttle**, more commonly known as **Engine Driver** is a free Android application connects to a WiThrottle™ [#WIT]_ Server to control model trains. 
+**JMRI Engine Driver Throttle**, more commonly known as **Engine Driver**, is a free Android application connects to a WiThrottle™ [#WIT]_ Server to control model trains. 
 
 .. image:: ./_static/images/screenshots/throttle_vertical_outline.png
    :scale: 12 %

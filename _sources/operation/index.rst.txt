@@ -39,17 +39,17 @@ Quick Start / Getting Started
 
   * Wait for your server's address to show up in 'Discovered Servers'
 
-  * Click on the discovered address
+  * Click on the Discovered server
 
     * If the server does not show up, check that are on the same network as the WiThrottle server.   
     * If the server *never* appears in the discovered list, type in the IP address and Port of the WiThrottle server (Using the values shown on the JMRI WiThrottle window) and press :guilabel:`Connect`. |br|\ Note: this situation is sometimes possible even if you are on the same network. |br|\ |br|\ See the `WiFi connection page <./wifi_issues.html>`_ for more assistance if you have connection issues. |br|\ |br|\ 
 
-  * On the throttle screen, click on the :guilabel:`Select` loco button
+  * On the Throttle screen, click on the :guilabel:`Select` loco button
 
   * On the next (Loco Select) screen, either:
 
-    * click on a loco from the Roster or Recent lists
-    * or enter the loco address (verify short or long), and press :guilabel:`Acquire`
+    * Click on a loco from the Roster or Recent lists |br|\ or
+    * Enter the loco address (verify short or long), and press :guilabel:`Acquire`
 
       You will be returned to the Throttle screen.
 
@@ -61,7 +61,7 @@ Quick Start / Getting Started
     * Use the :guilabel:`Forward` and :guilabel:`Reverse` buttons to control direction
 
   * Press your phone's Menu button to access screens for Turnout, Route and Power control, as well as adjust settings and set numerous preferences
-  * You can also "fling" left or right to jump quickly back and forth between the Throttle, Routes, Turnouts and Web pages (use Preferences to choose) |br|\ |br|\ 
+  * You can also 'swipe/fling' left or right to jump quickly back and forth between the Throttle, Routes, Turnouts and Web pages. (Use Preferences to choose which are in the left / right swipe list) |br|\ |br|\ 
 
   * To release a single loco (or consist), click :guilabel:`Select` again and click the :guilabel:`Release` button
 
@@ -79,11 +79,11 @@ Connecting
 
 Connecting has two aspects:
 
-* Connecting to the correct network, which uses Android's build in capabilities (not Engine Driver's)
+* Connecting to the correct WiFi network, which uses Android's build in capabilities (not Engine Driver's)
 * Connecting to the WiThrottle server
 
-Connecting to the network
-""""""""""""""""""""""""""
+Connecting to the WiFi network
+""""""""""""""""""""""""""""""
 
 .. sidebar:: 
   :class: sidebar-no-background
@@ -98,7 +98,7 @@ Connecting to the network
     :scale: 30 %
     :align: right
 
-* Use Android's Network/Wifi settings to connect to the same network as your WiThrottle server
+* Use Android's Network - Wifi settings to connect to the same network as your WiThrottle server
 * With some exceptions, your device's IP Address should be similar to the server's IP address (the first three blocks of numbers will be identical)
 
   * For your Android device / phone, you can see its address in the Engine Driver menu option ``About``, at the top of the screen
@@ -133,7 +133,7 @@ Connecting the WiThrottle server
     :name: Recent Severs
 
 * Start Engine Driver |br|\ You will be presented with the Connection Screen
-* On the Connection Screen there are three ways you can select a server to connect to:
+* On the Connection Screen there are three ways you can select a WiThrottle server to connect to:
 
   - IP Address and Port
   - Discovered Servers
@@ -175,7 +175,7 @@ Notes:
 Selecting / Releasing Locos and Consists/Multiple Units
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Selecting and releasing locos and Consists/Multiple Units is done form the Throttle Screen, by clicking on the :guilabel:`Select` button of one of the Throttles on the screen.
+Selecting and releasing locos and Consists/Multiple Units is done from the Throttle Screen, by clicking on the :guilabel:`Select` button of one of the Throttles on the screen.
 
 (The Throttle screen may have from 1 to 6 throttles on it, depending on the `Throttle Screen Layout preferences <../configuration/preferences.html#throttle-screen-appearance-preferences>`_ you have chosen.)
 
@@ -184,9 +184,9 @@ Selecting a Single loco
 
 There three ways select a loco:
 
-* DCC Address
-* Roster
-* Recent Locos
+* By entering a DCC Address
+* By selecting from the Roster
+* By selecting a Recent Loco
 
   **DCC Address**
 
@@ -202,9 +202,9 @@ There three ways select a loco:
 
   **Recent Locos**
 
-  If the loco you want to control to is in the list, simply click on it and you will be taken back to the Throttle screen with that loco selected.
-
   Engine Driver remembers the last 10 locos that you have selected. (That number can be increased or decreased with ``Maximum Recent Locos`` preference.)
+
+  If the loco you want to control to is in the list, simply click on it and you will be taken back to the Throttle screen with that loco selected.
 
 On the fly / In Phone Consists (Multiple Units)
 """"""""""""""""""""""""""""""""""""""""""""""""
@@ -246,9 +246,14 @@ There four ways create a Consist / Multiple Unit train:
 Running Trains
 ^^^^^^^^^^^^^^^
 
-TBA
+Once you have selected a loco or consist / multiple unit for a throttle the names or addresses of the locos will be shown in the :guilabel:`Select` button of the throttle.
 
-Once you have select a loco or consist / multiple unit...
+From here you can:
+
+- Control the speed and direction of you loco or consist / multiple unit
+- Activate the DCC functions for you loco or consist / multiple unit
+- Activate the Virtual Sounds 
+- Add or release locos.  See `Selecting / Releasing Locos and Consists/Multiple Units <#selecting-releasing-locos-and-consists-multiple-units>`_.
 
 
 Controlling Speed
@@ -262,6 +267,8 @@ There are six ways you can control the speed of of your loco or consist /multipl
 - Speed buttons (if enabled)
 - Stop button
 - All Stop button (if enabled)
+- Pause button (if enabled)
+- Limit Speed button (if Enabled)
 - Volume keys
 - Gamepads (if connected)
 
@@ -292,8 +299,6 @@ The actions of the DCC functions will be impacted depending on the settings and 
 - Function Labels
 - Functions in consists
 - gamepads
-
-
 
 Virtual Sounds - In Phone Loco Sounds (IPLS)
 """"""""""""""""""""""""""""""""""""""""""""

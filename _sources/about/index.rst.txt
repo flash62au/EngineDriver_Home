@@ -25,12 +25,12 @@ Generally the WiThrottle servers that Engine Driver connect to are either DCC Co
 Engine Driver is open source software. The source code is available on `github.com/JMRI/EngineDriver <https://github.com/JMRI/EngineDriver>`_.
 This documentation is also open source and can be accessed on `github.com/flash62au/EngineDriver_Home <https://github.com/flash62au/EngineDriver_Home>`_
 
-Contribution to both the code and documentation is welcome.  See [`here <../contributing/index.html>`_] for details.
+Contribution to both the code and documentation is welcome.  See [`Contributing <../contributing/index.html>`_] for details.
 
 Engine Driver currently has minSDKVersion set to 16, which equates to Android OS 4.1 (JELLYBEAN). 
-Info on minSDKVersion available `[here] <https://developer.android.com/guide/topics/manifest/uses-sdk-element#ApiLevels>`_.
+Info on minSDKVersion available in the `Enging Driver manifest <https://developer.android.com/guide/topics/manifest/uses-sdk-element#ApiLevels>`_.
 
-See `Operation <./operation/index.html>`_ for details on how to use Engine Driver.
+See `Operation <../operation/index.html>`_ for details on how to use Engine Driver.
 
 ----
 
