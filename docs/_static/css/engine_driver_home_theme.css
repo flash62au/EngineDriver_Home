@@ -26,6 +26,11 @@ dl.footnote>dd p {
   line-height: 15px !important;
 }
 
+.footnote-reference {
+  top: -0.6em !important;
+  font-size: 60% !important;
+}
+
 .sidebar-no-background {
   float: right;
   width: 30% !important;
