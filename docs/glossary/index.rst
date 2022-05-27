@@ -9,12 +9,12 @@ Glossary / References
 
    <br />
 
- .. sidebar::
+.. sidebar::
 
   .. contents:: On This Page  
 
 Glossary
-==================
+--------
 
 *Term*
   *Meaning*
@@ -51,6 +51,6 @@ loco / locomotive / engine
   TBA
 
 References
-==============
+----------
 
 TODO

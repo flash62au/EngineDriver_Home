@@ -11,6 +11,8 @@ Setup Wizard
   .. contents:: On This Page
      :depth: 3
 
+----
+
 The setup wizard will start automatically the first time you run Engine Driver after you install it.  It set some basic preferences and asks for the necessary permissions.  These preferences can be subsequently be changed use the ``preferences`` menu option, or by re-running the wizard, which can only be done from the menu on the connection screen.
 
 Initial Screen

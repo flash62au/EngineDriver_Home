@@ -15,6 +15,7 @@ Preferences
   .. contents:: On This Page
     :depth: 2
     
+
 ----
 
 * Show Advanced Preferences?
@@ -58,8 +59,6 @@ Left/Right Swipe Preferences
   * Swipe through Web?
   * Swipe Through Turnouts?
   * Swipe through Routes?
-
-----
 
 Throttle Screen Appearance Preferences
 --------------------------------------
@@ -182,8 +181,6 @@ Background Image Preferences
 * Background Image File Name
 * Background Image Position
 
-----
-
 Throttle Screen Action Bar Preferences
 --------------------------------------
 
@@ -254,7 +251,6 @@ Stop on direction change?
 * 'Pause' button Rate
 * 'Pause' button Step
 
-----
 
 Consist Function Follow Preferences
 -----------------------------------
@@ -305,8 +301,6 @@ Action for String 5
 """""""""""""""""""
 
 TBA
-
-----
 
 
 Additional Throttle Control Source Preferences
@@ -380,7 +374,6 @@ Voice Response Preferences
 * On Gamepad Test complete
 * On Gamepad Test key press
 
-----
 
 Select Loco Preferences
 -----------------------
@@ -433,7 +426,6 @@ Additional Preferences
 * Bell button Latching/Momentary
 * F1 and F2 activate Bell and Horn?
 
-----
 
 Connect Preferences
 -------------------
@@ -470,7 +462,6 @@ Background Alert
 
 TBA
 
-----
 
 Web Screen Preferences
 ----------------------
@@ -520,7 +511,6 @@ Notes for the Timer:
 """""""""""""""""""""""""
 
 TBA
-----
 
 Import/Export/Reset &Log Preferences
 ------------------------------------

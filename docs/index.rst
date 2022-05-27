@@ -1,12 +1,18 @@
 *******************************************
-JMRI Engine Driver Throttle
+Engine Driver
 *******************************************
 
 .. meta::
    :description: JMRI Engine Driver Throttle
    :keywords: Engine Driver EngineDriver JMRI manual help
 
-This free Android application connects to a WiThrottle™ Server to control model trains. 
+.. |br| raw:: html
+
+   <br />
+
+----
+
+**JMRI Engine Driver Throttle**, more commonly known as **Engine Driver** is a free Android application connects to a WiThrottle™ [#WIT]_ Server to control model trains. 
 
 .. image:: ./_static/images/screenshots/throttle_vertical_outline.png
    :scale: 12 %
@@ -38,12 +44,7 @@ your DCC base station directly while you are running your trains.
 
 ----
 
-Notes:
-
-* 'WiThrottle' is a trademark owned by Brett Hoffman.
-* 'WiThrottle' is a proprietary  `iOS app <https://www.withrottle.com/html/home.html>`_ developed by Brett Hoffman which has similar capabilities to Engine Driver.
-* The 'WiThrottle protocol' is a proprietary protocol developed by Brett Hoffman.  It is used JMRI, Engine Driver and a number of DCC Command Stations.
-* References in this website to a 'WiThrottle Server', refer to a server that can process and communicate via the 'WiThrottle protocol'.
+.. [#WIT] 'WiThrottle' is a trademark owned by Brett Hoffman. It is also an `iOS app <https://www.withrottle.com/html/home.html>`_ developed by Brett Hoffman which has similar capabilities to Engine Driver. |br|\ The 'WiThrottle protocol' is a proprietary protocol developed by Brett Hoffman.  It is used JMRI, Engine Driver and a number of DCC Command Stations. |br|\ References in this website to a 'WiThrottle Server', refer to a server that can communicate using the 'WiThrottle protocol'.
 
 .. toctree::
    :hidden:

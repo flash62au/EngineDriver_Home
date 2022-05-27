@@ -15,8 +15,6 @@ Gamepads
   .. contents:: On This Page
      :depth: 3
 
-----
-
 Connecting your Gamepad to your Android Device/Phone
 ----------------------------------------------------
 
@@ -98,8 +96,6 @@ As you connect each gamepad, you will be force to go to the gamepad test screen.
 
 An indicator ``1``, ``2`` etc. will show near the throttle speed to indicate which throttle each gamepad is controlling.  Only one gamepad can be active on a single throttle at one time.
 
-----
-
 Sample gamepads 
 -----------------
 
@@ -163,7 +159,6 @@ Support for this type of gamepad was removed from engine driver.
    :scale: 70 %
 
 
-----
 
 Keyboard Commands
 -----------------
