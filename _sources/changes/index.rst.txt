@@ -6,6 +6,8 @@ Changes
    :description: JMRI Engine Driver Throttle
    :keywords: Engine Driver EngineDriver JMRI manual help changes
 
+----
+
 Current production version changes include:
 
 * 'In Device' loco sounds (first two throttles only). (Many thanks to Robert Posener for testing.)

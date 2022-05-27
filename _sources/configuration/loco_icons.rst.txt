@@ -10,6 +10,7 @@ Loco Icons in the Roster
 
    <br />
 
+----
 
 The **Roster List**, and **Recent Locos List** on the Select Loco screen will automatically show icons for your locos only if:
 

@@ -14,8 +14,6 @@ Contributing
 
   .. contents:: On This Page
 
-----
-
 Contributing to the Code
 ------------------------
 
@@ -58,8 +56,6 @@ To publish your changes:
 
 * Android Studio, commit and push your changes to *your own* GitHub repository.. |br|\ To do this you will need to define a new remote ``https://github.com/<your name>/EngineDriver``
 * Go to GitHub and issue a pull request for your branch to be pulled into the original repository. Once it's merged in by one of the admins, your changes will go live!
-
-----
 
 Contributing to the Documentation
 ---------------------------------
@@ -110,8 +106,6 @@ The steps listed here provide guidance on how to edit and preview changes to the
 
 
 .. [#makegithub] There is a batch file ``make github.bat`` in the ``EngineDriver_Home`` folder which should be able to be double-clicked on the run this command. It will pause at the end to allow you see if there are any issues.
-
-----
 
 Style Guidelines
 ^^^^^^^^^^^^^^^^

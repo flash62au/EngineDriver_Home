@@ -15,8 +15,6 @@ User Interface
   .. contents:: On This Page
      :depth: 3
     
-----
-
 Main Screens
 -------------
 
@@ -154,9 +152,6 @@ This can be used for:
 
 Tap on any of the Open Windows to expand its view.  You can then resize the panel by pinching and zooming.  It is sometimes useful to rotate your device to landscape mode, so as to better view your layout.
 
-
-----
-
 Secondary / Support Screens
 -------------------------------
 
@@ -252,8 +247,6 @@ This screen displays
 * A page of basic information about Engine Driver
 
 TODO 
-
-----
 
 Common Elements
 ---------------

@@ -10,6 +10,8 @@ Gamepads
 
    <br />
 
+----
+
 Selecting a Gamepad Type
 ^^^^^^^^^^^^^^^^^^^^^^^^
 

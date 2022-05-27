@@ -15,9 +15,6 @@ Frequently Asked Questions
   .. contents:: On This Page
      :depth: 3
     
-
-----
-
 Connecting - Wifi and WiThrottle
 --------------------------------
 
@@ -100,8 +97,6 @@ Q. How do I clear unwanted servers from the list
 
   A. Swipe right on an entry to remove it.
 
-----
-
 Selecting locomotives to control
 --------------------------------
 
@@ -182,8 +177,6 @@ Q. No Locomotive Icons appear in the Roster
 Q. Why can't I control 6 locos
 
   A. only the 'Simple' throttle layout allows for 6 throttles
-
-----
 
 Changing the appearance of Engine Driver
 ----------------------------------------
@@ -317,8 +310,6 @@ Showing the web page at the bottom of the throttle page
 TODO
 <also point to the swipe up option>
 
-----
-
 Changing the loco selection page
 --------------------------------------------
 
@@ -331,16 +322,12 @@ Locos in the roster not showing
 
 TODO
 
-----
-
 Changing the connection page
 --------------------------------------------
 
 TODO
 
 Can't remove test server
-
-----
 
 Changing the turnouts page
 --------------------------------------------

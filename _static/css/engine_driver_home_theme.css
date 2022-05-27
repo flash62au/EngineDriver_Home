@@ -2,6 +2,11 @@ h1, .h1 {
   text-transform: uppercase;
 }
 
+h2, .h2 {
+  border-top: 1px solid;
+}
+
+
 h4, .h4 {
   font-size: 100%;
   font-style: italic;
@@ -11,6 +16,9 @@ h4, .h4 {
   background:#ffae00 !important; 
 }
 
+.wy-nav-top {
+  background:#ffae00 !important; 
+}
 
 .sidebar-no-background {
   float: right;

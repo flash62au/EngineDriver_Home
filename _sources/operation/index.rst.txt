@@ -15,11 +15,9 @@ Operation
   .. contents:: On This Page
     :depth: 3
 
-----
 
 Quick Start / Getting Started
 -----------------------------
-
 
 * Confirm that your devices meet the `Prerequisites <../prerequisites/index.html>`_
 * **Start your WiThrottle server**
@@ -44,7 +42,7 @@ Quick Start / Getting Started
   * Click on the discovered address
 
     * If the server does not show up, check that are on the same network as the WiThrottle server.   
-    * If the server *never* appears in the discovered list, type in the IP address and Port of the WiThrottle server (Using the values shown on the JMRI WiThrottle window) and press :guilabel:`Connect`. |br|\ Note: this situation is sometimes possible even if you are on the same network. |br|\ |br|\ NOTE: see the `WiFi connection page <./wifi_issues.html>`_ for more assistance on connection issues. |br|\ There is also a "demo" server at **jmri.mstevetodd.com**, port **44444** that you can connect to for testing. |br|\ |br|\ 
+    * If the server *never* appears in the discovered list, type in the IP address and Port of the WiThrottle server (Using the values shown on the JMRI WiThrottle window) and press :guilabel:`Connect`. |br|\ Note: this situation is sometimes possible even if you are on the same network. |br|\ |br|\ See the `WiFi connection page <./wifi_issues.html>`_ for more assistance if you have connection issues. |br|\ |br|\ 
 
   * On the throttle screen, click on the :guilabel:`Select` loco button
 
@@ -73,13 +71,16 @@ Note:
 
 * To create a consist "on-the-fly", simply select additional locos for the same throttle, then select which way the new loco if facing. Direction and speed will be sent for all. Release will release all for that throttle
 
-----
-
-Detailed Information 
---------------------
+Detailed Instructions 
+---------------------
 
 Connecting
 ^^^^^^^^^^^^^^^^
+
+Connecting has two aspects:
+
+* Connecting to the correct network, which uses Android's build in capabilities (not Engine Driver's)
+* Connecting to the WiThrottle server
 
 Connecting to the network
 """"""""""""""""""""""""""
@@ -97,8 +98,6 @@ Connecting to the network
     :scale: 30 %
     :align: right
 
-TBA
-
 * Use Android's Network/Wifi settings to connect to the same network as your WiThrottle server
 * With some exceptions, your device's IP Address should be similar to the server's IP address (the first three blocks of numbers will be identical)
 
@@ -107,8 +106,6 @@ TBA
   * For other devices, see the instructions for that device
 
 Also see `WiFi issues <./wifi_issues.html>`_ if you are having difficulties.
-
-|br|
 
 Connecting the WiThrottle server
 """"""""""""""""""""""""""""""""""
@@ -119,18 +116,21 @@ Connecting the WiThrottle server
   .. image:: ../_static/images/parts/connecting_ip_address.png
     :scale: 30 %
     :align: right
+    :name: IP Address
 
   |br|
 
   .. image:: ../_static/images/parts/connecting_discovered_servers.png
     :scale: 30 %
     :align: right
+    :name: Discovered Servers
 
   |br|
 
   .. image:: ../_static/images/parts/connecting_recent_servers.png
     :scale: 30 %
     :align: right
+    :name: Recent Severs
 
 * Start Engine Driver |br|\ You will be presented with the Connection Screen
 * On the Connection Screen there are three ways you can select a server to connect to:
@@ -150,13 +150,13 @@ Connecting the WiThrottle server
 
   If the server you want to connect to is in the list, simply click on it and you will be taken to the Throttle screen.
 
-  The server being in this list does not necessarily mean that you will be able to connect it *now*. It is just that you have successfully connected to it in the past.
+  A server being in this list *does not* necessarily mean that you will be able to connect it *now*. It just means that you have successfully connected to it in the past.
 
   There is also a "demo" server at **jmri.mstevetodd.com**, port **44444** in this list that you can connect to for testing. (If your device/phone has an internet connection.)
 
   **IP Address and Port**
 
-  Type in the IP address and Port of the WiThrottle server and press :guilabel:`Connect`.
+  Type in the **IP address** and **Port** of the WiThrottle server and press :guilabel:`Connect`.
 
   To find your server's IP address and Port:
 
@@ -179,10 +179,8 @@ Selecting and releasing locos and Consists/Multiple Units is done form the Throt
 
 (The Throttle screen may have from 1 to 6 throttles on it, depending on the `Throttle Screen Layout preferences <../configuration/preferences.html#throttle-screen-appearance-preferences>`_ you have chosen.)
 
-Single loco
-""""""""""""""""""""""""""""""""""
-
-TBA
+Selecting a Single loco
+"""""""""""""""""""""""
 
 There three ways select a loco:
 
@@ -190,30 +188,58 @@ There three ways select a loco:
 * Roster
 * Recent Locos
 
-Also see `Locomotive Icons <#locomotive-icons-in-the-roster>`_ below.
+  **DCC Address**
+
+  You can enter the loco's DCC address (verify short or long), and press :guilabel:`Acquire` to select the loco.  You will then be taken back to the Throttle screen with that loco selected.
+
+  **Roster**
+
+  If the loco you want to control to is in the list, simply click on it and you will be taken back to the Throttle screen with that loco selected.
+
+  The Loco you want to control needs to be in the roster of the WiThrottle server.  Not all WiThrottle server support rosters.  Refer to the JMRI documentation or you WiThrottle server device's documentation for creating a roster.
+
+  Also see `Locomotive Icons <#locomotive-icons-in-the-roster>`_ below.
+
+  **Recent Locos**
+
+  If the loco you want to control to is in the list, simply click on it and you will be taken back to the Throttle screen with that loco selected.
+
+  Engine Driver remembers the last 10 locos that you have selected. (That number can be increased or decreased with ``Maximum Recent Locos`` preference.)
 
 On the fly / In Phone Consists (Multiple Units)
 """"""""""""""""""""""""""""""""""""""""""""""""
 
-TBA
+There four ways create a Consist / Multiple Unit train:
 
-There four ways create a Consist / multiple unit train:
+  **Selecting additional locos, one loco 'at a time' (as above)**
 
-Selecting additional locos, one loco at a time (as above)
+  * DCC Address
+  * Roster
+  * Recent Locos
 
-* DCC Address
-* Roster
-* Recent Locos
+  **Or by:**
 
-Or by:
+  * Recent Consists
 
-* Recent Consists
+  **One at a time**
 
-when selecting each additional loco, you are presented with a screen that allows:
+  Adding additional locos the Consist / Multiple Unit train is identical to the process of selecting a single loco.  Simply click on the :guilabel:`Select` button, which will be showing the name or address of any locos already selected.
 
-- direction
-- changing order
-- removing
+  There is no real limit to the number of locos that can be added to a Consist / Multiple Unit.
+
+  After selecting each additional loco, you are presented with a screen that allows you to:
+
+  - Change the facing of each loco (except the front loco)
+  - Change the order of the locos in the Consist / Multiple Unit
+  - Remove locos in the Consist / Multiple Unit
+
+  **Recent Consists**
+
+  Selecting a Consist / Multiple Unit in the Recent Consists list will automatically add all the remembered locos, including their facing.
+
+  Note:
+
+  * the order of the locos in the consist can be important.  By default, lights and sound functions are only sent to the first loco.  This can be overridden in the preferences.
 
 ----
 
@@ -222,20 +248,29 @@ Running Trains
 
 TBA
 
+Once you have select a loco or consist / multiple unit...
+
+
 Controlling Speed
 """"""""""""""""""""""""""""""""""
 
 TBA
 
-- sliders
-- speed buttons
-- volume keys
-- gamepads
+There are six ways you can control the speed of of your loco or consist /multiple unit train:
+
+- Sliders (if available in the Throttle layout)
+- Speed buttons (if enabled)
+- Stop button
+- All Stop button (if enabled)
+- Volume keys
+- Gamepads (if connected)
 
 Controlling Direction
 """"""""""""""""""""""""""""""""""
 
 TBA
+
+There are three ways you can control the direction of your loco or consist /multiple unit train:
 
 - throttle screen layouts with direction buttons
 - throttle screen layouts without direction buttons  (Switching/Shunting)
@@ -246,10 +281,19 @@ DCC Functions
 
 TBA
 
+There are two ways you can activate the DCC Functions of your loco or consist /multiple unit train:
+
+- Function Buttons
+- Gamepads (if connected)
+
+The actions of the DCC functions will be impacted depending on the settings and preferences you have selected:
+
 - Common Functions
 - Function Labels
 - Functions in consists
 - gamepads
+
+
 
 Virtual Sounds - In Phone Loco Sounds (IPLS)
 """"""""""""""""""""""""""""""""""""""""""""
@@ -261,12 +305,14 @@ TBA
 - custom 
 - gamepads
 
+See `In Phone Loco Sounds (IPLS) <../configuration/ipls.html>`_ for more information.
+
 Gamepads  
 """"""""""""""""""""""""""""""""""
 
 TBA
 
-See `gamepads <./gamepads.html>`_
+See `gamepads <./gamepads.html>`_ for more information.
 
 Action Bar and Menu
 ^^^^^^^^^^^^^^^^^^^

@@ -10,8 +10,6 @@ Prerequisites
 
   .. contents:: On This Page
 
-----
-
 Android Device/Phone
 --------------------
 
@@ -23,8 +21,6 @@ ESU MobileControl II
 Engine Driver fully supports the `ESU MCII <http://www.esu.eu/en/products/digital-control/mobile-control-ii/>`_ Android throttle.
 
 See `ESU MobileControl II <../configuration/esu_mcii.html>`_ for more information.
-
-----
 
 WiThrottle Servers
 ------------------
