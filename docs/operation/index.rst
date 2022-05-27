@@ -84,13 +84,18 @@ Connecting
 Connecting to the network
 """"""""""""""""""""""""""
 
-.. image:: ../_static/images/parts/network2.png
-   :scale: 30 %
-   :align: right
+.. sidebar:: 
+  :class: sidebar_no_background
 
-.. image:: ../_static/images/parts/network1.png
-   :scale: 30 %
-   :align: right
+  .. image:: ../_static/images/parts/network2.png
+    :scale: 30 %
+    :align: right
+
+  |br|
+
+  .. image:: ../_static/images/parts/network1.png
+    :scale: 30 %
+    :align: right
 
 TBA
 
@@ -100,20 +105,31 @@ TBA
 Also see `Connection issues <./wifi_issues.html>`_ if you are having difficulties.
 
 
+|br|
+
+|br|
+
 Connecting the WiThrottle server
 """"""""""""""""""""""""""""""""""
 
-.. image:: ../_static/images/parts/connecting_ip_address.png
-   :scale: 30 %
-   :align: right
+.. sidebar:: 
+  :class: sidebar_no_background
 
-.. image:: ../_static/images/parts/connecting_discovered_servers.png
-   :scale: 30 %
-   :align: right
+  .. image:: ../_static/images/parts/connecting_ip_address.png
+    :scale: 30 %
+    :align: right
 
-.. image:: ../_static/images/parts/connecting_recent_servers.png
-   :scale: 30 %
-   :align: right
+  |br|
+
+  .. image:: ../_static/images/parts/connecting_discovered_servers.png
+    :scale: 30 %
+    :align: right
+
+  |br|
+
+  .. image:: ../_static/images/parts/connecting_recent_servers.png
+    :scale: 30 %
+    :align: right
 
 TBA
 
