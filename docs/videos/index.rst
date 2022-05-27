@@ -2,7 +2,7 @@
 Videos
 *******************************************
 
-Note: some of the videos below were done on older versions of Engine Driver. Some of the functions or the names of the preferences may have changed slightly.
+Note: some of the videos below were done on older versions of **Engine Driver**. Some of the functions, screen layouts or the names of the preferences may have changed slightly.
 
 * Connecting to a server
 * Connection Preferences

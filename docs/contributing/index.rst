@@ -17,7 +17,7 @@ Contributing
 Contributing to the Code
 ------------------------
 
-Engine Driver is open source software written in Java. The source code is available on `github.com/JMRI/EngineDriver <https://github.com/JMRI/EngineDriver>`_.
+**Engine Driver** is open source software written in Java. The source code is available on `github.com/JMRI/EngineDriver <https://github.com/JMRI/EngineDriver>`_.
 
 It is recommended that you contact M Steve Todd if you intend to contribute to the code base, before you start working.
 
@@ -113,7 +113,7 @@ Style Guidelines
 * Use British/Australian spelling e.g. 'colour' not 'color'.  (Primarily because it is used in more English speaking countries)
 *	Use railway terminology that is understandable by all English-speaking people. |br|\ Where there are clear differences from US to non-US terminology use both with a slash between. e.g. turnouts/points, consists/multiple units, switching/shunting.  (Primarily because JMRI uses the US terminology)
 * In general use 'loco' instead of 'locomotive' or 'engine'
-* Use 'Engine Driver' not 'Engine Driver app', 'EngineDriver' or 'Engine Driver Throttle' (except on the first page)
+* Use '**Engine Driver**' not 'Engine Driver app', 'EngineDriver' or 'Engine Driver Throttle' (except on the first page)
 *	No full stop at the end of a numbered or unnumbered list
 *	Numbered lists should be avoided, unless there is a specific need
 * Use first person (you and your; not I, me, my or am) language

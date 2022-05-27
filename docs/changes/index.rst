@@ -6,9 +6,11 @@ Changes
    :description: JMRI Engine Driver Throttle
    :keywords: Engine Driver EngineDriver JMRI manual help changes
 
-----
 
-Current production version changes include:
+Current Production Version Changes
+----------------------------------
+
+Include:
 
 * 'In Device' loco sounds (first two throttles only). (Many thanks to Robert Posener for testing.)
 * Support longer text on Route buttons.
@@ -18,7 +20,10 @@ Current production version changes include:
 * 'Limit Speed' and 'Pause' added to the Horizontal Layouts
 * Show roster lists from unknown servers
 
-Changes for the beta version include:
+Changes for the Beta Version
+----------------------------
+
+Include:
 
 * Option for Server Description on the Action bar
 * More improvements to In-Phone Loco Sounds
@@ -43,3 +48,4 @@ All Changes
 -----------
 
 `view complete changelog <https://raw.githubusercontent.com/JMRI/EngineDriver/master/changelog-and-todo-list.txt>`_
+

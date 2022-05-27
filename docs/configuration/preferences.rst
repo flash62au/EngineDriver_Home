@@ -101,7 +101,7 @@ Notes:
 * The number is brackets after the Throttle Screen Layout name is the maximum number of throttles that the layout can support.
 * The 'Simple' Throttle Screen Layout is designed to allow for up to 6 throttles simultaneously.  |br|\ It is recommended that this only be used on a tablet device, because of the screen real estate demands that 6 throttles requires. |br|\ When this Throttle Screen Layout is selected, the ``Number of Throttles`` preferences options is activated.  You can then use this to restrict the number of throttles being displayed on the 'Simple' Throttle Screen Layout.  |br|\ Also the ``Functions Area Size`` preferences options is activated.  You can then use this to control how many Function Buttons are displayed with each throttle.  By default, not Function buttons will be shown. |br|\ If you have selected In Phone Loco Sounds, then you will want to set this to 4 (for Mute, Light, Bell and Whistle/Horn).
 
-Engine Driver will automatically reload the throttle sceen after closing the preferences screen. 
+**Engine Driver** automatically reload the throttle screen after closing the preferences screen. 
 
 Number of throttles 
 """""""""""""""""""

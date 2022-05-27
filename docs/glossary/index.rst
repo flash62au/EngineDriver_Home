@@ -50,6 +50,9 @@ Switching / Shunting
 loco / locomotive / engine 
   TBA
 
+Command Station / DCC Command Station / DCC Base Station
+  TBA
+
 References
 ----------
 
