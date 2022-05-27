@@ -21,6 +21,11 @@ h4, .h4 {
   line-height: 15px !important;
 }
 
+dl.footnote>dd p {
+  font-size: .7rem !important;
+  line-height: 15px !important;
+}
+
 .sidebar-no-background {
   float: right;
   width: 30% !important;

@@ -13,7 +13,7 @@ Prerequisites
 Android Device/Phone
 --------------------
 
-Engine Driver will generally work on most Android devices made in the last 5 years. Currently it has minSDKVersion set to 16, which equates to Android OS 4.1 (JELLYBEAN). See Info on minSDKVersion available `[here] <https://developer.android.com/guide/topics/manifest/uses-sdk-element#ApiLevels>`_.
+Engine Driver will generally work on most Android devices made in the last 5 years. Currently it has minSDKVersion set to 16, which equates to Android OS 4.1 (JELLYBEAN). Info on minSDKVersion available in the `Enging Driver manifest <https://developer.android.com/guide/topics/manifest/uses-sdk-element#ApiLevels>`_.
 
 ESU MobileControl II
 """"""""""""""""""""
@@ -30,7 +30,7 @@ For JMRI
 
 Verify your Android device can connect to your network via WiFi and obtain an IP address.
 Make sure you are running one of the latest versions of `JMRI <https://jmri.org/>`_ (3.8 works, 4.20+ works much better) on your PC, connected to your layout. 
-Start up JMRI and verify you can use JMRI's included "Throttle" window to control a loco on your layout.
+Start up JMRI and verify you can use JMRI's included 'Throttle' window to control a loco on your layout.
 
 Start the `WiThrottle <https://www.jmri.org/help/en/package/jmri/jmrit/withrottle/Protocol.shtml>`_ function of JMRI, located in DecoderPro under Tools, Throttles.  
 
