@@ -10,9 +10,9 @@ Operation
 
    <br />
 
-.. sidebar:: On this page
+.. sidebar::
 
-  .. contents::
+  .. contents:: On This Page
     :depth: 3
 
 ----
@@ -150,7 +150,7 @@ Connecting the WiThrottle server
 
   If the server you want to connect to is in the list, simply click on it and you will be taken to the Throttle screen.
 
-  The server being in this list does not necessarily mean that you will be able to connect it now.It is just that you have successfully connected to it in the past.
+  The server being in this list does not necessarily mean that you will be able to connect it *now*. It is just that you have successfully connected to it in the past.
 
   There is also a "demo" server at **jmri.mstevetodd.com**, port **44444** in this list that you can connect to for testing. (If your device/phone has an internet connection.)
 
@@ -158,7 +158,7 @@ Connecting the WiThrottle server
 
   Type in the IP address and Port of the WiThrottle server and press :guilabel:`Connect`.
 
-  To find you server IP address and Port:
+  To find your server's IP address and Port:
 
     * For a JMRI server, see the WiThrottle window for its address 
     * For other devices, see the instructions for that device
