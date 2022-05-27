@@ -113,7 +113,7 @@ html_css_files = [
 #    'css/layout.css',
 #    'css/roundslider.min.css',
 #    'css/throttle.css'
-]
+] 
 
 html_js_files = [
     'js/platform.js',
