@@ -24,7 +24,7 @@ Quick Start / Getting Started
 * Confirm that your devices meet the `Prerequisites <../prerequisites/index.html>`_
 * **Start your WiThrottle server**
 
-  * For JMRI, Start the `WiThrottle <https://www.jmri.org/help/en/package/jmri/jmrit/withrottle/Protocol.shtml>`_ function of JMRI, located in DecoderPro under Tools, Throttles. It is also highly recommended that you start the `JMRI Web Server function <https://www.jmri.org/help/en/html/web/index.shtml>`_ (Tools, Start JMRI Web Server). 
+  * For JMRI, Start the `WiThrottle <https://www.jmri.org/help/en/package/jmri/jmrit/withrottle/Protocol.shtml>`_ function of JMRI, located in DecoderPro under Tools, Throttles. |br|\ It is also highly recommended that you start the `JMRI Web Server function <https://www.jmri.org/help/en/html/web/index.shtml>`_ (Tools, Start JMRI Web Server). 
   * For other devices, turning them on a waiting a minute or two should be sufficient.
 
     See the `Prerequisites <../prerequisites/index.html>`_ page for more information.
@@ -132,19 +132,42 @@ Connecting the WiThrottle server
     :scale: 30 %
     :align: right
 
-TBA
-
 * Start Engine Driver |br|\ You will be presented with the Connection Screen
-* There are three ways you can select a server to connect to
+* On the Connection Screen there are three ways you can select a server to connect to:
 
-  - Address and Port
+  - IP Address and Port
   - Discovered Servers
   - Recent servers
 
+  **Discover Servers**
 
-If you only ever connect to one WiThrottle server you can effectively bypass this screen by setting the ``Auto-Connect to WiThrottle Server?`` preference.
+  This is the most common way to connect. If the server you want to connect to is in the list, simply click on it and you will be taken to the Throttle screen.
 
-Also see `Connection issues <./wifi_issues.html>`_ if you are having difficulties.
+  If the server does not appear in the recent list try one of the other two methods.  
+  Your server not appearing in the recent list is not necessarily a problem  See `Connection issues <./wifi_issues.html>`_ for more information.
+
+  **Recent Server List**
+
+  If the server you want to connect to is in the list, simply click on it and you will be taken to the Throttle screen.
+
+  The server being in this list does not necessarily mean that you will be able to connect it now.It is just that you have successfully connected to it in the past.
+
+  There is also a "demo" server at **jmri.mstevetodd.com**, port **44444** in this list that you can connect to for testing. (If your device/phone has an internet connection.)
+
+  **IP Address and Port**
+
+  Type in the IP address and Port of the WiThrottle server and press :guilabel:`Connect`.
+
+  To find you server IP address and Port:
+
+    * For a JMRI server, see the WiThrottle window for its address 
+    * For other devices, see the instructions for that device
+
+
+Notes:
+
+* If you only ever connect to one WiThrottle server you can effectively bypass this screen by setting the ``Auto-Connect to WiThrottle Server?`` preference.
+* Also see `Connection issues <./wifi_issues.html>`_ if you are having difficulties.
 
 
 ----
@@ -152,22 +175,41 @@ Also see `Connection issues <./wifi_issues.html>`_ if you are having difficultie
 Selecting / Releasing Locos and Consists/Multiple Units
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-TBA
+Selecting and releasing locos and Consists/Multiple Units is done form the Throttle Screen, by clicking on the :guilabel:`Select` button of one of the Throttles on the screen.
+
+(The Throttle screen may have from 1 to 6 throttles on it, depending on the `Throttle Screen Layout preferences <../configuration/preferences.html#throttle-screen-appearance-preferences>`_ you have chosen.)
 
 Single loco
 """"""""""""""""""""""""""""""""""
 
 TBA
 
+There three ways select a loco:
+
 * DCC Address
 * Roster
 * Recent Locos
-* Recent Consists
 
 Also see `Locomotive Icons <#locomotive-icons-in-the-roster>`_ below.
 
 On the fly / In Phone Consists (Multiple Units)
 """"""""""""""""""""""""""""""""""""""""""""""""
+
+TBA
+
+There four ways create a Consist / multiple unit train:
+
+Selecting additional locos, one loco at a time (as above)
+
+* DCC Address
+* Roster
+* Recent Locos
+
+Or by:
+
+* Recent Consists
+
+when selecting each additional loco, you are presented with a screen that allows:
 
 - direction
 - changing order

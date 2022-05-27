@@ -168,6 +168,21 @@ Intro/Setup Wizard Screen
 TODO
 
 
+Loco Select Screen
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+TODO
+
+Consist Edit Screen
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+TODO
+
+Consist Lights Edit Screen
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+TODO
+
 
 Power Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
