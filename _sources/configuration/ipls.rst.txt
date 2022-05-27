@@ -9,11 +9,11 @@ In Phone Loco Sounds (IPLS)
 Virtual Sounds / In Phone Loco Sounds (IPLS)
 ------------------------------------------------
 
-Engine Driver can play locomotive sounds through your Android device/phones running Engine Driver or through a BlueTooth speaker connected to it.
+Engine Driver can play synchronised locomotive sounds through your Android device/phones or through a BlueTooth speaker connected to it.
 
 To enable In Phone Loco Sounds (IPLS) select an option in ``Throttle 1 Loco Sounds`` or ``Throttle 2 Loco Sounds`` (or both). Once enabled for either throttle a new menu option will be available from Throttle Screen to make subsequent changes easier ``Loco Sounds``.
 
-To make it easy to switch sound profiles we recommend enabling the Status Bar button by setting the ``In phone sounds button`` preferences.
+To make it easy to switch sound profiles we recommend enabling the Action Bar button by setting the ``In phone sounds button`` preferences.
 
 Custom IPLS Files
 ------------------

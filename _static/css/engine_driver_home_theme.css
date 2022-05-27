@@ -7,6 +7,11 @@ h4, .h4 {
   font-style: italic;
 } 
 
+.wy-nav-top {
+  background:#ffae00 !important; 
+}
+
+
 .sidebar-no-background {
   float: right;
   width: 30% !important;
