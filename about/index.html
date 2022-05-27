@@ -102,22 +102,27 @@
 <h1>About<a class="headerlink" href="#about" title="Permalink to this headline"></a></h1>
 <hr class="docutils" />
 <a class="reference internal image-reference" href="../_images/throttle_horizontal_switching_colorful.png"><img alt="../_images/throttle_horizontal_switching_colorful.png" class="align-right" src="../_images/throttle_horizontal_switching_colorful.png" style="width: 172.79999999999998px; height: 307.2px;" /></a>
-<p>Engine Driver Throttle (normally just referred to as Engine Driver or ‘ED’) is a free Android application that connects to a <a class="reference external" href="https://jmri.org/help/en/package/jmri/jmrit/withrottle/UserInterface.shtml">WiThrottle™ Server</a> <a class="footnote-reference brackets" href="#wit" id="id1">1</a> to control model trains.</p>
+<p><strong>Engine Driver Throttle</strong> (normally just referred to as <strong>Engine Driver</strong> or just <strong>ED</strong>) is a free Android application that connects to a <a class="reference external" href="https://jmri.org/help/en/package/jmri/jmrit/withrottle/UserInterface.shtml">WiThrottle™ Server</a> <a class="footnote-reference brackets" href="#wit" id="id1">1</a> to control model trains.</p>
 <p>Supported servers include <a class="reference external" href="https://jmri.org/">JMRI</a>, <a class="reference external" href="https://dcc-ex.com/">DCC-EX</a>, <a class="reference external" href="https://www.modelrectifier.com/category-s/332.htm">MRC Prodigy WiFi</a>, <a class="reference external" href="https://www.digitrax.com/products/wireless/lnwi/">Digitrax LnWi</a>, and <a class="reference external" href="http://wifitrax.com/products/product-WFD-30-detail.html">WifiTrax (for NCE)</a>.
 Once connected, you can control your locomotives and your entire model railroad/railway. Speed, direction, and up to 29 DCC functions are supported for one to six locomotives or consists. You can create and edit consists/multiple units (software-defined). You can also control layout power, turnouts/points, routes, and access JMRI web panels and windows.</p>
-<p>Generally the WiThrottle servers that Engine Driver connect to are either DCC Command Stations, or are designed to talk to DCC Command Stations to subsequently talk to DCC Decoder equipped locos on a layout.  However DCC++EX is currently experimenting with the possibility of controlling DC locomotives or even Slot cars instead.</p>
-<p>Engine Driver is open source software. The source code is available on <a class="reference external" href="https://github.com/JMRI/EngineDriver">github.com/JMRI/EngineDriver</a>.
+<p>Generally the WiThrottle servers that <strong>Engine Driver</strong> connects to are either DCC Command Stations, or are designed to talk to DCC Command Stations (e.g. JMRI) to subsequently talk to DCC Decoder equipped locos on a layout.  However DCC++EX is currently experimenting with the possibility of controlling DC locos or even Slot cars instead.</p>
+<p><strong>Engine Driver</strong> is open source software. The source code is available on <a class="reference external" href="https://github.com/JMRI/EngineDriver">github.com/JMRI/EngineDriver</a>.
 This documentation is also open source and can be accessed on <a class="reference external" href="https://github.com/flash62au/EngineDriver_Home">github.com/flash62au/EngineDriver_Home</a></p>
 <p>Contribution to both the code and documentation is welcome.  See [<a class="reference external" href="../contributing/index.html">Contributing</a>] for details.</p>
-<p>Engine Driver currently has minSDKVersion set to 16, which equates to Android OS 4.1 (JELLYBEAN).
-Info on minSDKVersion available in the <a class="reference external" href="https://developer.android.com/guide/topics/manifest/uses-sdk-element#ApiLevels">Enging Driver manifest</a>.</p>
-<p>See <a class="reference external" href="../operation/index.html">Operation</a> for details on how to use Engine Driver.</p>
+<p><strong>Engine Driver</strong> currently has minSDKVersion of 16, which equates to Android OS 4.1 (JELLYBEAN).
+Info on minSDKVersion available in the <a class="reference external" href="https://developer.android.com/guide/topics/manifest/uses-sdk-element#ApiLevels">Engine Driver manifest</a>.</p>
+<p>See <a class="reference external" href="../operation/index.html">Operation</a> for details on how to use <strong>Engine Driver</strong>.</p>
+<section id="what-s-a-withrottle-server">
+<h2>What’s a ‘WiThrottle Server’?<a class="headerlink" href="#what-s-a-withrottle-server" title="Permalink to this headline"></a></h2>
+<p>WiThrottle stands for ‘WiFi Throttle’, and a “WiThrottle Server’ is just software running on your JMRI computer, DCC-EX Command Station, or dedicated device. It’s called a ‘Server’ because it allows you to connect to it and it ‘serves’, or services, requests from another application. That application is called a ‘Client’. So <strong>Engine Driver</strong> in this case is the client.</p>
+<p>The WiThrottle Protocol itself is a standard for how WiFi throttles can communicate with Command Stations, much like the DCC standard is a standard for how data packets communicate with decoders. What this means for you, is that <strong>Engine Driver</strong> can talk to any WiThrottle compatible server.</p>
 <hr class="docutils" />
 <dl class="footnote brackets">
 <dt class="label" id="wit"><span class="brackets"><a class="fn-backref" href="#id1">1</a></span></dt>
-<dd><p>‘WiThrottle’ is a trademark owned by Brett Hoffman. It is also an <a class="reference external" href="https://www.withrottle.com/html/home.html">iOS app</a> developed by Brett Hoffman which has similar capabilities to Engine Driver. <br />The ‘WiThrottle protocol’ is a proprietary protocol developed by Brett Hoffman.  It is used JMRI, Engine Driver and a number of DCC Command Stations. <br />References in this website to a ‘WiThrottle Server’, refer to a server that can communicate using the ‘WiThrottle protocol’.</p>
+<dd><p>‘WiThrottle’ is a trademark owned by Brett Hoffman. It is also an <a class="reference external" href="https://www.withrottle.com/html/home.html">iOS app</a> developed by Brett Hoffman which has similar capabilities to Engine Driver. <br />The ‘WiThrottle protocol’ is a proprietary protocol developed by Brett Hoffman.  It is used JMRI, <strong>Engine Driver</strong> and a number of DCC Command Stations. <br />References in this website to a ‘WiThrottle Server’, refer to a server that can communicate using the ‘WiThrottle protocol’.</p>
 </dd>
 </dl>
+</section>
 </section>
 
 

@@ -31,7 +31,7 @@ Connection Screen
 .. image:: ../_static/images/screenshots/connect.png
    :align: right
 
-This screen is the first screen you normally see when starting Engine Driver. 
+This screen is the first screen you normally see when starting **Engine Driver**. 
 
 It allows you choose which WiThrottle Server to connect, which you must do to control your trains.
 
@@ -52,11 +52,13 @@ Throttle Screen
    :scale: 8 %
    :align: right
 
+TODO
+
 This screen allows you to control:
 
 * The speed and direction of your trains
-* Initiate special locomotive decoder functions like the light, bell, horn 
-* Accessing the Action Bar buttons and Menu features. 
+* Initiate DCC decoder functions like the light, bell, horn 
+* Accesses the Action Bar buttons and Menu features
   |br|\ These include:
 
   * All Stop
@@ -72,7 +74,9 @@ This screen allows you to control:
 Throttle Area
 """"""""""""""""""""""""""""""""""""
 
-The Throttle may configured to be simple buttons that allow you to increase or decrease the locomotive's speed in pre-defined steps.  Alternatively, the Throttle may be configured as a slider.  A slider can be configured as one-directional (0-100) or bi-directional (-100 - 0 - +100).  Bi-directional sliders are useful for when you are switching/shunting. i.e. moving backwards and forwards a lot.
+TODO
+
+The Throttle may configured have simple buttons that allow you to increase or decrease the locomotive's speed in pre-defined steps.  Alternatively, the Throttle may be configured as a slider.  A slider can be configured as one-directional (0-100) or bi-directional (-100 - 0 - +100).  Bi-directional sliders are useful for when you are switching/shunting. i.e. moving backwards and forwards a lot.
 
 Direction Buttons Area
 """"""""""""""""""""""""""""""""""""
@@ -196,7 +200,7 @@ Preferences Screen
 
 Accessed from the menu on the any of the main screens as ``Preferences``.
 
-This screen allows you to configure Engine Driver for how you want it to operate for you.
+This screen allows you to configure **Engine Driver** for how you want it to operate for you.
 
 See `Preferences <../configuration/preferences.html>`_ for details on the preferences that can be set.
 
@@ -231,7 +235,7 @@ Accessed from the menu on the any of the main screens as ``View Log``.
 This screen allows you to view the internal Engine Driver log of events.
 This is sometimes useful for analysing problems.
 
-The option to ``Start recording to file`` creates a user-accessible file that can be sent to the Engine Driver app developers or the Groupio help group to assist you in resolving a problem.
+The option to ``Start recording to file`` creates a user-accessible file that can be sent to the **Engine Driver** app developers or the Groupio help group to assist you in resolving a problem.
 The file will be located on your mobile phone at:
 Internal storage .../engine_driver
 and will be named something like:
@@ -242,9 +246,9 @@ About Screen
 
 This screen displays 
 
-* Information about Engine Driver, 
-* Information about the WiThrottle Server it is currently connected to (if any), and 
-* A page of basic information about Engine Driver
+* Information about **Engine Driver** 
+* Information about the WiThrottle Server it is currently connected to (if any)
+* A page of basic information about **Engine Driver**
 
 TODO 
 
@@ -258,10 +262,11 @@ The Action Bar appears at the top of all screen. It will show different informat
 
 The Action Bar can display:
 
-* The app name (“Engine Driver”)
+* The app name (**Engine Driver**)
 * Optionally configured information:
 
   * Fast Clock
+  * Children's Timer
 
 * Optionally configured buttons:
 

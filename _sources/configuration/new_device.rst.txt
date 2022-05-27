@@ -10,7 +10,7 @@ Moving to a new phone/device
 
 **On the old Android device/phone**
 
-* Start Engine Driver
+* Start **Engine Driver**
 * Use ``Export`` function in Engine Driver preferences
 
 **On a PC**
@@ -20,7 +20,7 @@ Moving to a new phone/device
 
 **On the new Android device/phone**
 
-* Install Engine Driver 
+* Install **Engine Driver** 
 * Run it once. Then Exit.  (This will create the Engine Driver folder)
 
 **On a PC**
@@ -31,4 +31,4 @@ Moving to a new phone/device
 
 **Re-start Engine Driver on the New Android device/phone**
 
-* Use the ``Import`` function in Engine Driver preferences
+* Use the ``Import`` function in **Engine Driver** preferences

@@ -31,9 +31,9 @@ Quick Start / Getting Started
   
   * Make sure you are connected to same network as the WiThrottle server's network.
 
-  * Start Engine Driver 
+  * Start **Engine Driver** 
 
-    * The first time you run Engine Driver you will need to go through the Setup Wizard to agree to the permissions and select a few key preferences  
+    * The first time you run **Engine Driver** you will need to go through the Setup Wizard to agree to the permissions and select a few key preferences  
    
       See the `Setup Wizard <../configuration/setup_wizard.html>`_ page for more information.
 
@@ -79,7 +79,7 @@ Connecting
 
 Connecting has two aspects:
 
-* Connecting to the correct WiFi network, which uses Android's build in capabilities (not Engine Driver's)
+* Connecting to the correct WiFi network, which uses Android's build in capabilities (not **Engine Driver's**)
 * Connecting to the WiThrottle server
 
 Connecting to the WiFi network
@@ -101,7 +101,7 @@ Connecting to the WiFi network
 * Use Android's Network - Wifi settings to connect to the same network as your WiThrottle server
 * With some exceptions, your device's IP Address should be similar to the server's IP address (the first three blocks of numbers will be identical)
 
-  * For your Android device / phone, you can see its address in the Engine Driver menu option ``About``, at the top of the screen
+  * For your Android device / phone, you can see its address in the **Engine Driver** menu option ``About``, at the top of the screen
   * For a JMRI server, see the WiThrottle window for its address 
   * For other devices, see the instructions for that device
 
@@ -202,7 +202,7 @@ There three ways select a loco:
 
   **Recent Locos**
 
-  Engine Driver remembers the last 10 locos that you have selected. (That number can be increased or decreased with ``Maximum Recent Locos`` preference.)
+  **Engine Driver** remembers the last 10 locos that you have selected. (That number can be increased or decreased with ``Maximum Recent Locos`` preference.)
 
   If the loco you want to control to is in the list, simply click on it and you will be taken back to the Throttle screen with that loco selected.
 
@@ -377,12 +377,12 @@ TBA
 Exiting Engine Driver
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-To exit Engine Driver, you can:
+To exit **Engine Driver**, you can:
 
 * Press the Android :guilabel:`Back` button once from the main screens (more than once if you are on one of the secondary screens) |br|\ OR
 * Menu > Exit
 
-Exiting Engine Driver:
+Exiting **Engine Driver**:
 
 * Disconnects from the WiThrottle server.
 * Stops playing all In Phone Loco Sounds (if any were configured).
