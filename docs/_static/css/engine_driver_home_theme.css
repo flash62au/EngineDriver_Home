@@ -65,3 +65,10 @@ dl.footnote>dd p {
 .note-ed {
   background:#fcc75640 !important;  
 }
+
+/*
+.rst-content .sidebar p {
+  font-size: 80% !important;
+  line-height: 16px !important;
+}
+*/

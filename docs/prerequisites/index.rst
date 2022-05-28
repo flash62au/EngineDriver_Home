@@ -25,7 +25,7 @@ ESU MobileControl II
 **Engine Driver** fully supports the `ESU MobileControl II (MC2) <http://www.esu.eu/en/products/digital-control/mobile-control-ii/>`_ Android throttle.
 
 .. note:: 
-  :class: note-ed
+  :class: note-ed-hidden-title
   
   See the `ESU MobileControl II <../configuration/esu_mcii.html>`_ page for more information.
 
