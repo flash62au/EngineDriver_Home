@@ -25,6 +25,8 @@ There are four main screens:
 * Turnouts/Points Screen
 * Routes Screen
 
+----
+
 Connection Screen
 ^^^^^^^^^^^^^^^^^
 
@@ -44,6 +46,8 @@ TODO
 Once you select a server the 'Throttle Screen' will be automatically displayed.
 
 If you only ever connect to one WiThrottle server you can effectively bypass this screen by setting the ``Auto-Connect to WiThrottle Server?`` preference.
+
+----
 
 Throttle Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -108,6 +112,8 @@ This screen allows you to display all Turnouts/Points that have been defined in 
 
 Turnouts/Points can be changed from Closed to Thrown and vice versa be pressing on either the “Closed” or “Thrown” buttons
 
+----
+
 Routes Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -116,6 +122,8 @@ TODO
 Accessed from the menu on the any of the main screens as ``Routes`` or by swiping left from the Throttle Screen if enabled in the Left with the ``Swipe through Routes?`` preference.
 
 This screen allows you to display all Routes that have been defined in JMRI or DCC++EX.
+
+----
 
 Web Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -161,21 +169,29 @@ Secondary / Support Screens
 
 TODO
 
+----
+
 Intro/Setup Wizard Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 TODO
 
 
+----
+
 Loco Select Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 TODO
 
+----
+
 Consist Edit Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 TODO
+
+----
 
 Consist Lights Edit Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -183,17 +199,21 @@ Consist Lights Edit Screen
 TODO
 
 
+----
+
 Power Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Accessed from the menu on the Throttle Screen as ``Power`` or from the Status Bar if enabled with the ``Layout Power button?`` preference.
+Accessed from the Menu on the Throttle Screen as ``Power`` or from the Action Bar if enabled with the ``Layout Power button?`` preference.
 
 This screen allows you to toggle the state of track power to your layout.
 
-* When the button is displayed in green, it indicates that track power is “On”.
-* When the button is displayed in red, it indicates that track power is “Off”.
-* Pressing a green button will cause the button to be changed to red and the track power will be turned “Off”.
-* Pressing a red button will cause the button to be changed to green and the track power will be turned “On”.
+* When the button is **Green**, it indicates that track power is 'On'.
+* When the button is **Red**, it indicates that track power is 'Off'.
+* Pressing a **Green** button will cause the button to be changed to **Red** and the track power will be turned 'Off'.
+* Pressing a **Red** button will cause the button to be changed to **Green** and the track power will be turned 'On'.
+
+----
 
 Preferences Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -202,7 +222,12 @@ Accessed from the menu on the any of the main screens as ``Preferences``.
 
 This screen allows you to configure **Engine Driver** for how you want it to operate for you.
 
-See `Preferences <../configuration/preferences.html>`_ for details on the preferences that can be set.
+.. note:: 
+   :class: note-ed
+
+   See the `Preferences <../configuration/preferences.html>`_ page for details on the preferences that can be set.
+
+----
 
 In Phone Loco Sounds Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -211,6 +236,8 @@ TODO
 
 Accessed from the menu on the Throttle Screen as ``Loco Sounds`` or from the Status Bar if enabled with the ``In phone sounds button`` preference.
 
+----
+
 Function Defaults Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -218,12 +245,16 @@ TODO
 
 Accessed from the menu on the Throttle Screen as ``Function Defaults``.
 
+----
+
 Gamepad Test Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 TODO
 
 Accessed from the menu on the Throttle Screen as ``Gamepads`` -> ``Gamepad Test X``. (where 'X' is the number of the gamepad.)
+
+----
 
 View Log Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -241,6 +272,8 @@ Internal storage .../engine_driver
 and will be named something like:
 logcat9999999999999.txt
 
+----
+
 About Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -254,6 +287,10 @@ TODO
 
 Common Elements
 ---------------
+
+TODO
+
+----
 
 Action Bar
 ^^^^^^^^^^
@@ -282,6 +319,8 @@ The Action Bar can display:
 
 The optionally configured items are configured via the corresponding preferences in the ``Throttle Screen Action Bar Preferences`` preference group.
 
+
+----
 
 Overflow Menu
 ^^^^^^^^^^^^^

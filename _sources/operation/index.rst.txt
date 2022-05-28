@@ -108,7 +108,7 @@ Connecting to the WiFi network
 .. note:: 
   :class: note-ed-hidden-title
   
-  Also see `WiFi issues <./wifi_issues.html>`_ if you are having difficulties.
+  Also see the `WiFi issues <./wifi_issues.html>`_ page if you are having difficulties.
 
 Connecting the WiThrottle server
 """"""""""""""""""""""""""""""""""
@@ -320,7 +320,10 @@ Gamepads
 
 TBA
 
-See `gamepads <./gamepads.html>`_ for more information.
+.. note:: 
+  :class: note-ed-hidden-title
+
+  See `gamepads <./gamepads.html>`_ for more information.
 
 Action Bar and Menu
 ^^^^^^^^^^^^^^^^^^^
