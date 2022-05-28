@@ -3,12 +3,9 @@ Gamepads
 *******************************************
 
 .. meta::
-   :description: JMRI Engine Driver Throttle
-   :keywords: Engine Driver EngineDriver JMRI manual help gamepad
+   :keywords: gamepad
 
-.. |br| raw:: html
-
-   <br />
+.. include:: ../include.rst
 
 ----
 

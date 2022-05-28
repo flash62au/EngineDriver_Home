@@ -3,15 +3,16 @@ Moving to a new phone/device
 *******************************************
 
 .. meta::
-   :description: JMRI Engine Driver Throttle
-   :keywords: Engine Driver EngineDriver JMRI manual help
+   :keywords: new phone
+
+.. include:: ../include.rst
 
 ----
 
 **On the old Android device/phone**
 
 * Start **Engine Driver**
-* Use ``Export`` function in Engine Driver preferences
+* Use ``Export`` function in the preferences: :menuselection:`Menu --> Preferences --> Import/Export/Reset & Log Preferences --> Import/Export --> Import, Export or Reset`
 
 **On a PC**
 
@@ -31,4 +32,4 @@ Moving to a new phone/device
 
 **Re-start Engine Driver on the New Android device/phone**
 
-* Use the ``Import`` function in **Engine Driver** preferences
+* Use the ``Import`` function in the preferences: :menuselection:`Menu --> Preferences --> Import/Export/Reset & Log Preferences --> Import/Export --> Import, Export or Reset`

@@ -3,8 +3,9 @@ Setup Wizard
 *******************************************
 
 .. meta::
-   :description: JMRI Engine Driver Throttle
-   :keywords: Engine Driver EngineDriver JMRI manual help setup wizard
+   :keywords: setup wizard
+
+.. include:: ../include.rst
 
 .. sidebar::
 
@@ -13,7 +14,7 @@ Setup Wizard
 
 ----
 
-The setup wizard will start automatically the first time you run Engine Driver after you install it.  It set some basic preferences and asks for the necessary permissions.  These preferences can be subsequently be changed use the ``preferences`` menu option, or by re-running the wizard, which can only be done from the menu on the connection screen.
+The setup wizard will start automatically the first time you run Engine Driver after you install it.  It set some basic preferences and asks for the necessary permissions.  These preferences can be subsequently be changed use the : :menuselection:`Menu --> Preferences`, or by re-running the wizard, which can only be done from the menu on the connection screen.
 
 Initial Screen
 --------------

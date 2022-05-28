@@ -2,6 +2,8 @@
 Screenshots
 *******************************************
 
+.. include:: ../include.rst
+
 .. image:: ../_static/images/screenshots/Big-Buttons-Right.png
 .. image:: ../_static/images/screenshots/Conductor_in_Throttle_Web_View.png
 .. image:: ../_static/images/screenshots/connect.png

@@ -3,12 +3,9 @@ Contributing
 *******************************************
 
 .. meta::
-   :description: JMRI Engine Driver Throttle
-   :keywords: Engine Driver EngineDriver JMRI manual help contributing
+   :keywords: contributing developing
 
-.. |br| raw:: html
-
-   <br />
+.. include:: ../include.rst
 
 .. sidebar::
 
@@ -27,7 +24,7 @@ On the Android device you intend to test on
 
 Here are all the steps needed for Microsoft Windows:
 
-* On GitHub
+* On GitHub 
   
   * Clone the JMRI/EngineDriver repository. `(See Cloning a repository in GitHub) <https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository>`_ 
   * Create a Personal Access Token that will allow you remotely update your repository.  See \[`here <https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token>`_\] for details.   Copy the full code of the token somewhere as you will need it later.
@@ -110,10 +107,10 @@ The steps listed here provide guidance on how to edit and preview changes to the
 Style Guidelines
 ^^^^^^^^^^^^^^^^
 
-* Use British/Australian spelling e.g. 'colour' not 'color'.  (Primarily because it is used in more English speaking countries)
-*	Use railway terminology that is understandable by all English-speaking people. |br|\ Where there are clear differences from US to non-US terminology use both with a slash between. e.g. turnouts/points, consists/multiple units, switching/shunting.  (Primarily because JMRI uses the US terminology)
+* Use British/Australian/Canadian spelling e.g. 'colour' not 'color'.  |br|\ (Primarily because it is used in more English speaking countries)
+*	Use railway terminology that is understandable by all English-speaking people. |br|\ Where there are clear differences from US to non-US terminology use both with a slash between and use the US version first. e.g. turnouts/points, consists/multiple units, switching/shunting.  (Primarily because JMRI uses the US terminology)
 * In general use 'loco' instead of 'locomotive' or 'engine'
-* Use '**Engine Driver**' not 'Engine Driver app', 'EngineDriver' or 'Engine Driver Throttle' (except on the first page)
+* Use bolded \*\*Engine Driver\*\* not 'Engine Driver app', 'EngineDriver' or 'Engine Driver Throttle' (except on the first page) - **Engine Driver**
 *	No full stop at the end of a numbered or unnumbered list
 *	Numbered lists should be avoided, unless there is a specific need
 * Use first person (you and your; not I, me, my or am) language
@@ -122,7 +119,8 @@ Style Guidelines
 *	No quotes around 'Also See' type references
 *	Avoid '(above)' or '(below)' in text.  Use hypertext links instead
 *	'TODO' or 'TBA' in the text means that it is still a work-in-process and needs to be updated.  It may be followed by descriptive text in italics describing the issue to be fixed
-* Use \`\`\literal text blocks\`\` when describing buttons, menu items, preferences  - ``literal text blocks``
+* Use \`\`\literal text blocks\`\` when describing buttons, preferences  - ``literal text blocks``
+* Use \:menuselection\:\`Menu --> Preferences --> ..\` for menu descriptions - :menuselection:`Menu --> Preferences --> ..` 
 * Use \:guilabel\:\`\GUI labels\` for buttons  - :guilabel:`GUI labels`
 * Avoid using 'phone' alone. Preferably use 'Android device/phone'
 * For dates, use dd-mmm-yyyy or yyyy-mm-dd to avoid confusion with the way dates are uniquely written in the US. |br|\ e.g. 2-Mar-2022 or 2022-3-2, not 2-3-2022 

@@ -3,12 +3,9 @@ User Interface
 *******************************************
 
 .. meta::
-   :description: JMRI Engine Driver Throttle
-   :keywords: Engine Driver EngineDriver JMRI manual help interface
+   :keywords: user interface ui
 
-.. |br| raw:: html
-
-   <br />
+.. include:: ../include.rst
 
 .. sidebar::
 
@@ -106,7 +103,7 @@ Turnouts/Points Screen
 
 TODO
 
-Accessed from the menu on the any of the main screens as ``Turnouts`` or ``Points`` or by swiping right from the Throttle Screen if enabled in the Left with the ``Swipe through Turnouts?`` or ``Swipe through Points?`` preference.
+Accessed from any of the main screens by the :menuselection:`Menu --> Turnouts`` or :menuselection:`Menu --> Points` or by swiping right from the Throttle Screen if enabled in the Left with the ``Swipe through Turnouts?`` or ``Swipe through Points?`` preference: :menuselection:`Menu --> Preferences --> Left/Right Swipe Preferences --> Swipe through Turnouts/Points`
 
 This screen allows you to display all Turnouts/Points that have been defined in JMRI.
 
@@ -119,7 +116,7 @@ Routes Screen
 
 TODO
 
-Accessed from the menu on the any of the main screens as ``Routes`` or by swiping left from the Throttle Screen if enabled in the Left with the ``Swipe through Routes?`` preference.
+Accessed from any of the main screens by the menu :menuselection:`Menu --> Routes` or by swiping left from the Throttle Screen if enabled in the Left with the ``Swipe through Routes?`` preference: :menuselection:`Menu --> Preferences --> Left/Right Swipe Preferences --> Swipe through Routes`
 
 This screen allows you to display all Routes that have been defined in JMRI or DCC++EX.
 
@@ -130,7 +127,7 @@ Web Screen
 
 TODO
 
-Accessed from the menu on the any of the main screens as ``Turnouts`` or ``Points`` or by swiping left or right twice from the Throttle Screen if enabled in the Left with the ``Swipe through Web?`` preference.
+Accessed from any of the main screens by the menu :menuselection:`Menu --> Web` or by swiping left or right twice from the Throttle Screen if enabled in the Left with the ``Swipe through Web?`` preference: :menuselection:`Menu --> Preferences --> Left/Right Swipe Preferences --> Swipe through Web`
 It can also be accessed, if the ``Screen orientation`` preference is set to ``Auto Web``, by rotating the Android Device/Phone.
 
 This screen displays a web browser interface that lets you view any web page. Normally this will be a web page on your JMRI server. 
@@ -204,7 +201,7 @@ TODO
 Power Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Accessed from the Menu on the Throttle Screen as ``Power`` or from the Action Bar if enabled with the ``Layout Power button?`` preference.
+Accessed from any of the main screen by the : :menuselection:`Menu --> Preferences --> Left/Right Swipe Preferences --> Power` or from the Action Bar if enabled with the ``Layout Power button?`` preference: :menuselection:`Menu --> Preferences --> Throttle Screen Action Bar Preferences --> Layout Power button?`
 
 This screen allows you to toggle the state of track power to your layout.
 
@@ -218,7 +215,7 @@ This screen allows you to toggle the state of track power to your layout.
 Preferences Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Accessed from the menu on the any of the main screens as ``Preferences``.
+Accessed from any of the main screens as ``Preferences``: :menuselection:`Menu --> Preferences`
 
 This screen allows you to configure **Engine Driver** for how you want it to operate for you.
 
@@ -234,7 +231,7 @@ In Phone Loco Sounds Screen
 
 TODO
 
-Accessed from the menu on the Throttle Screen as ``Loco Sounds`` or from the Status Bar if enabled with the ``In phone sounds button`` preference.
+Accessed from Throttle Screen by the :menuselection:`Menu --> Loco Sounds` or from the Status Bar if enabled with the ``In phone sounds button`` preference.
 
 ----
 

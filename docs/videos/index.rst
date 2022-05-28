@@ -2,6 +2,8 @@
 Videos
 *******************************************
 
+.. include:: ../include.rst
+
 Note: some of the videos below were done on older versions of **Engine Driver**. Some of the functions, screen layouts or the names of the preferences may have changed slightly.
 
 * Connecting to a server

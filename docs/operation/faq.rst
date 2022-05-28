@@ -3,12 +3,9 @@ Frequently Asked Questions
 *******************************************
 
 .. meta::
-   :description: JMRI Engine Driver Throttle
-   :keywords: Engine Driver EngineDriver JMRI manual help FAQ frequently asked questions
+   :keywords: FAQ frequently asked questions
 
-.. |br| raw:: html
-
-   <br />
+.. include:: ../include.rst
 
 .. sidebar::
 
