@@ -48,10 +48,9 @@ On the WiThrottle server side (JMRI)
 
 Note for MRC users: David Fuller has provided some `additional setup information [here] <https://enginedriver.mstevetodd.com/sites/enginedriver.mstevetodd.com/files/EngineDriver_App-MRC_Wi-Fi_Module_Settings.pdf>`_.
 
-Additional Details
-------------------
 
 .. toctree::
+    :hidden:
     :maxdepth: 1
 
     setup_wizard

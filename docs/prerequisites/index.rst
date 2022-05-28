@@ -14,6 +14,12 @@ Prerequisites
 
   .. contents:: On This Page
 
+**Engine Driver** can only be installed on an Android Device/Phone.
+
+ALSO
+
+A *WiThrottle Server* must be available on a device connected to your model train layout which is available for **Engine Driver** to connect to.
+
 Android Device/Phone
 --------------------
 

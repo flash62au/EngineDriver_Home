@@ -69,7 +69,7 @@ Quick Start / Getting Started
 
 Note:
 
-* To create a consist "on-the-fly", simply select additional locos for the same throttle, then select which way the new loco if facing. Direction and speed will be sent for all. Release will release all for that throttle
+* To create a consist 'on-the-fly', simply select additional locos for the same throttle, then select which way the new loco if facing. Direction and speed will be sent for all. Release will release all for that throttle
 
 Detailed Instructions 
 ---------------------
@@ -155,7 +155,7 @@ Connecting the WiThrottle server
 
   A server being in this list *does not* necessarily mean that you will be able to connect it *now*. It just means that you have successfully connected to it in the past.
 
-  There is also a "demo" server at **jmri.mstevetodd.com**, port **44444** in this list that you can connect to for testing. (If your device/phone has an internet connection.)
+  There is also a 'demo' server at **jmri.mstevetodd.com**, port **44444** in this list that you can connect to for testing. (If your device/phone has an internet connection.)
 
   **IP Address and Port**
 
@@ -167,10 +167,12 @@ Connecting the WiThrottle server
     * For other devices, see the instructions for that device
 
 
-Notes:
+  If you only ever connect to one WiThrottle server you can effectively bypass this screen by setting the ``Auto-Connect to WiThrottle Server?`` preference.
 
-* If you only ever connect to one WiThrottle server you can effectively bypass this screen by setting the ``Auto-Connect to WiThrottle Server?`` preference.
-* Also see `Connection issues <./wifi_issues.html>`_ if you are having difficulties.
+.. note:: 
+  :class: note-ed-hidden-title
+  
+  Also see `Connection issues <./wifi_issues.html>`_ if you are having difficulties.
 
 
 ----
@@ -256,8 +258,12 @@ From here you can:
 - Control the speed and direction of you loco or consist / multiple unit
 - Activate the DCC functions for you loco or consist / multiple unit
 - Activate the Virtual Sounds 
-- Add or release locos.  See `Selecting / Releasing Locos and Consists/Multiple Units <#selecting-releasing-locos-and-consists-multiple-units>`_.
+- Add or release locos.  
+  
+  .. note:: 
+    :class: note-ed-hidden-title
 
+    See `Selecting / Releasing Locos and Consists/Multiple Units <#selecting-releasing-locos-and-consists-multiple-units>`_
 
 Controlling Speed
 """"""""""""""""""""""""""""""""""
@@ -392,9 +398,6 @@ Exiting **Engine Driver**:
 
 * Disconnects from the WiThrottle server.
 * Stops playing all In Phone Loco Sounds (if any were configured).
-
-
-----
 
 .. toctree::
     :hidden:
