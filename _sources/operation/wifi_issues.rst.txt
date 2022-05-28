@@ -32,7 +32,10 @@ Your PC's firewall software can prevent **Engine Driver** from connecting. You m
 Using Mobile Data instead of WiFi
 ---------------------------------
 
-*UPDATE: as of EngineDriver 2.26.115, EngineDriver now handles this situation by "forcing" the local WiFi connection.  There is an* ``Allow Mobile Data Connection`` *preference that can be enabled if needed.*
+.. note:: 
+  :class: note-ed
+  
+  *UPDATE: as of EngineDriver 2.26.115, EngineDriver now handles this situation by "forcing" the local WiFi connection.  There is an* ``Allow Mobile Data Connection`` *preference that can be enabled if needed.*
 
 Recent versions of Android have a very confusing *feature*, sometimes called 'Smart Network Switching', that will ignore a connected WiFi network if that network cannot reach the Internet. 
 The network shows as connected, and EngineDriver server discovery works, but clicking on the discovered server or Connect button does not work.

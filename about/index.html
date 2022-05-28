@@ -112,17 +112,26 @@
   <section id="about">
 <h1>About<a class="headerlink" href="#about" title="Permalink to this headline"></a></h1>
 <hr class="docutils" />
-<a class="reference internal image-reference" href="../_images/throttle_horizontal_switching_colorful.png"><img alt="../_images/throttle_horizontal_switching_colorful.png" class="align-right" src="../_images/throttle_horizontal_switching_colorful.png" style="width: 172.79999999999998px; height: 307.2px;" /></a>
+<a class="reference internal image-reference" href="../_images/throttle_horizontal_switching_colorful.png"><img alt="../_images/throttle_horizontal_switching_colorful.png" class="align-right" src="../_images/throttle_horizontal_switching_colorful.png" style="width: 115.2px; height: 204.8px;" /></a>
 <p><strong>Engine Driver Throttle</strong> (normally just referred to as <strong>Engine Driver</strong> or just <strong>ED</strong>) is a free Android application that connects to a <a class="reference external" href="https://jmri.org/help/en/package/jmri/jmrit/withrottle/UserInterface.shtml">WiThrottle™ Server</a> <a class="footnote-reference brackets" href="#wit" id="id1">1</a> to control model trains.</p>
-<p>Supported servers include <a class="reference external" href="https://jmri.org/">JMRI</a>, <a class="reference external" href="https://dcc-ex.com/">DCC-EX</a>, <a class="reference external" href="https://www.modelrectifier.com/category-s/332.htm">MRC Prodigy WiFi</a>, <a class="reference external" href="https://www.digitrax.com/products/wireless/lnwi/">Digitrax LnWi</a>, and <a class="reference external" href="http://wifitrax.com/products/product-WFD-30-detail.html">WifiTrax (for NCE)</a>.
-Once connected, you can control your locomotives and your entire model railroad/railway. Speed, direction, and up to 29 DCC functions are supported for one to six locomotives or consists. You can create and edit consists/multiple units (software-defined). You can also control layout power, turnouts/points, routes, and access JMRI web panels and windows.</p>
+<p>Supported servers include <a class="reference external" href="https://jmri.org/">JMRI</a>, <a class="reference external" href="https://dcc-ex.com/">DCC-EX</a>, <a class="reference external" href="https://www.modelrectifier.com/category-s/332.htm">MRC Prodigy WiFi</a>, <a class="reference external" href="https://www.digitrax.com/products/wireless/lnwi/">Digitrax LnWi</a>, and <a class="reference external" href="http://wifitrax.com/products/product-WFD-30-detail.html">WifiTrax (for NCE)</a>.</p>
+<p><strong>Engine Driver</strong> can control:</p>
+<ul class="simple">
+<li><p>The speed direction and up to 29 DCC functions of you DCC enabled your locos</p></li>
+<li><p>Virtual loco sounds</p></li>
+<li><p>From one to six locos or consists / multiple units can be controlled at the same time</p></li>
+<li><p>You can easily create and edit on-the-fly consists / multiple units (software-defined).</p></li>
+<li><p>You can control layout power, turnouts/points, routes, and access JMRI web panels and windows.</p></li>
+<li><p>You can customise <strong>Engine Driver</strong> extensively to meet your needs</p></li>
+</ul>
 <p>Generally the WiThrottle servers that <strong>Engine Driver</strong> connects to are either DCC Command Stations, or are designed to talk to DCC Command Stations (e.g. JMRI) to subsequently talk to DCC Decoder equipped locos on a layout.  However DCC++EX is currently experimenting with the possibility of controlling DC locos or even Slot cars instead.</p>
-<p><strong>Engine Driver</strong> is open source software. The source code is available on <a class="reference external" href="https://github.com/JMRI/EngineDriver">github.com/JMRI/EngineDriver</a>.
-This documentation is also open source and can be accessed on <a class="reference external" href="https://github.com/flash62au/EngineDriver_Home">github.com/flash62au/EngineDriver_Home</a></p>
-<p>Contribution to both the code and documentation is welcome.  See [<a class="reference external" href="../contributing/index.html">Contributing</a>] for details.</p>
-<p><strong>Engine Driver</strong> currently has minSDKVersion of 16, which equates to Android OS 4.1 (JELLYBEAN).
+<div class="note-ed-hidden-title admonition note">
+<p class="admonition-title">Note</p>
+<p>See the <a class="reference external" href="../operation/index.html">Operation</a> page for details on how to use <strong>Engine Driver</strong>.</p>
+</div>
+<p><strong>Engine Driver</strong> is open source software. The source code is available on <a class="reference external" href="https://github.com/JMRI/EngineDriver">github.com/JMRI/EngineDriver</a>. This documentation is also open source and can be accessed on <a class="reference external" href="https://github.com/flash62au/EngineDriver_Home">github.com/flash62au/EngineDriver_Home</a>. Contribution to both the code and documentation is welcome.  See [<a class="reference external" href="../contributing/index.html">Contributing</a>] for details.</p>
+<p><strong>Engine Driver</strong> currently has minSDKVersion of 16, which equates to minimum Android OS version of 4.1 (JELLYBEAN).
 Info on minSDKVersion available in the <a class="reference external" href="https://developer.android.com/guide/topics/manifest/uses-sdk-element#ApiLevels">Engine Driver manifest</a>.</p>
-<p>See <a class="reference external" href="../operation/index.html">Operation</a> for details on how to use <strong>Engine Driver</strong>.</p>
 <section id="what-s-a-withrottle-server">
 <h2>What’s a ‘WiThrottle Server’?<a class="headerlink" href="#what-s-a-withrottle-server" title="Permalink to this headline"></a></h2>
 <p>WiThrottle stands for ‘WiFi Throttle’, and a “WiThrottle Server’ is just software running on your JMRI computer, DCC-EX Command Station, or dedicated device. It’s called a ‘Server’ because it allows you to connect to it and it ‘serves’, or services, requests from another application. That application is called a ‘Client’. So <strong>Engine Driver</strong> in this case is the client.</p>
