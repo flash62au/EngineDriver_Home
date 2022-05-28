@@ -19,14 +19,14 @@ Engine Driver
    :align: right
 
 Supported servers include `JMRI <https://jmri.org/>`_, `DCC-EX <https://dcc-ex.com/>`_, `MRC Prodigy WiFi <https://www.modelrectifier.com/category-s/332.htm>`_, `Digitrax LnWi <https://www.digitrax.com/products/wireless/lnwi/>`_, and `WifiTrax (for NCE) <http://wifitrax.com/products/product-WFD-30-detail.html>`_. 
-Once connected, you can control your locomotives (locos) and your entire model railroad. 
-Speed, direction, and up to 29 DCC functions are supported for one to six locomotives or consists / multiple units. 
-You can create and edit consists / multiple units (software-defined). 
+Once connected, you can control the speed direction and up to 29 DCC functions of your DCC enabled locomotives (locos). From one to six locos or consists / multiple units can e controlled at the same time.  
+You can easily create and edit on-the-fly consists / multiple units (software-defined). 
 You can also control layout power, turnouts/points, routes, and access JMRI web panels and windows.
 
-See `About <./about/index.html>`_ for more information.
-
-See `Operation <./operation/index.html>`_ for details on how to use **Engine Driver**.
+.. note:: 
+  :class: note-ed-hidden-title
+  
+  See the `About <./about/index.html>`_ page for more information. |br|\ See the `Operation <./operation/index.html>`_ page for details on how to use **Engine Driver**.
 
 
 .. image:: ./_static/images/screenshots/throttle_buttons.png
@@ -36,9 +36,9 @@ See `Operation <./operation/index.html>`_ for details on how to use **Engine Dri
 Why Use Engine Driver
 ---------------------
 
-You can use **Engine Driver** to operate your DCC model railway without being physically tethered by any wires. This allows you to walk around your layout, following your trains and/or position yourself anywhere around your layout (e.g. at your favourite viewing position).
+You can use **Engine Driver** to operate your DCC model train layout without being physically tethered by any wires. This allows you to walk around your layout, following your trains and/or position yourself anywhere around your layout (e.g. at your favourite viewing position).
 
-Adding a **Engine Driver** controller is inexpensive. Instead of an expensive DCC controller, most old Android phones or tablet will work.  You don't need to have a sim card in the phone.
+You can add additional **Engine Driver** controllers inexpensively using old Android phones or tablets, instead of proprietary controllers.  (You don't need to have a sim card in the phone.)
 
 You only need to interact with JMRI and/or your DCC command station directly when setting up or re-configuring your layout. Once configured, you do not need to interact with either JMRI or your DCC command station directly while you are running your trains. 
 

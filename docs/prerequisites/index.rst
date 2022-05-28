@@ -6,6 +6,10 @@ Prerequisites
    :description: JMRI Engine Driver Throttle
    :keywords: Engine Driver EngineDriver JMRI manual help prerequisites
 
+.. |br| raw:: html
+
+   <br />
+
 .. sidebar::
 
   .. contents:: On This Page
@@ -13,14 +17,17 @@ Prerequisites
 Android Device/Phone
 --------------------
 
-**Engine Driver** will generally work on most Android devices made in the last 5 years. Currently it has minSDKVersion set to 16, which equates to Android OS 4.1 (JELLYBEAN). Info on minSDKVersion available in the `Enging Driver manifest <https://developer.android.com/guide/topics/manifest/uses-sdk-element#ApiLevels>`_.
+**Engine Driver** will work on most Android devices made in the last 5 years. Currently it has a minSDKVersion 16, which equates to minimum Android OS version of 4.1 (JELLYBEAN). Info on minSDKVersion available in the `Engine Driver manifest <https://developer.android.com/guide/topics/manifest/uses-sdk-element#ApiLevels>`_.
 
 ESU MobileControl II
 """"""""""""""""""""
 
-**Engine Driver** fully supports the `ESU MCII <http://www.esu.eu/en/products/digital-control/mobile-control-ii/>`_ Android throttle.
+**Engine Driver** fully supports the `ESU MobileControl II (MC2) <http://www.esu.eu/en/products/digital-control/mobile-control-ii/>`_ Android throttle.
 
-See `ESU MobileControl II <../configuration/esu_mcii.html>`_ for more information.
+.. note:: 
+  :class: note-ed
+  
+  See the `ESU MobileControl II <../configuration/esu_mcii.html>`_ page for more information.
 
 WiThrottle Servers
 ------------------

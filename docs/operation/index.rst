@@ -105,7 +105,10 @@ Connecting to the WiFi network
   * For a JMRI server, see the WiThrottle window for its address 
   * For other devices, see the instructions for that device
 
-Also see `WiFi issues <./wifi_issues.html>`_ if you are having difficulties.
+.. note:: 
+  :class: note-ed-hidden-title
+  
+  Also see `WiFi issues <./wifi_issues.html>`_ if you are having difficulties.
 
 Connecting the WiThrottle server
 """"""""""""""""""""""""""""""""""
