@@ -2,8 +2,9 @@
 <html class="writer-html5" lang="en" >
 <head>
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+<meta content="configuration preferences" name="keywords" />
 <meta content="JMRI Engine Driver Throttle" name="description" />
-<meta content="Engine Driver EngineDriver JMRI manual help configuration preferences" name="keywords" />
+<meta content="Engine Driver EngineDriver JMRI manual help" name="keywords" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Configuration &mdash; Engine Driver Throttle Home  documentation</title>
@@ -117,15 +118,23 @@
 <ul class="simple">
 <li><p><a class="reference internal" href="#configuration" id="id1">Configuration</a></p>
 <ul>
-<li><p><a class="reference internal" href="#engine-driver" id="id2">Engine Driver</a></p></li>
-<li><p><a class="reference internal" href="#on-the-withrottle-server-side-jmri" id="id3">On the WiThrottle server side (JMRI)</a></p></li>
+<li><p><a class="reference internal" href="#configuring-engine-driver" id="id2">Configuring Engine Driver</a></p></li>
+<li><p><a class="reference internal" href="#configuring-the-withrottle-server" id="id3">Configuring the WiThrottle server</a></p>
+<ul>
+<li><p><a class="reference internal" href="#jmri" id="id4">JMRI</a></p></li>
+<li><p><a class="reference internal" href="#dcc-ex-wifi" id="id5">DCC++EX WiFi</a></p></li>
+<li><p><a class="reference internal" href="#mrc-wifi" id="id6">MRC WiFi</a></p></li>
+<li><p><a class="reference internal" href="#digitrax-lnwi" id="id7">Digitrax LnWi</a></p></li>
+<li><p><a class="reference internal" href="#wifitrax" id="id8">WifiTrax</a></p></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
 </div>
 </aside>
-<section id="engine-driver">
-<h2><a class="toc-backref" href="#id2">Engine Driver</a><a class="headerlink" href="#engine-driver" title="Permalink to this headline"></a></h2>
+<section id="configuring-engine-driver">
+<h2><a class="toc-backref" href="#id2">Configuring Engine Driver</a><a class="headerlink" href="#configuring-engine-driver" title="Permalink to this headline"></a></h2>
 <p><strong>Engine Driver</strong> is highly configurable.</p>
 <p>Most configuration options are found in the <code class="docutils literal notranslate"><span class="pre">Preferences</span></code> which is accessed via the overflow menu which is normally three dots (⁞) or three bars (≡).</p>
 <p>Some of the many Preferences include:</p>
@@ -137,17 +146,30 @@
 <li><p>There are also settings to help maximize the use of your device’s smaller screen by hiding items not relevant to you.</p></li>
 </ul>
 <p>Look around in Preferences, there are a huge number of settings to personalize <strong>Engine Driver</strong>, including many more if you enable <code class="docutils literal notranslate"><span class="pre">Show</span> <span class="pre">Advanced</span> <span class="pre">Preferences</span></code>.</p>
-<p>See below, and/or the <a class="reference external" href="./preferences.html">full list of preferences</a> for more information.</p>
-<p>The <strong>Functions buttons</strong> are changed via the <code class="docutils literal notranslate"><span class="pre">Function</span> <span class="pre">Buttons</span></code> menu option</p>
+<div class="note-ed-hidden-title admonition note">
+<p class="admonition-title">Note</p>
+<blockquote>
+<div><p>See the <a class="reference external" href="./preferences.html">Preferences</a> page for a full list of the available preferences.</p>
+</div></blockquote>
+</div>
+<p>The <strong>Functions buttons</strong> are changed via the <code class="docutils literal notranslate"><span class="pre">Function</span> <span class="pre">Buttons</span></code> menu option: <span class="menuselection">Menu ‣ Functions Buttons</span></p>
 <p>Some of the Function button preferences include:</p>
 <ul class="simple">
 <li><p>You can set the default labels and function numbers to display.</p></li>
 <li><p>If you have entered labels for a roster entry in JMRI, these labels will be used for that entry, and can be copied from the dialog (access the menu after selecting a loco).</p></li>
 <li><p>You can remove buttons by blanking out the labels.</p></li>
 </ul>
+<div class="note-ed-hidden-title admonition note">
+<p class="admonition-title">Note</p>
+<blockquote>
+<div><p>See the <a class="reference external" href="./functions.html">Function Buttons</a> page for more information.</p>
+</div></blockquote>
+</div>
 </section>
-<section id="on-the-withrottle-server-side-jmri">
-<h2><a class="toc-backref" href="#id3">On the WiThrottle server side (JMRI)</a><a class="headerlink" href="#on-the-withrottle-server-side-jmri" title="Permalink to this headline"></a></h2>
+<section id="configuring-the-withrottle-server">
+<h2><a class="toc-backref" href="#id3">Configuring the WiThrottle server</a><a class="headerlink" href="#configuring-the-withrottle-server" title="Permalink to this headline"></a></h2>
+<section id="jmri">
+<h3><a class="toc-backref" href="#id4">JMRI</a><a class="headerlink" href="#jmri" title="Permalink to this headline"></a></h3>
 <ul class="simple">
 <li><p>Check your preferences/settings to insure you allow or disallow the control features desired.</p></li>
 <li><p>If you’ve defined your turnouts/points and routes in a panel file, make sure to specify ‘user names’ for those you’d like to see listed on your throttle.</p></li>
@@ -155,9 +177,25 @@
 <li><p>Entering roster entries, and defining routes and turnouts on the server will all make your <strong>Engine Driver</strong> throttle more powerful and easier to use (though not required).</p></li>
 <li><p><strong>Engine Driver</strong> will show additional info if the JMRI Web Server is started (such as roster details and icon images).</p></li>
 </ul>
-<p>Note for MRC users: David Fuller has provided some <a class="reference external" href="https://enginedriver.mstevetodd.com/sites/enginedriver.mstevetodd.com/files/EngineDriver_App-MRC_Wi-Fi_Module_Settings.pdf">additional setup information [here]</a>.</p>
+</section>
+<section id="dcc-ex-wifi">
+<h3><a class="toc-backref" href="#id5">DCC++EX WiFi</a><a class="headerlink" href="#dcc-ex-wifi" title="Permalink to this headline"></a></h3>
+<p>Refer to the <a class="reference external" href="https://dcc-ex.com/advanced-setup/wifi-config.html">developer’s instructions</a>.</p>
+</section>
+<section id="mrc-wifi">
+<h3><a class="toc-backref" href="#id6">MRC WiFi</a><a class="headerlink" href="#mrc-wifi" title="Permalink to this headline"></a></h3>
+<p>For MRC users: David Fuller has provided some <a class="reference external" href="https://enginedriver.mstevetodd.com/sites/enginedriver.mstevetodd.com/files/EngineDriver_App-MRC_Wi-Fi_Module_Settings.pdf">additional setup information</a>.</p>
+</section>
+<section id="digitrax-lnwi">
+<h3><a class="toc-backref" href="#id7">Digitrax LnWi</a><a class="headerlink" href="#digitrax-lnwi" title="Permalink to this headline"></a></h3>
+<p>Refer to the <a class="reference external" href="https://www.digitrax.com/tsd/product/LNWI">Digitrax LnWi manufacture’s instructions</a>.</p>
+</section>
+<section id="wifitrax">
+<h3><a class="toc-backref" href="#id8">WifiTrax</a><a class="headerlink" href="#wifitrax" title="Permalink to this headline"></a></h3>
+<p>Refer to the <a class="reference external" href="http://www.wifitrax.com/manuals/hardwareManuals.html">WifiTrax manufacture’s instructions</a>.</p>
 <div class="toctree-wrapper compound">
 </div>
+</section>
 </section>
 </section>
 

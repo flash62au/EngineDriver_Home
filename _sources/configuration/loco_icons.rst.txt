@@ -3,12 +3,9 @@ Loco Icons in the Roster
 ************************
 
 .. meta::
-   :description: JMRI Engine Driver Throttle
-   :keywords: Engine Driver EngineDriver JMRI manual help virtual sounds IPLS In Phone Loco Sounds
+   :keywords: loco roster icons images
 
-.. |br| raw:: html
-
-   <br />
+.. include:: ../include.rst
 
 ----
 

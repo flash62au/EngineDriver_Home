@@ -66,6 +66,11 @@ dl.footnote>dd p {
   background:#fcc75640 !important;  
 }
 
+.menuselection {
+  background:#b9b9b940 !important;
+  font-size: 90% !important;
+}
+
 /*
 .rst-content .sidebar p {
   font-size: 80% !important;

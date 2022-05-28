@@ -3,19 +3,15 @@ Preferences
 *******************************************
 
 .. meta::
-   :description: JMRI Engine Driver Throttle
-   :keywords: Engine Driver EngineDriver JMRI manual help preferences
+   :keywords: options preferences
 
-.. |br| raw:: html
-
-   <br />
+.. include:: ../include.rst
 
 .. sidebar::
 
   .. contents:: On This Page
     :depth: 2
     
-
 ----
 
 * Show Advanced Preferences?
@@ -512,8 +508,8 @@ Notes for the Timer:
 
 TBA
 
-Import/Export/Reset &Log Preferences
-------------------------------------
+Import/Export/Reset & Log Preferences
+-------------------------------------
 
 Import, Export or Reset
 """""""""""""""""""""""""

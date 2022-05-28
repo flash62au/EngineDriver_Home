@@ -3,8 +3,9 @@ ESU MobileControl II
 ******************************************
 
 .. meta::
-   :description: JMRI Engine Driver Throttle
-   :keywords: Engine Driver EngineDriver JMRI manual help ESU MobileControl MC2 MCII 
+   :keywords: ESU MobileControl MC2 MCII 
+
+.. include:: ../include.rst
 
 ----
 

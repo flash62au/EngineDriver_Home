@@ -3,12 +3,9 @@ Prerequisites
 *******************************************
 
 .. meta::
-   :description: JMRI Engine Driver Throttle
-   :keywords: Engine Driver EngineDriver JMRI manual help prerequisites
+   :keywords: prerequisites
 
-.. |br| raw:: html
-
-   <br />
+.. include:: ../include.rst
 
 .. sidebar::
 
@@ -50,6 +47,11 @@ Start the `WiThrottle <https://www.jmri.org/help/en/package/jmri/jmrit/withrottl
 It is also highly recommended that you start the `JMRI Web Server function <https://www.jmri.org/help/en/html/web/index.shtml>`_ (Tools, Start JMRI Web Server). 
 Both of these should be added to Preferences, Start Up as well.
 
+For DCC++EX WiFi
+""""""""""""""""
+
+`DCC++EX <https://dcc-ex.com/index.html>`_ includes a built-in `WiThrottle Server <https://dcc-ex.com/throttles/protocols.html#the-withrottle-server>`_. Build your `DCC++EX Command Station <https://dcc-ex.com/get-started/index.html>`_, add `WiFi <https://dcc-ex.com/get-started/wifi-setup.html>`_, then connect EngineDriver following `these steps <https://dcc-ex.com/throttles/protocols.html#the-withrottle-server>`_.
+
 For MRC WiFi
 """"""""""""
 
@@ -60,8 +62,3 @@ For Digitrax LnWi
 """""""""""""""""
 
 Connect the `Digitrax LnWi <https://www.digitrax.com/products/wireless/lnwi/>`_, and verify your device can connect to its network and obtain an IP address.
-
-For DCC++EX WiFi
-""""""""""""""""
-
-`DCC++EX <https://dcc-ex.com/index.html>`_ includes a built-in `WiThrottle Server <https://dcc-ex.com/throttles/protocols.html#the-withrottle-server>`_. Build your `DCC++EX Command Station <https://dcc-ex.com/get-started/index.html>`_, add `WiFi <https://dcc-ex.com/get-started/wifi-setup.html>`_, then connect EngineDriver following `these steps <https://dcc-ex.com/throttles/protocols.html#the-withrottle-server>`_.

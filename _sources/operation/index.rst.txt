@@ -3,12 +3,9 @@ Operation
 *******************************************
 
 .. meta::
-   :description: JMRI Engine Driver Throttle
-   :keywords: Engine Driver EngineDriver JMRI manual help operation
+   :keywords: operation
 
-.. |br| raw:: html
-
-   <br />
+.. include:: ../include.rst
 
 .. sidebar::
 
@@ -19,6 +16,7 @@ Operation
 Quick Start / Getting Started
 -----------------------------
 
+* Install **Engine Driver** from the `Google Play Store <https://play.google.com/store/apps/details?id=jmri.enginedriver>`_ and `direct download <../downloads/index.html>`_. 
 * Confirm that your devices meet the `Prerequisites <../prerequisites/index.html>`_
 * **Start your WiThrottle server**
 
@@ -101,7 +99,7 @@ Connecting to the WiFi network
 * Use Android's Network - Wifi settings to connect to the same network as your WiThrottle server
 * With some exceptions, your device's IP Address should be similar to the server's IP address (the first three blocks of numbers will be identical)
 
-  * For your Android device / phone, you can see its address in the **Engine Driver** menu option ``About``, at the top of the screen
+  * For your Android device / phone, you can see its address in the **Engine Driver** menu option :menuselection:`Menu --> About`, at the top of the screen
   * For a JMRI server, see the WiThrottle window for its address 
   * For other devices, see the instructions for that device
 
@@ -392,7 +390,7 @@ Exiting Engine Driver
 To exit **Engine Driver**, you can:
 
 * Press the Android :guilabel:`Back` button once from the main screens (more than once if you are on one of the secondary screens) |br|\ OR
-* Menu > Exit
+* :menuselection:`Menu --> Exit`
 
 Exiting **Engine Driver**:
 

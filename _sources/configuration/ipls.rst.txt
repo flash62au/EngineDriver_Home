@@ -3,17 +3,19 @@ In Phone Loco Sounds (IPLS)
 *******************************************
 
 .. meta::
-   :description: JMRI Engine Driver Throttle
-   :keywords: Engine Driver EngineDriver JMRI manual help virtual sounds IPLS In Phone Loco Sounds
+   :keywords: virtual sounds IPLS In Phone Loco Sounds
+
+.. include:: ../include.rst
+
 
 Virtual Sounds / In Phone Loco Sounds (IPLS)
 ------------------------------------------------
 
 **Engine Driver** can play synchronised locomotive sounds through your Android device/phones or through a BlueTooth speaker connected to it.
 
-To enable In Phone Loco Sounds (IPLS) select an option in ``Throttle 1 Loco Sounds`` or ``Throttle 2 Loco Sounds`` (or both). Once enabled for either throttle a new menu option will be available from Throttle Screen to make subsequent changes easier ``Loco Sounds``.
+To enable In Phone Loco Sounds (IPLS) select an option in ``Throttle 1 Loco Sounds`` or ``Throttle 2 Loco Sounds`` (or both) preferences. Once enabled for either throttle a new menu option will be available from Throttle Screen to make subsequent changes easier: :menuselection:`Menu --> Loco Sounds`
 
-To make it easy to switch sound profiles we recommend enabling the Action Bar button by setting the ``In phone sounds button`` preferences.
+To make it easy to switch sound profiles we recommend enabling the Action Bar button by setting the ``In phone sounds button`` preferences: :menuselection:`Menu --> Preferences --> Throttle Screen Action Bar Preferences --> In phone sounds button`
 
 Custom IPLS Files
 ------------------

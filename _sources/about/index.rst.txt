@@ -1,13 +1,8 @@
 *******************************************
 About
 *******************************************
-.. meta::
-   :description: JMRI Engine Driver Throttle
-   :keywords: Engine Driver EngineDriver JMRI manual help
 
-.. |br| raw:: html
-
-   <br />
+.. include:: ../include.rst
 
 ----
 
@@ -17,9 +12,15 @@ About
 
 **Engine Driver Throttle** (normally just referred to as **Engine Driver** or just **ED**) is a free Android application that connects to a `WiThrottle™ Server <https://jmri.org/help/en/package/jmri/jmrit/withrottle/UserInterface.shtml>`_ [#WIT]_ to control model trains. 
 
-Supported servers include `JMRI <https://jmri.org/>`_, `DCC-EX <https://dcc-ex.com/>`_, `MRC Prodigy WiFi <https://www.modelrectifier.com/category-s/332.htm>`_, `Digitrax LnWi <https://www.digitrax.com/products/wireless/lnwi/>`_, and `WifiTrax (for NCE) <http://wifitrax.com/products/product-WFD-30-detail.html>`_. 
+Supported WiThrottle servers include:
 
-**Engine Driver** can:
+* `JMRI <https://jmri.org/>`_,
+*  `DCC-EX <https://dcc-ex.com/>`_
+*  `MRC Prodigy WiFi <https://www.modelrectifier.com/category-s/332.htm>`_
+*  `Digitrax LnWi <https://www.digitrax.com/products/wireless/lnwi/>`_
+*  `WifiTrax (for NCE) <http://wifitrax.com/products/product-WFD-30-detail.html>`_ 
+
+**Engine Driver** can: 
 
 * Control the speed direction and up to 29 DCC functions of you DCC enabled your locos
 * Control from one to six locos or consists / multiple units can be controlled at the same time

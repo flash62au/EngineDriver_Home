@@ -3,8 +3,9 @@ WiFi Issues
 *******************************************
 
 .. meta::
-   :description: JMRI Engine Driver Throttle
-   :keywords: Engine Driver EngineDriver JMRI manual help WiFi 
+   :keywords: WiFi 
+
+.. include:: ../include.rst
 
 .. sidebar::
 
