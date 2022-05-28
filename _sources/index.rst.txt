@@ -15,7 +15,7 @@ Engine Driver
 **JMRI Engine Driver Throttle**, more commonly known as **Engine Driver**, is a free Android application connects to a WiThrottle™ [#WIT]_ Server to control model trains. 
 
 .. image:: ./_static/images/screenshots/throttle_vertical_outline.png
-   :scale: 12 %
+   :scale: 8 %
    :align: right
 
 Supported servers include `JMRI <https://jmri.org/>`_, `DCC-EX <https://dcc-ex.com/>`_, `MRC Prodigy WiFi <https://www.modelrectifier.com/category-s/332.htm>`_, `Digitrax LnWi <https://www.digitrax.com/products/wireless/lnwi/>`_, and `WifiTrax (for NCE) <http://wifitrax.com/products/product-WFD-30-detail.html>`_. 
@@ -27,6 +27,11 @@ You can also control layout power, turnouts/points, routes, and access JMRI web 
 See `About <./about/index.html>`_ for more information.
 
 See `Operation <./operation/index.html>`_ for details on how to use **Engine Driver**.
+
+
+.. image:: ./_static/images/screenshots/throttle_buttons.png
+   :align: left
+
 
 Why Use Engine Driver
 ---------------------
