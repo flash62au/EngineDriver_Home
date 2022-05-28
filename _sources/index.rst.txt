@@ -51,13 +51,13 @@ You only need to interact with JMRI and/or your DCC command station directly whe
    :maxdepth: 4
 
    about/index
-   downloads/index
-   changes/index
    prerequisites/index
    operation/index
    configuration/index
    screenshots/index
    videos/index
+   downloads/index
+   changes/index
    contributing/index
    glossary/index
    contact/index

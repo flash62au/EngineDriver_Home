@@ -19,14 +19,15 @@ About
 
 Supported servers include `JMRI <https://jmri.org/>`_, `DCC-EX <https://dcc-ex.com/>`_, `MRC Prodigy WiFi <https://www.modelrectifier.com/category-s/332.htm>`_, `Digitrax LnWi <https://www.digitrax.com/products/wireless/lnwi/>`_, and `WifiTrax (for NCE) <http://wifitrax.com/products/product-WFD-30-detail.html>`_. 
 
-**Engine Driver** can control:
+**Engine Driver** can:
 
-* The speed direction and up to 29 DCC functions of you DCC enabled your locos
-* Virtual loco sounds 
-* From one to six locos or consists / multiple units can be controlled at the same time
-* You can easily create and edit on-the-fly consists / multiple units (software-defined). 
-* You can control layout power, turnouts/points, routes, and access JMRI web panels and windows.
-* You can customise **Engine Driver** extensively to meet your needs
+* Control the speed direction and up to 29 DCC functions of you DCC enabled your locos
+* Control from one to six locos or consists / multiple units can be controlled at the same time
+* Easily create and edit on-the-fly consists / multiple units (software-defined)
+* Control layout power, turnouts/points, routes, and access JMRI web panels and windows
+* Play virtual loco sounds 
+
+You can customise **Engine Driver** extensively to meet your needs.
 
 Generally the WiThrottle servers that **Engine Driver** connects to are either DCC Command Stations, or are designed to talk to DCC Command Stations (e.g. JMRI) to subsequently talk to DCC Decoder equipped locos on a layout.  However DCC++EX is currently experimenting with the possibility of controlling DC locos or even Slot cars instead.
 
