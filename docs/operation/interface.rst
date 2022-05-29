@@ -72,29 +72,38 @@ This screen allows you to control:
 
       The optionally configured buttons are configured via the Preferences > Throttle Screen Status Row Preferences.
 
+The Throttle Screen contains between 1 and 6 Throttle areas depending on the Throttle layout chosen and the number of throttles for that layout (only some allow this to be changed).  
+
 Throttle Area
 """"""""""""""""""""""""""""""""""""
 
-TODO
+Each Throttle on the Throttle Screen will display different information and buttons depending on the ``Throttle Screen Layout`` chosen: :menuselection:`Menu --> Preferences --> Throttle Screen Appearance Preferences -->`
 
-The Throttle may configured have simple buttons that allow you to increase or decrease the locomotive's speed in pre-defined steps.  Alternatively, the Throttle may be configured as a slider.  A slider can be configured as one-directional (0-100) or bi-directional (-100 - 0 - +100).  Bi-directional sliders are useful for when you are switching/shunting. i.e. moving backwards and forwards a lot.
+   **Speed Slider Area**
 
-Direction Buttons Area
-""""""""""""""""""""""""""""""""""""
+   TODO
 
-TODO
+   The Throttle may configured have simple buttons that allow you to increase or decrease the locomotive's speed in pre-defined steps.  Alternatively, the Throttle may be configured as a slider.  A slider can be configured as one-directional (0-100) or bi-directional (-100 - 0 - +100).  Bi-directional sliders are useful for when you are switching/shunting. i.e. moving backwards and forwards a lot.
 
-Function Buttons Scroll Area
-""""""""""""""""""""""""""""""""""""
+   **Speed Buttons**
 
-TODO
+   TODO
+   
+   The Throttle may configured have simple buttons that allow you to increase or decrease the locomotive's speed in pre-defined steps.  Alternatively, the Throttle may be configured as a slider.  A slider can be configured as one-directional (0-100) or bi-directional (-100 - 0 - +100).  Bi-directional sliders are useful for when you are switching/shunting. i.e. moving backwards and forwards a lot.
 
-Function Buttons are displayed here.  If there are too many to display in the screen area allocated, then the area becomes scrollable (but without scroll bars) so that they can all be viewed and pressed as needed.
+   Direction Buttons Area
 
-Web View Area
-""""""""""""""""""""""""""""""""""""
+   TODO
 
-Your JMRI Layout panel is displayed here if you have configured it to do so in Preferences. TODO
+   Function Buttons Scroll Area
+
+   TODO
+
+   Function Buttons are displayed here.  If there are too many to display in the screen area allocated, then the area becomes scrollable (but without scroll bars) so that they can all be viewed and pressed as needed.
+
+   Web View Area
+
+   Your JMRI Layout panel is displayed here if you have configured it to do so in Preferences. TODO
 
 ----
 
