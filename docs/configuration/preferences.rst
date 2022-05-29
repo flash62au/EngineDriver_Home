@@ -29,7 +29,7 @@ Throttle Name
 Screen orientation
 """"""""""""""""""
 
-TBA
+TODO
 
 Theme/Style
 """""""""""
@@ -61,6 +61,7 @@ Throttle Screen Appearance Preferences
 
 Throttle Screen Layout
 """"""""""""""""""""""
+
 +-----------------------------------+---------+--------------+---------------------+---------------+
 |Format/Capability                  |Web View |Function |br| |Throttle Control     |Direction |br| |
 |                                   |         |Buttons       |                     |Buttons        |
@@ -208,12 +209,23 @@ In phone sounds button
 Show Server Description
 """""""""""""""""""""""
 
-
 Throttle Control Preferences
 ----------------------------
 
 Speed Units
 """""""""""
+
+   * Speed Units
+
+     * Percent 10 - 100%
+     * Auto Speed steps
+     * 8 steps
+     * 10 steps
+     * 14 steps
+     * 28 steps
+     * 128 steps
+
+
 Maximum throttle Percentage
 """""""""""""""""""""""""""
 
@@ -295,7 +307,7 @@ String 5
 Action for String 5
 """""""""""""""""""
 
-TBA
+TODO
 
 
 Additional Throttle Control Source Preferences
@@ -428,17 +440,17 @@ Connect Preferences
 Maximum Recent Connections
 """"""""""""""""""""""""""
 
-TBA
+TODO
 
 Auto-Connect to WiThrottle Server?
 """"""""""""""""""""""""""""""""""
 
-TBA
+TODO
 
 Hide Demo Server
 """""""""""""""""""""""""
 
-TBA
+TODO
 
 Initial Connection Timeout
 """"""""""""""""""""""""""
@@ -455,31 +467,43 @@ Feedback on Disconnect
 Background Alert
 """""""""""""""""""""""""
 
-TBA
+TODO
 
 
 Web Screen Preferences
 ----------------------
 
+TODO
+
 Web Screen Orientation
 """""""""""""""""""""""""
+
+TODO
 
 Initial Web Screen Page
 """""""""""""""""""""""""
 
+TODO
 
 Turnouts and Routes Preferences
 -------------------------------
 
+TODO
+
 Hide Sys Route Names?
 """""""""""""""""""""""""
+
+TODO
 
 Location Delimiter
 """""""""""""""""""""""""
 
+TODO
+
 Hide if no user name?
 """""""""""""""""""""""""
 
+TODO
 
 Children's (Timer) Preferences
 ------------------------------
@@ -487,25 +511,37 @@ Children's (Timer) Preferences
 Time limited running
 """""""""""""""""""""""""
 
+TODO
+
 Restart Password
 """""""""""""""""""""""""
+
+TODO
 
 Reset/Disable Password
 """""""""""""""""""""""""
 
+TODO
+
 Allow Reverse?
 """""""""""""""""""""""""
+
+TODO
 
 Show Timer button?
 """""""""""""""""""""""""
 
+TODO
+
 Default time for Button
 """""""""""""""""""""""""
+
+TODO
 
 Notes for the Timer:
 """""""""""""""""""""""""
 
-TBA
+TODO
 
 Import/Export/Reset & Log Preferences
 -------------------------------------
@@ -513,20 +549,32 @@ Import/Export/Reset & Log Preferences
 Import, Export or Reset
 """""""""""""""""""""""""
 
+TODO
+
 Import from current Server (manually)
 """""""""""""""""""""""""""""""""""""
+
+TODO
 
 Auto import from all Servers?
 """""""""""""""""""""""""""""
 
+TODO
+
 Include recent loco list?
 """""""""""""""""""""""""
+
+TODO
 
 Auto host specific import/export?
 """""""""""""""""""""""""""""""""
 
+TODO
+
 Manual host specific import/export
 """"""""""""""""""""""""""""""""""
+
+TODO
 
 Show Timestamps on Log?
 """""""""""""""""""""""""

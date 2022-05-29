@@ -266,7 +266,7 @@ From here you can:
 Controlling Speed
 """"""""""""""""""""""""""""""""""
 
-TBA
+TODO
 
 There are six ways you can control the speed of of your loco or consist /multiple unit train:
 
@@ -282,7 +282,7 @@ There are six ways you can control the speed of of your loco or consist /multipl
 Controlling Direction
 """"""""""""""""""""""""""""""""""
 
-TBA
+TODO
 
 There are three ways you can control the direction of your loco or consist /multiple unit train:
 
@@ -293,7 +293,7 @@ There are three ways you can control the direction of your loco or consist /mult
 DCC Functions
 """"""""""""""""""""""""""""""""""
 
-TBA
+TODO
 
 There are two ways you can activate the DCC Functions of your loco or consist /multiple unit train:
 
@@ -310,7 +310,7 @@ The actions of the DCC functions will be impacted depending on the settings and 
 Virtual Sounds - In Phone Loco Sounds (IPLS)
 """"""""""""""""""""""""""""""""""""""""""""
 
-TBA
+TODO
 
 - steam
 - diesel
@@ -322,7 +322,7 @@ See `In Phone Loco Sounds (IPLS) <../configuration/ipls.html>`_ for more informa
 Gamepads  
 """"""""""""""""""""""""""""""""""
 
-TBA
+TODO
 
 .. note:: 
   :class: note-ed-hidden-title
@@ -332,55 +332,55 @@ TBA
 Action Bar and Menu
 ^^^^^^^^^^^^^^^^^^^
 
-TBA
+TODO
 
 Track Power
 """"""""""""""""""""""""""""""""""
 
-TBA
+TODO
 
 In Phone Loco Sounds (IPLS)
 """"""""""""""""""""""""""""""""""
 
-TBA
+TODO
 
 Power
 """"""""""""""""""""""""""""""""""
 
-TBA
+TODO
 
 Flashlight 
 """"""""""""""""""""""""""""""""""
 
-TBA
+TODO
 
 ----
 
 Turnouts / Points
 ^^^^^^^^^^^^^^^^^
 
-TBA
+TODO
 
 ----
 
 Routes
 ^^^^^^^^^^^^^^^
 
-TBA
+TODO
 
 ----
 
 Panels and Web Pages
 ^^^^^^^^^^^^^^^^^^^^^^
 
-TBA
+TODO
 
 ----
 
 Pushing Engine Driver to the Background
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-TBA
+TODO
 
 ----
 
