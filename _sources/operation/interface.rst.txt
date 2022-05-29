@@ -372,11 +372,9 @@ Accessed from any of the main screens via :menuselection:`Menu --> View Log`.
 This screen allows you to view the internal Engine Driver log of events.
 This is sometimes useful for analysing problems.
 
-The option to ``Start recording to file`` creates a user-accessible file that can be sent to the **Engine Driver** app developers or the Groupio help group to assist you in resolving a problem.
+The option to ``Start recording to file`` creates a user-accessible file that can be sent to the **Engine Driver** app developers or the `Groups.io <https://groups.io/g/jmriusers/topics>`_` help group to assist you in resolving a problem.
 The file will be located on your mobile phone at:
-Internal storage .../engine_driver
-and will be named something like:
-logcat9999999999999.txt
+Internal storage ``/Android/data/jmri.enginedriver/files`` |br|\ and will be named something like: ``logcat9999999999999.txt``
 
 ----
 
@@ -412,6 +410,10 @@ TODO
 Action Bar
 ^^^^^^^^^^
 
+.. image:: ../_static/images/parts/action_bar.png
+   :align: right
+   :scale: 50%
+
 The Action Bar appears at the top of all screen. It will show different information and different buttons depending on a) the particular screen and b) preferences you have set.
 
 The Action Bar can display:
@@ -420,21 +422,128 @@ The Action Bar can display:
 * Optionally configured information:
 
   * Fast Clock
-  * Children's Timer
+  * Children's Timer Status and Countdown
+  * Full Screen or Action Bar Only left/right swipe
+  * WiThrottle Server Name
 
 * Optionally configured buttons:
 
-  * All Stop
-  * Emergency Stop
+  * All Stop  (EStop)
   * Track Power
   * Flashlight
   * Throttle Web View
   * Throttle Layout Switching
-  * In Phone Sound
+  * In Phone Loco Sound
+  * Children's Timer
 
 * The Overflow Menu, which is normally three dots (⁞) or three bars (≡).   (Main Screens only)
 
 The optionally configured items are configured via the corresponding preferences in the ``Throttle Screen Action Bar Preferences`` preference group.
+
+All Stop
+""""""""
+
+TODO
+
+.. image:: ../_static/images/parts/estop.png
+   :align: right
+   :scale: 50%
+
+The *All Stop* Action Bar button is enable with the ...
+
+*All Stop*, when pressed ...
+
+Track Power
+"""""""""""
+
+TODO
+
+.. image:: ../_static/images/parts/power_green_outline.png
+   :align: right
+   :scale: 50%
+
+The *Track Power* Action Bar button is enable with the ...
+
+*Track Power*, when pressed ...
+
+Flashlight
+""""""""""
+
+TODO
+
+.. image:: ../_static/images/parts/flashlight_on_outline.png
+   :align: right
+   :scale: 50%
+
+The *Flashlight* Action Bar button is enable with the ...
+
+*Flashlight*, when pressed ...
+
+Throttle Web View
+"""""""""""""""""
+
+TODO
+
+.. image:: ../_static/images/parts/web_view.png
+   :align: right
+   :scale: 50%
+
+The *Throttle Web View* Action Bar button is enable with the ...
+
+*Throttle Web View*, when pressed ...
+
+In Phone Loco Sound
+"""""""""""""""""""
+
+TODO
+
+.. image:: ../_static/images/parts/in_device_sounds_outline.png
+   :align: right
+   :scale: 50%
+
+The *In Phone Loco Sounds* Action Bar button is enable with the ...
+
+*In Phone Loco Sounds*, when pressed ...
+
+Children's Timer Button
+"""""""""""""""""""""""
+
+.. image:: ../_static/images/parts/timer.png
+   :align: right
+   :scale: 50%
+
+The *Children's Timer Button* Action Bar button is enable with the ...
+
+*Children's Timer Button*, when pressed ...
+
+Fast Clock
+""""""""""
+
+TODO
+
+.. image:: ../_static/images/parts/fast_clock.png
+   :align: right
+   :scale: 50%
+
+The *Fast Clock* Action Bar button is enable with the ...
+
+*Fast Clock*, when pressed ...
+
+Children's Timer Status and Countdown
+"""""""""""""""""""""""""""""""""""""
+
+TODO
+
+Full Screen or Action Bar Only left/right swipe
+"""""""""""""""""""""""""""""""""""""""""""""""
+
+TODO
+
+WiThrottle Server Name
+""""""""""""""""""""""
+
+TODO
+
 
 
 ----

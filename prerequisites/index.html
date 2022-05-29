@@ -19,6 +19,7 @@
         <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
         <script src="../_static/jquery.js"></script>
         <script src="../_static/underscore.js"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
         <script src="../_static/doctools.js"></script>
         <script src="../_static/js/platform.js"></script>
         <script src="../_static/js/extra.js"></script>
@@ -111,7 +112,7 @@
            <div itemprop="articleBody">
              
   <section id="prerequisites">
-<h1><a class="toc-backref" href="#id2">Prerequisites</a><a class="headerlink" href="#prerequisites" title="Permalink to this headline"></a></h1>
+<h1><a class="toc-backref" href="#id2">Prerequisites</a><a class="headerlink" href="#prerequisites" title="Permalink to this heading"></a></h1>
 <aside class="sidebar">
 <div class="contents topic" id="on-this-page">
 <p class="topic-title">On This Page</p>
@@ -140,10 +141,10 @@
 <p>ALSO</p>
 <p>A <em>WiThrottle Server</em> must be available on a device connected to your model train layout for <strong>Engine Driver</strong> to connect to.</p>
 <section id="android-device-phone">
-<h2><a class="toc-backref" href="#id3">Android Device/Phone</a><a class="headerlink" href="#android-device-phone" title="Permalink to this headline"></a></h2>
+<h2><a class="toc-backref" href="#id3">Android Device/Phone</a><a class="headerlink" href="#android-device-phone" title="Permalink to this heading"></a></h2>
 <p><strong>Engine Driver</strong> will work on most Android devices made in the last 5 years. Currently it has a minSDKVersion 16, which equates to minimum Android OS version of 4.1 (JELLYBEAN). Info on minSDKVersion available in the <a class="reference external" href="https://developer.android.com/guide/topics/manifest/uses-sdk-element#ApiLevels">Engine Driver manifest</a>.</p>
 <section id="esu-mobilecontrol-ii">
-<h3><a class="toc-backref" href="#id4">ESU MobileControl II</a><a class="headerlink" href="#esu-mobilecontrol-ii" title="Permalink to this headline"></a></h3>
+<h3><a class="toc-backref" href="#id4">ESU MobileControl II</a><a class="headerlink" href="#esu-mobilecontrol-ii" title="Permalink to this heading"></a></h3>
 <p><strong>Engine Driver</strong> fully supports the <a class="reference external" href="http://www.esu.eu/en/products/digital-control/mobile-control-ii/">ESU MobileControl II (MC2)</a> Android throttle.</p>
 <div class="note-ed-hidden-title admonition note">
 <p class="admonition-title">Note</p>
@@ -152,9 +153,9 @@
 </section>
 </section>
 <section id="withrottle-servers">
-<h2><a class="toc-backref" href="#id5">WiThrottle Servers</a><a class="headerlink" href="#withrottle-servers" title="Permalink to this headline"></a></h2>
+<h2><a class="toc-backref" href="#id5">WiThrottle Servers</a><a class="headerlink" href="#withrottle-servers" title="Permalink to this heading"></a></h2>
 <section id="for-jmri">
-<h3><a class="toc-backref" href="#id6">For JMRI</a><a class="headerlink" href="#for-jmri" title="Permalink to this headline"></a></h3>
+<h3><a class="toc-backref" href="#id6">For JMRI</a><a class="headerlink" href="#for-jmri" title="Permalink to this heading"></a></h3>
 <a class="reference internal image-reference" href="../_images/jmri_withrottle_window.png"><img alt="../_images/jmri_withrottle_window.png" class="align-right" src="../_images/jmri_withrottle_window.png" style="width: 192.0px; height: 130.5px;" /></a>
 <p>Verify your Android device can connect to your network via WiFi and obtain an IP address.
 Make sure you are running one of the latest versions of <a class="reference external" href="https://jmri.org/">JMRI</a> (3.8 works, 4.20+ works much better) on your PC, connected to your layout.
@@ -164,16 +165,16 @@ Start up JMRI and verify you can use JMRI’s included ‘Throttle’ window to 
 Both of these should be added to Preferences, Start Up as well.</p>
 </section>
 <section id="for-dcc-ex-wifi">
-<h3><a class="toc-backref" href="#id7">For DCC++EX WiFi</a><a class="headerlink" href="#for-dcc-ex-wifi" title="Permalink to this headline"></a></h3>
+<h3><a class="toc-backref" href="#id7">For DCC++EX WiFi</a><a class="headerlink" href="#for-dcc-ex-wifi" title="Permalink to this heading"></a></h3>
 <p><a class="reference external" href="https://dcc-ex.com/index.html">DCC++EX</a> includes a built-in <a class="reference external" href="https://dcc-ex.com/throttles/protocols.html#the-withrottle-server">WiThrottle Server</a>. Build your <a class="reference external" href="https://dcc-ex.com/get-started/index.html">DCC++EX Command Station</a>, add <a class="reference external" href="https://dcc-ex.com/get-started/wifi-setup.html">WiFi</a>, then connect EngineDriver following <a class="reference external" href="https://dcc-ex.com/throttles/protocols.html#the-withrottle-server">these steps</a>.</p>
 </section>
 <section id="for-mrc-wifi">
-<h3><a class="toc-backref" href="#id8">For MRC WiFi</a><a class="headerlink" href="#for-mrc-wifi" title="Permalink to this headline"></a></h3>
+<h3><a class="toc-backref" href="#id8">For MRC WiFi</a><a class="headerlink" href="#for-mrc-wifi" title="Permalink to this heading"></a></h3>
 <p>Connect the <a class="reference external" href="https://www.modelrectifier.com/category-s/332.htm">MRC WiFi module</a>, and verify your device can connect to its network and obtain an IP address.
 Note for MRC users: David Fuller has provided some <a class="reference external" href="https://enginedriver.mstevetodd.com/sites/enginedriver.mstevetodd.com/files/EngineDriver_App-MRC_Wi-Fi_Module_Settings.pdf">additional setup information [here]</a>.</p>
 </section>
 <section id="for-digitrax-lnwi">
-<h3><a class="toc-backref" href="#id9">For Digitrax LnWi</a><a class="headerlink" href="#for-digitrax-lnwi" title="Permalink to this headline"></a></h3>
+<h3><a class="toc-backref" href="#id9">For Digitrax LnWi</a><a class="headerlink" href="#for-digitrax-lnwi" title="Permalink to this heading"></a></h3>
 <p>Connect the <a class="reference external" href="https://www.digitrax.com/products/wireless/lnwi/">Digitrax LnWi</a>, and verify your device can connect to its network and obtain an IP address.</p>
 </section>
 </section>
