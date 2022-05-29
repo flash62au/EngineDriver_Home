@@ -25,7 +25,7 @@ If you missed the prompt, you can 'forget' the network, and reenter your WiFi cr
 Firewalls
 ---------
 
-TBA
+TODO
 
 Your PC's firewall software can prevent **Engine Driver** from connecting. You may need to add an exception in your firewall software for JMRI or disable the firewall to allow **Engine Driver** to connect.
 

@@ -143,10 +143,12 @@
 <li><p><a class="reference internal" href="#about-screen" id="id19">About Screen</a></p></li>
 </ul>
 </li>
-<li><p><a class="reference internal" href="#common-elements" id="id20">Common Elements</a></p>
+<li><p><a class="reference internal" href="#common-elements-and-features" id="id20">Common Elements and Features</a></p>
 <ul>
-<li><p><a class="reference internal" href="#action-bar" id="id21">Action Bar</a></p></li>
-<li><p><a class="reference internal" href="#overflow-menu" id="id22">Overflow Menu</a></p></li>
+<li><p><a class="reference internal" href="#theme" id="id21">Theme</a></p></li>
+<li><p><a class="reference internal" href="#localisation" id="id22">Localisation</a></p></li>
+<li><p><a class="reference internal" href="#action-bar" id="id23">Action Bar</a></p></li>
+<li><p><a class="reference internal" href="#overflow-menu" id="id24">Overflow Menu</a></p></li>
 </ul>
 </li>
 </ul>
@@ -154,6 +156,13 @@
 </ul>
 </div>
 </aside>
+<hr class="docutils" />
+<p>The user interface for <strong>Engine Driver</strong> is described and explained in these pages as ‘screens’.  There are several ‘Main Screens’ which you will routinely interact with and and larger number of ‘Secondary / Support Screens’ that will interact with infrequently.</p>
+<p>There are also some settings that impact all of the screens which described towards the end of this page:</p>
+<ul class="simple">
+<li><p>Theme</p></li>
+<li><p>Localisation</p></li>
+</ul>
 <section id="main-screens">
 <h2><a class="toc-backref" href="#id2">Main Screens</a><a class="headerlink" href="#main-screens" title="Permalink to this headline"></a></h2>
 <p>There are four main screens:</p>
@@ -182,18 +191,92 @@
 <section id="throttle-screen">
 <h3><a class="toc-backref" href="#id4">Throttle Screen</a><a class="headerlink" href="#throttle-screen" title="Permalink to this headline"></a></h3>
 <a class="reference internal image-reference" href="../_images/throttle_vertical_outline.png"><img alt="../_images/throttle_vertical_outline.png" class="align-right" src="../_images/throttle_vertical_outline.png" style="width: 115.2px; height: 204.8px;" /></a>
-<p>The Throttle Screen has two distinct areas:</p>
+<p>The <em>Throttle Screen</em> has two distinct areas:</p>
 <ul class="simple">
-<li><p>The Action bar</p></li>
-<li><p>One or more Throttles Areas</p></li>
+<li><p>The Action Bar</p></li>
+<li><p>One or more Throttle Areas</p></li>
 </ul>
-<p>This screen allows you to control:</p>
+<p>There are also some settings that impact the whole Throttle Screen which described towards the end of this section:</p>
+<ul class="simple">
+<li><p>Background</p></li>
+<li><p>Immersive Mode (Full Screen)</p></li>
+<li><p>Swipe Up / Down</p></li>
+<li><p>Accelerometer (Shake)</p></li>
+</ul>
+<p>The <em>Throttle Screen</em> allows you to control:</p>
 <ul class="simple">
 <li><p>Access common functions from the Action Bar and Menu</p></li>
-<li><p>Control one or more locomotives or</p></li>
+<li><p>Control one or more locos</p></li>
 </ul>
-<p>The Throttle Screen contains between 1 and 6 Throttle areas depending on the Throttle layout chosen and the number of throttles for that layout (only some allow this to be changed).</p>
-<p>While common across all the Screens, the Action bar and menus has has some options that are only available Throttle Screen. <br />These include:</p>
+<p>The <em>Throttle Screen</em> contains between 1 and 6 Throttle areas depending on the Throttle layout chosen and the number of throttles for that layout (only some allow this to be changed).</p>
+<section id="throttle-area">
+<h4>Throttle Area<a class="headerlink" href="#throttle-area" title="Permalink to this headline"></a></h4>
+<p>Each Throttle on the Throttle Screen will display different information and buttons depending on the <code class="docutils literal notranslate"><span class="pre">Throttle</span> <span class="pre">Screen</span> <span class="pre">Layout</span></code> chosen: <span class="menuselection">Menu ‣ Preferences ‣ Throttle Screen Appearance Preferences ‣ Throttle Screen Layout</span></p>
+<p>Each <em>Throttle Area</em> allows you to:</p>
+<ul>
+<li><p>Select and release locos</p></li>
+<li><p>Control the speed and direction of your trains</p></li>
+<li><p>Activate DCC decoder functions like the light, bell, horn</p></li>
+<li><p>Activate Virtual (IPLS) Sounds (bell, horn, short horn) (if enabled)</p>
+<blockquote>
+<div><p><strong>Loco Select Button</strong></p>
+<p>The loco <code class="docutils literal notranslate"><span class="pre">Select</span></code> in the Throttle Area allows to select or release locos for that particular Throttle.  Click on the button and you will be taken to the Select Loco screen.</p>
+<p>Once you have selected a loco, the label on the button change to the DCC Address(s) or the Roster name(s) of the Loco depending on how you select the loco in the Loco Select Screen, and if you have the set the <code class="docutils literal notranslate"><span class="pre">Loco</span> <span class="pre">Address</span> <span class="pre">instead</span> <span class="pre">of</span> <span class="pre">Name?</span></code>: preference <span class="menuselection">Menu ‣ Preferences ‣ Throttle Screen Appearance Preferences ‣ Loco Address instead of Name?</span>.</p>
+<p>When the button is displaying DCC Address(s) or the Roster name(s), click on the button again and you will be taken to the Select Loco screen where you can de-select the loco(s), select additional locos to make a consist / multiple unit train, edit the locos in the consist, or edit the lights of the locos in the consist / multiple unit.</p>
+<div class="note-ed-hidden-title admonition note">
+<p class="admonition-title">Note</p>
+<p>See the <a class="reference external" href="../operation/index.html#selecting-releasing-locos">Operation</a> page for more information.</p>
+</div>
+<p><strong>Speed indicator</strong></p>
+<p>TODO</p>
+<ul class="simple">
+<li><p>Speed</p>
+<ul>
+<li><p>Percent 10 - 100%</p></li>
+<li><p>Auto Speed steps</p></li>
+<li><p>8 steps</p></li>
+<li><p>10 steps</p></li>
+<li><p>14 steps</p></li>
+<li><p>28 steps</p></li>
+<li><p>128 steps</p></li>
+</ul>
+</li>
+<li><p>Direction</p></li>
+<li><p>Volume indicator</p></li>
+<li><p>Gamepad Indicator</p></li>
+</ul>
+<p>Touch a Speed Indicator to set which Throttle the Hardware Volume buttons control.</p>
+<div class="note-ed-hidden-title admonition note">
+<p class="admonition-title">Note</p>
+<p>See the Throttle Control Preferences section of the <a class="reference external" href="../configuration/preferences.html#throttle-control-preferences">Preferences</a> page for a detailed explanation of the <code class="docutils literal notranslate"><span class="pre">Speed</span> <span class="pre">Untits</span></code> options.</p>
+</div>
+<p><strong>Speed Slider Area</strong></p>
+<p>TODO</p>
+<p>The Throttle areas can be configured with a slider.  Dragging you finger along the slider will increase or decrease the speed of the loco(s) selected for the that Throttle. Pressing and holding your finger at one spot on the slider will cause <strong>Engine Driver</strong> to slowly increase or decrease the speed of the loco(s) selected for the that Throttle till it gets to that point.</p>
+<p>Depending on the <code class="docutils literal notranslate"><span class="pre">Throttle</span> <span class="pre">Screen</span> <span class="pre">Layout</span></code> chosen all sliders on the Throttle Screen will be either:</p>
+<ul class="simple">
+<li><p>one-directional (0% - 100%) <br />or</p></li>
+<li><p>bi-directional (-100% - 0 - +100%)</p></li>
+</ul>
+<p>Bi-directional sliders are useful for when you are switching/shunting. i.e. moving backwards and forwards a lot.</p>
+<p><strong>Speed Buttons</strong></p>
+<p>TODO</p>
+<p>The Throttle may configured have simple buttons that allow you to increase or decrease the locomotive’s speed in pre-defined steps.</p>
+<p><strong>Direction Buttons Area</strong></p>
+<p>TODO</p>
+<p><strong>Function Buttons Scroll Area</strong></p>
+<p>TODO</p>
+<p>Function Buttons are displayed here.  If there are too many to display in the screen area allocated, then the area becomes scrollable (but without scroll bars) so that they can all be viewed and pressed as needed.</p>
+<p><strong>Web View Area</strong></p>
+<p>Your JMRI Layout panel can be displayed here if you have configured it to do so in Preferences.</p>
+<p>TODO</p>
+</div></blockquote>
+</li>
+</ul>
+</section>
+<section id="action-bar-throttle-screen">
+<h4>Action Bar (Throttle Screen)<a class="headerlink" href="#action-bar-throttle-screen" title="Permalink to this headline"></a></h4>
+<p>While common across all the screens, the Action bar and menus has some options that are only available from the Throttle Screen. <br />These include:</p>
 <blockquote>
 <div><ul class="simple">
 <li><p>Flashlight (if enabled)</p></li>
@@ -208,53 +291,27 @@
 <li><p>All Stop (if enabled)</p></li>
 <li><p>Track Power (if enabled)</p>
 <blockquote>
-<div><p>The optionally configured buttons are configured via the Preferences &gt; Throttle Screen Status Row Preferences.</p>
+<div><p>The optional buttons are enabled via the <span class="menuselection">Menu ‣ Preferences ‣ Throttle Screen Status Row Preferences</span>.</p>
 </div></blockquote>
 </li>
 </ul>
 </div></blockquote>
-<section id="throttle-area">
-<h4>Throttle Area<a class="headerlink" href="#throttle-area" title="Permalink to this headline"></a></h4>
-<p>Each Throttle on the Throttle Screen will display different information and buttons depending on the <code class="docutils literal notranslate"><span class="pre">Throttle</span> <span class="pre">Screen</span> <span class="pre">Layout</span></code> chosen: <span class="menuselection">Menu ‣ Preferences ‣ Throttle Screen Appearance Preferences ‣</span></p>
-<p>The Throttle Area allows you to:</p>
-<ul>
-<li><p>Select and release locos</p></li>
-<li><p>Control the speed and direction of your trains</p></li>
-<li><p>Activate DCC decoder functions like the light, bell, horn</p></li>
-<li><p>Activate IPLS Sounds (bell, horn, short horn) (if enabled)</p>
-<blockquote>
-<div><p><strong>Loco Select Button</strong></p>
-<p>The loco <code class="docutils literal notranslate"><span class="pre">Select</span></code> in the Throttle Area allows to select or release locos for that particular Throttle.  Click on the button and you will be taken to the Select Loco screen.</p>
-<p>Once you have selected a loco, the label on the button change to the DCC Address(s) or the Roster name(s) of the Loco depending on how you select the loco in the Loco Select Screen, and if you have the set the <code class="docutils literal notranslate"><span class="pre">Loco</span> <span class="pre">Address</span> <span class="pre">instead</span> <span class="pre">of</span> <span class="pre">Name?</span></code>: preference <span class="menuselection">Menu ‣ Preferences ‣ Throttle Screen Appearance Preferences ‣ Loco Address instead of Name?</span>.</p>
-<p>When the button is displaying DCC Address(s) or the Roster name(s), click on the button again and you will be taken to the Select Loco screen where you can de-select the loco(s), select additional locos to make a consist / multiple unit train, edit the locos in the consist, or edit the lights of the locos in the consist / multiple unit.</p>
-<div class="note-ed-hidden-title admonition note">
-<p class="admonition-title">Note</p>
-<p>See the <a class="reference external" href="../operation/index.html#selecting-releasing-locos">Operation</a> page for more information.</p>
-</div>
-<p><strong>Speed indicator</strong></p>
 <p>TODO</p>
-<ul class="simple">
-<li><p>Speed</p></li>
-<li><p>Direction</p></li>
-<li><p>Volume indicator</p></li>
-<li><p>Gamepad Indicator</p></li>
-</ul>
-<p><strong>Speed Slider Area</strong></p>
+</section>
+<section id="background">
+<h4>Background<a class="headerlink" href="#background" title="Permalink to this headline"></a></h4>
 <p>TODO</p>
-<p>The Throttle may configured have simple buttons that allow you to increase or decrease the locomotive’s speed in pre-defined steps.  Alternatively, the Throttle may be configured as a slider.  A slider can be configured as one-directional (0-100) or bi-directional (-100 - 0 - +100).  Bi-directional sliders are useful for when you are switching/shunting. i.e. moving backwards and forwards a lot.</p>
-<p><strong>Speed Buttons</strong></p>
+</section>
+<section id="immersive-mode-full-screen">
+<h4>Immersive Mode (Full Screen)<a class="headerlink" href="#immersive-mode-full-screen" title="Permalink to this headline"></a></h4>
 <p>TODO</p>
-<p>The Throttle may configured have simple buttons that allow you to increase or decrease the locomotive’s speed in pre-defined steps.  Alternatively, the Throttle may be configured as a slider.  A slider can be configured as one-directional (0-100) or bi-directional (-100 - 0 - +100).  Bi-directional sliders are useful for when you are switching/shunting. i.e. moving backwards and forwards a lot.</p>
-<p>Direction Buttons Area</p>
+</section>
+<section id="swipe-up-down">
+<h4>Swipe Up / Down<a class="headerlink" href="#swipe-up-down" title="Permalink to this headline"></a></h4>
+</section>
+<section id="accelerometer-shake">
+<h4>Accelerometer (Shake)<a class="headerlink" href="#accelerometer-shake" title="Permalink to this headline"></a></h4>
 <p>TODO</p>
-<p>Function Buttons Scroll Area</p>
-<p>TODO</p>
-<p>Function Buttons are displayed here.  If there are too many to display in the screen area allocated, then the area becomes scrollable (but without scroll bars) so that they can all be viewed and pressed as needed.</p>
-<p>Web View Area</p>
-<p>Your JMRI Layout panel is displayed here if you have configured it to do so in Preferences. TODO</p>
-</div></blockquote>
-</li>
-</ul>
 </section>
 </section>
 <hr class="docutils" />
@@ -335,7 +392,7 @@ It can also be accessed, if the <code class="docutils literal notranslate"><span
 <hr class="docutils" />
 <section id="power-screen">
 <h3><a class="toc-backref" href="#id13">Power Screen</a><a class="headerlink" href="#power-screen" title="Permalink to this headline"></a></h3>
-<p>Accessed from any of the main screen by the : <span class="menuselection">Menu ‣ Preferences ‣ Left/Right Swipe Preferences ‣ Power</span> or from the Action Bar if enabled with the <code class="docutils literal notranslate"><span class="pre">Layout</span> <span class="pre">Power</span> <span class="pre">button?</span></code> preference: <span class="menuselection">Menu ‣ Preferences ‣ Throttle Screen Action Bar Preferences ‣ Layout Power button?</span></p>
+<p>Accessed from any of the main screen via : <span class="menuselection">Menu ‣ Preferences ‣ Left/Right Swipe Preferences ‣ Power</span> or from the Action Bar if enabled with the <code class="docutils literal notranslate"><span class="pre">Layout</span> <span class="pre">Power</span> <span class="pre">button?</span></code> preference: <span class="menuselection">Menu ‣ Preferences ‣ Throttle Screen Action Bar Preferences ‣ Layout Power button?</span>.</p>
 <p>This screen allows you to toggle the state of track power to your layout.</p>
 <ul class="simple">
 <li><p>When the button is <strong>Green</strong>, it indicates that track power is ‘On’.</p></li>
@@ -347,11 +404,11 @@ It can also be accessed, if the <code class="docutils literal notranslate"><span
 <hr class="docutils" />
 <section id="preferences-screen">
 <h3><a class="toc-backref" href="#id14">Preferences Screen</a><a class="headerlink" href="#preferences-screen" title="Permalink to this headline"></a></h3>
-<p>Accessed from any of the main screens as <code class="docutils literal notranslate"><span class="pre">Preferences</span></code>: <span class="menuselection">Menu ‣ Preferences</span></p>
-<p>This screen allows you to configure <strong>Engine Driver</strong> for how you want it to operate for you.</p>
-<div class="note-ed admonition note">
+<p>Accessed from any of the main screens via <span class="menuselection">Menu ‣ Preferences</span>.</p>
+<p>This screen allows you to personalise  <strong>Engine Driver</strong> for how you want it to use it.</p>
+<div class="note-ed-hidden-title admonition note">
 <p class="admonition-title">Note</p>
-<p>See the <a class="reference external" href="../configuration/preferences.html">Preferences</a> page for details on the preferences that can be set.</p>
+<p>See the <a class="reference external" href="../configuration/preferences.html">Preferences page</a> for details on the preferences that can be set.</p>
 </div>
 </section>
 <hr class="docutils" />
@@ -370,13 +427,13 @@ It can also be accessed, if the <code class="docutils literal notranslate"><span
 <section id="gamepad-test-screen">
 <h3><a class="toc-backref" href="#id17">Gamepad Test Screen</a><a class="headerlink" href="#gamepad-test-screen" title="Permalink to this headline"></a></h3>
 <p>TODO</p>
-<p>Accessed from the menu on the Throttle Screen as <code class="docutils literal notranslate"><span class="pre">Gamepads</span></code> -&gt; <code class="docutils literal notranslate"><span class="pre">Gamepad</span> <span class="pre">Test</span> <span class="pre">X</span></code>. (where ‘X’ is the number of the gamepad.)</p>
+<p>Accessed from the Throttle Screen via the <span class="menuselection">Menu ‣ Gamepads -&gt; Gamepad Test X</span>. (where ‘X’ is the number of the gamepad.)</p>
 </section>
 <hr class="docutils" />
 <section id="view-log-screen">
 <h3><a class="toc-backref" href="#id18">View Log Screen</a><a class="headerlink" href="#view-log-screen" title="Permalink to this headline"></a></h3>
 <p>TODO</p>
-<p>Accessed from the menu on the any of the main screens as <code class="docutils literal notranslate"><span class="pre">View</span> <span class="pre">Log</span></code>.</p>
+<p>Accessed from any of the main screens via <span class="menuselection">Menu ‣ View Log</span>.</p>
 <p>This screen allows you to view the internal Engine Driver log of events.
 This is sometimes useful for analysing problems.</p>
 <p>The option to <code class="docutils literal notranslate"><span class="pre">Start</span> <span class="pre">recording</span> <span class="pre">to</span> <span class="pre">file</span></code> creates a user-accessible file that can be sent to the <strong>Engine Driver</strong> app developers or the Groupio help group to assist you in resolving a problem.
@@ -397,12 +454,20 @@ logcat9999999999999.txt</p>
 <p>TODO</p>
 </section>
 </section>
-<section id="common-elements">
-<h2><a class="toc-backref" href="#id20">Common Elements</a><a class="headerlink" href="#common-elements" title="Permalink to this headline"></a></h2>
+<section id="common-elements-and-features">
+<h2><a class="toc-backref" href="#id20">Common Elements and Features</a><a class="headerlink" href="#common-elements-and-features" title="Permalink to this headline"></a></h2>
 <p>TODO</p>
 <hr class="docutils" />
+<section id="theme">
+<h3><a class="toc-backref" href="#id21">Theme</a><a class="headerlink" href="#theme" title="Permalink to this headline"></a></h3>
+<p>TODO</p>
+</section>
+<section id="localisation">
+<h3><a class="toc-backref" href="#id22">Localisation</a><a class="headerlink" href="#localisation" title="Permalink to this headline"></a></h3>
+<p>TODO</p>
+</section>
 <section id="action-bar">
-<h3><a class="toc-backref" href="#id21">Action Bar</a><a class="headerlink" href="#action-bar" title="Permalink to this headline"></a></h3>
+<h3><a class="toc-backref" href="#id23">Action Bar</a><a class="headerlink" href="#action-bar" title="Permalink to this headline"></a></h3>
 <p>The Action Bar appears at the top of all screen. It will show different information and different buttons depending on a) the particular screen and b) preferences you have set.</p>
 <p>The Action Bar can display:</p>
 <ul class="simple">
@@ -430,7 +495,7 @@ logcat9999999999999.txt</p>
 </section>
 <hr class="docutils" />
 <section id="overflow-menu">
-<h3><a class="toc-backref" href="#id22">Overflow Menu</a><a class="headerlink" href="#overflow-menu" title="Permalink to this headline"></a></h3>
+<h3><a class="toc-backref" href="#id24">Overflow Menu</a><a class="headerlink" href="#overflow-menu" title="Permalink to this headline"></a></h3>
 <p>The Overflow Menu (or simply ‘Menu’) appears in the Action Bar at the top of most of the main screens. It will show different options depending on a) the particular screen, b) preferences you have set and c) the state of certain elements in the app.</p>
 <p>The Overflow Menu can display</p>
 <ul class="simple">

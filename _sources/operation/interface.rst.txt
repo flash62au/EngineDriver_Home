@@ -11,7 +11,17 @@ User Interface
 
   .. contents:: On This Page
      :depth: 3
-    
+
+----
+
+The user interface for |ED| is described and explained in these pages as 'screens'.  There are several 'Main Screens' which you will routinely interact with and and larger number of 'Secondary / Support Screens' that will interact with infrequently. 
+
+There are also some settings that impact all of the screens which described towards the end of this page:
+
+* Theme
+* Localisation 
+
+
 Main Screens
 -------------
 
@@ -30,15 +40,15 @@ Connection Screen
 .. image:: ../_static/images/screenshots/connect.png
    :align: right
 
-This screen is the first screen you normally see when starting **Engine Driver**. 
+This screen is the first screen you normally see when starting |ED|\ . 
 
 It allows you choose which WiThrottle Server to connect, which you must do to control your trains.
 
 TODO
 
-- Address and Port
-- Discovered Servers
-- Recent servers
+* Address and Port
+* Discovered Servers
+* Recent servers
 
 Once you select a server the 'Throttle Screen' will be automatically displayed.
 
@@ -47,49 +57,43 @@ If you only ever connect to one WiThrottle server you can effectively bypass thi
 ----
 
 Throttle Screen
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^
 
 .. image:: ../_static/images/screenshots/throttle_vertical_outline.png
    :scale: 8 %
    :align: right
 
-The Throttle Screen has two distinct areas:
+The *Throttle Screen* has two distinct areas:
 
-- The Action bar
-- One or more Throttles Areas
+* The Action Bar
+* One or more Throttle Areas
 
-This screen allows you to control:
+There are also some settings that impact the whole Throttle Screen which described towards the end of this section:
+
+* Background
+* Immersive Mode (Full Screen)
+* Swipe Up / Down
+* Accelerometer (Shake)  
+ 
+The *Throttle Screen* allows you to control:
 
 - Access common functions from the Action Bar and Menu
-- Control one or more locomotives or 
+- Control one or more locos
 
-The Throttle Screen contains between 1 and 6 Throttle areas depending on the Throttle layout chosen and the number of throttles for that layout (only some allow this to be changed).  
+The *Throttle Screen* contains between 1 and 6 Throttle areas depending on the Throttle layout chosen and the number of throttles for that layout (only some allow this to be changed).  
 
-While common across all the Screens, the Action bar and menus has has some options that are only available Throttle Screen. |br|\ These include:
-
-  * Flashlight (if enabled)
-  * Throttle Web View (if enabled)
-  * Throttle Layout Switching (if enabled)
-  * In Phone Loco Sound (if enabled)
-
-Common options include:
-
-  * All Stop (if enabled)
-  * Track Power (if enabled)
-
-      The optionally configured buttons are configured via the Preferences > Throttle Screen Status Row Preferences.
 
 Throttle Area
 """"""""""""""""""""""""""""""""""""
 
-Each Throttle on the Throttle Screen will display different information and buttons depending on the ``Throttle Screen Layout`` chosen: :menuselection:`Menu --> Preferences --> Throttle Screen Appearance Preferences -->`
+Each Throttle on the Throttle Screen will display different information and buttons depending on the ``Throttle Screen Layout`` chosen: :menuselection:`Menu --> Preferences --> Throttle Screen Appearance Preferences --> Throttle Screen Layout`
 
-The Throttle Area allows you to:
+Each *Throttle Area* allows you to:
 
 * Select and release locos 
 * Control the speed and direction of your trains
 * Activate DCC decoder functions like the light, bell, horn 
-* Activate IPLS Sounds (bell, horn, short horn) (if enabled)
+* Activate Virtual (IPLS) Sounds (bell, horn, short horn) (if enabled)
 
    **Loco Select Button**
 
@@ -108,37 +112,100 @@ The Throttle Area allows you to:
 
    TODO
    
-   - Speed
-   - Direction
-   - Volume indicator
-   - Gamepad Indicator
+   * Speed
 
+     * Percent 10 - 100%
+     * Auto Speed steps
+     * 8 steps
+     * 10 steps
+     * 14 steps
+     * 28 steps
+     * 128 steps
+
+   * Direction
+   * Volume indicator
+   * Gamepad Indicator
+
+   Touch a Speed Indicator to set which Throttle the Hardware Volume buttons control.
+
+   .. note:: 
+      :class: note-ed-hidden-title
+
+      See the Throttle Control Preferences section of the `Preferences <../configuration/preferences.html#throttle-control-preferences>`_ page for a detailed explanation of the ``Speed Untits`` options.
 
    **Speed Slider Area**
 
    TODO
 
-   The Throttle may configured have simple buttons that allow you to increase or decrease the locomotive's speed in pre-defined steps.  Alternatively, the Throttle may be configured as a slider.  A slider can be configured as one-directional (0-100) or bi-directional (-100 - 0 - +100).  Bi-directional sliders are useful for when you are switching/shunting. i.e. moving backwards and forwards a lot.
+   The Throttle areas can be configured with a slider.  Dragging you finger along the slider will increase or decrease the speed of the loco(s) selected for the that Throttle. Pressing and holding your finger at one spot on the slider will cause |ED| to slowly increase or decrease the speed of the loco(s) selected for the that Throttle till it gets to that point.
+   
+   Depending on the ``Throttle Screen Layout`` chosen all sliders on the Throttle Screen will be either:
+   
+   * one-directional (0% - 100%) |br|\ or 
+   * bi-directional (-100% - 0 - +100%) 
+
+
+   Bi-directional sliders are useful for when you are switching/shunting. i.e. moving backwards and forwards a lot.
 
    **Speed Buttons**
 
    TODO
 
-   The Throttle may configured have simple buttons that allow you to increase or decrease the locomotive's speed in pre-defined steps.  Alternatively, the Throttle may be configured as a slider.  A slider can be configured as one-directional (0-100) or bi-directional (-100 - 0 - +100).  Bi-directional sliders are useful for when you are switching/shunting. i.e. moving backwards and forwards a lot.
+   The Throttle may configured have simple buttons that allow you to increase or decrease the locomotive's speed in pre-defined steps.  
 
-   Direction Buttons Area
+   **Direction Buttons Area**
 
    TODO
 
-   Function Buttons Scroll Area
+   **Function Buttons Scroll Area**
 
    TODO
 
    Function Buttons are displayed here.  If there are too many to display in the screen area allocated, then the area becomes scrollable (but without scroll bars) so that they can all be viewed and pressed as needed.
 
-   Web View Area
+   **Web View Area**
 
-   Your JMRI Layout panel is displayed here if you have configured it to do so in Preferences. TODO
+   Your JMRI Layout panel can be displayed here if you have configured it to do so in Preferences. 
+   
+   TODO
+
+Action Bar (Throttle Screen)
+""""""""""""""""""""""""""""
+
+While common across all the screens, the Action bar and menus has some options that are only available from the Throttle Screen. |br|\ These include:
+
+  * Flashlight (if enabled)
+  * Throttle Web View (if enabled)
+  * Throttle Layout Switching (if enabled)
+  * In Phone Loco Sound (if enabled)
+
+Common options include:
+
+  * All Stop (if enabled)
+  * Track Power (if enabled)
+
+      The optional buttons are enabled via the :menuselection:`Menu --> Preferences --> Throttle Screen Status Row Preferences`.
+
+
+TODO
+
+Background
+""""""""""
+
+TODO
+
+Immersive Mode (Full Screen)
+""""""""""""""""""""""""""""
+
+TODO
+
+Swipe Up / Down
+"""""""""""""""
+
+Accelerometer (Shake)  
+"""""""""""""""""""""
+
+TODO
 
 ----
 
@@ -217,7 +284,6 @@ Intro/Setup Wizard Screen
 
 TODO
 
-
 ----
 
 Loco Select Screen
@@ -239,13 +305,12 @@ Consist Lights Edit Screen
 
 TODO
 
-
 ----
 
 Power Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Accessed from any of the main screen by the : :menuselection:`Menu --> Preferences --> Left/Right Swipe Preferences --> Power` or from the Action Bar if enabled with the ``Layout Power button?`` preference: :menuselection:`Menu --> Preferences --> Throttle Screen Action Bar Preferences --> Layout Power button?`
+Accessed from any of the main screen via : :menuselection:`Menu --> Preferences --> Left/Right Swipe Preferences --> Power` or from the Action Bar if enabled with the ``Layout Power button?`` preference: :menuselection:`Menu --> Preferences --> Throttle Screen Action Bar Preferences --> Layout Power button?`.
 
 This screen allows you to toggle the state of track power to your layout.
 
@@ -259,14 +324,14 @@ This screen allows you to toggle the state of track power to your layout.
 Preferences Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Accessed from any of the main screens as ``Preferences``: :menuselection:`Menu --> Preferences`
+Accessed from any of the main screens via :menuselection:`Menu --> Preferences`.
 
-This screen allows you to configure **Engine Driver** for how you want it to operate for you.
+This screen allows you to personalise  **Engine Driver** for how you want it to use it.
 
 .. note:: 
-   :class: note-ed
+   :class: note-ed-hidden-title
 
-   See the `Preferences <../configuration/preferences.html>`_ page for details on the preferences that can be set.
+   See the `Preferences page <../configuration/preferences.html>`_ for details on the preferences that can be set.
 
 ----
 
@@ -293,7 +358,7 @@ Gamepad Test Screen
 
 TODO
 
-Accessed from the menu on the Throttle Screen as ``Gamepads`` -> ``Gamepad Test X``. (where 'X' is the number of the gamepad.)
+Accessed from the Throttle Screen via the :menuselection:`Menu --> Gamepads -> Gamepad Test X`. (where 'X' is the number of the gamepad.)
 
 ----
 
@@ -302,7 +367,7 @@ View Log Screen
 
 TODO
 
-Accessed from the menu on the any of the main screens as ``View Log``.
+Accessed from any of the main screens via :menuselection:`Menu --> View Log`.
 
 This screen allows you to view the internal Engine Driver log of events.
 This is sometimes useful for analysing problems.
@@ -326,12 +391,23 @@ This screen displays
 
 TODO 
 
-Common Elements
----------------
+Common Elements and Features
+----------------------------
 
 TODO
 
 ----
+
+Theme
+^^^^^
+
+TODO
+
+Localisation
+^^^^^^^^^^^^
+
+TODO
+
 
 Action Bar
 ^^^^^^^^^^
