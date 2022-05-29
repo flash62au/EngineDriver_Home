@@ -15,12 +15,12 @@ Gamepads
 Connecting your Gamepad to your Android Device/Phone
 ----------------------------------------------------
 
-The following instructions work for the **mocute** and **MagicSeeR1** gamepads. 
+The following instructions work for the **mocute 032** and **MagicSeeR1** gamepads. 
 Other devices require similar steps, but the mechanism to change the ``mode`` may be different. 
 
 * Turn on
   
-  * For the **mocute** gamepads
+  * For the **mocute 032** gamepads
   
     * On the gamepad, the small button is Start/Power. Press for a couple seconds until LED comes on. 
 
@@ -34,7 +34,7 @@ Other devices require similar steps, but the mechanism to change the ``mode`` ma
 * After pairing you should see an item in the Notifications regarding the gamepad. Click that item and make sure that “Show virtual keyboard” is ON. 
 * Set the mode of the gamepad:
 
-  * For the **mocute** gamepads (MTK mode)
+  * For the **mocute 032** gamepads (MTK mode)
   
     * Turn your gamepad OFF by holding the Start/Power button for about 5 seconds until the LED goes out and stays out. 
     * Move the slide switch on the side to the ``GAME`` position (towards the joystick). 
@@ -44,7 +44,7 @@ Other devices require similar steps, but the mechanism to change the ``mode`` ma
   
     * Turn the device on by moving the slide switch on the side to the ``ON`` position
     * Wait for the gamepad to connect to Android device (the LED will stop blinking)
-    * Hold down the :guilabel:`Mode` buton and press the :guilabel:`B` button. |br|\ |br|\ **This configuration procedure which must be done every time you turn it on**
+    * Hold down the :guilabel:`Mode` button and press the :guilabel:`B` button. |br|\ |br|\ **This configuration procedure which must be done every time you turn it on**
 
 We have found that some gamepads work well in **iCade** mode as well. Feel free to experiment. To use iCade mode, follow the steps above but use the button your instructions specify for iCade (typically “X”). 
 
@@ -58,12 +58,12 @@ Running Engine Driver with the Gamepad
 * In the **Engine Driver**
   * Select a gamepad type. |br|\ In the Gamepad section of **Engine Driver's** Preferences, select a gamepad corresponding to the gamepad mode you configured on the device (above).
 
-    * For the **mocute** gamepads we recommend ``MTK-rotate`` for MKT mode, and ``iCade+DPAD-rotate`` for iCade mode. 
+    * For the **mocute 032** gamepads we recommend ``MTK-rotate`` for MKT mode, and ``iCade+DPAD-rotate`` for iCade mode. 
     * For the **MagicSeeR1** you must use ``MagicSeeR1 Android-Game B``.
 
   * You can optionally change what the gamepad buttons do. (`See Gamepad Configuration <../configuration/gamepads.html>`_ for details.)
 
-* On the Throtttle Screen
+* On the Throttle Screen
 
   * When you press any of the buttons on the gamepad for the first time, a test screen will appear.  Press all four DPad buttons in turn and the Four main buttons to pass the test, and return to the Throttle screen.
 
@@ -100,7 +100,7 @@ Tested gamepads
 
 These we have had the most success with…
 
-**Mocute ...**
+**Mocute 032**
 
 .. image:: ../_static/images/gamepads/bt_controller1.jpg
    :scale: 50 %
@@ -111,16 +111,22 @@ Their quality is not brilliant which is reflected in the price, so don't expect 
 **MagicSeeR1**
 
 .. image:: ../_static/images/gamepads/bt_controller2.jpg
-   :scale: 50 %
+   :scale: 40 %
 
 This has been successful, **but you need to re-select 'mode B' every time you switch it on.**  
 These seem to be slightly better quality than the one above, but are more expensive.
 
 **Flydigi Wee 2**
 
+.. image:: ../_static/images/gamepads/flydigi_wee_2.png
+   :scale: 40 %
+
 This has been successful.
 
 **Utopia 360**
+
+.. image:: ../_static/images/gamepads/utopia_360.png
+   :scale: 75 %
 
 This has been successful with the 'Android C' mode.
 
@@ -149,7 +155,7 @@ Unsupported gamepads
 
 **VR Box**
 
-Support for this type of gamepad was removed from **Engine Driver**.
+Support for this type of gamepad was removed from **Engine Driver** as the device was so unreliable.  However is very similar to the Utopia 360, so if you have one that works, try the Utopia 360 options.
 
 .. image:: ../_static/images/gamepads/vrbox.png
    :scale: 70 %
