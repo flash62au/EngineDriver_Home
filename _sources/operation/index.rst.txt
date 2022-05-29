@@ -29,9 +29,9 @@ Quick Start / Getting Started
   
   * Make sure you are connected to same network as the WiThrottle server's network.
 
-  * Start **Engine Driver** 
+  * Start |ED| 
 
-    * The first time you run **Engine Driver** you will need to go through the Setup Wizard to agree to the permissions and select a few key preferences  
+    * The first time you run |ED| you will need to go through the Setup Wizard to agree to the permissions and select a few key preferences  
    
       See the `Setup Wizard <../configuration/setup_wizard.html>`_ page for more information.
 
@@ -40,7 +40,7 @@ Quick Start / Getting Started
   * Click on the Discovered server
 
     * If the server does not show up, check that are on the same network as the WiThrottle server.   
-    * If the server *never* appears in the discovered list, type in the IP address and Port of the WiThrottle server (Using the values shown on the JMRI WiThrottle window) and press :guilabel:`Connect`. |br|\ Note: this situation is sometimes possible even if you are on the same network. |br|\ |br|\ See the `WiFi connection page <./wifi_issues.html>`_ for more assistance if you have connection issues. |br|\ |br|\ 
+    * If the server *never* appears in the discovered list, type in the IP address and Port of the WiThrottle server (Using the values shown on the JMRI WiThrottle window) and press :guilabel:`Connect`. |br|\ Note: this situation is sometimes possible even if you are on the same network. |br|\ |br|\ See the `WiFi connection <./wifi_issues.html>`_ page for more assistance if you have connection issues. |br|\ |br|\ 
 
   * On the Throttle screen, click on the :guilabel:`Select` loco button
 
@@ -77,8 +77,8 @@ Connecting
 
 Connecting has two aspects:
 
-* Connecting to the correct WiFi network, which uses Android's build in capabilities (not **Engine Driver's**)
-* Connecting to the WiThrottle server
+* Connecting to the correct WiFi network, which uses Android's build in capabilities (not |EDs|)
+* Connecting |ED| to the WiThrottle server
 
 Connecting to the WiFi network
 """"""""""""""""""""""""""""""
@@ -99,8 +99,8 @@ Connecting to the WiFi network
 * Use Android's Network - Wifi settings to connect to the same network as your WiThrottle server
 * With some exceptions, your device's IP Address should be similar to the server's IP address (the first three blocks of numbers will be identical)
 
-  * For your Android device / phone, you can see its address in the **Engine Driver** menu option :menuselection:`Menu --> About`, at the top of the screen
-  * For a JMRI server, see the WiThrottle window for its address 
+  * For your Android device / phone, you can see its address in the |EDs| 'About Screen' (:menuselection:`Menu --> About`), at the top of the screen
+  * For a JMRI server, see the WiThrottle screen for its address 
   * For other devices, see the instructions for that device
 
 .. note:: 
@@ -161,7 +161,7 @@ Connecting the WiThrottle server
 
   To find your server's IP address and Port:
 
-    * For a JMRI server, see the WiThrottle window for its address 
+    * For a JMRI server, see the WiThrottle screen for its address 
     * For other devices, see the instructions for that device
 
 
@@ -175,8 +175,8 @@ Connecting the WiThrottle server
 
 ----
 
-Selecting / Releasing Locos and Consists/Multiple Units
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Selecting & Releasing Locos
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Selecting and releasing locos and Consists/Multiple Units is done from the Throttle Screen, by clicking on the :guilabel:`Select` button of one of the Throttles on the screen.
 

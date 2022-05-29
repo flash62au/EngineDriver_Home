@@ -247,7 +247,6 @@ Stop on direction change?
 * 'Pause' button Rate
 * 'Pause' button Step
 
-
 Consist Function Follow Preferences
 -----------------------------------
 

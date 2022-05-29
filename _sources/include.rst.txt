@@ -10,4 +10,6 @@
 ..
 .. |ED| replace:: **Engine Driver**
 ..
+.. |EDs| replace:: **Engine Driver's**
+..
 .. Use |ED|\ to remove the leading space if you need to follow it by a comma etc.

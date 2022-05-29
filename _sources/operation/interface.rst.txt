@@ -53,31 +53,66 @@ Throttle Screen
    :scale: 8 %
    :align: right
 
-TODO
+The Throttle Screen has two distinct areas:
+
+- The Action bar
+- One or more Throttles Areas
 
 This screen allows you to control:
 
-* The speed and direction of your trains
-* Initiate DCC decoder functions like the light, bell, horn 
-* Accesses the Action Bar buttons and Menu features
-  |br|\ These include:
-
-  * All Stop
-  * Track Power
-  * Flashlight
-  * Throttle Web View
-  * Throttle Layout Switching
-  * Layout Switching
-  * In Phone Loco Sound
-
-      The optionally configured buttons are configured via the Preferences > Throttle Screen Status Row Preferences.
+- Access common functions from the Action Bar and Menu
+- Control one or more locomotives or 
 
 The Throttle Screen contains between 1 and 6 Throttle areas depending on the Throttle layout chosen and the number of throttles for that layout (only some allow this to be changed).  
+
+While common across all the Screens, the Action bar and menus has has some options that are only available Throttle Screen. |br|\ These include:
+
+  * Flashlight (if enabled)
+  * Throttle Web View (if enabled)
+  * Throttle Layout Switching (if enabled)
+  * In Phone Loco Sound (if enabled)
+
+Common options include:
+
+  * All Stop (if enabled)
+  * Track Power (if enabled)
+
+      The optionally configured buttons are configured via the Preferences > Throttle Screen Status Row Preferences.
 
 Throttle Area
 """"""""""""""""""""""""""""""""""""
 
 Each Throttle on the Throttle Screen will display different information and buttons depending on the ``Throttle Screen Layout`` chosen: :menuselection:`Menu --> Preferences --> Throttle Screen Appearance Preferences -->`
+
+The Throttle Area allows you to:
+
+* Select and release locos 
+* Control the speed and direction of your trains
+* Activate DCC decoder functions like the light, bell, horn 
+* Activate IPLS Sounds (bell, horn, short horn) (if enabled)
+
+   **Loco Select Button**
+
+   The loco ``Select`` in the Throttle Area allows to select or release locos for that particular Throttle.  Click on the button and you will be taken to the Select Loco screen.
+
+   Once you have selected a loco, the label on the button change to the DCC Address(s) or the Roster name(s) of the Loco depending on how you select the loco in the Loco Select Screen, and if you have the set the ``Loco Address instead of Name?``: preference :menuselection:`Menu --> Preferences --> Throttle Screen Appearance Preferences --> Loco Address instead of Name?`.
+
+   When the button is displaying DCC Address(s) or the Roster name(s), click on the button again and you will be taken to the Select Loco screen where you can de-select the loco(s), select additional locos to make a consist / multiple unit train, edit the locos in the consist, or edit the lights of the locos in the consist / multiple unit.
+
+   .. note:: 
+      :class: note-ed-hidden-title
+
+      See the `Operation <../operation/index.html#selecting-releasing-locos>`_ page for more information.
+
+   **Speed indicator**
+
+   TODO
+   
+   - Speed
+   - Direction
+   - Volume indicator
+   - Gamepad Indicator
+
 
    **Speed Slider Area**
 
@@ -88,7 +123,7 @@ Each Throttle on the Throttle Screen will display different information and butt
    **Speed Buttons**
 
    TODO
-   
+
    The Throttle may configured have simple buttons that allow you to increase or decrease the locomotive's speed in pre-defined steps.  Alternatively, the Throttle may be configured as a slider.  A slider can be configured as one-directional (0-100) or bi-directional (-100 - 0 - +100).  Bi-directional sliders are useful for when you are switching/shunting. i.e. moving backwards and forwards a lot.
 
    Direction Buttons Area
