@@ -54,7 +54,7 @@ Running Engine Driver with the Gamepad
 * Set up the gamepad and connect to the Android device (see above)
 * Start **Engine Driver**
 * Connect to a wiThrottle server 
-* Select a loco as normal and return to the Throttle page. 
+* Select a loco as normal and return to the Throttle screen. 
 * In the **Engine Driver**
   * Select a gamepad type. |br|\ In the Gamepad section of **Engine Driver's** Preferences, select a gamepad corresponding to the gamepad mode you configured on the device (above).
 
@@ -65,7 +65,7 @@ Running Engine Driver with the Gamepad
 
 * On the Throtttle Screen
 
-  * When you press any of the buttons on the gamepad for the first time, a test page will appear.  Press all four DPad buttons in turn and the Four main buttons to pass the test, and return to the throttle page.
+  * When you press any of the buttons on the gamepad for the first time, a test screen will appear.  Press all four DPad buttons in turn and the Four main buttons to pass the test, and return to the Throttle screen.
 
     * Pressing :guilabel:`Skip` will complete the test and allow you to use the gamepad, even if it is not functioning correctly.  (e.g. The mode is incorrect)
     * Pressing :guilabel:`Reset` will reset all the gamepads you have connected, and will force you back to the test screen when attempt to use them again.

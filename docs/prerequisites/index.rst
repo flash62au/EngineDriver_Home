@@ -15,7 +15,7 @@ Prerequisites
 
 ALSO
 
-A *WiThrottle Server* must be available on a device connected to your model train layout which is available for **Engine Driver** to connect to.
+A *WiThrottle Server* must be available on a device connected to your model train layout for **Engine Driver** to connect to.
 
 Android Device/Phone
 --------------------

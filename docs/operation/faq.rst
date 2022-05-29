@@ -169,7 +169,7 @@ Q. No Locomotive Icons appear in the Roster
 
     * The **Web Server** (not just the WiThrottle server) is running on the JMRI server
     * The loco itself has an icon added for it in the JMRI roster |br|\ OR
-    * A locally cached or manually chosen image is available for the loco (see 'Locomotive Icons' on the `Operation page <../operations/index.html>`_)
+    * A locally cached or manually chosen image is available for the loco (see 'Locomotive Icons' on the `Operation screen <../operations/index.html>`_)
 
 Q. Why can't I control 6 locos
 
@@ -193,12 +193,12 @@ Q. I want to change the appearance of the app
 
 ----
 
-Changing the Throttle page
+Changing the Throttle screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Q. I want to change the appearance of Throttle Screen
 
-  A. There are a number of different Throttle Screen designs.  Look at the `Operation <../operaion/index.html>`_ page for details
+  A. There are a number of different Throttle Screen designs.  Look at the `Operation <../operaion/index.html>`_ screen for details
 
     * Default / Original /Horizontal
     * Simple  
@@ -215,7 +215,7 @@ Q. I want to change the appearance of Throttle Screen
 
 Q. I want vertical sliders, not horizontal
 
-  A. See the 'Simple' and 'Vertical' Throttle Page type options above.
+  A. See the 'Simple' and 'Vertical' Throttle screen type options above.
 
 Q. I want to control more than one train 
 
@@ -301,13 +301,13 @@ TODO
 
 ----
 
-Showing the web page at the bottom of the throttle page
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Showing the web page at the bottom of the throttle screen
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 TODO
 <also point to the swipe up option>
 
-Changing the loco selection page
+Changing the loco selection screen
 --------------------------------------------
 
 TODO
@@ -319,14 +319,14 @@ Locos in the roster not showing
 
 TODO
 
-Changing the connection page
+Changing the connection screen
 --------------------------------------------
 
 TODO
 
 Can't remove test server
 
-Changing the turnouts page
+Changing the turnouts screen
 --------------------------------------------
 
 TODO

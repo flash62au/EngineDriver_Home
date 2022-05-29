@@ -13,7 +13,7 @@ Note: some of the videos below were done on older versions of **Engine Driver**.
 		* Orientation 
 		* `Name <https://youtu.be/IgSCgUIYGls>`_
 		* `Themes <https://youtu.be/wD-1l3iMtTs>`_ 
-		* Throttle Page
+		* Throttle Screen
 			* `Throttle Layouts <https://youtu.be/mhuUskTWJ2k>`_
 			* Status bar
 			* `Number of throttles <https://youtu.be/L6ckXM7nrFg>`_ 
