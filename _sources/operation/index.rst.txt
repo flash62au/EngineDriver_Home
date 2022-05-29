@@ -401,6 +401,12 @@ Flashlight
 
 TODO
 
+Children's Timer
+^^^^^^^^^^^^^^^^
+
+
+TODO
+
 .. toctree::
     :hidden:
     :maxdepth: 1
@@ -409,4 +415,5 @@ TODO
     wifi_issues
     gamepads
     esu_mcii
+    childrens_timer
     faq

@@ -559,7 +559,7 @@ The Overflow Menu can display
 * Turnouts/Points
 * Routes
 * Web
-* PowerPreferences
+* Power
 * Function Defaults
 * Gamepads
 
@@ -570,3 +570,4 @@ The Overflow Menu can display
 * View Log
 * Exit
 * About
+
