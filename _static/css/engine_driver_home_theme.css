@@ -71,9 +71,8 @@ dl.footnote>dd p {
   font-size: 90% !important;
 }
 
-/*
-.rst-content .sidebar p {
+/* sidebar level 3 bullet points */
+.rst-content section ul.simple li ul li p {
   font-size: 80% !important;
-  line-height: 16px !important;
+  line-height: 110% !important;
 }
-*/
