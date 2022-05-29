@@ -312,10 +312,12 @@ Virtual Sounds - In Phone Loco Sounds (IPLS)
 
 TODO
 
-- steam
-- diesel
-- custom 
-- gamepads
+How to enable, change, mute.
+
+* steam
+* diesel
+* custom 
+* gamepads
 
 See `In Phone Loco Sounds (IPLS) <../configuration/ipls.html>`_ for more information.
 
@@ -344,16 +346,6 @@ In Phone Loco Sounds (IPLS)
 
 TODO
 
-Power
-""""""""""""""""""""""""""""""""""
-
-TODO
-
-Flashlight 
-""""""""""""""""""""""""""""""""""
-
-TODO
-
 ----
 
 Turnouts / Points
@@ -378,7 +370,7 @@ TODO
 ----
 
 Pushing Engine Driver to the Background
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 TODO
 
@@ -396,6 +388,20 @@ Exiting **Engine Driver**:
 
 * Disconnects from the WiThrottle server.
 * Stops playing all In Phone Loco Sounds (if any were configured).
+
+
+Odds and Ends
+-------------
+
+Power
+^^^^^
+
+TODO
+
+Flashlight 
+^^^^^^^^^^
+
+TODO
 
 .. toctree::
     :hidden:
