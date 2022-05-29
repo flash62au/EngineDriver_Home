@@ -92,10 +92,10 @@ As you connect each gamepad, you will be force to go to the gamepad test screen.
 
 An indicator ``1``, ``2`` etc. will show near the throttle speed to indicate which throttle each gamepad is controlling.  Only one gamepad can be active on a single throttle at one time.
 
-Sample gamepads 
+Example Gamepads 
 -----------------
 
-Tested gamepads
+Tested Gamepads
 ^^^^^^^^^^^^^^^
 
 These we have had the most success with…
@@ -143,14 +143,14 @@ This has been successful.  See below for the keystroke meanings when using a key
 Note: In the gamepad test screen, just select 'Skip' to use the keyboard.
 
 
-Not Recommended gamepads
+Not Recommended Gamepads
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
 These work, but have issues which make them not recommended. 
 
 TODO
 
-Unsupported gamepads
+Unsupported Gamepads
 ^^^^^^^^^^^^^^^^^^^^
 
 **VR Box**
