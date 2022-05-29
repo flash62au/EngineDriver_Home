@@ -26,7 +26,6 @@ You can also control layout power, turnouts/points, routes, and access JMRI web 
 .. image:: ./_static/images/screenshots/throttle_buttons.png
    :align: left
 
-
 Why Use Engine Driver
 ---------------------
 

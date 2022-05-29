@@ -38,6 +38,10 @@ WiThrottle Servers
 For JMRI
 """"""""
 
+.. image:: ../_static/images/wit_servers/jmri_withrottle_window.png
+  :align: right
+  :scale: 50%
+
 Verify your Android device can connect to your network via WiFi and obtain an IP address.
 Make sure you are running one of the latest versions of `JMRI <https://jmri.org/>`_ (3.8 works, 4.20+ works much better) on your PC, connected to your layout. 
 Start up JMRI and verify you can use JMRI's included 'Throttle' window to control a loco on your layout.
