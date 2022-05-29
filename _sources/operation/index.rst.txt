@@ -214,15 +214,13 @@ On the fly / In Phone Consists (Multiple Units)
 
 There four ways create a Consist / Multiple Unit train:
 
-  **Selecting additional locos, one loco 'at a time' (as above)**
+*  **Selecting additional locos, one loco 'at a time' (as above)**
 
-  * DCC Address
-  * Roster
-  * Recent Locos
+      * DCC Address
+      * Roster
+      * Recent Locos |br|\ |br|\ or
 
-  **Or by:**
-
-  * Recent Consists
+* By using the **Recent Consists** list |br|\ |br|\ 
 
   **One at a time**
 
@@ -266,70 +264,70 @@ From here you can:
 Controlling Speed
 """"""""""""""""""""""""""""""""""
 
-TODO
+  TODO
 
-There are six ways you can control the speed of of your loco or consist /multiple unit train:
+  There are six ways you can control the speed of of your loco or consist /multiple unit train:
 
-- Sliders (if available in the Throttle layout)
-- Speed buttons (if enabled)
-- Stop button
-- All Stop button (if enabled)
-- Pause button (if enabled)
-- Limit Speed button (if Enabled)
-- Volume keys
-- Gamepads (if connected)
+  - Sliders (if available in the Throttle layout)
+  - Speed buttons (if enabled)
+  - Stop button
+  - All Stop button (if enabled)
+  - Pause button (if enabled)
+  - Limit Speed button (if Enabled)
+  - Volume keys
+  - Gamepads (if connected)
 
 Controlling Direction
 """"""""""""""""""""""""""""""""""
 
-TODO
+  TODO
 
-There are three ways you can control the direction of your loco or consist /multiple unit train:
+  There are three ways you can control the direction of your loco or consist /multiple unit train:
 
-- throttle screen layouts with direction buttons
-- throttle screen layouts without direction buttons  (Switching/Shunting)
-- gamepads
+  - throttle screen layouts with direction buttons
+  - throttle screen layouts without direction buttons  (Switching/Shunting)
+  - gamepads
 
 DCC Functions
 """"""""""""""""""""""""""""""""""
 
-TODO
+  TODO
 
-There are two ways you can activate the DCC Functions of your loco or consist /multiple unit train:
+  There are two ways you can activate the DCC Functions of your loco or consist /multiple unit train:
 
-- Function Buttons
-- Gamepads (if connected)
+  - Function Buttons
+  - Gamepads (if connected)
 
-The actions of the DCC functions will be impacted depending on the settings and preferences you have selected:
+  The actions of the DCC functions will be impacted depending on the settings and preferences you have selected:
 
-- Common Functions
-- Function Labels
-- Functions in consists
-- gamepads
+  - Common Functions
+  - Function Labels
+  - Functions in consists
+  - gamepads
 
 Virtual Sounds - In Phone Loco Sounds (IPLS)
 """"""""""""""""""""""""""""""""""""""""""""
 
-TODO
+  TODO
 
-How to enable, change, mute.
+  How to enable, change, mute.
 
-* steam
-* diesel
-* custom 
-* gamepads
+  * steam
+  * diesel
+  * custom 
+  * gamepads
 
-See `In Phone Loco Sounds (IPLS) <../configuration/ipls.html>`_ for more information.
+  See `In Phone Loco Sounds (IPLS) <../configuration/ipls.html>`_ for more information.
 
 Gamepads  
 """"""""""""""""""""""""""""""""""
 
-TODO
+  TODO
 
-.. note:: 
-  :class: note-ed-hidden-title
+  .. note:: 
+    :class: note-ed-hidden-title
 
-  See `gamepads <./gamepads.html>`_ for more information.
+    See `gamepads <./gamepads.html>`_ for more information.
 
 Action Bar and Menu
 ^^^^^^^^^^^^^^^^^^^
