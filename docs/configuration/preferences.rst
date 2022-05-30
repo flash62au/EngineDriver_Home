@@ -35,7 +35,7 @@ Theme/Style
 """""""""""
 
   TODO
-  
+
   You can switch between different themes by changing this preference. 
 
   * The original theme 
@@ -234,7 +234,7 @@ Speed Units
 
    * Speed Units
 
-     * Percent 10 - 100%
+     * Percent 0 - 100%
      * Auto Speed steps
      * 8 steps
      * 10 steps
