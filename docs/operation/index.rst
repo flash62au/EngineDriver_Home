@@ -79,7 +79,7 @@ Connecting
 
 Connecting has two aspects:
 
-* Connecting to the correct WiFi network, which uses Android's build in capabilities (not |EDs|)
+* Connecting to the WiFi network, which uses Android's build in capabilities (not |EDs|)
 * Connecting |ED| to the WiThrottle server
 
 Connecting to the WiFi network
@@ -110,8 +110,8 @@ Connecting to the WiFi network
   
   Also see the `WiFi issues <./wifi_issues.html>`_ page if you are having difficulties.
 
-Connecting the WiThrottle server
-""""""""""""""""""""""""""""""""""
+Connecting Engine Driver to the WiThrottle server
+"""""""""""""""""""""""""""""""""""""""""""""""""
 
 .. sidebar:: 
   :class: sidebar-no-background
@@ -177,19 +177,19 @@ Connecting the WiThrottle server
 
 ----
 
-Power on the Layout
+Turn Track Power On
 ^^^^^^^^^^^^^^^^^^^
 
-Some DCC Command Stations need to be directed to turn the track power on before you can use them.  This is not required by all Command Stations so you may need to look at the manufacturers instructions.
+Some DCC Command Stations need to be instructed to turn the Track Power on before you can use them.  This is not required by all Command Stations so check your manufacturer's instructions.
 
-There are two ways to turn the power on/of:
+There are two ways to turn the Track Power on/off:
 
 * Power Screen - accessed from the menu
 * Power Action Bar button - needs to be enable in the preferences
  
-The Power Screen can be accessed from the :menuselection:`Menu --> Power`.  This will open the Power Screen where there is a simple button that to turn the power on or off. Use Android's ``Back`` button to return to the Throttle Screen.
+The *Power Screen* can be accessed from the :menuselection:`Menu --> Power`.  This will open the Power Screen where there is a simple button that to turn the power on or off. Use Android's ``Back`` button to return to the Throttle Screen.
 
-If the Power Action Bar button is enable, simply click on it to tur track power on or off.
+If the *Power Action Bar button* is enable, simply click on it to turn track power on or off.
 
 .. note:: 
   :class: note-ed-hidden-title
@@ -201,7 +201,7 @@ If the Power Action Bar button is enable, simply click on it to tur track power 
 ----
 
 Selecting & Releasing Locos
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Selecting and releasing locos and Consists/Multiple Units is done from the Throttle Screen, by clicking on the :guilabel:`Select` button of one of the Throttles on the screen.
 
@@ -222,7 +222,7 @@ There three ways select a loco:
 
   **Roster**
 
-  If the loco you want to control to is in the list, simply click on it and you will be taken back to the Throttle screen with that loco selected.
+  If the loco you want to control is in the list, simply click on it and you will be taken back to the Throttle screen with that loco selected.
 
   The Loco you want to control needs to be in the roster of the WiThrottle server.  Not all WiThrottle server support rosters.  Refer to the JMRI documentation or you WiThrottle server device's documentation for creating a roster.
 
@@ -237,7 +237,7 @@ There three ways select a loco:
 On the fly / In Phone Consists (Multiple Units)
 """"""""""""""""""""""""""""""""""""""""""""""""
 
-There four ways create a Consist / Multiple Unit train:
+There three ways create a Consist / Multiple Unit train:
 
 *  **Selecting additional locos, one loco 'at a time' (as above)**
 
@@ -251,13 +251,11 @@ There four ways create a Consist / Multiple Unit train:
 
   Adding additional locos the Consist / Multiple Unit train is identical to the process of selecting a single loco.  Simply click on the :guilabel:`Select` button, which will be showing the name or address of any locos already selected.
 
-  There is no real limit to the number of locos that can be added to a Consist / Multiple Unit.
+  After selecting each additional loco, you the Consist Edit screen will be shown. This allows you to:
 
-  After selecting each additional loco, you are presented with a screen that allows you to:
-
-  - Change the facing of each loco (except the front loco)
-  - Change the order of the locos in the Consist / Multiple Unit
-  - Remove locos in the Consist / Multiple Unit
+  * Change the facing of each loco (except the front loco)
+  * Change the order of the locos in the Consist / Multiple Unit
+  * Remove locos from the Consist / Multiple Unit
 
   **Recent Consists**
 
@@ -265,21 +263,22 @@ There four ways create a Consist / Multiple Unit train:
 
   Note:
 
-  * the order of the locos in the consist can be important.  By default, lights and sound functions are only sent to the first loco.  This can be overridden in the preferences.
+  * There is no real limit to the number of locos that can be added to a Consist / Multiple Unit.
+  * The order of the locos in the consist can be important.  By default, lights and sound functions are only sent to the first loco.  This can be overridden in the preferences.
 
 ----
 
 Running Trains
 ^^^^^^^^^^^^^^^
 
-Once you have selected a loco or consist / multiple unit for a throttle the names or addresses of the locos will be shown in the :guilabel:`Select` button of the throttle.
+Once you have selected a loco or consist / multiple unit for a throttle, the names or addresses of the locos will be shown in the :guilabel:`Select` button of the throttle.
 
 From here you can:
 
-- Control the speed and direction of you loco or consist / multiple unit
-- Activate the DCC functions for you loco or consist / multiple unit
-- Activate the Virtual Sounds 
-- Add or release locos.  
+* Control the speed and direction of you loco or consist / multiple unit
+* Activate the DCC functions for you loco or consist / multiple unit
+* Activate the Virtual Sounds 
+* Add or release locos.  
   
   .. note:: 
     :class: note-ed-hidden-title
@@ -289,28 +288,49 @@ From here you can:
 Controlling Speed
 """"""""""""""""""""""""""""""""""
 
-|todo|
-
 There are eight ways you can control the speed of of your loco or consist /multiple unit train:
 
-- Sliders (if available in the Throttle layout)
-- Speed buttons (if enabled)
-- Stop button
-- Volume keys
-- All Stop - Action Bar button (if enabled)
-- Pause button (if enabled)
-- Limit Speed button (if Enabled)
-- Gamepad keys (if connected)
+* Sliders (if available in the Throttle layout)
+* Speed buttons (if enabled)
+* Stop button
+* Volume keys
+* All Stop - Action Bar button (if enabled)
+* Pause button (if enabled)
+* Limit Speed button (if Enabled)
+* Gamepad keys (if connected)
 
   **Sliders**
 
   |todo|
 
+  Dragging you finger along the slider will increase or decrease the speed of the loco(s) selected for the that Throttle. Pressing and holding your finger at one spot on the slider will cause |ED| to slowly increase or decrease the speed of the loco(s) selected for the that Throttle till it gets to that point.
+   
+   Depending on the ``Throttle Screen Layout`` chosen all sliders on the Throttle Screen will be either:
+   
+   * one-directional (0% - 100%) |br|\ or 
+   * bi-directional (-100% - 0 - +100%) 
+
+  In most Throttle Screen layouts it is possible hide the Speed Sliders.  
+  
+  See the `Speed Slider and Buttons Preferences on the Preferences page <../configuration/preferences.html>`_ for more information.
+
   **Speed buttons**
 
   |todo|
 
+  The Throttle may configured have simple buttons that allow you to increase or decrease the loco's speed.  
+
   ``++`` and ``--`` buttons
+
+  Click on the ``Forward`` or ``Reverse`` buttons to increase of decrease the speed in by a defined Amount.
+
+  Click and Hold on the button continually increase the speed by a defined steps.
+
+  .. note:: 
+    :class: note-ed-hidden-title
+
+    See the Speed Step
+
 
   **Stop button**
 
@@ -338,17 +358,14 @@ There are eight ways you can control the speed of of your loco or consist /multi
 
   |todo|
 
-
 Controlling Direction
 """"""""""""""""""""""""""""""""""
 
-|todo|
-
 There are three ways you can control the direction of your loco or consist /multiple unit train:
 
-- throttle screen layouts with direction buttons
-- throttle screen layouts without direction buttons  (Switching/Shunting)
-- gamepad keys
+* Direction Buttons - for throttle screen layouts with direction buttons
+* Sliders - For throttle screen layouts without direction buttons  (Switching/Shunting)
+* Gamepad keys
 
   **Direction Buttons**
 
@@ -358,7 +375,7 @@ There are three ways you can control the direction of your loco or consist /mult
   * These can be swapped
   * Not available on the Switching/Shunting Throttle Screen layouts
 
-  **Switching/Shunting Throttle Screen layouts**
+  **Sliders - Switching/Shunting Throttle Screen layouts**
 
   |todo|
 
@@ -432,7 +449,7 @@ Action Bar and Menu
 
 |todo|
 
-Men=number
+Menu
 * common
 * screen specific
   
@@ -444,6 +461,8 @@ Track Power
 """"""""""""""""""""""""""""""""""
 
 |todo|
+
+Accessed from the :menuselection:`Menu --> Power` from most screens.
 
 * Menu item
 * Action Bar button
@@ -487,7 +506,6 @@ Panels and Web Pages
   * Web View
   * Web Screen
 
-
 ----
 
 Exiting Engine Driver
@@ -502,7 +520,6 @@ Exiting **Engine Driver**:
 
 * Disconnects from the WiThrottle server.
 * Stops playing all In Phone Loco Sounds (if any were configured).
-
 
 Odds and Ends
 -------------
@@ -522,7 +539,6 @@ Disconnections
 |todo|
 
 * Disable haptic Alert
-
 
 
 .. toctree::
