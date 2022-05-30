@@ -301,8 +301,6 @@ There are eight ways you can control the speed of of your loco or consist /multi
 
   **Sliders**
 
-  |todo|
-
   Dragging you finger along the slider will increase or decrease the speed of the loco(s) selected for the that Throttle. Pressing and holding your finger at one spot on the slider will cause |ED| to slowly increase or decrease the speed of the loco(s) selected for the that Throttle till it gets to that point.
    
    Depending on the ``Throttle Screen Layout`` chosen all sliders on the Throttle Screen will be either:
