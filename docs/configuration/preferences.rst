@@ -34,6 +34,8 @@ TODO
 Theme/Style
 """""""""""
 
+  TODO
+  
   You can switch between different themes by changing this preference. 
 
   * The original theme 
@@ -47,6 +49,21 @@ Localisation
 """"""""""""
 
   Changing this setting not only changes the language that is used, it also changes the railway terminology (eg, Selecting 'Use Phone’s global setting' and having this set to 'English (Australia)' then causes the term 'Points' to be displayed rather than 'Turnouts' as is displayed when 'English (US)' is selected). In the Preferences screen and the Throttle Screen Layout selection screen (where 'shunting' is displayed rather than 'switching').  This is not guaranteed to operate on all text on all screens. 
+
+  Supported localisations are:
+
+  * Use Phone's global setting  -  Any of the localisations below
+  * English (US) - Engine Driver's default
+  * English (UK) - Activated if you select 'Use Phone's global setting' and you system is set to English (UK)
+  * English (AUS) - Activated if you select 'Use Phone's global setting' and you system is set to English (AUS)
+  * English (NZ) - Activated if you select 'Use Phone's global setting' and you system is set to English (NZ)
+  * Italian
+  * Portuguese
+  * German
+  * Spanish
+  * Catalan
+  * French
+  * Czech
 
 Left/Right Swipe Preferences
 """"""""""""""""""""""""""""

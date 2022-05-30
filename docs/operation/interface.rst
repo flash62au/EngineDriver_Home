@@ -401,11 +401,34 @@ Theme
 
 TODO
 
+* Default
+* High Contrast
+* Outline
+* Dark
+* Colourful
+
 Localisation
 ^^^^^^^^^^^^
 
 TODO
 
+* Use Phone's global setting
+* English (US)  - Engine Driver's default
+* English (UK)
+* English (AUS)
+* English (NZ)
+* Italian
+* Portuguese
+* German
+* Spanish
+* Catalan
+* French
+* Czech
+
+.. note:: 
+   :class: note-ed-hidden-title
+
+   See `Localisation on the Preferences page <../configuration/preferences.html#Localisation>`_ for more information.
 
 Action Bar
 ^^^^^^^^^^
