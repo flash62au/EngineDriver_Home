@@ -367,6 +367,10 @@ There are eight ways you can control the speed of of your loco or consist /multi
 
   **Pause button**
 
+  .. image:: ../_static/images/parts/pause_button.png
+    :align: right
+    :scale: 50%
+  
   If enabled, the ``Pause`` button will gradually bring the Loco (or Consist / Multiple Units) on the Throttle to gradually step down to the zero speed.  Clicking the button again will gradually return the Loco (or Consist / Multiple Units) on the Throttle back to the speed that it was before you fist pressed the button.
 
   .. note:: 
@@ -376,6 +380,10 @@ There are eight ways you can control the speed of of your loco or consist /multi
 
   **Limit Speed button**
 
+  .. image:: ../_static/images/parts/limit_speed_button.png
+    :align: right
+    :scale: 50%
+  
   If enabled, the ``Limit Speed`` button will restrict the maximum speed on the Throttle to predefined amount. (Default is 50%)  Clicking the button again will take off the restriction. (i.e. back to 100%)
 
   This is commonly used for Switching/Shunting work VS mainline running.
@@ -387,7 +395,19 @@ There are eight ways you can control the speed of of your loco or consist /multi
 
   **Gamepad keys**
 
-  |todo|
+  .. image:: ../_static/images/gamepads/bt_controller2.jpg
+    :align: right
+    :scale: 20 %
+
+  Any keys and/or the any DPad directions can be configured to change Speed, Stop, Emergency Stop, Pause or Limit Speed.
+
+  .. note:: 
+    :class: note-ed-hidden-title
+
+    See the `Gamepads Operation page <./gamepads.html>`_ for information on selecting and using a gamepad.
+
+    See the `Gamepads Configuration page <../configuration/gamepads.html>`_ for information on configuring the keys of the gamepad.
+
 
 Controlling Direction
 """"""""""""""""""""""""""""""""""
@@ -399,6 +419,8 @@ There are three ways you can control the direction of your loco or consist /mult
 * Gamepad keys
 
   **Direction Buttons**
+
+  |todo|
 
   ``Forward`` and ``Reverse``
 
@@ -481,30 +503,41 @@ Action Bar and Menu
 |todo|
 
 Menu
+
 * common
 * screen specific
   
 Action Bar
+
 * common
 * screen specific
 
-Track Power
-""""""""""""""""""""""""""""""""""
+Menu
+""""
 
-|todo|
+  |todo|
 
-Accessed from the :menuselection:`Menu --> Power` from most screens.
+Action Bar
+""""""""""
 
-* Menu item
-* Action Bar button
 
-In Phone Loco Sounds (IPLS)
-""""""""""""""""""""""""""""""""""
+  **Track Power Action Bar Button** 
 
-|todo|
+  |todo|
 
-* Preferences
-* Action Bar Button
+
+  Accessed from the :menuselection:`Menu --> Power` from most screens.
+
+  * Menu item
+  * Action Bar button
+
+  **In Phone Loco Sounds (IPLS) Button**
+
+  |todo|
+
+  * Preferences
+  * Action Bar Button
+
 
 ----
 
