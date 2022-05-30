@@ -65,7 +65,7 @@
 <li class="toctree-l2"><a class="reference internal" href="wifi_issues.html">WiFi Issues</a></li>
 <li class="toctree-l2"><a class="reference internal" href="gamepads.html">Gamepads</a></li>
 <li class="toctree-l2"><a class="reference internal" href="esu_mcii.html">ESU MobileControl II</a></li>
-<li class="toctree-l2"><a class="reference internal" href="childrens_timer.html">Children’s Timer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="advanced.html">Advanced or Specialist Operation</a></li>
 <li class="toctree-l2"><a class="reference internal" href="faq.html">Frequently Asked Questions</a></li>
 </ul>
 </li>
@@ -124,21 +124,20 @@
 <li><p><a class="reference internal" href="#detailed-instructions" id="id7">Detailed Instructions</a></p>
 <ul>
 <li><p><a class="reference internal" href="#connecting" id="id8">Connecting</a></p></li>
-<li><p><a class="reference internal" href="#selecting-releasing-locos" id="id9">Selecting &amp; Releasing Locos</a></p></li>
-<li><p><a class="reference internal" href="#running-trains" id="id10">Running Trains</a></p></li>
-<li><p><a class="reference internal" href="#action-bar-and-menu" id="id11">Action Bar and Menu</a></p></li>
-<li><p><a class="reference internal" href="#turnouts-points" id="id12">Turnouts / Points</a></p></li>
-<li><p><a class="reference internal" href="#routes" id="id13">Routes</a></p></li>
-<li><p><a class="reference internal" href="#panels-and-web-pages" id="id14">Panels and Web Pages</a></p></li>
-<li><p><a class="reference internal" href="#pushing-engine-driver-to-the-background" id="id15">Pushing Engine Driver to the Background</a></p></li>
+<li><p><a class="reference internal" href="#power-on-the-layout" id="id9">Power on the Layout</a></p></li>
+<li><p><a class="reference internal" href="#selecting-releasing-locos" id="id10">Selecting &amp; Releasing Locos</a></p></li>
+<li><p><a class="reference internal" href="#running-trains" id="id11">Running Trains</a></p></li>
+<li><p><a class="reference internal" href="#action-bar-and-menu" id="id12">Action Bar and Menu</a></p></li>
+<li><p><a class="reference internal" href="#turnouts-points" id="id13">Turnouts / Points</a></p></li>
+<li><p><a class="reference internal" href="#routes" id="id14">Routes</a></p></li>
+<li><p><a class="reference internal" href="#panels-and-web-pages" id="id15">Panels and Web Pages</a></p></li>
 <li><p><a class="reference internal" href="#exiting-engine-driver" id="id16">Exiting Engine Driver</a></p></li>
 </ul>
 </li>
 <li><p><a class="reference internal" href="#odds-and-ends" id="id17">Odds and Ends</a></p>
 <ul>
-<li><p><a class="reference internal" href="#power" id="id18">Power</a></p></li>
-<li><p><a class="reference internal" href="#flashlight" id="id19">Flashlight</a></p></li>
-<li><p><a class="reference internal" href="#children-s-timer" id="id20">Children’s Timer</a></p></li>
+<li><p><a class="reference internal" href="#pushing-engine-driver-to-the-background" id="id18">Pushing Engine Driver to the Background</a></p></li>
+<li><p><a class="reference internal" href="#disconnections" id="id19">Disconnections</a></p></li>
 </ul>
 </li>
 </ul>
@@ -176,6 +175,7 @@
 <li><p>If the server <em>never</em> appears in the discovered list, type in the IP address and Port of the WiThrottle server (Using the values shown on the JMRI WiThrottle window) and press <span class="guilabel">Connect</span>. <br />Note: this situation is sometimes possible even if you are on the same network. <br /><br />See the <a class="reference external" href="./wifi_issues.html">WiFi connection</a> page for more assistance if you have connection issues. <br /><br /></p></li>
 </ul>
 </li>
+<li><p>If needed, turn the track power on with <span class="menuselection">Menu ‣ Power</span> and confirm the button is ‘green’  (This is not required by all DCC Command Stations.)</p></li>
 <li><p>On the Throttle screen, click on the <span class="guilabel">Select</span> loco button</p></li>
 <li><p>On the next (Loco Select) screen, either:</p>
 <ul>
@@ -279,8 +279,25 @@ Your server not appearing in the recent list is not necessarily a problem  See <
 </section>
 </section>
 <hr class="docutils" />
+<section id="power-on-the-layout">
+<h3><a class="toc-backref" href="#id9">Power on the Layout</a><a class="headerlink" href="#power-on-the-layout" title="Permalink to this heading"></a></h3>
+<p>Some DCC Command Stations need to be directed to turn the track power on before you can use them.  This is not required by all Command Stations so you may need to look at the manufacturers instructions.</p>
+<p>There are two ways to turn the power on/of:</p>
+<ul class="simple">
+<li><p>Power Screen - accessed from the menu</p></li>
+<li><p>Power Action Bar button - needs to be enable in the preferences</p></li>
+</ul>
+<p>The Power Screen can be accessed from the <span class="menuselection">Menu ‣ Power</span>.  This will open the Power Screen where there is a simple button that to turn the power on or off. Use Android’s <code class="docutils literal notranslate"><span class="pre">Back</span></code> button to return to the Throttle Screen.</p>
+<p>If the Power Action Bar button is enable, simply click on it to tur track power on or off.</p>
+<div class="note-ed-hidden-title admonition note">
+<p class="admonition-title">Note</p>
+<p>See the <a class="reference external" href="./interface.html#power-screen">Power section of the User Interface page</a> for more information.</p>
+<p>See the <a class="reference external" href="../configuration/preferences.html#throttle-screen-action-bar-preferences">Power Button option in the Preferences page</a> for more information on enabling the Power Button on the Action bar.</p>
+</div>
+</section>
+<hr class="docutils" />
 <section id="selecting-releasing-locos">
-<h3><a class="toc-backref" href="#id9">Selecting &amp; Releasing Locos</a><a class="headerlink" href="#selecting-releasing-locos" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id10">Selecting &amp; Releasing Locos</a><a class="headerlink" href="#selecting-releasing-locos" title="Permalink to this heading"></a></h3>
 <p>Selecting and releasing locos and Consists/Multiple Units is done from the Throttle Screen, by clicking on the <span class="guilabel">Select</span> button of one of the Throttles on the screen.</p>
 <p>(The Throttle screen may have from 1 to 6 throttles on it, depending on the <a class="reference external" href="../configuration/preferences.html#throttle-screen-appearance-preferences">Throttle Screen Layout preferences</a> you have chosen.)</p>
 <section id="selecting-a-single-loco">
@@ -337,7 +354,7 @@ Your server not appearing in the recent list is not necessarily a problem  See <
 </section>
 <hr class="docutils" />
 <section id="running-trains">
-<h3><a class="toc-backref" href="#id10">Running Trains</a><a class="headerlink" href="#running-trains" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id11">Running Trains</a><a class="headerlink" href="#running-trains" title="Permalink to this heading"></a></h3>
 <p>Once you have selected a loco or consist / multiple unit for a throttle the names or addresses of the locos will be shown in the <span class="guilabel">Select</span> button of the throttle.</p>
 <p>From here you can:</p>
 <ul>
@@ -353,55 +370,89 @@ Your server not appearing in the recent list is not necessarily a problem  See <
 </ul>
 <section id="controlling-speed">
 <h4>Controlling Speed<a class="headerlink" href="#controlling-speed" title="Permalink to this heading"></a></h4>
-<blockquote>
-<div><p>TODO</p>
-<p>There are six ways you can control the speed of of your loco or consist /multiple unit train:</p>
-<ul class="simple">
+<p><div style="color:red">TODO</div></p>
+<p>There are eight ways you can control the speed of of your loco or consist /multiple unit train:</p>
+<ul>
 <li><p>Sliders (if available in the Throttle layout)</p></li>
 <li><p>Speed buttons (if enabled)</p></li>
 <li><p>Stop button</p></li>
-<li><p>All Stop button (if enabled)</p></li>
+<li><p>Volume keys</p></li>
+<li><p>All Stop - Action Bar button (if enabled)</p></li>
 <li><p>Pause button (if enabled)</p></li>
 <li><p>Limit Speed button (if Enabled)</p></li>
-<li><p>Volume keys</p></li>
-<li><p>Gamepads (if connected)</p></li>
+<li><p>Gamepad keys (if connected)</p>
+<p><strong>Sliders</strong></p>
+<p><div style="color:red">TODO</div></p>
+<p><strong>Speed buttons</strong></p>
+<p><div style="color:red">TODO</div></p>
+<p><code class="docutils literal notranslate"><span class="pre">++</span></code> and <code class="docutils literal notranslate"><span class="pre">--</span></code> buttons</p>
+<p><strong>Stop button</strong></p>
+<p><div style="color:red">TODO</div></p>
+<p><strong>Volume Keys</strong></p>
+<p><div style="color:red">TODO</div></p>
+<p>Hardware <code class="docutils literal notranslate"><span class="pre">Volume</span> <span class="pre">Up</span></code> and <code class="docutils literal notranslate"><span class="pre">Volume</span> <span class="pre">Down</span></code> Android buttons</p>
+<p><strong>All Stop - Action Bar button</strong></p>
+<p><div style="color:red">TODO</div></p>
+<p><strong>Pause button</strong></p>
+<p><div style="color:red">TODO</div></p>
+<p><strong>Limit Speed button</strong></p>
+<p><div style="color:red">TODO</div></p>
+<p><strong>Gamepad keys</strong></p>
+<p><div style="color:red">TODO</div></p>
+</li>
 </ul>
-</div></blockquote>
 </section>
 <section id="controlling-direction">
 <h4>Controlling Direction<a class="headerlink" href="#controlling-direction" title="Permalink to this heading"></a></h4>
-<blockquote>
-<div><p>TODO</p>
+<p><div style="color:red">TODO</div></p>
 <p>There are three ways you can control the direction of your loco or consist /multiple unit train:</p>
-<ul class="simple">
+<ul>
 <li><p>throttle screen layouts with direction buttons</p></li>
 <li><p>throttle screen layouts without direction buttons  (Switching/Shunting)</p></li>
-<li><p>gamepads</p></li>
+<li><p>gamepad keys</p>
+<p><strong>Direction Buttons</strong></p>
+<p><code class="docutils literal notranslate"><span class="pre">Forward</span></code> and <code class="docutils literal notranslate"><span class="pre">Reverse</span></code></p>
+<ul class="simple">
+<li><p>These can be re-labeled</p></li>
+<li><p>These can be swapped</p></li>
+<li><p>Not available on the Switching/Shunting Throttle Screen layouts</p></li>
 </ul>
-</div></blockquote>
+<p><strong>Switching/Shunting Throttle Screen layouts</strong></p>
+<p><div style="color:red">TODO</div></p>
+<p><strong>Gamepad keys</strong></p>
+<p><div style="color:red">TODO</div></p>
+</li>
+</ul>
 </section>
 <section id="dcc-functions">
 <h4>DCC Functions<a class="headerlink" href="#dcc-functions" title="Permalink to this heading"></a></h4>
-<blockquote>
-<div><p>TODO</p>
+<p><div style="color:red">TODO</div></p>
 <p>There are two ways you can activate the DCC Functions of your loco or consist /multiple unit train:</p>
 <ul class="simple">
-<li><p>Function Buttons</p></li>
-<li><p>Gamepads (if connected)</p></li>
+<li><p>Function buttons</p></li>
+<li><p>Gamepads keys (if connected)</p></li>
 </ul>
 <p>The actions of the DCC functions will be impacted depending on the settings and preferences you have selected:</p>
-<ul class="simple">
+<ul>
 <li><p>Common Functions</p></li>
 <li><p>Function Labels</p></li>
-<li><p>Functions in consists</p></li>
-<li><p>gamepads</p></li>
+<li><p>Functions in consists</p>
+<p><strong>Function Buttons</strong></p>
+<p><div style="color:red">TODO</div></p>
+<p><strong>Gamepad Keys</strong></p>
+<p><div style="color:red">TODO</div></p>
+<p><strong>Common Functions</strong></p>
+<p><div style="color:red">TODO</div></p>
+<p><strong>Function Labels</strong></p>
+<p><div style="color:red">TODO</div></p>
+<p><strong>Functions in consists</strong></p>
+<p><div style="color:red">TODO</div></p>
+</li>
 </ul>
-</div></blockquote>
 </section>
 <section id="virtual-sounds-in-phone-loco-sounds-ipls">
 <h4>Virtual Sounds - In Phone Loco Sounds (IPLS)<a class="headerlink" href="#virtual-sounds-in-phone-loco-sounds-ipls" title="Permalink to this heading"></a></h4>
-<blockquote>
-<div><p>TODO</p>
+<p><div style="color:red">TODO</div></p>
 <p>How to enable, change, mute.</p>
 <ul class="simple">
 <li><p>steam</p></li>
@@ -410,50 +461,69 @@ Your server not appearing in the recent list is not necessarily a problem  See <
 <li><p>gamepads</p></li>
 </ul>
 <p>See <a class="reference external" href="../configuration/ipls.html">In Phone Loco Sounds (IPLS)</a> for more information.</p>
-</div></blockquote>
 </section>
 <section id="gamepads">
 <h4>Gamepads<a class="headerlink" href="#gamepads" title="Permalink to this heading"></a></h4>
-<blockquote>
-<div><p>TODO</p>
+<p><div style="color:red">TODO</div></p>
 <div class="note-ed-hidden-title admonition note">
 <p class="admonition-title">Note</p>
 <p>See <a class="reference external" href="./gamepads.html">gamepads</a> for more information.</p>
 </div>
-</div></blockquote>
 </section>
 </section>
 <section id="action-bar-and-menu">
-<h3><a class="toc-backref" href="#id11">Action Bar and Menu</a><a class="headerlink" href="#action-bar-and-menu" title="Permalink to this heading"></a></h3>
-<p>TODO</p>
+<h3><a class="toc-backref" href="#id12">Action Bar and Menu</a><a class="headerlink" href="#action-bar-and-menu" title="Permalink to this heading"></a></h3>
+<p><div style="color:red">TODO</div></p>
+<p>Men=number
+* common
+* screen specific</p>
+<p>Action Bar
+* common
+* screen specific</p>
 <section id="track-power">
 <h4>Track Power<a class="headerlink" href="#track-power" title="Permalink to this heading"></a></h4>
-<p>TODO</p>
+<p><div style="color:red">TODO</div></p>
+<ul class="simple">
+<li><p>Menu item</p></li>
+<li><p>Action Bar button</p></li>
+</ul>
 </section>
 <section id="id4">
 <h4>In Phone Loco Sounds (IPLS)<a class="headerlink" href="#id4" title="Permalink to this heading"></a></h4>
-<p>TODO</p>
+<p><div style="color:red">TODO</div></p>
+<ul class="simple">
+<li><p>Preferences</p></li>
+<li><p>Action Bar Button</p></li>
+</ul>
 </section>
 </section>
 <hr class="docutils" />
 <section id="turnouts-points">
-<h3><a class="toc-backref" href="#id12">Turnouts / Points</a><a class="headerlink" href="#turnouts-points" title="Permalink to this heading"></a></h3>
-<p>TODO</p>
+<h3><a class="toc-backref" href="#id13">Turnouts / Points</a><a class="headerlink" href="#turnouts-points" title="Permalink to this heading"></a></h3>
+<p><div style="color:red">TODO</div></p>
+<ul class="simple">
+<li><p>Address</p></li>
+<li><p>From the WiThrottle server</p></li>
+</ul>
 </section>
 <hr class="docutils" />
 <section id="routes">
-<h3><a class="toc-backref" href="#id13">Routes</a><a class="headerlink" href="#routes" title="Permalink to this heading"></a></h3>
-<p>TODO</p>
+<h3><a class="toc-backref" href="#id14">Routes</a><a class="headerlink" href="#routes" title="Permalink to this heading"></a></h3>
+<p><div style="color:red">TODO</div></p>
+<ul class="simple">
+<li><p>From the WiThrottle server</p></li>
+</ul>
 </section>
 <hr class="docutils" />
 <section id="panels-and-web-pages">
-<h3><a class="toc-backref" href="#id14">Panels and Web Pages</a><a class="headerlink" href="#panels-and-web-pages" title="Permalink to this heading"></a></h3>
-<p>TODO</p>
-</section>
-<hr class="docutils" />
-<section id="pushing-engine-driver-to-the-background">
-<h3><a class="toc-backref" href="#id15">Pushing Engine Driver to the Background</a><a class="headerlink" href="#pushing-engine-driver-to-the-background" title="Permalink to this heading"></a></h3>
-<p>TODO</p>
+<h3><a class="toc-backref" href="#id15">Panels and Web Pages</a><a class="headerlink" href="#panels-and-web-pages" title="Permalink to this heading"></a></h3>
+<p><div style="color:red">TODO</div></p>
+<ul class="simple">
+<li><p>Throttle Web View VS Web Screen</p></li>
+<li><p>Default page
+* Web View
+* Web Screen</p></li>
+</ul>
 </section>
 <hr class="docutils" />
 <section id="exiting-engine-driver">
@@ -472,17 +542,20 @@ Your server not appearing in the recent list is not necessarily a problem  See <
 </section>
 <section id="odds-and-ends">
 <h2><a class="toc-backref" href="#id17">Odds and Ends</a><a class="headerlink" href="#odds-and-ends" title="Permalink to this heading"></a></h2>
-<section id="power">
-<h3><a class="toc-backref" href="#id18">Power</a><a class="headerlink" href="#power" title="Permalink to this heading"></a></h3>
-<p>TODO</p>
+<section id="pushing-engine-driver-to-the-background">
+<h3><a class="toc-backref" href="#id18">Pushing Engine Driver to the Background</a><a class="headerlink" href="#pushing-engine-driver-to-the-background" title="Permalink to this heading"></a></h3>
+<p><div style="color:red">TODO</div></p>
+<ul class="simple">
+<li><p>Disable Alert</p></li>
+</ul>
 </section>
-<section id="flashlight">
-<h3><a class="toc-backref" href="#id19">Flashlight</a><a class="headerlink" href="#flashlight" title="Permalink to this heading"></a></h3>
-<p>TODO</p>
-</section>
-<section id="children-s-timer">
-<h3><a class="toc-backref" href="#id20">Children’s Timer</a><a class="headerlink" href="#children-s-timer" title="Permalink to this heading"></a></h3>
-<p>TODO</p>
+<hr class="docutils" />
+<section id="disconnections">
+<h3><a class="toc-backref" href="#id19">Disconnections</a><a class="headerlink" href="#disconnections" title="Permalink to this heading"></a></h3>
+<p><div style="color:red">TODO</div></p>
+<ul class="simple">
+<li><p>Disable haptic Alert</p></li>
+</ul>
 <div class="toctree-wrapper compound">
 </div>
 </section>

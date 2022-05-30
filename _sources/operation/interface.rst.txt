@@ -44,7 +44,7 @@ This screen is the first screen you normally see when starting |ED|\ .
 
 It allows you choose which WiThrottle Server to connect, which you must do to control your trains.
 
-TODO
+|todo|
 
 * Address and Port
 * Discovered Servers
@@ -110,7 +110,7 @@ Each *Throttle Area* allows you to:
 
    **Speed indicator**
 
-   TODO
+   |todo|
    
    * Speed
 
@@ -149,17 +149,17 @@ Each *Throttle Area* allows you to:
 
    **Speed Buttons**
 
-   TODO
+   |todo|
 
    The Throttle may configured have simple buttons that allow you to increase or decrease the locomotive's speed in pre-defined steps.  
 
    **Direction Buttons Area**
 
-   TODO
+   |todo|
 
    **Function Buttons Scroll Area**
 
-   TODO
+   |todo|
 
    Function Buttons are displayed here.  If there are too many to display in the screen area allocated, then the area becomes scrollable (but without scroll bars) so that they can all be viewed and pressed as needed.
 
@@ -187,17 +187,17 @@ Common options include:
       The optional buttons are enabled via the :menuselection:`Menu --> Preferences --> Throttle Screen Status Row Preferences`.
 
 
-TODO
+|todo|
 
 Background
 """"""""""
 
-TODO
+|todo|
 
 Immersive Mode (Full Screen)
 """"""""""""""""""""""""""""
 
-TODO
+|todo|
 
 Swipe Up / Down
 """""""""""""""
@@ -205,14 +205,14 @@ Swipe Up / Down
 Accelerometer (Shake)  
 """""""""""""""""""""
 
-TODO
+|todo|
 
 ----
 
 Turnouts/Points Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-TODO
+|todo|
 
 Accessed from any of the main screens by the :menuselection:`Menu --> Turnouts`` or :menuselection:`Menu --> Points` or by swiping right from the Throttle Screen if enabled in the Left with the ``Swipe through Turnouts?`` or ``Swipe through Points?`` preference: :menuselection:`Menu --> Preferences --> Left/Right Swipe Preferences --> Swipe through Turnouts/Points`
 
@@ -225,7 +225,7 @@ Turnouts/Points can be changed from Closed to Thrown and vice versa be pressing 
 Routes Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-TODO
+|todo|
 
 Accessed from any of the main screens by the menu :menuselection:`Menu --> Routes` or by swiping left from the Throttle Screen if enabled in the Left with the ``Swipe through Routes?`` preference: :menuselection:`Menu --> Preferences --> Left/Right Swipe Preferences --> Swipe through Routes`
 
@@ -236,7 +236,7 @@ This screen allows you to display all Routes that have been defined in JMRI or D
 Web Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-TODO
+|todo|
 
 Accessed from any of the main screens by the menu :menuselection:`Menu --> Web` or by swiping left or right twice from the Throttle Screen if enabled in the Left with the ``Swipe through Web?`` preference: :menuselection:`Menu --> Preferences --> Left/Right Swipe Preferences --> Swipe through Web`
 It can also be accessed, if the ``Screen orientation`` preference is set to ``Auto Web``, by rotating the Android Device/Phone.
@@ -275,35 +275,35 @@ Tap on any of the Open Windows to expand its view.  You can then resize the pane
 Secondary / Support Screens
 -------------------------------
 
-TODO
+|todo|
 
 ----
 
 Intro/Setup Wizard Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-TODO
+|todo|
 
 ----
 
 Loco Select Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-TODO
+|todo|
 
 ----
 
 Consist Edit Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-TODO
+|todo|
 
 ----
 
 Consist Lights Edit Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-TODO
+|todo|
 
 ----
 
@@ -338,7 +338,7 @@ This screen allows you to personalise  **Engine Driver** for how you want it to 
 In Phone Loco Sounds Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-TODO
+|todo|
 
 Accessed from Throttle Screen by the :menuselection:`Menu --> Loco Sounds` or from the Status Bar if enabled with the ``In phone sounds button`` preference.
 
@@ -347,7 +347,7 @@ Accessed from Throttle Screen by the :menuselection:`Menu --> Loco Sounds` or fr
 Function Defaults Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-TODO
+|todo|
 
 Accessed from the menu on the Throttle Screen as ``Function Defaults``.
 
@@ -356,7 +356,7 @@ Accessed from the menu on the Throttle Screen as ``Function Defaults``.
 Gamepad Test Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-TODO
+|todo|
 
 Accessed from the Throttle Screen via the :menuselection:`Menu --> Gamepads -> Gamepad Test X`. (where 'X' is the number of the gamepad.)
 
@@ -365,7 +365,7 @@ Accessed from the Throttle Screen via the :menuselection:`Menu --> Gamepads -> G
 View Log Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-TODO
+|todo|
 
 Accessed from any of the main screens via :menuselection:`Menu --> View Log`.
 
@@ -387,19 +387,19 @@ This screen displays
 * Information about the WiThrottle Server it is currently connected to (if any)
 * A page of basic information about **Engine Driver**
 
-TODO 
+|todo| 
 
 Common Elements and Features
 ----------------------------
 
-TODO
+|todo|
 
 ----
 
 Theme
 ^^^^^
 
-TODO
+|todo|
 
 * Default
 * High Contrast
@@ -410,7 +410,7 @@ TODO
 Localisation
 ^^^^^^^^^^^^
 
-TODO
+|todo|
 
 * Use Phone's global setting
 * English (US)  - Engine Driver's default
@@ -466,7 +466,7 @@ The optionally configured items are configured via the corresponding preferences
 All Stop
 """"""""
 
-TODO
+|todo|
 
 .. image:: ../_static/images/parts/estop.png
    :align: right
@@ -479,7 +479,7 @@ The *All Stop* Action Bar button is enable with the ...
 Track Power
 """""""""""
 
-TODO
+|todo|
 
 .. image:: ../_static/images/parts/power_green.png
    :align: right
@@ -492,7 +492,7 @@ The *Track Power* Action Bar button is enable with the ...
 Flashlight
 """"""""""
 
-TODO
+|todo|
 
 .. image:: ../_static/images/parts/flashlight_on.png
    :align: right
@@ -505,7 +505,7 @@ The *Flashlight* Action Bar button is enable with the ...
 Throttle Web View
 """""""""""""""""
 
-TODO
+|todo|
 
 .. image:: ../_static/images/parts/web_view.png
    :align: right
@@ -518,7 +518,7 @@ The *Throttle Web View* Action Bar button is enable with the ...
 In Phone Loco Sound
 """""""""""""""""""
 
-TODO
+|todo|
 
 .. image:: ../_static/images/parts/in_device_sounds_outline.png
    :align: right
@@ -542,7 +542,7 @@ The *Children's Timer Button* Action Bar button is enable with the ...
 Fast Clock
 """"""""""
 
-TODO
+|todo|
 
 .. image:: ../_static/images/parts/fast_clock.png
    :align: right
@@ -555,17 +555,17 @@ The *Fast Clock* Action Bar button is enable with the ...
 Children's Timer Status and Countdown
 """""""""""""""""""""""""""""""""""""
 
-TODO
+|todo|
 
 Full Screen or Action Bar Only left/right swipe
 """""""""""""""""""""""""""""""""""""""""""""""
 
-TODO
+|todo|
 
 WiThrottle Server Name
 """"""""""""""""""""""
 
-TODO
+|todo|
 
 
 

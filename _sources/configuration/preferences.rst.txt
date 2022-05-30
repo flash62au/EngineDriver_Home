@@ -14,9 +14,9 @@ Preferences
     
 ----
 
-* Show Advanced Preferences?
+**Show Advanced Preferences?**
   
-    Check this to show the additional preferences
+  By default, only a small number of core preferences are displayed. Check this preference to show the additional preferences.
 
 Device Preferences
 ------------------
@@ -24,57 +24,77 @@ Device Preferences
 Throttle Name
 """""""""""""
 
-  Use this to enter a unique name for your device/phone.  The name will appear in the wiThrottle window in JMRI.
+Use this to enter a unique name for your device/phone.  The name will appear in the wiThrottle window in JMRI.
   
 Screen orientation
 """"""""""""""""""
 
-TODO
+|todo|
+
+* Portrait
+* Landscape
+* Auto-Rotate
+* Auto-Web
 
 Theme/Style
 """""""""""
 
-  TODO
+|todo|
 
-  You can switch between different themes by changing this preference. 
+You can switch between different themes by changing this preference. 
 
-  * The original theme 
-  * The high contrast theme. |br|\ Similar to the original theme, without the textured background with deeper blacks and brighter whites. 
-  * The high contrast outline theme. |br|\ For people who like white text on a black background.
-  * The Dark theme. 
-  * The Colourful theme.
+* The original theme 
+* The high contrast theme. |br|\ Similar to the original theme, without the textured background with deeper blacks and brighter whites. 
+* The high contrast outline theme. |br|\ For people who like white text on a black background.
+* The Dark theme. 
+* The Colourful theme.
 
 
 Localisation
 """"""""""""
 
-  Changing this setting not only changes the language that is used, it also changes the railway terminology (eg, Selecting 'Use Phone’s global setting' and having this set to 'English (Australia)' then causes the term 'Points' to be displayed rather than 'Turnouts' as is displayed when 'English (US)' is selected). In the Preferences screen and the Throttle Screen Layout selection screen (where 'shunting' is displayed rather than 'switching').  This is not guaranteed to operate on all text on all screens. 
+Changing this setting not only changes the language that is used, it also changes the railroad/railway terminology (eg, Selecting 'Use Phone’s global setting' and having this set to 'English (Australia)' then causes the term 'Points' to be displayed rather than 'Turnouts' as is displayed when 'English (US)' is selected). In the Preferences screen and the Throttle Screen Layout selection screen (where 'shunting' is displayed rather than 'switching').  This is not guaranteed to operate on all text on all screens. 
 
-  Supported localisations are:
+Supported localisations are:
 
-  * Use Phone's global setting  -  Any of the localisations below
-  * English (US) - Engine Driver's default
-  * English (UK) - Activated if you select 'Use Phone's global setting' and you system is set to English (UK)
-  * English (AUS) - Activated if you select 'Use Phone's global setting' and you system is set to English (AUS)
-  * English (NZ) - Activated if you select 'Use Phone's global setting' and you system is set to English (NZ)
-  * Italian
-  * Portuguese
-  * German
-  * Spanish
-  * Catalan
-  * French
-  * Czech
+* Use Phone's global setting |br| -  Will use any of the localisations below and your system is set to it
+* English (US) |br| - Engine Driver's default
+* English (UK) |br| - Activated if you select 'Use Phone's global setting' and your system is set to English (UK)
+* English (AUS) |br| - Activated if you select 'Use Phone's global setting' and your system is set to English (AUS)
+* English (NZ) |br| - Activated if you select 'Use Phone's global setting' and your system is set to English (NZ)
+* Italian
+* Portuguese
+* German
+* Spanish
+* Catalan
+* French
+* Czech
 
 Left/Right Swipe Preferences
 """"""""""""""""""""""""""""
 
-  * Disable full screen Swipe?
-  * Swipe through Web?
-  * Swipe Through Turnouts?
-  * Swipe through Routes?
+|todo|
+
+**Disable full screen Swipe?**
+
+|todo|
+
+**Swipe through Web?**
+
+|todo|
+
+**Swipe Through Turnouts?**
+
+|todo|
+
+**Swipe through Routes?**
+
+|todo|
 
 Throttle Screen Appearance Preferences
 --------------------------------------
+
+|todo|
 
 Throttle Screen Layout
 """"""""""""""""""""""
@@ -120,366 +140,756 @@ Notes:
 Number of throttles 
 """""""""""""""""""
 
+|todo|
+
+
 Speed Slider and Buttons Preferences
 """"""""""""""""""""""""""""""""""""
 
-* Increase Slider/Speed Height?
-* Throttle Speed Slider Margin
-* Display Speed buttons?
-* Hide Speed Slider?
-* Hide Slider AND Speed Buttons?
-* Tick Marks on Speed Sliders?
-* Switching throttle Dead Zone
-* Stop Button Vertical Margins
+|todo|
+
+**Increase Slider/Speed Height?**
+
+|todo|
+
+**Throttle Speed Slider Margin**
+
+|todo|
+
+**Display Speed buttons?**
+
+|todo|
+
+**Hide Speed Slider?**
+
+|todo|
+
+**Hide Slider AND Speed Buttons?**
+
+|todo|
+
+**Tick Marks on Speed Sliders?**
+
+|todo|
+
+**Switching throttle Dead Zone**
+
+|todo|
+
+**Stop Button Vertical Margins**
    
+|todo|
+
 Haptic Feedback (Vibration)
 """""""""""""""""""""""""""
 
-* Haptic Feedback (Vibration)
-* Haptic Feedback Duration
-* Haptic Feedback on Button Presses
+|todo|
+
+**Haptic Feedback (Vibration)**
+
+|todo|
+
+**Haptic Feedback Duration**
+
+|todo|
+
+**Haptic Feedback on Button Presses**
  
+|todo|
+
 Direction Button Preferences
 """"""""""""""""""""""""""""
 
-* Swap Direction buttons?
-* Long press Swap Direction buttons?
-* Direction button Long Press Delay
-* Left Direction button Label
-* Right Direction button Label
-* Short Left Direction button Label
-* Short Right Direction button Label
+|todo|
+
+**Swap Direction buttons?**
+
+|todo|
+
+**Long press Swap Direction buttons?**
+
+|todo|
+
+**Direction button Long Press Delay**
+
+|todo|
+
+**Left Direction button Label**
+
+|todo|
+
+**Right Direction button Label**
+
+|todo|
+
+**Short Left Direction button Label**
+
+|todo|
+
+**Short Right Direction button Label**
  
+|todo|
+
 Decrease Loco No. height?
 """""""""""""""""""""""""
+
+|todo|
 
 Loco Address instead of Name?
 """""""""""""""""""""""""""""
 
+|todo|
+
 Default Function Preferences
 """"""""""""""""""""""""""""
 
-* Use default function labels?
-* Number of Default Functions
-* Number of Default Functions for Roster
+|todo|
+
+**Use default function labels?**
+
+|todo|
+
+**Number of Default Functions**
+
+|todo|
+
+**Number of Default Functions for Roster**
+
+|todo|
 
 Function Buttons Area size
 """"""""""""""""""""""""""
 
+|todo|
+
 Throttle Web View Preferences
 """""""""""""""""""""""""""""
 
-* Throttle Web View?
-* Larger Throttle Web View?
-* Initial throttle Web Page
+|todo|
+
+**Throttle Web View?**
+
+|todo|
+
+**Larger Throttle Web View?**
+
+|todo|
+
+**Initial throttle Web Page**
+
+|todo|
 
 Swipe Up-Down Preferences
 """""""""""""""""""""""""
 
-* Use Immersive Mode for Throttle view?
-* Hide Toolbar in Immersive Mode?
-* Swipe down action in the Throttle view?
-* Swipe up action in the Throttle screen?
-* Screen Dimming % Value
+|todo|
+
+**Use Immersive Mode for Throttle view?**
+
+|todo|
+
+**Hide Toolbar in Immersive Mode?**
+
+|todo|
+
+**Swipe down action in the Throttle view?**
+
+|todo|
+
+**Swipe up action in the Throttle screen?**
+
+|todo|
+
+**Screen Dimming % Value**
+
+|todo|
 
 Accelerometer (Shake) Preferences
 """""""""""""""""""""""""""""""""
 
-* Shake Action
-* Shake Threshold
+|todo|
+
+**Shake Action**
+
+|todo|
+
+**Shake Threshold**
+
+|todo|
 
 Background Image Preferences
 """"""""""""""""""""""""""""
 
-* Background Image
-* Background Image File Name
-* Background Image Position
+|todo|
+
+**Background Image**
+
+|todo|
+
+**Background Image File Name**
+
+|todo|
+
+**Background Image Position**
+
+|todo|
 
 Throttle Screen Action Bar Preferences
 --------------------------------------
 
+|todo|
+
 Emergency Stop button?
 """"""""""""""""""""""
+
+|todo|
 
 Layout Power button?
 """"""""""""""""""""
 
+|todo|
+
 Flashlight button?
 """"""""""""""""""
+
+|todo|
 
 Fast Clock Display
 """"""""""""""""""
 
+|todo|
+
 Throttle Web View button?
 """""""""""""""""""""""""
+
+|todo|
 
 Layout Switch Button Preferences
 """"""""""""""""""""""""""""""""
 
-* Show Layout Switch button?
-* First Screen Layout
-* Second Screen Layout
+|todo|
+
+**Show Layout Switch button?**
+
+|todo|
+
+**First Screen Layout**
+
+|todo|
+
+**Second Screen Layout**
+
+|todo|
 
 In phone sounds button
 """"""""""""""""""""""
 
+|todo|
+
 Show Server Description
 """""""""""""""""""""""
+
+|todo|
 
 Throttle Control Preferences
 ----------------------------
 
+|todo|
+
 Speed Units
 """""""""""
 
-   * Speed Units
+|todo|
 
-     * Percent 0 - 100%
-     * Auto Speed steps
-     * 8 steps
-     * 10 steps
-     * 14 steps
-     * 28 steps
-     * 128 steps
+ * Percent 0 - 100%
+ * Auto Speed steps
+ * 8 steps
+ * 10 steps
+ * 14 steps
+ * 28 steps
+ * 128 steps
 
 
 Maximum throttle Percentage
 """""""""""""""""""""""""""
 
+|todo|
+
 Maximum throttle Change
 """""""""""""""""""""""
+
+|todo|
 
 Speed button Change Amount
 """"""""""""""""""""""""""
 
+|todo|
+
 Speed button Repeat Delay
 """""""""""""""""""""""""
+
+|todo|
 
 Speed step on Decrement?
 """"""""""""""""""""""""
 
+|todo|
+
 Stop on Phone call?
 """""""""""""""""""
+
+|todo|
 
 Direction change while moving?
 """"""""""""""""""""""""""""""
 
+|todo|
+
 Stop on direction change?
 """""""""""""""""""""""""
+
+|todo|
 
 'Limit Speed' & 'Pause' button Preferences
 """"""""""""""""""""""""""""""""""""""""""
 
-* Show 'Limit Speed' button?
-* 'Limit Speed' button
-* Show 'Pause' button?
-* 'Pause' button Rate
-* 'Pause' button Step
+|todo|
+
+**Show 'Limit Speed' button?**
+
+|todo|
+
+**'Limit Speed' button**
+
+|todo|
+
+**Show 'Pause' button?**
+
+|todo|
+
+**'Pause' button Rate**
+
+|todo|
+
+**'Pause' button Step**
+
+|todo|
 
 Consist Function Follow Preferences
 -----------------------------------
 
+|todo|
+
 Consist Functions - Follow Rule Style
 """""""""""""""""""""""""""""""""""""
+
+|todo|
 
 Selective Lead Unit Sound?
 """"""""""""""""""""""""""
 
+|todo|
+
 Always treat F1 as Sound?
 """""""""""""""""""""""""
+
+|todo|
 
 Always treat F2 as Sound?
 """""""""""""""""""""""""
 
+|todo|
+
 If All matches Fail Action
 """"""""""""""""""""""""""
+
+|todo|
 
 Headlight specific String 1
 """""""""""""""""""""""""""
 
+|todo|
+
 Headlight specific Action 1
 """""""""""""""""""""""""""
+
+|todo|
 
 String 2
 """"""""
 
+|todo|
+
 Action for String 2
 """""""""""""""""""
+
+|todo|
 
 String 3
 """"""""
 
+|todo|
+
 Action for String 3
 """""""""""""""""""
+
+|todo|
 
 String 4
 """"""""
 
+|todo|
+
 Action for String 4
 """""""""""""""""""
+
+|todo|
 
 String 5
 """"""""
 
+|todo|
+
 Action for String 5
 """""""""""""""""""
 
-TODO
+|todo|
 
 
 Additional Throttle Control Source Preferences
 ----------------------------------------------
 
+|todo|
+
 Volume Button Preferences
 """""""""""""""""""""""""
 
-* Speed button Change Amount
-* Disable Volume keys?
-* Volume keys follow touch?
+|todo|
+
+**Speed button Change Amount**
+
+|todo|
+
+**Disable Volume keys?**
+
+|todo|
+
+**Volume keys follow touch?**
+
+|todo|
 
 Gamepad Preferences
 """""""""""""""""""
 
-* Gamepad type
-* Test Gamepad settings now!
-* Speed button Change Amount
-* Gamepad Button Click Volume %
-* Speed button Repeat Delay
-* Gamepad button action <!-- X -->
-* Gamepad button action <!-- Y -->
-* Gamepad button action <!-- A -->
-* Gamepad button action <!-- B -->
-* Gamepad button action <!-- Start(Lower) -->
-* Gamepad button action <!-- Return(Upper) -->
-* Gamepad DPAD Up action
-* Gamepad DPAD Right action
-* Gamepad DPAD Down action
-* Gamepad DPAD Left action
-* Swap Direction buttons with Screen buttons?
-* Enforce Gamepad Testing?
-* Use Simple Test?
+|todo|
+
+**Gamepad type**
+
+|todo|
+
+**Test Gamepad settings now!**
+
+|todo|
+
+**Speed button Change Amount**
+
+|todo|
+
+**Gamepad Button Click Volume %**
+
+|todo|
+
+**Speed button Repeat Delay**
+
+|todo|
+
+**Gamepad button action <!-- X -->**
+
+|todo|
+
+**Gamepad button action <!-- Y -->**
+
+|todo|
+
+**Gamepad button action <!-- A -->**
+
+|todo|
+
+**Gamepad button action <!-- B -->**
+
+|todo|
+
+**Gamepad button action <!-- Start(Lower) -->**
+
+|todo|
+
+**Gamepad button action <!-- Return(Upper) -->**
+
+|todo|
+
+**Gamepad DPAD Up action**
+
+|todo|
+
+**Gamepad DPAD Right action**
+
+|todo|
+
+**Gamepad DPAD Down action**
+
+|todo|
+
+**Gamepad DPAD Left action**
+
+|todo|
+
+**Swap Direction buttons with Screen buttons?**
+
+|todo|
+
+**Enforce Gamepad Testing?**
+
+|todo|
+
+**Use Simple Test?**
+
+|todo|
 
 ESU MobileControl II Options
 """"""""""""""""""""""""""""
 
+|todo|
+
 Device Stop button options
 """"""""""""""""""""""""""
 
-* Stop Button long-press delay
-* Enable Short Press
+|todo|
+
+**Stop Button long-press delay**
+
+|todo|
+
+**Enable Short Press**
+
+|todo|
 
 Device side button options
 """"""""""""""""""""""""""
 
-* Top-left button action
-* Bottom-left button action
-* Top-right button action
-* Bottom-right button action
-* Button repeat delay
+|todo|
+
+**Top-left button action**
+
+|todo|
+
+**Bottom-left button action**
+
+|todo|
+
+**Top-right button action**
+
+|todo|
+
+**Bottom-right button action**
+
+|todo|
+
+**Button repeat delay**
+
+|todo|
 
 Control Knob options
 """""""""""""""""""""""""
 
-* Control Knob Zero Trim
-* Direction Change at end-stop
-* Show disable Knob button
+|todo|
+
+**Control Knob Zero Trim**
+
+|todo|
+
+**Direction Change at end-stop**
+
+|todo|
+
+**Show disable Knob button**
+
+|todo|
 
 Additional selected loco Indicator
 """"""""""""""""""""""""""""""""""
+
+|todo|
 
 
 Voice Response Preferences
 """"""""""""""""""""""""""
 
-* Voice Response
-* On Gamepad Throttle change
-* On Gamepad Speeds
-* On Gamepad Test start
-* On Gamepad Test complete
-* On Gamepad Test key press
+|todo|
+
+**Voice Response**
+
+|todo|
+
+**On Gamepad Throttle change**
+
+|todo|
+
+**On Gamepad Speeds**
+
+|todo|
+
+**On Gamepad Test start**
+
+|todo|
+
+**On Gamepad Test complete**
+
+|todo|
+
+**On Gamepad Test key press**
+
+|todo|
 
 
 Select Loco Preferences
 -----------------------
 
+|todo|
+
 Stop on Release?
 """""""""""""""""""""""""
+
+|todo|
 
 Drop Loco before acquire?
 """""""""""""""""""""""""
 
+|todo|
+
 Allow loco select while moving?
 """""""""""""""""""""""""""""""
+
+|todo|
 
 Default Address Length
 """""""""""""""""""""""""
 
+|todo|
+
 Roster in Recent Locos?
 """""""""""""""""""""""""
+
+|todo|
 
 Roster Names in Recent Locos?
 """""""""""""""""""""""""""""
 
+|todo|
+
 Maximum Recent Locos
 """""""""""""""""""""""""
 
+|todo|
+
 Control consist Lights on long click
 """"""""""""""""""""""""""""""""""""
+
+|todo|
 
 Filter Roster
 """""""""""""""""""""""""
 
 
+|todo|
+
 In Phone Loco Sounds
 --------------------
+
+|todo|
 
 Throttle 1 Loco Sounds
 """""""""""""""""""""""""
 
+|todo|
+
 Throttle 2 Loco Sounds
 """""""""""""""""""""""""
+
+|todo|
 
 Additional Preferences
 """""""""""""""""""""""""
 
-* In Phone Momentum
-* Don't clip loco step sounds
-* In Phone Loco Sounds Volume
-* In Phone Bell Sounds Volume
-* In Phone Horn/Whistle Sounds Volume
-* Bell button Latching/Momentary
-* F1 and F2 activate Bell and Horn?
+|todo|
+
+**In Phone Momentum**
+
+|todo|
+
+**Don't clip loco step sounds**
+
+|todo|
+
+**In Phone Loco Sounds Volume**
+
+|todo|
+
+**In Phone Bell Sounds Volume**
+
+|todo|
+
+**In Phone Horn/Whistle Sounds Volume**
+
+|todo|
+
+**Bell button Latching/Momentary**
+
+|todo|
+
+**F1 and F2 activate Bell and Horn?**
+
+|todo|
 
 
 Connect Preferences
 -------------------
 
+|todo|
+
 Maximum Recent Connections
 """"""""""""""""""""""""""
 
-TODO
+|todo|
 
 Auto-Connect to WiThrottle Server?
 """"""""""""""""""""""""""""""""""
 
-TODO
+|todo|
 
 Hide Demo Server
 """""""""""""""""""""""""
 
-TODO
+|todo|
 
 Initial Connection Timeout
 """"""""""""""""""""""""""
 
+|todo|
+
 Socket Timeout
 """""""""""""""""""""""""
+
+|todo|
 
 Mobile Data connection?
 """""""""""""""""""""""""
 
+|todo|
+
 Feedback on Disconnect
 """""""""""""""""""""""""
+
+|todo|
 
 Background Alert
 """""""""""""""""""""""""
@@ -490,75 +900,77 @@ TODO
 Web Screen Preferences
 ----------------------
 
-TODO
+|todo|
 
 Web Screen Orientation
 """""""""""""""""""""""""
 
-TODO
+|todo|
 
 Initial Web Screen Page
 """""""""""""""""""""""""
 
-TODO
+|todo|
 
 Turnouts and Routes Preferences
 -------------------------------
 
-TODO
+|todo|
 
 Hide Sys Route Names?
 """""""""""""""""""""""""
 
-TODO
+|todo|
 
 Location Delimiter
 """""""""""""""""""""""""
 
-TODO
+|todo|
 
 Hide if no user name?
 """""""""""""""""""""""""
 
-TODO
+|todo|
 
 Children's (Timer) Preferences
 ------------------------------
 
+|todo|
+
 Time limited running
 """""""""""""""""""""""""
 
-TODO
+|todo|
 
 Restart Password
 """""""""""""""""""""""""
 
-TODO
+|todo|
 
 Reset/Disable Password
 """""""""""""""""""""""""
 
-TODO
+|todo|
 
 Allow Reverse?
 """""""""""""""""""""""""
 
-TODO
+|todo|
 
 Show Timer button?
 """""""""""""""""""""""""
 
-TODO
+|todo|
 
 Default time for Button
 """""""""""""""""""""""""
 
-TODO
+|todo|
 
 Notes for the Timer:
 """""""""""""""""""""""""
 
-TODO
+|todo|
 
 Import/Export/Reset & Log Preferences
 -------------------------------------
@@ -566,32 +978,34 @@ Import/Export/Reset & Log Preferences
 Import, Export or Reset
 """""""""""""""""""""""""
 
-TODO
+|todo|
 
 Import from current Server (manually)
 """""""""""""""""""""""""""""""""""""
 
-TODO
+|todo|
 
 Auto import from all Servers?
 """""""""""""""""""""""""""""
 
-TODO
+|todo|
 
 Include recent loco list?
 """""""""""""""""""""""""
 
-TODO
+|todo|
 
 Auto host specific import/export?
 """""""""""""""""""""""""""""""""
 
-TODO
+|todo|
 
 Manual host specific import/export
 """"""""""""""""""""""""""""""""""
 
-TODO
+|todo|
 
 Show Timestamps on Log?
 """""""""""""""""""""""""
+
+|todo|

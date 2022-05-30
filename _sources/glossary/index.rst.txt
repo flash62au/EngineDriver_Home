@@ -39,18 +39,18 @@ Consist  / Multiple Units
   Multiple locos hauling a singe train
 
 Turnouts / Points
-  TODO
+  |todo|
 
 Switching / Shunting
   The process of moving individual carriages to/from specific locations on yards or sidings
 
 loco / locomotive / engine 
-  TODO
+  |todo|
 
 Command Station / DCC Command Station / DCC Base Station
-  TODO
+  |todo|
 
 References
 ----------
 
-TODO
+|todo|
