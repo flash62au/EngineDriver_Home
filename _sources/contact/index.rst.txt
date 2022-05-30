@@ -10,17 +10,18 @@ Support & Contact
 email
 -----
 
-`mstevetodd@mstevetodd.com <mailto:mstevetodd@mstevetodd.com>`_
+Contact the developers:
 
-`akersp62@gmail.com <mailto:akersp62@gmail.com>`_
+* `mstevetodd@mstevetodd.com <mailto:mstevetodd@mstevetodd.com>`_
+* `akersp62@gmail.com <mailto:akersp62@gmail.com>`_
 
 
 Forums
 ------
 
-`groups.io <https://groups.io/g/jmriusers/topics>`_
+Raise questions on the `groups.io <https://groups.io/g/jmriusers/topics>`_ forum.
 
 Facebook
 --------
 
-`Users of JMRI <https://www.facebook.com/groups/763694213706645>`_
+Raise questions on the `Users of JMRI <https://www.facebook.com/groups/763694213706645>`_ Facebook group.

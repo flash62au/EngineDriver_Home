@@ -114,7 +114,7 @@ Each *Throttle Area* allows you to:
    
    * Speed
 
-     * Percent 10 - 100%
+     * Percent 0 - 100%
      * Auto Speed steps
      * 8 steps
      * 10 steps
