@@ -72,7 +72,7 @@ dl.footnote>dd p {
 }
 
 /* sidebar level 3 bullet points */
-.rst-content section ul.simple li ul li p {
+div#on-this-page ul.simple li ul li p {
   font-size: 80% !important;
-  line-height: 110% !important;
+  line-height: 120% !important;
 }

@@ -21,7 +21,7 @@ Quick Start / Getting Started
 * **Start your WiThrottle server**
 
   * For JMRI, Start the `WiThrottle <https://www.jmri.org/help/en/package/jmri/jmrit/withrottle/Protocol.shtml>`_ function of JMRI, located in DecoderPro under Tools, Throttles. |br|\ It is also highly recommended that you start the `JMRI Web Server function <https://www.jmri.org/help/en/html/web/index.shtml>`_ (Tools, Start JMRI Web Server). 
-  * For other devices, turning them on a waiting a minute or two should be sufficient.
+  * For other devices, turning them on and waiting a minute or two should be sufficient.
 
     See the `Prerequisites <../prerequisites/index.html>`_ page for more information.
 
