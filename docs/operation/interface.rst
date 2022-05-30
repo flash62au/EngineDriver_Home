@@ -481,7 +481,7 @@ Track Power
 
 TODO
 
-.. image:: ../_static/images/parts/power_green_outline.png
+.. image:: ../_static/images/parts/power_green.png
    :align: right
    :scale: 50%
 
@@ -494,7 +494,7 @@ Flashlight
 
 TODO
 
-.. image:: ../_static/images/parts/flashlight_on_outline.png
+.. image:: ../_static/images/parts/flashlight_on.png
    :align: right
    :scale: 50%
 
