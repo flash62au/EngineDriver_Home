@@ -7,8 +7,6 @@ Gamepads
 
 .. include:: ../include.rst
 
-----
-
 Selecting a Gamepad Type
 ^^^^^^^^^^^^^^^^^^^^^^^^
 

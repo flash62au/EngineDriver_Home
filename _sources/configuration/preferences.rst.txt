@@ -10,7 +10,7 @@ Preferences
 .. sidebar::
 
   .. contents:: On This Page
-    :depth: 2
+    :depth: 3
     
 ----
 
@@ -515,43 +515,13 @@ Headlight specific Action 1
 
 |todo|
 
-String 2
-""""""""
+String 2, 3, 4, 5
+"""""""""""""""""
 
 |todo|
 
-Action for String 2
-"""""""""""""""""""
-
-|todo|
-
-String 3
-""""""""
-
-|todo|
-
-Action for String 3
-"""""""""""""""""""
-
-|todo|
-
-String 4
-""""""""
-
-|todo|
-
-Action for String 4
-"""""""""""""""""""
-
-|todo|
-
-String 5
-""""""""
-
-|todo|
-
-Action for String 5
-"""""""""""""""""""
+Action for String 2, 3, 4, 5
+""""""""""""""""""""""""""""
 
 |todo|
 
