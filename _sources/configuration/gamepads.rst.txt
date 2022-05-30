@@ -19,7 +19,10 @@ Choose a gamepad type in the ``Gamepad type`` preference.  Available options inc
 * DIY Arduino ESP32 + keypad + Rotary Encoder
 * Normal Keyboard
 
-See `Selecting Gamepads </operation/gamepads.html#sample-gamepads>`_ for more information.
+  .. note:: 
+    :class: note-ed-hidden-title
+
+    See `Selecting Gamepads </operation/gamepads.html#sample-gamepads>`_ for more information.
 
 Configuring the buttons
 ^^^^^^^^^^^^^^^^^^^^^^^
