@@ -181,7 +181,7 @@ While common across all the screens, the Action bar and menus has some options t
 
 Common options include:
 
-  * All Stop (if enabled)
+  * Emergency Stop (if enabled)
   * Track Power (if enabled)
 
       The optional buttons are enabled via the :menuselection:`Menu --> Preferences --> Throttle Screen Status Row Preferences`.
@@ -451,7 +451,7 @@ The Action Bar can display:
 
 * Optionally configured buttons:
 
-  * All Stop  (EStop)
+  * Emergency Stop  (EStop)
   * Track Power
   * Flashlight
   * Throttle Web View
@@ -463,8 +463,8 @@ The Action Bar can display:
 
 The optionally configured items are configured via the corresponding preferences in the ``Throttle Screen Action Bar Preferences`` preference group.
 
-All Stop
-""""""""
+Emergency Stop
+""""""""""""""
 
 |todo|
 
@@ -472,9 +472,9 @@ All Stop
    :align: right
    :scale: 50%
 
-The *All Stop* Action Bar button is enable with the ...
+The *Emergency Stop* Action Bar button is enable with the ...
 
-*All Stop*, when pressed ...
+*Emergency Stop*, when pressed ...
 
 Track Power
 """""""""""

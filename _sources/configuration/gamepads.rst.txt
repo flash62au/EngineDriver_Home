@@ -26,7 +26,7 @@ Configuring the buttons
 
 All the buttons, plus the four directions of the DPad, can be set to any of the following actions:
 
-* All Stop |br|\ Stops all locos controlled by the device only.
+* Emergency Stop |br|\ Stops all locos controlled by the device only.
 * Stop
 * Forward
 * Reverse

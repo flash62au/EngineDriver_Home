@@ -294,7 +294,7 @@ There are eight ways you can control the speed of of your loco or consist /multi
 * Speed buttons (if enabled)
 * Stop button
 * Volume keys
-* All Stop - Action Bar button (if enabled)
+* Emergency Stop - Action Bar button (if enabled)
 * Pause button (if enabled)
 * Limit Speed button (if Enabled)
 * Gamepad keys (if connected)
@@ -312,15 +312,11 @@ There are eight ways you can control the speed of of your loco or consist /multi
 
   In most Throttle Screen layouts it is possible hide the Speed Sliders.  
   
-  See the `Speed Slider and Buttons Preferences on the Preferences page <../configuration/preferences.html>`_ for more information.
+  See the `Speed Slider and Buttons section on the Preferences page <../configuration/preferences.html>`_ for more information.
 
   **Speed buttons**
 
-  |todo|
-
-  The Throttle may configured have simple buttons that allow you to increase or decrease the loco's speed.  
-
-  ``++`` and ``--`` buttons
+  The Throttles on the Throttle Screen may configured have ``++`` and ``--`` *Speed Buttons* that allow you to increase or decrease the loco's speed.  
 
   Click on the ``Forward`` or ``Reverse`` buttons to increase of decrease the speed in by a defined Amount.
 
@@ -329,30 +325,65 @@ There are eight ways you can control the speed of of your loco or consist /multi
   .. note:: 
     :class: note-ed-hidden-title
 
-    See the Speed Step
+    See the ``Display Speed buttons?`` preference in the `Speed Slider and Buttons section on the Preferences page <../configuration/preferences.html>`_ for more information on enabling the *Speed Buttons*.
 
+    See the `Throttle Screen Layout preference on the Preferences page <../configuration/preferences.html#throttle-screen-layout>`_ for more information on the Throttle Screen Layouts that support *Speed Buttons*.
+
+    See the `Speed button Change Amount preference in the Throttle Control Preferences section on the Preferences page <../configuration/preferences.html#speed-button-change-amount>`_ for more information on changing how much the speed changes on each click.
 
   **Stop button**
 
-  |todo|
+  Click on the ``Stop`` button of a Throttle on the Throttle Screen to stop all the select Locos for that Throttle.  If you have momentum configured for in the decoders in the locos, they will gradually come to a stop.
 
   **Volume Keys**
 
-  |todo|
+  The ``Volume Up`` and ``Volume Down`` hardware keys of your device / phone act exactly the same at as the Speed Buttons of the 'current' Throttle. 
 
-  Hardware ``Volume Up`` and ``Volume Down`` Android buttons
+  Click on the ``Volume Up`` and ``Volume Down`` buttons to increase of decrease the speed in by a defined Amount.
 
-  **All Stop - Action Bar button**
+  Click and Hold on the button continually increase the speed by a defined steps.
 
-  |todo|
+  The *Volume Keys* can only affect one throttle at a time.  Which throttle is being controlled by a small 'V' in the Throttle Speed amount area. To change to another Throttle, click on the Throttle Speed amount area of another Throttle.
+
+  .. note:: 
+    :class: note-ed-hidden-title
+
+    See the `Volume Button Preferences section on the Preferences page <../configuration/preferences.html#speed-button-change-amount>`_ for more information on disabling the Volume Keys and changing how much the speed changes on each click. 
+
+  **Emergency Stop - Action Bar button**
+
+  .. image:: ../_static/images/parts/estop.png
+    :align: right
+    :scale: 50%
+  
+  If enabled, the ``Emergency Stop`` button on the Action Bar will attempt to stop all the locos on all the Throttles controlled by your device / phone as quickly as possible.
+
+  It *does not* stop locos controlled by other people / controllers.
+
+  .. note:: 
+    :class: note-ed-hidden-title
+
+    See the `Emergency Stop button? Preference on the Preferences page <../configuration/preferences.html#emergency-stop-button>`_ for more information on enabling the ``Emergency Stop`` button. 
 
   **Pause button**
 
-  |todo|
+  If enabled, the ``Pause`` button will gradually bring the Loco (or Consist / Multiple Units) on the Throttle to gradually step down to the zero speed.  Clicking the button again will gradually return the Loco (or Consist / Multiple Units) on the Throttle back to the speed that it was before you fist pressed the button.
+
+  .. note:: 
+    :class: note-ed-hidden-title
+
+    See the `'Limit Speed' & 'Pause' button Preferences section on the Preferences page <../configuration/preferences.html#id41>`_ for more information on enabling the ``Pause`` button. 
 
   **Limit Speed button**
 
-  |todo|
+  If enabled, the ``Limit Speed`` button will restrict the maximum speed on the Throttle to predefined amount. (Default is 50%)  Clicking the button again will take off the restriction. (i.e. back to 100%)
+
+  This is commonly used for Switching/Shunting work VS mainline running.
+
+  .. note:: 
+    :class: note-ed-hidden-title
+
+    See the `'Limit Speed' & 'Pause' button Preferences section on the Preferences page <../configuration/preferences.html#id41>`_ for more information on enabling the ``Limit Speed`` button. 
 
   **Gamepad keys**
 
