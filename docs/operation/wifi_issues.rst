@@ -25,7 +25,7 @@ If you missed the prompt, you can 'forget' the network, and reenter your WiFi cr
 Firewalls
 ---------
 
-TODO
+|todo|
 
 Your PC's firewall software can prevent **Engine Driver** from connecting. You may need to add an exception in your firewall software for JMRI or disable the firewall to allow **Engine Driver** to connect.
 
@@ -48,3 +48,12 @@ Some provide a notification that "Wi-Fi has no internet access, Tap for options"
 If you missed the prompt, you can "forget" the network, and reenter your WiFi credentials to get the prompt again.
 
 Workaround: If you are unable to turn off the feature, you can enable 'Airplane Mode', then enable ONLY WiFi, and then connect your WiFi.
+
+
+Disconnections
+--------------
+
+|todo|
+
+* Disable haptic Alert
+

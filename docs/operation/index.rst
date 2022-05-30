@@ -42,6 +42,8 @@ Quick Start / Getting Started
     * If the server does not show up, check that are on the same network as the WiThrottle server.   
     * If the server *never* appears in the discovered list, type in the IP address and Port of the WiThrottle server (Using the values shown on the JMRI WiThrottle window) and press :guilabel:`Connect`. |br|\ Note: this situation is sometimes possible even if you are on the same network. |br|\ |br|\ See the `WiFi connection <./wifi_issues.html>`_ page for more assistance if you have connection issues. |br|\ |br|\ 
 
+  * If needed, turn the track power on with :menuselection:`Menu --> Power` and confirm the button is 'green'  (This is not required by all DCC Command Stations.)
+  
   * On the Throttle screen, click on the :guilabel:`Select` loco button
 
   * On the next (Loco Select) screen, either:
@@ -175,6 +177,29 @@ Connecting the WiThrottle server
 
 ----
 
+Power on the Layout
+^^^^^^^^^^^^^^^^^^^
+
+Some DCC Command Stations need to be directed to turn the track power on before you can use them.  This is not required by all Command Stations so you may need to look at the manufacturers instructions.
+
+There are two ways to turn the power on/of:
+
+* Power Screen - accessed from the menu
+* Power Action Bar button - needs to be enable in the preferences
+ 
+The Power Screen can be accessed from the :menuselection:`Menu --> Power`.  This will open the Power Screen where there is a simple button that to turn the power on or off. Use Android's ``Back`` button to return to the Throttle Screen.
+
+If the Power Action Bar button is enable, simply click on it to tur track power on or off.
+
+.. note:: 
+  :class: note-ed-hidden-title
+
+  See the `Power section of the User Interface page <./interface.html#power-screen>`_ for more information.
+  
+  See the `Power Button option in the Preferences page <../configuration/preferences.html#throttle-screen-action-bar-preferences>`_ for more information on enabling the Power Button on the Action bar.
+
+----
+
 Selecting & Releasing Locos
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -264,113 +289,204 @@ From here you can:
 Controlling Speed
 """"""""""""""""""""""""""""""""""
 
-  TODO
+|todo|
 
-  There are six ways you can control the speed of of your loco or consist /multiple unit train:
+There are eight ways you can control the speed of of your loco or consist /multiple unit train:
 
-  - Sliders (if available in the Throttle layout)
-  - Speed buttons (if enabled)
-  - Stop button
-  - All Stop button (if enabled)
-  - Pause button (if enabled)
-  - Limit Speed button (if Enabled)
-  - Volume keys
-  - Gamepads (if connected)
+- Sliders (if available in the Throttle layout)
+- Speed buttons (if enabled)
+- Stop button
+- Volume keys
+- All Stop - Action Bar button (if enabled)
+- Pause button (if enabled)
+- Limit Speed button (if Enabled)
+- Gamepad keys (if connected)
+
+  **Sliders**
+
+  |todo|
+
+  **Speed buttons**
+
+  |todo|
+
+  ``++`` and ``--`` buttons
+
+  **Stop button**
+
+  |todo|
+
+  **Volume Keys**
+
+  |todo|
+
+  Hardware ``Volume Up`` and ``Volume Down`` Android buttons
+
+  **All Stop - Action Bar button**
+
+  |todo|
+
+  **Pause button**
+
+  |todo|
+
+  **Limit Speed button**
+
+  |todo|
+
+  **Gamepad keys**
+
+  |todo|
+
 
 Controlling Direction
 """"""""""""""""""""""""""""""""""
 
-  TODO
+|todo|
 
-  There are three ways you can control the direction of your loco or consist /multiple unit train:
+There are three ways you can control the direction of your loco or consist /multiple unit train:
 
-  - throttle screen layouts with direction buttons
-  - throttle screen layouts without direction buttons  (Switching/Shunting)
-  - gamepads
+- throttle screen layouts with direction buttons
+- throttle screen layouts without direction buttons  (Switching/Shunting)
+- gamepad keys
+
+  **Direction Buttons**
+
+  ``Forward`` and ``Reverse``
+
+  * These can be re-labeled
+  * These can be swapped
+  * Not available on the Switching/Shunting Throttle Screen layouts
+
+  **Switching/Shunting Throttle Screen layouts**
+
+  |todo|
+
+  **Gamepad keys**
+
+  |todo|
+
 
 DCC Functions
 """"""""""""""""""""""""""""""""""
 
-  TODO
+|todo|
 
-  There are two ways you can activate the DCC Functions of your loco or consist /multiple unit train:
+There are two ways you can activate the DCC Functions of your loco or consist /multiple unit train:
 
-  - Function Buttons
-  - Gamepads (if connected)
+- Function buttons
+- Gamepads keys (if connected)
 
-  The actions of the DCC functions will be impacted depending on the settings and preferences you have selected:
+The actions of the DCC functions will be impacted depending on the settings and preferences you have selected:
 
-  - Common Functions
-  - Function Labels
-  - Functions in consists
-  - gamepads
+* Common Functions
+* Function Labels
+* Functions in consists
+
+  **Function Buttons**
+
+  |todo|
+
+  **Gamepad Keys**
+
+  |todo|
+
+  **Common Functions**
+
+  |todo|
+
+  **Function Labels**
+
+  |todo|
+
+  **Functions in consists**
+
+  |todo|
 
 Virtual Sounds - In Phone Loco Sounds (IPLS)
 """"""""""""""""""""""""""""""""""""""""""""
 
-  TODO
+|todo|
 
-  How to enable, change, mute.
+How to enable, change, mute.
 
-  * steam
-  * diesel
-  * custom 
-  * gamepads
+* steam
+* diesel
+* custom 
+* gamepads
 
-  See `In Phone Loco Sounds (IPLS) <../configuration/ipls.html>`_ for more information.
+See `In Phone Loco Sounds (IPLS) <../configuration/ipls.html>`_ for more information.
 
 Gamepads  
 """"""""""""""""""""""""""""""""""
 
-  TODO
+|todo|
 
-  .. note:: 
-    :class: note-ed-hidden-title
+.. note:: 
+  :class: note-ed-hidden-title
 
-    See `gamepads <./gamepads.html>`_ for more information.
+  See `gamepads <./gamepads.html>`_ for more information.
 
 Action Bar and Menu
 ^^^^^^^^^^^^^^^^^^^
 
-TODO
+|todo|
+
+Men=number
+* common
+* screen specific
+  
+Action Bar
+* common
+* screen specific
 
 Track Power
 """"""""""""""""""""""""""""""""""
 
-TODO
+|todo|
+
+* Menu item
+* Action Bar button
 
 In Phone Loco Sounds (IPLS)
 """"""""""""""""""""""""""""""""""
 
-TODO
+|todo|
+
+* Preferences
+* Action Bar Button
 
 ----
 
 Turnouts / Points
 ^^^^^^^^^^^^^^^^^
 
-TODO
+|todo|
+
+* Address
+* From the WiThrottle server
 
 ----
 
 Routes
 ^^^^^^^^^^^^^^^
 
-TODO
+|todo|
+
+* From the WiThrottle server
 
 ----
 
 Panels and Web Pages
 ^^^^^^^^^^^^^^^^^^^^^^
 
-TODO
+|todo|
 
-----
+* Throttle Web View VS Web Screen
+* Default page
+  * Web View
+  * Web Screen
 
-Pushing Engine Driver to the Background
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-TODO
 
 ----
 
@@ -391,21 +507,23 @@ Exiting **Engine Driver**:
 Odds and Ends
 -------------
 
-Power
-^^^^^
+Pushing Engine Driver to the Background
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-TODO
+|todo|
 
-Flashlight 
-^^^^^^^^^^
+* Disable Alert
 
-TODO
+----
 
-Children's Timer
-^^^^^^^^^^^^^^^^
+Disconnections
+^^^^^^^^^^^^^^
+
+|todo|
+
+* Disable haptic Alert
 
 
-TODO
 
 .. toctree::
     :hidden:
@@ -415,5 +533,5 @@ TODO
     wifi_issues
     gamepads
     esu_mcii
-    childrens_timer
+    advanced
     faq

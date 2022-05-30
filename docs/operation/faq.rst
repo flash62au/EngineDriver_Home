@@ -111,7 +111,7 @@ Q. The JMRI loco list is too long, I can't find my locos easily
 
   A. You can use the filter option to reduce the list 
 
-  TODO
+|todo|
 
 Q. How do I work with Consists
 
@@ -119,7 +119,7 @@ Q. How do I work with Consists
 
   **Engine Driver** can create consists on-the-fly by simply select multiple locos, one after the other...
 
-  TODO
+  |todo|
 
   Note: Make sure that the ``Drop Loco before acquire?`` preference is set to 'No'.
 
@@ -127,7 +127,7 @@ Q. How do I work with Consists
  
   Note you can't create a normal consist with **Engine Driver**, but you can control one if it has already been setup.
 
-  TODO
+  |todo|
 
   Remember that this type of consist can cause problems later if the loco has not been removed from the consist first and you want to control it as an individual loco. 
 
@@ -287,49 +287,50 @@ Q. I don't like the direction buttons in that order
 Hiding the title bar and navigation bar
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-TODO
+|todo|
 
 Immersive mode 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-TODO
+|todo|
 
 Swiping up or Down
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-TODO
+|todo|
 
 ----
 
 Showing the web page at the bottom of the throttle screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-TODO
+|todo|
+
 <also point to the swipe up option>
 
 Changing the loco selection screen
 --------------------------------------------
 
-TODO
+|todo|
 
 ----
 
 Locos in the roster not showing
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-TODO
+|todo|
 
 Changing the connection screen
 --------------------------------------------
 
-TODO
+|todo|
 
 Can't remove test server
 
 Changing the turnouts screen
 --------------------------------------------
 
-TODO
+|todo|
 
 Conserving power on your phone/tablet
 -------------------------------------

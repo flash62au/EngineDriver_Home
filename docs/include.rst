@@ -13,3 +13,11 @@
 .. |EDs| replace:: **Engine Driver's**
 ..
 .. Use |ED|\ to remove the leading space if you need to follow it by a comma etc.
+..
+.. |todo| raw:: html
+   
+   <div style="color:red">TODO</div>
+..
+.. |tba| raw:: html
+   
+   <div style="color:red">TODO</div>
