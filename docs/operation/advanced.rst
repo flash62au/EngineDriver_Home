@@ -27,3 +27,8 @@ Flashlight
 
 |todo|
 
+Haptic Feedback (Vibration)
+---------------------------
+
+|todo|
+

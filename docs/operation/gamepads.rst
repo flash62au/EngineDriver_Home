@@ -176,7 +176,7 @@ For use when ``Keyboard`` is selected as the gamepad type:
 * :guilabel:`Right` or :guilabel:`]` = Forward (Ahead) (Reverse if buttons swapped in preferences)
 * :guilabel:`D` = Direction - Toggle Forward/Reverse
 * :guilabel:`N` = Next Throttle
-* :guilabel:`End` or :guilabel:`Z` = All stop |br|\
+* :guilabel:`End` or :guilabel:`Z` = Emergency stop |br|\
 * F00 - F28 = Function |br|\ Must be :guilabel:`F` followed by two digits |br|\  or :guilabel:`F11` followed by two :guilabel:`F` button equivalents F10=0, F1-F9=1-9
 * :guilabel:`0` - :guilabel:`9` = Functions 0-9 |br|\ Without a preceding :guilabel:`F`, :guilabel:`S` or :guilabel:`L` |br|\ or :guilabel:`F10` - :guilabel:`F9`  F10=0, F1-F9=1-9 |br|\
 * S000 - S100 = Speed |br|\ Must be :guilabel:`S` followed by three digits |br|\  or :guilabel:`F12` followed by two :guilabel:`F` button equivalents F10=0, F1-F9=1-9 |br|\
