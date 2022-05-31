@@ -7,6 +7,9 @@ Support & Contact
 
 .. include:: ../include.rst
 
+Support and Contact
+===================
+
 email
 -----
 
@@ -25,3 +28,4 @@ Facebook
 --------
 
 Raise questions on the `Users of JMRI <https://www.facebook.com/groups/763694213706645>`_ Facebook group.
+
