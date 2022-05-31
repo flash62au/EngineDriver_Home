@@ -79,6 +79,8 @@ Left/Right Swipe Preferences
 
 |todo|
 
+If checked, only the toolbar can be swiped to change screens
+
 **Swipe through Web?**
 
 |todo|
