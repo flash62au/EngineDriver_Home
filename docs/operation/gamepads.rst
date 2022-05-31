@@ -12,8 +12,8 @@ Gamepads
   .. contents:: On This Page
      :depth: 3
 
-Connecting your Gamepad to your Android Device/Phone
-----------------------------------------------------
+Connecting your Gamepad
+-----------------------
 
 The following instructions work for the **mocute 032** and **MagicSeeR1** gamepads. 
 Other devices require similar steps, but the mechanism to change the ``mode`` may be different. 
