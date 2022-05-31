@@ -3,9 +3,14 @@ Advanced or Specialist Operation
 ******************************************
 
 .. meta::
-   :keywords: Children's Timer Advanced
+   :keywords: Children's Timer Advanced Direction Buttons Haptic Feedback Vibration
 
 .. include:: ../include.rst
+
+.. sidebar::
+
+  .. contents:: On This Page
+     :depth: 3
 
 ----
 
@@ -32,3 +37,20 @@ Haptic Feedback (Vibration)
 
 |todo|
 
+Direction Buttons
+-----------------
+
+|todo|
+
+Renaming Direction Buttons
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+|todo|
+
+Swapping Direction Buttons
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+|todo|
+
+* Preferences
+* long press

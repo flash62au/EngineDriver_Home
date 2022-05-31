@@ -10,7 +10,7 @@ Operation
 .. sidebar::
 
   .. contents:: On This Page
-    :depth: 3
+    :depth: 4
 
 
 Quick Start / Getting Started
@@ -166,14 +166,12 @@ Connecting Engine Driver to the WiThrottle server
     * For a JMRI server, see the WiThrottle screen for its address 
     * For other devices, see the instructions for that device
 
-
   If you only ever connect to one WiThrottle server you can effectively bypass this screen by setting the ``Auto-Connect to WiThrottle Server?`` preference.
 
 .. note:: 
   :class: note-ed-hidden-title
   
   Also see `Connection issues <./wifi_issues.html>`_ if you are having difficulties.
-
 
 ----
 
@@ -418,22 +416,61 @@ There are three ways you can control the direction of your loco or consist /mult
 
   **Direction Buttons**
 
-  |todo|
+  .. image:: ../_static/images/parts/direction_buttons.png
+    :align: right
+    :scale: 50%
 
-  ``Forward`` and ``Reverse``
+  Throttles on Throttle Screen Layout that are *not* of the Switching/Shunting type have ``Forward`` and ``Reverse`` *Direction Buttons* for each throttle.  
 
-  * These can be re-labeled
-  * These can be swapped
-  * Not available on the Switching/Shunting Throttle Screen layouts
+  Clicking on a button will change the direction of the loco ( or Consist / Multiple Unit)m if it is not already moving in that direction. 
+
+  The *Direction Buttons* can be:
+  * Disabled while the loco (or Consist / Multiple Unit) is moving. (i.e. the speed in either direction is greater that zero.)
+  * Re-labeled
+  * Can be swapped
+  
+  *Direction Buttons* are Not available on the Switching/Shunting Throttle Screen layouts.
+
+  .. note:: 
+    :class: note-ed-hidden-title
+
+    See the `Throttle Screen Layout preference on the Preferences page <../configuration/preferences.html#throttle-screen-layout>`_ for more information on the Throttle Screen Layouts that support *Direction Buttons*.
+
+    See the `Swapping Direction Buttons <./advanced.html#swapping-direction-buttons>`_  or  `Renaming Direction Buttons <./advanced.html#renaming-direction-buttons>`_ On the Advanced Operation page for information on swaping or renaming the buttons.
+    
+    See the `Direction Button Preferences section of the Preferences page <../configuration/preferences.html#direction-button-preferences>`_ for additional options for configuring the *Direction Buttons*.
 
   **Sliders - Switching/Shunting Throttle Screen layouts**
 
-  |todo|
+  .. image:: ../_static/images/parts/slider_vertical_switching.png
+    :align: right
+    :scale: 40 %
+
+  Depending on the ``Throttle Screen Layout`` chosen sliders on the Throttle Screen can be b-directional.  (Switching / Shunting Layouts)
+
+  Switching / Shunting Layouts have 'stationary' (zero speed) at the centre of the slider.  Dragging your finger along the slider to the right (or up) from the centre will increase the speed of the loco(s) selected for that Throttle *in the forward direction*. Dragging your finger along the slider to the left (or down) from the centre will increase the speed of the loco(s) selected for the that Throttle *in the reverse direction*. 
+  
+  Pressing and holding your finger at one spot on the slider will cause |ED| to slowly increase or decrease the speed of the loco(s) selected for the that Throttle till it gets to that point.  If the point you are holding is on the opposite half of the slider the speed will slowly decrease speed to zero, then slowly increase speed in the opposite direction to the point you are holding.
+
+  .. note:: 
+    :class: note-ed-hidden-title
+
+    See the `Throttle Screen Layout preference on the Preferences page <../configuration/preferences.html#throttle-screen-layout>`_ for more information on the Throttle Screen Layouts that support the Switching / Shunting Layouts.
 
   **Gamepad keys**
 
-  |todo|
+  .. image:: ../_static/images/gamepads/bt_controller2.jpg
+    :align: right
+    :scale: 20 %
 
+  Any keys and/or the any DPad directions can be configured to change direction directly or indirectly (by changing speed when using a switching / shunting throttle Screen Layout).
+
+  .. note:: 
+    :class: note-ed-hidden-title
+
+    See the `Gamepads Operation page <./gamepads.html>`_ for information on selecting and using a gamepad.
+
+    See the `Gamepads Configuration page <../configuration/gamepads.html>`_ for information on configuring the keys of the gamepad.
 
 DCC Functions
 """"""""""""""""""""""""""""""""""

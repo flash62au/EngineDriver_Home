@@ -22,7 +22,7 @@ A *WiThrottle Server* must be available on a device connected to your model trai
 Android Device/Phone
 --------------------
 
-**Engine Driver** will work on most Android devices made in the last 5 years. Currently it has a minSDKVersion 16, which equates to minimum Android OS version of 4.1 (JELLYBEAN). Info on minSDKVersion available in the `Engine Driver manifest <https://developer.android.com/guide/topics/manifest/uses-sdk-element#ApiLevels>`_.
+**Engine Driver** will work on most Android devices made in the last 8-9 years. Currently it has a minSDKVersion 16, which equates to minimum Android OS version of 4.1 (JELLYBEAN). Info on minSDKVersion available in the `Engine Driver manifest <https://developer.android.com/guide/topics/manifest/uses-sdk-element#ApiLevels>`_.
 
 ESU MobileControl II
 """"""""""""""""""""
