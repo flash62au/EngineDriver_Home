@@ -7,10 +7,6 @@ User Interface
 
 .. include:: ../include.rst
 
-.. toctree::
-    :hidden:
-    :maxdepth: 1
-
 .. sidebar::
 
   .. contents:: On This Page
