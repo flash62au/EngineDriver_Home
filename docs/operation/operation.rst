@@ -236,7 +236,7 @@ From here you can:
   .. note:: 
     :class: note-ed-hidden-title
 
-    See `Selecting / Releasing Locos and Consists/Multiple Units <#selecting-releasing-locos-and-consists-multiple-units>`_
+    See `Selecting / Releasing Locos and Consists/Multiple Units <#selecting-releasing-locos>`_ for more information.
 
 Controlling Speed
 """"""""""""""""""""""""""""""""""

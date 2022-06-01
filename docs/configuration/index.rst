@@ -1,6 +1,9 @@
 .. title:: Configuration
 
-.. toctree::
-  :includehidden:
 
-  configuration
+.. sidebar:: On This Page
+
+   .. toctree::
+    :includehidden:
+
+    configuration

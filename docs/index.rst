@@ -36,7 +36,7 @@ You can also control layout power, turnouts/points, routes, and access JMRI web 
 .. note:: 
   :class: note-ed-hidden-title
   
-  See the `About <./about/index.html>`_ page for more information. |br|\ See the `Operation <./operation/index.html>`_ page for details on how to use **Engine Driver**.
+  See the `About <./about/about.html>`_ page for more information. |br|\ See the `Operation <./operation/index.html>`_ page for details on how to use **Engine Driver**.
 
 
 .. image:: ./_static/images/screenshots/throttle_buttons.png
