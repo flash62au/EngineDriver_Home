@@ -1,5 +1,5 @@
 ******************************************
-Advanced or Specialist Operation 
+Advanced Operation 
 ******************************************
 
 .. meta::
