@@ -33,7 +33,7 @@ ESU MobileControl II
 .. note:: 
   :class: note-ed-hidden-title
   
-  See the `ESU MobileControl II <../configuration/esu_mcii.html>`_ page for more information.
+  See the `ESU MobileControl II <../operation/esu_mcii.html>`_ page for more information.
 
 WiThrottle Servers
 ------------------
