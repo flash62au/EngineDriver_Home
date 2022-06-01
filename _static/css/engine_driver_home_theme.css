@@ -1,5 +1,6 @@
 h1, .h1 {
   text-transform: uppercase;
+/*  font-family: Lato,proxima-nova,Helvetica Neue,Arial,sans-serif !important; */
 }
 
 h2, .h2 {
@@ -8,11 +9,22 @@ h2, .h2 {
   margin-bottom: 12px !important;
 }
 
+/* 
+h3, .h3 {
+  font-family: Lato,proxima-nova,Helvetica Neue,Arial,sans-serif !important;
+} 
+*/
 
 h4, .h4 {
   font-size: 100%;
   font-style: italic;
 } 
+
+/*
+h5, .h5 {
+  font-family: Lato,proxima-nova,Helvetica Neue,Arial,sans-serif !important;
+}
+*/
 
 .wy-nav-top {
   background:#ffae00 !important; 

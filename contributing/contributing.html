@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+<meta content="contributing developing" name="keywords" />
+<meta content="JMRI Engine Driver Throttle" name="description" />
+<meta content="Engine Driver EngineDriver JMRI manual help" name="keywords" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contributing &mdash; Engine Driver Home  documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/engine_driver_home_theme.css" type="text/css" />
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/js/platform.js"></script>
+        <script src="../_static/js/extra.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="&lt;no title&gt;" href="../glossary/index.html" />
+    <link rel="prev" title="&lt;no title&gt;" href="index.html" />
+ 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-E6NVYGXLEP"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-E6NVYGXLEP');
+    </script>
+
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search"  style="background: white" >
+            <a href="../index.html">
+            <img src="../_static/logo.png" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../about/about.html">About Engine Driver</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../about/about.html#what-is-engine-driver">What is ‘Engine Driver’</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../about/about.html#what-s-a-withrottle-server">What’s a ‘WiThrottle Server’?</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../prerequisites/prerequisites.html">Prerequisites</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../prerequisites/prerequisites.html#to-use-engine-driver-you-must">To Use Engine Driver You must…</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../prerequisites/prerequisites.html#android-device-phone">Android Device/Phone</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../prerequisites/prerequisites.html#esu-mobilecontrol-ii">ESU MobileControl II</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../prerequisites/prerequisites.html#withrottle-servers">WiThrottle Servers</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../prerequisites/prerequisites.html#for-jmri">For JMRI</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../prerequisites/prerequisites.html#for-dcc-ex-wifi">For DCC++EX WiFi</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../prerequisites/prerequisites.html#for-mrc-wifi">For MRC WiFi</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../prerequisites/prerequisites.html#for-digitrax-lnwi">For Digitrax LnWi</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../operation/operation.html">Operation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../operation/operation.html#quick-start-getting-started">Quick Start / Getting Started</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../operation/operation.html#detailed-instructions">Detailed Instructions</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../operation/operation.html#connecting">Connecting</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../operation/operation.html#connecting-to-the-wifi-network">Connecting to the WiFi network</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../operation/operation.html#connecting-engine-driver-to-the-withrottle-server">Connecting Engine Driver to the WiThrottle server</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../operation/operation.html#turn-track-power-on">Turn Track Power On</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../operation/operation.html#selecting-releasing-locos">Selecting &amp; Releasing Locos</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../operation/operation.html#selecting-a-single-loco">Selecting a Single loco</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../operation/operation.html#on-the-fly-in-phone-consists-multiple-units">On the fly / In Phone Consists (Multiple Units)</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../operation/operation.html#running-trains">Running Trains</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../operation/operation.html#controlling-speed">Controlling Speed</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../operation/operation.html#controlling-direction">Controlling Direction</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../operation/operation.html#dcc-functions">DCC Functions</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../operation/operation.html#virtual-sounds-in-phone-loco-sounds-ipls">Virtual Sounds - In Phone Loco Sounds (IPLS)</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../operation/operation.html#action-bar-and-menu">Action Bar and Menu</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../operation/operation.html#menu">Menu</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../operation/operation.html#action-bar">Action Bar</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../operation/operation.html#turnouts-points">Turnouts / Points</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../operation/operation.html#routes">Routes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../operation/operation.html#panels-and-web-pages">Panels and Web Pages</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../operation/operation.html#exiting-engine-driver">Exiting Engine Driver</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../operation/operation.html#odds-and-ends">Odds and Ends</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../operation/operation.html#pushing-engine-driver-to-the-background">Pushing Engine Driver to the Background</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../operation/operation.html#disconnections">Disconnections</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../operation/operation.html#further-information">Further Information</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../operation/interface.html">User Interface</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../operation/interface.html#main-screens">Main Screens</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../operation/interface.html#connection-screen">Connection Screen</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../operation/interface.html#throttle-screen">Throttle Screen</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../operation/interface.html#throttle-area">Throttle Area</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../operation/interface.html#action-bar-throttle-screen">Action Bar (Throttle Screen)</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../operation/interface.html#background">Background</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../operation/interface.html#immersive-mode-full-screen">Immersive Mode (Full Screen)</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../operation/interface.html#swipe-up-down">Swipe Up / Down</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../operation/interface.html#accelerometer-shake">Accelerometer (Shake)</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../operation/interface.html#turnouts-points-screen">Turnouts/Points Screen</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../operation/interface.html#routes-screen">Routes Screen</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../operation/interface.html#web-screen">Web Screen</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../operation/interface.html#secondary-support-screens">Secondary / Support Screens</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../operation/interface.html#intro-setup-wizard-screen">Intro/Setup Wizard Screen</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../operation/interface.html#loco-select-screen">Loco Select Screen</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../operation/interface.html#consist-edit-screen">Consist Edit Screen</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../operation/interface.html#consist-lights-edit-screen">Consist Lights Edit Screen</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../operation/interface.html#power-screen">Power Screen</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../operation/interface.html#preferences-screen">Preferences Screen</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../operation/interface.html#in-phone-loco-sounds-screen">In Phone Loco Sounds Screen</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../operation/interface.html#function-defaults-screen">Function Defaults Screen</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../operation/interface.html#gamepad-test-screen">Gamepad Test Screen</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../operation/interface.html#view-log-screen">View Log Screen</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../operation/interface.html#about-screen">About Screen</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../operation/interface.html#common-elements-and-features">Common Elements and Features</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../operation/interface.html#theme">Theme</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../operation/interface.html#localisation">Localisation</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../operation/interface.html#action-bar">Action Bar</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../operation/interface.html#emergency-stop">Emergency Stop</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../operation/interface.html#track-power">Track Power</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../operation/interface.html#flashlight">Flashlight</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../operation/interface.html#throttle-web-view">Throttle Web View</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../operation/interface.html#in-phone-loco-sound">In Phone Loco Sound</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../operation/interface.html#children-s-timer-button">Children’s Timer Button</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../operation/interface.html#fast-clock">Fast Clock</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../operation/interface.html#children-s-timer-status-and-countdown">Children’s Timer Status and Countdown</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../operation/interface.html#full-screen-or-action-bar-only-left-right-swipe">Full Screen or Action Bar Only left/right swipe</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../operation/interface.html#withrottle-server-name">WiThrottle Server Name</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../operation/interface.html#overflow-menu">Overflow Menu</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../operation/wifi_issues.html">WiFi Issues</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../operation/wifi_issues.html#wrong-network">Wrong Network</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../operation/wifi_issues.html#firewalls">Firewalls</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../operation/wifi_issues.html#using-mobile-data-instead-of-wifi">Using Mobile Data instead of WiFi</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../operation/wifi_issues.html#disconnections">Disconnections</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../operation/gamepads.html">Gamepads</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../operation/gamepads.html#connecting-your-gamepad">Connecting your Gamepad</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../operation/gamepads.html#running-engine-driver-with-the-gamepad">Running Engine Driver with the Gamepad</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../operation/gamepads.html#remapping-gamepad-buttons">Remapping gamepad buttons</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../operation/gamepads.html#multiple-gamepads">Multiple gamepads</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../operation/gamepads.html#example-gamepads">Example Gamepads</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../operation/gamepads.html#tested-gamepads">Tested Gamepads</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../operation/gamepads.html#not-recommended-gamepads">Not Recommended Gamepads</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../operation/gamepads.html#unsupported-gamepads">Unsupported Gamepads</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../operation/gamepads.html#keyboard-commands">Keyboard Commands</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../operation/esu_mcii.html">ESU MobileControl II</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../operation/advanced.html">Advanced or Specialist Operation</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../operation/advanced.html#children-s-timer">Children’s Timer</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../operation/advanced.html#consist-follow-functions">Consist Follow Functions</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../operation/advanced.html#flashlight">Flashlight</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../operation/advanced.html#haptic-feedback-vibration">Haptic Feedback (Vibration)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../operation/advanced.html#direction-buttons">Direction Buttons</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../operation/advanced.html#renaming-direction-buttons">Renaming Direction Buttons</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../operation/advanced.html#swapping-direction-buttons">Swapping Direction Buttons</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../operation/advanced.html#advance-function-follow">Advance Function Follow…</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../operation/faq.html">Frequently Asked Questions</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../operation/faq.html#connecting-wifi-and-withrottle">Connecting - Wifi and WiThrottle</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../operation/faq.html#connecting-to-different-servers-railroads">Connecting to different servers/railroads</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../operation/faq.html#save-load-preferences-for-different-servers">Save/load preferences for different servers</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../operation/faq.html#selecting-locomotives-to-control">Selecting locomotives to control</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../operation/faq.html#changing-the-appearance-of-engine-driver">Changing the appearance of Engine Driver</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../operation/faq.html#global-changes-themes">Global changes (Themes)</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../operation/faq.html#changing-the-throttle-screen">Changing the Throttle screen</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../operation/faq.html#speed-slider-vs-speed-buttons">Speed slider VS speed buttons</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../operation/faq.html#direction-buttons">Direction Buttons</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../operation/faq.html#hiding-the-title-bar-and-navigation-bar">Hiding the title bar and navigation bar</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../operation/faq.html#immersive-mode">Immersive mode</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../operation/faq.html#swiping-up-or-down">Swiping up or Down</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../operation/faq.html#showing-the-web-page-at-the-bottom-of-the-throttle-screen">Showing the web page at the bottom of the throttle screen</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../operation/faq.html#changing-the-loco-selection-screen">Changing the loco selection screen</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../operation/faq.html#locos-in-the-roster-not-showing">Locos in the roster not showing</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../operation/faq.html#changing-the-connection-screen">Changing the connection screen</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../operation/faq.html#changing-the-turnouts-screen">Changing the turnouts screen</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../operation/faq.html#conserving-power-on-your-phone-tablet">Conserving power on your phone/tablet</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../configuration/configuration.html">Configuration</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../configuration/configuration.html#configuring-engine-driver">Configuring Engine Driver</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../configuration/configuration.html#configuring-the-withrottle-server">Configuring the WiThrottle server</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../configuration/configuration.html#jmri">JMRI</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../configuration/configuration.html#dcc-ex-wifi">DCC++EX WiFi</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../configuration/configuration.html#mrc-wifi">MRC WiFi</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../configuration/configuration.html#digitrax-lnwi">Digitrax LnWi</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../configuration/configuration.html#wifitrax">WifiTrax</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../configuration/configuration.html#detailed-configuration-information">Detailed Configuration Information</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../configuration/setup_wizard.html">Setup Wizard</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../configuration/setup_wizard.html#initial-screen">Initial Screen</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../configuration/setup_wizard.html#permissions">Permissions</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../configuration/setup_wizard.html#android-11-changes">Android 11 Changes</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../configuration/setup_wizard.html#throttle-name">Throttle Name</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../configuration/setup_wizard.html#theme-style">Theme / Style</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../configuration/setup_wizard.html#throttle-screen-layout">Throttle Screen Layout</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../configuration/setup_wizard.html#speed-sliders-and-buttons">Speed Sliders and Buttons</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../configuration/setup_wizard.html#ready">Ready</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../configuration/preferences.html">Preferences</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../configuration/preferences.html#device-preferences">Device Preferences</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#throttle-name">Throttle Name</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#screen-orientation">Screen orientation</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#theme-style">Theme/Style</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#localisation">Localisation</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#left-right-swipe-preferences">Left/Right Swipe Preferences</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../configuration/preferences.html#throttle-screen-appearance-preferences">Throttle Screen Appearance Preferences</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#throttle-screen-layout">Throttle Screen Layout</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#number-of-throttles">Number of throttles</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#speed-slider-and-buttons-preferences">Speed Slider and Buttons Preferences</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#haptic-feedback-vibration">Haptic Feedback (Vibration)</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#direction-button-preferences">Direction Button Preferences</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#decrease-loco-no-height">Decrease Loco No. height?</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#loco-address-instead-of-name">Loco Address instead of Name?</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#default-function-preferences">Default Function Preferences</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#function-buttons-area-size">Function Buttons Area size</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#throttle-web-view-preferences">Throttle Web View Preferences</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#swipe-up-down-preferences">Swipe Up-Down Preferences</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#accelerometer-shake-preferences">Accelerometer (Shake) Preferences</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#background-image-preferences">Background Image Preferences</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../configuration/preferences.html#throttle-screen-action-bar-preferences">Throttle Screen Action Bar Preferences</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#emergency-stop-button">Emergency Stop button?</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#layout-power-button">Layout Power button?</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#flashlight-button">Flashlight button?</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#fast-clock-display">Fast Clock Display</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#throttle-web-view-button">Throttle Web View button?</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#layout-switch-button-preferences">Layout Switch Button Preferences</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#in-phone-sounds-button">In phone sounds button</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#show-server-description">Show Server Description</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../configuration/preferences.html#throttle-control-preferences">Throttle Control Preferences</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#speed-units">Speed Units</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#maximum-throttle-percentage">Maximum throttle Percentage</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#maximum-throttle-change">Maximum throttle Change</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#speed-button-change-amount">Speed button Change Amount</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#speed-button-repeat-delay">Speed button Repeat Delay</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#speed-step-on-decrement">Speed step on Decrement?</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#stop-on-phone-call">Stop on Phone call?</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#direction-change-while-moving">Direction change while moving?</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#stop-on-direction-change">Stop on direction change?</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#limit-speed-pause-button-preferences">‘Limit Speed’ &amp; ‘Pause’ button Preferences</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../configuration/preferences.html#consist-function-follow-preferences">Consist Function Follow Preferences</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#consist-functions-follow-rule-style">Consist Functions - Follow Rule Style</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#selective-lead-unit-sound">Selective Lead Unit Sound?</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#always-treat-f1-as-sound">Always treat F1 as Sound?</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#always-treat-f2-as-sound">Always treat F2 as Sound?</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#if-all-matches-fail-action">If All matches Fail Action</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#headlight-specific-string-1">Headlight specific String 1</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#headlight-specific-action-1">Headlight specific Action 1</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#string-2-3-4-5">String 2, 3, 4, 5</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#action-for-string-2-3-4-5">Action for String 2, 3, 4, 5</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../configuration/preferences.html#additional-throttle-control-source-preferences">Additional Throttle Control Source Preferences</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#volume-button-preferences">Volume Button Preferences</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#gamepad-preferences">Gamepad Preferences</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#esu-mobilecontrol-ii-options">ESU MobileControl II Options</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#device-stop-button-options">Device Stop button options</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#device-side-button-options">Device side button options</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#control-knob-options">Control Knob options</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#additional-selected-loco-indicator">Additional selected loco Indicator</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#voice-response-preferences">Voice Response Preferences</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../configuration/preferences.html#select-loco-preferences">Select Loco Preferences</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#stop-on-release">Stop on Release?</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#drop-loco-before-acquire">Drop Loco before acquire?</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#allow-loco-select-while-moving">Allow loco select while moving?</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#default-address-length">Default Address Length</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#roster-in-recent-locos">Roster in Recent Locos?</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#roster-names-in-recent-locos">Roster Names in Recent Locos?</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#maximum-recent-locos">Maximum Recent Locos</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#control-consist-lights-on-long-click">Control consist Lights on long click</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#filter-roster">Filter Roster</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../configuration/preferences.html#in-phone-loco-sounds">In Phone Loco Sounds</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#throttle-1-loco-sounds">Throttle 1 Loco Sounds</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#throttle-2-loco-sounds">Throttle 2 Loco Sounds</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#additional-preferences">Additional Preferences</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../configuration/preferences.html#connect-preferences">Connect Preferences</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#maximum-recent-connections">Maximum Recent Connections</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#auto-connect-to-withrottle-server">Auto-Connect to WiThrottle Server?</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#hide-demo-server">Hide Demo Server</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#initial-connection-timeout">Initial Connection Timeout</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#socket-timeout">Socket Timeout</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#mobile-data-connection">Mobile Data connection?</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#feedback-on-disconnect">Feedback on Disconnect</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#background-alert">Background Alert</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../configuration/preferences.html#web-screen-preferences">Web Screen Preferences</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#web-screen-orientation">Web Screen Orientation</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#initial-web-screen-page">Initial Web Screen Page</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../configuration/preferences.html#turnouts-and-routes-preferences">Turnouts and Routes Preferences</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#hide-sys-route-names">Hide Sys Route Names?</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#location-delimiter">Location Delimiter</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#hide-if-no-user-name">Hide if no user name?</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../configuration/preferences.html#children-s-timer-preferences">Children’s (Timer) Preferences</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#time-limited-running">Time limited running</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#restart-password">Restart Password</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#reset-disable-password">Reset/Disable Password</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#allow-reverse">Allow Reverse?</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#show-timer-button">Show Timer button?</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#default-time-for-button">Default time for Button</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#notes-for-the-timer">Notes for the Timer:</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../configuration/preferences.html#import-export-reset-log-preferences">Import/Export/Reset &amp; Log Preferences</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#import-export-or-reset">Import, Export or Reset</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#import-from-current-server-manually">Import from current Server (manually)</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#auto-import-from-all-servers">Auto import from all Servers?</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#include-recent-loco-list">Include recent loco list?</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#auto-host-specific-import-export">Auto host specific import/export?</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#manual-host-specific-import-export">Manual host specific import/export</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#show-timestamps-on-log">Show Timestamps on Log?</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../configuration/functions.html">Function Buttons</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../configuration/ipls.html">In Phone Loco Sounds (IPLS)</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../configuration/ipls.html#virtual-sounds-in-phone-loco-sounds-ipls">Virtual Sounds / In Phone Loco Sounds (IPLS)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../configuration/ipls.html#custom-ipls-files">Custom IPLS Files</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../configuration/gamepads.html">Gamepads</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../configuration/gamepads.html#selecting-a-gamepad-type">Selecting a Gamepad Type</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../configuration/gamepads.html#configuring-the-buttons">Configuring the buttons</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../configuration/loco_icons.html">Loco Icons in the Roster</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../configuration/new_device.html">Moving to a new phone/device</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../screenshots/screenshots.html">Screenshots</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../videos/videos.html">Videos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../downloads/downloads.html">Downloads</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../downloads/downloads.html#play-store">Play Store</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../downloads/downloads.html#current-published-version">Current published version</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../downloads/downloads.html#older-or-other-versions">Older or other versions</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../changes/changes.html">Changes</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../changes/changes.html#current-production-version-changes">Current Production Version Changes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../changes/changes.html#changes-for-the-beta-version">Changes for the Beta Version</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../changes/changes.html#all-changes">All Changes</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Contributing</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#contributing-to-the-code">Contributing to the Code</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#contributing-to-the-documentation">Contributing to the Documentation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#style-guidelines">Style Guidelines</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../glossary/glossary.html">Glossary / References / Copyright</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../glossary/glossary.html#glossary">Glossary</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../glossary/glossary.html#references">References</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../glossary/glossary.html#copyright">Copyright</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../contact/contact.html">Support &amp; Contact</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../contact/contact.html#email">email</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../contact/contact.html#forums">Forums</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../contact/contact.html#facebook">Facebook</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu"  style="background: white" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Engine Driver Home</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="index.html">&lt;no title&gt;</a> &raquo;</li>
+      <li>Contributing</li>
+      <li class="wy-breadcrumbs-aside">
+              <a href="https://github.com/flash62au/EngineDriver_Home/blob/main/docs/contributing/contributing.rst" class="fa fa-github"> Edit on GitHub</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="contributing">
+<h1><a class="toc-backref" href="#id3">Contributing</a><a class="headerlink" href="#contributing" title="Permalink to this heading"></a></h1>
+<aside class="sidebar">
+<div class="contents topic" id="on-this-page">
+<p class="topic-title">On This Page</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#contributing" id="id3">Contributing</a></p>
+<ul>
+<li><p><a class="reference internal" href="#contributing-to-the-code" id="id4">Contributing to the Code</a></p></li>
+<li><p><a class="reference internal" href="#contributing-to-the-documentation" id="id5">Contributing to the Documentation</a></p>
+<ul>
+<li><p><a class="reference internal" href="#style-guidelines" id="id6">Style Guidelines</a></p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</aside>
+<section id="contributing-to-the-code">
+<h2><a class="toc-backref" href="#id4">Contributing to the Code</a><a class="headerlink" href="#contributing-to-the-code" title="Permalink to this heading"></a></h2>
+<p><strong>Engine Driver</strong> is open source software written in Java. The source code is available on <a class="reference external" href="https://github.com/JMRI/EngineDriver">github.com/JMRI/EngineDriver</a>.</p>
+<p>It is recommended that you contact M Steve Todd if you intend to contribute to the code base, before you start working.</p>
+<p>On the Android device you intend to test on</p>
+<ul class="simple">
+<li><p>Make sure that the developer options are enabled and <code class="docutils literal notranslate"><span class="pre">Android</span> <span class="pre">debugging</span></code> is on, and <code class="docutils literal notranslate"><span class="pre">unknown</span> <span class="pre">sources</span></code> is on.  You can also use the Virtual Devices in Android Studio to test you cade.</p></li>
+</ul>
+<p>Here are all the steps needed for Microsoft Windows:</p>
+<ul class="simple">
+<li><p>On GitHub</p>
+<ul>
+<li><p>Clone the JMRI/EngineDriver repository. <a class="reference external" href="https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository">(See Cloning a repository in GitHub)</a></p></li>
+<li><p>Create a Personal Access Token that will allow you remotely update your repository.  See [<a class="reference external" href="https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token">here</a>] for details.   Copy the full code of the token somewhere as you will need it later.</p></li>
+</ul>
+</li>
+<li><p>Install <a class="reference external" href="https://developer.android.com/studio">Android Studio</a>.</p></li>
+<li><p>Open Android Studio <br />(If necessary, close any open project and restart, so you get the Welcome Wizard)</p></li>
+<li><p>Select <code class="docutils literal notranslate"><span class="pre">Check</span> <span class="pre">out</span> <span class="pre">project</span> <span class="pre">from</span> <span class="pre">Version</span> <span class="pre">control</span></code> -&gt; Git</p></li>
+<li><p>In the Clone Repository window, enter the Git Repository URL: <code class="docutils literal notranslate"><span class="pre">https://github.com/JMRI/EngineDriver</span></code>, -&gt; <code class="docutils literal notranslate"><span class="pre">Clone</span></code>.  <br /><em>Note this is the original repository, not your clone.</em></p></li>
+<li><p>Open the project.</p></li>
+<li><p>Only if needed…</p>
+<ul>
+<li><p>Take the Run -&gt; Run… -&gt; Edit Configurations option</p></li>
+<li><p>In the Run/Debug Configurations window, press the “+”, then Android App</p></li>
+<li><p>Enter Name “EngineDriver”, and select Module: EngineDriver</p></li>
+<li><p>Click <code class="docutils literal notranslate"><span class="pre">Run</span></code>.</p></li>
+<li><p>You will likely get one or more error messages about missing components. Click on the link in each message and Android Studio will automatically download the missing components.</p></li>
+</ul>
+</li>
+</ul>
+<p>To test your changes:</p>
+<ul class="simple">
+<li><p>Connect your phone via USB</p></li>
+<li><p>In the Select Deployment Target window, your attached phone should show under Connected Devices.</p></li>
+<li><p>Select your device and press <code class="docutils literal notranslate"><span class="pre">run</span></code> or <code class="docutils literal notranslate"><span class="pre">debug</span></code>.</p></li>
+<li><p>EngineDriver should compile and be installed on your device.</p></li>
+</ul>
+<p>To publish your changes:</p>
+<ul class="simple">
+<li><p>Android Studio, commit and push your changes to <em>your own</em> GitHub repository.. <br />To do this you will need to define a new remote <code class="docutils literal notranslate"><span class="pre">https://github.com/&lt;your</span> <span class="pre">name&gt;/EngineDriver</span></code></p></li>
+<li><p>Go to GitHub and issue a pull request for your branch to be pulled into the original repository. Once it’s merged in by one of the admins, your changes will go live!</p></li>
+</ul>
+</section>
+<section id="contributing-to-the-documentation">
+<h2><a class="toc-backref" href="#id5">Contributing to the Documentation</a><a class="headerlink" href="#contributing-to-the-documentation" title="Permalink to this heading"></a></h2>
+<p>This documentation is open source and can be accessed on <a class="reference external" href="https://github.com/flash62au/EngineDriver_Home">github.com/flash62au/EngineDriver_Home</a></p>
+<p>All documentation is done using <strong>reStructuredText</strong>, for which you can find information on the official website: <a class="reference external" href="https://docutils.sourceforge.io/rst.html">reStructuredText</a>
+or the <a class="reference external" href="https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html">Sphinx</a> document builder tool website.
+<strong>reStructuredText</strong> is a markdown type language, for typesetting documents from websites to PDF or LaTeX documents.
+This Website is built upon this technology, so you should make yourself familiar with this by looking through the links provided.</p>
+<p>reStructuredText <a class="reference external" href="https://docutils.sourceforge.io/docs/user/rst/quickref.html">QuickReference Guide</a></p>
+<p>The steps listed here provide guidance on how to edit and preview changes to the documentation.</p>
+<ul class="simple">
+<li><p>You need to install a number of tools on you local machine:</p>
+<ul>
+<li><p>An appropriate text editor. <br />For Windows we recommend the free <a class="reference external" href="https://code.visualstudio.com/">Visual Studio Code IDE (VSC)</a>.</p>
+<ul>
+<li><p>If using VSC, we recommend installing the <code class="docutils literal notranslate"><span class="pre">reStructuredText</span> <span class="pre">Syntax</span> <span class="pre">highlighting</span></code> extension.</p></li>
+</ul>
+</li>
+<li><p>A version of Git. <br />For Windows we recommend the free <a class="reference external" href="https://desktop.github.com/">GitHub Desktop</a>.</p></li>
+<li><p>A current version of ‘Python 3’ (which also installs ‘pip’). <br />The Microsoft Store contains Python published by the Python Software Foundation for Windows.</p></li>
+</ul>
+</li>
+<li><p>Then use ‘pip’ to install the required packages; ‘sphinx’ and the theme ‘sphinx_rtd_theme’.  <br />Open and command prompt and enter:</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">pip</span> <span class="pre">install</span> <span class="pre">-U</span> <span class="pre">sphinx</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">pip</span> <span class="pre">install</span> <span class="pre">sphinx-rtd-theme</span></code></p></li>
+</ul>
+</li>
+<li><p>On GitHub</p>
+<ul>
+<li><p>Clone the <code class="docutils literal notranslate"><span class="pre">https://flash62au.github.io/EngineDriver_Home</span></code> repository. <a class="reference external" href="https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository">(See Cloning a repository in GitHub)</a></p></li>
+<li><p>Open the your repository settings (the gear icon), go to the ‘Pages’ section and change the ‘source-branch’ to <code class="docutils literal notranslate"><span class="pre">gh-pages</span></code> <code class="docutils literal notranslate"><span class="pre">/</span> <span class="pre">(root)</span></code>.</p></li>
+<li><p>Your repository must be <code class="docutils literal notranslate"><span class="pre">public</span></code></p></li>
+</ul>
+</li>
+<li><p>On your PC</p>
+<ul>
+<li><p>Using GitHub Desktop, clone your repository to your local machine</p></li>
+<li><p>Edit the files in the <code class="docutils literal notranslate"><span class="pre">EngineDriver_Home/docs</span></code> folder</p></li>
+<li><p>Save, then check and preview your changes by running <code class="docutils literal notranslate"><span class="pre">make</span> <span class="pre">github</span></code> from the root of the <code class="docutils literal notranslate"><span class="pre">EngineDriver_Home</span></code> folder. <a class="footnote-reference brackets" href="#makegithub" id="id2">1</a> <br />This must be done from <code class="docutils literal notranslate"><span class="pre">cmd.exe</span></code> in Windows, not <code class="docutils literal notranslate"><span class="pre">PowerShell</span></code>. <br />If any warnings are reported, fix these and run make GitHub again</p></li>
+<li><p>Preview your changes locally by going to your local directory <code class="docutils literal notranslate"><span class="pre">EngineDriver_Home/docs/_build/html</span></code> and open <code class="docutils literal notranslate"><span class="pre">index.html</span></code> in your web browser of choice.</p></li>
+<li><p>Use GitHub Desktop to commit and then push your changes</p></li>
+</ul>
+</li>
+<li><p>In GitHub</p>
+<ul>
+<li><p>You can check the ‘actions’ to see if it built correctly. <br />You can preview the pages on GitHub at <code class="docutils literal notranslate"><span class="pre">https://&lt;yourname&gt;.github.io/EngineDriver_Home</span></code></p></li>
+<li><p>Issue a pull request for your branch to be pulled into the main branch. <br />Once it’s merged in by one of the admins, your changes will go live!</p></li>
+</ul>
+</li>
+</ul>
+<dl class="footnote brackets">
+<dt class="label" id="makegithub"><span class="brackets"><a class="fn-backref" href="#id2">1</a></span></dt>
+<dd><p>There is a batch file <code class="docutils literal notranslate"><span class="pre">make</span> <span class="pre">github.bat</span></code> in the <code class="docutils literal notranslate"><span class="pre">EngineDriver_Home</span></code> folder which should be able to be double-clicked on the run this command. It will pause at the end to allow you see if there are any issues.</p>
+</dd>
+</dl>
+<section id="style-guidelines">
+<h3><a class="toc-backref" href="#id6">Style Guidelines</a><a class="headerlink" href="#style-guidelines" title="Permalink to this heading"></a></h3>
+<ul class="simple">
+<li><p>Use British/Australian/Canadian spelling e.g. ‘colour’ not ‘color’.  <br />(Primarily because it is used in more English speaking countries)</p></li>
+<li><p>Use railway terminology that is understandable by all English-speaking people. <br />Where there are clear differences from US to non-US terminology use both with a slash between and use the US version first. e.g. turnouts/points, consists/multiple units, switching/shunting.  (Primarily because JMRI uses the US terminology)</p></li>
+<li><p>In general use ‘loco’ instead of ‘locomotive’ or ‘engine’</p></li>
+<li><p>Use bolded **Engine Driver** not ‘Engine Driver app’, ‘EngineDriver’ or ‘Engine Driver Throttle’ (except on the first page) - <strong>Engine Driver</strong></p></li>
+<li><p>No full stop at the end of a numbered or unnumbered list</p></li>
+<li><p>Numbered lists should be avoided, unless there is a specific need</p></li>
+<li><p>Use first person (you and your; not I, me, my or am) language</p></li>
+<li><p>A string of nouns should be sequenced in alphabetic order, unless it makes more sense within the context to display them in some other sequence</p></li>
+<li><p>Double quotes (”) should only be used for quoting text from people, documents or web sites</p></li>
+<li><p>No quotes around ‘Also See’ type references</p></li>
+<li><p>Avoid ‘(above)’ or ‘(below)’ in text.  Use hypertext links instead</p></li>
+<li><p>‘TODO’ in the text means that it is still a work-in-process and needs to be updated.  It may be followed by descriptive text in italics describing the issue to be fixed</p></li>
+<li><p>Use ``literal text blocks`` when describing buttons, preferences  - <code class="docutils literal notranslate"><span class="pre">literal</span> <span class="pre">text</span> <span class="pre">blocks</span></code></p></li>
+<li><p>Use :menuselection:`Menu –&gt; Preferences –&gt; ..` for menu descriptions - <span class="menuselection">Menu ‣ Preferences ‣ ..</span></p></li>
+<li><p>Use :guilabel:`GUI labels` for buttons  - <span class="guilabel">GUI labels</span></p></li>
+<li><p>Avoid using ‘phone’ alone. Preferably use ‘Android device/phone’</p></li>
+<li><p>For dates, use dd-mmm-yyyy or yyyy-mm-dd to avoid confusion with the way dates are uniquely written in the US. <br />e.g. 2-Mar-2022 or 2022-3-2, not 2-3-2022</p></li>
+</ul>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="index.html" class="btn btn-neutral float-left" title="&lt;no title&gt;" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../glossary/index.html" class="btn btn-neutral float-right" title="&lt;no title&gt;" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright M Steve Todd.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

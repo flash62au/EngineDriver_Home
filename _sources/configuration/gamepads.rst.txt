@@ -18,7 +18,7 @@ Choose a gamepad type in the ``Gamepad type`` preference.  Available options inc
 * Utopia 360
 * DIY Arduino ESP32 + keypad + Rotary Encoder
 * Normal Keyboard
-
+ 
   .. note:: 
     :class: note-ed-hidden-title
 
