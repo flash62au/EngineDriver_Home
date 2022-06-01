@@ -389,6 +389,15 @@ This screen displays
 
 |todo| 
 
+
+Reconnecting Screen
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+This screen displays 
+
+|todo| 
+
+
 Common Elements and Features
 ----------------------------
 

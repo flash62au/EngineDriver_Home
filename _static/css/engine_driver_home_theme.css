@@ -95,3 +95,8 @@ div#on-this-page ul.simple li ul li p {
 div#on-this-page ul.simple li ul li {
   line-height: 120% !important;
 }
+
+li.toctree-l1 ul, li.toctree-l2 ul, li.toctree-l3 ul {
+  margin-top: 0px !Important;
+  margin-bottom: 0px !Important;
+}

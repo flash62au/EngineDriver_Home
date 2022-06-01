@@ -27,7 +27,7 @@
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="WiFi Issues" href="wifi_issues.html" />
-    <link rel="prev" title="Operation" href="operation.html" />
+    <link rel="prev" title="Detailed Instructions" href="operation.html" />
  
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-E6NVYGXLEP"></script>
@@ -78,12 +78,13 @@
 </li>
 </ul>
 </li>
-<li class="toctree-l1 current"><a class="reference internal" href="operation.html">Operation</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="operation.html#quick-start-getting-started">Quick Start / Getting Started</a></li>
-<li class="toctree-l2"><a class="reference internal" href="operation.html#detailed-instructions">Detailed Instructions</a><ul>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Operation</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="getting_started.html">Quick Start / Getting Started</a></li>
+<li class="toctree-l2"><a class="reference internal" href="operation.html">Detailed Instructions</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="operation.html#connecting">Connecting</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="operation.html#connecting-to-the-wifi-network">Connecting to the WiFi network</a></li>
 <li class="toctree-l4"><a class="reference internal" href="operation.html#connecting-engine-driver-to-the-withrottle-server">Connecting Engine Driver to the WiThrottle server</a></li>
+<li class="toctree-l4"><a class="reference internal" href="operation.html#disconnections">Disconnections</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="operation.html#turn-track-power-on">Turn Track Power On</a></li>
@@ -107,129 +108,123 @@
 <li class="toctree-l3"><a class="reference internal" href="operation.html#turnouts-points">Turnouts / Points</a></li>
 <li class="toctree-l3"><a class="reference internal" href="operation.html#routes">Routes</a></li>
 <li class="toctree-l3"><a class="reference internal" href="operation.html#panels-and-web-pages">Panels and Web Pages</a></li>
+<li class="toctree-l3"><a class="reference internal" href="operation.html#pushing-engine-driver-to-the-background">Pushing Engine Driver to the Background</a></li>
 <li class="toctree-l3"><a class="reference internal" href="operation.html#exiting-engine-driver">Exiting Engine Driver</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="operation.html#odds-and-ends">Odds and Ends</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="operation.html#pushing-engine-driver-to-the-background">Pushing Engine Driver to the Background</a></li>
-<li class="toctree-l3"><a class="reference internal" href="operation.html#disconnections">Disconnections</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">User Interface</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#main-screens">Main Screens</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#connection-screen">Connection Screen</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#throttle-screen">Throttle Screen</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="#throttle-area">Throttle Area</a></li>
+<li class="toctree-l5"><a class="reference internal" href="#action-bar-throttle-screen">Action Bar (Throttle Screen)</a></li>
+<li class="toctree-l5"><a class="reference internal" href="#background">Background</a></li>
+<li class="toctree-l5"><a class="reference internal" href="#immersive-mode-full-screen">Immersive Mode (Full Screen)</a></li>
+<li class="toctree-l5"><a class="reference internal" href="#swipe-up-down">Swipe Up / Down</a></li>
+<li class="toctree-l5"><a class="reference internal" href="#accelerometer-shake">Accelerometer (Shake)</a></li>
 </ul>
 </li>
-<li class="toctree-l2 current"><a class="reference internal" href="operation.html#further-information">Further Information</a><ul class="current">
-<li class="toctree-l3 current"><a class="current reference internal" href="#">User Interface</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#main-screens">Main Screens</a><ul>
-<li class="toctree-l5"><a class="reference internal" href="#connection-screen">Connection Screen</a></li>
-<li class="toctree-l5"><a class="reference internal" href="#throttle-screen">Throttle Screen</a><ul>
-<li class="toctree-l6"><a class="reference internal" href="#throttle-area">Throttle Area</a></li>
-<li class="toctree-l6"><a class="reference internal" href="#action-bar-throttle-screen">Action Bar (Throttle Screen)</a></li>
-<li class="toctree-l6"><a class="reference internal" href="#background">Background</a></li>
-<li class="toctree-l6"><a class="reference internal" href="#immersive-mode-full-screen">Immersive Mode (Full Screen)</a></li>
-<li class="toctree-l6"><a class="reference internal" href="#swipe-up-down">Swipe Up / Down</a></li>
-<li class="toctree-l6"><a class="reference internal" href="#accelerometer-shake">Accelerometer (Shake)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#turnouts-points-screen">Turnouts/Points Screen</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#routes-screen">Routes Screen</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#web-screen">Web Screen</a></li>
 </ul>
 </li>
-<li class="toctree-l5"><a class="reference internal" href="#turnouts-points-screen">Turnouts/Points Screen</a></li>
-<li class="toctree-l5"><a class="reference internal" href="#routes-screen">Routes Screen</a></li>
-<li class="toctree-l5"><a class="reference internal" href="#web-screen">Web Screen</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#secondary-support-screens">Secondary / Support Screens</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#intro-setup-wizard-screen">Intro/Setup Wizard Screen</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#loco-select-screen">Loco Select Screen</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#consist-edit-screen">Consist Edit Screen</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#consist-lights-edit-screen">Consist Lights Edit Screen</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#power-screen">Power Screen</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#preferences-screen">Preferences Screen</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#in-phone-loco-sounds-screen">In Phone Loco Sounds Screen</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#function-defaults-screen">Function Defaults Screen</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#gamepad-test-screen">Gamepad Test Screen</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#view-log-screen">View Log Screen</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#about-screen">About Screen</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#reconnecting-screen">Reconnecting Screen</a></li>
 </ul>
 </li>
-<li class="toctree-l4"><a class="reference internal" href="#secondary-support-screens">Secondary / Support Screens</a><ul>
-<li class="toctree-l5"><a class="reference internal" href="#intro-setup-wizard-screen">Intro/Setup Wizard Screen</a></li>
-<li class="toctree-l5"><a class="reference internal" href="#loco-select-screen">Loco Select Screen</a></li>
-<li class="toctree-l5"><a class="reference internal" href="#consist-edit-screen">Consist Edit Screen</a></li>
-<li class="toctree-l5"><a class="reference internal" href="#consist-lights-edit-screen">Consist Lights Edit Screen</a></li>
-<li class="toctree-l5"><a class="reference internal" href="#power-screen">Power Screen</a></li>
-<li class="toctree-l5"><a class="reference internal" href="#preferences-screen">Preferences Screen</a></li>
-<li class="toctree-l5"><a class="reference internal" href="#in-phone-loco-sounds-screen">In Phone Loco Sounds Screen</a></li>
-<li class="toctree-l5"><a class="reference internal" href="#function-defaults-screen">Function Defaults Screen</a></li>
-<li class="toctree-l5"><a class="reference internal" href="#gamepad-test-screen">Gamepad Test Screen</a></li>
-<li class="toctree-l5"><a class="reference internal" href="#view-log-screen">View Log Screen</a></li>
-<li class="toctree-l5"><a class="reference internal" href="#about-screen">About Screen</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#common-elements-and-features">Common Elements and Features</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#theme">Theme</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#localisation">Localisation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#action-bar">Action Bar</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="#emergency-stop">Emergency Stop</a></li>
+<li class="toctree-l5"><a class="reference internal" href="#track-power">Track Power</a></li>
+<li class="toctree-l5"><a class="reference internal" href="#flashlight">Flashlight</a></li>
+<li class="toctree-l5"><a class="reference internal" href="#throttle-web-view">Throttle Web View</a></li>
+<li class="toctree-l5"><a class="reference internal" href="#in-phone-loco-sound">In Phone Loco Sound</a></li>
+<li class="toctree-l5"><a class="reference internal" href="#children-s-timer-button">Children’s Timer Button</a></li>
+<li class="toctree-l5"><a class="reference internal" href="#fast-clock">Fast Clock</a></li>
+<li class="toctree-l5"><a class="reference internal" href="#children-s-timer-status-and-countdown">Children’s Timer Status and Countdown</a></li>
+<li class="toctree-l5"><a class="reference internal" href="#full-screen-or-action-bar-only-left-right-swipe">Full Screen or Action Bar Only left/right swipe</a></li>
+<li class="toctree-l5"><a class="reference internal" href="#withrottle-server-name">WiThrottle Server Name</a></li>
 </ul>
 </li>
-<li class="toctree-l4"><a class="reference internal" href="#common-elements-and-features">Common Elements and Features</a><ul>
-<li class="toctree-l5"><a class="reference internal" href="#theme">Theme</a></li>
-<li class="toctree-l5"><a class="reference internal" href="#localisation">Localisation</a></li>
-<li class="toctree-l5"><a class="reference internal" href="#action-bar">Action Bar</a><ul>
-<li class="toctree-l6"><a class="reference internal" href="#emergency-stop">Emergency Stop</a></li>
-<li class="toctree-l6"><a class="reference internal" href="#track-power">Track Power</a></li>
-<li class="toctree-l6"><a class="reference internal" href="#flashlight">Flashlight</a></li>
-<li class="toctree-l6"><a class="reference internal" href="#throttle-web-view">Throttle Web View</a></li>
-<li class="toctree-l6"><a class="reference internal" href="#in-phone-loco-sound">In Phone Loco Sound</a></li>
-<li class="toctree-l6"><a class="reference internal" href="#children-s-timer-button">Children’s Timer Button</a></li>
-<li class="toctree-l6"><a class="reference internal" href="#fast-clock">Fast Clock</a></li>
-<li class="toctree-l6"><a class="reference internal" href="#children-s-timer-status-and-countdown">Children’s Timer Status and Countdown</a></li>
-<li class="toctree-l6"><a class="reference internal" href="#full-screen-or-action-bar-only-left-right-swipe">Full Screen or Action Bar Only left/right swipe</a></li>
-<li class="toctree-l6"><a class="reference internal" href="#withrottle-server-name">WiThrottle Server Name</a></li>
-</ul>
-</li>
-<li class="toctree-l5"><a class="reference internal" href="#overflow-menu">Overflow Menu</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#overflow-menu">Overflow Menu</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="wifi_issues.html">WiFi Issues</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="wifi_issues.html#wrong-network">Wrong Network</a></li>
-<li class="toctree-l4"><a class="reference internal" href="wifi_issues.html#firewalls">Firewalls</a></li>
-<li class="toctree-l4"><a class="reference internal" href="wifi_issues.html#using-mobile-data-instead-of-wifi">Using Mobile Data instead of WiFi</a></li>
-<li class="toctree-l4"><a class="reference internal" href="wifi_issues.html#disconnections">Disconnections</a></li>
+<li class="toctree-l2"><a class="reference internal" href="wifi_issues.html">WiFi Issues</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="wifi_issues.html#wrong-network">Wrong Network</a></li>
+<li class="toctree-l3"><a class="reference internal" href="wifi_issues.html#firewalls">Firewalls</a></li>
+<li class="toctree-l3"><a class="reference internal" href="wifi_issues.html#using-mobile-data-instead-of-wifi">Using Mobile Data instead of WiFi</a></li>
+<li class="toctree-l3"><a class="reference internal" href="wifi_issues.html#disconnections">Disconnections</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="gamepads.html">Gamepads</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="gamepads.html#connecting-your-gamepad">Connecting your Gamepad</a></li>
-<li class="toctree-l4"><a class="reference internal" href="gamepads.html#running-engine-driver-with-the-gamepad">Running Engine Driver with the Gamepad</a></li>
-<li class="toctree-l4"><a class="reference internal" href="gamepads.html#remapping-gamepad-buttons">Remapping gamepad buttons</a></li>
-<li class="toctree-l4"><a class="reference internal" href="gamepads.html#multiple-gamepads">Multiple gamepads</a></li>
-<li class="toctree-l4"><a class="reference internal" href="gamepads.html#example-gamepads">Example Gamepads</a><ul>
-<li class="toctree-l5"><a class="reference internal" href="gamepads.html#tested-gamepads">Tested Gamepads</a></li>
-<li class="toctree-l5"><a class="reference internal" href="gamepads.html#not-recommended-gamepads">Not Recommended Gamepads</a></li>
-<li class="toctree-l5"><a class="reference internal" href="gamepads.html#unsupported-gamepads">Unsupported Gamepads</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gamepads.html">Gamepads</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="gamepads.html#connecting-your-gamepad">Connecting your Gamepad</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gamepads.html#running-engine-driver-with-the-gamepad">Running Engine Driver with the Gamepad</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gamepads.html#remapping-gamepad-buttons">Remapping gamepad buttons</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gamepads.html#multiple-gamepads">Multiple gamepads</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gamepads.html#example-gamepads">Example Gamepads</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="gamepads.html#tested-gamepads">Tested Gamepads</a></li>
+<li class="toctree-l4"><a class="reference internal" href="gamepads.html#not-recommended-gamepads">Not Recommended Gamepads</a></li>
+<li class="toctree-l4"><a class="reference internal" href="gamepads.html#unsupported-gamepads">Unsupported Gamepads</a></li>
 </ul>
 </li>
-<li class="toctree-l4"><a class="reference internal" href="gamepads.html#keyboard-commands">Keyboard Commands</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gamepads.html#keyboard-commands">Keyboard Commands</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="esu_mcii.html">ESU MobileControl II</a></li>
-<li class="toctree-l3"><a class="reference internal" href="advanced.html">Advanced Operation</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="advanced.html#children-s-timer">Children’s Timer</a></li>
-<li class="toctree-l4"><a class="reference internal" href="advanced.html#consist-follow-functions">Consist Follow Functions</a></li>
-<li class="toctree-l4"><a class="reference internal" href="advanced.html#flashlight">Flashlight</a></li>
-<li class="toctree-l4"><a class="reference internal" href="advanced.html#haptic-feedback-vibration">Haptic Feedback (Vibration)</a></li>
-<li class="toctree-l4"><a class="reference internal" href="advanced.html#direction-buttons">Direction Buttons</a><ul>
-<li class="toctree-l5"><a class="reference internal" href="advanced.html#renaming-direction-buttons">Renaming Direction Buttons</a></li>
-<li class="toctree-l5"><a class="reference internal" href="advanced.html#swapping-direction-buttons">Swapping Direction Buttons</a></li>
-<li class="toctree-l5"><a class="reference internal" href="advanced.html#advance-function-follow">Advance Function Follow…</a></li>
+<li class="toctree-l2"><a class="reference internal" href="esu_mcii.html">ESU MobileControl II</a></li>
+<li class="toctree-l2"><a class="reference internal" href="advanced.html">Advanced Operation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="advanced.html#children-s-timer">Children’s Timer</a></li>
+<li class="toctree-l3"><a class="reference internal" href="advanced.html#consist-follow-functions">Consist Follow Functions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="advanced.html#flashlight">Flashlight</a></li>
+<li class="toctree-l3"><a class="reference internal" href="advanced.html#haptic-feedback-vibration">Haptic Feedback (Vibration)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="advanced.html#direction-buttons">Direction Buttons</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="advanced.html#renaming-direction-buttons">Renaming Direction Buttons</a></li>
+<li class="toctree-l4"><a class="reference internal" href="advanced.html#swapping-direction-buttons">Swapping Direction Buttons</a></li>
+<li class="toctree-l4"><a class="reference internal" href="advanced.html#advance-function-follow">Advance Function Follow…</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="faq.html">Frequently Asked Questions</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="faq.html#connecting-wifi-and-withrottle">Connecting - Wifi and WiThrottle</a><ul>
-<li class="toctree-l5"><a class="reference internal" href="faq.html#connecting-to-different-servers-railroads">Connecting to different servers/railroads</a></li>
-<li class="toctree-l5"><a class="reference internal" href="faq.html#save-load-preferences-for-different-servers">Save/load preferences for different servers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="faq.html">Frequently Asked Questions</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="faq.html#connecting-wifi-and-withrottle">Connecting - Wifi and WiThrottle</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="faq.html#connecting-to-different-servers-railroads">Connecting to different servers/railroads</a></li>
+<li class="toctree-l4"><a class="reference internal" href="faq.html#save-load-preferences-for-different-servers">Save/load preferences for different servers</a></li>
 </ul>
 </li>
-<li class="toctree-l4"><a class="reference internal" href="faq.html#selecting-locomotives-to-control">Selecting locomotives to control</a></li>
-<li class="toctree-l4"><a class="reference internal" href="faq.html#changing-the-appearance-of-engine-driver">Changing the appearance of Engine Driver</a><ul>
-<li class="toctree-l5"><a class="reference internal" href="faq.html#global-changes-themes">Global changes (Themes)</a></li>
-<li class="toctree-l5"><a class="reference internal" href="faq.html#changing-the-throttle-screen">Changing the Throttle screen</a></li>
-<li class="toctree-l5"><a class="reference internal" href="faq.html#speed-slider-vs-speed-buttons">Speed slider VS speed buttons</a></li>
-<li class="toctree-l5"><a class="reference internal" href="faq.html#direction-buttons">Direction Buttons</a></li>
-<li class="toctree-l5"><a class="reference internal" href="faq.html#hiding-the-title-bar-and-navigation-bar">Hiding the title bar and navigation bar</a></li>
-<li class="toctree-l5"><a class="reference internal" href="faq.html#immersive-mode">Immersive mode</a></li>
-<li class="toctree-l5"><a class="reference internal" href="faq.html#swiping-up-or-down">Swiping up or Down</a></li>
-<li class="toctree-l5"><a class="reference internal" href="faq.html#showing-the-web-page-at-the-bottom-of-the-throttle-screen">Showing the web page at the bottom of the throttle screen</a></li>
+<li class="toctree-l3"><a class="reference internal" href="faq.html#selecting-locomotives-to-control">Selecting locomotives to control</a></li>
+<li class="toctree-l3"><a class="reference internal" href="faq.html#changing-the-appearance-of-engine-driver">Changing the appearance of Engine Driver</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="faq.html#global-changes-themes">Global changes (Themes)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="faq.html#changing-the-throttle-screen">Changing the Throttle screen</a></li>
+<li class="toctree-l4"><a class="reference internal" href="faq.html#speed-slider-vs-speed-buttons">Speed slider VS speed buttons</a></li>
+<li class="toctree-l4"><a class="reference internal" href="faq.html#direction-buttons">Direction Buttons</a></li>
+<li class="toctree-l4"><a class="reference internal" href="faq.html#hiding-the-title-bar-and-navigation-bar">Hiding the title bar and navigation bar</a></li>
+<li class="toctree-l4"><a class="reference internal" href="faq.html#immersive-mode">Immersive mode</a></li>
+<li class="toctree-l4"><a class="reference internal" href="faq.html#swiping-up-or-down">Swiping up or Down</a></li>
+<li class="toctree-l4"><a class="reference internal" href="faq.html#showing-the-web-page-at-the-bottom-of-the-throttle-screen">Showing the web page at the bottom of the throttle screen</a></li>
 </ul>
 </li>
-<li class="toctree-l4"><a class="reference internal" href="faq.html#changing-the-loco-selection-screen">Changing the loco selection screen</a><ul>
-<li class="toctree-l5"><a class="reference internal" href="faq.html#locos-in-the-roster-not-showing">Locos in the roster not showing</a></li>
+<li class="toctree-l3"><a class="reference internal" href="faq.html#changing-the-loco-selection-screen">Changing the loco selection screen</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="faq.html#locos-in-the-roster-not-showing">Locos in the roster not showing</a></li>
 </ul>
 </li>
-<li class="toctree-l4"><a class="reference internal" href="faq.html#changing-the-connection-screen">Changing the connection screen</a></li>
-<li class="toctree-l4"><a class="reference internal" href="faq.html#changing-the-turnouts-screen">Changing the turnouts screen</a></li>
-<li class="toctree-l4"><a class="reference internal" href="faq.html#conserving-power-on-your-phone-tablet">Conserving power on your phone/tablet</a></li>
-</ul>
-</li>
+<li class="toctree-l3"><a class="reference internal" href="faq.html#changing-the-connection-screen">Changing the connection screen</a></li>
+<li class="toctree-l3"><a class="reference internal" href="faq.html#changing-the-turnouts-screen">Changing the turnouts screen</a></li>
+<li class="toctree-l3"><a class="reference internal" href="faq.html#conserving-power-on-your-phone-tablet">Conserving power on your phone/tablet</a></li>
 </ul>
 </li>
 </ul>
@@ -458,7 +453,6 @@
   <ul class="wy-breadcrumbs">
       <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
           <li><a href="index.html">Operation</a> &raquo;</li>
-          <li><a href="operation.html">Operation</a> &raquo;</li>
       <li>User Interface</li>
       <li class="wy-breadcrumbs-aside">
               <a href="https://github.com/flash62au/EngineDriver_Home/blob/main/docs/operation/interface.rst" class="fa fa-github"> Edit on GitHub</a>
@@ -499,14 +493,15 @@
 <li><p><a class="reference internal" href="#gamepad-test-screen" id="id17">Gamepad Test Screen</a></p></li>
 <li><p><a class="reference internal" href="#view-log-screen" id="id18">View Log Screen</a></p></li>
 <li><p><a class="reference internal" href="#about-screen" id="id19">About Screen</a></p></li>
+<li><p><a class="reference internal" href="#reconnecting-screen" id="id20">Reconnecting Screen</a></p></li>
 </ul>
 </li>
-<li><p><a class="reference internal" href="#common-elements-and-features" id="id20">Common Elements and Features</a></p>
+<li><p><a class="reference internal" href="#common-elements-and-features" id="id21">Common Elements and Features</a></p>
 <ul>
-<li><p><a class="reference internal" href="#theme" id="id21">Theme</a></p></li>
-<li><p><a class="reference internal" href="#localisation" id="id22">Localisation</a></p></li>
-<li><p><a class="reference internal" href="#action-bar" id="id23">Action Bar</a></p></li>
-<li><p><a class="reference internal" href="#overflow-menu" id="id24">Overflow Menu</a></p></li>
+<li><p><a class="reference internal" href="#theme" id="id22">Theme</a></p></li>
+<li><p><a class="reference internal" href="#localisation" id="id23">Localisation</a></p></li>
+<li><p><a class="reference internal" href="#action-bar" id="id24">Action Bar</a></p></li>
+<li><p><a class="reference internal" href="#overflow-menu" id="id25">Overflow Menu</a></p></li>
 </ul>
 </li>
 </ul>
@@ -809,13 +804,18 @@ Internal storage <code class="docutils literal notranslate"><span class="pre">/A
 </ul>
 <p><div style="color:red">TODO</div></p>
 </section>
+<section id="reconnecting-screen">
+<h3><a class="toc-backref" href="#id20">Reconnecting Screen</a><a class="headerlink" href="#reconnecting-screen" title="Permalink to this heading"></a></h3>
+<p>This screen displays</p>
+<p><div style="color:red">TODO</div></p>
+</section>
 </section>
 <section id="common-elements-and-features">
-<h2><a class="toc-backref" href="#id20">Common Elements and Features</a><a class="headerlink" href="#common-elements-and-features" title="Permalink to this heading"></a></h2>
+<h2><a class="toc-backref" href="#id21">Common Elements and Features</a><a class="headerlink" href="#common-elements-and-features" title="Permalink to this heading"></a></h2>
 <p><div style="color:red">TODO</div></p>
 <hr class="docutils" />
 <section id="theme">
-<h3><a class="toc-backref" href="#id21">Theme</a><a class="headerlink" href="#theme" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id22">Theme</a><a class="headerlink" href="#theme" title="Permalink to this heading"></a></h3>
 <p><div style="color:red">TODO</div></p>
 <ul class="simple">
 <li><p>Default</p></li>
@@ -826,7 +826,7 @@ Internal storage <code class="docutils literal notranslate"><span class="pre">/A
 </ul>
 </section>
 <section id="localisation">
-<h3><a class="toc-backref" href="#id22">Localisation</a><a class="headerlink" href="#localisation" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id23">Localisation</a><a class="headerlink" href="#localisation" title="Permalink to this heading"></a></h3>
 <p><div style="color:red">TODO</div></p>
 <ul class="simple">
 <li><p>Use Phone’s global setting</p></li>
@@ -848,7 +848,7 @@ Internal storage <code class="docutils literal notranslate"><span class="pre">/A
 </div>
 </section>
 <section id="action-bar">
-<h3><a class="toc-backref" href="#id23">Action Bar</a><a class="headerlink" href="#action-bar" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id24">Action Bar</a><a class="headerlink" href="#action-bar" title="Permalink to this heading"></a></h3>
 <a class="reference internal image-reference" href="../_images/action_bar.png"><img alt="../_images/action_bar.png" class="align-right" src="../_images/action_bar.png" style="width: 360.0px; height: 50.0px;" /></a>
 <p>The Action Bar appears at the top of all screen. It will show different information and different buttons depending on a) the particular screen and b) preferences you have set.</p>
 <p>The Action Bar can display:</p>
@@ -939,7 +939,7 @@ Internal storage <code class="docutils literal notranslate"><span class="pre">/A
 </section>
 <hr class="docutils" />
 <section id="overflow-menu">
-<h3><a class="toc-backref" href="#id24">Overflow Menu</a><a class="headerlink" href="#overflow-menu" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id25">Overflow Menu</a><a class="headerlink" href="#overflow-menu" title="Permalink to this heading"></a></h3>
 <p>The Overflow Menu (or simply ‘Menu’) appears in the Action Bar at the top of most of the main screens. It will show different options depending on a) the particular screen, b) preferences you have set and c) the state of certain elements in the app.</p>
 <p>The Overflow Menu can display</p>
 <ul class="simple">
@@ -968,7 +968,7 @@ Internal storage <code class="docutils literal notranslate"><span class="pre">/A
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="operation.html" class="btn btn-neutral float-left" title="Operation" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="operation.html" class="btn btn-neutral float-left" title="Detailed Instructions" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
         <a href="wifi_issues.html" class="btn btn-neutral float-right" title="WiFi Issues" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 

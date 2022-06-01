@@ -1,4 +1,6 @@
 
+.. title:: Contributing 
+
 .. toctree::
 
    contributing
