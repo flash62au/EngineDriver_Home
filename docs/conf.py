@@ -18,7 +18,7 @@ import sphinx_rtd_theme
 
 # -- Project information -----------------------------------------------------
 
-project = 'Engine Driver Throttle Home'
+project = 'Engine Driver Home'
 copyright = 'M Steve Todd'
 author = 'M Steve Todd, Peter Akers, Robert Posener'
 
@@ -88,7 +88,7 @@ html_theme_options = {
     'logo_only': True,
     # Toc options
     'includehidden': True,
-    'titles_only': True,
+#    'titles_only': True,
     'collapse_navigation': False,
     'navigation_depth': -1 
 }

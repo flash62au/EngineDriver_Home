@@ -13,7 +13,7 @@ Advanced or Specialist Operation
      :depth: 3
 
 ----
-
+ 
 |todo|
 
 Children's Timer
@@ -54,3 +54,12 @@ Swapping Direction Buttons
 
 * Preferences
 * long press
+
+
+Advance Function Follow...
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+|todo|
+
+different settings
+ 

@@ -11,7 +11,7 @@ Preferences
 
   .. contents:: On This Page
     :depth: 3
-    
+
 ----
 
 **Show Advanced Preferences?**
