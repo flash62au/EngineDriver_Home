@@ -7,12 +7,6 @@ Quick Start / Getting Started
 
 .. include:: ../include.rst
 
-.. sidebar::
-
-  .. contents:: On This Page
-    :depth: 4
-
-
 * Install **Engine Driver** from the `Google Play Store <https://play.google.com/store/apps/details?id=jmri.enginedriver>`_ or by `direct download <../downloads/index.html>`_. 
 * Confirm that your devices meet the `Prerequisites <../prerequisites/index.html>`_
 * **Start your WiThrottle server**

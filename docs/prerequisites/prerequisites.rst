@@ -1,5 +1,5 @@
 *******************************************
-Prerequisites
+Prerequisites for Using Engine Driver
 *******************************************
 
 .. meta::
@@ -24,6 +24,10 @@ Android Device/Phone
 --------------------
 
 **Engine Driver** will work on most Android devices made in the last 8-9 years. Currently it has a minSDKVersion 16, which equates to minimum Android OS version of 4.1 (JELLYBEAN). Info on minSDKVersion available in the `Engine Driver manifest <https://developer.android.com/guide/topics/manifest/uses-sdk-element#ApiLevels>`_.
+
+.. image:: ../_static/images/gamepads/esu_mcii.png
+   :scale: 15 %
+   :align: right
 
 ESU MobileControl II
 """"""""""""""""""""

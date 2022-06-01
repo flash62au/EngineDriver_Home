@@ -9,6 +9,10 @@ ESU MobileControl II
 
 ----
 
+.. image:: ../_static/images/gamepads/esu_mcii.png
+   :scale: 25 %
+   :align: right
+
 As well as being able to control speed of the selected throttle with the control knob, it's also possible to switch direction via the zero-position end-stop switch.
 
 Up to three trains can be controlled at once - the train being operated by the control knob is highlighted by the small 'v' in the speed indicator. Switch between operated trains by clicking the appropriate speed indicator. It is also possible to assign one of the device side

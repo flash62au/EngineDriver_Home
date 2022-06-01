@@ -445,6 +445,8 @@ The actions of the DCC functions will be impacted depending on the settings and 
 
   **Activating the DCC Function via the Function Buttons**
 
+  |todo|
+
   **Activating the DCC Function via the Gamepad Keys**
   
   Any keys and/or the any DPad directions can be configured to activate the DCC Functions.
@@ -593,6 +595,7 @@ Panels and Web Pages
 
 * Throttle Web View VS Web Screen
 * Default page
+
   * Web View
   * Web Screen
 
