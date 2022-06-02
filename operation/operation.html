@@ -242,7 +242,7 @@
 <li class="toctree-l4"><a class="reference internal" href="../configuration/preferences.html#in-phone-loco-sounds">In Phone Loco Sounds</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../configuration/preferences.html#connect-preferences">Connect Preferences</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../configuration/preferences.html#web-screen-preferences">Web Screen Preferences</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../configuration/preferences.html#turnouts-and-routes-preferences">Turnouts and Routes Preferences</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../configuration/preferences.html#turnouts-points-and-routes-preferences">Turnouts/Points and Routes Preferences</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../configuration/preferences.html#children-s-timer-preferences">Children’s (Timer) Preferences</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../configuration/preferences.html#import-export-reset-log-preferences">Import/Export/Reset &amp; Log Preferences</a></li>
 </ul>
@@ -444,17 +444,15 @@ Your server not appearing in the recent list is not necessarily a problem  See <
 </section>
 <section id="disconnections">
 <h3><a class="toc-backref" href="#id16">Disconnections</a><a class="headerlink" href="#disconnections" title="Permalink to this heading"></a></h3>
-<p><div style="color:red">TODO</div></p>
 <p><strong>Engine Driver</strong> and/or the Android device can occasionally lose the connection even after it successfully connected.  There can be a lot of causes.  If ED does lose connection it will buzz, vibrate and take you to <em>Reconnecting Screen</em>.   It will repeatedly and indefinitely attempt to reconnect.</p>
 <p>If JMRI does not receive any feedback from your device/phone within a configured period, JMRI will stop all the locos you have selected on you device/phone.</p>
-<p>see … for possible causes/solution.</p>
-<p>see … to disable the audible and haptic warnings.</p>
-<ul class="simple">
-<li><p>disable alert</p></li>
-</ul>
+<div class="note-ed-hidden-title admonition note">
+<p class="admonition-title">Note</p>
+<p>See <a class="reference external" href="./wifi_issues.html#disconnections">WiFi Issues Page</a> more information for possible causes/solution.</p>
+<p>See <a class="reference external" href="../configuration/preferences.html#feedback-on-disconnect">Feedback on Disconnect preference on the Preferences page</a> to disable the audible and haptic warnings.</p>
+</div>
 </section>
 </section>
-<hr class="docutils" />
 <section id="turn-track-power-on">
 <h2><a class="toc-backref" href="#id17">Turn Track Power On</a><a class="headerlink" href="#turn-track-power-on" title="Permalink to this heading"></a></h2>
 <p>Some DCC Command Stations need to be instructed to turn the Track Power on before you can use them.  This is not required by all Command Stations so check your manufacturer’s instructions.</p>
@@ -528,7 +526,6 @@ Your server not appearing in the recent list is not necessarily a problem  See <
 </ul>
 </section>
 </section>
-<hr class="docutils" />
 <section id="running-trains">
 <h2><a class="toc-backref" href="#id21">Running Trains</a><a class="headerlink" href="#running-trains" title="Permalink to this heading"></a></h2>
 <p>Once you have selected a loco or consist / multiple unit for a throttle, the names or addresses of the locos will be shown in the <span class="guilabel">Select</span> button of the throttle.</p>
@@ -667,7 +664,7 @@ Your server not appearing in the recent list is not necessarily a problem  See <
 <section id="dcc-functions">
 <h3><a class="toc-backref" href="#id24">DCC Functions</a><a class="headerlink" href="#dcc-functions" title="Permalink to this heading"></a></h3>
 <p><div style="color:red">TODO</div></p>
-<p>There are two ways you can activate the DCC Functions of your loco or consist /multiple unit train:</p>
+<p>There are two ways you can activate the DCC Functions of the decoder in your loco or consist /multiple unit train:</p>
 <ul class="simple">
 <li><p>Function buttons</p></li>
 <li><p>Gamepads keys (if connected)</p></li>
@@ -681,13 +678,11 @@ Your server not appearing in the recent list is not necessarily a problem  See <
 <p><div style="color:red">TODO</div></p>
 <p><strong>Activating the DCC Function via the Gamepad Keys</strong></p>
 <p>Any keys and/or the any DPad directions can be configured to activate the DCC Functions.</p>
-<blockquote>
-<div><div class="note-ed-hidden-title admonition note">
+<div class="note-ed-hidden-title admonition note">
 <p class="admonition-title">Note</p>
 <p>See the <a class="reference external" href="./gamepads.html">Gamepads Operation page</a> for information on selecting and using a gamepad.</p>
 <p>See the <a class="reference external" href="../configuration/gamepads.html">Gamepads Configuration page</a> for information on configuring the keys of the gamepad.</p>
 </div>
-</div></blockquote>
 <p><strong>Common Functions</strong></p>
 <p><div style="color:red">TODO</div></p>
 <p><strong>Function Labels</strong></p>
@@ -697,10 +692,18 @@ Your server not appearing in the recent list is not necessarily a problem  See <
 <li><p>Are provided by the Loco Roster Entry in the WiThrottle Server, or the Consist / Multiple Unit</p></li>
 <li><p>Come from the <em>Default Function</em> Labels in <strong>Engine Driver</strong></p></li>
 </ul>
+<div class="note-ed-hidden-title admonition note">
+<p class="admonition-title">Note</p>
+<p>See the</p>
+</div>
 <p><strong>Functions in consists</strong></p>
-<p><div style="color:red">TODO</div></p>
 <p>By default DCC Functions are only sent to the first loco in a Consist / Multiple Unit.  This can be changed in the Preferences.</p>
-<p>Advance Function Follow Functions.  See Advanced Operation page</p>
+<p>There are a number of preferences that can be used to override the default behaviour.</p>
+<div class="note-ed-hidden-title admonition note">
+<p class="admonition-title">Note</p>
+<p>See the <a class="reference external" href="./preferences.html#consist-function-follow-preferences">Consist Follow Functions in the Preferences page</a> and the
+<a class="reference external" href="advanced.html#consist-follow-functions">Consist Follow Functions om the Advanced Operation page</a> for more details.</p>
+</div>
 </li>
 </ul>
 </section>
