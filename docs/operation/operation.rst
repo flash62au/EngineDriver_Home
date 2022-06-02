@@ -114,21 +114,16 @@ Connecting Engine Driver to the WiThrottle server
 Disconnections
 """"""""""""""
 
-|todo|
-
 |ed| and/or the Android device can occasionally lose the connection even after it successfully connected.  There can be a lot of causes.  If ED does lose connection it will buzz, vibrate and take you to *Reconnecting Screen*.   It will repeatedly and indefinitely attempt to reconnect.
 
 If JMRI does not receive any feedback from your device/phone within a configured period, JMRI will stop all the locos you have selected on you device/phone.
 
-see ... for possible causes/solution.
+.. note:: 
+  :class: note-ed-hidden-title
+  
+  See `WiFi Issues Page <./wifi_issues.html#disconnections>`_ more information for possible causes/solution.
 
-see ... to disable the audible and haptic warnings.
-
-
-* disable alert
-
-
-----
+  See `Feedback on Disconnect preference on the Preferences page <../configuration/preferences.html#feedback-on-disconnect>`_ to disable the audible and haptic warnings.
 
 Turn Track Power On
 ^^^^^^^^^^^^^^^^^^^
@@ -218,8 +213,6 @@ There three ways create a Consist / Multiple Unit train:
 
   * There is no real limit to the number of locos that can be added to a Consist / Multiple Unit.
   * The order of the locos in the consist can be important.  By default, lights and sound functions are only sent to the first loco.  This can be overridden in the preferences.
-
-----
 
 Running Trains
 ^^^^^^^^^^^^^^^
@@ -432,7 +425,7 @@ DCC Functions
 
 |todo|
 
-There are two ways you can activate the DCC Functions of your loco or consist /multiple unit train:
+There are two ways you can activate the DCC Functions of the decoder in your loco or consist /multiple unit train:
 
 - Function buttons
 - Gamepads keys (if connected)
@@ -451,12 +444,12 @@ The actions of the DCC functions will be impacted depending on the settings and 
   
   Any keys and/or the any DPad directions can be configured to activate the DCC Functions.
 
-    .. note:: 
-      :class: note-ed-hidden-title
+  .. note:: 
+    :class: note-ed-hidden-title
 
-      See the `Gamepads Operation page <./gamepads.html>`_ for information on selecting and using a gamepad.
+    See the `Gamepads Operation page <./gamepads.html>`_ for information on selecting and using a gamepad.
 
-      See the `Gamepads Configuration page <../configuration/gamepads.html>`_ for information on configuring the keys of the gamepad.
+    See the `Gamepads Configuration page <../configuration/gamepads.html>`_ for information on configuring the keys of the gamepad.
 
   **Common Functions**
 
@@ -472,13 +465,22 @@ The actions of the DCC functions will be impacted depending on the settings and 
   * Are provided by the Loco Roster Entry in the WiThrottle Server, or the Consist / Multiple Unit
   * Come from the *Default Function* Labels in |ed|
 
-  **Functions in consists**
+  .. note:: 
+    :class: note-ed-hidden-title
 
-  |todo|
+    See the 
+
+  **Functions in consists**
 
   By default DCC Functions are only sent to the first loco in a Consist / Multiple Unit.  This can be changed in the Preferences.
 
-  Advance Function Follow Functions.  See Advanced Operation page
+  There are a number of preferences that can be used to override the default behaviour.
+
+  .. note:: 
+    :class: note-ed-hidden-title
+
+    See the `Consist Follow Functions in the Preferences page <./preferences.html#consist-function-follow-preferences>`_ and the 
+    `Consist Follow Functions om the Advanced Operation page <advanced.html#consist-follow-functions>`_ for more details.
 
 
 Virtual Sounds - In Phone Loco Sounds (IPLS)
