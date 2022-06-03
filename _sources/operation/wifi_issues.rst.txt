@@ -11,8 +11,14 @@ WiFi Issues
 
   .. contents:: On This Page
 
+Many of the problems that people have with |ed| relate to connection issues.
+
+Below are several common problems.
+
 Wrong Network
 -------------
+
+|todo|
 
 Recent versions of Android have a very confusing *feature*, sometimes called 'Smart Network Switching', that will ignore a connected WiFi network if that network cannot reach the Internet. 
 

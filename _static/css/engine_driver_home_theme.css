@@ -101,7 +101,7 @@ li.toctree-l1 ul, li.toctree-l2 ul, li.toctree-l3 ul {
   margin-bottom: 0px !Important;
 }
 
-li.toctree-l3 {
+li.toctree-l3, li.toctree-l4 {
   margin-top: 0px !Important;
   margin-bottom: 0px !Important;
   font-size: 90% !important;

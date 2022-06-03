@@ -23,6 +23,6 @@ Operation
    
 See:
 
-* The `Getting Started <./getting_started.html>`_ page for the basics |br| |br|
-* The `Detailed Information <./operation.html>`_ page for more comprehensive information about the features of |ed| and how to use them
+* The `Getting Started <./getting_started.html>`_ page for the basics of connecting and using |ed| |br| |br|
+* The `Detailed Instructions <./operation.html>`_ page for more comprehensive information about the features of |ed| and how to use them
 

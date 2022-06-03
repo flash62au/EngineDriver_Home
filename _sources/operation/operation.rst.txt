@@ -423,22 +423,27 @@ There are three ways you can control the direction of your loco or consist /mult
 DCC Functions
 """"""""""""""""""""""""""""""""""
 
-|todo|
-
 There are two ways you can activate the DCC Functions of the decoder in your loco or consist /multiple unit train:
 
 - Function buttons
 - Gamepads keys (if connected)
 
-The actions of the DCC functions will be impacted depending on the settings and preferences you have selected:
+The DCC functions can be impacted depending on the settings and preferences you have selected:
 
-* Common Functions
 * Function Labels
 * Functions in consists
 
   **Activating the DCC Function via the Function Buttons**
 
-  |todo|
+  Most (all bar one) Throttle Layouts show a number of DCC Function Buttons below or beside the Sliders for the individual Throttles on the Screen.  Clicking a button will send that function to the Loco (or lead loco of a Consist / Multiple Unit.)  This behaviour can be altered in the preferences.
+
+  .. note:: 
+    :class: note-ed-hidden-title
+
+    See the `Functions page <./gamepads.html>`_ for information on changing the Functions.
+
+    See the `Consist Function Follow Preferences on the Preferences page <../configuration/preferences.html#consist-function-follow-preferences>` for information on changing the behaviour of the functions in consists / multiple units.
+
 
   **Activating the DCC Function via the Gamepad Keys**
   
@@ -451,24 +456,31 @@ The actions of the DCC functions will be impacted depending on the settings and 
 
     See the `Gamepads Configuration page <../configuration/gamepads.html>`_ for information on configuring the keys of the gamepad.
 
-  **Common Functions**
-
-  |todo|
-
 
   **Function Labels**
 
-  |todo|
+  Most (all bar one) Throttle Layouts show a number of DCC Function Buttons below or beside the Sliders for the individual Throttles on the Screen.
 
-  Function Labels are either:
+  By default:
+  
+  * If you select a loco from a WiThrottle Roster Entry, it will show the labels on the buttons as they have been configured in the Roster Entry on the server. 
+  * If you enter the DCC address of the loco, it will show |eds| 'Default Function Labels'.  
+  
+    * All 29 functions will be shown.  They are: 
+  
+      * F0 / Light
+      * F1 / Bell
+      * F2 / Horn / Whistle
+      * F3 - F28
 
-  * Are provided by the Loco Roster Entry in the WiThrottle Server, or the Consist / Multiple Unit
-  * Come from the *Default Function* Labels in |ed|
+    * Which function buttons, how many function buttons and what labels are displayed, can be changed via the :menuselection:`Menu --> Function Defaults` from the Throttle Screen
+  
+  * If you select a Loco from the Recent Locos or Recent Consists lists that was originally selected from a roster, |ed| will attempt to show the Labels from the server roster entry.
 
   .. note:: 
     :class: note-ed-hidden-title
 
-    See the 
+    See the `Functions page <./gamepads.html>`_ for information on changing the Functions and Function Labels.
 
   **Functions in consists**
 
@@ -492,9 +504,11 @@ Virtual Sounds - In Phone Loco Sounds (IPLS)
 
 There is built in Support for a number of different type of locos:
 
-* steam
-* diesel
-* custom 
+* Steam - 4 in-built profiles
+* Diesel - 3 in-built profiles
+* Plus you can create you own Custom profiles
+
+To enable the IPLS sounds for a throttle (only the first two throttles on any given throttle screen) , 
 
 Playing sounds
 
