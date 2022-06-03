@@ -560,14 +560,14 @@ The volume of the Loco Sounds, the Bell Sounds and the Horn/Whistle sound can be
 
   **Activating the IPLS Sounds via Gamepad keys**
 
-    Any keys and/or the any DPad directions can be configured to activate play the IPLS sounds.
+  Any keys and/or the any DPad directions can be configured to activate play the IPLS sounds.
 
-      .. note:: 
-        :class: note-ed-hidden-title
+  .. note:: 
+    :class: note-ed-hidden-title
 
-        See the `Gamepads Operation page <./gamepads.html>`_ for information on selecting and using a gamepad.
+    See the `Gamepads Operation page <./gamepads.html>`_ for information on selecting and using a gamepad.
 
-        See the `Gamepads Configuration page <../configuration/gamepads.html>`_ for information on configuring the keys of the gamepad.
+    See the `Gamepads Configuration page <../configuration/gamepads.html>`_ for information on configuring the keys of the gamepad.
 
 Action Bar and Menu
 ^^^^^^^^^^^^^^^^^^^
@@ -575,28 +575,64 @@ Action Bar and Menu
 |todo|
 
 Menu
-
-* common
-* screen specific
-  
-Action Bar
-
-* common
-* screen specific
-
-Menu
 """"
 
-  |todo|
+|todo|
+
+**Common Menu Items**
+
+These menu items appear on a number of different  Screens (most 'Main Screens'):abbr:
+
+* Throttle
+* Turnouts/Points
+* Routes
+* Web
+* Preferences
+* View Log
+* About
+* Exit
+* Power
+
+**Screen Specific Menu Items** 
+
+These menu items only appear on specific Screens or under specific Conditions:
+
+* Intro/Setup Wizard
+* Clear Recent List
+* Function Defaults
+* Gamepads
 
 Action Bar
 """"""""""
 
+.. image:: ../_static/images/parts/action_bar.png
+  :align: right
+  :scale: 33%
+
+The *Action Bar* provides for a number of common and specific information and functions. It can display:
+
+* The app name (Engine Driver)
+
+Optionally configured information:
+
+* Fast Clock
+* Children’s Timer Status and Countdown
+* Full Screen or Action Bar Only left/right swipe
+* WiThrottle Server Name
+
+Optionally configured buttons:
+
+* Emergency Stop (EStop)
+* Track Power
+* Flashlight
+* Throttle Web View
+* Throttle Layout Switching
+* In Phone Loco Sound
+* Children's Timer
 
   **Track Power Action Bar Button** 
 
   |todo|
-
 
   Accessed from the :menuselection:`Menu --> Power` from most screens.
 
@@ -610,8 +646,11 @@ Action Bar
   * Preferences
   * Action Bar Button
 
+  .. note:: 
+    :class: note-ed-hidden-title
 
-----
+    See the `Action Bar on the User Interface page <./interface.html#action-bar>`_ for information on the Action bar buttons.
+
 
 Turnouts / Points
 ^^^^^^^^^^^^^^^^^
@@ -621,16 +660,12 @@ Turnouts / Points
 * Address
 * From the WiThrottle server
 
-----
-
 Routes
 ^^^^^^^^^^^^^^^
 
 |todo|
 
 * From the WiThrottle server
-
-----
 
 Panels and Web Pages
 ^^^^^^^^^^^^^^^^^^^^^^
@@ -643,14 +678,27 @@ Panels and Web Pages
   * Web View
   * Web Screen
 
-----
-
-Pushing Engine Driver to the Background
+Pushing the app to the Background
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-|todo|
+By using the Android ``Home`` ( ○ ) or ``Recent Tasks`` ( □ ) navigation buttons, or if you press the ``Power`` physical button, it is possible to push the |ed| app into the background.  |ed| will give a sound, warning and will add an entry to the Notification Shade when this happens.
 
-* Disable Alert
+Clicking on the Notification Shade entry or the app icon will return you the same screen your were in when to pushed the app to the background.
+
+|ed| *is not designed to run in background and its performance is not predictable.*
+
+While |ed| will attempt to continue to run in background, it is at the mercy of the Android OS. Android itself is designed to kill dormant apps, which it will considers this to be, if it thinks there is a better use of the memory or processor, so it can be terminated at any time without warning.
+
+In general avoid letting |ED| try to run in background.
+
+.. note:: 
+  :class: note-ed-hidden-title
+
+  |todo|
+
+  If you are concerned about preserving the battery, there are options.  See ??? for more information.
+
+  See the `Background Alert in the Preference page <./preferences.html#background-alert>`_ for information on disabling the alert.
 
 Exiting Engine Driver
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -664,4 +712,3 @@ Exiting **Engine Driver**:
 
 * Disconnects from the WiThrottle server.
 * Stops playing all In Phone Loco Sounds (if any were configured).
-  
