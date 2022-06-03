@@ -499,8 +499,6 @@ The DCC functions can be impacted depending on the settings and preferences you 
 Virtual Sounds - In Phone Loco Sounds (IPLS)
 """"""""""""""""""""""""""""""""""""""""""""
 
-|todo|
-
 |ed| can play synchronised loco sounds through the speaker of your Android device / phone, or through BlueTooth speakers connected to it.
 
 There is built in Support for a number of different type of locos:
@@ -509,38 +507,67 @@ There is built in Support for a number of different type of locos:
 * Diesel - 3 in-built profiles
 * Plus you can create you own Custom profiles
 
-To enable the IPLS sounds for a throttle (only the first two throttles) on an given throttle screen) , 
+To enable In Phone Loco Sounds (IPLS) for a throttle (only the first two throttles on an given throttle screen) select an option in ``Throttle 1 Loco Sounds`` or ``Throttle 2 Loco Sounds`` (or both) preferences. Once enabled for either throttle a new menu option will be available from Throttle Screen to make subsequent changes easier: :menuselection:`Menu --> Loco Sounds`
 
-Playing sounds
+To make it easy to switch sound profiles we recommend enabling the Action Bar button by setting the ``In phone sounds button`` preferences: :menuselection:`Menu --> Preferences --> Throttle Screen Action Bar Preferences --> In phone sounds button`
 
-* IPLS specific buttons
-* via the DCC F0, F1, F2 DCC Functions (if set in the preferences)
-* gamepad keys (if connected)
+**Automatic Loco Speed Step Sounds**
 
-How to enable, change, mute.
+Each IPLS Profile has a different number of speed steps. As the loco speed increases or decreases to a certain point a different sound will repeatedly play.  To try to emulate the momentum of the loco, there is a preset delay, and an option to not lip the sounds (which enforces a minimum delay) These can be altered with the ``In Phone Momentum`` and the ``Don't clip loco step sounds`` preferences.
 
-See `In Phone Loco Sounds (IPLS) <../configuration/ipls.html>`_ for more information.
+The volume of the Loco Sounds, the Bell Sounds and the Horn/Whistle sound can be altered independently with the ``In Phone Loco Sounds Volume``, the ``In Phone Bell Sounds Volume`` and the ``In Phone Horn/Whistle Sounds Volume`` preferences.
 
-**Activating the IPLS Sounds via IPLS Buttons**
+**Playing sounds**
 
-|todo|
+  Other than the speed steps sounds, which are automatic, there are three ways to play the additional sounds:
 
-**Activating the IPLS Sounds via DCC Functions**
+  * IPLS specific buttons
+  * Via the DCC F0, F1, F2 DCC Functions (if set in the preferences)
+  * Gamepad keys (if connected)
 
-|todo|
+  See `In Phone Loco Sounds (IPLS) <../configuration/ipls.html>`_ for more information.
 
-**Activating the IPLS Sounds via Gamepad keys**
+  **Activating the IPLS Sounds via IPLS Buttons**
+
+  Once an IPLS profile is selected for a throttle (either of the first two throttles), four new buttons will be shown near the DCC Function Buttons, with a 'headphones' symbol to distinguish them from the normal DCC Functions.
+
+  * Mute (IPLS)
+  * Bell (IPLS)
+  * Horn/Whistle (IPLS)
+  * Short Horn/Whistle (IPLS)
+
+    **Mute button**
+
+    Clicking this will disable all IPLS sounds for this Throttle.
+
+    **Bell button** 
+
+    Clicking this will continuously play a bell sound until it is clicked again (latched)
+
+    The Bell can be made non-latching by changing the ``Bell button Latching/Momentary`` preference.
+
+    **Horn / Whistle button**
+
+    Clicking this will continuously play a horn or whistle sound (depending on the profile) until the button is released (non-latched)
+
+    **Short Horn / Whistle button**
+
+    Clicking this will play a horn or whistle sound (depending on the profile) ones, regardless of how long the button is held down.
+
+  **Activating the IPLS Sounds via DCC Functions / Function Buttons**
+
+  The Bell and Horn/Whistle (long) can be activated by the DCC Function buttons (F1 and F2) if the ``F1 and F2 activate Bell and Horn?`` preference is set.
+
+  **Activating the IPLS Sounds via Gamepad keys**
 
   Any keys and/or the any DPad directions can be configured to activate play the IPLS sounds.
 
-    .. note:: 
-      :class: note-ed-hidden-title
+  .. note:: 
+    :class: note-ed-hidden-title
 
-      See the `Gamepads Operation page <./gamepads.html>`_ for information on selecting and using a gamepad.
+    See the `Gamepads Operation page <./gamepads.html>`_ for information on selecting and using a gamepad.
 
-      See the `Gamepads Configuration page <../configuration/gamepads.html>`_ for information on configuring the keys of the gamepad.
-
-
+    See the `Gamepads Configuration page <../configuration/gamepads.html>`_ for information on configuring the keys of the gamepad.
 
 Action Bar and Menu
 ^^^^^^^^^^^^^^^^^^^
@@ -548,28 +575,64 @@ Action Bar and Menu
 |todo|
 
 Menu
-
-* common
-* screen specific
-  
-Action Bar
-
-* common
-* screen specific
-
-Menu
 """"
 
-  |todo|
+|todo|
+
+**Common Menu Items**
+
+These menu items appear on a number of different  Screens (most 'Main Screens'):abbr:
+
+* Throttle
+* Turnouts/Points
+* Routes
+* Web
+* Preferences
+* View Log
+* About
+* Exit
+* Power
+
+**Screen Specific Menu Items** 
+
+These menu items only appear on specific Screens or under specific Conditions:
+
+* Intro/Setup Wizard
+* Clear Recent List
+* Function Defaults
+* Gamepads
 
 Action Bar
 """"""""""
 
+.. image:: ../_static/images/parts/action_bar.png
+  :align: right
+  :scale: 33%
+
+The *Action Bar* provides for a number of common and specific information and functions. It can display:
+
+* The app name (Engine Driver)
+
+Optionally configured information:
+
+* Fast Clock
+* Children’s Timer Status and Countdown
+* Full Screen or Action Bar Only left/right swipe
+* WiThrottle Server Name
+
+Optionally configured buttons:
+
+* Emergency Stop (EStop)
+* Track Power
+* Flashlight
+* Throttle Web View
+* Throttle Layout Switching
+* In Phone Loco Sound
+* Children's Timer
 
   **Track Power Action Bar Button** 
 
   |todo|
-
 
   Accessed from the :menuselection:`Menu --> Power` from most screens.
 
@@ -583,8 +646,11 @@ Action Bar
   * Preferences
   * Action Bar Button
 
+  .. note:: 
+    :class: note-ed-hidden-title
 
-----
+    See the `Action Bar on the User Interface page <./interface.html#action-bar>`_ for information on the Action bar buttons.
+
 
 Turnouts / Points
 ^^^^^^^^^^^^^^^^^
@@ -594,16 +660,12 @@ Turnouts / Points
 * Address
 * From the WiThrottle server
 
-----
-
 Routes
 ^^^^^^^^^^^^^^^
 
 |todo|
 
 * From the WiThrottle server
-
-----
 
 Panels and Web Pages
 ^^^^^^^^^^^^^^^^^^^^^^
@@ -616,14 +678,27 @@ Panels and Web Pages
   * Web View
   * Web Screen
 
-----
-
-Pushing Engine Driver to the Background
+Pushing the app to the Background
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-|todo|
+By using the Android ``Home`` ( ○ ) or ``Recent Tasks`` ( □ ) navigation buttons, or if you press the ``Power`` physical button, it is possible to push the |ed| app into the background.  |ed| will give a sound, warning and will add an entry to the Notification Shade when this happens.
 
-* Disable Alert
+Clicking on the Notification Shade entry or the app icon will return you the same screen your were in when to pushed the app to the background.
+
+|ed| *is not designed to run in background and its performance is not predictable.*
+
+While |ed| will attempt to continue to run in background, it is at the mercy of the Android OS. Android itself is designed to kill dormant apps, which it will considers this to be, if it thinks there is a better use of the memory or processor, so it can be terminated at any time without warning.
+
+In general avoid letting |ED| try to run in background.
+
+.. note:: 
+  :class: note-ed-hidden-title
+
+  |todo|
+
+  If you are concerned about preserving the battery, there are options.  See ??? for more information.
+
+  See the `Background Alert in the Preference page <./preferences.html#background-alert>`_ for information on disabling the alert.
 
 Exiting Engine Driver
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -637,4 +712,3 @@ Exiting **Engine Driver**:
 
 * Disconnects from the WiThrottle server.
 * Stops playing all In Phone Loco Sounds (if any were configured).
-  
