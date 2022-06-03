@@ -1,5 +1,5 @@
 *******************************************
-Changes
+Changes / Updates
 *******************************************
 
 .. meta::
@@ -8,8 +8,8 @@ Changes
 .. include:: ../include.rst
 
 
-Current Production Version Changes
-----------------------------------
+Production Version Changes
+--------------------------
  
 Include:
 
@@ -45,8 +45,8 @@ Include:
 * Fix: Prevent crashes reported to Play Store
 * Fix: TTS speed bugs
 
-All Changes
------------
+Full Change History
+-------------------
 
 `view complete changelog <https://raw.githubusercontent.com/JMRI/EngineDriver/master/changelog-and-todo-list.txt>`_
 

@@ -10,6 +10,7 @@ Gamepads
 .. sidebar::
 
   .. contents:: On This Page
+     :local:
      :depth: 3
 
 Connecting your Gamepad

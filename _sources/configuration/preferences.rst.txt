@@ -10,6 +10,7 @@ Preferences
 .. sidebar::
 
   .. contents:: On This Page
+    :local:
     :depth: 3
 
 ----

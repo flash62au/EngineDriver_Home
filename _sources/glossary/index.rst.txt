@@ -13,6 +13,7 @@ Glossary / References / Copyright
 .. sidebar::
 
   .. contents:: On This Page  
+    :local:
 
 Glossary
 ========

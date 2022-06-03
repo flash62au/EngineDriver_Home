@@ -10,6 +10,7 @@ Advanced Operation
 .. sidebar::
 
   .. contents:: On This Page
+     :local:
      :depth: 3
 
 ----
