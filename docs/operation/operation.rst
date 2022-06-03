@@ -499,8 +499,6 @@ The DCC functions can be impacted depending on the settings and preferences you 
 Virtual Sounds - In Phone Loco Sounds (IPLS)
 """"""""""""""""""""""""""""""""""""""""""""
 
-|todo|
-
 |ed| can play synchronised loco sounds through the speaker of your Android device / phone, or through BlueTooth speakers connected to it.
 
 There is built in Support for a number of different type of locos:
@@ -509,38 +507,67 @@ There is built in Support for a number of different type of locos:
 * Diesel - 3 in-built profiles
 * Plus you can create you own Custom profiles
 
-To enable the IPLS sounds for a throttle (only the first two throttles) on an given throttle screen) , 
+To enable In Phone Loco Sounds (IPLS) for a throttle (only the first two throttles on an given throttle screen) select an option in ``Throttle 1 Loco Sounds`` or ``Throttle 2 Loco Sounds`` (or both) preferences. Once enabled for either throttle a new menu option will be available from Throttle Screen to make subsequent changes easier: :menuselection:`Menu --> Loco Sounds`
 
-Playing sounds
+To make it easy to switch sound profiles we recommend enabling the Action Bar button by setting the ``In phone sounds button`` preferences: :menuselection:`Menu --> Preferences --> Throttle Screen Action Bar Preferences --> In phone sounds button`
 
-* IPLS specific buttons
-* via the DCC F0, F1, F2 DCC Functions (if set in the preferences)
-* gamepad keys (if connected)
+**Automatic Loco Speed Step Sounds**
 
-How to enable, change, mute.
+Each IPLS Profile has a different number of speed steps. As the loco speed increases or decreases to a certain point a different sound will repeatedly play.  To try to emulate the momentum of the loco, there is a preset delay, and an option to not lip the sounds (which enforces a minimum delay) These can be altered with the ``In Phone Momentum`` and the ``Don't clip loco step sounds`` preferences.
 
-See `In Phone Loco Sounds (IPLS) <../configuration/ipls.html>`_ for more information.
+The volume of the Loco Sounds, the Bell Sounds and the Horn/Whistle sound can be altered independently with the ``In Phone Loco Sounds Volume``, the ``In Phone Bell Sounds Volume`` and the ``In Phone Horn/Whistle Sounds Volume`` preferences.
 
-**Activating the IPLS Sounds via IPLS Buttons**
+**Playing sounds**
 
-|todo|
+  Other than the speed steps sounds, which are automatic, there are three ways to play the additional sounds:
 
-**Activating the IPLS Sounds via DCC Functions**
+  * IPLS specific buttons
+  * Via the DCC F0, F1, F2 DCC Functions (if set in the preferences)
+  * Gamepad keys (if connected)
 
-|todo|
+  See `In Phone Loco Sounds (IPLS) <../configuration/ipls.html>`_ for more information.
 
-**Activating the IPLS Sounds via Gamepad keys**
+  **Activating the IPLS Sounds via IPLS Buttons**
 
-  Any keys and/or the any DPad directions can be configured to activate play the IPLS sounds.
+  Once an IPLS profile is selected for a throttle (either of the first two throttles), four new buttons will be shown near the DCC Function Buttons, with a 'headphones' symbol to distinguish them from the normal DCC Functions.
 
-    .. note:: 
-      :class: note-ed-hidden-title
+  * Mute (IPLS)
+  * Bell (IPLS)
+  * Horn/Whistle (IPLS)
+  * Short Horn/Whistle (IPLS)
 
-      See the `Gamepads Operation page <./gamepads.html>`_ for information on selecting and using a gamepad.
+    **Mute**
 
-      See the `Gamepads Configuration page <../configuration/gamepads.html>`_ for information on configuring the keys of the gamepad.
+    Clicking this will disable all IPLS sounds for this Throttle.
 
+    **Bell** 
 
+    Clicking this will continuously play a bell sound until it is clicked again (latched)
+
+    The Bell can be made non-latching by changing the ``Bell button Latching/Momentary`` preference.
+
+    ****
+
+    Clicking this will continuously play a horn or whistle sound (depending on the profile) until the button is released (non-latched)
+
+    **Short Horn / Whistle**
+
+    Clicking this will play a horn or whistle sound (depending on the profile) ones, regardless of how long the button is held down.
+
+  **Activating the IPLS Sounds via DCC Functions / Function Buttons**
+
+  The Bell and Horn/Whistle (long) can be activated by the DCC Function buttons (F1 and F2) if the ``F1 and F2 activate Bell and Horn?`` preference is set.
+
+  **Activating the IPLS Sounds via Gamepad keys**
+
+    Any keys and/or the any DPad directions can be configured to activate play the IPLS sounds.
+
+      .. note:: 
+        :class: note-ed-hidden-title
+
+        See the `Gamepads Operation page <./gamepads.html>`_ for information on selecting and using a gamepad.
+
+        See the `Gamepads Configuration page <../configuration/gamepads.html>`_ for information on configuring the keys of the gamepad.
 
 Action Bar and Menu
 ^^^^^^^^^^^^^^^^^^^
