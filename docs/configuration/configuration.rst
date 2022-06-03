@@ -81,10 +81,17 @@ WifiTrax
 Refer to the `WifiTrax manufacture's instructions <http://www.wifitrax.com/manuals/hardwareManuals.html>`_.
 
 
-Detailed Configuration Information
-----------------------------------
+Engine Driver - Configuration Details
+-------------------------------------
 
-For more information see:
+For more information on the items above see:
+
+* `Preferences page <./preferences.html>`_
+* `Function Buttons page <./functions.html>`_
+* `In Phone Loco Sounds page <./ipls.html>`_
+* `Gamepads page <./gamepads.html>`_
+* `Loco Icons in the Roster page <./loco_icons.html>`_
+* `Moving to a new device/phone page <./new_device.html>`_
 
 |todo|
 

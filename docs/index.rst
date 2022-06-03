@@ -12,7 +12,6 @@ Engine Driver
    prerequisites/index
    operation/index
    configuration/index
-   screenshots/index
    videos/index
    downloads/index
    changes/index
