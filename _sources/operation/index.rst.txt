@@ -3,7 +3,7 @@ Operation - Using Engine Driver
 ===============================
 
 .. meta::
-   :keywords: email support
+   :http-equiv=refresh: 0; url='./getting_started.html'
 
 .. include:: ../include.rst
 

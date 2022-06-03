@@ -2,6 +2,9 @@
 Configuration
 ==============
 
+.. meta::
+   :http-equiv=refresh: 0; url='./configuration.html'
+
 .. include:: ../include.rst
 
 .. sidebar:: On This Page
