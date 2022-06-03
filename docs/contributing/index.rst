@@ -10,6 +10,7 @@ Contributing
 .. sidebar::
 
   .. contents:: On This Page
+    :local:
 
 Contributing to the Code
 ------------------------

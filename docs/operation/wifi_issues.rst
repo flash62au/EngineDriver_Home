@@ -10,6 +10,7 @@ WiFi Issues
 .. sidebar::
 
   .. contents:: On This Page
+    :local:
 
 Many of the problems that people have with |ed| relate to connection issues.
 

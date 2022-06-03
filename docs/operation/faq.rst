@@ -10,6 +10,7 @@ Frequently Asked Questions
 .. sidebar::
 
   .. contents:: On This Page
+     :local:
      :depth: 3
     
 Connecting - Wifi and WiThrottle
@@ -262,7 +263,7 @@ Some people find the speed slider difficult to control.
 
 Q. I have a small screen Android device.  It doesn't fit well?
 
-  A1. Try the 'Immersive mode' preference. (see below)
+  A1. Try the 'Immersive mode' (Full Screen) preference. (see below)
 
   A2. Reduce the height of the loco select and direction buttons
 
@@ -289,7 +290,7 @@ Hiding the title bar and navigation bar
 
 |todo|
 
-Immersive mode 
+Immersive mode (Full Screen)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 |todo|

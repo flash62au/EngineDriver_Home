@@ -10,6 +10,7 @@ Detailed Instructions
 .. sidebar::
 
   .. contents:: On This Page
+    :local:
     :depth: 4
 
 Connecting
@@ -508,7 +509,7 @@ There is built in Support for a number of different type of locos:
 * Diesel - 3 in-built profiles
 * Plus you can create you own Custom profiles
 
-To enable the IPLS sounds for a throttle (only the first two throttles on any given throttle screen) , 
+To enable the IPLS sounds for a throttle (only the first two throttles) on an given throttle screen) , 
 
 Playing sounds
 

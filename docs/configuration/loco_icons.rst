@@ -14,10 +14,9 @@ The **Roster List**, and **Recent Locos List** on the Select Loco screen will au
 * The **Web Server** (not just the WiThrottle server) is running on the JMRI server
 * The loco itself has an icon added for it in the JMRI roster |br|\ OR
 * A locally cached or manually chosen image is available for the loco (see below)
-* For the **Recent Locos list**, the loco was originally selected from a roster. (i.e. Not entered as a DCC Address)
+* For the **Recent Locos list**, the loco was originally selected from a roster and the loco had an icon. (i.e. Not entered as a DCC Address)
 
-
-**For WiThrottle servers that do support a roster but don't support Locomotive Icons**
+**For WiThrottle servers that do support a roster but don't support Locomotive Icons**  (e.g. DCC++EX)
 
 There are three ways to load & store your Locomotive Icon Image in Engine Driver 2.32.142 and above.
 
@@ -66,3 +65,8 @@ There are three ways to load & store your Locomotive Icon Image in Engine Driver
 * If you later add an image in the JMRI Roster for the loco (or later connect to a WiThrottle server that has an image), it will automatically overwrite the local image with the one on the server.
 * In the Recent Locos list you *can not* add images to locos entered by a DCC address. (i.e. not from the roster)  
 
+
+.. note:: 
+  :class: note-ed-hidden-title
+  
+  For adding a roster to DCC++EX see `Roster Entries <https://dcc-ex.com/automation/EX-RAIL-intro.html#roster-entries>`_.
