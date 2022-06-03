@@ -7,14 +7,9 @@ Configuring Engine Driver
 
 .. include:: ../include.rst
 
-.. sidebar::
-
-  .. contents:: On This Page
-    :local:
-
 **Engine Driver** is highly configurable.
 
-Most configuration options are found in the ``Preferences`` which is accessed via the overflow menu which is normally three dots (⁞) or three bars (≡).
+Most configuration options are found in the *Preferences* which is accessed via the overflow menu which is normally three dots (⁞) or three bars (≡).
 
 Some of the many Preferences include:
 

@@ -62,5 +62,21 @@ Disconnections
 
 |todo|
 
+
+|ed| and/or the Android device can occasionally lose the connection even after it successfully connected.  There can be a lot of causes.  If ED does lose connection it will buzz, vibrate and take you to *Reconnecting Screen*.   It will repeatedly and indefinitely attempt to reconnect.
+
+* Other networks on the same channel
+* distance to router / location of the router
+* Too Many Devices Are Connected
+* objects in the way (particularly metal objects)
+* Interference  (Other electrical devices close to the phone or the router )
+
+If JMRI does not receive any feedback from your device/phone within a configured period, JMRI will stop all the locos you have selected on you device/phone.
+
 * Disable haptic Alert
 
+
+.. note:: 
+  :class: note-ed-hidden-title
+  
+  See `Feedback on Disconnect preference on the Preferences page <../configuration/preferences.html#feedback-on-disconnect>`_ to disable the audible and haptic warnings.

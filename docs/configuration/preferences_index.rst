@@ -2,6 +2,9 @@
 Detailed Information
 =====================================
 
+.. meta::
+   :http-equiv=refresh: 0; url='./preferences.html'
+
 .. include:: ../include.rst
 
 .. sidebar:: Below This Page
