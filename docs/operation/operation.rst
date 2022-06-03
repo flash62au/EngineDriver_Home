@@ -536,21 +536,21 @@ The volume of the Loco Sounds, the Bell Sounds and the Horn/Whistle sound can be
   * Horn/Whistle (IPLS)
   * Short Horn/Whistle (IPLS)
 
-    **Mute**
+    **Mute button**
 
     Clicking this will disable all IPLS sounds for this Throttle.
 
-    **Bell** 
+    **Bell button** 
 
     Clicking this will continuously play a bell sound until it is clicked again (latched)
 
     The Bell can be made non-latching by changing the ``Bell button Latching/Momentary`` preference.
 
-    ****
+    **Horn / Whistle button**
 
     Clicking this will continuously play a horn or whistle sound (depending on the profile) until the button is released (non-latched)
 
-    **Short Horn / Whistle**
+    **Short Horn / Whistle button**
 
     Clicking this will play a horn or whistle sound (depending on the profile) ones, regardless of how long the button is held down.
 
