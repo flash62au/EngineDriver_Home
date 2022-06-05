@@ -207,31 +207,45 @@ Notes:
 Number of throttles 
 """""""""""""""""""
 
-|todo|
+This preference allow you to set how many throttles to display on the Throttle Screen. (Limited by the selected Throttle Screen Layout.)
 
-How many throttles to display on the Throttle Screen. (Limited by the selected Throttle Screen Layout.)
+Only available for the following Throttle Screen Layouts:
+
+* Horizontal (1-3)
+* Horizontal Shunting / Horizontal Switching (1-3)
+* Simple (1-6)
+
+All other layouts will automatically change this preference to the fix number for that particular layout.
 
 
 Speed Slider and Buttons Preferences
 """"""""""""""""""""""""""""""""""""
 
-|todo|
+The following preference allow you to adjust aspects of the Throttle Areas on the Throttle Screen.
 
 **Increase Slider/Speed Height?**
 
-|todo|
+When set, this preference will show a taller Slider, or Speed buttons, for throttles.
 
-Use a taller Slider, or Speed buttons, for throttles
+Only relevant for the following Throttle Screen Layouts:
+
+* Horizontal (1-3)
+* Horizontal Shunting / Horizontal Switching (1-3)
 
 **Throttle Speed Slider Margin**
 
-|todo|
+When set, this changes the space between either the edge of the screen and the ends of the Slider, or if the Speed Buttons are enabled, the edge of the Speed Buttons and the ends of the Slider.  Specific in pixels haw far to offset.  This is useful if you find it difficult to get the zero or maximum speeds without accidently touching the Speed Buttons.
 
-Number of pixels to offset margins of throttle speed sliders
+Only relevant for the following Throttle Screen Layouts:
+
+* Horizontal (1-3)
+* Horizontal Shunting / Horizontal Switching (1-3)
 
 **Display Speed buttons?**
 
 |todo|
+
+When this preferences is set, |ED| will 
 
 Display buttons next to Speed Sliders to change loco speed
 
@@ -239,11 +253,15 @@ Display buttons next to Speed Sliders to change loco speed
 
 |todo|
 
+When this preferences is set, |ED| will 
+
 Do not show speed slider, use speed buttons instead
 
 **Hide Slider AND Speed Buttons?**
 
 |todo|
+
+When this preferences is set, |ED| will 
 
 Show neither speed slider nor speed buttons
 
@@ -251,13 +269,13 @@ Only really of use on the ESU MCII
 
 **Tick Marks on Speed Sliders?**
 
-|todo|
-
-Show tick marks on the background of the Speed Sliders
+When this preferences is set, |ED| will show tick marks on the background of the Speed Sliders.
 
 **Switching throttle Dead Zone**
 
 |todo|
+
+When this preferences is set, |ED| will 
 
 Set the size of the dead zone on the slider of the Switching/Shunting Throttle Screen
 
@@ -265,6 +283,8 @@ Set the size of the dead zone on the slider of the Switching/Shunting Throttle S
 **Stop Button Vertical Margins**
    
 |todo|
+
+When this preferences is set, |ED| will 
 
 Number of pixels to offset margins of the stop button from the speed buttons and bottom of screen.
 
