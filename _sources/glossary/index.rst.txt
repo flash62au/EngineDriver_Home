@@ -21,6 +21,12 @@ Glossary
 *Term*
   *Meaning*
 
+Command Station / DCC Command Station / DCC Base Station
+  |todo|
+
+Consist  / Multiple Units
+  Multiple locos hauling a singe train
+
 DC
   Direct Current
   
@@ -29,6 +35,18 @@ DCC
 
 JMRI
   Java Model Railroad Interface
+
+Loco / Locomotive / Engine 
+  |todo|
+
+Main Screens
+  The screens: 'Throttle', 'Turnouts/Points', 'Routes', 'Web' and, to a lesser extent, 'Connection'.
+
+Switching / Shunting
+  The process of moving individual carriages to/from specific locations on yards or sidings.
+
+Turnouts / Points
+  |todo|
 
 USB
   Universal Serial Bus
@@ -40,20 +58,7 @@ WiThrottle
 WiThrottle protocol
   proprietary protocol developed by Brett Hoffman
 
-Consist  / Multiple Units
-  Multiple locos hauling a singe train
 
-Turnouts / Points
-  |todo|
-
-Switching / Shunting
-  The process of moving individual carriages to/from specific locations on yards or sidings
-
-loco / locomotive / engine 
-  |todo|
-
-Command Station / DCC Command Station / DCC Base Station
-  |todo|
 
 References
 ==========

@@ -126,6 +126,8 @@ If JMRI does not receive any feedback from your device/phone within a configured
 
   See `Feedback on Disconnect preference on the Preferences page <../configuration/preferences.html#feedback-on-disconnect>`_ to disable the audible and haptic warnings.
 
+... ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
+
 Turn Track Power On
 ^^^^^^^^^^^^^^^^^^^
 
@@ -148,6 +150,8 @@ If the *Power Action Bar button* is enabled, simply click on it to turn track po
   See the `Power Button option in the Preferences page <../configuration/preferences.html#throttle-screen-action-bar-preferences>`_ for more information on enabling the Power Button on the Action bar.
 
 ----
+
+... ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
 
 Selecting & Releasing Locos
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -214,6 +218,8 @@ There three ways create a Consist / Multiple Unit train:
 
   * There is no real limit to the number of locos that can be added to a Consist / Multiple Unit.
   * The order of the locos in the consist can be important.  By default, lights and sound functions are only sent to the first loco.  This can be overridden in the preferences.
+
+... ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
 
 Running Trains
 ^^^^^^^^^^^^^^^
@@ -569,6 +575,8 @@ The volume of the Loco Sounds, the Bell Sounds and the Horn/Whistle sound can be
 
     See the `Gamepads Configuration page <../configuration/gamepads.html>`_ for information on configuring the keys of the gamepad.
 
+... ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
+
 Action Bar and Menu
 ^^^^^^^^^^^^^^^^^^^
 
@@ -581,7 +589,7 @@ Menu
 
 **Common Menu Items**
 
-These menu items appear on a number of different  Screens (most 'Main Screens'):abbr:
+These menu items appear on a number of different  Screens (most 'Main Screens'):
 
 * Throttle
 * Turnouts/Points
@@ -651,32 +659,129 @@ Optionally configured buttons:
 
     See the `Action Bar on the User Interface page <./interface.html#action-bar>`_ for information on the Action bar buttons.
 
+    See IPLS page
+
+... ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
 
 Turnouts / Points
 ^^^^^^^^^^^^^^^^^
 
 |todo|
 
-* Address
-* From the WiThrottle server
+|ed| can control DCC controlled Turnouts / Points on your layout if configured in you WiThrottle server.
+
+To get the *Turnouts / Points* screen you can use the menu :menuselection:`Menu --> Turnouts/Points` from the main screens.  You can also swipe right from the Throttle Screen (if enabled in the preference).
+
+The |wts| must have Turnouts / Points enabled.
+
+*Turnouts/Points* can be operated three ways
+
+* By entering their DCC Address
+* From the JMRI Defined Turnout/Point list provided by the WiThrottle Server (JMRI)
+* From the recent Turnout/Point list
+
+  **DCC Address**
+
+  Enter the DCC address of the Turnout / Points you wish to control.
+
+  Three buttons will be available
+
+  * Throw
+  * Close
+  * Toggle
+
+  |TODO|
+
+  **JMRI Defined Turnout/Point list**
+
+  Server must 
+
+  * Filtering
+  * Must be named???
+
+  |todo|
+
+  see delimiter preference
+
+  **Recent Turnout/Point list**
+
+  |todo|
+
+.. note:: 
+  :class: note-ed-hidden-title
+
+  See the `Left/Right Swipe preferences on the Preferences page <./configuration/preferences.html#left-right-swipe-preferences>`_ for information on enabling or disabling the swipe though Turnouts/Points.
+
+... ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
 
 Routes
 ^^^^^^^^^^^^^^^
 
 |todo|
 
+|ed| can control *Routes* on your layout if configured in you WiThrottle server.
+
+When using DC++EX as your WiThrottle server, *Routes* can be used to activate *Automations*.
+
+To get the *Turnouts / Points* screen you can use the menu :menuselection:`Menu --> Routes` from the main screens.  You can also swipe left from the Throttle Screen (if enabled in the preference).
+
 * From the WiThrottle server
+
+.. note:: 
+  :class: note-ed-hidden-title
+
+  See the `Left/Right Swipe preferences on the Preferences page <./configuration/preferences.html#left-right-swipe-preferences>`_ for information on enabling or disabling the swipe though Routes.
+
+  See the `Automation (EX-RAIL) page on the DCC++EX website <https://dcc-ex.com/automation/index.html>`_ for more information on using Automations in DCC++EX.
+
+... ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
 
 Panels and Web Pages
 ^^^^^^^^^^^^^^^^^^^^^^
 
 |todo|
 
-* Throttle Web View VS Web Screen
-* Default page
+**Throttle Web View VS Web Screen**
 
-  * Web View
-  * Web Screen
+|ed| has two distinct ways you view web pages.
+
+* Throttle Web View 
+* Web Screen
+
+This section describes the *Web Screen*, which is a full screen web browser.  The *Throttle Web View* is a half Screen web browser that optionally shares the screen with the Throttle Screen. See the `Throttle Web View section on the User Interface page <./interface.html#web-view-area>`_ from more information Throttle Web View.
+
+The *Web Screen* can be accessed three ways:
+
+* Menu
+* Swipe
+* Auto Web Orientation
+
+  **Menu**
+
+  |todo|
+
+  To get the *Web* screen you can use the menu :menuselection:`Menu --> Web` from the main screens.  You can also swipe left from the Throttle Screen (if enabled in the preference).
+
+  **Swipe**
+
+  |todo|
+
+  * If enabled
+  * Not allowed if Auto Web orientation is enabled.  (Preference is automatically disabled)
+
+  **Auto Web Orientation**
+
+  * If enabled
+  * Swipe preference is automatically disabled on selection
+
+  |todo|
+
+  .. note:: 
+    :class: note-ed-hidden-title
+
+    See the `Left/Right Swipe preferences on the Preferences page <./configuration/preferences.html#left-right-swipe-preferences>`_ for information on enabling or disabling the swipe though Web.
+
+... ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
 
 Pushing the app to the Background
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -699,6 +804,8 @@ In general avoid letting |ED| try to run in background.
   If you are concerned about preserving the battery, there are options.  See ??? for more information.
 
   See the `Background Alert in the Preference page <./preferences.html#background-alert>`_ for information on disabling the alert.
+
+... ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
 
 Exiting Engine Driver
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

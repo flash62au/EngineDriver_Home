@@ -13,6 +13,8 @@ ESU MobileControl II
    :scale: 25 %
    :align: right
 
+As the ESU MobileControl II is built on an Android platform, and they have made the API available to external developers, |ed| can run on it and make use of the hardware knob and buttons.  Download it from the `Google Play Store <https://play.google.com/store/apps/details?id=jmri.enginedriver>`_ or by `direct download <./downloads/index.html#current-published-version>`_ as you would any other app.
+
 As well as being able to control speed of the selected throttle with the control knob, it's also possible to switch direction via the zero-position end-stop switch.
 
 Up to three trains can be controlled at once - the train being operated by the control knob is highlighted by the small 'v' in the speed indicator. Switch between operated trains by clicking the appropriate speed indicator. It is also possible to assign one of the device side

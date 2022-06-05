@@ -35,6 +35,8 @@ There are four main screens:
 
 ----
 
+... ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
+
 Connection Screen
 ^^^^^^^^^^^^^^^^^
 
@@ -56,6 +58,8 @@ Once you select a server the 'Throttle Screen' will be automatically displayed.
 If you only ever connect to one WiThrottle server you can effectively bypass this screen by setting the ``Auto-Connect to WiThrottle Server?`` preference.
 
 ----
+
+... ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
 
 Throttle Screen
 ^^^^^^^^^^^^^^^
@@ -170,6 +174,13 @@ Each *Throttle Area* allows you to:
    
    TODO
 
+Web View Area
+""""""""""""""""""""""""""""""""""""
+
+|todo|
+
+optional
+
 Action Bar (Throttle Screen)
 """"""""""""""""""""""""""""
 
@@ -210,6 +221,8 @@ Accelerometer (Shake)
 
 ----
 
+... ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
+
 Turnouts/Points Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -223,6 +236,8 @@ Turnouts/Points can be changed from Closed to Thrown and vice versa be pressing 
 
 ----
 
+... ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
+
 Routes Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -234,10 +249,14 @@ This screen allows you to display all Routes that have been defined in JMRI or D
 
 ----
 
+... ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
+
 Web Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 |todo|
+
+... ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
 
 Accessed from any of the main screens by the menu :menuselection:`Menu --> Web` or by swiping left or right twice from the Throttle Screen if enabled in the Left with the ``Swipe through Web?`` preference: :menuselection:`Menu --> Preferences --> Left/Right Swipe Preferences --> Swipe through Web`
 It can also be accessed, if the ``Screen orientation`` preference is set to ``Auto Web``, by rotating the Android Device/Phone.
@@ -280,12 +299,16 @@ Secondary / Support Screens
 
 ----
 
+... ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
+
 Intro/Setup Wizard Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 |todo|
 
 ----
+
+... ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
 
 Loco Select Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -294,6 +317,8 @@ Loco Select Screen
 
 ----
 
+... ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
+
 Consist Edit Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -301,12 +326,16 @@ Consist Edit Screen
 
 ----
 
+... ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
+
 Consist Lights Edit Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 |todo|
 
 ----
+
+... ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
 
 Power Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -322,6 +351,8 @@ This screen allows you to toggle the state of track power to your layout.
 
 ----
 
+... ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
+
 Preferences Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -336,6 +367,8 @@ This screen allows you to personalise  **Engine Driver** for how you want it to 
 
 ----
 
+... ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
+
 In Phone Loco Sounds Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -344,6 +377,8 @@ In Phone Loco Sounds Screen
 Accessed from Throttle Screen by the :menuselection:`Menu --> Loco Sounds` or from the Status Bar if enabled with the ``In phone sounds button`` preference.
 
 ----
+
+... ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
 
 Function Defaults Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -354,6 +389,8 @@ Accessed from the menu on the Throttle Screen as ``Function Defaults``.
 
 ----
 
+... ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
+
 Gamepad Test Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -362,6 +399,8 @@ Gamepad Test Screen
 Accessed from the Throttle Screen via the :menuselection:`Menu --> Gamepads -> Gamepad Test X`. (where 'X' is the number of the gamepad.)
 
 ----
+
+... ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
 
 View Log Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -379,6 +418,8 @@ Internal storage ``/Android/data/jmri.enginedriver/files`` |br|\ and will be nam
 
 ----
 
+... ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
+
 About Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -391,6 +432,8 @@ This screen displays
 |todo| 
 
 
+... ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
+
 Reconnecting Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -399,12 +442,18 @@ This screen displays
 |todo| 
 
 
+... ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
+... ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
+
+
 Common Elements and Features
 ----------------------------
 
 |todo|
 
 ----
+
+... ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
 
 Theme
 ^^^^^
@@ -416,6 +465,8 @@ Theme
 * Outline
 * Dark
 * Colourful
+
+... ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
 
 Localisation
 ^^^^^^^^^^^^
@@ -439,6 +490,8 @@ Localisation
    :class: note-ed-hidden-title
 
    See `Localisation on the Preferences page <../configuration/preferences.html#Localisation>`_ for more information.
+
+... ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
 
 Action Bar
 ^^^^^^^^^^
@@ -581,10 +634,12 @@ WiThrottle Server Name
 
 ----
 
+... ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
+
 Overflow Menu
 ^^^^^^^^^^^^^
 
-The Overflow Menu (or simply 'Menu') appears in the Action Bar at the top of most of the main screens. It will show different options depending on a) the particular screen, b) preferences you have set and c) the state of certain elements in the app.
+The *Overflow Menu* (or simply '*Menu*') appears in the Action Bar at the top of the main screens. It will show different options depending on a) the particular screen, b) preferences you have set and c) the state of certain elements in the app.
 
 The Overflow Menu can display
 

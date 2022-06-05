@@ -12,6 +12,8 @@
 ..
 .. |EDs| replace:: **Engine Driver's**
 ..
+.. |wts| replace:: WiThrottle Server
+..
 .. Use |ED|\ to remove the leading space if you need to follow it by a comma etc.
 ..
 .. |todo| raw:: html

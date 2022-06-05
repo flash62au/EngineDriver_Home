@@ -28,6 +28,8 @@ Consist Follow Functions
 
 |todo|
 
+* see Functions in the Configuration
+
 Flashlight 
 ----------
 

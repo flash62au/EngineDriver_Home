@@ -100,6 +100,8 @@ Include Turnouts/Points Screen when swiping between screens
 
 Include Routes screen when swiping between screens
 
+... ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
+
 Throttle Screen Appearance Preferences
 --------------------------------------
 
@@ -439,6 +441,8 @@ Enter the name of the background image file.
 
 Select how the background image will be positioned on the screen.
 
+... ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
+
 Throttle Screen Action Bar Preferences
 --------------------------------------
 
@@ -517,6 +521,8 @@ Show Server Description
 |todo|
 
 Show the description of the current server on the action bar
+
+... ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
 
 Throttle Control Preferences
 ----------------------------
@@ -630,6 +636,8 @@ Number of milliseconds between speed step changes for the Pause action
 
 Step size changes for the Pause action
 
+... ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
+
 Consist Function Follow Preferences
 -----------------------------------
 
@@ -727,6 +735,8 @@ Action for String 2, 3, 4, 5
 
 |todo|
 
+
+... ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
 
 Additional Throttle Control Source Preferences
 ----------------------------------------------
@@ -1000,6 +1010,8 @@ When the gamepad test screen is finished
 When each buttons is pressed in the gamepad test screen
 
 
+... ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
+
 Select Loco Preferences
 -----------------------
 
@@ -1067,6 +1079,8 @@ Filter Roster
 |todo|
 
 Only show roster entries containing…
+
+... ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
 
 In Phone Loco Sounds
 --------------------
@@ -1138,6 +1152,8 @@ Bell button is momentary (not latching)?
 F1 and F2 also activate IPLS Bell and Horn
 
 
+... ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
+
 Connect Preferences
 -------------------
 
@@ -1200,6 +1216,8 @@ TODO
 
 Audible alert when the app is sent to the background
 
+... ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
+
 Web Screen Preferences
 ----------------------
 
@@ -1220,6 +1238,8 @@ Initial Web Screen Page
 Enter the initial Web Page (such as '/panel') for the Web Screen
 
 Different to the 'Throttle Web View' initial Web Page.
+
+... ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
 
 Turnouts/Points and Routes Preferences
 --------------------------------------
@@ -1246,6 +1266,8 @@ Hide if no user name?
 |todo|
 
 Omit Turnout/Point/Route from list if the user name is empty
+
+... ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
 
 Children's (Timer) Preferences
 ------------------------------
@@ -1309,6 +1331,8 @@ Default time for Button
 
 Default time if using the Action Bar Button to activate the timer
 
+
+... ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
 
 Import/Export/Reset & Log Preferences
 -------------------------------------
