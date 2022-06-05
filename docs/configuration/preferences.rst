@@ -108,40 +108,98 @@ Throttle Screen Appearance Preferences
 Throttle Screen Layout
 """"""""""""""""""""""
 
-+-----------------------------------+---------+--------------+---------------------+---------------+
-|Format/Capability                  |Web View |Function |br| |Throttle Control     |Direction |br| |
-|                                   |         |Buttons       |                     |Buttons        |
-+===================================+=========+==============+=====================+===============+
-|Horizontal (1-3)                   |✓        |✓             |0-100                |✓              |
-+-----------------------------------+---------+--------------+---------------------+---------------+
-|Vertical (2)                       |    ✓    |    ✓         |0-100                |    ✓          |
-+-----------------------------------+---------+--------------+---------------------+---------------+
-|Big Buttons - Left (1)             |    🗴    |    ✓         |0-100                |    ✓          |
-+-----------------------------------+---------+--------------+---------------------+---------------+
-|Big Buttons - Right (1)            |    🗴    |    ✓         |0-100                |    ✓          |
-+-----------------------------------+---------+--------------+---------------------+---------------+
-|Vertical - Left (1)                |    ✓    |    ✓         |0-100                |    ✓          |
-+-----------------------------------+---------+--------------+---------------------+---------------+
-|Vertical - Right (1)               |    ✓    |    ✓         |0-100                |    ✓          |
-+-----------------------------------+---------+--------------+---------------------+---------------+
-|Vertical Shunting (2) |br|         |    ✓    |    ✓         | \-100 - 0 - +100    |    🗴          |
-|Vertical Switching (2)             |         |              |                     |               |
-+-----------------------------------+---------+--------------+---------------------+---------------+
-|Vertical Shunting - Left (1) |br|  |    ✓    |    ✓         | \-100 - 0 - +100    |    🗴          |
-|Vertical Switching - Left (1)      |         |              |                     |               |
-+-----------------------------------+---------+--------------+---------------------+---------------+
-|Vertical Shunting - Right (1) |br| |    ✓    |    ✓         | \-100 - 0 - +100    |    🗴          |
-|Vertical Switching - Right (1)     |         |              |                     |               |
-+-----------------------------------+---------+--------------+---------------------+---------------+
-|Horizontal Shunting (1-3) |br|     |    ✓    |    ✓         | \-100 - 0 - +100    |    🗴          |
-|Horizontal Switching  (1-3)        |         |              |                     |               |
-+-----------------------------------+---------+--------------+---------------------+---------------+
-|Simple (Tablet Recommended) (1-6)  |    🗴    |see note      |0-100                |    ✓          |
-+-----------------------------------+---------+--------------+---------------------+---------------+
+.. list-table::
+    :widths: auto
+    :header-rows: 1
+
+    * - Layout Name
+      - No. |br|\ Throttles
+      - Slider |br|\ Orient.
+      - Web |br|\ View
+      - Function |br|\ Buttons
+      - Throttle |br|\ Control
+      - Direction |br|\ Buttons
+    * -  Horizontal
+      - 1 \- 3 
+      - H
+      - ✓
+      - ✓
+      - 0-100
+      - ✓
+    * - Vertical
+      - 2
+      - V
+      - ✓    
+      - ✓
+      - 0-100    
+      - ✓
+    * - Big Buttons - Left
+      - 1
+      - 🗴
+      - 🗴
+      - ✓
+      - 0-100
+      - ✓
+    * - Big Buttons - Right
+      - 1
+      - 🗴
+      - 🗴
+      - ✓
+      - 0-100
+      - ✓
+    * - Vertical - Left
+      - 1
+      - V
+      - ✓
+      - ✓
+      - 0-100
+      - ✓
+    * - Vertical - Right
+      - 1
+      - V
+      - ✓
+      - ✓
+      - 0-100
+      - ✓
+    * - Vertical Shunting |br| Vertical Switching
+      - 2
+      - V
+      - ✓
+      - ✓
+      - \-100 - 0 - +100
+      - 🗴
+    * - Vertical Shunting - Left |br| Vertical Switching - Left
+      - 1
+      - V
+      - ✓
+      - ✓
+      - \-100 - 0 - +100
+      - 🗴
+    * - Vertical Shunting - Right |br| Vertical Switching - Right
+      - 1
+      - V
+      - ✓
+      - ✓
+      - \-100 - 0 - +100
+      - 🗴
+    * - Horizontal Shunting |br| Horizontal Switching
+      - 1 \- 3
+      - H
+      - ✓
+      - ✓
+      - \-100 - 0 - +100
+      - 🗴
+    * - Simple |br| (Tablet Recommended)
+      - 1 \- 6
+      - V
+      - 🗴
+      - see note
+      - 0-100
+      - ✓
 
 Notes:
 
-* The number is brackets after the Throttle Screen Layout name is the maximum number of throttles that the layout can support.
+* The number is brackets after the Throttle Screen Layout name is the number of throttles that the layout can support.
 * The 'Simple' Throttle Screen Layout is designed to allow for up to 6 throttles simultaneously.  |br|\ It is recommended that this only be used on a tablet device, because of the screen real estate demands that 6 throttles requires. |br|\ When this Throttle Screen Layout is selected, the ``Number of Throttles`` preferences options is activated.  You can then use this to restrict the number of throttles being displayed on the 'Simple' Throttle Screen Layout.  |br|\ Also the ``Functions Area Size`` preferences options is activated.  You can then use this to control how many Function Buttons are displayed with each throttle.  By default, not Function buttons will be shown. |br|\ If you have selected In Phone Loco Sounds, then you will want to set this to 4 (for Mute, Light, Bell and Whistle/Horn).
 
 **Engine Driver** automatically reload the throttle screen after closing the preferences screen. 
