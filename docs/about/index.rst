@@ -38,11 +38,10 @@ Generally the WiThrottle servers that **Engine Driver** connects to are either D
 
   See the `Operation <../operation/index.html>`_ page for details on how to use **Engine Driver**.
 
-**Engine Driver** is open source software. The source code is available on `github.com/JMRI/EngineDriver <https://github.com/JMRI/EngineDriver>`_. This documentation is also open source and can be accessed on `github.com/flash62au/EngineDriver_Home <https://github.com/flash62au/EngineDriver_Home>`_. Contribution to both the code and documentation is welcome.  See [`Contributing <../contributing/index.html>`_] for details.
+**Engine Driver** is open source software which is available on `github.com/JMRI/EngineDriver <https://github.com/JMRI/EngineDriver>`_. This documentation is also open source and can be accessed on `github.com/flash62au/EngineDriver_Home <https://github.com/flash62au/EngineDriver_Home>`_. Contribution to both the code and documentation is welcome.  See [`Contributing <../contributing/index.html>`_] for details.
 
 **Engine Driver** currently has minSDKVersion of 16, which equates to minimum Android OS version of 4.1 (JELLYBEAN). 
 Info on minSDKVersion available in the `Engine Driver manifest <https://developer.android.com/guide/topics/manifest/uses-sdk-element#ApiLevels>`_.
-
 
 What's a 'WiThrottle Server'?
 -----------------------------
@@ -55,3 +54,16 @@ The WiThrottle Protocol itself is a standard for how WiFi throttles can communic
 ----
 
 .. [#WIT] 'WiThrottle' is a trademark owned by Brett Hoffman. It is also an `iOS app <https://www.withrottle.com/html/home.html>`_ developed by Brett Hoffman which has similar capabilities to Engine Driver. |br|\ The 'WiThrottle protocol' is a proprietary protocol developed by Brett Hoffman.  It is used JMRI, **Engine Driver** and a number of DCC Command Stations. |br|\ References in this website to a 'WiThrottle Server', refer to a server that can communicate using the 'WiThrottle protocol'.
+
+Roadmap
+-----------
+
+|ed| doesn't really have a roadmap.  Code changes (bug fixes and features) are done depending on several factors, including:
+
+* Who is available to work on it 
+* Who among the available people is interested enough to do the work
+* Are there enough people likely to use it to make it worth the effort
+
+At the moment there are only a few of us doing any work on |ed|, so things happen when they happen.
+
+See `Support & Contact <../contact/index.html>` if you are having problems or wish to make a suggestion.

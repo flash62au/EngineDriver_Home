@@ -45,7 +45,7 @@ extensions = [
 
 autosectionlabel_prefix_document = True
 
-spelling_lang='en_US'
+spelling_lang='en_UK'
 tokenizer_lang='en_US'
 spelling_word_list_filename = ['spelling_wordlist.txt']
 

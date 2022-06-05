@@ -15,11 +15,11 @@ Prerequisites for Using Engine Driver
 To Use Engine Driver You must...
 --------------------------------
 
-Have a Android device/phone. **Engine Driver** can only be installed on an Android Device/Phone.
+1. Have a Android device/phone. **Engine Driver** can only be installed on an Android Device/Phone.
 
 *ALSO*
 
-A *WiThrottle Server* must be available on a device connected to your model train layout for **Engine Driver** to connect to.
+2. A *WiThrottle Server* must be available on a device connected to your model train layout for **Engine Driver** to connect to.
 
 Android Device/Phone
 --------------------
