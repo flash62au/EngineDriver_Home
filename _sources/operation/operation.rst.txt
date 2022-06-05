@@ -126,8 +126,6 @@ If JMRI does not receive any feedback from your device/phone within a configured
 
   See `Feedback on Disconnect preference on the Preferences page <../configuration/preferences.html#feedback-on-disconnect>`_ to disable the audible and haptic warnings.
 
-... ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
-
 Turn Track Power On
 ^^^^^^^^^^^^^^^^^^^
 
@@ -150,8 +148,6 @@ If the *Power Action Bar button* is enabled, simply click on it to turn track po
   See the `Power Button option in the Preferences page <../configuration/preferences.html#throttle-screen-action-bar-preferences>`_ for more information on enabling the Power Button on the Action bar.
 
 ----
-
-... ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
 
 Selecting & Releasing Locos
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -218,8 +214,6 @@ There three ways create a Consist / Multiple Unit train:
 
   * There is no real limit to the number of locos that can be added to a Consist / Multiple Unit.
   * The order of the locos in the consist can be important.  By default, lights and sound functions are only sent to the first loco.  This can be overridden in the preferences.
-
-... ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
 
 Running Trains
 ^^^^^^^^^^^^^^^
@@ -575,8 +569,6 @@ The volume of the Loco Sounds, the Bell Sounds and the Horn/Whistle sound can be
 
     See the `Gamepads Configuration page <../configuration/gamepads.html>`_ for information on configuring the keys of the gamepad.
 
-... ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
-
 Action Bar and Menu
 ^^^^^^^^^^^^^^^^^^^
 
@@ -661,8 +653,6 @@ Optionally configured buttons:
 
     See IPLS page
 
-... ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
-
 Turnouts / Points
 ^^^^^^^^^^^^^^^^^
 
@@ -673,6 +663,8 @@ Turnouts / Points
 To get the *Turnouts / Points* screen you can use the menu :menuselection:`Menu --> Turnouts/Points` from the main screens.  You can also swipe right from the Throttle Screen (if enabled in the preference).
 
 The |wts| must have Turnouts / Points enabled.
+
+If you've defined your turnouts and routes in a panel file, make sure to specify "user names" for those you'd like to see listed on your throttle. You can also "filter" the turnouts shown using the WiThrottle->Filter Controls option in the WiThrottle window.
 
 *Turnouts/Points* can be operated three ways
 
@@ -712,8 +704,6 @@ The |wts| must have Turnouts / Points enabled.
 
   See the `Left/Right Swipe preferences on the Preferences page <./configuration/preferences.html#left-right-swipe-preferences>`_ for information on enabling or disabling the swipe though Turnouts/Points.
 
-... ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
-
 Routes
 ^^^^^^^^^^^^^^^
 
@@ -725,6 +715,8 @@ When using DC++EX as your WiThrottle server, *Routes* can be used to activate *A
 
 To get the *Turnouts / Points* screen you can use the menu :menuselection:`Menu --> Routes` from the main screens.  You can also swipe left from the Throttle Screen (if enabled in the preference).
 
+If you've defined your turnouts and routes in a panel file, make sure to specify "user names" for those you'd like to see listed on your throttle. You can also "filter" the turnouts shown using the WiThrottle->Filter Controls option in the WiThrottle window.
+
 * From the WiThrottle server
 
 .. note:: 
@@ -733,8 +725,6 @@ To get the *Turnouts / Points* screen you can use the menu :menuselection:`Menu 
   See the `Left/Right Swipe preferences on the Preferences page <./configuration/preferences.html#left-right-swipe-preferences>`_ for information on enabling or disabling the swipe though Routes.
 
   See the `Automation (EX-RAIL) page on the DCC++EX website <https://dcc-ex.com/automation/index.html>`_ for more information on using Automations in DCC++EX.
-
-... ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
 
 Panels and Web Pages
 ^^^^^^^^^^^^^^^^^^^^^^
@@ -781,8 +771,6 @@ The *Web Screen* can be accessed three ways:
 
     See the `Left/Right Swipe preferences on the Preferences page <./configuration/preferences.html#left-right-swipe-preferences>`_ for information on enabling or disabling the swipe though Web.
 
-... ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
-
 Pushing the app to the Background
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -804,8 +792,6 @@ In general avoid letting |ED| try to run in background.
   If you are concerned about preserving the battery, there are options.  See ??? for more information.
 
   See the `Background Alert in the Preference page <./preferences.html#background-alert>`_ for information on disabling the alert.
-
-... ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
 
 Exiting Engine Driver
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
