@@ -15,12 +15,20 @@ Preferences
 
 ----
 
-**Show Advanced Preferences?**
-  
-  By default, only a small number of core preferences are displayed. Check this preference to show the additional preferences.
+Advanced Preferences
+--------------------------
+
+Show Advanced Preferences?
+""""""""""""""""""""""""""
+
+By default, only a small number of core preferences are displayed. Check this preference to show the additional preferences.
 
 Device Preferences
 ------------------
+
+|todo|
+
+The following preferences provide options for the whole of |ed|.
 
 Throttle Name
 """""""""""""
@@ -50,11 +58,10 @@ You can switch between different themes by changing this preference.
 * The Dark theme. 
 * The Colourful theme.
 
-
 Localisation
 """"""""""""
 
-Changing this setting not only changes the language that is used, it also changes the railroad/railway terminology (eg, Selecting 'Use Phone’s global setting' and having this set to 'English (Australia)' then causes the term 'Points' to be displayed rather than 'Turnouts' as is displayed when 'English (US)' is selected). In the Preferences screen and the Throttle Screen Layout selection screen (where 'shunting' is displayed rather than 'switching').  This is not guaranteed to operate on all text on all screens. 
+Changing this setting not only changes the language that is used, it also changes the railroad/railway terminology (eg, Selecting 'Use Phone's global setting' and having this set to 'English (Australia)' then causes the term 'Points' to be displayed rather than 'Turnouts' as is displayed when 'English (US)' is selected). In the Preferences screen and the Throttle Screen Layout selection screen (where 'shunting' is displayed rather than 'switching').  This is not guaranteed to operate on all text on all screens. 
 
 Supported localisations are:
 
@@ -74,36 +81,32 @@ Supported localisations are:
 Left/Right Swipe Preferences
 """"""""""""""""""""""""""""
 
-|todo|
+The following preferences provide options for how left / right swipes work and which screens are available when yo swipe left / right.
 
-**Disable full screen Swipe?**
+Disable full screen Swipe?
+'''''''''''''''''''''''''''''''''''
 
-|todo|
+If this preference is enabled, only the Action Bar can be swiped to change screens.  This is useful if you find it difficult to swipe left and right on either of the two Web Views without accidently changing screens.
 
-If checked, only the toolbar can be swiped to change screens
+Swipe through Web?
+'''''''''''''''''''''''''''''''''''
 
-**Swipe through Web?**
+If this preference is enabled, the Web Screen is included in the list of screens when swiping left/right between screens.
 
-|todo|
+Swipe Through Turnouts/Points?
+'''''''''''''''''''''''''''''''''''
 
-Include Web Screen when swiping between screens
+If this preference is enabled, the Turnouts/Points Screen is included in the list of screens when swiping left/right between screens.
 
-**Swipe Through Turnouts/Points?**
+Swipe through Routes?
+'''''''''''''''''''''''''''''''''''
 
-|todo|
-
-Include Turnouts/Points Screen when swiping between screens
-
-**Swipe through Routes?**
-
-|todo|
-
-Include Routes screen when swiping between screens
+If this preference is enabled, the Routes Screen is included in the list of screens when swiping left/right between screens.
 
 Throttle Screen Appearance Preferences
 --------------------------------------
 
-|todo|
+The following preferences provide options for the appearance of the Throttle Screen.
 
 Throttle Screen Layout
 """"""""""""""""""""""
@@ -202,12 +205,12 @@ Notes:
 * The number is brackets after the Throttle Screen Layout name is the number of throttles that the layout can support.
 * The 'Simple' Throttle Screen Layout is designed to allow for up to 6 throttles simultaneously.  |br|\ It is recommended that this only be used on a tablet device, because of the screen real estate demands that 6 throttles requires. |br|\ When this Throttle Screen Layout is selected, the ``Number of Throttles`` preferences options is activated.  You can then use this to restrict the number of throttles being displayed on the 'Simple' Throttle Screen Layout.  |br|\ Also the ``Functions Area Size`` preferences options is activated.  You can then use this to control how many Function Buttons are displayed with each throttle.  By default, not Function buttons will be shown. |br|\ If you have selected In Phone Loco Sounds, then you will want to set this to 4 (for Mute, Light, Bell and Whistle/Horn).
 
-**Engine Driver** automatically reload the throttle screen after closing the preferences screen. 
+|ed| automatically reload the throttle screen after closing the preferences screen. 
 
 Number of throttles 
 """""""""""""""""""
 
-This preference allow you to set how many throttles to display on the Throttle Screen. (Limited by the selected Throttle Screen Layout.)
+This preference allows you to set how many throttles to display on the Throttle Screen. (Limited by the selected Throttle Screen Layout.)
 
 Only available for the following Throttle Screen Layouts:
 
@@ -215,15 +218,16 @@ Only available for the following Throttle Screen Layouts:
 * Horizontal Shunting / Horizontal Switching (1-3)
 * Simple (1-6)
 
-All other layouts will automatically change this preference to the fix number for that particular layout.
+All other layouts will automatically change this preference to the fixed number for that particular layout.
 
 
 Speed Slider and Buttons Preferences
 """"""""""""""""""""""""""""""""""""
 
-The following preference allow you to adjust aspects of the Throttle Areas on the Throttle Screen.
+The following preference allows you to adjust aspects of the Throttle Areas on the Throttle Screen.
 
-**Increase Slider/Speed Height?**
+Increase Slider/Speed Height?
+'''''''''''''''''''''''''''''''''''
 
 When set, this preference will show a taller Slider, or Speed buttons, for throttles.
 
@@ -232,7 +236,8 @@ Only relevant for the following Throttle Screen Layouts:
 * Horizontal (1-3)
 * Horizontal Shunting / Horizontal Switching (1-3)
 
-**Throttle Speed Slider Margin**
+Throttle Speed Slider Margin
+'''''''''''''''''''''''''''''''''''
 
 When set, this changes the space between either the edge of the screen and the ends of the Slider, or if the Speed Buttons are enabled, the edge of the Speed Buttons and the ends of the Slider.  Specific in pixels haw far to offset.  This is useful if you find it difficult to get the zero or maximum speeds without accidently touching the Speed Buttons.
 
@@ -241,15 +246,19 @@ Only relevant for the following Throttle Screen Layouts:
 * Horizontal (1-3)
 * Horizontal Shunting / Horizontal Switching (1-3)
 
-**Display Speed buttons?**
+Display Speed buttons?
+'''''''''''''''''''''''''''''''''''
+
 
 |todo|
 
-When this preferences is set, |ED| will 
+When this preferences is set, |ED| will display buttons (``++`` and ``--``) next to Speed Sliders to change loco speed.  
 
-Display buttons next to Speed Sliders to change loco speed
+Clicking the ``++`` button will increase the speed of the Locos(s) by a preset amount. Clicking the ``--`` button will increase the speed of the Locos(s) by a preset amount.  The amount he speed changes on each press can be changed with the `Speed Button Change Amount preference <#speed-button-change-amount>`_.
 
-**Hide Speed Slider?**
+
+Hide Speed Slider?
+'''''''''''''''''''''''''''''''''''
 
 |todo|
 
@@ -257,7 +266,8 @@ When this preferences is set, |ED| will
 
 Do not show speed slider, use speed buttons instead
 
-**Hide Slider AND Speed Buttons?**
+Hide Slider AND Speed Buttons?
+'''''''''''''''''''''''''''''''''''
 
 |todo|
 
@@ -267,11 +277,13 @@ Show neither speed slider nor speed buttons
 
 Only really of use on the ESU MCII
 
-**Tick Marks on Speed Sliders?**
+Tick Marks on Speed Sliders?
+'''''''''''''''''''''''''''''''''''
 
 When this preferences is set, |ED| will show tick marks on the background of the Speed Sliders.
 
-**Switching throttle Dead Zone**
+Switching throttle Dead Zone
+'''''''''''''''''''''''''''''''''''
 
 |todo|
 
@@ -280,7 +292,8 @@ When this preferences is set, |ED| will
 Set the size of the dead zone on the slider of the Switching/Shunting Throttle Screen
 
 
-**Stop Button Vertical Margins**
+Stop Button Vertical Margins
+'''''''''''''''''''''''''''''''''''
    
 |todo|
 
@@ -288,71 +301,83 @@ When this preferences is set, |ED| will
 
 Number of pixels to offset margins of the stop button from the speed buttons and bottom of screen.
 
+Haptic Feedback (Vibration) Preferences
+"""""""""""""""""""""""""""""""""""""""
+
+The following preferences provide options for how and when the Device / Phone will *vibrate* on certain actions.
+
 Haptic Feedback (Vibration)
-"""""""""""""""""""""""""""
+'''''''''''''''''''''''''''''''''''
 
-|todo|
+When this preferences is set, |ED| will the device / phone will provide Haptic feedback (vibrate) on speed changes.
 
-**Haptic Feedback (Vibration)**
+Options
 
-|todo|
+* None
+* Slider - Every Step
+* Slider - Skip some at 29, 100, 128 Steps
 
-Haptic feedback (vibrate) on speed changes
+Haptic Feedback Duration
+'''''''''''''''''''''''''''''''''''
 
-**Haptic Feedback Duration**
+Use with preference to change the duration of each vibration (in milliseconds).
 
-|todo|
-
-Duration of each vibration (in milliseconds).
-
-**Haptic Feedback on Button Presses**
+Haptic Feedback on Button Presses
+'''''''''''''''''''''''''''''''''''
  
-|todo|
-
-Haptic feedback (vibrate) on button presses.
+When this preferences is set, |ED| will provide haptic feedback (vibrate) on button presses.
 
 Direction Button Preferences
 """"""""""""""""""""""""""""
 
 |todo|
 
-**Swap Direction buttons?**
+The following preferences provide options for 
+
+Swap Direction buttons?
+'''''''''''''''''''''''''''''''''''
 
 |todo|
 
 Permanently swap the two Direction buttons for all throttles
 
-**Long press Swap Direction buttons?**
+Long press Swap Direction buttons?
+'''''''''''''''''''''''''''''''''''
 
 |todo|
 
 Temporarily swap the two Direction buttons with a long press of any Direction button
 
-**Direction button Long Press Delay**
+Direction button Long Press Delay
+'''''''''''''''''''''''''''''''''''
 
 |todo|
 
 How many milliseconds constitutes a long press for the direction buttons<
 
-**Left Direction button Label**
+Left Direction button Label
+'''''''''''''''''''''''''''''''''''
 
 |todo|
 
 Labels for all LEFT direction buttons. Enter \'Forward\' or blank for normal behaviour.
 
-**Right Direction button Label**
+Right Direction button Label
+'''''''''''''''''''''''''''''''''''
 
 |todo|
 
 Labels for all RIGHT direction buttons. Enter \'Reverse\' or blank for normal behaviour.
 
-**Short Left Direction button Label**
+Short Left Direction button Label
+'''''''''''''''''''''''''''''''''''
 
 |todo|
 
 Short Labels for all LEFT direction buttons. Enter \'Fwd\' or blank for normal behaviour.
 
-**Short Right Direction button Label**
+Short Right Direction button Label
+'''''''''''''''''''''''''''''''''''
  
 |todo|
 
@@ -379,9 +404,10 @@ Default Function Preferences
 
 |todo|
 
-When and how the default Function Labels are displayed
+The following preferences provide options for when and how the default Function Labels are displayed.
 
-**Use default function labels?**
+Use default function labels?
+'''''''''''''''''''''''''''''''''''
 
 |todo|
 
@@ -389,13 +415,15 @@ Display the default Function Labels instead of labels from roster entries
 
 Ignores the Roster for the Function button labels.  Changes the labels only.  Has no other functional effect.
 
-**Number of Default Functions**
+Number of Default Functions
+'''''''''''''''''''''''''''''''''''
 
 |todo|
 
 Limit the Function Labels shown if not available from the Server roster
 
-**Number of Default Functions for Roster**
+Number of Default Functions for Roster
+''''''''''''''''''''''''''''''''''''''
 
 |todo|
 
@@ -411,23 +439,24 @@ Number of Function Buttons (0-4) to show on the 'Simple' Throttle layout ONLY.
 Throttle Web View Preferences
 """""""""""""""""""""""""""""
 
-|todo|
+The following preferences provide options for options for Throttle Web View appearance (Web page that will appear at the bottom of the Throttle Screen)
 
-Options for Throttle Web View appearance (Web page that will appear at the bottom of the Throttle Screen)
-
-**Throttle Web View?**
+Throttle Web View?
+'''''''''''''''''''''''''''''''''''
 
 |todo|
 
 Include web view on Throttle screen
 
-**Larger Throttle Web View?**
+Larger Throttle Web View?
+'''''''''''''''''''''''''''''''''''
 
 |todo|
 
 Increase Throttle Web View size to 60% for small screens
 
-**Initial throttle Web Page**
+Initial throttle Web Page
+'''''''''''''''''''''''''''''''''''
 
 |todo|
 
@@ -436,11 +465,10 @@ Initial throttle Web Page (such as \'/panel/\')
 Swipe Up-Down Preferences
 """""""""""""""""""""""""
 
-|todo|
+The following preferences provide options for options for swipe up or down on the Throttle screen
 
-Options for swipe up or down on the Throttle screen
-
-**Use Immersive Mode for Throttle view?**
+Use Immersive Mode for Throttle view?
+'''''''''''''''''''''''''''''''''''''
 
 |todo|
 
@@ -448,25 +476,29 @@ Display the Throttle view full screen.
 
 You can set Swipe up or down options to temporarily disable and reach the menu, though this is not strictly necessary anymore
 
-**Hide Toolbar in Immersive Mode?**
+Hide Toolbar in Immersive Mode?
+'''''''''''''''''''''''''''''''''''
 
 |todo|
 
 Set to also hide the Toolbar in immersive mode
 
-**Swipe down action in the Throttle view?**
+Swipe down action in the Throttle view?
+'''''''''''''''''''''''''''''''''''''''
 
 |todo|
 
 What should happen when you swipe down on the Throttle screen.
 
-**Swipe up action in the Throttle screen?**
+Swipe up action in the Throttle screen?
+'''''''''''''''''''''''''''''''''''''''
 
 |todo|
 
 What should happen when you swipe up on the Throttle screen.
 
-**Screen Dimming % Value**
+Screen Dimming % Value
+'''''''''''''''''''''''''''''''''''
 
 |todo|
 
@@ -477,15 +509,17 @@ Accelerometer (Shake) Preferences
 
 |todo|
 
-Options for device motion on the Throttle screen
+The following preferences provide options for options for device motion on the Throttle screen
 
-**Shake Action**
+Shake Action
+'''''''''''''''''''''''''''''''''''
 
 |todo|
 
 Options for when you shake the device
 
-**Shake Threshold**
+Shake Threshold
+'''''''''''''''''''''''''''''''''''
 
 |todo|
 
@@ -495,23 +529,24 @@ Requires restart of engine Driver after changing to take effect.
 Background Image Preferences
 """"""""""""""""""""""""""""
 
+The following preferences provide options for showing a background image on the Throttle screen.
+
+Background Image
+'''''''''''''''''''''''''''''''''''
+
 |todo|
 
 Show a background image on the Throttle screen
 
-**Background Image**
-
-|todo|
-
-Show a background image on the Throttle screen
-
-**Background Image File Name**
+Background Image File Name
+'''''''''''''''''''''''''''''''''''
 
 |todo|
 
 Enter the name of the background image file.
 
-**Background Image Position**
+Background Image Position
+'''''''''''''''''''''''''''''''''''
 
 |todo|
 
@@ -521,6 +556,8 @@ Throttle Screen Action Bar Preferences
 --------------------------------------
 
 |todo|
+
+The following preferences provide options for 
 
 Emergency Stop button?
 """"""""""""""""""""""
@@ -562,21 +599,24 @@ Layout Switch Button Preferences
 
 |todo|
 
-Show the Throttle Layout Switch button in the Throttle Screen action bar to allow quick changing of Throttle Layouts
+The following preferences provide options for 
 
-**Show Layout Switch button?**
+Show Layout Switch button?
+'''''''''''''''''''''''''''''''''''
 
 |todo|
 
 Show the Throttle Layout Switch button in the Throttle Screen action bar to allow quick changing of Throttle Layouts
 
-**First Screen Layout**
+First Screen Layout
+'''''''''''''''''''''''''''''''''''
 
 |todo|
 
 Layout Switch Button will switch between this throttle layout and the next preference
 
-**Second Screen Layout**
+Second Screen Layout
+'''''''''''''''''''''''''''''''''''
 
 |todo|
 
@@ -600,6 +640,8 @@ Throttle Control Preferences
 ----------------------------
 
 |todo|
+
+The following preferences provide options for 
 
 Speed Units
 """""""""""
@@ -678,31 +720,36 @@ Stop loco if you change direction while moving
 
 |todo|
 
-**Show 'Limit Speed' button?**
+Show 'Limit Speed' button?
+'''''''''''''''''''''''''''''''''''
 
 |todo|
 
 Show a button to temporarily restrict the maximum speed on an individual throttle
 
-**'Limit Speed' button**
+'Limit Speed' button
+'''''''''''''''''''''''''''''''''''
 
 |todo|
 
 Set the \% of the throttle that the speed will be temporarily limited to
 
-**Show 'Pause' button?**
+Show 'Pause' button?
+'''''''''''''''''''''''''''''''''''
 
 |todo|
 
 Show a button to slow and stop the locomotive, then return to original speed on next press
 
-**'Pause' button Rate**
+'Pause' button Rate
+'''''''''''''''''''''''''''''''''''
 
 |todo|
 
 Number of milliseconds between speed step changes for the Pause action
 
-**'Pause' button Step**
+'Pause' button Step
+'''''''''''''''''''''''''''''''''''
 
 |todo|
 
@@ -818,19 +865,22 @@ Volume Button Preferences
 
 Use Volume buttons to control speed
 
-**Speed button Change Amount**
+Speed button Change Amount (Volume)
+'''''''''''''''''''''''''''''''''''
 
 |todo|
 
 How much Volume buttons jump throttle speed
 
-**Disable Volume keys?**
+Disable Volume keys?
+'''''''''''''''''''''''''''''''''''
 
 |todo|
 
 Disables the hardware Volume keys on the phone/tablet that would otherwise control speed
 
-**Volume keys follow touch?**
+Volume keys follow touch?
+'''''''''''''''''''''''''''''''''''
 
 |todo|
 
@@ -841,109 +891,127 @@ Gamepad Preferences
 
 |todo|
 
-**Gamepad type**
+Gamepad type
+'''''''''''''''''''''''''''''''''''
 
 |todo|
 
 Choose the option that best supports your gamepad
 
-**Test Gamepad settings now!**
+Test Gamepad settings now!
+'''''''''''''''''''''''''''''''''''
 
 |todo|
 
 Allows you to confirm that the chosen setting works correctly.\nTest screen will launch IMMEDIATELY on selection.
 
-**Speed button Change Amount**
+Speed button Change Amount (Gamepad)
+''''''''''''''''''''''''''''''''''''
 
 |todo|
 
 How much each press of the Gamepad buttons changes the throttle speed
 
-**Gamepad Button Click Volume %**
+Gamepad Button Click Volume %
+'''''''''''''''''''''''''''''''''''
 
 |todo|
 
 Set the volume percent for gamepad button clicks
 
-**Speed button Repeat Delay**
+Speed button Repeat Delay (gamepad)
+'''''''''''''''''''''''''''''''''''
 
 |todo|
 
 How long between repeats on Gamepad speed buttons.  Smaller is faster.
 
-**Gamepad button action <!-- X -->**
+Gamepad button action <!-- X -->
+'''''''''''''''''''''''''''''''''''
 
 |todo|
 
 Choose the action when you press the button
 
-**Gamepad button action <!-- Y -->**
+Gamepad button action <!-- Y -->
+'''''''''''''''''''''''''''''''''''
 
 |todo|
 
 Choose the action when you press the button
 
-**Gamepad button action <!-- A -->**
+Gamepad button action <!-- A -->
+'''''''''''''''''''''''''''''''''''
 
 |todo|
 
 Choose the action when you press the button
 
-**Gamepad button action <!-- B -->**
+Gamepad button action <!-- B -->
+'''''''''''''''''''''''''''''''''''
 
 |todo|
 
 Choose the action when you press the button
 
-**Gamepad button action <!-- Start(Lower) -->**
+Gamepad button action <!-- Start(Lower) -->
+'''''''''''''''''''''''''''''''''''''''''''
 
 |todo|
 
 Choose the action when you press the button
 
-**Gamepad button action <!-- Return(Upper) -->**
+Gamepad button action <!-- Return(Upper) -->
+''''''''''''''''''''''''''''''''''''''''''''
 
 |todo|
 
 Choose the action when you press the button
 
-**Gamepad DPAD Up action**
+Gamepad DPAD Up action
+'''''''''''''''''''''''''''''''''''
 
 |todo|
 
 Choose the action when you press the button
 
-**Gamepad DPAD Right action**
+Gamepad DPAD Right action
+'''''''''''''''''''''''''''''''''''
 
 |todo|
 
 Choose the action when you press the button
 
-**Gamepad DPAD Down action**
+Gamepad DPAD Down action
+'''''''''''''''''''''''''''''''''''
 
 |todo|
 
 Choose the action when you press the button
 
-**Gamepad DPAD Left action**
+Gamepad DPAD Left action
+'''''''''''''''''''''''''''''''''''
 
 |todo|
 
 Choose the action when you press the button
 
-**Swap Direction buttons with Screen buttons?**
+Swap Direction buttons with Screen buttons?
+'''''''''''''''''''''''''''''''''''''''''''
 
 |todo|
 
 Temporarily swap the two Gamepad Direction buttons if the Screen Direction buttons are swapped
 
-**Enforce Gamepad Testing?**
+Enforce Gamepad Testing?
+'''''''''''''''''''''''''''''''''''
 
 |todo|
 
 Test each gamepad every time they are connected
 
-**Use Simple Test?**
+Use Simple Test?
+'''''''''''''''''''''''''''''''''''
 
 |todo|
 
@@ -959,13 +1027,15 @@ Device Stop button options
 
 |todo|
 
-**Stop Button long-press delay**
+Stop Button long-press delay
+'''''''''''''''''''''''''''''''''''
 
 |todo|
 
 How long for a \'long-press\' of the Stop button.\nA \'long-press\' stops all active throttles; a \'short-press\' pauses the current throttle.\nSmaller is faster.
 
-**Enable Short Press**
+Enable Short Press
+'''''''''''''''''''''''''''''''''''
 
 |todo|
 
@@ -976,31 +1046,36 @@ Device side button options
 
 |todo|
 
-**Top-left button action**
+Top-left button action
+'''''''''''''''''''''''''''''''''''
 
 |todo|
 
 Choose the action when you press the button
 
-**Bottom-left button action**
+Bottom-left button action
+'''''''''''''''''''''''''''''''''''
 
 |todo|
 
 Choose the action when you press the button
 
-**Top-right button action**
+Top-right button action
+'''''''''''''''''''''''''''''''''''
 
 |todo|
 
 Choose the action when you press the button
 
-**Bottom-right button action**
+Bottom-right button action
+'''''''''''''''''''''''''''''''''''
 
 |todo|
 
 Choose the action when you press the button
 
-**Button repeat delay**
+Button repeat delay
+'''''''''''''''''''''''''''''''''''
 
 |todo|
 
@@ -1011,19 +1086,22 @@ Control Knob options
 
 |todo|
 
-**Control Knob Zero Trim**
+Control Knob Zero Trim
+'''''''''''''''''''''''''''''''''''
 
 |todo|
 
 Set the Control Knob zero trim setting. Smaller is closer to counter-clockwise end-stop position.  Permitted range 0-255.
 
-**Direction Change at end-stop**
+Direction Change at end-stop
+'''''''''''''''''''''''''''''''''''
 
 |todo|
 
 Allow Loco direction to change when control knob at counter-clockwise end-stop position
 
-**Show disable Knob button**
+Show disable Knob button
+'''''''''''''''''''''''''''''''''''
 
 |todo|
 
@@ -1041,37 +1119,43 @@ Voice Response Preferences
 
 |todo|
 
-**Voice Response**
+Voice Response
+'''''''''''''''''''''''''''''''''''
 
 |todo|
 
 When to speak key events and actions using Text to Speech (TTS)
 
-**On Gamepad Throttle change**
+On Gamepad Throttle change
+'''''''''''''''''''''''''''''''''''
 
 |todo|
 
 When you select a different throttle on the gamepad
 
-**On Gamepad Speeds**
+On Gamepad Speeds
+'''''''''''''''''''''''''''''''''''
 
 |todo|
 
 When the speed hits certain speeds when using a gamepad
 
-**On Gamepad Test start**
+On Gamepad Test start
+'''''''''''''''''''''''''''''''''''
 
 |todo|
 
 When the gamepad test screen is launched
 
-**On Gamepad Test complete**
+On Gamepad Test complete
+'''''''''''''''''''''''''''''''''''
 
 |todo|
 
 When the gamepad test screen is finished 
 
-**On Gamepad Test key press**
+On Gamepad Test key press
+'''''''''''''''''''''''''''''''''''
 
 |todo|
 
@@ -1172,44 +1256,51 @@ Additional Preferences
 
 Additional In Phone Loco Sounds preferences
 
-**In Phone Momentum**
+In Phone Momentum
+'''''''''''''''''''''''''''''''''''
 
 |todo|
 
 Delay (momentum) per step change in milliseconds (0-2000)
 
-**Don't clip loco step sounds**
+Don't clip loco step sounds
+'''''''''''''''''''''''''''''''''''
 
 |todo|
 
 Loco step sounds will play till their end when changing step.  Momentum amount (above) becomes a minimum time only.
 
 
-**In Phone Loco Sounds Volume**
+In Phone Loco Sounds Volume
+'''''''''''''''''''''''''''''''''''
 
 |todo|
 
 Volume for Loco engine sounds in the phone (1-100)
 
-**In Phone Bell Sounds Volume**
+In Phone Bell Sounds Volume
+'''''''''''''''''''''''''''''''''''
 
 |todo|
 
 Volume for bell sounds in the phone (1-100)
 
-**In Phone Horn/Whistle Sounds Volume**
+In Phone Horn/Whistle Sounds Volume
+'''''''''''''''''''''''''''''''''''
 
 |todo|
 
 Volume for Horn/Whistle sounds in the phone (1-100)
 
-**Bell button Latching/Momentary**
+Bell button Latching/Momentary
+'''''''''''''''''''''''''''''''''''
 
 |todo|
 
 Bell button is momentary (not latching)?
 
-**F1 and F2 activate Bell and Horn?**
+F1 and F2 activate Bell and Horn?
+'''''''''''''''''''''''''''''''''''
 
 |todo|
 
