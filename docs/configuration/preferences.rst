@@ -15,35 +15,59 @@ Preferences
 
 ----
 
+|ed| is highly configurable.  There are over 100 different items than can be changed to allow you customise your experience with |ED|\ .
+
+Most configuration options are found in the *Preferences* which is accessed via the overflow menu, sometimes called a 'hamburger menu', which is normally three dots (⁞) or three bars (≡).
+
 Advanced Preferences
 --------------------------
 
 Show Advanced Preferences?
 """"""""""""""""""""""""""
 
-By default, only a small number of core preferences are displayed. Check this preference to show the additional preferences.
+By default, only a small number of core preferences are displayed. 
+
+If you enable this preference |ed| will immedialy show the additional preferences.
 
 Device Preferences
 ------------------
 
-|todo|
-
-The following preferences provide options for the whole of |ed|.
+The following preferences provide options for the 'whole' of |ed|.
 
 Throttle Name
 """""""""""""
 
-Use this to enter a unique name for your device/phone.  The name will appear in the wiThrottle window in JMRI.
+Use this to enter a unique name for your device/phone.  The name will appear in the WiThrottle window in JMRI.  While not significant ion a single user layout, having a name on the device can be useful in club or multi user environments, especially when trying to sort out issues.
   
 Screen orientation
 """"""""""""""""""
 
 |todo|
 
+There are four options to choose from:
+
 * Portrait
 * Landscape
 * Auto-Rotate
 * Auto-Web
+
+.. list-table::
+    :width: 100%
+    :widths: 60 40
+    :header-rows: 1
+
+    * - Example
+      - Theme
+    * - .. image:: ../_static/images/screenshots/throttle_horizontal_outline_theme.png  
+          :scale: 8%
+      - Portrait
+    * - .. image:: ../_static/images/screenshots/throttle_horizontal_landscape_outline_theme.png 
+          :scale: 8%
+      - Landscape
+    * - |todo|
+      - Auto-Rotate
+    * - |todo|
+      - Auto-Web  
 
 Theme/Style
 """""""""""
@@ -52,24 +76,51 @@ Theme/Style
 
 You can switch between different themes by changing this preference. 
 
-* The original theme 
-* The high contrast theme. |br|\ Similar to the original theme, without the textured background with deeper blacks and brighter whites. 
-* The high contrast outline theme. |br|\ For people who like white text on a black background.
-* The Dark theme. 
-* The Colourful theme.
+There are five themes to choose from:
+
+* Original 
+* High contrast
+* High contrast *outline*
+* Dark
+* Colourful
+
+
+.. list-table::
+    :width: 100%
+    :widths: 50 50
+    :header-rows: 1
+
+    * - Example
+      - Theme
+    * - .. image:: ../_static/images/screenshots/throttle_horizontal_original_theme.png  
+          :scale: 8%
+      - Original theme
+    * - .. image:: ../_static/images/screenshots/throttle_horizontal_high_contrast_theme.png 
+          :scale: 8%
+      - High contrast theme |br|\ |br|\ Similar to the original |br|\ theme, without the |br|\ textured background |br|\ with deeper blacks |br|\ and brighter whites.
+    * - .. image:: ../_static/images/screenshots/throttle_horizontal_outline_theme.png
+          :scale: 8%
+      - High contrast |br|\ Outline theme |br|\ |br|\ For people who like |br|\ white text on a |br|\ black background.
+    * - .. image:: ../_static/images/screenshots/throttle_horizontal_dark_theme.png
+          :scale: 8%
+      - Dark theme
+    * - .. image:: ../_static/images/screenshots/throttle_horizontal_colorful_theme.png
+          :scale: 8%
+      - Colourful theme
+
+
 
 Localisation
 """"""""""""
 
-Changing this setting not only changes the language that is used, it also changes the railroad/railway terminology (eg, Selecting 'Use Phone's global setting' and having this set to 'English (Australia)' then causes the term 'Points' to be displayed rather than 'Turnouts' as is displayed when 'English (US)' is selected). In the Preferences screen and the Throttle Screen Layout selection screen (where 'shunting' is displayed rather than 'switching').  This is not guaranteed to operate on all text on all screens. 
+Changing the *Localisation* primarily changes the language used in the menus, buttons and messages throughout |ED|.
+
+For English, it also changes the railroad/railway terminology (eg, Selecting 'Use Phone's global setting' and having this set to 'English (Australia)' or 'English (UK)' results in the term 'Points' to be displayed rather than 'Turnouts' as is displayed when 'English (US)' is selected). In the Preferences screen and the Throttle Screen Layout selection screen (where 'shunting' is displayed rather than 'switching').  This is not guaranteed to operate on all text on all screens. 
 
 Supported localisations are:
 
-* Use Phone's global setting |br| -  Will use any of the localisations below and your system is set to it
+* Use Phone's global setting |br| -  Will use any of the localisations below depending on what your system is set to it
 * English (US) |br| - Engine Driver's default
-* English (UK) |br| - Activated if you select 'Use Phone's global setting' and your system is set to English (UK)
-* English (AUS) |br| - Activated if you select 'Use Phone's global setting' and your system is set to English (AUS)
-* English (NZ) |br| - Activated if you select 'Use Phone's global setting' and your system is set to English (NZ)
 * Italian
 * Portuguese
 * German
@@ -78,10 +129,16 @@ Supported localisations are:
 * French
 * Czech
 
+The following can't be chosen in the preference, but will be activated automatically if you select ``Use the Phone's global setting`` and you have selected one of the following primary languages in you Device's / Phone's global settings:
+
+* English (UK)
+* English (AUS)
+* English (NZ)
+
 Left/Right Swipe Preferences
 """"""""""""""""""""""""""""
 
-The following preferences provide options for how left / right swipes work and which screens are available when yo swipe left / right.
+The following preferences provide options for how *left/right swipes* work and which screens are available when you swipe left / right.
 
 Disable full screen Swipe?
 '''''''''''''''''''''''''''''''''''
@@ -249,33 +306,38 @@ Only relevant for the following Throttle Screen Layouts:
 Display Speed buttons?
 '''''''''''''''''''''''''''''''''''
 
-
-|todo|
-
 When this preferences is set, |ED| will display buttons (``++`` and ``--``) next to Speed Sliders to change loco speed.  
 
-Clicking the ``++`` button will increase the speed of the Locos(s) by a preset amount. Clicking the ``--`` button will increase the speed of the Locos(s) by a preset amount.  The amount he speed changes on each press can be changed with the `Speed Button Change Amount preference <#speed-button-change-amount>`_.
+Clicking the ``++`` button will increase the speed of the Locos(s) by a preset amount. Clicking the ``--`` button will increase the speed of the Locos(s) by a preset amount.  
+
+The amount the speed changes on each press can be changed with the `Speed Button Change Amount`_ preference.  Note that this is independent of the `Speed Button Change Amount (Volume)`_ preference and the `Speed Button Change Amount (Gamepad)`_ preference.
+
+Holding down a button will increase / decrease the speed continuously by the preset amount, in series of steps.
+
+The time between steps can be changed with the `Speed Button Repeat Delay`_ preference.  Note that this is independent of the `Speed Button Repeat Delay (Gamepad)`_ preference.  But the Volume button repeat Delay is linked to it.
 
 
 Hide Speed Slider?
 '''''''''''''''''''''''''''''''''''
 
-|todo|
+When this preferences is set, |ED| will not show speed slider, use speed buttons instead.
 
-When this preferences is set, |ED| will 
+This option is not relevant for the following Throttle Screen Layouts as they cannot have a slider:
 
-Do not show speed slider, use speed buttons instead
+* Big Buttons - Left
+* Big Buttons - Right
 
 Hide Slider AND Speed Buttons?
 '''''''''''''''''''''''''''''''''''
 
-|todo|
-
-When this preferences is set, |ED| will 
-
-Show neither speed slider nor speed buttons
+When this preferences is set, |ED| will show neither speed slider nor speed buttons.t
 
 Only really of use on the ESU MCII
+
+This option is not relevant for the following Throttle Screen Layouts as they cannot be without the Speed buttons:
+
+* Big Buttons - Left
+* Big Buttons - Right
 
 Tick Marks on Speed Sliders?
 '''''''''''''''''''''''''''''''''''
@@ -285,21 +347,28 @@ When this preferences is set, |ED| will show tick marks on the background of the
 Switching throttle Dead Zone
 '''''''''''''''''''''''''''''''''''
 
-|todo|
+When this preferences is set, |ED| will set the size of the dead zone, or detent, on the slider of the Switching/Shunting Throttle Screen.  The larger the size, the easier it is to find Zero on the slider.
 
-When this preferences is set, |ED| will 
-
-Set the size of the dead zone on the slider of the Switching/Shunting Throttle Screen
+* Vertical Shunting |br| Vertical Switching
+* Vertical Shunting - Left |br| Vertical Switching - Left
+* Vertical Shunting - Right |br| Vertical Switching - Right
+* Horizontal Shunting |br| Horizontal Switching
+* Horizontal Shunting - Left |br| Horizontal Switching - Left
+* Horizontal Shunting - Right |br| Horizontal Switching - Right
 
 
 Stop Button Vertical Margins
 '''''''''''''''''''''''''''''''''''
    
-|todo|
+When this preferences is set, |ED| will add the entered number of pixels to offset margins of the stop button from the speed buttons and bottom of screen.  This is useful if you find it difficult to get the zero speeds on the vertical sliders without accidently touching the Stop Button.
 
-When this preferences is set, |ED| will 
+Only relevant to the following Throttle Screen layouts:
 
-Number of pixels to offset margins of the stop button from the speed buttons and bottom of screen.
+* Vertical
+* Vertical Shunting |br| Vertical Switching
+* Vertical Shunting - Left |br| Vertical Switching - Left
+* Vertical Shunting - Right |br| Vertical Switching - Right
+
 
 Haptic Feedback (Vibration) Preferences
 """""""""""""""""""""""""""""""""""""""
@@ -311,7 +380,7 @@ Haptic Feedback (Vibration)
 
 When this preferences is set, |ED| will the device / phone will provide Haptic feedback (vibrate) on speed changes.
 
-Options
+Options:
 
 * None
 * Slider - Every Step
@@ -330,116 +399,98 @@ When this preferences is set, |ED| will provide haptic feedback (vibrate) on but
 Direction Button Preferences
 """"""""""""""""""""""""""""
 
-|todo|
-
-The following preferences provide options for 
+The following preferences provide options for Direction Buttons.
 
 Swap Direction buttons?
 '''''''''''''''''''''''''''''''''''
 
-|todo|
-
-Permanently swap the two Direction buttons for all throttles
+When this preferences is set, |ED| will permanently swap the two Direction buttons for all throttles.
 
 Long press Swap Direction buttons?
 '''''''''''''''''''''''''''''''''''
 
-|todo|
-
-Temporarily swap the two Direction buttons with a long press of any Direction button
+When this preferences is set, |ED| will temporarily swap the two Direction buttons when you long press of either of the Direction buttons.
 
 Direction button Long Press Delay
 '''''''''''''''''''''''''''''''''''
 
 |todo|
 
-How many milliseconds constitutes a long press for the direction buttons<
+How many milliseconds constitutes a long press for the direction buttons
 
 Left Direction button Label
 '''''''''''''''''''''''''''''''''''
 
-|todo|
+You can use this preference to change the labels for all LEFT direction buttons. 
 
-Labels for all LEFT direction buttons. Enter \'Forward\' or blank for normal behaviour.
+Enter \'Forward\' or blank for normal behaviour.
 
 Right Direction button Label
 '''''''''''''''''''''''''''''''''''
 
-|todo|
+You can use this preference to change the labels for all RIGHT direction buttons.
 
-Labels for all RIGHT direction buttons. Enter \'Reverse\' or blank for normal behaviour.
+Enter \'Reverse\' or blank for normal behaviour.
 
 Short Left Direction button Label
 '''''''''''''''''''''''''''''''''''
 
-|todo|
+You can use this preference to change the short labels for all LEFT direction buttons.
 
-Short Labels for all LEFT direction buttons. Enter \'Fwd\' or blank for normal behaviour.
+Enter \'Fwd\' or blank for normal behaviour.
 
 Short Right Direction button Label
 '''''''''''''''''''''''''''''''''''
  
-|todo|
+You can use this preference to change the short labels for all RIGHT direction buttons.
 
-Labels for all Short RIGHT direction buttons. Enter \'Rev\' or blank for normal behaviour.
+Enter \'Rev\' or blank for normal behaviour.
 
 Decrease Loco No. height?
 """""""""""""""""""""""""
 
-|todo|
-
-Use smaller buttons for the Loco Number, Speed and Direction buttons
+You can use this preference to have |ed| use smaller buttons for the Loco Number, Speed and Direction buttons
 
 Loco Address instead of Name?
 """""""""""""""""""""""""""""
 
-|todo|
-
-Show loco DCC Address(es) instead of the Roster Name(s) on the Throttle screen
-
-Ignores the Roster name for the `Select` button label.  Changes the label only.  Has no other functional effect.
+You can use this preference to have |ed| to show loco DCC Address(es) instead of the Roster Name(s) on the Throttle screen.  It will ignore the Roster name for the `Select` button label.  This changes the label only.  It has no other functional effect.
 
 Default Function Preferences
 """"""""""""""""""""""""""""
-
-|todo|
 
 The following preferences provide options for when and how the default Function Labels are displayed.
 
 Use default function labels?
 '''''''''''''''''''''''''''''''''''
 
-|todo|
-
-Display the default Function Labels instead of labels from roster entries
-
-Ignores the Roster for the Function button labels.  Changes the labels only.  Has no other functional effect.
+You can use this preference to have |ed| *always* display the default Function Labels (configured inside |ed|\ ) instead of labels from roster entries. It will ignore the Roster for the Function button labels.  It changes the labels only.  It has no other functional effect.
 
 Number of Default Functions
 '''''''''''''''''''''''''''''''''''
 
-|todo|
-
-Limit the Function Labels shown if not available from the Server roster
+You can use this preference to limit the Function to limit the Function Labels shown for selected locos that are not from the Server Roster, or where you have set the `Use default function labels?`_ preference. 
 
 Number of Default Functions for Roster
 ''''''''''''''''''''''''''''''''''''''
 
-|todo|
-
-Limit the Function Labels shown for Server Roster Entries with no function Labels
+You can use this preference to limit the Function Labels shown for Server Roster Entries that don't have any function Labels configured.
 
 Function Buttons Area size
 """"""""""""""""""""""""""
 
-|todo|
+You can use this preference to instruct |ed| to show some, or no, Function Buttons (0-4) below the Speed Slider the 'Simple' Throttle layout ONLY.
 
-Number of Function Buttons (0-4) to show on the 'Simple' Throttle layout ONLY.
+Only relevant to the following Throttle Screen layouts:
+
+* Simple
 
 Throttle Web View Preferences
 """""""""""""""""""""""""""""
 
-The following preferences provide options for options for Throttle Web View appearance (Web page that will appear at the bottom of the Throttle Screen)
+The following preferences provide options for options for *Throttle Web View* appearance.
+
+The *Throttle Web View* is a smaller (approximately half page) Web browser window that will appear at the bottom of the Throttle Screen, and is difference to the main Web View Screen.  The two are configured independently.
 
 Throttle Web View?
 '''''''''''''''''''''''''''''''''''
@@ -448,12 +499,12 @@ Throttle Web View?
 
 Include web view on Throttle screen
 
+There are 
+
 Larger Throttle Web View?
 '''''''''''''''''''''''''''''''''''
 
-|todo|
-
-Increase Throttle Web View size to 60% for small screens
+You can use this preference to instruct |ed| to increase the Throttle Web View size to 60% for small screens
 
 Initial throttle Web Page
 '''''''''''''''''''''''''''''''''''
@@ -461,6 +512,11 @@ Initial throttle Web Page
 |todo|
 
 Initial throttle Web Page (such as \'/panel/\')
+
+Enter the initial Web Page (such as '/panel') for the Web Screen
+
+Different to the 'Web Screen' initial Web Page.
+
 
 Swipe Up-Down Preferences
 """""""""""""""""""""""""
@@ -898,12 +954,14 @@ Gamepad type
 
 Choose the option that best supports your gamepad
 
+See the `Gamepads page <../configuration/gamepads.html>`_ for more information about selecting and using a gamepad.
+
 Test Gamepad settings now!
 '''''''''''''''''''''''''''''''''''
 
 |todo|
 
-Allows you to confirm that the chosen setting works correctly.\nTest screen will launch IMMEDIATELY on selection.
+Allows you to confirm that the chosen setting are working correctly.  The Gamepad Test screen will launch IMMEDIATELY on selection.
 
 Speed button Change Amount (Gamepad)
 ''''''''''''''''''''''''''''''''''''

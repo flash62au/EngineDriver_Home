@@ -109,9 +109,9 @@ Style Guidelines
 ^^^^^^^^^^^^^^^^
 
 * Use British/Australian/Canadian spelling e.g. 'colour' not 'color'.  |br|\ (Primarily because it is used in more English speaking countries)
-*	Use railway terminology that is understandable by all English-speaking people. |br|\ Where there are clear differences from US to non-US terminology use both with a slash between and use the US version first. e.g. turnouts/points, consists/multiple units, switching/shunting.  (Primarily because JMRI uses the US terminology)
+*	Use railroad/railway terminology that is understandable by all English-speaking people. |br|\ Where there are clear differences from US to non-US terminology use both with a slash between and use the US version first. e.g. turnouts/points, consists/multiple units, switching/shunting.  (Primarily because JMRI uses the US terminology)
 * In general use 'loco' instead of 'locomotive' or 'engine'
-* Use bolded \*\*Engine Driver\*\* not 'Engine Driver app', 'EngineDriver' or 'Engine Driver Throttle' (except on the first page) - **Engine Driver**
+* Use bolded \*\*Engine Driver\*\* or \|ed\| not 'Engine Driver app', 'EngineDriver' or 'Engine Driver Throttle' (except on the first page) - **Engine Driver**
 *	No full stop at the end of a numbered or unnumbered list
 *	Numbered lists should be avoided, unless there is a specific need
 * Use first person (you and your; not I, me, my or am) language
@@ -119,8 +119,8 @@ Style Guidelines
 * Double quotes (") should only be used for quoting text from people, documents or web sites
 *	No quotes around 'Also See' type references
 *	Avoid '(above)' or '(below)' in text.  Use hypertext links instead
-*	'TODO' in the text means that it is still a work-in-process and needs to be updated.  It may be followed by descriptive text in italics describing the issue to be fixed
-* Use \`\`\literal text blocks\`\` when describing buttons, preferences  - ``literal text blocks``
+*	'TODO' or \|todo\| in the text means that it is still a work-in-process and needs to be updated.  It may be followed by descriptive text in italics describing the issue to be fixed
+* Use \`\`\literal text blocks\`\` when describing preference values  - ``literal text blocks``
 * Use \:menuselection\:\`Menu --> Preferences --> ..\` for menu descriptions - :menuselection:`Menu --> Preferences --> ..` 
 * Use \:guilabel\:\`\GUI labels\` for buttons  - :guilabel:`GUI labels`
 * Avoid using 'phone' alone. Preferably use 'Android device/phone'

@@ -7,7 +7,7 @@ Configuring Engine Driver
 
 .. include:: ../include.rst
 
-**Engine Driver** is highly configurable.
+|ed| is highly configurable.
 
 Most configuration options are found in the *Preferences* which is accessed via the overflow menu which is normally three dots (⁞) or three bars (≡).
 
@@ -26,7 +26,7 @@ Look around in Preferences, there are a huge number of settings to personalize *
 
    See the `Preferences <./preferences.html>`_ page for a full list of the available preferences.
 
-The **Functions buttons** are changed via the ``Function Buttons`` menu option: :menuselection:`Menu --> Functions Buttons`
+The *Functions buttons* are changed via the ``Function Buttons`` menu option: :menuselection:`Menu --> Functions Buttons`
 
 Some of the Function button preferences include:
 
