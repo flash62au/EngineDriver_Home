@@ -476,22 +476,18 @@ The Action Bar can display:
   * In Phone Loco Sound
   * Children's Timer
 
-* The Overflow Menu, which is normally three dots (⁞) or three bars (≡).   (Main Screens only)
-
 The optionally configured items are configured via the corresponding preferences in the ``Throttle Screen Action Bar Preferences`` preference group.
 
 Emergency Stop
 """"""""""""""
 
-|todo|
-
 .. image:: ../_static/images/parts/estop.png
    :align: right
    :scale: 50%
 
-The *Emergency Stop* Action Bar button is enable with the ...
+The *Emergency Stop* Action Bar button is enabled with the `Emergency Stop button? <../configuration/preferences.html#emergency-stop-button>`_ preference.
 
-*Emergency Stop*, when pressed ...
+Clicking this button will attempt to quickly stop all locos controlled by the device / phone.  Locos controlled by other people/devices are not stopped.
 
 Track Power
 """""""""""
@@ -502,9 +498,13 @@ Track Power
    :align: right
    :scale: 50%
 
-The *Track Power* Action Bar button is enable with the ...
+The *Track Power* Action Bar button is enabled with the `Layout Power button? <../configuration/preferences.html#layout-power-button>`_ preference.
 
-*Track Power*, when pressed ...
+*Track Power*, when pressed will turn on/off the power to the track.  The colour of the button will change colour:
+
+* 'Amber' = unknown state
+* 'Red' = Power is Off
+* 'Green' = Power is On
 
 Flashlight
 """"""""""
@@ -531,6 +531,19 @@ Throttle Web View
 The *Throttle Web View* Action Bar button is enable with the ...
 
 *Throttle Web View*, when pressed ...
+
+
+Layout Switch 
+"""""""""""""
+
+.. image:: ../_static/images/parts/throttle_switch_button.png
+   :align: right
+   :scale: 50%
+
+|todo|
+
+The *Layout Switch* buttons, when pressed ...
+
 
 In Phone Loco Sound
 """""""""""""""""""
@@ -611,3 +624,4 @@ The Overflow Menu can display
 * Exit
 * About
 
+* The Overflow Menu, which is normally three dots (⁞) or three bars (≡).   (Main Screens only)

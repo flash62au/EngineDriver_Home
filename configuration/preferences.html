@@ -669,7 +669,6 @@
 </section>
 <section id="screen-orientation">
 <h3><a class="toc-backref" href="#id5">Screen orientation</a><a class="headerlink" href="#screen-orientation" title="Permalink to this heading"></a></h3>
-<p><div style="color:red">TODO</div></p>
 <p>There are four options to choose from:</p>
 <ul class="simple">
 <li><p>Portrait</p></li>
@@ -696,19 +695,19 @@
 </td>
 <td><p>Landscape</p></td>
 </tr>
-<tr class="row-even"><td><p><div style="color:red">TODO</div></p></td>
-<td><p>Auto-Rotate</p></td>
+<tr class="row-even"><td><p>see above</p></td>
+<td><p>Auto-Rotate <br />will switch between <br />Portrait and <br />landscape when <br />you rotate the <br />screen</p></td>
 </tr>
-<tr class="row-odd"><td><p><div style="color:red">TODO</div></p></td>
-<td><p>Auto-Web</p></td>
+<tr class="row-odd"><td><a class="reference internal image-reference" href="../_images/auto_web.png"><img alt="../_images/auto_web.png" src="../_images/auto_web.png" style="width: 204.8px; height: 115.2px;" /></a>
+</td>
+<td><p>Auto-Web <br />will show the <br />Web Screen when <br />you rotate the <br />screen</p></td>
 </tr>
 </tbody>
 </table>
 </section>
 <section id="theme-style">
 <h3><a class="toc-backref" href="#id6">Theme/Style</a><a class="headerlink" href="#theme-style" title="Permalink to this heading"></a></h3>
-<p><div style="color:red">TODO</div></p>
-<p>You can switch between different themes by changing this preference.</p>
+<p>Themes provide different colours and textures to the buttons, backgrounds, sliders etc.  You can switch between different themes by changing this preference.</p>
 <p>There are five themes to choose from:</p>
 <ul class="simple">
 <li><p>Original</p></li>
@@ -1093,9 +1092,7 @@
 <p>The <em>Throttle Web View</em> is a smaller (approximately half page) Web browser window that will appear at the bottom of the Throttle Screen, and is difference to the main Web View Screen.  The two are configured independently.</p>
 <section id="throttle-web-view">
 <h4><a class="toc-backref" href="#id45">Throttle Web View?</a><a class="headerlink" href="#throttle-web-view" title="Permalink to this heading"></a></h4>
-<p><div style="color:red">TODO</div></p>
-<p>Include web view on Throttle screen</p>
-<p>There are</p>
+<p>You can use this preference to have <strong>Engine Driver</strong> to show a <em>Web View</em> area on the Throttle screen which is essentially a Web Browser.</p>
 </section>
 <section id="larger-throttle-web-view">
 <h4><a class="toc-backref" href="#id46">Larger Throttle Web View?</a><a class="headerlink" href="#larger-throttle-web-view" title="Permalink to this heading"></a></h4>
@@ -1103,10 +1100,9 @@
 </section>
 <section id="initial-throttle-web-page">
 <h4><a class="toc-backref" href="#id47">Initial throttle Web Page</a><a class="headerlink" href="#initial-throttle-web-page" title="Permalink to this heading"></a></h4>
-<p><div style="color:red">TODO</div></p>
-<p>Initial throttle Web Page (such as '/panel/')</p>
+<p>You can use this preference to set the initial throttle Web Page (such as '/panel/') for when the <em>Throttle Web View</em> first opens.</p>
 <p>Enter the initial Web Page (such as ‘/panel’) for the Web Screen</p>
-<p>Different to the ‘Web Screen’ initial Web Page.</p>
+<p>Note that this is different to the ‘Web Screen’ initial Web Page which is set with the <a class="reference internal" href="#initial-web-screen-page">Initial Web Screen Page</a> preference.</p>
 </section>
 </section>
 <section id="swipe-up-down-preferences">
@@ -1114,29 +1110,51 @@
 <p>The following preferences provide options for options for swipe up or down on the Throttle screen</p>
 <section id="use-immersive-mode-for-throttle-view">
 <h4><a class="toc-backref" href="#id49">Use Immersive Mode for Throttle view?</a><a class="headerlink" href="#use-immersive-mode-for-throttle-view" title="Permalink to this heading"></a></h4>
-<p><div style="color:red">TODO</div></p>
-<p>Display the Throttle view full screen.</p>
-<p>You can set Swipe up or down options to temporarily disable and reach the menu, though this is not strictly necessary anymore</p>
+<p>Setting this preference will display the Throttle view full screen.  The Navigation bar and the Status Bar will be hidden, Swiping down from off the screen will temporarily show them again.</p>
 </section>
 <section id="hide-toolbar-in-immersive-mode">
 <h4><a class="toc-backref" href="#id50">Hide Toolbar in Immersive Mode?</a><a class="headerlink" href="#hide-toolbar-in-immersive-mode" title="Permalink to this heading"></a></h4>
-<p><div style="color:red">TODO</div></p>
-<p>Set to also hide the Toolbar in immersive mode</p>
+<p>Setting this preference, along with <a class="reference internal" href="#use-immersive-mode-for-throttle-view">Use Immersive Mode for Throttle view?</a> preference will display the Throttle view in and extended full screen.  The Action Bar, along with the Navigation bar and the Status Bar will be hidden, Swiping down from off the screen will temporarily show the the Navigation bar and Status bar again, but not the Action Bar.</p>
+<p>It is essential, that you can set <a class="reference internal" href="#swipe-down-action-in-the-throttle-view">Swipe down action in the Throttle view?</a> or <a class="reference internal" href="#swipe-up-action-in-the-throttle-screen">Swipe up action in the Throttle screen?</a> preferences to temporarily disable this and allow you to reach the menu.</p>
 </section>
 <section id="swipe-down-action-in-the-throttle-view">
 <h4><a class="toc-backref" href="#id51">Swipe down action in the Throttle view?</a><a class="headerlink" href="#swipe-down-action-in-the-throttle-view" title="Permalink to this heading"></a></h4>
 <p><div style="color:red">TODO</div></p>
 <p>What should happen when you swipe down on the Throttle screen.</p>
+<p>Options:</p>
+<ul class="simple">
+<li><p>None</p></li>
+<li><p>Hide Web View <br /> (requires <a class="reference internal" href="#throttle-web-view">Throttle Web View?</a> preference to be set)</p></li>
+<li><p>Lock and Dim Screen</p></li>
+<li><p>Dim Screen</p></li>
+<li><p>Immersive Mode temporarily enable-disable</p></li>
+<li><p>Switch Throttle Screen Layouts</p></li>
+</ul>
 </section>
 <section id="swipe-up-action-in-the-throttle-screen">
 <h4><a class="toc-backref" href="#id52">Swipe up action in the Throttle screen?</a><a class="headerlink" href="#swipe-up-action-in-the-throttle-screen" title="Permalink to this heading"></a></h4>
 <p><div style="color:red">TODO</div></p>
 <p>What should happen when you swipe up on the Throttle screen.</p>
+<p>Options:</p>
+<ul class="simple">
+<li><p>None</p></li>
+<li><p>Hide Web View <br /> (requires <a class="reference internal" href="#throttle-web-view">Throttle Web View?</a> preference to be set)</p></li>
+<li><p>Lock and Dim Screen</p></li>
+<li><p>Dim Screen</p></li>
+<li><p>Immersive Mode temporarily enable-disable</p></li>
+<li><p>Switch Throttle Screen Layouts</p></li>
+</ul>
 </section>
 <section id="screen-dimming-value">
 <h4><a class="toc-backref" href="#id53">Screen Dimming % Value</a><a class="headerlink" href="#screen-dimming-value" title="Permalink to this heading"></a></h4>
 <p><div style="color:red">TODO</div></p>
 <p>Brightness setting to use when dimming the screen (0%-99%). Disables Auto or Adaptive Brightness if set.</p>
+<p>Requires that one of the following is set to <code class="docutils literal notranslate"><span class="pre">Lock</span> <span class="pre">and</span> <span class="pre">Dim</span> <span class="pre">Screen</span></code> or <code class="docutils literal notranslate"><span class="pre">Dim</span> <span class="pre">Screen</span></code></p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#swipe-down-action-in-the-throttle-view">Swipe down action in the Throttle view?</a></p></li>
+<li><p><a class="reference internal" href="#swipe-up-action-in-the-throttle-screen">Swipe up action in the Throttle screen?</a></p></li>
+<li><p><a class="reference internal" href="#accelerometer-shake-preferences">Accelerometer (Shake) Preferences</a></p></li>
+</ul>
 </section>
 </section>
 <section id="accelerometer-shake-preferences">
@@ -1147,6 +1165,15 @@
 <h4><a class="toc-backref" href="#id55">Shake Action</a><a class="headerlink" href="#shake-action" title="Permalink to this heading"></a></h4>
 <p><div style="color:red">TODO</div></p>
 <p>Options for when you shake the device</p>
+<p>Options:</p>
+<ul class="simple">
+<li><p>None</p></li>
+<li><p>Hide Web View <br /> (requires <a class="reference internal" href="#throttle-web-view">Throttle Web View?</a> preference to be set)</p></li>
+<li><p>Lock and Dim Screen</p></li>
+<li><p>Dim Screen</p></li>
+<li><p>Immersive Mode temporarily enable-disable</p></li>
+<li><p>Switch Throttle Screen Layouts</p></li>
+</ul>
 </section>
 <section id="shake-threshold">
 <h4><a class="toc-backref" href="#id56">Shake Threshold</a><a class="headerlink" href="#shake-threshold" title="Permalink to this heading"></a></h4>
@@ -1177,41 +1204,57 @@ Requires restart of engine Driver after changing to take effect.</p>
 </section>
 <section id="throttle-screen-action-bar-preferences">
 <h2><a class="toc-backref" href="#id61">Throttle Screen Action Bar Preferences</a><a class="headerlink" href="#throttle-screen-action-bar-preferences" title="Permalink to this heading"></a></h2>
-<p><div style="color:red">TODO</div></p>
-<p>The following preferences provide options for</p>
+<p>The following preferences provide options for showing additional buttons on the Action Bar, primarily at the top of the Throttle Screen though some will show on many screens.</p>
 <section id="emergency-stop-button">
 <h3><a class="toc-backref" href="#id62">Emergency Stop button?</a><a class="headerlink" href="#emergency-stop-button" title="Permalink to this heading"></a></h3>
-<p><div style="color:red">TODO</div></p>
-<p>Show loco Emergency Stop button in action bar</p>
+<a class="reference internal image-reference" href="../_images/estop.png"><img alt="../_images/estop.png" class="align-right" src="../_images/estop.png" style="width: 48.0px; height: 48.0px;" /></a>
+<p>Setting this preference will display an Emergency Stop button in Action Bar of most of the Main Screens.</p>
+<p>Clicking this button will attempt to quickly stop all locos controlled by the device / phone.  Locos controlled by other people/devices are not stopped.</p>
 </section>
 <section id="layout-power-button">
 <h3><a class="toc-backref" href="#id63">Layout Power button?</a><a class="headerlink" href="#layout-power-button" title="Permalink to this heading"></a></h3>
-<p><div style="color:red">TODO</div></p>
-<p>Show Layout Power button in action bar</p>
+<a class="reference internal image-reference" href="../_images/power_green.png"><img alt="../_images/power_green.png" class="align-right" src="../_images/power_green.png" style="width: 48.0px; height: 48.0px;" /></a>
+<p>Setting this preference will display a <em>Layout Power button</em> in Action Bar of most of the Main Screens.</p>
+<p>Clicking this button will turn on/off the power to the track. The colour of the button will change colour:</p>
+<ul class="simple">
+<li><p>‘Amber’ = unknown state</p></li>
+<li><p>‘Red’ = Power is Off</p></li>
+<li><p>‘Green’ = Power is On</p></li>
+</ul>
 </section>
 <section id="flashlight-button">
 <h3><a class="toc-backref" href="#id64">Flashlight button?</a><a class="headerlink" href="#flashlight-button" title="Permalink to this heading"></a></h3>
-<p><div style="color:red">TODO</div></p>
-<p>Show Flashlight button in action bar</p>
+<a class="reference internal image-reference" href="../_images/flashlight_on.png"><img alt="../_images/flashlight_on.png" class="align-right" src="../_images/flashlight_on.png" style="width: 48.0px; height: 48.0px;" /></a>
+<p>Setting this preference will display a <em>Flashlight</em> button in action bar of the Throttle Screen.</p>
+<p>Clicking this button will turn on/off the Device’s camera light.</p>
+<p>This preference will be disabled (unable to be set) if the device does not have a camera.</p>
 </section>
 <section id="fast-clock-display">
 <h3><a class="toc-backref" href="#id65">Fast Clock Display</a><a class="headerlink" href="#fast-clock-display" title="Permalink to this heading"></a></h3>
-<p><div style="color:red">TODO</div></p>
-<p>Set format for Fast Clock display in action bar</p>
+<a class="reference internal image-reference" href="../_images/fast_clock.png"><img alt="../_images/fast_clock.png" class="align-right" src="../_images/fast_clock.png" style="width: 123.5px; height: 45.0px;" /></a>
+<p>Use this preference to set the format for <em>Fast Clock display</em> in action bar:</p>
+<ul class="simple">
+<li><p>none</p></li>
+<li><p>12 Hour format</p></li>
+<li><p>24 Hour format</p></li>
+</ul>
 </section>
 <section id="throttle-web-view-button">
 <h3><a class="toc-backref" href="#id66">Throttle Web View button?</a><a class="headerlink" href="#throttle-web-view-button" title="Permalink to this heading"></a></h3>
+<a class="reference internal image-reference" href="../_images/web_view.png"><img alt="../_images/web_view.png" class="align-right" src="../_images/web_view.png" style="width: 48.0px; height: 48.0px;" /></a>
 <p><div style="color:red">TODO</div></p>
-<p>Show button in action bar to show/hide Throttle Web View. (requires ‘Throttle Web View’ preference to be enabled)</p>
+<p>Setting this preference will display a button in action bar of the Throttle Screen to show/hide <em>Throttle Web View</em>. Requires <a class="reference internal" href="#throttle-web-view">Throttle Web View?</a> preference to be enabled.</p>
+<p>Clicking this button will show / hide the <em>Throttle Web View</em> on the Throttle Screen.</p>
+<p>Note: if the <a class="reference internal" href="#throttle-web-view">Throttle Web View?</a> preference is not enabled the button will do nothing.</p>
 </section>
 <section id="layout-switch-button-preferences">
 <h3><a class="toc-backref" href="#id67">Layout Switch Button Preferences</a><a class="headerlink" href="#layout-switch-button-preferences" title="Permalink to this heading"></a></h3>
-<p><div style="color:red">TODO</div></p>
-<p>The following preferences provide options for</p>
+<p>The following preferences provide options for an optional button on the Action Bar to switch Throttle Screen layouts.</p>
 <section id="show-layout-switch-button">
 <h4><a class="toc-backref" href="#id68">Show Layout Switch button?</a><a class="headerlink" href="#show-layout-switch-button" title="Permalink to this heading"></a></h4>
+<a class="reference internal image-reference" href="../_images/throttle_switch_button.png"><img alt="../_images/throttle_switch_button.png" class="align-right" src="../_images/throttle_switch_button.png" style="width: 48.0px; height: 48.0px;" /></a>
 <p><div style="color:red">TODO</div></p>
-<p>Show the Throttle Layout Switch button in the Throttle Screen action bar to allow quick changing of Throttle Layouts</p>
+<p>Show the Throttle Layout Switch button in the Throttle Screen action bar to allow quick changing between to preset Throttle Layouts.</p>
 </section>
 <section id="first-screen-layout">
 <h4><a class="toc-backref" href="#id69">First Screen Layout</a><a class="headerlink" href="#first-screen-layout" title="Permalink to this heading"></a></h4>
@@ -1226,6 +1269,7 @@ Requires restart of engine Driver after changing to take effect.</p>
 </section>
 <section id="in-phone-sounds-button">
 <h3><a class="toc-backref" href="#id71">In phone sounds button</a><a class="headerlink" href="#in-phone-sounds-button" title="Permalink to this heading"></a></h3>
+<a class="reference internal image-reference" href="../_images/in_device_sounds_outline.png"><img alt="../_images/in_device_sounds_outline.png" class="align-right" src="../_images/in_device_sounds_outline.png" style="width: 48.0px; height: 48.0px;" /></a>
 <p><div style="color:red">TODO</div></p>
 <p>Show an action bar button to change the in phone loco sounds options</p>
 </section>

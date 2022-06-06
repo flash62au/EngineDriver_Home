@@ -399,15 +399,16 @@
 <li><p><a class="reference internal" href="#track-power" id="id32">Track Power</a></p></li>
 <li><p><a class="reference internal" href="#flashlight" id="id33">Flashlight</a></p></li>
 <li><p><a class="reference internal" href="#throttle-web-view" id="id34">Throttle Web View</a></p></li>
-<li><p><a class="reference internal" href="#in-phone-loco-sound" id="id35">In Phone Loco Sound</a></p></li>
-<li><p><a class="reference internal" href="#children-s-timer-button" id="id36">Children’s Timer Button</a></p></li>
-<li><p><a class="reference internal" href="#fast-clock" id="id37">Fast Clock</a></p></li>
-<li><p><a class="reference internal" href="#children-s-timer-status-and-countdown" id="id38">Children’s Timer Status and Countdown</a></p></li>
-<li><p><a class="reference internal" href="#full-screen-or-action-bar-only-left-right-swipe" id="id39">Full Screen or Action Bar Only left/right swipe</a></p></li>
-<li><p><a class="reference internal" href="#withrottle-server-name" id="id40">WiThrottle Server Name</a></p></li>
+<li><p><a class="reference internal" href="#layout-switch" id="id35">Layout Switch</a></p></li>
+<li><p><a class="reference internal" href="#in-phone-loco-sound" id="id36">In Phone Loco Sound</a></p></li>
+<li><p><a class="reference internal" href="#children-s-timer-button" id="id37">Children’s Timer Button</a></p></li>
+<li><p><a class="reference internal" href="#fast-clock" id="id38">Fast Clock</a></p></li>
+<li><p><a class="reference internal" href="#children-s-timer-status-and-countdown" id="id39">Children’s Timer Status and Countdown</a></p></li>
+<li><p><a class="reference internal" href="#full-screen-or-action-bar-only-left-right-swipe" id="id40">Full Screen or Action Bar Only left/right swipe</a></p></li>
+<li><p><a class="reference internal" href="#withrottle-server-name" id="id41">WiThrottle Server Name</a></p></li>
 </ul>
 </li>
-<li><p><a class="reference internal" href="#overflow-menu" id="id41">Overflow Menu</a></p></li>
+<li><p><a class="reference internal" href="#overflow-menu" id="id42">Overflow Menu</a></p></li>
 </ul>
 </li>
 </ul>
@@ -782,22 +783,25 @@ Internal storage <code class="docutils literal notranslate"><span class="pre">/A
 <li><p>Children’s Timer</p></li>
 </ul>
 </li>
-<li><p>The Overflow Menu, which is normally three dots (⁞) or three bars (≡).   (Main Screens only)</p></li>
 </ul>
 <p>The optionally configured items are configured via the corresponding preferences in the <code class="docutils literal notranslate"><span class="pre">Throttle</span> <span class="pre">Screen</span> <span class="pre">Action</span> <span class="pre">Bar</span> <span class="pre">Preferences</span></code> preference group.</p>
 <section id="emergency-stop">
 <h4><a class="toc-backref" href="#id31">Emergency Stop</a><a class="headerlink" href="#emergency-stop" title="Permalink to this heading"></a></h4>
-<p><div style="color:red">TODO</div></p>
 <a class="reference internal image-reference" href="../_images/estop.png"><img alt="../_images/estop.png" class="align-right" src="../_images/estop.png" style="width: 48.0px; height: 48.0px;" /></a>
-<p>The <em>Emergency Stop</em> Action Bar button is enable with the …</p>
-<p><em>Emergency Stop</em>, when pressed …</p>
+<p>The <em>Emergency Stop</em> Action Bar button is enabled with the <a class="reference external" href="../configuration/preferences.html#emergency-stop-button">Emergency Stop button?</a> preference.</p>
+<p>Clicking this button will attempt to quickly stop all locos controlled by the device / phone.  Locos controlled by other people/devices are not stopped.</p>
 </section>
 <section id="track-power">
 <h4><a class="toc-backref" href="#id32">Track Power</a><a class="headerlink" href="#track-power" title="Permalink to this heading"></a></h4>
 <p><div style="color:red">TODO</div></p>
 <a class="reference internal image-reference" href="../_images/power_green.png"><img alt="../_images/power_green.png" class="align-right" src="../_images/power_green.png" style="width: 48.0px; height: 48.0px;" /></a>
-<p>The <em>Track Power</em> Action Bar button is enable with the …</p>
-<p><em>Track Power</em>, when pressed …</p>
+<p>The <em>Track Power</em> Action Bar button is enabled with the <a class="reference external" href="../configuration/preferences.html#layout-power-button">Layout Power button?</a> preference.</p>
+<p><em>Track Power</em>, when pressed will turn on/off the power to the track.  The colour of the button will change colour:</p>
+<ul class="simple">
+<li><p>‘Amber’ = unknown state</p></li>
+<li><p>‘Red’ = Power is Off</p></li>
+<li><p>‘Green’ = Power is On</p></li>
+</ul>
 </section>
 <section id="flashlight">
 <h4><a class="toc-backref" href="#id33">Flashlight</a><a class="headerlink" href="#flashlight" title="Permalink to this heading"></a></h4>
@@ -813,42 +817,48 @@ Internal storage <code class="docutils literal notranslate"><span class="pre">/A
 <p>The <em>Throttle Web View</em> Action Bar button is enable with the …</p>
 <p><em>Throttle Web View</em>, when pressed …</p>
 </section>
+<section id="layout-switch">
+<h4><a class="toc-backref" href="#id35">Layout Switch</a><a class="headerlink" href="#layout-switch" title="Permalink to this heading"></a></h4>
+<a class="reference internal image-reference" href="../_images/throttle_switch_button.png"><img alt="../_images/throttle_switch_button.png" class="align-right" src="../_images/throttle_switch_button.png" style="width: 48.0px; height: 48.0px;" /></a>
+<p><div style="color:red">TODO</div></p>
+<p>The <em>Layout Switch</em> buttons, when pressed …</p>
+</section>
 <section id="in-phone-loco-sound">
-<h4><a class="toc-backref" href="#id35">In Phone Loco Sound</a><a class="headerlink" href="#in-phone-loco-sound" title="Permalink to this heading"></a></h4>
+<h4><a class="toc-backref" href="#id36">In Phone Loco Sound</a><a class="headerlink" href="#in-phone-loco-sound" title="Permalink to this heading"></a></h4>
 <p><div style="color:red">TODO</div></p>
 <a class="reference internal image-reference" href="../_images/in_device_sounds_outline.png"><img alt="../_images/in_device_sounds_outline.png" class="align-right" src="../_images/in_device_sounds_outline.png" style="width: 48.0px; height: 48.0px;" /></a>
 <p>The <em>In Phone Loco Sounds</em> Action Bar button is enable with the …</p>
 <p><em>In Phone Loco Sounds</em>, when pressed …</p>
 </section>
 <section id="children-s-timer-button">
-<h4><a class="toc-backref" href="#id36">Children’s Timer Button</a><a class="headerlink" href="#children-s-timer-button" title="Permalink to this heading"></a></h4>
+<h4><a class="toc-backref" href="#id37">Children’s Timer Button</a><a class="headerlink" href="#children-s-timer-button" title="Permalink to this heading"></a></h4>
 <a class="reference internal image-reference" href="../_images/timer.png"><img alt="../_images/timer.png" class="align-right" src="../_images/timer.png" style="width: 48.0px; height: 48.0px;" /></a>
 <p>The <em>Children’s Timer Button</em> Action Bar button is enable with the …</p>
 <p><em>Children’s Timer Button</em>, when pressed …</p>
 </section>
 <section id="fast-clock">
-<h4><a class="toc-backref" href="#id37">Fast Clock</a><a class="headerlink" href="#fast-clock" title="Permalink to this heading"></a></h4>
+<h4><a class="toc-backref" href="#id38">Fast Clock</a><a class="headerlink" href="#fast-clock" title="Permalink to this heading"></a></h4>
 <p><div style="color:red">TODO</div></p>
 <a class="reference internal image-reference" href="../_images/fast_clock.png"><img alt="../_images/fast_clock.png" class="align-right" src="../_images/fast_clock.png" style="width: 123.5px; height: 45.0px;" /></a>
 <p>The <em>Fast Clock</em> Action Bar button is enable with the …</p>
 <p><em>Fast Clock</em>, when pressed …</p>
 </section>
 <section id="children-s-timer-status-and-countdown">
-<h4><a class="toc-backref" href="#id38">Children’s Timer Status and Countdown</a><a class="headerlink" href="#children-s-timer-status-and-countdown" title="Permalink to this heading"></a></h4>
+<h4><a class="toc-backref" href="#id39">Children’s Timer Status and Countdown</a><a class="headerlink" href="#children-s-timer-status-and-countdown" title="Permalink to this heading"></a></h4>
 <p><div style="color:red">TODO</div></p>
 </section>
 <section id="full-screen-or-action-bar-only-left-right-swipe">
-<h4><a class="toc-backref" href="#id39">Full Screen or Action Bar Only left/right swipe</a><a class="headerlink" href="#full-screen-or-action-bar-only-left-right-swipe" title="Permalink to this heading"></a></h4>
+<h4><a class="toc-backref" href="#id40">Full Screen or Action Bar Only left/right swipe</a><a class="headerlink" href="#full-screen-or-action-bar-only-left-right-swipe" title="Permalink to this heading"></a></h4>
 <p><div style="color:red">TODO</div></p>
 </section>
 <section id="withrottle-server-name">
-<h4><a class="toc-backref" href="#id40">WiThrottle Server Name</a><a class="headerlink" href="#withrottle-server-name" title="Permalink to this heading"></a></h4>
+<h4><a class="toc-backref" href="#id41">WiThrottle Server Name</a><a class="headerlink" href="#withrottle-server-name" title="Permalink to this heading"></a></h4>
 <p><div style="color:red">TODO</div></p>
 </section>
 </section>
 <hr class="docutils" />
 <section id="overflow-menu">
-<h3><a class="toc-backref" href="#id41">Overflow Menu</a><a class="headerlink" href="#overflow-menu" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id42">Overflow Menu</a><a class="headerlink" href="#overflow-menu" title="Permalink to this heading"></a></h3>
 <p>The <em>Overflow Menu</em> (or simply ‘<em>Menu</em>’) appears in the Action Bar at the top of most of the main screens. It will show different options depending on a) the particular screen, b) preferences you have set and c) the state of certain elements in the app.</p>
 <p>The Overflow Menu can display</p>
 <ul class="simple">
@@ -868,6 +878,7 @@ Internal storage <code class="docutils literal notranslate"><span class="pre">/A
 <li><p>View Log</p></li>
 <li><p>Exit</p></li>
 <li><p>About</p></li>
+<li><p>The Overflow Menu, which is normally three dots (⁞) or three bars (≡).   (Main Screens only)</p></li>
 </ul>
 </section>
 </section>
