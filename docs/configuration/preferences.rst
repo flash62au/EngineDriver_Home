@@ -42,8 +42,6 @@ Use this to enter a unique name for your device/phone.  The name will appear in 
 Screen orientation
 """"""""""""""""""
 
-|todo|
-
 There are four options to choose from:
 
 * Portrait
@@ -64,17 +62,16 @@ There are four options to choose from:
     * - .. image:: ../_static/images/screenshots/throttle_horizontal_landscape_outline_theme.png 
           :scale: 8%
       - Landscape
-    * - |todo|
-      - Auto-Rotate
-    * - |todo|
-      - Auto-Web  
+    * - see above 
+      - Auto-Rotate |br|\ will switch between |br|\ Portrait and |br|\ landscape when |br|\ you rotate the |br|\ screen
+    * - .. image:: ../_static/images/screenshots/auto_web.png
+          :scale: 8%
+      - Auto-Web |br|\ will show the |br|\ Web Screen when |br|\ you rotate the |br|\ screen
 
 Theme/Style
 """""""""""
 
-|todo|
-
-You can switch between different themes by changing this preference. 
+Themes provide different colours and textures to the buttons, backgrounds, sliders etc.  You can switch between different themes by changing this preference. 
 
 There are five themes to choose from:
 
@@ -83,7 +80,6 @@ There are five themes to choose from:
 * High contrast *outline*
 * Dark
 * Colourful
-
 
 .. list-table::
     :width: 100%
@@ -107,8 +103,6 @@ There are five themes to choose from:
     * - .. image:: ../_static/images/screenshots/throttle_horizontal_colorful_theme.png
           :scale: 8%
       - Colourful theme
-
-
 
 Localisation
 """"""""""""
@@ -369,7 +363,6 @@ Only relevant to the following Throttle Screen layouts:
 * Vertical Shunting - Left |br| Vertical Switching - Left
 * Vertical Shunting - Right |br| Vertical Switching - Right
 
-
 Haptic Feedback (Vibration) Preferences
 """""""""""""""""""""""""""""""""""""""
 
@@ -495,11 +488,7 @@ The *Throttle Web View* is a smaller (approximately half page) Web browser windo
 Throttle Web View?
 '''''''''''''''''''''''''''''''''''
 
-|todo|
-
-Include web view on Throttle screen
-
-There are 
+You can use this preference to have |ed| to show a *Web View* area on the Throttle screen which is essentially a Web Browser.
 
 Larger Throttle Web View?
 '''''''''''''''''''''''''''''''''''
@@ -509,14 +498,11 @@ You can use this preference to instruct |ed| to increase the Throttle Web View s
 Initial throttle Web Page
 '''''''''''''''''''''''''''''''''''
 
-|todo|
-
-Initial throttle Web Page (such as \'/panel/\')
+You can use this preference to set the initial throttle Web Page (such as \'/panel/\') for when the *Throttle Web View* first opens.
 
 Enter the initial Web Page (such as '/panel') for the Web Screen
 
-Different to the 'Web Screen' initial Web Page.
-
+Note that this is different to the 'Web Screen' initial Web Page which is set with the `Initial Web Screen Page`_ preference.
 
 Swipe Up-Down Preferences
 """""""""""""""""""""""""
@@ -526,18 +512,14 @@ The following preferences provide options for options for swipe up or down on th
 Use Immersive Mode for Throttle view?
 '''''''''''''''''''''''''''''''''''''
 
-|todo|
-
-Display the Throttle view full screen.  
-
-You can set Swipe up or down options to temporarily disable and reach the menu, though this is not strictly necessary anymore
+Setting this preference will display the Throttle view full screen.  The Navigation bar and the Status Bar will be hidden, Swiping down from off the screen will temporarily show them again.
 
 Hide Toolbar in Immersive Mode?
 '''''''''''''''''''''''''''''''''''
 
-|todo|
+Setting this preference, along with `Use Immersive Mode for Throttle view?`_ preference will display the Throttle view in and extended full screen.  The Action Bar, along with the Navigation bar and the Status Bar will be hidden, Swiping down from off the screen will temporarily show the the Navigation bar and Status bar again, but not the Action Bar.
 
-Set to also hide the Toolbar in immersive mode
+It is essential, that you can set `Swipe down action in the Throttle view?`_ or `Swipe up action in the Throttle screen?`_ preferences to temporarily disable this and allow you to reach the menu.
 
 Swipe down action in the Throttle view?
 '''''''''''''''''''''''''''''''''''''''
@@ -546,6 +528,17 @@ Swipe down action in the Throttle view?
 
 What should happen when you swipe down on the Throttle screen.
 
+Options:
+
+* None
+* Hide Web View |br| (requires `Throttle Web View?`_ preference to be set)
+* Lock and Dim Screen
+* Dim Screen
+* Immersive Mode temporarily enable-disable
+* Switch Throttle Screen Layouts
+
+
+
 Swipe up action in the Throttle screen?
 '''''''''''''''''''''''''''''''''''''''
 
@@ -553,12 +546,28 @@ Swipe up action in the Throttle screen?
 
 What should happen when you swipe up on the Throttle screen.
 
+Options:
+
+* None
+* Hide Web View |br| (requires `Throttle Web View?`_ preference to be set)
+* Lock and Dim Screen
+* Dim Screen
+* Immersive Mode temporarily enable-disable
+* Switch Throttle Screen Layouts
+
+
 Screen Dimming % Value
 '''''''''''''''''''''''''''''''''''
 
 |todo|
 
 Brightness setting to use when dimming the screen (0%-99%). Disables Auto or Adaptive Brightness if set.
+
+Requires that one of the following is set to ``Lock and Dim Screen`` or ``Dim Screen``
+
+* `Swipe down action in the Throttle view?`_
+* `Swipe up action in the Throttle screen?`_
+* `Accelerometer (Shake) Preferences`_
 
 Accelerometer (Shake) Preferences
 """""""""""""""""""""""""""""""""
@@ -573,6 +582,15 @@ Shake Action
 |todo|
 
 Options for when you shake the device
+
+Options:
+
+* None
+* Hide Web View |br| (requires `Throttle Web View?`_ preference to be set)
+* Lock and Dim Screen
+* Dim Screen
+* Immersive Mode temporarily enable-disable
+* Switch Throttle Screen Layouts
 
 Shake Threshold
 '''''''''''''''''''''''''''''''''''
@@ -611,58 +629,92 @@ Select how the background image will be positioned on the screen.
 Throttle Screen Action Bar Preferences
 --------------------------------------
 
-|todo|
-
-The following preferences provide options for 
+The following preferences provide options for showing additional buttons on the Action Bar, primarily at the top of the Throttle Screen though some will show on many screens.
 
 Emergency Stop button?
 """"""""""""""""""""""
 
-|todo|
+.. image:: ../_static/images/parts/estop.png
+   :align: right
+   :scale: 50%
 
-Show loco Emergency Stop button in action bar
+Setting this preference will display an Emergency Stop button in Action Bar of most of the Main Screens.
+
+Clicking this button will attempt to quickly stop all locos controlled by the device / phone.  Locos controlled by other people/devices are not stopped.
 
 Layout Power button?
 """"""""""""""""""""
 
-|todo|
+.. image:: ../_static/images/parts/power_green.png
+   :align: right
+   :scale: 50%
 
-Show Layout Power button in action bar
+Setting this preference will display a *Layout Power button* in Action Bar of most of the Main Screens.
+
+Clicking this button will turn on/off the power to the track. The colour of the button will change colour:
+
+* 'Amber' = unknown state
+* 'Red' = Power is Off
+* 'Green' = Power is On
 
 Flashlight button?
 """"""""""""""""""
 
-|todo|
+.. image:: ../_static/images/parts/flashlight_on.png
+   :align: right
+   :scale: 50%
 
-Show Flashlight button in action bar
+
+Setting this preference will display a *Flashlight* button in action bar of the Throttle Screen.
+
+Clicking this button will turn on/off the Device's camera light.
+
+This preference will be disabled (unable to be set) if the device does not have a camera.
 
 Fast Clock Display
 """"""""""""""""""
 
-|todo|
+.. image:: ../_static/images/parts/fast_clock.png
+   :align: right
+   :scale: 50%
 
-Set format for Fast Clock display in action bar
+Use this preference to set the format for *Fast Clock display* in action bar:
+
+* none
+* 12 Hour format
+* 24 Hour format
 
 Throttle Web View button?
 """""""""""""""""""""""""
 
+.. image:: ../_static/images/parts/web_view.png
+   :align: right
+   :scale: 50%
+
+
 |todo|
 
-Show button in action bar to show/hide Throttle Web View. (requires 'Throttle Web View' preference to be enabled)
+Setting this preference will display a button in action bar of the Throttle Screen to show/hide *Throttle Web View*. Requires `Throttle Web View?`_ preference to be enabled.
+
+Clicking this button will show / hide the *Throttle Web View* on the Throttle Screen.
+
+Note: if the `Throttle Web View?`_ preference is not enabled the button will do nothing.
 
 Layout Switch Button Preferences
 """"""""""""""""""""""""""""""""
 
-|todo|
-
-The following preferences provide options for 
+The following preferences provide options for an optional button on the Action Bar to switch Throttle Screen layouts.
 
 Show Layout Switch button?
 '''''''''''''''''''''''''''''''''''
 
+.. image:: ../_static/images/parts/throttle_switch_button.png
+   :align: right
+   :scale: 50%
+
 |todo|
 
-Show the Throttle Layout Switch button in the Throttle Screen action bar to allow quick changing of Throttle Layouts
+Show the Throttle Layout Switch button in the Throttle Screen action bar to allow quick changing between to preset Throttle Layouts.
 
 First Screen Layout
 '''''''''''''''''''''''''''''''''''
@@ -680,6 +732,10 @@ Layout Switch Button will switch between the throttle layout in the previous pre
 
 In phone sounds button
 """"""""""""""""""""""
+
+.. image:: ../_static/images/parts/in_device_sounds_outline.png
+   :align: right
+   :scale: 50%
 
 |todo|
 
