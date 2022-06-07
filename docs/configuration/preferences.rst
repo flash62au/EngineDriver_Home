@@ -610,25 +610,23 @@ The following preferences provide options for showing a background image on the 
 Background Image
 '''''''''''''''''''''''''''''''''''
 
-|todo|
-
-Show a background image on the Throttle screen
+Enabling this preference will cause |ed| to show a background image on the Throttle screen, as long as one is selected in the `Background Image File Name`_ preference.
 
 Background Image File Name
 '''''''''''''''''''''''''''''''''''
 
 |todo|
  
-Enter the name of the background image file.
+This preference allows you to select a image file that will be used as the background o the Throttle Screen.  This has no effect unless the `Background Image`_ preference is enabled.
 
-This launches your image choose app.  This can be different on different devices / manufacturers.  You can install addition apps to do the same job.
+Clicking on this preference launches your image chooser app.  As this can be different on different devices / manufacturers, it is impossible to describe the required steps here.  In general, use the apps navigation features to find the image you want and select it.
+
+Note: You can install additional apps to do the same job for the Play Store.
 
 Background Image Position
 '''''''''''''''''''''''''''''''''''
 
-|todo|
-
-Select how the background image will be positioned on the screen.
+This preference lets you select how the background image will be positioned and/or resized on the screen.
 
 Options include:
 
@@ -640,15 +638,32 @@ Options include:
 
   **Fit - Shrink/expand**
 
+  Using this option will cause the image to be:
+  
+  * proportionally reduced in size in too big to fit the screen, such that the image fills the screen in at least one dimension
+  * proportionally increased in size in too small to fill the screen, such that the image fills the screen in at least one dimension
+
   **Fill - Crop one edge pair**
+
+  Using this option will cause the image to be:
   
+  * proportionally reduced in size in too big to fit the screen, such that the image will be cropped on either the top/bottom or the sides, so that the image fills the screen 
+  * proportionally increased in size in too small to fill the screen, such that the image will be cropped on either the top/bottom or the sides, so that the image fills the screen
+
   **Center - No scaling**
-  
+
+  Using this option will cause the image to be centered on the screen.  It will not be either shrunk or expanded.
+
   **Fit - Shrink only**
-  
+
+  Using this option will cause the image to be proportionally reduced in size in too big to fit the screen, such that the image fills the screen in at least one dimension.  If it to smaller than the screen in both dimensions it will not be resized.
+
   **Fill - Distort if needed**
 
+  Using this option will cause the image to be forcibly:
 
+  * reduced in size in too big to fit the screen, distorting the image if needed to fill the entire screen in both dimensions
+  * increased in size in too small to fill the screen, distorting the image if needed to fill the entire screen in both dimensions
 
 Throttle Screen Action Bar Preferences
 --------------------------------------
