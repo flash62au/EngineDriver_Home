@@ -572,9 +572,7 @@ Requires that one of the following is set to ``Lock and Dim Screen`` or ``Dim Sc
 Accelerometer (Shake) Preferences
 """""""""""""""""""""""""""""""""
 
-|todo|
-
-The following preferences provide options for options for device motion on the Throttle screen
+The following preferences provide options for options for what happens when you shake your device / phone while on the Throttle screen.
 
 Shake Action
 '''''''''''''''''''''''''''''''''''
@@ -603,6 +601,10 @@ Requires restart of engine Driver after changing to take effect.
 Background Image Preferences
 """"""""""""""""""""""""""""
 
+.. image:: ../_static/images/screenshots/background_fill.png
+  :align: right
+  :scale: 12%
+
 The following preferences provide options for showing a background image on the Throttle screen.
 
 Background Image
@@ -616,8 +618,10 @@ Background Image File Name
 '''''''''''''''''''''''''''''''''''
 
 |todo|
-
+ 
 Enter the name of the background image file.
+
+This launches your image choose app.  This can be different on different devices / manufacturers.  You can install addition apps to do the same job.
 
 Background Image Position
 '''''''''''''''''''''''''''''''''''
@@ -625,6 +629,26 @@ Background Image Position
 |todo|
 
 Select how the background image will be positioned on the screen.
+
+Options include:
+
+* Fit - Shrink/expand
+* Fill - Crop one edge pair
+* Center - No scaling
+* Fit - Shrink only
+* Fill - Distort if needed
+
+  **Fit - Shrink/expand**
+
+  **Fill - Crop one edge pair**
+  
+  **Center - No scaling**
+  
+  **Fit - Shrink only**
+  
+  **Fill - Distort if needed**
+
+
 
 Throttle Screen Action Bar Preferences
 --------------------------------------
@@ -691,14 +715,11 @@ Throttle Web View button?
    :align: right
    :scale: 50%
 
-
-|todo|
-
 Setting this preference will display a button in action bar of the Throttle Screen to show/hide *Throttle Web View*. Requires `Throttle Web View?`_ preference to be enabled.
 
 Clicking this button will show / hide the *Throttle Web View* on the Throttle Screen.
 
-Note: if the `Throttle Web View?`_ preference is not enabled the button will do nothing.
+Note: If the `Throttle Web View?`_ preference is not enabled the button will do nothing.
 
 Layout Switch Button Preferences
 """"""""""""""""""""""""""""""""
@@ -744,16 +765,16 @@ Show an action bar button to change the in phone loco sounds options
 Show Server Description
 """""""""""""""""""""""
 
-|todo|
+.. image:: ../_static/images/parts/server_description.png
+   :align: right
+   :scale: 50%
 
-Show the description of the current server on the action bar
+Setting this preference will display the description of the current server on the Action Bar.
 
 Throttle Control Preferences
 ----------------------------
 
-|todo|
-
-The following preferences provide options for 
+The following preferences provide options for how the throttle on the Throttle Screen will behave.
 
 Speed Units
 """""""""""
