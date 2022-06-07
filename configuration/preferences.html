@@ -1187,19 +1187,18 @@ Requires restart of engine Driver after changing to take effect.</p>
 <p>The following preferences provide options for showing a background image on the Throttle screen.</p>
 <section id="background-image">
 <h4><a class="toc-backref" href="#id58">Background Image</a><a class="headerlink" href="#background-image" title="Permalink to this heading"></a></h4>
-<p><div style="color:red">TODO</div></p>
-<p>Show a background image on the Throttle screen</p>
+<p>Enabling this preference will cause <strong>Engine Driver</strong> to show a background image on the Throttle screen, as long as one is selected in the <a class="reference internal" href="#background-image-file-name">Background Image File Name</a> preference.</p>
 </section>
 <section id="background-image-file-name">
 <h4><a class="toc-backref" href="#id59">Background Image File Name</a><a class="headerlink" href="#background-image-file-name" title="Permalink to this heading"></a></h4>
 <p><div style="color:red">TODO</div></p>
-<p>Enter the name of the background image file.</p>
-<p>This launches your image choose app.  This can be different on different devices / manufacturers.  You can install addition apps to do the same job.</p>
+<p>This preference allows you to select a image file that will be used as the background o the Throttle Screen.  This has no effect unless the <a class="reference internal" href="#background-image">Background Image</a> preference is enabled.</p>
+<p>Clicking on this preference launches your image chooser app.  As this can be different on different devices / manufacturers, it is impossible to describe the required steps here.  In general, use the apps navigation features to find the image you want and select it.</p>
+<p>Note: You can install additional apps to do the same job for the Play Store.</p>
 </section>
 <section id="background-image-position">
 <h4><a class="toc-backref" href="#id60">Background Image Position</a><a class="headerlink" href="#background-image-position" title="Permalink to this heading"></a></h4>
-<p><div style="color:red">TODO</div></p>
-<p>Select how the background image will be positioned on the screen.</p>
+<p>This preference lets you select how the background image will be positioned and/or resized on the screen.</p>
 <p>Options include:</p>
 <ul>
 <li><p>Fit - Shrink/expand</p></li>
@@ -1208,10 +1207,27 @@ Requires restart of engine Driver after changing to take effect.</p>
 <li><p>Fit - Shrink only</p></li>
 <li><p>Fill - Distort if needed</p>
 <p><strong>Fit - Shrink/expand</strong></p>
+<p>Using this option will cause the image to be:</p>
+<ul class="simple">
+<li><p>proportionally reduced in size in too big to fit the screen, such that the image fills the screen in at least one dimension</p></li>
+<li><p>proportionally increased in size in too small to fill the screen, such that the image fills the screen in at least one dimension</p></li>
+</ul>
 <p><strong>Fill - Crop one edge pair</strong></p>
+<p>Using this option will cause the image to be:</p>
+<ul class="simple">
+<li><p>proportionally reduced in size in too big to fit the screen, such that the image will be cropped on either the top/bottom or the sides, so that the image fills the screen</p></li>
+<li><p>proportionally increased in size in too small to fill the screen, such that the image will be cropped on either the top/bottom or the sides, so that the image fills the screen</p></li>
+</ul>
 <p><strong>Center - No scaling</strong></p>
+<p>Using this option will cause the image to be centered on the screen.  It will not be either shrunk or expanded.</p>
 <p><strong>Fit - Shrink only</strong></p>
+<p>Using this option will cause the image to be proportionally reduced in size in too big to fit the screen, such that the image fills the screen in at least one dimension.  If it to smaller than the screen in both dimensions it will not be resized.</p>
 <p><strong>Fill - Distort if needed</strong></p>
+<p>Using this option will cause the image to be forcibly:</p>
+<ul class="simple">
+<li><p>reduced in size in too big to fit the screen, distorting the image if needed to fill the entire screen in both dimensions</p></li>
+<li><p>increased in size in too small to fill the screen, distorting the image if needed to fill the entire screen in both dimensions</p></li>
+</ul>
 </li>
 </ul>
 </section>
