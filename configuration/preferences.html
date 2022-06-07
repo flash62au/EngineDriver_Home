@@ -901,6 +901,63 @@
 </tr>
 </tbody>
 </table>
+<table class="colwidths-given docutils align-default" style="width: 100%">
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Example</p></th>
+<th class="head"><p>Name</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><a class="reference internal image-reference" href="../_images/throttle_horizontal_high_contrast.png"><img alt="../_images/throttle_horizontal_high_contrast.png" src="../_images/throttle_horizontal_high_contrast.png" style="width: 115.2px; height: 204.8px;" /></a>
+</td>
+<td><p>Horizontal</p></td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal image-reference" href="../_images/throttle_vertical_high_contrast.png"><img alt="../_images/throttle_vertical_high_contrast.png" src="../_images/throttle_vertical_high_contrast.png" style="width: 115.2px; height: 204.8px;" /></a>
+</td>
+<td><p>Vertical</p></td>
+</tr>
+<tr class="row-even"><td><a class="reference internal image-reference" href="../_images/throttle_big_buttons_left_high_contrast.png"><img alt="../_images/throttle_big_buttons_left_high_contrast.png" src="../_images/throttle_big_buttons_left_high_contrast.png" style="width: 115.2px; height: 204.8px;" /></a>
+</td>
+<td><p>Big Buttons - Left</p></td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal image-reference" href="../_images/throttle_big_buttons_right_high_contrast.png"><img alt="../_images/throttle_big_buttons_right_high_contrast.png" src="../_images/throttle_big_buttons_right_high_contrast.png" style="width: 115.2px; height: 204.8px;" /></a>
+</td>
+<td><p>Big Buttons - Right</p></td>
+</tr>
+<tr class="row-even"><td><a class="reference internal image-reference" href="../_images/throttle_vertical_left_high_contrast.png"><img alt="../_images/throttle_vertical_left_high_contrast.png" src="../_images/throttle_vertical_left_high_contrast.png" style="width: 115.2px; height: 204.8px;" /></a>
+</td>
+<td><p>Vertical - Left</p></td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal image-reference" href="../_images/throttle_vertical_right_high_contrast.png"><img alt="../_images/throttle_vertical_right_high_contrast.png" src="../_images/throttle_vertical_right_high_contrast.png" style="width: 115.2px; height: 204.8px;" /></a>
+</td>
+<td><p>Vertical - Right</p></td>
+</tr>
+<tr class="row-even"><td><a class="reference internal image-reference" href="../_images/throttle_vertical_switching_high_contrast.png"><img alt="../_images/throttle_vertical_switching_high_contrast.png" src="../_images/throttle_vertical_switching_high_contrast.png" style="width: 115.2px; height: 204.8px;" /></a>
+</td>
+<td><p>Vertical - Switching / Shunting</p></td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal image-reference" href="../_images/throttle_vertical_switching_left_high_contrast.png"><img alt="../_images/throttle_vertical_switching_left_high_contrast.png" src="../_images/throttle_vertical_switching_left_high_contrast.png" style="width: 115.2px; height: 204.8px;" /></a>
+</td>
+<td><p>Vertical Switching / Shunting - Left</p></td>
+</tr>
+<tr class="row-even"><td><a class="reference internal image-reference" href="../_images/throttle_vertical_switching_right_high_contrast.png"><img alt="../_images/throttle_vertical_switching_right_high_contrast.png" src="../_images/throttle_vertical_switching_right_high_contrast.png" style="width: 115.2px; height: 204.8px;" /></a>
+</td>
+<td><p>Vertical Switching / Shunting - Right</p></td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal image-reference" href="../_images/throttle_horizontal_switching_high_contrast.png"><img alt="../_images/throttle_horizontal_switching_high_contrast.png" src="../_images/throttle_horizontal_switching_high_contrast.png" style="width: 115.2px; height: 204.8px;" /></a>
+</td>
+<td><p>Horizontal Switching / Shunting</p></td>
+</tr>
+<tr class="row-even"><td><a class="reference internal image-reference" href="../_images/throttle_simple_high_contrast.png"><img alt="../_images/throttle_simple_high_contrast.png" src="../_images/throttle_simple_high_contrast.png" style="width: 204.8px; height: 115.2px;" /></a>
+</td>
+<td><p>Simple</p></td>
+</tr>
+</tbody>
+</table>
 <p>Notes:</p>
 <ul class="simple">
 <li><p>The number is brackets after the Throttle Screen Layout name is the number of throttles that the layout can support.</p></li>
@@ -1328,6 +1385,7 @@ Requires restart of engine Driver after changing to take effect.</p>
 <li><p>128 steps</p></li>
 </ul>
 </div></blockquote>
+<p>Note that the <a class="reference internal" href="#speed-button-change-amount">Speed button Change Amount</a> preference will work in the units that you choose here.</p>
 </section>
 <section id="maximum-throttle-percentage">
 <h3><a class="toc-backref" href="#id75">Maximum throttle Percentage</a><a class="headerlink" href="#maximum-throttle-percentage" title="Permalink to this heading"></a></h3>
@@ -1343,21 +1401,23 @@ Requires restart of engine Driver after changing to take effect.</p>
 <h3><a class="toc-backref" href="#id77">Speed button Change Amount</a><a class="headerlink" href="#speed-button-change-amount" title="Permalink to this heading"></a></h3>
 <p><div style="color:red">TODO</div></p>
 <p>How much Speed buttons jump throttle speed</p>
+<p>Note that this works in the units chosen in the <cite>Speed Units</cite> preference.i.e. If your Speed Units are ‘8 Steps’ and your Speed button change amount is ‘4’ then just two click will get you from zero to 100% speed.</p>
 </section>
 <section id="speed-button-repeat-delay">
 <h3><a class="toc-backref" href="#id78">Speed button Repeat Delay</a><a class="headerlink" href="#speed-button-repeat-delay" title="Permalink to this heading"></a></h3>
 <p><div style="color:red">TODO</div></p>
-<p>How long between repeats on speed buttons.nSmaller is faster. Excludes gamepad buttons. (See separate gamepad setting.)</p>
+<p>How long between repeats on speed buttons. Smaller is faster. Excludes gamepad buttons.</p>
+<p>(See separate gamepad setting.)</p>
 </section>
 <section id="speed-step-on-decrement">
 <h3><a class="toc-backref" href="#id79">Speed step on Decrement?</a><a class="headerlink" href="#speed-step-on-decrement" title="Permalink to this heading"></a></h3>
 <p><div style="color:red">TODO</div></p>
-<p>Force the speed step to be used when long pressing a lower speed on the slider.nIf not checked, the speed will immediately jump to the touched speed.</p>
+<p>Force the speed step to be used when long pressing a lower speed on the slider. If not checked, the speed will immediately jump to the touched speed.</p>
 </section>
 <section id="stop-on-phone-call">
 <h3><a class="toc-backref" href="#id80">Stop on Phone call?</a><a class="headerlink" href="#stop-on-phone-call" title="Permalink to this heading"></a></h3>
 <p><div style="color:red">TODO</div></p>
-<p>Stop loco(s) when a phone call is answered or placed</p>
+<p>Stop all loco(s) when a phone call is answered or placed.</p>
 </section>
 <section id="direction-change-while-moving">
 <h3><a class="toc-backref" href="#id81">Direction change while moving?</a><a class="headerlink" href="#direction-change-while-moving" title="Permalink to this heading"></a></h3>
