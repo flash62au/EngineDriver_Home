@@ -251,6 +251,48 @@ Throttle Screen Layout
       - 0-100
       - ✓
 
+
+.. list-table::
+    :width: 100%
+    :widths: 50 50
+    :header-rows: 1
+
+    * - Example
+      - Name
+    * - .. image:: ../_static/images/screenshots/throttle_horizontal_high_contrast.png 
+          :scale: 8%
+      - Horizontal
+    * - .. image:: ../_static/images/screenshots/throttle_vertical_high_contrast.png 
+          :scale: 8%
+      - Vertical
+    * - .. image:: ../_static/images/screenshots/throttle_big_buttons_left_high_contrast.png 
+          :scale: 8%
+      - Big Buttons - Left
+    * - .. image:: ../_static/images/screenshots/throttle_big_buttons_right_high_contrast.png 
+          :scale: 8%
+      - Big Buttons - Right
+    * - .. image:: ../_static/images/screenshots/throttle_vertical_left_high_contrast.png 
+          :scale: 8%
+      - Vertical - Left
+    * - .. image:: ../_static/images/screenshots/throttle_vertical_right_high_contrast.png 
+          :scale: 8%
+      - Vertical - Right
+    * - .. image:: ../_static/images/screenshots/throttle_vertical_switching_high_contrast.png 
+          :scale: 8%
+      - Vertical - Switching / Shunting 
+    * - .. image:: ../_static/images/screenshots/throttle_vertical_switching_left_high_contrast.png 
+          :scale: 8%
+      - Vertical Switching / Shunting - Left
+    * - .. image:: ../_static/images/screenshots/throttle_vertical_switching_right_high_contrast.png 
+          :scale: 8%
+      - Vertical Switching / Shunting - Right
+    * - .. image:: ../_static/images/screenshots/throttle_horizontal_switching_high_contrast.png 
+          :scale: 8%
+      - Horizontal Switching / Shunting
+    * - .. image:: ../_static/images/screenshots/throttle_simple_high_contrast.png 
+          :scale: 8%
+      - Simple
+
 Notes:
 
 * The number is brackets after the Throttle Screen Layout name is the number of throttles that the layout can support.
@@ -811,6 +853,7 @@ Display speed as percentage, or by a specific number of steps
  * 28 steps
  * 128 steps
 
+Note that the `Speed button Change Amount`_ preference will work in the units that you choose here.
 
 Maximum throttle Percentage
 """""""""""""""""""""""""""
@@ -833,26 +876,31 @@ Speed button Change Amount
 
 How much Speed buttons jump throttle speed
 
+Note that this works in the units chosen in the `Speed Units` preference.i.e. If your Speed Units are '8 Steps' and your Speed button change amount is '4' then just two click will get you from zero to 100% speed.
+
 Speed button Repeat Delay
 """""""""""""""""""""""""
 
 |todo|
 
-How long between repeats on speed buttons.\nSmaller is faster. Excludes gamepad buttons. (See separate gamepad setting.)
+How long between repeats on speed buttons. Smaller is faster. Excludes gamepad buttons. 
+
+(See separate gamepad setting.)
 
 Speed step on Decrement?
 """"""""""""""""""""""""
 
 |todo|
 
-Force the speed step to be used when long pressing a lower speed on the slider.\nIf not checked, the speed will immediately jump to the touched speed.
+Force the speed step to be used when long pressing a lower speed on the slider. If not checked, the speed will immediately jump to the touched speed.
 
 Stop on Phone call?
 """""""""""""""""""
 
 |todo|
 
-Stop loco(s) when a phone call is answered or placed
+Stop all loco(s) when a phone call is answered or placed.
+
 
 Direction change while moving?
 """"""""""""""""""""""""""""""
