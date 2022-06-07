@@ -476,7 +476,7 @@ The Action Bar can display:
   * In Phone Loco Sound
   * Children's Timer
 
-The optionally configured items are configured via the corresponding preferences in the ``Throttle Screen Action Bar Preferences`` preference group.
+The optional buttons are enabled and configured via the corresponding preferences in the `Throttle Screen Action Bar <../configuration/preferences.html#throttle-screen-action-bar-preferences>`_ preference group.  (Other than the Children's Timer which is configured in the `Children's Timer <../configuration/preferences.html#children-s-timer-preferences>`_ preference group.)
 
 Emergency Stop
 """"""""""""""
@@ -491,8 +491,6 @@ Clicking this button will attempt to quickly stop all locos controlled by the de
 
 Track Power
 """""""""""
-
-|todo|
 
 .. image:: ../_static/images/parts/power_green.png
    :align: right
@@ -509,15 +507,15 @@ The *Track Power* Action Bar button is enabled with the `Layout Power button? <.
 Flashlight
 """"""""""
 
-|todo|
-
 .. image:: ../_static/images/parts/flashlight_on.png
    :align: right
    :scale: 50%
 
-The *Flashlight* Action Bar button is enable with the ...
+The *Flashlight* Action Bar button is enable with the `Flashlight button? <../configuration/preferences.html#flashlight-button>`_ preference.
 
-*Flashlight*, when pressed ...
+*Flashlight*, when pressed will turn on/off the Device's camera light.
+
+The device / phone must have a camera to be able to use this feature.
 
 Throttle Web View
 """""""""""""""""
@@ -584,6 +582,11 @@ The *Fast Clock* Action Bar button is enable with the ...
 
 Children's Timer Status and Countdown
 """""""""""""""""""""""""""""""""""""
+
+.. image:: ../_static/images/parts/childrens_timer_countdown.png
+   :align: right
+   :scale: 50%
+
 
 |todo|
 

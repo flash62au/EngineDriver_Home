@@ -668,6 +668,11 @@ Options include:
 Throttle Screen Action Bar Preferences
 --------------------------------------
 
+
+.. image:: ../_static/images/parts/action_bar.png
+   :align: right
+   :scale: 40%
+
 The following preferences provide options for showing additional buttons on the Action Bar, primarily at the top of the Throttle Screen though some will show on many screens.
 
 Emergency Stop button?
@@ -1616,6 +1621,11 @@ Enable the reverse button
 
 Show Timer button?
 """""""""""""""""""""""""
+
+.. image:: ../_static/images/parts/timer.png
+   :align: right
+   :scale: 50%
+
 
 |todo|
 
