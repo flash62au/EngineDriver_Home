@@ -564,8 +564,6 @@ It is essential, that you can set `Swipe down action in the Throttle view?`_ or 
 Swipe down action in the Throttle view?
 '''''''''''''''''''''''''''''''''''''''
 
-|todo|
-
 This preference allows you to select what should happen when you *swipe down* on the Throttle screen.
 
 Options:
@@ -582,8 +580,6 @@ Options:
 Swipe up action in the Throttle screen?
 '''''''''''''''''''''''''''''''''''''''
 
-|todo|
-
 This preference allows you to select what should happen when you *swipe up* on the Throttle screen.
 
 Options:
@@ -599,11 +595,9 @@ Options:
 Screen Dimming % Value
 '''''''''''''''''''''''''''''''''''
 
-|todo|
+This preference allows you to enter the brightness setting/level to use when dimming the screen (0%-99%). Disables Auto or Adaptive Brightness if set.
 
-Brightness setting to use when dimming the screen (0%-99%). Disables Auto or Adaptive Brightness if set.
-
-Requires that one of the following is set to ``Lock and Dim Screen`` or ``Dim Screen``
+Requires that one of the following preferences is set to ``Lock and Dim Screen`` or ``Dim Screen`` to have any effect:
 
 * `Swipe down action in the Throttle view?`_
 * `Swipe up action in the Throttle screen?`_
@@ -617,9 +611,7 @@ The following preferences provide options for options for what happens when you 
 Shake Action
 '''''''''''''''''''''''''''''''''''
 
-|todo|
-
-Options for when you shake the device
+This preference allows you to select what happens when you shake your device phone.
 
 Options:
 
@@ -633,9 +625,7 @@ Options:
 Shake Threshold
 '''''''''''''''''''''''''''''''''''
 
-|todo|
-
-Threshold at which the shake will register. (1.5 - 3.5) Lower value will respond to a gentle action.
+This preference allows you to enter the threshold level at which the shake will register. (1.5 - 3.5) Lower value will respond to a gentle action.
 Requires restart of engine Driver after changing to take effect.
 
 Background Image Preferences
@@ -655,11 +645,9 @@ Enabling this preference will cause |ed| to show a background image on the Throt
 Background Image File Name
 '''''''''''''''''''''''''''''''''''
 
-|todo|
- 
 This preference allows you to select a image file that will be used as the background o the Throttle Screen.  This has no effect unless the `Background Image`_ preference is enabled.
 
-Clicking on this preference launches your image chooser app.  As this can be different on different devices / manufacturers, it is impossible to describe the required steps here.  In general, use the apps navigation features to find the image you want and select it.
+Clicking on this preference launches your image chooser app.  As this can be different on different devices / manufacturers, it is impossible to describe the required steps here.  In general, use the app's navigation features to find the image you want and select it.
 
 Note: You can install additional apps to do the same job for the Play Store.
 
@@ -708,7 +696,6 @@ Options include:
 Throttle Screen Action Bar Preferences
 --------------------------------------
 
-
 .. image:: ../_static/images/parts/action_bar.png
    :align: right
    :scale: 40%
@@ -747,7 +734,6 @@ Flashlight button?
 .. image:: ../_static/images/parts/flashlight_on.png
    :align: right
    :scale: 50%
-
 
 Setting this preference will display a *Flashlight* button in action bar of the Throttle Screen.
 
@@ -797,19 +783,21 @@ Show Layout Switch button?
 
 Show the Throttle Layout Switch button in the Throttle Screen action bar to allow quick changing between to preset Throttle Layouts.
 
+Clicking on this button... 
+
 First Screen Layout
 '''''''''''''''''''''''''''''''''''
 
-|todo|
+This preference allow you to select one of the two Layouts that the Layout Switch Button will switch between.  (This throttle layout and the next preference.)
 
-Layout Switch Button will switch between this throttle layout and the next preference
+See the `Throttle Screen Layout`_ preference for the available options.
 
 Second Screen Layout
 '''''''''''''''''''''''''''''''''''
 
-|todo|
+This preference allow you to select one of the two Layouts that the Layout Switch Button will switch between.  (This throttle layout and the previous preference.)
 
-Layout Switch Button will switch between the throttle layout in the previous preference and this one
+See the `Throttle Screen Layout`_ preference for the available options.
 
 In phone sounds button
 """"""""""""""""""""""
