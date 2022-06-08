@@ -179,20 +179,20 @@ There three ways select a loco:
 
   **Recent Locos**
 
-  **Engine Driver** remembers the last 10 locos that you have selected. (That number can be increased or decreased with ``Maximum Recent Locos`` preference.)
+  **Engine Driver** remembers the last 10 locos that you have selected. (That number can be increased or decreased with `Maximum Recent Locos <../configuration/preferences.html#maximum-recent-locos>`_ preference.)
 
   If the loco you want to control to is in the list, simply click on it and you will be taken back to the Throttle screen with that loco selected.
 
 On the fly / In Phone Consists (Multiple Units)
 """"""""""""""""""""""""""""""""""""""""""""""""
 
-There three ways create a Consist / Multiple Unit train:
+There two ways create a Consist / Multiple Unit train:
 
 *  **Selecting additional locos, one loco 'at a time' (as above)**
 
       * DCC Address
       * Roster
-      * Recent Locos |br|\ |br|\ or
+      * Recent Locos
 
 * By using the **Recent Consists** list |br|\ |br|\ 
 
@@ -250,7 +250,7 @@ There are eight ways you can control the speed of of your loco or consist /multi
 
   Dragging you finger along the slider will increase or decrease the speed of the loco(s) selected for the that Throttle. Pressing and holding your finger at one spot on the slider will cause |ED| to slowly increase or decrease the speed of the loco(s) selected for the that Throttle till it gets to that point.
    
-   Depending on the ``Throttle Screen Layout`` chosen all sliders on the Throttle Screen will be either:
+   Depending on the `Throttle Screen Layout <../configuration/preferences.html#throttle-screen-layout>`_ chosen all sliders on the Throttle Screen will be either:
    
    * one-directional (0% - 100%) |br|\ or 
    * bi-directional (-100% - 0 - +100%) 
@@ -270,7 +270,7 @@ There are eight ways you can control the speed of of your loco or consist /multi
   .. note:: 
     :class: note-ed-hidden-title
 
-    See the ``Display Speed buttons?`` preference in the `Speed Slider and Buttons section on the Preferences page <../configuration/preferences.html>`_ for more information on enabling the *Speed Buttons*.
+    See the `Display Speed buttons? <./configuration/preferences.html#display-speed-buttons>`_ preference in the `Speed Slider and Buttons section on the Preferences page <../configuration/preferences.html>`_ for more information on enabling the *Speed Buttons*.
 
     See the `Throttle Screen Layout preference on the Preferences page <../configuration/preferences.html#throttle-screen-layout>`_ for more information on the Throttle Screen Layouts that support *Speed Buttons*.
 
@@ -395,7 +395,7 @@ There are three ways you can control the direction of your loco or consist /mult
     :align: right
     :scale: 40 %
 
-  Depending on the ``Throttle Screen Layout`` chosen sliders on the Throttle Screen can be b-directional.  (Switching / Shunting Layouts)
+  Depending on the  `Throttle Screen Layout <../configuration/preferences.html#throttle-screen-layout>`_ chosen sliders on the Throttle Screen can be b-directional.  (Switching / Shunting Layouts)
 
   Switching / Shunting Layouts have 'stationary' (zero speed) at the centre of the slider.  Dragging your finger along the slider to the right (or up) from the centre will increase the speed of the loco(s) selected for that Throttle *in the forward direction*. Dragging your finger along the slider to the left (or down) from the centre will increase the speed of the loco(s) selected for the that Throttle *in the reverse direction*. 
   
@@ -507,15 +507,15 @@ There is built in Support for a number of different type of locos:
 * Diesel - 3 in-built profiles
 * Plus you can create you own Custom profiles
 
-To enable In Phone Loco Sounds (IPLS) for a throttle (only the first two throttles on an given throttle screen) select an option in ``Throttle 1 Loco Sounds`` or ``Throttle 2 Loco Sounds`` (or both) preferences. Once enabled for either throttle a new menu option will be available from Throttle Screen to make subsequent changes easier: :menuselection:`Menu --> Loco Sounds`
+To enable In Phone Loco Sounds (IPLS) for a throttle (only the first two throttles on an given throttle screen) select an option in `Throttle 1 Loco Sounds <../configuration/preferences.html#throttle-1-loco-sounds>`_ or `Throttle 2 Loco Sounds <../configuration/preferences.html#throttle-2-loco-sounds>`_ (or both) preferences. Once enabled for either throttle a new menu option will be available from Throttle Screen to make subsequent changes easier: :menuselection:`Menu --> Loco Sounds`
 
-To make it easy to switch sound profiles we recommend enabling the Action Bar button by setting the ``In phone sounds button`` preferences: :menuselection:`Menu --> Preferences --> Throttle Screen Action Bar Preferences --> In phone sounds button`
+To make it easy to switch sound profiles we recommend enabling the Action Bar button by setting the `In phone sounds button <../configuration/preferences.html#in-phone-sounds-button>`_ preferences: :menuselection:`Menu --> Preferences --> Throttle Screen Action Bar Preferences --> In phone sounds button`
 
 **Automatic Loco Speed Step Sounds**
 
-Each IPLS Profile has a different number of speed steps. As the loco speed increases or decreases to a certain point a different sound will repeatedly play.  To try to emulate the momentum of the loco, there is a preset delay, and an option to not lip the sounds (which enforces a minimum delay) These can be altered with the ``In Phone Momentum`` and the ``Don't clip loco step sounds`` preferences.
+Each IPLS Profile has a different number of speed steps. As the loco speed increases or decreases to a certain point a different sound will repeatedly play.  To try to emulate the momentum of the loco, there is a preset delay, and an option to not lip the sounds (which enforces a minimum delay) These can be altered with the `In Phone Momentum <../configuration/preferences.html#in-phone-momentum>`_ and the `Don't clip loco step sounds <../configuration/preferences.html#don-t-clip-loco-step-sounds>`_ preferences.
 
-The volume of the Loco Sounds, the Bell Sounds and the Horn/Whistle sound can be altered independently with the ``In Phone Loco Sounds Volume``, the ``In Phone Bell Sounds Volume`` and the ``In Phone Horn/Whistle Sounds Volume`` preferences.
+The volume of the Loco Sounds, the Bell Sounds and the Horn/Whistle sound can be altered independently with the `In Phone Loco Sounds Volume <../configuration/preferences.html#in-phone-loco-sounds-volume>`_, the `In Phone Bell Sounds Volume <../configuration/preferences.html#in-phone-bell-sounds-volume>`_ and the `In Phone Horn/Whistle Sounds Volume <../configuration/preferences.html#in-phone-horn-whistle-sounds-volume>`_ preferences.
 
 **Playing sounds**
 
@@ -544,7 +544,7 @@ The volume of the Loco Sounds, the Bell Sounds and the Horn/Whistle sound can be
 
     Clicking this will continuously play a bell sound until it is clicked again (latched)
 
-    The Bell can be made non-latching by changing the ``Bell button Latching/Momentary`` preference.
+    The Bell can be made non-latching by changing the `Bell button Latching/Momentary <../configuration/preferences.html#bell-button-latching-momentary>`_ preference.
 
     **Horn / Whistle button**
 
@@ -556,7 +556,7 @@ The volume of the Loco Sounds, the Bell Sounds and the Horn/Whistle sound can be
 
   **Activating the IPLS Sounds via DCC Functions / Function Buttons**
 
-  The Bell and Horn/Whistle (long) can be activated by the DCC Function buttons (F1 and F2) if the ``F1 and F2 activate Bell and Horn?`` preference is set.
+  The Bell and Horn/Whistle (long) can be activated by the DCC Function buttons (F1 and F2) if the `F1 and F2 activate Bell and Horn? <../configuration/preferences.html#f1-and-f2-activate-bell-and-horn>`_ preference is set.
 
   **Activating the IPLS Sounds via Gamepad keys**
 
