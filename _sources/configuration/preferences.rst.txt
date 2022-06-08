@@ -385,6 +385,8 @@ Switching throttle Dead Zone
 
 When this preferences is set, |ED| will set the size of the dead zone, or detent, on the slider of the Switching/Shunting Throttle Screen.  The larger the size, the easier it is to find Zero on the slider.
 
+Only relevant to the following Throttle Screen layouts:
+
 * Vertical Shunting |br| Vertical Switching
 * Vertical Shunting - Left |br| Vertical Switching - Left
 * Vertical Shunting - Right |br| Vertical Switching - Right
@@ -538,7 +540,7 @@ You can use this preference to instruct |ed| to increase the Throttle Web View s
 Initial throttle Web Page
 '''''''''''''''''''''''''''''''''''
 
-You can use this preference to set the initial throttle Web Page (such as \'/panel/\') for when the *Throttle Web View* first opens.
+You can use this preference to set the initial throttle Web Page (such as '/panel/') for when the *Throttle Web View* first opens.
 
 Enter the initial Web Page (such as '/panel') for the Web Screen
 
@@ -779,11 +781,9 @@ Show Layout Switch button?
    :align: right
    :scale: 50%
 
-|todo|
+Enabling this preference shows the Throttle Layout Switch button in the Throttle Screen action bar to allow quick changing between to preset Throttle Layouts.
 
-Show the Throttle Layout Switch button in the Throttle Screen action bar to allow quick changing between to preset Throttle Layouts.
-
-Clicking on this button... 
+Clicking on this button will immediately change the layout of the Throttle Screen between the layouts select in the `First Screen Layout`_ and `Second Screen Layout`_ preferences.
 
 First Screen Layout
 '''''''''''''''''''''''''''''''''''
@@ -806,9 +806,9 @@ In phone sounds button
    :align: right
    :scale: 50%
 
-|todo|
+Enabling this preference shows an action bar button on the Throttle Screen to easily change the in *phone loco sounds* options.  
 
-Show an action bar button to change the in phone loco sounds options
+Clicking the button shows the `In Phone Loco Sounds Screen <../operation/interface.html#in-phone-loco-sounds-screen>`_. 
 
 Show Server Description
 """""""""""""""""""""""
