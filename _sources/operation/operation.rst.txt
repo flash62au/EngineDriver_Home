@@ -443,7 +443,7 @@ The DCC functions can be impacted depending on the settings and preferences you 
 
     See the `Functions page <./gamepads.html>`_ for information on changing the Functions.
 
-    See the `Consist Function Follow Preferences on the Preferences page <../configuration/preferences.html#consist-function-follow-preferences>` for information on changing the behaviour of the functions in consists / multiple units.
+    See the `Consist Function Follow Preferences on the Preferences page <../configuration/preferences.html#consist-function-follow-preferences>`_ for information on changing the behaviour of the functions in consists / multiple units.
 
 
   **Activating the DCC Function via the Gamepad Keys**
