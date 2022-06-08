@@ -66,4 +66,13 @@ Roadmap
 
 At the moment there are only a few of us doing any work on |ed|, so things happen when they happen.
 
-See `Support & Contact <../contact/index.html>` if you are having problems or wish to make a suggestion.
+See `Support & Contact <../contact/index.html>`_ if you are having problems or wish to make a suggestion.
+
+Alternates to Engine Driver
+---------------------------
+
+|ed| is not the only app that can connect to JMRI, WiThrottle servers or DCC++EX, so it is worth your time to investigate to alternates.
+
+See the 'JMRI WiThrottle page <https://www.jmri.org/help/en/package/jmri/jmrit/withrottle/UserInterface.shtml>'_ for a list of similar or related apps.
+
+See the 'DCC++EX page <https://dcc-ex.com/throttles/index.html>'_ for a list of similar or related apps.
