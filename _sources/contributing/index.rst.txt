@@ -111,6 +111,7 @@ Style Guidelines
 * Use British/Australian/Canadian spelling e.g. 'colour' not 'color'.  |br|\ (Primarily because it is used in more English speaking countries)
 *	Use railroad/railway terminology that is understandable by all English-speaking people. |br|\ Where there are clear differences from US to non-US terminology use both with a slash between and use the US version first. e.g. turnouts/points, consists/multiple units, switching/shunting.  (Primarily because JMRI uses the US terminology)
 * In general use 'loco' instead of 'locomotive' or 'engine'
+* Avoid the term 'Checked'. Use 'Enabled' instead.  ("Checked' is more a US term.)
 * Use bolded \*\*Engine Driver\*\* or \|ed\| not 'Engine Driver app', 'EngineDriver' or 'Engine Driver Throttle' (except on the first page) - **Engine Driver**
 *	No full stop at the end of a numbered or unnumbered list
 *	Numbered lists should be avoided, unless there is a specific need
