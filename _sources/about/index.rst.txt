@@ -73,6 +73,6 @@ Alternates to Engine Driver
 
 |ed| is not the only app that can connect to JMRI, WiThrottle servers or DCC++EX, so it is worth your time to investigate to alternates.
 
-See the 'JMRI WiThrottle page <https://www.jmri.org/help/en/package/jmri/jmrit/withrottle/UserInterface.shtml>'_ for a list of similar or related apps.
+See the `JMRI WiThrottle page <https://www.jmri.org/help/en/package/jmri/jmrit/withrottle/UserInterface.shtml>`_ for a list of similar or related apps.
 
-See the 'DCC++EX page <https://dcc-ex.com/throttles/index.html>'_ for a list of similar or related apps.
+See the `DCC++EX page <https://dcc-ex.com/throttles/index.html>`_ for a list of similar or related apps.
