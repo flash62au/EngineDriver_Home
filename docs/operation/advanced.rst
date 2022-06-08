@@ -30,11 +30,6 @@ Consist Follow Functions
 
 * see Functions in the Configuration
 
-Flashlight 
-----------
-
-|todo|
-
 Haptic Feedback (Vibration)
 ---------------------------
 
@@ -58,11 +53,9 @@ Swapping Direction Buttons
 * Preferences
 * long press
 
+different settings
 
-Advance Function Follow...
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+Conserving Power 
+^^^^^^^^^^^^^^^^
 
 |todo|
-
-different settings
- 
