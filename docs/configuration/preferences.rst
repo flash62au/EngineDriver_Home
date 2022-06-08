@@ -788,14 +788,14 @@ Clicking on this button will immediately change the layout of the Throttle Scree
 First Screen Layout
 '''''''''''''''''''''''''''''''''''
 
-This preference allow you to select one of the two Layouts that the Layout Switch Button will switch between.  (This throttle layout and the next preference.)
+This preference allows you to select one of the two Layouts that the Layout Switch Button will switch between.  (This throttle layout and the next preference.)
 
 See the `Throttle Screen Layout`_ preference for the available options.
 
 Second Screen Layout
 '''''''''''''''''''''''''''''''''''
 
-This preference allow you to select one of the two Layouts that the Layout Switch Button will switch between.  (This throttle layout and the previous preference.)
+This preference allows you to select one of the two Layouts that the Layout Switch Button will switch between.  (This throttle layout and the previous preference.)
 
 See the `Throttle Screen Layout`_ preference for the available options.
 
@@ -827,9 +827,9 @@ The following preferences provide options for how the throttle on the Throttle S
 Speed Units
 """""""""""
 
-|todo|
+Use this preference to change how the speed is displayed and functions on all the throttles on the Throttle Screen.
 
-Display speed as percentage, or by a specific number of steps
+Options:
 
  * Percent 0 - 100%
  * Auto Speed steps
@@ -844,75 +844,60 @@ Note that the `Speed button Change Amount`_ preference will work in the units th
 Maximum throttle Percentage
 """""""""""""""""""""""""""
 
-|todo|
-
-Maximum Allowed throttle slider value in % in ALL sliders
+This preference allows you to set the maximum allowed throttle slider value in % on all the throttles on the Throttle Screen.
 
 Maximum throttle Change
 """""""""""""""""""""""
 
-|todo|
+This preference allows you to set the Maximum allowed throttle change in % on all the throttles on the Throttle Screen.  
 
-Maximum allowed throttle change in %
+|todo| *Can't remember when this is used.*
 
 Speed button Change Amount
 """"""""""""""""""""""""""
 
-|todo|
-
-How much Speed buttons jump throttle speed
+This preference allows you to set how much the Speed buttons jump/change the speed.
 
 Note that this works in the units chosen in the `Speed Units` preference.i.e. If your Speed Units are '8 Steps' and your Speed button change amount is '4' then just two click will get you from zero to 100% speed.
 
 Speed button Repeat Delay
 """""""""""""""""""""""""
 
-|todo|
+Use this preference to change how long between repeats on speed buttons. Smaller is faster. Excludes gamepad buttons. 
 
-How long between repeats on speed buttons. Smaller is faster. Excludes gamepad buttons. 
-
-(See separate gamepad setting.)
+Note that this is independent of the equivalent gamepad preference. (`Speed button Repeat Delay (gamepad)`_)
 
 Speed step on Decrement?
 """"""""""""""""""""""""
 
-|todo|
-
-Force the speed step to be used when long pressing a lower speed on the slider. If not checked, the speed will immediately jump to the touched speed.
+Use this preference to force the `Speed button Change Amount`_ to be used when long pressing a lower speed on the slider. If not enabled, the speed will immediately jump to the touched speed.
 
 Stop on Phone call?
 """""""""""""""""""
 
-|todo|
-
-Stop all loco(s) when a phone call is answered or placed.
-
+If the preference is enabled, |ed| will stop all loco(s) controlled by the device /phone when a phone call is answered or placed.
 
 Direction change while moving?
 """"""""""""""""""""""""""""""
 
-|todo|
-
-Allow direction changes when moving
+If the preference is enabled, |ed| will allow you to change the direction of the locos controlled by a throttle to instantly change direction.  i.e. Both directions buttons are allows available.
 
 Stop on direction change?
 """""""""""""""""""""""""
 
-|todo|
-
-Stop loco if you change direction while moving
+If the preference is enabled, |ed| will stop the locos controlled by a throttle if you click the opposite direction while the loco(s) are moving.  Effectively this means that the 'opposite' direction will (also) act like a stop button.
 
 'Limit Speed' & 'Pause' button Preferences
 """"""""""""""""""""""""""""""""""""""""""
 
-|todo|
+These preferences allow for additional buttons to appear in the Function Button area of each Throttle on the Throttle Screen, but are not related to DCC Functions.
 
 Show 'Limit Speed' button?
 '''''''''''''''''''''''''''''''''''
 
-|todo|
+If this preference is enabled, |ed| will show a :guilabel:`Limit Speed` button in all the throttles in the Throttle Screen. 
 
-Show a button to temporarily restrict the maximum speed on an individual throttle
+When clicked, |ED| will temporarily restrict the maximum speed on the individual throttle.  The speed tat it limits to is set with the `'Limit Speed' button`_ preference.
 
 'Limit Speed' button
 '''''''''''''''''''''''''''''''''''
@@ -924,16 +909,16 @@ Set the \% of the throttle that the speed will be temporarily limited to
 Show 'Pause' button?
 '''''''''''''''''''''''''''''''''''
 
-|todo|
+If this preference is enabled, |ed| will show a :guilabel:`Pause` button in all the throttles in the Throttle Screen. 
 
-Show a button to slow and stop the locomotive, then return to original speed on next press
+When clicked, |ED| will gradually slow and stop the loco(s) of a throttle. When pressed again |ED| will return the loco(s) to original speed.
 
 'Pause' button Rate
 '''''''''''''''''''''''''''''''''''
 
-|todo|
+Use this preference to set the number of milliseconds between speed step changes for the Pause action.
 
-Number of milliseconds between speed step changes for the Pause action
+Only relevant is the `Show 'Pause' button?`_ preference is enabled.
 
 'Pause' button Step
 '''''''''''''''''''''''''''''''''''
@@ -941,13 +926,14 @@ Number of milliseconds between speed step changes for the Pause action
 |todo|
 
 Step size changes for the Pause action
+''''''''''''''''''''''''''''''''''''''
+
+|todo|
 
 Consist Function Follow Preferences
 -----------------------------------
 
-|todo|
-
-Options for how functions will behave in a consist.
+These preferences allow for change the way DCC functions will behave in a consist.
 
 Consist Functions - Follow Rule Style
 """""""""""""""""""""""""""""""""""""
@@ -1062,9 +1048,7 @@ How much Volume buttons jump throttle speed
 Disable Volume keys?
 '''''''''''''''''''''''''''''''''''
 
-|todo|
-
-Disables the hardware Volume keys on the phone/tablet that would otherwise control speed
+Enable this preference if you need to disable the hardware Volume keys on the phone/tablet that would otherwise control speed
 
 Volume keys follow touch?
 '''''''''''''''''''''''''''''''''''
@@ -1162,28 +1146,28 @@ Gamepad DPAD Up action
 
 |todo|
 
-Choose the action when you press the button
+Choose the action when you press the *DPAD Up* button
 
 Gamepad DPAD Right action
 '''''''''''''''''''''''''''''''''''
 
 |todo|
 
-Choose the action when you press the button
+Choose the action when you press the *DPAD Right* button
 
 Gamepad DPAD Down action
 '''''''''''''''''''''''''''''''''''
 
 |todo|
 
-Choose the action when you press the button
+Choose the action when you press the *DPAD Down* button
 
 Gamepad DPAD Left action
 '''''''''''''''''''''''''''''''''''
 
 |todo|
 
-Choose the action when you press the button
+Choose the action when you press the *DPAD Left* button
 
 Swap Direction buttons with Screen buttons?
 '''''''''''''''''''''''''''''''''''''''''''
@@ -1221,14 +1205,16 @@ Stop Button long-press delay
 
 |todo|
 
-How long for a \'long-press\' of the Stop button.\nA \'long-press\' stops all active throttles; a \'short-press\' pauses the current throttle.\nSmaller is faster.
+How long for a 'long-press' of the Stop button. 
+
+A 'long-press' stops all active throttles; a 'short-press' pauses the current throttle. Smaller is faster.
 
 Enable Short Press
 '''''''''''''''''''''''''''''''''''
 
 |todo|
 
-A \'short-press\' pauses the currently controlled locomotive/consist.\nWill revert to original speed when operations resume.
+A 'short-press' pauses the currently controlled locomotive/consist. Will revert to original speed when operations resume.
 
 Device side button options
 """"""""""""""""""""""""""
@@ -1519,23 +1505,17 @@ Connect automatically to \'first\' WiThrottle Server discovered
 Hide Demo Server
 """""""""""""""""""""""""
 
-|todo|
-
-Hide the Demo Server \'jmri.mstevetodd.com\' in the connection list
+Use this preference if you wish to hide the Demo Server ('jmri.mstevetodd.com') in the connection list on the Connection page.
 
 Initial Connection Timeout
 """"""""""""""""""""""""""
 
-|todo|
-
-Set initial connection timeout in milliseconds
+Use this preference set initial connection timeout in milliseconds.
 
 Socket Timeout
 """""""""""""""""""""""""
 
-|todo|
-
-Set socket read timeout in milliseconds
+Use this preference set socket read timeout in milliseconds.
 
 Mobile Data connection?
 """""""""""""""""""""""""
@@ -1554,7 +1534,7 @@ Play sound and vibrate on unexpected disconnect
 Background Alert
 """""""""""""""""""""""""
 
-TODO
+|todo|
 
 Audible alert when the app is sent to the background
 
@@ -1681,7 +1661,7 @@ Import, Export or Reset
 
 |todo|
 
-'Import' or 'Export' preferences to the '\\Android\\data\\jmri.enginedriver\\files\\' folder, or 'Reset' them.
+`Import` or `Export` preferences to the ``/Android/data/jmri.enginedriver/files/`` folder, or `Reset` them.
 Will occur IMMEDIATELY on selecting the option.
 WARNING! With 'Reset' and 'Import', Engine Driver will restart!
 (You can transfer the preferences to a different phone by copying the file.)
@@ -1692,14 +1672,14 @@ Auto import from all Servers?
 |todo|
 
 Automatically import the preferences from servers on connection.
-(If the file \'\\Android\\data\\jmri.enginedriver\\files\\auto_preferences.ed\' is on the server and if it is more recent that the last time checked.)
+(If the file ``/Android/data/jmri.enginedriver/files/auto_preferences.ed`` is on the server and if it is more recent that the last time checked.)
 
 Include recent loco list?
 """""""""""""""""""""""""
 
 |todo|
 
-Include the locos in the recent loco list in \'Imports\' and \'Exports\'
+Include the locos in the recent loco list in `Imports` and `Exports`
 
 Auto host specific import/export?
 """""""""""""""""""""""""""""""""
@@ -1714,13 +1694,11 @@ Manual host specific import/export
 
 |todo|
 
-'Import' or 'Export' your preferences for a specific host to the '\\Android\\data\\jmri.enginedriver\\files\\' folder. The host must be in your recent connection list.
+'Import' or 'Export' your preferences for a specific host to the  ``/Android/data/jmri.enginedriver/files/`` folder. The host must be in your recent connection list.
 Will occur IMMEDIATELY on selecting the option.
 (Only available when not currently connected.)
 
 Show Timestamps on Log?
 """""""""""""""""""""""""
 
-|todo|
-
-Show Date Time for each entry on the log screen
+Enable this preference to show Date Time for each entry on the Log Screen
