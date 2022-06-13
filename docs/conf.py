@@ -41,6 +41,7 @@ extensions = [
    # 'sphinx_sitemap',
    # 'sphinx.ext.inheritance_diagram',
     'sphinxcontrib.spelling',
+    'sphinx_sitemap'
 ]
 
 autosectionlabel_prefix_document = True
