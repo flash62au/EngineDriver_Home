@@ -902,7 +902,7 @@ When clicked, |ED| will temporarily restrict the maximum speed on the individual
 'Limit Speed' button
 '''''''''''''''''''''''''''''''''''
 
-Use this preference to set the amount, as a percentage (\%), of the throttle that the speed will be temporarily limited to when you click the ``Limit Speed`` button. 
+Use this preference to set the amount, as a percentage (\%), of the throttle that the speed will be temporarily limited to when you click the :guilabel:`Limit Speed` button. 
 
 Note: If the `Show 'Limit Speed' button?`_ preference is not enabled this has no effect.
 
@@ -1031,12 +1031,12 @@ Additional Throttle Control Source Preferences
 Volume Button Preferences
 """""""""""""""""""""""""
 
-|ed| will allows you to use the device/phone's hardware ``Volume Up`` and ``Volume Down`` buttons to control speed. The following preferences allow you change options relating to these.
+|ed| will allows you to use the device/phone's hardware :guilabel:`Volume Up` and :guilabel:`Volume Down` buttons to control speed. The following preferences allow you change options relating to these.
 
 Speed button Change Amount (Volume)
 '''''''''''''''''''''''''''''''''''
 
-Use this preference to set amount, as a percentage (\%), of the throttle that the speed will change by (step) each time the device/phone's hardware ``Volume Up`` and ``Volume Down`` buttons are clicked.
+Use this preference to set amount, as a percentage (\%), of the throttle that the speed will change by (step) each time the device/phone's hardware :guilabel:`Volume Up` and :guilabel:`Volume Down` buttons are clicked.
 
 Only relevant is the `Disable Volume keys?`_ preference is DISABLED.
 
@@ -1045,7 +1045,7 @@ Disable Volume keys?
 
 Enable this preference if you need to DISABLE the hardware Volume keys on the phone/tablet that would otherwise control speed
 
-If this preference is DISABLED, |ed| will allows you to use the device/phone's hardware ``Volume Up`` and ``Volume Down`` buttons to control speed of the selected loco (indicated by a 'v' in the Speed Amount area of the Throttle.
+If this preference is DISABLED, |ed| will allows you to use the device/phone's hardware :guilabel:`Volume Up` and :guilabel:`Volume Down` buttons to control speed of the selected loco (indicated by a 'v' in the Speed Amount area of the Throttle.
 
 Volume keys follow touch?
 '''''''''''''''''''''''''''''''''''
@@ -1060,38 +1060,58 @@ Gamepad Preferences
 .. note:: 
   :class: note-ed-hidden-title
 
-   See the `Gamepad Operation <../operation/gamepads.html>`_ page for more extensive information on using gamepads.
-
+   See the `Gamepad Operation page <../operation/gamepads.html>`_ page for more information on using gamepads.
 
 Gamepad type
 '''''''''''''''''''''''''''''''''''
 
-|todo|
+|ed| supports the following gamepad types and modes:
 
-Choose the option that best supports your gamepad
+* None  =   *disable gamepad support*
+* Mocute iCade
+* Mocute iCade+DPAD
+* Mocute MTK
+* Mocute Android-Game
+* VRBOX/Android- A Mode
+* VRBOX/Android- A Mode - DPAD rotated
+* VRBOX/Android- C Mode
+* VRBOX/Android- C Mode - DPAD rotated
+* VRBOX/iOS- C Mode
+* VRBOX/iOS- C Mode - DPAD rotated
+* MagicseeR1 Android-Game B
+* Flydigi Wee 2
+* Utopia 360 Android-C
+* ESP32 DIY (4x4 Keypad +Encoder)
+* ESP32 DIY (3x4 Keypad +Encoder)
+* Keyboard
 
-See the `Gamepads page <../configuration/gamepads.html>`_ for more information about selecting and using a gamepad.
+Choose the option that best supports your gamepad, 'None' to disable gamepad support.
+
+.. note:: 
+  :class: note-ed-hidden-title
+
+   See the `Gamepads page <../operation/gamepads.html#example-gamepads>`_ page for more information on selecting a gamepad.
 
 Test Gamepad settings now!
 '''''''''''''''''''''''''''''''''''
 
-|todo|
+This preference allows you to confirm that the chosen setting are working correctly.  The Gamepad Test screen will launch IMMEDIATELY on selection.
 
-Allows you to confirm that the chosen setting are working correctly.  The Gamepad Test screen will launch IMMEDIATELY on selection.
+Note: that you may need to repeat the test process when you return to the *Throttle Screen* and use the gamepad for the first time.
 
 Speed button Change Amount (Gamepad)
 ''''''''''''''''''''''''''''''''''''
 
-|todo|
-
 How much each press of the Gamepad buttons changes the throttle speed
+
+Use this preference to set the amount, as a percentage (\%), of the throttle that the speed will change by (step) each time a gamepad's buttons are pressed.
+
+Only relevant is the `Gamepad Type`_ preference is set to other than 'None' and you have configured any of the gamepad's buttons to speed up or down.
 
 Gamepad Button Click Volume %
 '''''''''''''''''''''''''''''''''''
 
-|todo|
-
-Set the volume percent for gamepad button clicks
+Use this preference to set the volume, as a percent, for gamepad button clicks.
 
 Speed button Repeat Delay (gamepad)
 '''''''''''''''''''''''''''''''''''

@@ -774,7 +774,7 @@ The *Web Screen* can be accessed three ways:
 Pushing the app to the Background
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-By using the Android ``Home`` ( ○ ) or ``Recent Tasks`` ( □ ) navigation buttons, or if you press the ``Power`` physical button, it is possible to push the |ed| app into the background.  |ed| will give a sound, warning and will add an entry to the Notification Shade when this happens.
+By using the Android :guilabel:`Home` ( ○ ) or :guilabel:`Recent Tasks` ( □ ) navigation buttons, or if you press the ``Power`` physical button, it is possible to push the |ed| app into the background.  |ed| will give a sound, warning and will add an entry to the Notification Shade when this happens.
 
 Clicking on the Notification Shade entry or the app icon will return you the same screen your were in when to pushed the app to the background.
 
