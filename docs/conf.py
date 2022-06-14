@@ -84,6 +84,8 @@ html_logo = "./_static/images/logo.png"
 
 html_favicon = "./_static/images/favicon.ico"
 
+html_baseurl = "https://flash62au.github.io/EngineDriver_Home/"
+
 html_theme_options = {
     'style_nav_header_background': 'white',
     'logo_only': True,
