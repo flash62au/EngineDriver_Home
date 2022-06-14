@@ -105,7 +105,7 @@ Connecting Engine Driver to the WiThrottle server
     * For a JMRI server, see the WiThrottle screen for its address 
     * For other devices, see the instructions for that device
 
-  If you only ever connect to one WiThrottle server you can effectively bypass this screen by setting the ``Auto-Connect to WiThrottle Server?`` preference.
+  If you only ever connect to one WiThrottle server you can effectively bypass this screen by setting the `Auto-Connect to WiThrottle Server? <../configuration/preferences.html#auto-connect-to-withrottle-server>`_ preference.
 
 .. note:: 
   :class: note-ed-hidden-title
@@ -278,13 +278,13 @@ There are eight ways you can control the speed of of your loco or consist /multi
 
   **Stop button**
 
-  Click on the ``Stop`` button of a Throttle on the Throttle Screen to stop all the select Locos for that Throttle.  If you have momentum configured for in the decoders in the locos, they will gradually come to a stop.
+  Click on the :guilabel:`Stop` button of a Throttle on the Throttle Screen to stop all the select Locos for that Throttle.  If you have momentum configured for in the decoders in the locos, they will gradually come to a stop.
 
   **Volume Keys**
 
-  The ``Volume Up`` and ``Volume Down`` hardware keys of your device / phone act exactly the same at as the Speed Buttons of the 'current' Throttle. 
+  The :guilabel:`Volume Up` and :guilabel:`Volume Down` hardware keys of your device / phone act exactly the same at as the Speed Buttons of the 'current' Throttle. 
 
-  Click on the ``Volume Up`` and ``Volume Down`` buttons to increase of decrease the speed in by a defined Amount.
+  Click on the :guilabel:`Volume Up` and :guilabel:`Volume Down` buttons to increase of decrease the speed in by a defined Amount.
 
   Click and Hold on the button continually increase the speed by a defined steps.
 
@@ -301,14 +301,14 @@ There are eight ways you can control the speed of of your loco or consist /multi
     :align: right
     :scale: 50%
   
-  If enabled, the ``Emergency Stop`` button on the Action Bar will attempt to stop all the locos on all the Throttles controlled by your device / phone as quickly as possible.
+  If enabled, the :guilabel:`Emergency Stop` button on the Action Bar will attempt to stop all the locos on all the Throttles controlled by your device / phone as quickly as possible.
 
   It *does not* stop locos controlled by other people / controllers.
 
   .. note:: 
     :class: note-ed-hidden-title
 
-    See the `Emergency Stop button? Preference on the Preferences page <../configuration/preferences.html#emergency-stop-button>`_ for more information on enabling the ``Emergency Stop`` button. 
+    See the `Emergency Stop button? Preference on the Preferences page <../configuration/preferences.html#emergency-stop-button>`_ for more information on enabling the `Emergency Stop` button. 
 
   **Pause button**
 
@@ -316,12 +316,12 @@ There are eight ways you can control the speed of of your loco or consist /multi
     :align: right
     :scale: 50%
   
-  If enabled, the ``Pause`` button will gradually bring the Loco (or Consist / Multiple Units) on the Throttle to gradually step down to the zero speed.  Clicking the button again will gradually return the Loco (or Consist / Multiple Units) on the Throttle back to the speed that it was before you fist pressed the button.
+  If enabled, the :guilabel:`Pause` button will gradually bring the Loco (or Consist / Multiple Units) on the Throttle to gradually step down to the zero speed.  Clicking the button again will gradually return the Loco (or Consist / Multiple Units) on the Throttle back to the speed that it was before you fist pressed the button.
 
   .. note:: 
     :class: note-ed-hidden-title
 
-    See the `'Limit Speed' & 'Pause' button Preferences section on the Preferences page <../configuration/preferences.html#id41>`_ for more information on enabling the ``Pause`` button. 
+    See the `'Limit Speed' & 'Pause' button Preferences section on the Preferences page <../configuration/preferences.html#id41>`_ for more information on enabling the :guilabel:`Pause` button. 
 
   **Limit Speed button**
 
@@ -329,14 +329,14 @@ There are eight ways you can control the speed of of your loco or consist /multi
     :align: right
     :scale: 50%
   
-  If enabled, the ``Limit Speed`` button will restrict the maximum speed on the Throttle to predefined amount. (Default is 50%)  Clicking the button again will take off the restriction. (i.e. back to 100%)
+  If enabled, the :guilabel:`Limit Speed` button will restrict the maximum speed on the Throttle to predefined amount. (Default is 50%)  Clicking the button again will take off the restriction. (i.e. back to 100%)
 
   This is commonly used for Switching/Shunting work VS mainline running.
 
   .. note:: 
     :class: note-ed-hidden-title
 
-    See the `'Limit Speed' & 'Pause' button Preferences section on the Preferences page <../configuration/preferences.html#id41>`_ for more information on enabling the ``Limit Speed`` button. 
+    See the `'Limit Speed' & 'Pause' button Preferences section on the Preferences page <../configuration/preferences.html#id41>`_ for more information on enabling the :guilabel:`Limit Speed` button. 
 
   **Gamepad keys**
 
@@ -369,7 +369,7 @@ There are three ways you can control the direction of your loco or consist /mult
     :align: right
     :scale: 50%
 
-  Throttles on Throttle Screen Layout that are *not* of the Switching/Shunting type have ``Forward`` and ``Reverse`` *Direction Buttons* for each throttle.  
+  Throttles on Throttle Screen Layout that are *not* of the Switching/Shunting type have :guilabel:`Forward` and :guilabel:`Reverse` *Direction Buttons* for each throttle.  
 
   Clicking on a button will change the direction of the loco ( or Consist / Multiple Unit)m if it is not already moving in that direction. 
 

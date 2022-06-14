@@ -902,9 +902,9 @@ When clicked, |ED| will temporarily restrict the maximum speed on the individual
 'Limit Speed' button
 '''''''''''''''''''''''''''''''''''
 
-|todo|
+Use this preference to set the amount, as a percentage (\%), of the throttle that the speed will be temporarily limited to when you click the ``Limit Speed`` button. 
 
-Set the \% of the throttle that the speed will be temporarily limited to
+Note: If the `Show 'Limit Speed' button?`_ preference is not enabled this has no effect.
 
 Show 'Pause' button?
 '''''''''''''''''''''''''''''''''''
@@ -923,12 +923,9 @@ Only relevant is the `Show 'Pause' button?`_ preference is enabled.
 'Pause' button Step
 '''''''''''''''''''''''''''''''''''
 
-|todo|
+Use this preference to set amount, as a percentage (\%), of the throttle that the speed will change by (step) each time after the ``Pause`` is clicked.
 
-Step size changes for the Pause action
-''''''''''''''''''''''''''''''''''''''
-
-|todo|
+Only relevant is the `Show 'Pause' button?`_ preference is enabled.
 
 Consist Function Follow Preferences
 -----------------------------------
@@ -1029,38 +1026,42 @@ Action for String 2, 3, 4, 5
 Additional Throttle Control Source Preferences
 ----------------------------------------------
 
-|todo|
+|ed| allows for methods, other than the touch screen, to control locos.  The following preferences allow you change options relating to these.
 
 Volume Button Preferences
 """""""""""""""""""""""""
 
-|todo|
-
-Use Volume buttons to control speed
+|ed| will allows you to use the device/phone's hardware ``Volume Up`` and ``Volume Down`` buttons to control speed. The following preferences allow you change options relating to these.
 
 Speed button Change Amount (Volume)
 '''''''''''''''''''''''''''''''''''
 
-|todo|
+Use this preference to set amount, as a percentage (\%), of the throttle that the speed will change by (step) each time the device/phone's hardware ``Volume Up`` and ``Volume Down`` buttons are clicked.
 
-How much Volume buttons jump throttle speed
+Only relevant is the `Disable Volume keys?`_ preference is DISABLED.
 
 Disable Volume keys?
 '''''''''''''''''''''''''''''''''''
 
-Enable this preference if you need to disable the hardware Volume keys on the phone/tablet that would otherwise control speed
+Enable this preference if you need to DISABLE the hardware Volume keys on the phone/tablet that would otherwise control speed
+
+If this preference is DISABLED, |ed| will allows you to use the device/phone's hardware ``Volume Up`` and ``Volume Down`` buttons to control speed of the selected loco (indicated by a 'v' in the Speed Amount area of the Throttle.
 
 Volume keys follow touch?
 '''''''''''''''''''''''''''''''''''
 
-|todo|
-
-The Volume keys speed control will follow the last touched throttle
+Enable this preference if you want the Volume keys speed control to follow the last touched throttle.  Otherwise you need to touch the speed amount area of a Throttle to change the Volume keys to control that throttle.
 
 Gamepad Preferences
 """""""""""""""""""
 
-|todo|
+|ed| will allows you to use the inexpensive gamepads to control speed. The following preferences allow you change options relating to these.
+
+.. note:: 
+  :class: note-ed-hidden-title
+
+   See the `Gamepad Operation <../operation/gamepads.html>`_ page for more extensive information on using gamepads.
+
 
 Gamepad type
 '''''''''''''''''''''''''''''''''''
