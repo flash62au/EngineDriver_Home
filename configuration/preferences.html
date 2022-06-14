@@ -1427,7 +1427,7 @@ Requires restart of engine Driver after changing to take effect.</p>
 </section>
 <section id="limit-speed-button">
 <h4><a class="toc-backref" href="#id85">‘Limit Speed’ button</a><a class="headerlink" href="#limit-speed-button" title="Permalink to this heading"></a></h4>
-<p>Use this preference to set the amount, as a percentage (%), of the throttle that the speed will be temporarily limited to when you click the <code class="docutils literal notranslate"><span class="pre">Limit</span> <span class="pre">Speed</span></code> button.</p>
+<p>Use this preference to set the amount, as a percentage (%), of the throttle that the speed will be temporarily limited to when you click the <span class="guilabel">Limit Speed</span> button.</p>
 <p>Note: If the <a class="reference internal" href="#show-limit-speed-button">Show ‘Limit Speed’ button?</a> preference is not enabled this has no effect.</p>
 </section>
 <section id="show-pause-button">
@@ -1528,16 +1528,16 @@ These options override the Original and Complex options completely and ignore th
 <p><strong>Engine Driver</strong> allows for methods, other than the touch screen, to control locos.  The following preferences allow you change options relating to these.</p>
 <section id="volume-button-preferences">
 <h3><a class="toc-backref" href="#id100">Volume Button Preferences</a><a class="headerlink" href="#volume-button-preferences" title="Permalink to this heading"></a></h3>
-<p><strong>Engine Driver</strong> will allows you to use the device/phone’s hardware <code class="docutils literal notranslate"><span class="pre">Volume</span> <span class="pre">Up</span></code> and <code class="docutils literal notranslate"><span class="pre">Volume</span> <span class="pre">Down</span></code> buttons to control speed. The following preferences allow you change options relating to these.</p>
+<p><strong>Engine Driver</strong> will allows you to use the device/phone’s hardware <span class="guilabel">Volume Up</span> and <span class="guilabel">Volume Down</span> buttons to control speed. The following preferences allow you change options relating to these.</p>
 <section id="speed-button-change-amount-volume">
 <h4><a class="toc-backref" href="#id101">Speed button Change Amount (Volume)</a><a class="headerlink" href="#speed-button-change-amount-volume" title="Permalink to this heading"></a></h4>
-<p>Use this preference to set amount, as a percentage (%), of the throttle that the speed will change by (step) each time the device/phone’s hardware <code class="docutils literal notranslate"><span class="pre">Volume</span> <span class="pre">Up</span></code> and <code class="docutils literal notranslate"><span class="pre">Volume</span> <span class="pre">Down</span></code> buttons are clicked.</p>
+<p>Use this preference to set amount, as a percentage (%), of the throttle that the speed will change by (step) each time the device/phone’s hardware <span class="guilabel">Volume Up</span> and <span class="guilabel">Volume Down</span> buttons are clicked.</p>
 <p>Only relevant is the <a class="reference internal" href="#disable-volume-keys">Disable Volume keys?</a> preference is DISABLED.</p>
 </section>
 <section id="disable-volume-keys">
 <h4><a class="toc-backref" href="#id102">Disable Volume keys?</a><a class="headerlink" href="#disable-volume-keys" title="Permalink to this heading"></a></h4>
 <p>Enable this preference if you need to DISABLE the hardware Volume keys on the phone/tablet that would otherwise control speed</p>
-<p>If this preference is DISABLED, <strong>Engine Driver</strong> will allows you to use the device/phone’s hardware <code class="docutils literal notranslate"><span class="pre">Volume</span> <span class="pre">Up</span></code> and <code class="docutils literal notranslate"><span class="pre">Volume</span> <span class="pre">Down</span></code> buttons to control speed of the selected loco (indicated by a ‘v’ in the Speed Amount area of the Throttle.</p>
+<p>If this preference is DISABLED, <strong>Engine Driver</strong> will allows you to use the device/phone’s hardware <span class="guilabel">Volume Up</span> and <span class="guilabel">Volume Down</span> buttons to control speed of the selected loco (indicated by a ‘v’ in the Speed Amount area of the Throttle.</p>
 </section>
 <section id="volume-keys-follow-touch">
 <h4><a class="toc-backref" href="#id103">Volume keys follow touch?</a><a class="headerlink" href="#volume-keys-follow-touch" title="Permalink to this heading"></a></h4>
@@ -1550,29 +1550,53 @@ These options override the Original and Complex options completely and ignore th
 <div class="note-ed-hidden-title admonition note">
 <p class="admonition-title">Note</p>
 <blockquote>
-<div><p>See the <a class="reference external" href="../operation/gamepads.html">Gamepad Operation</a> page for more extensive information on using gamepads.</p>
+<div><p>See the <a class="reference external" href="../operation/gamepads.html">Gamepad Operation page</a> page for more information on using gamepads.</p>
 </div></blockquote>
 </div>
 <section id="gamepad-type">
 <h4><a class="toc-backref" href="#id105">Gamepad type</a><a class="headerlink" href="#gamepad-type" title="Permalink to this heading"></a></h4>
-<p><div style="color:red">TODO</div></p>
-<p>Choose the option that best supports your gamepad</p>
-<p>See the <a class="reference external" href="../configuration/gamepads.html">Gamepads page</a> for more information about selecting and using a gamepad.</p>
+<p><strong>Engine Driver</strong> supports the following gamepad types and modes:</p>
+<ul class="simple">
+<li><p>None  =   <em>disable gamepad support</em></p></li>
+<li><p>Mocute iCade</p></li>
+<li><p>Mocute iCade+DPAD</p></li>
+<li><p>Mocute MTK</p></li>
+<li><p>Mocute Android-Game</p></li>
+<li><p>VRBOX/Android- A Mode</p></li>
+<li><p>VRBOX/Android- A Mode - DPAD rotated</p></li>
+<li><p>VRBOX/Android- C Mode</p></li>
+<li><p>VRBOX/Android- C Mode - DPAD rotated</p></li>
+<li><p>VRBOX/iOS- C Mode</p></li>
+<li><p>VRBOX/iOS- C Mode - DPAD rotated</p></li>
+<li><p>MagicseeR1 Android-Game B</p></li>
+<li><p>Flydigi Wee 2</p></li>
+<li><p>Utopia 360 Android-C</p></li>
+<li><p>ESP32 DIY (4x4 Keypad +Encoder)</p></li>
+<li><p>ESP32 DIY (3x4 Keypad +Encoder)</p></li>
+<li><p>Keyboard</p></li>
+</ul>
+<p>Choose the option that best supports your gamepad, ‘None’ to disable gamepad support.</p>
+<div class="note-ed-hidden-title admonition note">
+<p class="admonition-title">Note</p>
+<blockquote>
+<div><p>See the <a class="reference external" href="../operation/gamepads.html#example-gamepads">Gamepads page</a> page for more information on selecting a gamepad.</p>
+</div></blockquote>
+</div>
 </section>
 <section id="test-gamepad-settings-now">
 <h4><a class="toc-backref" href="#id106">Test Gamepad settings now!</a><a class="headerlink" href="#test-gamepad-settings-now" title="Permalink to this heading"></a></h4>
-<p><div style="color:red">TODO</div></p>
-<p>Allows you to confirm that the chosen setting are working correctly.  The Gamepad Test screen will launch IMMEDIATELY on selection.</p>
+<p>This preference allows you to confirm that the chosen setting are working correctly.  The Gamepad Test screen will launch IMMEDIATELY on selection.</p>
+<p>Note: that you may need to repeat the test process when you return to the <em>Throttle Screen</em> and use the gamepad for the first time.</p>
 </section>
 <section id="speed-button-change-amount-gamepad">
 <h4><a class="toc-backref" href="#id107">Speed button Change Amount (Gamepad)</a><a class="headerlink" href="#speed-button-change-amount-gamepad" title="Permalink to this heading"></a></h4>
-<p><div style="color:red">TODO</div></p>
 <p>How much each press of the Gamepad buttons changes the throttle speed</p>
+<p>Use this preference to set the amount, as a percentage (%), of the throttle that the speed will change by (step) each time a gamepad’s buttons are pressed.</p>
+<p>Only relevant is the <a class="reference internal" href="#gamepad-type">Gamepad Type</a> preference is set to other than ‘None’ and you have configured any of the gamepad’s buttons to speed up or down.</p>
 </section>
 <section id="gamepad-button-click-volume">
 <h4><a class="toc-backref" href="#id108">Gamepad Button Click Volume %</a><a class="headerlink" href="#gamepad-button-click-volume" title="Permalink to this heading"></a></h4>
-<p><div style="color:red">TODO</div></p>
-<p>Set the volume percent for gamepad button clicks</p>
+<p>Use this preference to set the volume, as a percent, for gamepad button clicks.</p>
 </section>
 <section id="speed-button-repeat-delay-gamepad">
 <h4><a class="toc-backref" href="#id109">Speed button Repeat Delay (gamepad)</a><a class="headerlink" href="#speed-button-repeat-delay-gamepad" title="Permalink to this heading"></a></h4>
