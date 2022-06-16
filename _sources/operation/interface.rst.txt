@@ -28,10 +28,10 @@ Main Screens
 
 There are four main screens:
 
-* Connection Screen
-* Throttle Screen
-* Turnouts/Points Screen
-* Routes Screen
+* `Connection Screen`_
+* `Throttle Screen`_
+* `Turnouts/Points Screen`_
+* `Routes Screen`_
 
 ----
 
@@ -285,6 +285,19 @@ Secondary / Support Screens
 
 |todo|
 
+* `Intro/Setup Wizard Screen`_
+* `Loco Select Screen`_
+* `Consist Edit Screen`_
+* `Consist Lights Edit Screen`_
+* `Power Screen`_
+* `Preferences Screen`_
+* `In Phone Loco Sounds Screen`_
+* `Function Defaults Screen`_
+* `Gamepad Test Screen`_
+* `View Log Screen`_
+* `About Screen`_
+* `Reconnecting Screen`_
+
 ----
 
 Intro/Setup Wizard Screen
@@ -299,6 +312,31 @@ Loco Select Screen
 
 |todo|
 
+Selection method
+""""""""""""""""
+
+|todo|
+
+Select by DCC Address 
+"""""""""""""""""""""
+
+|todo|
+
+Select from Sever Roster
+""""""""""""""""""""""""
+
+|todo|
+
+Select from Recent Locos List
+"""""""""""""""""""""""""""""
+
+|todo|
+
+Select from Recent Consists List
+""""""""""""""""""""""""""""""""
+
+|todo|
+
 ----
 
 Consist Edit Screen
@@ -306,12 +344,34 @@ Consist Edit Screen
 
 |todo|
 
+Lead Loco
+"""""""""
+
+|todo|
+
+Trailing Loco
+"""""""""""""
+
+|todo|
+
+Consist Top
+"""""""""""
+
+|todo|
+
+* Facing
+
+
 ----
 
 Consist Lights Edit Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 |todo|
+
+* Unknown
+* Follow Fn Btn
+* Off
 
 ----
 
