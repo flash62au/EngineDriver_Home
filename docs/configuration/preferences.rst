@@ -1116,100 +1116,87 @@ Use this preference to set the volume, as a percent, for gamepad button clicks.
 Speed button Repeat Delay (gamepad)
 '''''''''''''''''''''''''''''''''''
 
-|todo|
-
-How long between repeats on Gamepad speed buttons.  Smaller is faster.
+Use this preference to set how long, in milliseconds, between repeats on Gamepad speed buttons.  Smaller is faster.
 
 Gamepad button action <!-- X -->
 '''''''''''''''''''''''''''''''''''
 
-|todo|
+Choose the action when you press the :guilabel:`X` button on the gamepad.
 
-Choose the action when you press the button
+Note: depending on the gamepad type you are using, this may have a different label and or location.
 
 Gamepad button action <!-- Y -->
 '''''''''''''''''''''''''''''''''''
 
-|todo|
+Choose the action when you press the :guilabel:`Y` button on the gamepad.
 
-Choose the action when you press the button
+Note: depending on the gamepad type you are using, this may have a different label and or location.
 
 Gamepad button action <!-- A -->
 '''''''''''''''''''''''''''''''''''
 
-|todo|
+Choose the action when you press the :guilabel:`A` button on the gamepad.
 
-Choose the action when you press the button
+Note: depending on the gamepad type you are using, this may have a different label and or location.
 
 Gamepad button action <!-- B -->
 '''''''''''''''''''''''''''''''''''
 
-|todo|
+Choose the action when you press the :guilabel:`B` button on the gamepad.
 
-Choose the action when you press the button
+Note: depending on the gamepad type you are using, this may have a different label and or location.
 
 Gamepad button action <!-- Start(Lower) -->
 '''''''''''''''''''''''''''''''''''''''''''
 
-|todo|
+Choose the action when you press the :guilabel:`Start(lower)` button on the gamepad.
 
-Choose the action when you press the button
+Note: depending on the gamepad type you are using, this may have a different label and or location.
 
 Gamepad button action <!-- Return(Upper) -->
 ''''''''''''''''''''''''''''''''''''''''''''
 
-|todo|
-
-Choose the action when you press the button
+Choose the action when you press the :guilabel:`Return (Upper)` button on the gamepad.
 
 Gamepad DPAD Up action
 '''''''''''''''''''''''''''''''''''
 
-|todo|
-
-Choose the action when you press the *DPAD Up* button
+Choose the action when you press the :guilabel:`DPAD Up` on the gamepad.
 
 Gamepad DPAD Right action
 '''''''''''''''''''''''''''''''''''
 
-|todo|
-
-Choose the action when you press the *DPAD Right* button
+Choose the action when you press the :guilabel:`DPAD Right` on the gamepad.
 
 Gamepad DPAD Down action
 '''''''''''''''''''''''''''''''''''
 
-|todo|
-
-Choose the action when you press the *DPAD Down* button
+Choose the action when you press the :guilabel:`DPAD Down`` on the gamepad.
 
 Gamepad DPAD Left action
 '''''''''''''''''''''''''''''''''''
 
-|todo|
-
-Choose the action when you press the *DPAD Left* button
+Choose the action when you press the :guilabel:`DPAD Left`` on the gamepad.
 
 Swap Direction buttons with Screen buttons?
 '''''''''''''''''''''''''''''''''''''''''''
 
-|todo|
+Use this preference to set if |ed| should swap the two Gamepad Direction buttons if the Screen Direction buttons are swapped.
 
-Temporarily swap the two Gamepad Direction buttons if the Screen Direction buttons are swapped
+.. note:: 
+  :class: note-ed-hidden-title
+
+  This is only relevant if the `Swap Direction buttons?`_ preference and/or the `Long press Swap Direction buttons?`_ preference is enabled.
 
 Enforce Gamepad Testing?
 '''''''''''''''''''''''''''''''''''
 
-|todo|
-
-Test each gamepad every time they are connected
+If this preference is enabled you will be forced to test each gamepad every time they are connected.
 
 Use Simple Test?
 '''''''''''''''''''''''''''''''''''
 
-|todo|
-
-Only test that you can reduce speed
+If this preference is enabled, when a gamepad is used for the first time in a session, you will only test that you can reduce speed, not have to test all eight standard buttons.  (Normally the :guilabel:`DPAD Down`.)
 
 ESU MobileControl II Options
 """"""""""""""""""""""""""""
@@ -1366,23 +1353,20 @@ Select Loco Preferences
 Stop on Release?
 """""""""""""""""""""""""
 
-|todo|
-
-Stop loco(s) when releasing from throttle
+If the preference is enabled |ed| will *stop* a loco(s) when it release from a throttle.
 
 Drop Loco before acquire?
 """""""""""""""""""""""""
 
-|todo|
-
-Drop current loco before acquiring new loco
+If the preference is enabled |ed| will *Drop* / &=*release* the current loco before acquiring new loco.
+i.e A throttle can only control one loco at a time.
+i.e. It is not possible to create an on-the-fly (in-phone) consist/multiple unit train.
 
 Allow loco select while moving?
 """""""""""""""""""""""""""""""
 
-|todo|
-
-Enables Loco Select button when moving
+If the preference is enabled the :guilabel:`Select` button is *Disabled* if the loco(s) is moving.
+i.e. It is not possible to Select (add or remove) locos if they are moving.
 
 Default Address Length
 """""""""""""""""""""""""
@@ -1394,9 +1378,7 @@ Default Loco Address Length, (Auto will set based on # of digits)
 Roster in Recent Locos?
 """""""""""""""""""""""""
 
-|todo|
-
-Include roster selections in Recent list?
+Enable this preference to include roster selections in *Recent Locos list*.
 
 Roster Names in Recent Locos?
 """""""""""""""""""""""""""""
@@ -1408,16 +1390,14 @@ Include Loco names from the roster in Recent list if a matching address is found
 Maximum Recent Locos
 """""""""""""""""""""""""
 
-|todo|
-
-Maximum Recent Locos to show in list
+Use the preference to set the maximum number of *Recent Locos* to show in the Recent Locos list on the *Loco Select* screen.
 
 Control consist Lights on long click
 """"""""""""""""""""""""""""""""""""
 
-|todo|
+If this preference is enabled you can change the Lights of the individual locos in a Consist with a long click on the Loco Select button.  You will be taken to the `Consist Lights Edit Screen <../operation/interface.html#consist-lights-edit-screen>`_.
 
-Change the Lights of the individual locos in a Consist with a long click on the Loco Select button.
+Note this only will work while the :guilabel:`Select` button is *Enabled*.  If the `Allow loco select while moving?`_ preference is disabled, the :guilabel:`Select` button is *Disabled* while the throttle is greater than zero.
 
 Filter Roster
 """""""""""""""""""""""""
@@ -1511,32 +1491,28 @@ Connect Preferences
 Maximum Recent Connections
 """"""""""""""""""""""""""
 
-|todo|
-
-Maximum Recent Connections to show in list
+Use this preference to set the maximum number of *Recent Connections* to show in list on the *Connection Screen*.
 
 Auto-Connect to WiThrottle Server?
 """"""""""""""""""""""""""""""""""
 
-|todo|
-
-Connect automatically to \'first\' WiThrottle Server discovered
+Enable this preference if you wish to connect automatically to 'first' WiThrottle Server discovered each time you start|ed|.
 
 
 Hide Demo Server
 """""""""""""""""""""""""
 
-Use this preference if you wish to hide the Demo Server ('jmri.mstevetodd.com') in the connection list on the Connection page.
+Enable this preference if you wish to hide the Demo Server ('jmri.mstevetodd.com') in the connection list on the Connection page.
 
 Initial Connection Timeout
 """"""""""""""""""""""""""
 
-Use this preference set initial connection timeout in milliseconds.
+Use this preference to set the initial connection timeout in milliseconds.
 
 Socket Timeout
 """""""""""""""""""""""""
 
-Use this preference set socket read timeout in milliseconds.
+Use this preference to set the socket read timeout in milliseconds.
 
 Mobile Data connection?
 """""""""""""""""""""""""
@@ -1638,21 +1614,19 @@ Restart Password
 
 |todo|
 
-Password to restart the timer with the current settings
+Password to restart the children's timer with the current settings
 
 Reset/Disable Password
 """""""""""""""""""""""""
 
 |todo|
 
-Password to reset/disable the timer settings
+Password to reset/disable the children's timer settings
 
 Allow Reverse?
 """""""""""""""""""""""""
 
-|todo|
-
-Enable the reverse button
+Enable this preference if you wish to enable the :guilabel:`Forward` and :guilabel:`Reverse` buttons while the children's timer is running. i.e. if you want them to be able to reverse the locos.
 
 Show Timer button?
 """""""""""""""""""""""""
@@ -1662,16 +1636,25 @@ Show Timer button?
    :scale: 50%
 
 
-|todo|
-
-Display the Timer Button to activate the timer
+Enable this preference if you wish display the Timer Button on the Action Bar of the Throttle Screen, to easily activate the Children's timer.
 
 Default time for Button
 """""""""""""""""""""""""
 
 |todo|
 
-Default time if using the Action Bar Button to activate the timer
+Use this preference to set the default time if using the Action Bar Button to activate the timer.
+
+Options:
+
+* Disabled
+* 1 minute
+* 2 minutes
+* 5 minutes
+* 10 minutes
+* Run completed   *Only really used by the system*
+
+Note this can be different to the default time if use the menus to activate the timer.
 
 
 Import/Export/Reset & Log Preferences
@@ -1681,6 +1664,13 @@ Import, Export or Reset
 """""""""""""""""""""""""
 
 |todo|
+
+options: 
+
+* None
+* Export
+* Import
+* Reset
 
 `Import` or `Export` preferences to the ``/Android/data/jmri.enginedriver/files/`` folder, or `Reset` them.
 Will occur IMMEDIATELY on selecting the option.
@@ -1698,9 +1688,7 @@ Automatically import the preferences from servers on connection.
 Include recent loco list?
 """""""""""""""""""""""""
 
-|todo|
-
-Include the locos in the recent loco list in `Imports` and `Exports`
+Enable this preference if you wish to include the locos in the recent loco list in `Imports` and `Exports`.
 
 Auto host specific import/export?
 """""""""""""""""""""""""""""""""
@@ -1722,4 +1710,4 @@ Will occur IMMEDIATELY on selecting the option.
 Show Timestamps on Log?
 """""""""""""""""""""""""
 
-Enable this preference to show Date Time for each entry on the Log Screen
+Enable this preference to show Date Time for each entry on the *Log Screen*.
