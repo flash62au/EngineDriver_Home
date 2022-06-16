@@ -380,9 +380,11 @@ Accessed from any of the main screens via :menuselection:`Menu --> View Log`.
 This screen allows you to view the internal Engine Driver log of events.
 This is sometimes useful for analysing problems.
 
-The option to ``Start recording to file`` creates a user-accessible file that can be sent to the **Engine Driver** app developers or the `Groups.io <https://groups.io/g/jmriusers/topics>`_` help group to assist you in resolving a problem.
+The option to `Start recording to file`` creates a user-accessible file that can be sent to the **Engine Driver** app developers or the `Groups.io <https://groups.io/g/jmriusers/topics>`_` help group to assist you in resolving a problem.
 The file will be located on your mobile phone at:
 Internal storage ``/Android/data/jmri.enginedriver/files`` |br|\ and will be named something like: ``logcat9999999999999.txt``
+
+Enable the ??? preference to include the timestamp on each line of the log.
 
 ----
 
@@ -607,7 +609,8 @@ WiThrottle Server Name
 Overflow Menu
 ^^^^^^^^^^^^^
 
-The *Overflow Menu* (or simply '*Menu*') appears in the Action Bar at the top of most of the main screens. It will show different options depending on a) the particular screen, b) preferences you have set and c) the state of certain elements in the app.
+The *Overflow Menu* (or simply '*Menu*') appears in the Action Bar at the top of most of the main screens is normally three dots (⁞) or three bars (≡).
+It will show different options depending on a) the particular screen, b) preferences you have set and c) the state of certain elements in the app.
 
 The Overflow Menu can display
 
@@ -626,5 +629,3 @@ The Overflow Menu can display
 * View Log
 * Exit
 * About
-
-* The Overflow Menu, which is normally three dots (⁞) or three bars (≡).   (Main Screens only)
