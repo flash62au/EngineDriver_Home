@@ -93,7 +93,7 @@ html_theme_options = {
     'includehidden': True,
 #    'titles_only': True,
     'collapse_navigation': False,
-#    'navigation_depth': -1 
+    'navigation_depth': -1 
 } 
 
 html_context = {

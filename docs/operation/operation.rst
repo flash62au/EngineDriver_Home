@@ -18,8 +18,8 @@ Connecting
 
 Connecting has two aspects:
 
-* Connecting to the WiFi network, which uses Android's build in capabilities (not |EDs|)
-* Connecting |ED| to the WiThrottle server
+1. Connecting to the WiFi network, which uses Android's built in capabilities (not |EDs|)
+2. Connecting |ED| to the WiThrottle server
 
 Connecting to the WiFi network
 """"""""""""""""""""""""""""""
@@ -152,7 +152,7 @@ If the *Power Action Bar button* is enabled, simply click on it to turn track po
 Selecting & Releasing Locos
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Selecting and releasing locos and Consists/Multiple Units is done from the Throttle Screen, by clicking on the :guilabel:`Select` button of one of the Throttles on the screen.
+Selecting and releasing locos and Consists/Multiple Units is initiated from the Throttle Screen, by clicking on the :guilabel:`Select` button of one of the Throttles on the screen.
 
 (The Throttle screen may have from 1 to 6 throttles on it, depending on the `Throttle Screen Layout preferences <../configuration/preferences.html#throttle-screen-appearance-preferences>`_ you have chosen.)
 
@@ -179,7 +179,7 @@ There three ways select a loco:
 
   **Recent Locos**
 
-  **Engine Driver** remembers the last 10 locos that you have selected. (That number can be increased or decreased with `Maximum Recent Locos <../configuration/preferences.html#maximum-recent-locos>`_ preference.)
+  |ed| remembers the last 10 locos that you have selected. (That number can be increased or decreased with `Maximum Recent Locos <../configuration/preferences.html#maximum-recent-locos>`_ preference.)
 
   If the loco you want to control to is in the list, simply click on it and you will be taken back to the Throttle screen with that loco selected.
 
