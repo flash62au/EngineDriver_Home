@@ -408,7 +408,7 @@ In Phone Loco Sounds Screen
 
 |todo|
 
-Accessed from Throttle Screen by the :menuselection:`Menu --> Loco Sounds` or from the Status Bar if enabled with the ``In phone sounds button`` preference.
+Accessed from *Throttle Screen* by the :menuselection:`Menu --> Loco Sounds` or from the Status Bar if enabled with the `In phone sounds button <./configuration/preferences.html#in-phone-sounds-button>`_ preference.
 
 ----
 
@@ -417,7 +417,7 @@ Function Defaults Screen
 
 |todo|
 
-Accessed from the menu on the Throttle Screen as ``Function Defaults``.
+Accessed from the menu on the *Throttle Screen* as :menuselection:`Menu --> Function Defaults`.
 
 ----
 
@@ -426,7 +426,7 @@ Gamepad Test Screen
 
 |todo|
 
-Accessed from the Throttle Screen via the :menuselection:`Menu --> Gamepads -> Gamepad Test X`. (where 'X' is the number of the gamepad.)
+Accessed from the *Throttle Screen* via the :menuselection:`Menu --> Gamepads -> Gamepad Test X`. (where 'X' is the number of the gamepad.)
 
 ----
 
@@ -453,9 +453,9 @@ About Screen
 
 This screen displays 
 
-* Information about **Engine Driver** 
+* Information about |ed| 
 * Information about the WiThrottle Server it is currently connected to (if any)
-* A page of basic information about **Engine Driver**
+* A page of basic information about |ed|
 
 |todo| 
 
@@ -463,7 +463,7 @@ This screen displays
 Reconnecting Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-This screen displays 
+This screen displays if |ed| has not been able to communicate with the wiThrottle server within a specified time.
 
 |todo| 
 
