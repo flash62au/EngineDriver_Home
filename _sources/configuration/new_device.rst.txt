@@ -11,7 +11,7 @@ Moving to a new phone/device
 
 **On the old Android device/phone**
 
-* Start **Engine Driver**
+* Start |ed|
 * Use ``Export`` function in the preferences: :menuselection:`Menu --> Preferences --> Import/Export/Reset & Log Preferences --> Import/Export --> Import, Export or Reset`
 
 **On a PC**
@@ -21,7 +21,7 @@ Moving to a new phone/device
 
 **On the new Android device/phone**
 
-* Install **Engine Driver** 
+* Install |ed| 
 * Run it once. Then Exit.  (This will create the Engine Driver folder)
 
 **On a PC**

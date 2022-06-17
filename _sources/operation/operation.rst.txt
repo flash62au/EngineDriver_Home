@@ -796,12 +796,12 @@ In general avoid letting |ED| try to run in background.
 Exiting Engine Driver
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-To exit **Engine Driver**, you can:
+To exit |ed|, you can:
 
 * Press the Android :guilabel:`Back` button once from the main screens (more than once if you are on one of the secondary screens) |br|\ OR
 * :menuselection:`Menu --> Exit`
 
-Exiting **Engine Driver**:
+Exiting |ed|:
 
 * Disconnects from the WiThrottle server.
 * Stops playing all In Phone Loco Sounds (if any were configured).

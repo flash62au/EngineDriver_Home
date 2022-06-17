@@ -32,9 +32,9 @@ Q. I can't connect to my Server /Railroad
 
   A2. Possible Mobile data connection problem
 
-  If **Engine Driver** can see the WiThrottle server but displays an error when you try to connect to it… If you are using a phone with a SIM, and the WiFi network your JMRI server is on does not have internet access. You may have to turn 'mobile data' off on your device.  See `[here] for more information <./wifi_issues.html>`_.
+  If |ed| can see the WiThrottle server but displays an error when you try to connect to it… If you are using a phone with a SIM, and the WiFi network your JMRI server is on does not have internet access. You may have to turn 'mobile data' off on your device.  See `[here] for more information <./wifi_issues.html>`_.
 
-Q. **Engine Driver** Connects, but I can't control any locos
+Q. |ed| Connects, but I can't control any locos
 
   A. Powering the layout on
 
@@ -42,7 +42,7 @@ Q. **Engine Driver** Connects, but I can't control any locos
 
   Some DCC command stations need to be turned on.
 
-Q. Why doesn't **Engine Driver** automatically find my server?
+Q. Why doesn't |ed| automatically find my server?
 
   I can manually connect to my Server / Railroad, but it never finds it automatically.
 
@@ -50,15 +50,15 @@ Q. Why doesn't **Engine Driver** automatically find my server?
 
   A2. 4.5ghz and 5ghz. <stuff goes here>
 
-Q. If **Engine Driver** can't find my Server/Railroad automatically 
+Q. If |ed| can't find my Server/Railroad automatically 
 
   A. Look for the ip address and port in the WiThrottle window in JMRI 
 
   Type them in the two fields and click ``Connect``
 
-Q. Why doesn't **Engine Driver** remember the servers I have connected to?
+Q. Why doesn't |ed| remember the servers I have connected to?
 
-  A. Check the **Engine Driver** preferences and make sure the ``Maximum Recent Locos`` preference is not set to zero.
+  A. Check the |ed| preferences and make sure the ``Maximum Recent Locos`` preference is not set to zero.
 
 ----
 
@@ -67,11 +67,11 @@ Connecting to different servers/railroads
 
 Q. I want to switch to a different server on the same network. 
 
-  A. You need to exit **Engine Driver** and restart.
+  A. You need to exit |ed| and restart.
 
 Q. I want to switch to a different server on a different network. 
 
-  A. You need to exit **Engine Driver**, change WiFi networks in the Android settings, then restart **Engine Driver**.
+  A. You need to exit |ed|, change WiFi networks in the Android settings, then restart |ed|.
 
 ----
 
@@ -116,9 +116,9 @@ Q. The JMRI loco list is too long, I can't find my locos easily
 
 Q. How do I work with Consists
 
-  A1. On the fly Consists in **Engine Driver** 
+  A1. On the fly Consists in |ed| 
 
-  **Engine Driver** can create consists on-the-fly by simply select multiple locos, one after the other...
+  |ed| can create consists on-the-fly by simply select multiple locos, one after the other...
 
   |todo|
 
@@ -126,7 +126,7 @@ Q. How do I work with Consists
 
   A2. Normal Consists
  
-  Note you can't create a normal consist with **Engine Driver**, but you can control one if it has already been setup.
+  Note you can't create a normal consist with |ed|, but you can control one if it has already been setup.
 
   |todo|
 
@@ -212,7 +212,7 @@ Q. I want to change the appearance of Throttle Screen
     * Vertical Switching/Shunting Left
     * Vertical Switching/Shunting Right 
 
-    **Engine Driver** will automatically reload the throttle sceen after closing the preferences screen. 
+    |ed| will automatically reload the throttle sceen after closing the preferences screen. 
 
 Q. I want vertical sliders, not horizontal
 
@@ -220,7 +220,7 @@ Q. I want vertical sliders, not horizontal
 
 Q. I want to control more than one train 
 
-  A. You can control between one and six trains with **Engine Driver**, depending on which Throttle Screen type (see above) you have chosen. Each train can have one or more locomotives in consist. 
+  A. You can control between one and six trains with |ed|, depending on which Throttle Screen type (see above) you have chosen. Each train can have one or more locomotives in consist. 
 
      The screen space is shared between throttles, so set the “Number of Throttles” appropriately.
 
@@ -228,7 +228,7 @@ Q. I want to control more than one train
 
 Q. In want to change the labels of the function buttons that are displayed 
 
-  A1. Change the function button defaults in **Engine Driver**, for locos without Roster Entries
+  A1. Change the function button defaults in |ed|, for locos without Roster Entries
 
   A2. Roster entries include function button labels, and can be changed in JMRI
 
@@ -240,7 +240,7 @@ Q. My locos have different functions but all the Function buttons appear the sam
 
 Q. My loco shows the wrong Function labels 
 
-  A. Functions of loco are generally set in the JMRI roster.  **Engine Driver** may be showing the functions of a loco with the same address from the Roster.
+  A. Functions of loco are generally set in the JMRI roster.  |ed| may be showing the functions of a loco with the same address from the Roster.
 
       This can happen if you entered an address to select the loco rather than selecting from the roster list.
 
