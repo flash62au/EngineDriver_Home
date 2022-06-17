@@ -9,7 +9,7 @@ Videos
 .. note:: 
   :class: note-ed
   
-  Note: some of the videos below were done on older versions of **Engine Driver**. Some of the functions, screen layouts or the names of the preferences may have changed slightly.
+  Note: Many of the videos below were done on older versions of |ed|. Some of the functions, screen layouts or the names of the preferences may have changed slightly.
 
 Connecting
 ==============================
@@ -46,7 +46,6 @@ Appearance
 Gamepads
 ================
 
-
 	* `Choosing a gamepad <https://youtu.be/NKi90c4INFU>`_
 	* `Gamepad Preferences <https://youtu.be/PQi8V3fFT3E>`_
 	* Multiple gamepads |todo|
@@ -61,7 +60,6 @@ Default Functions
 ==========================
 
 `Default Functions <https://youtu.be/jL9odSFwZLQ>`_ 
-
 
 Import/Export/Reset Preferences
 ================================

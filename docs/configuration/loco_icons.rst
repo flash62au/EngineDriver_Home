@@ -25,7 +25,7 @@ There are three ways to load & store your Locomotive Icon Image in Engine Driver
   * Start JMRI and capture and load your images into JMRI Roster & Media panel as normal
   * Start the WiThrottle server.
   * Start the Web Server.
-  * Connect **Engine Driver** to JMRI WiThrottle Server Discovered Server 'My JMRI Railroad' or type in the IP address : Port# 
+  * Connect |ed| to JMRI WiThrottle Server Discovered Server 'My JMRI Railroad' or type in the IP address : Port# 
   * Click ``Select`` and load your Locos then ``Release`` and repeat until you've loaded all the locomotives you require with Icons into a throttle. 
  
   These Loco Icons will automatically be saved/cached on the Android device/phone in a new '/Android/data/jmri.enginedriver/files/recent_engine_list/**recent_engine_list**' folder for you.

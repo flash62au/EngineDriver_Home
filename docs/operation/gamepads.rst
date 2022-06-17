@@ -53,11 +53,11 @@ Running Engine Driver with the Gamepad
 --------------------------------------
 
 * Set up the gamepad and connect to the Android device (see above)
-* Start **Engine Driver**
+* Start |ed|
 * Connect to a wiThrottle server 
 * Select a loco as normal and return to the Throttle screen. 
-* In the **Engine Driver**
-  * Select a gamepad type. |br|\ In the Gamepad section of **Engine Driver's** Preferences, select a gamepad corresponding to the gamepad mode you configured on the device (above).
+* In the |ed|
+  * Select a gamepad type. |br|\ In the Gamepad section of |EDs| Preferences, select a gamepad corresponding to the gamepad mode you configured on the device (above).
 
     * For the **mocute 032** gamepads we recommend ``MTK-rotate`` for MKT mode, and ``iCade+DPAD-rotate`` for iCade mode. 
     * For the **MagicSeeR1** you must use ``MagicSeeR1 Android-Game B``.
@@ -73,21 +73,21 @@ Running Engine Driver with the Gamepad
 
   * By default, The DPAD (joystick) on the gamepad will control throttle up, down and direction. 
   * By default, The four individual Buttons on the gamepad will control functions F0, F1, F2 and STOP for the selected throttle. 
-  * If you have engines assigned to more than one **Engine Driver** throttle, by default a short press of the :guilabel:`Start` Button will move the gamepad to the next assigned throttle. If you have changed the Preferences for the :guilabel:`Start` Button Action to ``ESTOP``, then a short press will set the speed for all your Engine Driver throttles to zero. 
+  * If you have engines assigned to more than one |ed| throttle, by default a short press of the :guilabel:`Start` Button will move the gamepad to the next assigned throttle. If you have changed the Preferences for the :guilabel:`Start` Button Action to ``ESTOP``, then a short press will set the speed for all your Engine Driver throttles to zero. 
   * If the :guilabel:`Select` Button is present on your gamepad, by default, pressing it will move the gamepad to the next assigned throttle.
-  * **Engine Driver's** on-screen buttons continue to function as before. Use them to add or drop locos, and to access any additional function buttons. 
+  * |EDs| on-screen buttons continue to function as before. Use them to add or drop locos, and to access any additional function buttons. 
 
 Remapping gamepad buttons
 -------------------------
 
-All the buttons of the gamepad that can be accessed by **Engine Driver** can be remapped to perform most of the features and functions of the Engine Driver Throttle Screen.
+All the buttons of the gamepad that can be accessed by |ed| can be remapped to perform most of the features and functions of the Engine Driver Throttle Screen.
 
 `See Gamepad Configuration <../configuration/gamepads.html>`_ for details.
 
 Multiple gamepads
 -----------------
 
-**Engine Driver** supports up to 4 gamepads at the same time.  All the gamepads must be of the same type.
+|ed| supports up to 4 gamepads at the same time.  All the gamepads must be of the same type.
 
 As you connect each gamepad, you will be force to go to the gamepad test screen.  The new gamepad will be automatically assigned to the next throttle that does not have a gamepad assigned to it.
 
@@ -156,7 +156,7 @@ Unsupported Gamepads
 
 **VR Box**
 
-Support for this type of gamepad was removed from **Engine Driver** as the device was so unreliable.  However is very similar to the Utopia 360, so if you have one that works, try the Utopia 360 options.
+Support for this type of gamepad was removed from |ed| as the device was so unreliable.  However is very similar to the Utopia 360, so if you have one that works, try the Utopia 360 options.
 
 .. image:: ../_static/images/gamepads/vrbox.png
    :scale: 70 %

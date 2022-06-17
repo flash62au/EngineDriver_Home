@@ -15,16 +15,16 @@ Prerequisites for Using Engine Driver
 To Use Engine Driver You must...
 --------------------------------
 
-1. Have a Android device/phone. **Engine Driver** can only be installed on an Android Device/Phone.
+1. Have a Android device/phone. |ed| can only be installed on an Android Device/Phone.
 
 *ALSO*
 
-2. A *WiThrottle Server* must be available on a device connected to your model train layout for **Engine Driver** to connect to.
+2. A *WiThrottle Server* must be available on a device connected to your model train layout for |ed| to connect to.
 
 Android Device/Phone
 --------------------
 
-**Engine Driver** will work on most Android devices made in the last 8-9 years. Currently it has a minSDKVersion 16, which equates to minimum Android OS version of 4.1 (JELLYBEAN). Info on minSDKVersion available in the `Engine Driver manifest <https://developer.android.com/guide/topics/manifest/uses-sdk-element#ApiLevels>`_.
+|ed| will work on most Android devices made in the last 8-9 years. Currently it has a minSDKVersion 16, which equates to minimum Android OS version of 4.1 (JELLYBEAN). Info on minSDKVersion available in the `Engine Driver manifest <https://developer.android.com/guide/topics/manifest/uses-sdk-element#ApiLevels>`_.
 
 .. image:: ../_static/images/gamepads/esu_mcii.png
    :scale: 15 %
@@ -33,7 +33,7 @@ Android Device/Phone
 ESU MobileControl II
 """"""""""""""""""""
 
-**Engine Driver** also fully supports the `ESU MobileControl II (MC2) <http://www.esu.eu/en/products/digital-control/mobile-control-ii/>`_ Android throttle.
+|ed| also fully supports the `ESU MobileControl II (MC2) <http://www.esu.eu/en/products/digital-control/mobile-control-ii/>`_ Android throttle.
 
 .. note:: 
   :class: note-ed-hidden-title

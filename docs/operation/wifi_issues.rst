@@ -34,7 +34,7 @@ Firewalls
 
 |todo|
 
-Your PC's firewall software can prevent **Engine Driver** from connecting. You may need to add an exception in your firewall software for JMRI or disable the firewall to allow **Engine Driver** to connect.
+Your PC's firewall software can prevent |ed| from connecting. You may need to add an exception in your firewall software for JMRI or disable the firewall to allow |ed| to connect.
 
 
 Using Mobile Data instead of WiFi

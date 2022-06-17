@@ -53,7 +53,7 @@ It allows you choose which WiThrottle Server to connect, which you must do to co
 
 Once you select a server the 'Throttle Screen' will be automatically displayed.
 
-If you only ever connect to one WiThrottle server you can effectively bypass this screen by setting the ``Auto-Connect to WiThrottle Server?`` preference.
+If you only ever connect to one WiThrottle server you can effectively bypass this screen by enabling the `Auto-Connect to WiThrottle Server? <../configuration/preferences.html#auto-connect-to-withrottle-server>`_ preference.
 
 ----
 
@@ -87,7 +87,7 @@ The *Throttle Screen* contains between 1 and 6 Throttle areas depending on the T
 Throttle Area
 """"""""""""""""""""""""""""""""""""
 
-Each Throttle on the Throttle Screen will display different information and buttons depending on the ``Throttle Screen Layout`` chosen: :menuselection:`Menu --> Preferences --> Throttle Screen Appearance Preferences --> Throttle Screen Layout`
+Each Throttle on the Throttle Screen will display different information and buttons depending on the ``Throttle Screen Layout`` in the  `Throttle Screen Layout <../configuration/preferences.html#throttle-screen-layout>` preference.
 
 Each *Throttle Area* allows you to:
 
@@ -100,7 +100,7 @@ Each *Throttle Area* allows you to:
 
    The loco ``Select`` in the Throttle Area allows to select or release locos for that particular Throttle.  Click on the button and you will be taken to the Select Loco screen.
 
-   Once you have selected a loco, the label on the button change to the DCC Address(s) or the Roster name(s) of the Loco depending on how you select the loco in the Loco Select Screen, and if you have the set the ``Loco Address instead of Name?``: preference :menuselection:`Menu --> Preferences --> Throttle Screen Appearance Preferences --> Loco Address instead of Name?`.
+   Once you have selected a loco, the label on the button change to the DCC Address(s) or the Roster name(s) of the Loco depending on how you select the loco in the Loco Select Screen, and if you have the enabled the `Loco Address instead of Name? <../preferences.html#loco-address-instead-of-name>`_ preference.
 
    When the button is displaying DCC Address(s) or the Roster name(s), click on the button again and you will be taken to the Select Loco screen where you can de-select the loco(s), select additional locos to make a consist / multiple unit train, edit the locos in the consist, or edit the lights of the locos in the consist / multiple unit.
 
@@ -132,27 +132,31 @@ Each *Throttle Area* allows you to:
    .. note:: 
       :class: note-ed-hidden-title
 
-      See the Throttle Control Preferences section of the `Preferences <../configuration/preferences.html#throttle-control-preferences>`_ page for a detailed explanation of the ``Speed Untits`` options.
+      See the Throttle Control Preferences section of the `Preferences <../configuration/preferences.html#throttle-control-preferences>`_ page for a detailed explanation of the ``Speed Units`` options.
 
    **Speed Slider Area**
 
-   TODO
+   |todo|
 
    The Throttle areas can be configured with a slider.  Dragging you finger along the slider will increase or decrease the speed of the loco(s) selected for the that Throttle. Pressing and holding your finger at one spot on the slider will cause |ED| to slowly increase or decrease the speed of the loco(s) selected for the that Throttle till it gets to that point.
    
-   Depending on the ``Throttle Screen Layout`` chosen all sliders on the Throttle Screen will be either:
+   Depending on the ``Throttle Screen Layout`` chosen in the  `Throttle Screen Layout <../configuration/preferences.html#throttle-screen-layout>` preference, all sliders on the *Throttle Screen* will be either:
    
    * one-directional (0% - 100%) |br|\ or 
    * bi-directional (-100% - 0 - +100%) 
 
-
-   Bi-directional sliders are useful for when you are switching/shunting. i.e. moving backwards and forwards a lot.
+   Bi-directional sliders are useful for when you are switching/shunting. i.e. moving your locos backwards and forwards a lot.
 
    **Speed Buttons**
 
    |todo|
 
-   The Throttle may configured have simple buttons that allow you to increase or decrease the locomotive's speed in pre-defined steps.  
+   The Throttle may configured have simple buttons that allow you to increase or decrease the loco's speed in pre-defined steps.  
+
+   .. note:: 
+      :class: note-ed-hidden-title
+
+     See the `Display Speed Buttons? <../configuration/preferences.html#display-speed-buttons>`_ preference for more information.
 
    **Direction Buttons Area**
 
@@ -164,11 +168,22 @@ Each *Throttle Area* allows you to:
 
    Function Buttons are displayed here.  If there are too many to display in the screen area allocated, then the area becomes scrollable (but without scroll bars) so that they can all be viewed and pressed as needed.
 
+   Will show 0-26 function buttons, which show either:
+
+   * labels provided from the roster
+   * The default labels for |ed|  (which can be changed)
+
+   can also show
+
+   * IPLS buttons
+   * Pause
+   * Limit Speed
+
    **Web View Area**
 
    Your JMRI Layout panel can be displayed here if you have configured it to do so in Preferences. 
    
-   TODO
+   |todo|
 
 Web View Area
 """"""""""""""""""""""""""""""""""""
@@ -180,7 +195,7 @@ optional
 Action Bar (Throttle Screen)
 """"""""""""""""""""""""""""
 
-While common across all the screens, the Action bar and menus has some options that are only available from the Throttle Screen. |br|\ These include:
+While common across all the screens, the Action bar and menus have some options that are only available from the Throttle Screen. |br|\ These include:
 
   * Flashlight (if enabled)
   * Throttle Web View (if enabled)
@@ -197,10 +212,20 @@ Common options include:
 
 |todo|
 
+.. image:: ../_static/images/screenshots/background_fill.png
+  :align: right
+  :scale: 12%
+
 Background
 """"""""""
 
-|todo|
+|ed| can show a background image of your choosing on the Throttle screen.  Any image/photo on your device/phone can be used.
+
+.. note:: 
+   :class: note-ed-hidden-title
+
+   See the  `Background Images section <../configuration/preferences.html#background-image-preferences>`_  of the preferences for more information on how to select a background image.
+
 
 Immersive Mode (Full Screen)
 """"""""""""""""""""""""""""
@@ -394,7 +419,7 @@ Preferences Screen
 
 Accessed from any of the main screens via :menuselection:`Menu --> Preferences`.
 
-This screen allows you to personalise  **Engine Driver** for how you want it to use it.
+This screen allows you to personalise  |ed| for how you want it to use it.
 
 .. note:: 
    :class: note-ed-hidden-title
@@ -440,7 +465,7 @@ Accessed from any of the main screens via :menuselection:`Menu --> View Log`.
 This screen allows you to view the internal Engine Driver log of events.
 This is sometimes useful for analysing problems.
 
-The option to `Start recording to file`` creates a user-accessible file that can be sent to the **Engine Driver** app developers or the `Groups.io <https://groups.io/g/jmriusers/topics>`_` help group to assist you in resolving a problem.
+The option to `Start recording to file`` creates a user-accessible file that can be sent to the |ed| app developers or the `Groups.io <https://groups.io/g/jmriusers/topics>`_` help group to assist you in resolving a problem.
 The file will be located on your mobile phone at:
 Internal storage ``/Android/data/jmri.enginedriver/files`` |br|\ and will be named something like: ``logcat9999999999999.txt``
 
@@ -520,7 +545,7 @@ The Action Bar appears at the top of all screen. It will show different informat
 
 The Action Bar can display:
 
-* The app name (**Engine Driver**)
+* The app name (|ed|)
 * Optionally configured information:
 
   * Fast Clock
