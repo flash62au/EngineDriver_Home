@@ -111,41 +111,80 @@ Each *Throttle Area* allows you to:
 
    **Speed indicator**
 
-   |todo|
+   The *Speed Indicator* or *Speed* area of each throttle of the *Throttle Screen* indicates the throttle amount/setting (rather than the actual speed of the locos controlled by the the throttle).
    
-   * Speed
+   Depending on the `Speed Units Preference <../configuration/preferences.html#speed-units>`_ the upper value show will be different: 
 
-     * Percent 0 - 100%
-     * Auto Speed steps
-     * 8 steps
-     * 10 steps
-     * 14 steps
-     * 28 steps
-     * 128 steps
+   .. list-table::
+    :width: 100%
+    :widths: 60 20 20
+    :header-rows: 1
 
-   * Direction
+    * - Speed Unit Setting
+      - Low value
+      - High Value
+    * - Percent 0 - 100% 
+      - 0
+      - 100
+    * - Auto Speed steps 
+      - ?
+      - ?
+    * - 8 steps 
+      - 0
+      - 8
+    * - 10 steps 
+      - 0
+      - 10
+    * - 14 steps 
+      - 0
+      - 14
+    * - 28 steps 
+      - 0
+      - 28
+    * - 128 steps
+      - 0
+      - 128
+
+   Also, if one of the Shunting/Switching layouts is selected, the high number will be negative ('-') when reversed (e.g. -100 - 0 - 100)
+
+   The *Speed Indicator* area also can show:
+
    * Volume indicator
    * Gamepad Indicator
+   * Direction indicator (Shunting/Switching Layouts only)
 
-   Touch a Speed Indicator to set which Throttle the Hardware Volume buttons control.
+   *Volume Indicator*
+
+   A 'V' will be shown in the *Speed Indicator* area to indicate which throttle is being controlled by the hardware volume buttons.
+   Touch another *Speed Indicator* to change which Throttle the Hardware Volume buttons control.
+
+   *Gamepad Indicator*
+   
+   A number ('1','2', etc.) will be shown in the *Speed Indicator* area to indicate which throttle is being controlled by the each connected gamepad.  Set one of the gamepad to allow you to switch throttle it controls.
+
+   *Direction indicator*
+
+   If one of the Shunting/Switching layouts is selected, a triangle symbol will be shown to indicate direction (pointing Up for forward, and down for reverse).
 
    .. note:: 
       :class: note-ed-hidden-title
 
-      See the Throttle Control Preferences section of the `Preferences <../configuration/preferences.html#throttle-control-preferences>`_ page for a detailed explanation of the ``Speed Units`` options.
+      See the Throttle Control Preferences section of the `Speed Units preference <../configuration/preferences.html#speed-units>`_ for a information on changing the ``Speed Units`` options.
 
    **Speed Slider Area**
 
    |todo|
 
-   The Throttle areas can be configured with a slider.  Dragging you finger along the slider will increase or decrease the speed of the loco(s) selected for the that Throttle. Pressing and holding your finger at one spot on the slider will cause |ED| to slowly increase or decrease the speed of the loco(s) selected for the that Throttle till it gets to that point.
+   The Throttle areas can be configured with a *Speed Slider*.  (All bar the 'Big Button' throttle screen layouts include sliders by default.) Dragging you finger along the slider will increase or decrease the speed of the loco(s) selected for the that Throttle. Pressing and holding your finger at one spot on the slider will cause |ED| to slowly increase or decrease the speed of the loco(s) selected for that Throttle till it gets to that point.
    
    Depending on the ``Throttle Screen Layout`` chosen in the  `Throttle Screen Layout <../configuration/preferences.html#throttle-screen-layout>` preference, all sliders on the *Throttle Screen* will be either:
    
-   * one-directional (0% - 100%) |br|\ or 
+   * one-directional (0% - 100%) [#PCT]_  |br|\ or 
    * bi-directional (-100% - 0 - +100%) 
 
    Bi-directional sliders are useful for when you are switching/shunting. i.e. moving your locos backwards and forwards a lot.
+
+   .. [#PCT] The actual amounts shown in the *Speed Indicator* will depend on the ``Speed Units`` chosen in the  `Speed Units preference <../configuration/preferences.html#speed-units>`_.
 
    **Speed Buttons**
 
