@@ -15,7 +15,7 @@ User Interface
 
 ----
 
-The user interface for |ED| is described and explained in these pages as 'screens'.  There are several 'Main Screens' which you will routinely interact with and and larger number of 'Secondary / Support Screens' that will interact with infrequently. 
+The user interface for |ED| is described and explained in these pages as 'screens'.  There are several '`Main Screens`_' which you will routinely interact with and and larger number of '`Secondary / Support Screens`_' that will interact with infrequently. 
 
 There are also some settings that impact all of the screens which described towards the end of this page:
 
@@ -357,7 +357,7 @@ Tap on any of the Open Windows to expand its view.  You can then resize the pane
 Secondary / Support Screens
 -------------------------------
 
-|todo|
+The follow additional screens will be shown at different times and for various reasons: 
 
 * `Intro/Setup Wizard Screen`_
 * `Loco Select Screen`_
@@ -377,7 +377,13 @@ Secondary / Support Screens
 Intro/Setup Wizard Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-|todo|
+The *Setup Wizard* will start automatically the first time you run |ed| after you install it.  It sets some basic preferences and asks for the necessary permissions.  These preferences can be subsequently be changed use the : :menuselection:`Menu --> Preferences`, or by re-running the wizard, which can only be done from the menu on the *Connection screen*.
+
+.. note:: 
+   :class: note-ed-hidden-title
+
+   See the  `Setup wizard page <../operation/setup_wizard.html>`_  for more information.
+
 
 ----
 
