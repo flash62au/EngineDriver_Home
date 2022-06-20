@@ -776,7 +776,7 @@
 <li><p>Activate Virtual (IPLS) Sounds (bell, horn, short horn) (if enabled)</p>
 <blockquote>
 <div><p><strong>Loco Select Button</strong></p>
-<p>The loco <code class="docutils literal notranslate"><span class="pre">Select</span></code> in the Throttle Area allows to select or release locos for that particular Throttle.  Click on the button and you will be taken to the Select Loco screen.</p>
+<p>The loco <span class="guilabel">Select</span> button in the Throttle Area allows to select or release locos for that particular Throttle.  Click on the button and you will be taken to the Select Loco screen.</p>
 <p>Once you have selected a loco, the label on the button change to the DCC Address(s) or the Roster name(s) of the Loco depending on how you select the loco in the Loco Select Screen, and if you have the enabled the <a class="reference external" href="../preferences.html#loco-address-instead-of-name">Loco Address instead of Name?</a> preference.</p>
 <p>When the button is displaying DCC Address(s) or the Roster name(s), click on the button again and you will be taken to the Select Loco screen where you can de-select the loco(s), select additional locos to make a consist / multiple unit train, edit the locos in the consist, or edit the lights of the locos in the consist / multiple unit.</p>
 <div class="note-ed-hidden-title admonition note">
@@ -841,21 +841,30 @@
 Touch another <em>Speed Indicator</em> to change which Throttle the Hardware Volume buttons control.</p>
 <p><em>Gamepad Indicator</em></p>
 <p>A number (‘1’,’2’, etc.) will be shown in the <em>Speed Indicator</em> area to indicate which throttle is being controlled by the each connected gamepad.  Set one of the gamepad to allow you to switch throttle it controls.</p>
-<p><em>Direction indicator</em></p>
+<p><em>Direction Indicator</em></p>
 <p>If one of the Shunting/Switching layouts is selected, a triangle symbol will be shown to indicate direction (pointing Up for forward, and down for reverse).</p>
 <div class="note-ed-hidden-title admonition note">
 <p class="admonition-title">Note</p>
 <p>See the Throttle Control Preferences section of the <a class="reference external" href="../configuration/preferences.html#speed-units">Speed Units preference</a> for a information on changing the <code class="docutils literal notranslate"><span class="pre">Speed</span> <span class="pre">Units</span></code> options.</p>
 </div>
 <p><strong>Speed Slider Area</strong></p>
-<p><div style="color:red">TODO</div></p>
-<p>The Throttle areas can be configured with a <em>Speed Slider</em>.  (All bar the ‘Big Button’ throttle screen layouts include sliders by default.) Dragging you finger along the slider will increase or decrease the speed of the loco(s) selected for the that Throttle. Pressing and holding your finger at one spot on the slider will cause <strong>Engine Driver</strong> to slowly increase or decrease the speed of the loco(s) selected for that Throttle till it gets to that point.</p>
-<p>Depending on the <code class="docutils literal notranslate"><span class="pre">Throttle</span> <span class="pre">Screen</span> <span class="pre">Layout</span></code> chosen in the  <cite>Throttle Screen Layout &lt;../configuration/preferences.html#throttle-screen-layout&gt;</cite> preference, all sliders on the <em>Throttle Screen</em> will be either:</p>
+<p>The Throttle areas can be configured with a <em>Speed Slider</em>.  (All Throttle Screen layouts except the ‘Big Button’ layouts include sliders by default.) Dragging you finger along the slider will increase or decrease the speed of the loco(s) selected for the that Throttle. Pressing and holding your finger at one spot on the slider will cause <strong>Engine Driver</strong> to slowly increase or decrease the speed of the loco(s) selected for that Throttle till it gets to that point.</p>
+<p>Depending on the <code class="docutils literal notranslate"><span class="pre">Throttle</span> <span class="pre">Screen</span> <span class="pre">Layout</span></code> chosen in the  <a class="reference external" href="../configuration/preferences.html#throttle-screen-layout">Throttle Screen Layout</a> preference, all sliders on the <em>Throttle Screen</em> will be either:</p>
 <ul class="simple">
 <li><p>one-directional (0% - 100%) <a class="footnote-reference brackets" href="#pct" id="id2">1</a>  <br />or</p></li>
-<li><p>bi-directional (-100% - 0 - +100%)</p></li>
+<li><p>bi-directional (-100% - 0 - +100%) <br /> <br /></p></li>
 </ul>
 <p>Bi-directional sliders are useful for when you are switching/shunting. i.e. moving your locos backwards and forwards a lot.</p>
+<p>Several preferences can change the appearance or actions of the <em>Speed Slider</em>:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="../configuration/preferences.html#increase-slider-speed-height">Increase Slider/Speed Height?</a> <br /> When set, this preference will show a taller Slider, or Speed buttons, for throttles</p></li>
+<li><p><a class="reference external" href="../configuration/preferences.html#throttle-speed-slider-margin">Throttle Speed Slider Margin</a> <br /> When set, this changes the space between either the edge of the screen and the ends of the Slider, or if the Speed Buttons are enabled, the edge of the Speed Buttons and the ends of the Slider. Specific in pixels haw far to offset</p></li>
+<li><p><a class="reference external" href="../configuration/preferences.html#hide-speed-slider">Hide Speed Slider?</a> <br /> When this preferences is set, <strong>Engine Driver</strong> will not show speed slider, use speed buttons instead</p></li>
+<li><p><a class="reference external" href="../configuration/preferences.html#tick-marks-on-speed-sliders">Tick Marks on Speed Sliders?</a> <br /> When this preferences is set, Engine Driver will show tick marks on the background of the Speed Sliders</p></li>
+<li><p><a class="reference external" href="../configuration/preferences.html#switching-throttle-dead-zone">Switching throttle Dead Zone</a> <br /> When this preferences is set, Engine Driver will set the size of the dead zone, or detent, on the slider of the Switching/Shunting Throttle Screen</p></li>
+<li><p><a class="reference external" href="../configuration/preferences.html#stop-button-vertical-margins">Stop Button Vertical Margins</a> <br /> When this preferences is set, Engine Driver will add the entered number of pixels to offset margins of the stop button from the speed buttons and bottom of screen</p></li>
+</ul>
+<p><br /></p>
 <dl class="footnote brackets">
 <dt class="label" id="pct"><span class="brackets"><a class="fn-backref" href="#id2">1</a></span></dt>
 <dd><p>The actual amounts shown in the <em>Speed Indicator</em> will depend on the <code class="docutils literal notranslate"><span class="pre">Speed</span> <span class="pre">Units</span></code> chosen in the  <a class="reference external" href="../configuration/preferences.html#speed-units">Speed Units preference</a>.</p>
