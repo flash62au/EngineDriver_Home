@@ -134,3 +134,4 @@ Style Guidelines
   * \-\-\-\-\-\-\-\-\-\-\-\-\-\-\- for subsections
   * ^^^^^^^^^ for subsubsections
   * \"\"\"\"\"\"\"\"\"\"\"\"\"\"\" for paragraphs
+  * \'\'\'\'\'\'\'\'\'\'\'\'\'\'\'\ for sub paragraphs

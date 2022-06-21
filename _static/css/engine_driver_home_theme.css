@@ -20,11 +20,12 @@ h4, .h4 {
   font-style: italic;
 } 
 
-/*
+
 h5, .h5 {
-  font-family: Lato,proxima-nova,Helvetica Neue,Arial,sans-serif !important;
+  font-size: 90%;
+  font-style: italic;
 }
-*/
+
 
 .wy-nav-top {
   background:#ffae00 !important; 

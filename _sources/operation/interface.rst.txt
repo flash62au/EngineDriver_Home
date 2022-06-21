@@ -11,7 +11,7 @@ User Interface
 
   .. contents:: On This Page
      :local:
-     :depth: 3
+     :depth: 4
 
 ----
 
@@ -87,7 +87,7 @@ The *Throttle Screen* contains between 1 and 6 Throttle areas depending on the T
 Throttle Area
 """"""""""""""""""""""""""""""""""""
 
-Each Throttle on the Throttle Screen will display different information and buttons depending on the ``Throttle Screen Layout`` in the  `Throttle Screen Layout <../configuration/preferences.html#throttle-screen-layout>` preference.
+Each Throttle on the Throttle Screen will display different information and buttons depending on the ``Throttle Screen Layout`` in the  `Throttle Screen Layout <../configuration/preferences.html#throttle-screen-layout>`_ preference.
 
 Each *Throttle Area* allows you to:
 
@@ -96,7 +96,8 @@ Each *Throttle Area* allows you to:
 * Activate DCC decoder functions like the light, bell, horn 
 * Activate Virtual (IPLS) Sounds (bell, horn, short horn) (if enabled)
 
-   **Loco Select Button**
+Loco Select Button
+''''''''''''''''''''''''''''''''
 
    The loco :guilabel:`Select` button in the Throttle Area allows to select or release locos for that particular Throttle.  Click on the button and you will be taken to the Select Loco screen.
 
@@ -109,7 +110,8 @@ Each *Throttle Area* allows you to:
 
       See the `Operation <../operation/index.html#selecting-releasing-locos>`_ page for more information.
 
-   **Speed indicator**
+Speed indicator
+''''''''''''''''''''''''''''''''
 
    The *Speed Indicator* or *Speed* area of each throttle of the *Throttle Screen* indicates the throttle amount/setting (rather than the actual speed of the locos controlled by the the throttle).
    
@@ -171,7 +173,8 @@ Each *Throttle Area* allows you to:
 
       See the Throttle Control Preferences section of the `Speed Units preference <../configuration/preferences.html#speed-units>`_ for a information on changing the ``Speed Units`` options.
 
-   **Speed Slider Area**
+Speed Slider Area
+''''''''''''''''''''''''''''''''
 
    The Throttle areas can be configured with a *Speed Slider*.  (All Throttle Screen layouts except the 'Big Button' layouts include sliders by default.) Dragging you finger along the slider will increase or decrease the speed of the loco(s) selected for the that Throttle. Pressing and holding your finger at one spot on the slider will cause |ED| to slowly increase or decrease the speed of the loco(s) selected for that Throttle till it gets to that point.
    
@@ -196,50 +199,81 @@ Each *Throttle Area* allows you to:
    .. [#PCT] The actual amounts shown in the *Speed Indicator* will depend on the ``Speed Units`` chosen in the  `Speed Units preference <../configuration/preferences.html#speed-units>`_.
 
 
-   **Speed Buttons**
+Speed Buttons
+''''''''''''''''''''''''''''''''
 
    |todo|
 
    The Throttle may configured have simple buttons that allow you to increase or decrease the loco's speed in pre-defined steps.  
 
    .. note:: 
-      :class: note-ed-hidden-title
+     :class: note-ed-hidden-title
 
      See the `Display Speed Buttons? <../configuration/preferences.html#display-speed-buttons>`_ preference for more information.
 
-   **Direction Buttons Area**
+Direction Buttons Area
+''''''''''''''''''''''''''''''''
 
    |todo|
 
-   **Function Buttons Scroll Area**
+   Each Throttle on the Throttle Screen will display :guilabel:`Forward` and :guilabel:`Reverse` direction buttons, depending on the ``Throttle Screen Layout`` in the  `Throttle Screen Layout <../configuration/preferences.html#throttle-screen-layout>`_ preference.  'Shunting/Switching' layouts do not show the direction buttons.
+
+   Change direction while moving preference.
+
+
+Function Buttons Scroll Area
+''''''''''''''''''''''''''''''''
 
    |todo|
 
-   Function Buttons are displayed here.  If there are too many to display in the screen area allocated, then the area becomes scrollable (but without scroll bars) so that they can all be viewed and pressed as needed.
+   DCC Function Buttons are displayed here.  If there are too many to display in the screen area allocated, then the area becomes scrollable (without scroll bars) so that they can all be viewed and pressed as needed.  
+   
+   All throttle layouts other the the 'Simple' layout show a *Function Buttons Scroll Area* by default.  For the 'Simple' layout it must be enable in the preferences if required.
 
    Will show 0-26 function buttons, which show either:
 
    * labels provided from the roster
    * The default labels for |ed|  (which can be changed)
 
-   can also show
+   For roster Entries you need to edit the Function buttons in the wiThrottle Server, or configure |ed| to use the default labels.
 
-   * IPLS buttons
+   The *Function Button area* can also show:
+
+   * IPLS buttons  (In Phone Loco Sounds)
    * Pause
    * Limit Speed
 
-   **Web View Area**
+   .. note:: 
+     :class: note-ed-hidden-title
 
-   Your JMRI Layout panel can be displayed here if you have configured it to do so in Preferences. 
+     see IPLS
+
+     see Defualt Functions
+
+     see pause and Limit speed
+
+     see the function button size preference for the simple layout
+
+
+Web View Area (Throttle Web View)
+''''''''''''''''''''''''''''''''''
    
    |todo|
 
-Web View Area
-""""""""""""""""""""""""""""""""""""
+   Shows a web browser in the lower half of the *throttle Screen*.
 
-|todo|
+   Your JMRI Layout panels can be displayed here if you have configured it to do so in Preferences. 
 
-optional
+.. note:: 
+     :class: note-ed-hidden-title
+
+     see preference
+
+     see initioal page
+
+     different to the main *Web Screen*
+
+     see increase size
 
 Action Bar (Throttle Screen)
 """"""""""""""""""""""""""""
@@ -281,8 +315,15 @@ Immersive Mode (Full Screen)
 
 |todo|
 
+Swipe Left / Right (From Throttle)
+""""""""""""""""""""""""""""""""""""
+
+|todo|
+
 Swipe Up / Down
 """""""""""""""
+
+|todo|
 
 Accelerometer (Shake)  
 """""""""""""""""""""
@@ -302,6 +343,23 @@ This screen allows you to display all Turnouts/Points that have been defined in 
 
 Turnouts/Points can be changed from Closed to Thrown and vice versa be pressing on either the “Closed” or “Thrown” buttons
 
+List
+Filter
+
+|todo|
+
+
+Entry
+
+|todo|
+
+Swipe Left / Right (From Turnouts/Points)
+"""""""""""""""""""""""""""""""""""""""""""
+
+|todo|
+
+
+
 ----
 
 Routes Screen
@@ -312,6 +370,18 @@ Routes Screen
 Accessed from any of the main screens by the menu :menuselection:`Menu --> Routes` or by swiping left from the Throttle Screen if enabled in the Left with the ``Swipe through Routes?`` preference: :menuselection:`Menu --> Preferences --> Left/Right Swipe Preferences --> Swipe through Routes`
 
 This screen allows you to display all Routes that have been defined in JMRI or DCC++EX.
+
+
+List
+Filter
+
+|todo|
+
+Swipe Left / Right (From Routes)
+""""""""""""""""""""""""""""""""""
+
+|todo|
+
 
 ----
 
@@ -353,6 +423,12 @@ This can be used for:
 * Any URL in a full screen.  This is in addition to being able to display your JMRI layout panel in a small section of the main Throttle Screen.
 
 Tap on any of the Open Windows to expand its view.  You can then resize the panel by pinching and zooming.  It is sometimes useful to rotate your device to landscape mode, so as to better view your layout.
+
+Swipe Left / Right (Web Screen)
+"""""""""""""""""""""""""""""""
+
+|todo|
+
 
 Secondary / Support Screens
 -------------------------------
@@ -407,10 +483,16 @@ Select from Sever Roster
 
 |todo|
 
+Filter
+
+Icons
+
 Select from Recent Locos List
 """""""""""""""""""""""""""""
 
 |todo|
+
+Icons
 
 Select from Recent Consists List
 """"""""""""""""""""""""""""""""
@@ -464,8 +546,9 @@ This screen allows you to toggle the state of track power to your layout.
 
 * When the button is **Green**, it indicates that track power is 'On'.
 * When the button is **Red**, it indicates that track power is 'Off'.
+* When the button is **Amber**, it indicates that track power state is unknown.
 * Pressing a **Green** button will cause the button to be changed to **Red** and the track power will be turned 'Off'.
-* Pressing a **Red** button will cause the button to be changed to **Green** and the track power will be turned 'On'.
+* Pressing a **Red** button or **Amber** button will cause the button to be changed to **Green** and the track power will be turned 'On'.
 
 ----
 
