@@ -60,7 +60,15 @@ IP Address and Port
 
 |todo|
 
-Enther the IP address or URI of the server in the first field, and the port in the second field, then click :guilabel:`Connect`. |ed| will attempt to connect to it, and the *Throttle Screen* will be displayed.
+Enter the IP address or URI of the server in the first field, and the port in the second field, then click :guilabel:`Connect`. |ed| will attempt to connect to it, and the *Throttle Screen* will be displayed.
+
+failed connections...
+
+.. note:: 
+  :class: note-ed-hidden-title
+
+  See :doc:`wifi_issues` for more assistance with connection difficulties.
+
 
 Discovered Servers
 """"""""""""""""""
@@ -73,6 +81,13 @@ Your wiThrottle server will attempt to broadcast its details so that apps like |
 
 To connect to any wiThrottle Server in this list, simply click on the row.  |ed| will attempt to connect to it, and the *Throttle Screen* will be displayed.
 
+failed connections...
+
+.. note:: 
+  :class: note-ed-hidden-title
+
+  See :doc:`wifi_issues` for more assistance with connection difficulties.
+
 
 Recent servers
 """"""""""""""
@@ -82,6 +97,8 @@ Recent servers
 To connect to any wiThrottle Server in this list, simply click on the row.  |ed| will attempt to connect to it, and the *Throttle Screen* will be displayed.
 
 Note that, just because it is in this list, it does not mean that you can connect to it now. It only means that you have successfully connected to it in the past.
+
+failed connection
 
 ----
 
