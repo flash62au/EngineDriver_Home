@@ -13,7 +13,7 @@ Contributing
     :local:
 
 Contributing to the Code
-------------------------
+========================
 
 |ed| is open source software written in Java. The source code is available on `github.com/JMRI/EngineDriver <https://github.com/JMRI/EngineDriver>`_.
 
@@ -55,12 +55,22 @@ To publish your changes:
 * Android Studio, commit and push your changes to *your own* GitHub repository.. |br|\ To do this you will need to define a new remote ``https://github.com/<your name>/EngineDriver``
 * Go to GitHub and issue a pull request for your branch to be pulled into the original repository. Once it's merged in by one of the admins, your changes will go live!
 
+Contributing to the Localisation (Languages)
+============================================
+
+We are always looking for people to help with maintaining and expanding the non-English versions of the text in the code.
+
+It is possible to do so via the methods described in `Contributing to the Code <./index.html#contributing-to-the-code>`_ but if you are not a developer this can be daunting.  
+
+If you are interested in helping with this please please :doc:`contact <../contact/index>` the developers and we can provide a simpler way to contribute.
+
+
 Contributing to the Documentation
----------------------------------
+=================================
 
 This documentation is open source and can be accessed on `github.com/flash62au/EngineDriver_Home <https://github.com/flash62au/EngineDriver_Home>`_
 
-All documentation is done using **reStructuredText**, for which you can find information on the official website: `reStructuredText <https://docutils.sourceforge.io/rst.html>`_
+All this documentation is done using **reStructuredText**, for which you can find information on the official website: `reStructuredText <https://docutils.sourceforge.io/rst.html>`_
 or the `Sphinx <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html>`_ document builder tool website.
 **reStructuredText** is a markdown type language, for typesetting documents from websites to PDF or LaTeX documents. 
 This Website is built upon this technology, so you should make yourself familiar with this by looking through the links provided.
@@ -106,7 +116,7 @@ The steps listed here provide guidance on how to edit and preview changes to the
 .. [#makegithub] There is a batch file ``make github.bat`` in the ``EngineDriver_Home`` folder which should be able to be double-clicked on the run this command. It will pause at the end to allow you see if there are any issues.
 
 Style Guidelines
-^^^^^^^^^^^^^^^^
+----------------
 
 * Use British/Australian/Canadian spelling e.g. 'colour' not 'color'.  |br|\ (Primarily because it is used in more English speaking countries)
 *	Use railroad/railway terminology that is understandable by all English-speaking people. |br|\ Where there are clear differences from US to non-US terminology use both with a slash between and use the US version first. e.g. turnouts/points, consists/multiple units, switching/shunting.  (Primarily because JMRI uses the US terminology)
@@ -128,10 +138,10 @@ Style Guidelines
 * For dates, use dd-mmm-yyyy or yyyy-mm-dd to avoid confusion with the way dates are uniquely written in the US. |br|\ e.g. 2-Mar-2022 or 2022-3-2, not 2-3-2022 
 * Heading levels:
 
-  * ######### with overline, for parts
-  * \*\*\*\*\*\*\*\*\*\*\*\* with overline, for chapters
+  * ######### with overline, for parts - not really used
+  * \*\*\*\*\*\*\*\*\*\*\*\* Page Titles
   * ========= for sections
   * \-\-\-\-\-\-\-\-\-\-\-\-\-\-\- for subsections
   * ^^^^^^^^^ for subsubsections
   * \"\"\"\"\"\"\"\"\"\"\"\"\"\"\" for paragraphs
-  * \'\'\'\'\'\'\'\'\'\'\'\'\'\'\'\ for sub paragraphs
+  * \'\'\'\'\'\'\'\'\'\'\'\'\'\'\'\'\'\'\'\'\'\'\'\'\'\'\' for sub paragraphs

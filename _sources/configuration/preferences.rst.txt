@@ -25,9 +25,9 @@ Advanced Preferences
 Show Advanced Preferences?
 """"""""""""""""""""""""""
 
-By default, only a small number of core preferences are displayed. 
+By default, only a small number of core preferences are displayed on the *Preferences Screen*. 
 
-If you enable this preference |ed| will immedialy show the additional preferences.
+If you enable this preference |ed| will immediately show all the additional preferences.
 
 Device Preferences
 ------------------
@@ -109,7 +109,7 @@ Localisation
 
 Changing the *Localisation* primarily changes the language used in the menus, buttons and messages throughout |ED|.
 
-For English, it also changes the railroad/railway terminology (eg, Selecting 'Use Phone's global setting' and having this set to 'English (Australia)' or 'English (UK)' results in the term 'Points' to be displayed rather than 'Turnouts' as is displayed when 'English (US)' is selected). In the Preferences screen and the Throttle Screen Layout selection screen (where 'shunting' is displayed rather than 'switching').  This is not guaranteed to operate on all text on all screens. 
+For English, it also changes the railroad/railway terminology (eg, Selecting 'Use Phone's global setting' and having this set to 'English (Australia)' or 'English (UK)' results in the term 'Points' to be displayed rather than 'Turnouts' which is displayed when 'English (US)' is selected). In the Preferences screen and the Throttle Screen Layout selection screen (where 'shunting' is displayed rather than 'switching').  This is not guaranteed to operate on all text on all screens. 
 
 Supported localisations are:
 
@@ -1400,7 +1400,7 @@ If this preference is enabled you can change the Lights of the individual locos 
 Note this only will work while the :guilabel:`Select` button is *Enabled*.  If the `Allow loco select while moving?`_ preference is disabled, the :guilabel:`Select` button is *Disabled* while the throttle is greater than zero.
 
 Filter Roster
-"""""""""""""""""""""""""
+"""""""""""""
 
 |todo|
 
@@ -1412,35 +1412,35 @@ In Phone Loco Sounds
 |todo|
 
 Throttle 1 Loco Sounds
-"""""""""""""""""""""""""
+""""""""""""""""""""""
 
 |todo|
 
 Play basic loco sounds in the phone for Throttle 1
 
 Throttle 2 Loco Sounds
-"""""""""""""""""""""""""
+""""""""""""""""""""""
 
 |todo|
 
 Play basic loco sounds in the phone for Throttle 2
 
 Additional Preferences
-"""""""""""""""""""""""""
+""""""""""""""""""""""
 
 |todo|
 
 Additional In Phone Loco Sounds preferences
 
 In Phone Momentum
-'''''''''''''''''''''''''''''''''''
+'''''''''''''''''
 
 |todo|
 
 Delay (momentum) per step change in milliseconds (0-2000)
 
 Don't clip loco step sounds
-'''''''''''''''''''''''''''''''''''
+'''''''''''''''''''''''''''
 
 |todo|
 
@@ -1448,14 +1448,14 @@ Loco step sounds will play till their end when changing step.  Momentum amount (
 
 
 In Phone Loco Sounds Volume
-'''''''''''''''''''''''''''''''''''
+'''''''''''''''''''''''''''
 
 |todo|
 
 Volume for Loco engine sounds in the phone (1-100)
 
 In Phone Bell Sounds Volume
-'''''''''''''''''''''''''''''''''''
+'''''''''''''''''''''''''''
 
 |todo|
 
@@ -1469,14 +1469,14 @@ In Phone Horn/Whistle Sounds Volume
 Volume for Horn/Whistle sounds in the phone (1-100)
 
 Bell button Latching/Momentary
-'''''''''''''''''''''''''''''''''''
+''''''''''''''''''''''''''''''
 
 |todo|
 
 Bell button is momentary (not latching)?
 
 F1 and F2 activate Bell and Horn?
-'''''''''''''''''''''''''''''''''''
+'''''''''''''''''''''''''''''''''
 
 |todo|
 
@@ -1500,7 +1500,7 @@ Enable this preference if you wish to connect automatically to 'first' WiThrottl
 
 
 Hide Demo Server
-"""""""""""""""""""""""""
+""""""""""""""""
 
 Enable this preference if you wish to hide the Demo Server ('jmri.mstevetodd.com') in the connection list on the Connection page.
 

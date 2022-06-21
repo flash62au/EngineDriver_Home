@@ -117,7 +117,12 @@
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../operation/interface.html">User Interface</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="../operation/interface.html#main-screens">Main Screens</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="../operation/interface.html#connection-screen">Connection Screen</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../operation/interface.html#connection-screen">Connection Screen</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../operation/interface.html#ip-address-and-port">IP Address and Port</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../operation/interface.html#discovered-servers">Discovered Servers</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../operation/interface.html#recent-servers">Recent servers</a></li>
+</ul>
+</li>
 <li class="toctree-l4"><a class="reference internal" href="../operation/interface.html#throttle-screen">Throttle Screen</a><ul>
 <li class="toctree-l5"><a class="reference internal" href="../operation/interface.html#throttle-area">Throttle Area</a><ul>
 <li class="toctree-l6"><a class="reference internal" href="../operation/interface.html#loco-select-button">Loco Select Button</a></li>
@@ -159,6 +164,14 @@
 <li class="toctree-l5"><a class="reference internal" href="../operation/interface.html#select-from-sever-roster">Select from Sever Roster</a></li>
 <li class="toctree-l5"><a class="reference internal" href="../operation/interface.html#select-from-recent-locos-list">Select from Recent Locos List</a></li>
 <li class="toctree-l5"><a class="reference internal" href="../operation/interface.html#select-from-recent-consists-list">Select from Recent Consists List</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../operation/interface.html#select-loco-on-screen-buttons">Select Loco On Screen Buttons</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../operation/interface.html#acquire">Acquire</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../operation/interface.html#release">Release</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../operation/interface.html#edit-order-facing">Edit Order &amp; Facing</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../operation/interface.html#edit-lights">Edit Lights</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../operation/interface.html#loco-sounds">Loco Sounds</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toctree-l4"><a class="reference internal" href="../operation/interface.html#consist-edit-screen">Consist Edit Screen</a><ul>
@@ -179,7 +192,7 @@
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="../operation/interface.html#common-elements-and-features">Common Elements and Features</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="../operation/interface.html#theme">Theme</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../operation/interface.html#theme-styles">Theme / Styles</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../operation/interface.html#localisation">Localisation</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../operation/interface.html#action-bar">Action Bar</a><ul>
 <li class="toctree-l5"><a class="reference internal" href="../operation/interface.html#emergency-stop">Emergency Stop</a></li>
@@ -223,15 +236,14 @@
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../operation/esu_mcii.html">ESU MobileControl II</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../operation/advanced.html">Advanced Operation</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../operation/advanced.html#children-s-timer">Children’s Timer</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../operation/advanced.html#consist-follow-functions">Consist Follow Functions</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../operation/advanced.html#haptic-feedback-vibration">Haptic Feedback (Vibration)</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../operation/advanced.html#direction-buttons">Direction Buttons</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../operation/advanced.html#renaming-direction-buttons">Renaming Direction Buttons</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../operation/advanced.html#swapping-direction-buttons">Swapping Direction Buttons</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../operation/advanced.html#conserving-power">Conserving Power</a></li>
 </ul>
 </li>
+<li class="toctree-l3"><a class="reference internal" href="../operation/advanced.html#children-s-timer">Children’s Timer</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../operation/faq.html">Frequently Asked Questions</a><ul>
@@ -604,6 +616,7 @@
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../contributing/index.html">Contributing</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="../contributing/index.html#contributing-to-the-code">Contributing to the Code</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../contributing/index.html#contributing-to-the-localisation-languages">Contributing to the Localisation (Languages)</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../contributing/index.html#contributing-to-the-documentation">Contributing to the Documentation</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="../contributing/index.html#style-guidelines">Style Guidelines</a></li>
 </ul>
@@ -656,8 +669,8 @@
 <section id="virtual-sounds-in-phone-loco-sounds-ipls">
 <h2>Virtual Sounds / In Phone Loco Sounds (IPLS)<a class="headerlink" href="#virtual-sounds-in-phone-loco-sounds-ipls" title="Permalink to this heading"></a></h2>
 <p><strong>Engine Driver</strong> can play synchronised locomotive sounds through your Android device/phones or through a BlueTooth speaker connected to it.</p>
-<p>To enable In Phone Loco Sounds (IPLS) select an option in <code class="docutils literal notranslate"><span class="pre">Throttle</span> <span class="pre">1</span> <span class="pre">Loco</span> <span class="pre">Sounds</span></code> or <code class="docutils literal notranslate"><span class="pre">Throttle</span> <span class="pre">2</span> <span class="pre">Loco</span> <span class="pre">Sounds</span></code> (or both) preferences. Once enabled for either throttle a new menu option will be available from Throttle Screen to make subsequent changes easier: <span class="menuselection">Menu ‣ Loco Sounds</span></p>
-<p>To make it easy to switch sound profiles we recommend enabling the Action Bar button by setting the <code class="docutils literal notranslate"><span class="pre">In</span> <span class="pre">phone</span> <span class="pre">sounds</span> <span class="pre">button</span></code> preferences: <span class="menuselection">Menu ‣ Preferences ‣ Throttle Screen Action Bar Preferences ‣ In phone sounds button</span></p>
+<p>To enable In Phone Loco Sounds (IPLS) select an option in <a class="reference external" href="./preferences.html#throttle-1-loco-sounds">Throttle 1 Loco Sounds</a> or <a class="reference external" href="./preferences.html#throttle-2-loco-sounds">Throttle 2 Loco Sounds</a> (or both) preferences. Once enabled for either throttle a new menu option will be available from Throttle Screen to make subsequent changes easier: <span class="menuselection">Menu ‣ Loco Sounds</span></p>
+<p>To make it easy to switch sound profiles we recommend enabling the Action Bar button by setting the <a class="reference external" href="./preferences#in-phone-sounds-button">In phone sounds button</a> preferences: <span class="menuselection">Menu ‣ Preferences ‣ Throttle Screen Action Bar Preferences ‣ In phone sounds button</span></p>
 <section id="loco-sounds">
 <h3>Loco Sounds<a class="headerlink" href="#loco-sounds" title="Permalink to this heading"></a></h3>
 <p><div style="color:red">TODO</div></p>
@@ -700,6 +713,10 @@ b2:sample/bell_end.mp3
 h0:sample/horn_start.mp3
 h1:sample/horn_loop.mp3
 h2:sample/horn_end.mp3
+/
+/ h+: short horn / whistle
+/
+h+:sample/SD40_NathanP3_Short.wav
 /
 / l0: Loco idle  l1:.. l16: Loco steps/notches
 / - MAX 16

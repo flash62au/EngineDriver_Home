@@ -117,7 +117,12 @@
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../operation/interface.html">User Interface</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="../operation/interface.html#main-screens">Main Screens</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="../operation/interface.html#connection-screen">Connection Screen</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../operation/interface.html#connection-screen">Connection Screen</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../operation/interface.html#ip-address-and-port">IP Address and Port</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../operation/interface.html#discovered-servers">Discovered Servers</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../operation/interface.html#recent-servers">Recent servers</a></li>
+</ul>
+</li>
 <li class="toctree-l4"><a class="reference internal" href="../operation/interface.html#throttle-screen">Throttle Screen</a><ul>
 <li class="toctree-l5"><a class="reference internal" href="../operation/interface.html#throttle-area">Throttle Area</a><ul>
 <li class="toctree-l6"><a class="reference internal" href="../operation/interface.html#loco-select-button">Loco Select Button</a></li>
@@ -159,6 +164,14 @@
 <li class="toctree-l5"><a class="reference internal" href="../operation/interface.html#select-from-sever-roster">Select from Sever Roster</a></li>
 <li class="toctree-l5"><a class="reference internal" href="../operation/interface.html#select-from-recent-locos-list">Select from Recent Locos List</a></li>
 <li class="toctree-l5"><a class="reference internal" href="../operation/interface.html#select-from-recent-consists-list">Select from Recent Consists List</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../operation/interface.html#select-loco-on-screen-buttons">Select Loco On Screen Buttons</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../operation/interface.html#acquire">Acquire</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../operation/interface.html#release">Release</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../operation/interface.html#edit-order-facing">Edit Order &amp; Facing</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../operation/interface.html#edit-lights">Edit Lights</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../operation/interface.html#loco-sounds">Loco Sounds</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toctree-l4"><a class="reference internal" href="../operation/interface.html#consist-edit-screen">Consist Edit Screen</a><ul>
@@ -179,7 +192,7 @@
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="../operation/interface.html#common-elements-and-features">Common Elements and Features</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="../operation/interface.html#theme">Theme</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../operation/interface.html#theme-styles">Theme / Styles</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../operation/interface.html#localisation">Localisation</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../operation/interface.html#action-bar">Action Bar</a><ul>
 <li class="toctree-l5"><a class="reference internal" href="../operation/interface.html#emergency-stop">Emergency Stop</a></li>
@@ -223,15 +236,14 @@
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../operation/esu_mcii.html">ESU MobileControl II</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../operation/advanced.html">Advanced Operation</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../operation/advanced.html#children-s-timer">Children’s Timer</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../operation/advanced.html#consist-follow-functions">Consist Follow Functions</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../operation/advanced.html#haptic-feedback-vibration">Haptic Feedback (Vibration)</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../operation/advanced.html#direction-buttons">Direction Buttons</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../operation/advanced.html#renaming-direction-buttons">Renaming Direction Buttons</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../operation/advanced.html#swapping-direction-buttons">Swapping Direction Buttons</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../operation/advanced.html#conserving-power">Conserving Power</a></li>
 </ul>
 </li>
+<li class="toctree-l3"><a class="reference internal" href="../operation/advanced.html#children-s-timer">Children’s Timer</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../operation/faq.html">Frequently Asked Questions</a><ul>
@@ -604,6 +616,7 @@
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../contributing/index.html">Contributing</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="../contributing/index.html#contributing-to-the-code">Contributing to the Code</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../contributing/index.html#contributing-to-the-localisation-languages">Contributing to the Localisation (Languages)</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../contributing/index.html#contributing-to-the-documentation">Contributing to the Documentation</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="../contributing/index.html#style-guidelines">Style Guidelines</a></li>
 </ul>
@@ -958,8 +971,8 @@
 <h2><a class="toc-backref" href="#id1">Advanced Preferences</a><a class="headerlink" href="#advanced-preferences" title="Permalink to this heading"></a></h2>
 <section id="show-advanced-preferences">
 <h3><a class="toc-backref" href="#id2">Show Advanced Preferences?</a><a class="headerlink" href="#show-advanced-preferences" title="Permalink to this heading"></a></h3>
-<p>By default, only a small number of core preferences are displayed.</p>
-<p>If you enable this preference <strong>Engine Driver</strong> will immedialy show the additional preferences.</p>
+<p>By default, only a small number of core preferences are displayed on the <em>Preferences Screen</em>.</p>
+<p>If you enable this preference <strong>Engine Driver</strong> will immediately show all the additional preferences.</p>
 </section>
 </section>
 <section id="device-preferences">
@@ -1055,7 +1068,7 @@
 <section id="localisation">
 <h3><a class="toc-backref" href="#id7">Localisation</a><a class="headerlink" href="#localisation" title="Permalink to this heading"></a></h3>
 <p>Changing the <em>Localisation</em> primarily changes the language used in the menus, buttons and messages throughout <strong>Engine Driver</strong>.</p>
-<p>For English, it also changes the railroad/railway terminology (eg, Selecting ‘Use Phone’s global setting’ and having this set to ‘English (Australia)’ or ‘English (UK)’ results in the term ‘Points’ to be displayed rather than ‘Turnouts’ as is displayed when ‘English (US)’ is selected). In the Preferences screen and the Throttle Screen Layout selection screen (where ‘shunting’ is displayed rather than ‘switching’).  This is not guaranteed to operate on all text on all screens.</p>
+<p>For English, it also changes the railroad/railway terminology (eg, Selecting ‘Use Phone’s global setting’ and having this set to ‘English (Australia)’ or ‘English (UK)’ results in the term ‘Points’ to be displayed rather than ‘Turnouts’ which is displayed when ‘English (US)’ is selected). In the Preferences screen and the Throttle Screen Layout selection screen (where ‘shunting’ is displayed rather than ‘switching’).  This is not guaranteed to operate on all text on all screens.</p>
 <p>Supported localisations are:</p>
 <ul class="simple">
 <li><p>Use Phone’s global setting <br /> -  Will use any of the localisations below depending on what your system is set to it</p></li>

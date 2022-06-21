@@ -35,7 +35,7 @@ You can also control layout power, turnouts/points, routes, and access JMRI web 
 .. note:: 
   :class: note-ed-hidden-title
   
-  See the `About <./about/about.html>`_ page for more information. |br|\ See the `Operation <./operation/index.html>`_ page for details on how to use |ed|.
+  See the :doc:`/about/index` page for more information. |br|\ See the :doc:`/operation/index` page for details on how to use |ed|.
 
 
 .. image:: ./_static/images/screenshots/throttle_buttons.png

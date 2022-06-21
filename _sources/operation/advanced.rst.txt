@@ -3,7 +3,7 @@ Advanced Operation
 ******************************************
 
 .. meta::
-   :keywords: Children's Timer Advanced Direction Buttons Haptic Feedback Vibration
+   :keywords: Children's Timer Advanced Direction Buttons shake vibration
 
 .. include:: ../include.rst
 
@@ -17,11 +17,6 @@ Advanced Operation
  
 |todo|
 
-Children's Timer
-----------------
-
-|todo|
-
 
 Consist Follow Functions
 ------------------------
@@ -30,10 +25,6 @@ Consist Follow Functions
 
 * see Functions in the Configuration
 
-Haptic Feedback (Vibration)
----------------------------
-
-|todo|
 
 Direction Buttons
 -----------------
@@ -57,5 +48,10 @@ different settings
 
 Conserving Power 
 ^^^^^^^^^^^^^^^^
+
+|todo|
+
+Children's Timer
+----------------
 
 |todo|
