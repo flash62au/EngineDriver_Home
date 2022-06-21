@@ -41,11 +41,9 @@ Connection Screen
 .. image:: ../_static/images/screenshots/connect.png
    :align: right
 
-This screen is the first screen you normally see when starting |ED|\ . 
+This screen is the first screen you normally see when starting |ED|. 
 
-It allows you choose which WiThrottle Server to connect, which you must do to control your trains.
-
-|todo|
+It allows you choose which WiThrottle Server to connect to, which you must do to control your trains.
 
 There are three ways you can select a wiThrottle server to connect to:
 
@@ -62,15 +60,28 @@ IP Address and Port
 
 |todo|
 
+Enther the IP address or URI of the server in the first field, and the port in the second field, then click :guilabel:`Connect`. |ed| will attempt to connect to it, and the *Throttle Screen* will be displayed.
+
 Discovered Servers
 """"""""""""""""""
 
 |todo|
 
+This is the most common way to connect.
+
+Your wiThrottle server will attempt to broadcast its details so that apps like |ed| can automatically find it.  If |ed| does find it, it will be listed here.
+
+To connect to any wiThrottle Server in this list, simply click on the row.  |ed| will attempt to connect to it, and the *Throttle Screen* will be displayed.
+
+
 Recent servers
 """"""""""""""
 
 |todo|
+
+To connect to any wiThrottle Server in this list, simply click on the row.  |ed| will attempt to connect to it, and the *Throttle Screen* will be displayed.
+
+Note that, just because it is in this list, it does not mean that you can connect to it now. It only means that you have successfully connected to it in the past.
 
 ----
 
