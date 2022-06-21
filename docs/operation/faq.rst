@@ -38,23 +38,26 @@ Q. |ed| Connects, but I can't control any locos
 
   A. Powering the layout on
 
-  <stuff goes here>
+  Some DCC command stations need you to turn the track power on before you can use it.
 
-  Some DCC command stations need to be turned on.
+  .. note:: 
+    :class: note-ed-hidden-title
 
-Q. Why doesn't |ed| automatically find my server?
+    See the `Turn Track Power On <../operation/operation.html#turn-track-power-on>`_ notes for more information.
 
-  I can manually connect to my Server / Railroad, but it never finds it automatically.
+Q. Why doesn't |ed| automatically find my wiThrottle server?
+
+  I can manually connect to my Server / Railroad by entering an IP address, but it never finds it automatically.
 
   A1. One reason can be your router doesn't not support the 'Bonjour' protocol. There is not much you can do if this is the case other than trying a different router.
 
-  A2. 4.5ghz and 5ghz. <stuff goes here>
+  A2. 4.5ghz and 5ghz. |todo|
 
 Q. If |ed| can't find my Server/Railroad automatically 
 
-  A. Look for the ip address and port in the WiThrottle window in JMRI 
+  A. Look for the IP address and port in the WiThrottle window in JMRI 
 
-  Type them in the two fields and click ``Connect``
+  Type them in the two fields and click :guilabel:`Connect`
 
 Q. Why doesn't |ed| remember the servers I have connected to?
 
