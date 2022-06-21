@@ -42,7 +42,7 @@ Note: If 'Use Default function labels' is enabled, 'Special...' will also apply 
 
 You can now arrange the labels on ED any way you want, and as long as the equivalent function has a similar name it doesn't matter what function number it is, it will activate it correctly.
 
-I have added two new options to the menu " Special Exact" and "Special Partial"
+I have added two new options to the menu "Special Exact" and "Special Partial"
 These options override the Original and Complex options completely and ignore the string matching preferences (it disables them)
 
 Their behaviour is:

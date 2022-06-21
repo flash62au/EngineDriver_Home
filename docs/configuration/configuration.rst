@@ -19,12 +19,12 @@ Some of the many Preferences include:
 * You can set the initial web page for the full-size web panel, or enable the smaller web view on the throttle screen
 * There are also settings to help maximize the use of your device's smaller screen by hiding items not relevant to you
 
-Look around in Preferences, there are a huge number of settings to personalize |ed|, including many more if you enable `Show Advanced Preferences <./preferences.html#show-advanced-preferences>`_.
+Look around in Preferences, there are a huge number of settings to personalize |ed|, including many more if you enable `Show Advanced Preferences <./preferences:show advanced preferences>` preference.
 
 .. note:: 
   :class: note-ed-hidden-title
 
-   See the `Preferences <./preferences.html>`_ page for a full list of the available preferences.
+   See the :doc:`Preferences <./preferences>` page for a full list of the available preferences.
 
 The *Functions buttons* are changed via the ``Function Buttons`` menu option: :menuselection:`Menu --> Functions Buttons`
 
@@ -37,6 +37,6 @@ Some of the Function button preferences include:
 .. note:: 
   :class: note-ed-hidden-title
 
-   See the `Function Buttons <./functions.html>`_ page for more information.
+   See the :doc:`Function Buttons <./functions>` page for more information.
 
 

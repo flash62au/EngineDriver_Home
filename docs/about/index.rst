@@ -36,7 +36,7 @@ Generally the WiThrottle servers that |ed| connects to are either DCC Command St
 .. note:: 
   :class: note-ed-hidden-title
 
-  See the `Operation <../operation/index.html>`_ page for details on how to use |ed|.
+  See the :doc:`/operation/index` page for details on how to use |ed|.
 
 |ed| is open source software which is available on `github.com/JMRI/EngineDriver <https://github.com/JMRI/EngineDriver>`_. This documentation is also open source and can be accessed on `github.com/flash62au/EngineDriver_Home <https://github.com/flash62au/EngineDriver_Home>`_. Contribution to both the code and documentation is welcome.  See [`Contributing <../contributing/index.html>`_] for details.
 
@@ -66,7 +66,7 @@ Roadmap
 
 At the moment there are only a few of us doing any work on |ed|, so things happen when they happen.
 
-See `Support & Contact <../contact/index.html>`_ if you are having problems or wish to make a suggestion.
+See the :doc:`/contact/index` page if you are having problems or wish to make a suggestion.
 
 Alternates to Engine Driver
 ---------------------------

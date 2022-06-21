@@ -13,9 +13,9 @@ Virtual Sounds / In Phone Loco Sounds (IPLS)
 
 |ed| can play synchronised locomotive sounds through your Android device/phones or through a BlueTooth speaker connected to it.
 
-To enable In Phone Loco Sounds (IPLS) select an option in ``Throttle 1 Loco Sounds`` or ``Throttle 2 Loco Sounds`` (or both) preferences. Once enabled for either throttle a new menu option will be available from Throttle Screen to make subsequent changes easier: :menuselection:`Menu --> Loco Sounds`
+To enable In Phone Loco Sounds (IPLS) select an option in `Throttle 1 Loco Sounds <./preferences.html#throttle-1-loco-sounds>`_ or `Throttle 2 Loco Sounds <./preferences.html#throttle-2-loco-sounds>`_ (or both) preferences. Once enabled for either throttle a new menu option will be available from Throttle Screen to make subsequent changes easier: :menuselection:`Menu --> Loco Sounds`
 
-To make it easy to switch sound profiles we recommend enabling the Action Bar button by setting the ``In phone sounds button`` preferences: :menuselection:`Menu --> Preferences --> Throttle Screen Action Bar Preferences --> In phone sounds button`
+To make it easy to switch sound profiles we recommend enabling the Action Bar button by setting the `In phone sounds button <./preferences#in-phone-sounds-button>`_ preferences: :menuselection:`Menu --> Preferences --> Throttle Screen Action Bar Preferences --> In phone sounds button`
 
 Loco Sounds
 -----------
@@ -65,6 +65,10 @@ You can add custom IPLS files in the ``../Android/data/jmri.enginedriver/files/`
     h0:sample/horn_start.mp3
     h1:sample/horn_loop.mp3
     h2:sample/horn_end.mp3
+    /
+    / h+: short horn / whistle
+    /
+    h+:sample/SD40_NathanP3_Short.wav
     /
     / l0: Loco idle  l1:.. l16: Loco steps/notches 
     / - MAX 16 

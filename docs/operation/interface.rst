@@ -47,13 +47,30 @@ It allows you choose which WiThrottle Server to connect, which you must do to co
 
 |todo|
 
-* Address and Port
+There are three ways you can select a wiThrottle server to connect to:
+
+* IP Address and Port
 * Discovered Servers
 * Recent servers
 
 Once you select a server the 'Throttle Screen' will be automatically displayed.
 
 If you only ever connect to one WiThrottle server you can effectively bypass this screen by enabling the `Auto-Connect to WiThrottle Server? <../configuration/preferences.html#auto-connect-to-withrottle-server>`_ preference.
+
+IP Address and Port
+""""""""""""""""""""
+
+|todo|
+
+Discovered Servers
+""""""""""""""""""
+
+|todo|
+
+Recent servers
+""""""""""""""
+
+|todo|
 
 ----
 
@@ -468,20 +485,34 @@ Loco Select Screen
 
 |todo|
 
+Shown when you click a :guilabel:`Select` button on the *Throttle Screen*.
+
 Selection method
 """"""""""""""""
 
 |todo|
+
+Options:
+
+* DCC Address
+* Server Roster
+* Recent Locos
+* Recent Consists
 
 Select by DCC Address 
 """""""""""""""""""""
 
 |todo|
 
+Shown if you select ``DCC Address`` in the 'Selection Method'.
+
 Select from Sever Roster
 """"""""""""""""""""""""
 
 |todo|
+
+Shown if you select ``Server Roster`` in the 'Selection Method'.
+
 
 Filter
 
@@ -492,6 +523,9 @@ Select from Recent Locos List
 
 |todo|
 
+
+Shown if you select ``Recent Locos`` in the 'Selection Method'.
+
 Icons
 
 Select from Recent Consists List
@@ -499,12 +533,49 @@ Select from Recent Consists List
 
 |todo|
 
+
+Shown if you select ``Recent Consists`` in the 'Selection Method'.
+
+
+Select Loco On Screen Buttons
+"""""""""""""""""""""""""""""
+
+|todo|
+
+Acquire
+'''''''
+
+  |todo|
+
+Release
+'''''''
+
+  |todo|
+
+Edit Order & Facing
+'''''''''''''''''''
+
+  |todo|
+
+Edit Lights
+'''''''''''
+
+  |todo|
+
+Loco Sounds
+''''''''''''
+
+  |todo|
+
+
 ----
 
 Consist Edit Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 |todo|
+
+Shown if you add a second, or subsequent, loco to a throttle via the :guilabel:`Select` button, or if you click on the :guilabel:`Edit Order & Facing` button on the *Select Loco Screen* (which will only be available if you have already acquired more than one loco on the throttle.)
 
 Lead Loco
 """""""""
@@ -521,7 +592,7 @@ Consist Top
 
 |todo|
 
-* Facing
+* Change Facing
 
 
 ----
@@ -622,6 +693,7 @@ This screen displays
 
 |todo| 
 
+----
 
 Reconnecting Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -630,29 +702,61 @@ This screen displays if |ed| has not been able to communicate with the wiThrottl
 
 |todo| 
 
-
 Common Elements and Features
 ----------------------------
 
-|todo|
+This section describes some of the elements and features that appear throughout or affect the entire |ed| app.
+
+* `Theme / Styles`_
+* `Localisation`_
+* `Action Bar`_
+* `Overflow Menu`_ (the Menu)
 
 ----
 
-Theme
-^^^^^
+Theme / Styles
+^^^^^^^^^^^^^^
 
-|todo|
+Themes provide different colours and textures to the buttons, backgrounds, sliders etc. for all the screens in |ed|.  i.e. It changes the appearance of the entire app.
 
-* Default
-* High Contrast
-* Outline
-* Dark
-* Colourful
+There are five themes to choose from:
+
+.. list-table::
+    :width: 100%
+    :widths: 50 50
+    :header-rows: 1
+
+    * - Example
+      - Theme
+    * - .. image:: ../_static/images/screenshots/throttle_horizontal_original_theme.png  
+          :scale: 8%
+      - Original theme
+    * - .. image:: ../_static/images/screenshots/throttle_horizontal_high_contrast_theme.png 
+          :scale: 8%
+      - High contrast theme 
+    * - .. image:: ../_static/images/screenshots/throttle_horizontal_outline_theme.png
+          :scale: 8%
+      - High contrast
+    * - .. image:: ../_static/images/screenshots/throttle_horizontal_dark_theme.png
+          :scale: 8%
+      - Dark theme
+    * - .. image:: ../_static/images/screenshots/throttle_horizontal_colorful_theme.png
+          :scale: 8%
+      - Colourful theme
+
+.. note:: 
+   :class: note-ed-hidden-title
+
+   See the `Theme / Style preference <../configuration/preferences.html#theme-style>`_ on the preferences page for more information.
+
+----
 
 Localisation
 ^^^^^^^^^^^^
 
-|todo|
+Changing the *Localisation* primarily changes the language used in the menus, buttons and messages throughout |ED|.
+
+Supported localisations are:
 
 * Use Phone's global setting
 * English (US)  - Engine Driver's default
@@ -670,7 +774,9 @@ Localisation
 .. note:: 
    :class: note-ed-hidden-title
 
-   See `Localisation on the Preferences page <../configuration/preferences.html#Localisation>`_ for more information.
+   See the `Localisation preference <../configuration/preferences.html#Localisation>`_ on the Preferences page for more information.
+
+----
 
 Action Bar
 ^^^^^^^^^^
@@ -824,7 +930,6 @@ WiThrottle Server Name
 """"""""""""""""""""""
 
 |todo|
-
 
 
 ----

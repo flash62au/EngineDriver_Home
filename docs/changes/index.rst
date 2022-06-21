@@ -24,15 +24,15 @@ Include:
 Changes for the Beta Version
 ----------------------------
 
-Include:
+Changes in this version include:
 
-* Option for Server Description on the Action bar
 * More improvements to In-Phone Loco Sounds
 * Option for haptic feedback on button presses
 * Option to select a local image for roster locos
-* Option to use a normal keyboard (Bluetooth or USB) as a gamepad type
+* Option to use a normal keyboard (bluetooth or USB) as a gamepad type
 * Option to link F1&F2 to the IPLS Bell and Horn
-* additional TTS options
+* Option for Server Description on the Action bar
+* Several additional TTS options
 * Volume buttons, for speed control, work on most screens
 * Loco images now cached locally
 * Web maintains state when navigating
@@ -44,6 +44,8 @@ Include:
 * Fix: Reconnect screen created extra entry in the recent apps list on Samsung S5
 * Fix: Prevent crashes reported to Play Store
 * Fix: TTS speed bugs
+* Fix: Issue with Route buttons
+* Fix: Correct log file path shown, and include in log
 
 Full Change History
 -------------------

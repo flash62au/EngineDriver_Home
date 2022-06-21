@@ -10,7 +10,7 @@ Gamepads
 Selecting a Gamepad Type
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-Choose a gamepad type in the ``Gamepad type`` preference.  Available options include:
+Choose a gamepad type in the `Gamepad type <./preferences.html#gamepad-type>`_ preference.  Available options include:
 
 * Mocute 
 * MagicSeeR1
