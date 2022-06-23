@@ -94,11 +94,11 @@ Recent servers
 
 |todo|
 
-To connect to any wiThrottle Server in this list, simply click on the row.  |ed| will attempt to connect to it, and the *Throttle Screen* will be displayed.
+To connect to any wiThrottle Server in this list, simply click on the row.  |ed| will attempt to connect to it.  If successful the *Throttle Screen* will be displayed.
 
 Note that, just because it is in this list, it does not mean that you can connect to it now. It only means that you have successfully connected to it in the past.
 
-failed connection
+failed connections...
 
 ----
 
@@ -219,7 +219,7 @@ Speed indicator
       See the Throttle Control Preferences section of the `Speed Units preference <../configuration/preferences.html#speed-units>`_ for a information on changing the ``Speed Units`` options.
 
 Speed Slider Area
-''''''''''''''''''''''''''''''''
+'''''''''''''''''
 
    The Throttle areas can be configured with a *Speed Slider*.  (All Throttle Screen layouts except the 'Big Button' layouts include sliders by default.) Dragging you finger along the slider will increase or decrease the speed of the loco(s) selected for the that Throttle. Pressing and holding your finger at one spot on the slider will cause |ED| to slowly increase or decrease the speed of the loco(s) selected for that Throttle till it gets to that point.
    
@@ -257,7 +257,7 @@ Speed Buttons
      See the `Display Speed Buttons? <../configuration/preferences.html#display-speed-buttons>`_ preference for more information.
 
 Direction Buttons Area
-''''''''''''''''''''''''''''''''
+'''''''''''''''''''''''
 
    |todo|
 
@@ -267,7 +267,7 @@ Direction Buttons Area
 
 
 Function Buttons Scroll Area
-''''''''''''''''''''''''''''''''
+''''''''''''''''''''''''''''
 
    |todo|
 
@@ -361,9 +361,20 @@ Immersive Mode (Full Screen)
 |todo|
 
 Swipe Left / Right (From Throttle)
-""""""""""""""""""""""""""""""""""""
+""""""""""""""""""""""""""""""""""
 
-|todo|
+Swiping Left from the Throttle screen will take you to the `Routes Screen`_, unless it has been disabled in the preferences
+
+Swiping Right from the Throttle screen will take you to the `Turnouts/Points Screen`_, unless it has been disabled in the preferences
+
+By default, you can Left/Right Swipe from any part of the screen, but this can be changed to just the Action Bar in the preferences. This can be useful if Left/Right swipes in the *Web View Screen* and *Throttle Web view* causes problems. 
+
+.. note:: 
+   :class: note-ed-hidden-title
+
+   See the `Left right swipe preferences <./configuration/preferences.html#left-right-swipe-preferences>`_ for information on how to enable and disable which screens are in the Left / Right swipe sequence.
+
+   See the `Disable Full Screen Swipe prefernce <configuration/preferences.html#disable-full-screen-swipe>`_ to enable or disable the Swipe Action Bar only option.
 
 Swipe Up / Down
 """""""""""""""
@@ -378,7 +389,7 @@ Accelerometer (Shake)
 ----
 
 Turnouts/Points Screen
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^
 
 |todo|
 
@@ -386,7 +397,7 @@ Accessed from any of the main screens by the :menuselection:`Menu --> Turnouts``
 
 This screen allows you to display all Turnouts/Points that have been defined in JMRI.
 
-Turnouts/Points can be changed from Closed to Thrown and vice versa be pressing on either the “Closed” or “Thrown” buttons
+Turnouts/Points can be changed from Closed to Thrown and vice versa be pressing on either the ``Closed`` or ``Thrown`` buttons
 
 List
 Filter
@@ -399,16 +410,25 @@ Entry
 |todo|
 
 Swipe Left / Right (From Turnouts/Points)
-"""""""""""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""
 
-|todo|
+Swiping Left from the Turnouts/Points screen will take you to the `Throttle Screen`_, unless it has been disabled in the preferences
 
+Swiping Right from the Throttle screen will take you to the `Web View Screen`_, unless it has been disabled in the preferences
 
+By default, you can Left/Right Swipe from any part of the screen, but this can be changed to just the Action Bar in the preferences. This can be useful if Left/Right swipes in the *Web View Screen* and *Throttle Web view* causes problems. 
+
+.. note:: 
+   :class: note-ed-hidden-title
+
+   See the `Left right swipe preferences <./configuration/preferences.html#left-right-swipe-preferences>`_ for information on how to enable and disable which screens are in the Left / Right swipe sequence.
+
+   See the `Disable Full Screen Swipe prefernce <configuration/preferences.html#disable-full-screen-swipe>`_ to enable or disable the Swipe Action Bar only option.
 
 ----
 
 Routes Screen
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^
 
 |todo|
 
@@ -423,15 +443,25 @@ Filter
 |todo|
 
 Swipe Left / Right (From Routes)
-""""""""""""""""""""""""""""""""""
+""""""""""""""""""""""""""""""""
 
-|todo|
+Swiping Left from the Routes screen will take you to the `Web View Screen`_, unless it has been disabled in the preferences
 
+Swiping Right from the Routes screen will take you to the `Throttle Screen`_, unless it has been disabled in the preferences
+
+By default, you can Left/Right Swipe from any part of the screen, but this can be changed to just the Action Bar in the preferences. This can be useful if Left/Right swipes in the *Web View Screen* and *Throttle Web view* causes problems. 
+
+.. note:: 
+   :class: note-ed-hidden-title
+
+   See the `Left right swipe preferences <./configuration/preferences.html#left-right-swipe-preferences>`_ for information on how to enable and disable which screens are in the Left / Right swipe sequence.
+
+   See the `Disable Full Screen Swipe prefernce <configuration/preferences.html#disable-full-screen-swipe>`_ to enable or disable the Swipe Action Bar only option.
 
 ----
 
-Web Screen
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Web View Screen
+^^^^^^^^^^^^^^^
 
 |todo|
 
@@ -505,7 +535,6 @@ The *Setup Wizard* will start automatically the first time you run |ed| after yo
 
    See the  `Setup wizard page <../operation/setup_wizard.html>`_  for more information.
 
-
 ----
 
 Loco Select Screen
@@ -515,7 +544,7 @@ Loco Select Screen
 
 Shown when you click a :guilabel:`Select` button on the *Throttle Screen*.
 
-Selection method
+Selection Method
 """"""""""""""""
 
 |todo|
@@ -532,14 +561,14 @@ Select by DCC Address
 
 |todo|
 
-Shown if you select ``DCC Address`` in the 'Selection Method'.
+Shown if you select ``DCC Address`` in the `Selection Method`_.
 
 Select from Sever Roster
 """"""""""""""""""""""""
 
 |todo|
 
-Shown if you select ``Server Roster`` in the 'Selection Method'.
+Shown if you select ``Server Roster`` in the `Selection Method`_.
 
 
 Filter
@@ -552,7 +581,7 @@ Select from Recent Locos List
 |todo|
 
 
-Shown if you select ``Recent Locos`` in the 'Selection Method'.
+Shown if you select ``Recent Locos`` in the `Selection Method`_.
 
 Icons
 
@@ -562,7 +591,7 @@ Select from Recent Consists List
 |todo|
 
 
-Shown if you select ``Recent Consists`` in the 'Selection Method'.
+Shown if you select ``Recent Consists`` in the `Selection Method`_.
 
 
 Select Loco On Screen Buttons
@@ -599,7 +628,7 @@ Loco Sounds
 ----
 
 Consist Edit Screen
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^
 
 |todo|
 
@@ -639,7 +668,7 @@ Consist Lights Edit Screen
 Power Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Accessed from any of the main screen via : :menuselection:`Menu --> Preferences --> Left/Right Swipe Preferences --> Power` or from the Action Bar if enabled with the ``Layout Power button?`` preference: :menuselection:`Menu --> Preferences --> Throttle Screen Action Bar Preferences --> Layout Power button?`.
+Accessed from any of the main screen via : :menuselection:`Menu --> Preferences --> Left/Right Swipe Preferences --> Power` or from the Action Bar if enabled with the `Layout Power button? preference <./configuration/preferences.html#layout-power-button>`_ : :menuselection:`Menu --> Preferences --> Throttle Screen Action Bar Preferences --> Layout Power button?`.
 
 This screen allows you to toggle the state of track power to your layout.
 
@@ -675,7 +704,7 @@ Accessed from *Throttle Screen* by the :menuselection:`Menu --> Loco Sounds` or 
 ----
 
 Function Defaults Screen
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 |todo|
 
@@ -684,7 +713,7 @@ Accessed from the menu on the *Throttle Screen* as :menuselection:`Menu --> Func
 ----
 
 Gamepad Test Screen
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^
 
 |todo|
 
@@ -693,7 +722,7 @@ Accessed from the *Throttle Screen* via the :menuselection:`Menu --> Gamepads ->
 ----
 
 View Log Screen
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^
 
 |todo|
 
@@ -702,7 +731,7 @@ Accessed from any of the main screens via :menuselection:`Menu --> View Log`.
 This screen allows you to view the internal Engine Driver log of events.
 This is sometimes useful for analysing problems.
 
-The option to `Start recording to file`` creates a user-accessible file that can be sent to the |ed| app developers or the `Groups.io <https://groups.io/g/jmriusers/topics>`_` help group to assist you in resolving a problem.
+The option to `Start recording to file` creates a user-accessible file that can be sent to the |ed| app developers or the `Groups.io <https://groups.io/g/jmriusers/topics>`_ help group to assist you in resolving a problem.
 The file will be located on your mobile phone at:
 Internal storage ``/Android/data/jmri.enginedriver/files`` |br|\ and will be named something like: ``logcat9999999999999.txt``
 
@@ -711,7 +740,7 @@ Enable the ??? preference to include the timestamp on each line of the log.
 ----
 
 About Screen
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^
 
 This screen displays 
 
@@ -724,7 +753,7 @@ This screen displays
 ----
 
 Reconnecting Screen
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^
 
 This screen displays if |ed| has not been able to communicate with the wiThrottle server within a specified time.
 
@@ -813,7 +842,7 @@ Action Bar
    :align: right
    :scale: 50%
 
-The Action Bar appears at the top of all screen. It will show different information and different buttons depending on a) the particular screen and b) preferences you have set.
+The Action Bar appears at the top of all screen. It will show different information and different buttons depending on a\) the particular screen and b\) preferences you have set.
 
 The Action Bar can display:
 
