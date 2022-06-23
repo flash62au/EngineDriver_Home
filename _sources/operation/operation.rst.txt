@@ -81,14 +81,16 @@ Connecting Engine Driver to the WiThrottle server
   - Discovered Servers
   - Recent servers
 
-  **Discover Servers**
+Discover Servers
+''''''''''''''''
 
   This is the most common way to connect. If the server you want to connect to is in the list, simply click on it and you will be taken to the Throttle screen.
 
   If the server does not appear in the recent list try one of the other two methods.  
   Your server not appearing in the recent list is not necessarily a problem  See `Connection issues <./wifi_issues.html>`_ for more information.
 
-  **Recent Server List**
+Recent Server List
+''''''''''''''''''
 
   If the server you want to connect to is in the list, simply click on it and you will be taken to the Throttle screen.
 
@@ -96,7 +98,8 @@ Connecting Engine Driver to the WiThrottle server
 
   There is also a 'demo' server at **jmri.mstevetodd.com**, port **44444** in this list that you can connect to for testing. (If your device/phone has an internet connection.)
 
-  **IP Address and Port**
+IP Address and Port
+'''''''''''''''''''
 
   Type in the **IP address** and **Port** of the WiThrottle server and press :guilabel:`Connect`.
 
@@ -434,7 +437,8 @@ The DCC functions can be impacted depending on the settings and preferences you 
 * Function Labels
 * Functions in consists
 
-  **Activating the DCC Function via the Function Buttons**
+Activating the DCC Function via the Function Buttons
+''''''''''''''''''''''''''''''''''''''''''''''''''''
 
   Most (all bar one) Throttle Layouts show a number of DCC Function Buttons below or beside the Sliders for the individual Throttles on the Screen.  Clicking a button will send that function to the Loco (or lead loco of a Consist / Multiple Unit.)  This behaviour can be altered in the preferences.
 
@@ -511,13 +515,14 @@ To enable In Phone Loco Sounds (IPLS) for a throttle (only the first two throttl
 
 To make it easy to switch sound profiles we recommend enabling the Action Bar button by setting the `In phone sounds button <../configuration/preferences.html#in-phone-sounds-button>`_ preferences: :menuselection:`Menu --> Preferences --> Throttle Screen Action Bar Preferences --> In phone sounds button`
 
-**Automatic Loco Speed Step Sounds**
+Automatic Loco Speed Step Sounds
+''''''''''''''''''''''''''''''''
 
 Each IPLS Profile has a different number of speed steps. As the loco speed increases or decreases to a certain point a different sound will repeatedly play.  To try to emulate the momentum of the loco, there is a preset delay, and an option to not lip the sounds (which enforces a minimum delay) These can be altered with the `In Phone Momentum <../configuration/preferences.html#in-phone-momentum>`_ and the `Don't clip loco step sounds <../configuration/preferences.html#don-t-clip-loco-step-sounds>`_ preferences.
 
 The volume of the Loco Sounds, the Bell Sounds and the Horn/Whistle sound can be altered independently with the `In Phone Loco Sounds Volume <../configuration/preferences.html#in-phone-loco-sounds-volume>`_, the `In Phone Bell Sounds Volume <../configuration/preferences.html#in-phone-bell-sounds-volume>`_ and the `In Phone Horn/Whistle Sounds Volume <../configuration/preferences.html#in-phone-horn-whistle-sounds-volume>`_ preferences.
 
-**Playing sounds**
+  **Playing sounds**
 
   Other than the speed steps sounds, which are automatic, there are three ways to play the additional sounds:
 
@@ -554,7 +559,7 @@ The volume of the Loco Sounds, the Bell Sounds and the Horn/Whistle sound can be
 
     Clicking this will play a horn or whistle sound (depending on the profile) ones, regardless of how long the button is held down.
 
-  **Activating the IPLS Sounds via DCC Functions / Function Buttons**
+    **Activating the IPLS Sounds via DCC Functions / Function Buttons**
 
   The Bell and Horn/Whistle (long) can be activated by the DCC Function buttons (F1 and F2) if the `F1 and F2 activate Bell and Horn? <../configuration/preferences.html#f1-and-f2-activate-bell-and-horn>`_ preference is set.
 
@@ -579,7 +584,8 @@ Menu
 
 |todo|
 
-**Common Menu Items**
+Common Menu Items
+'''''''''''''''''
 
 These menu items appear on a number of different  Screens (most 'Main Screens'):
 
@@ -593,7 +599,8 @@ These menu items appear on a number of different  Screens (most 'Main Screens'):
 * Exit
 * Power
 
-**Screen Specific Menu Items** 
+Screen Specific Menu Items 
+''''''''''''''''''''''''''
 
 These menu items only appear on specific Screens or under specific Conditions:
 
@@ -630,7 +637,8 @@ Optionally configured buttons:
 * In Phone Loco Sound
 * Children's Timer
 
-  **Track Power Action Bar Button** 
+Track Power Action Bar Button 
+'''''''''''''''''''''''''''''
 
   |todo|
 
@@ -639,7 +647,15 @@ Optionally configured buttons:
   * Menu item
   * Action Bar button
 
-  **In Phone Loco Sounds (IPLS) Button**
+  .. note:: 
+    :class: note-ed-hidden-title
+
+    See the ??? prefernces...
+
+    See the `Action Bar on the User Interface page <./interface.html#action-bar>`_ for information on the Action bar buttons.
+
+In Phone Loco Sounds (IPLS) Button
+''''''''''''''''''''''''''''''''''
 
   |todo|
 
@@ -648,6 +664,8 @@ Optionally configured buttons:
 
   .. note:: 
     :class: note-ed-hidden-title
+
+    See the ??? prefernces...
 
     See the `Action Bar on the User Interface page <./interface.html#action-bar>`_ for information on the Action bar buttons.
 
@@ -672,7 +690,14 @@ If you've defined your turnouts and routes in a panel file, make sure to specify
 * From the JMRI Defined Turnout/Point list provided by the WiThrottle Server (JMRI)
 * From the recent Turnout/Point list
 
-  **DCC Address**
+The *Turnouts/Points Screen* can be accessed three ways:
+
+* Menu
+* Swipe
+* Auto Web Orientation
+
+DCC Address
+"""""""""""
 
   Enter the DCC address of the Turnout / Points you wish to control.
 
@@ -684,7 +709,8 @@ If you've defined your turnouts and routes in a panel file, make sure to specify
 
   |TODO|
 
-  **JMRI Defined Turnout/Point list**
+JMRI Defined Turnout/Point list
+"""""""""""""""""""""""""""""""
 
   Server must 
 
@@ -695,7 +721,8 @@ If you've defined your turnouts and routes in a panel file, make sure to specify
 
   see delimiter preference
 
-  **Recent Turnout/Point list**
+Recent Turnout/Point list
+"""""""""""""""""""""""""
 
   |todo|
 
@@ -705,7 +732,7 @@ If you've defined your turnouts and routes in a panel file, make sure to specify
   See the `Left/Right Swipe preferences on the Preferences page <./configuration/preferences.html#left-right-swipe-preferences>`_ for information on enabling or disabling the swipe though Turnouts/Points.
 
 Routes
-^^^^^^^^^^^^^^^
+^^^^^^
 
 |todo|
 
@@ -717,7 +744,14 @@ To get the *Turnouts / Points* screen you can use the menu :menuselection:`Menu 
 
 If you've defined your turnouts and routes in a panel file, make sure to specify "user names" for those you'd like to see listed on your throttle. You can also "filter" the turnouts shown using the WiThrottle->Filter Controls option in the WiThrottle window.
 
-* From the WiThrottle server
+The *Routes Screen* can be accessed three ways:
+
+* Menu
+* Swipe
+* Auto Web Orientation
+
+From the WiThrottle server
+""""""""""""""""""""""""""
 
 .. note:: 
   :class: note-ed-hidden-title
@@ -731,35 +765,39 @@ Panels and Web Pages
 
 |todo|
 
-**Throttle Web View VS Web Screen**
+Throttle Web View VS Web Screen
+"""""""""""""""""""""""""""""""
 
-|ed| has two distinct ways you view web pages.
+|ed| has two distinct ways you can view web pages.
 
 * Throttle Web View 
 * Web Screen
 
-This section describes the *Web Screen*, which is a full screen web browser.  The *Throttle Web View* is a half Screen web browser that optionally shares the screen with the Throttle Screen. See the `Throttle Web View section on the User Interface page <./interface.html#web-view-area>`_ from more information Throttle Web View.
+This section describes the *Web Screen*, which is a full screen web browser.  The *Throttle Web View* is a half Screen web browser that optionally shares the screen with the *Throttle Screen*. See the `Throttle Web View section on the User Interface page <./interface.html#web-view-area>`_ from more information on the Throttle Web View.
 
-The *Web Screen* can be accessed three ways:
+The *Web View Screen* can be accessed three ways:
 
 * Menu
 * Swipe
 * Auto Web Orientation
 
-  **Menu**
+Menu (to Web View Screen)
+"""""""""""""""""""""""""
 
   |todo|
 
   To get the *Web* screen you can use the menu :menuselection:`Menu --> Web` from the main screens.  You can also swipe left from the Throttle Screen (if enabled in the preference).
 
-  **Swipe**
+Swipe (to Web View Screen)
+""""""""""""""""""""""""""
 
   |todo|
 
   * If enabled
   * Not allowed if Auto Web orientation is enabled.  (Preference is automatically disabled)
 
-  **Auto Web Orientation**
+Auto Web Orientation
+""""""""""""""""""""
 
   * If enabled
   * Swipe preference is automatically disabled on selection
@@ -772,7 +810,7 @@ The *Web Screen* can be accessed three ways:
     See the `Left/Right Swipe preferences on the Preferences page <./configuration/preferences.html#left-right-swipe-preferences>`_ for information on enabling or disabling the swipe though Web.
 
 Pushing the app to the Background
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 By using the Android :guilabel:`Home` ( ○ ) or :guilabel:`Recent Tasks` ( □ ) navigation buttons, or if you press the ``Power`` physical button, it is possible to push the |ed| app into the background.  |ed| will give a sound, warning and will add an entry to the Notification Shade when this happens.
 

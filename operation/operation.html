@@ -86,7 +86,12 @@
 <li class="toctree-l2 current"><a class="current reference internal" href="#">Detailed Instructions</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#connecting">Connecting</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#connecting-to-the-wifi-network">Connecting to the WiFi network</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#connecting-engine-driver-to-the-withrottle-server">Connecting Engine Driver to the WiThrottle server</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#connecting-engine-driver-to-the-withrottle-server">Connecting Engine Driver to the WiThrottle server</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="#discover-servers">Discover Servers</a></li>
+<li class="toctree-l5"><a class="reference internal" href="#recent-server-list">Recent Server List</a></li>
+<li class="toctree-l5"><a class="reference internal" href="#ip-address-and-port">IP Address and Port</a></li>
+</ul>
+</li>
 <li class="toctree-l4"><a class="reference internal" href="#disconnections">Disconnections</a></li>
 </ul>
 </li>
@@ -99,18 +104,46 @@
 <li class="toctree-l3"><a class="reference internal" href="#running-trains">Running Trains</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#controlling-speed">Controlling Speed</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#controlling-direction">Controlling Direction</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#dcc-functions">DCC Functions</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#virtual-sounds-in-phone-loco-sounds-ipls">Virtual Sounds - In Phone Loco Sounds (IPLS)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#dcc-functions">DCC Functions</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="#activating-the-dcc-function-via-the-function-buttons">Activating the DCC Function via the Function Buttons</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="#virtual-sounds-in-phone-loco-sounds-ipls">Virtual Sounds - In Phone Loco Sounds (IPLS)</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="#automatic-loco-speed-step-sounds">Automatic Loco Speed Step Sounds</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="#action-bar-and-menu">Action Bar and Menu</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#menu">Menu</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#action-bar">Action Bar</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#menu">Menu</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="#common-menu-items">Common Menu Items</a></li>
+<li class="toctree-l5"><a class="reference internal" href="#screen-specific-menu-items">Screen Specific Menu Items</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="#turnouts-points">Turnouts / Points</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#routes">Routes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#panels-and-web-pages">Panels and Web Pages</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#action-bar">Action Bar</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="#track-power-action-bar-button">Track Power Action Bar Button</a></li>
+<li class="toctree-l5"><a class="reference internal" href="#in-phone-loco-sounds-ipls-button">In Phone Loco Sounds (IPLS) Button</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#turnouts-points">Turnouts / Points</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#dcc-address">DCC Address</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#jmri-defined-turnout-point-list">JMRI Defined Turnout/Point list</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#recent-turnout-point-list">Recent Turnout/Point list</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#routes">Routes</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#from-the-withrottle-server">From the WiThrottle server</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#panels-and-web-pages">Panels and Web Pages</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#throttle-web-view-vs-web-screen">Throttle Web View VS Web Screen</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#menu-to-web-view-screen">Menu (to Web View Screen)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#swipe-to-web-view-screen">Swipe (to Web View Screen)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#auto-web-orientation">Auto Web Orientation</a></li>
+</ul>
+</li>
 <li class="toctree-l3"><a class="reference internal" href="#pushing-the-app-to-the-background">Pushing the app to the Background</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#exiting-engine-driver">Exiting Engine Driver</a></li>
 </ul>
@@ -150,7 +183,7 @@
 <li class="toctree-l5"><a class="reference internal" href="interface.html#swipe-left-right-from-routes">Swipe Left / Right (From Routes)</a></li>
 </ul>
 </li>
-<li class="toctree-l4"><a class="reference internal" href="interface.html#web-screen">Web Screen</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="interface.html#web-view-screen">Web View Screen</a><ul>
 <li class="toctree-l5"><a class="reference internal" href="interface.html#swipe-left-right-web-screen">Swipe Left / Right (Web Screen)</a></li>
 </ul>
 </li>
@@ -159,7 +192,7 @@
 <li class="toctree-l3"><a class="reference internal" href="interface.html#secondary-support-screens">Secondary / Support Screens</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="interface.html#intro-setup-wizard-screen">Intro/Setup Wizard Screen</a></li>
 <li class="toctree-l4"><a class="reference internal" href="interface.html#loco-select-screen">Loco Select Screen</a><ul>
-<li class="toctree-l5"><a class="reference internal" href="interface.html#selection-method">Selection method</a></li>
+<li class="toctree-l5"><a class="reference internal" href="interface.html#selection-method">Selection Method</a></li>
 <li class="toctree-l5"><a class="reference internal" href="interface.html#select-by-dcc-address">Select by DCC Address</a></li>
 <li class="toctree-l5"><a class="reference internal" href="interface.html#select-from-sever-roster">Select from Sever Roster</a></li>
 <li class="toctree-l5"><a class="reference internal" href="interface.html#select-from-recent-locos-list">Select from Recent Locos List</a></li>
@@ -669,51 +702,92 @@
 <div class="contents local topic" id="on-this-page">
 <p class="topic-title">On This Page</p>
 <ul class="simple">
-<li><p><a class="reference internal" href="#connecting" id="id16">Connecting</a></p>
+<li><p><a class="reference internal" href="#connecting" id="id17">Connecting</a></p>
 <ul>
-<li><p><a class="reference internal" href="#connecting-to-the-wifi-network" id="id17">Connecting to the WiFi network</a></p></li>
-<li><p><a class="reference internal" href="#connecting-engine-driver-to-the-withrottle-server" id="id18">Connecting Engine Driver to the WiThrottle server</a></p></li>
-<li><p><a class="reference internal" href="#disconnections" id="id19">Disconnections</a></p></li>
+<li><p><a class="reference internal" href="#connecting-to-the-wifi-network" id="id18">Connecting to the WiFi network</a></p></li>
+<li><p><a class="reference internal" href="#connecting-engine-driver-to-the-withrottle-server" id="id19">Connecting Engine Driver to the WiThrottle server</a></p>
+<ul>
+<li><p><a class="reference internal" href="#discover-servers" id="id20">Discover Servers</a></p></li>
+<li><p><a class="reference internal" href="#recent-server-list" id="id21">Recent Server List</a></p></li>
+<li><p><a class="reference internal" href="#ip-address-and-port" id="id22">IP Address and Port</a></p></li>
 </ul>
 </li>
-<li><p><a class="reference internal" href="#turn-track-power-on" id="id20">Turn Track Power On</a></p></li>
-<li><p><a class="reference internal" href="#selecting-releasing-locos" id="id21">Selecting &amp; Releasing Locos</a></p>
-<ul>
-<li><p><a class="reference internal" href="#selecting-a-single-loco" id="id22">Selecting a Single loco</a></p></li>
-<li><p><a class="reference internal" href="#on-the-fly-in-phone-consists-multiple-units" id="id23">On the fly / In Phone Consists (Multiple Units)</a></p></li>
+<li><p><a class="reference internal" href="#disconnections" id="id23">Disconnections</a></p></li>
 </ul>
 </li>
-<li><p><a class="reference internal" href="#running-trains" id="id24">Running Trains</a></p>
+<li><p><a class="reference internal" href="#turn-track-power-on" id="id24">Turn Track Power On</a></p></li>
+<li><p><a class="reference internal" href="#selecting-releasing-locos" id="id25">Selecting &amp; Releasing Locos</a></p>
 <ul>
-<li><p><a class="reference internal" href="#controlling-speed" id="id25">Controlling Speed</a></p></li>
-<li><p><a class="reference internal" href="#controlling-direction" id="id26">Controlling Direction</a></p></li>
-<li><p><a class="reference internal" href="#dcc-functions" id="id27">DCC Functions</a></p></li>
-<li><p><a class="reference internal" href="#virtual-sounds-in-phone-loco-sounds-ipls" id="id28">Virtual Sounds - In Phone Loco Sounds (IPLS)</a></p></li>
+<li><p><a class="reference internal" href="#selecting-a-single-loco" id="id26">Selecting a Single loco</a></p></li>
+<li><p><a class="reference internal" href="#on-the-fly-in-phone-consists-multiple-units" id="id27">On the fly / In Phone Consists (Multiple Units)</a></p></li>
 </ul>
 </li>
-<li><p><a class="reference internal" href="#action-bar-and-menu" id="id29">Action Bar and Menu</a></p>
+<li><p><a class="reference internal" href="#running-trains" id="id28">Running Trains</a></p>
 <ul>
-<li><p><a class="reference internal" href="#menu" id="id30">Menu</a></p></li>
-<li><p><a class="reference internal" href="#action-bar" id="id31">Action Bar</a></p></li>
+<li><p><a class="reference internal" href="#controlling-speed" id="id29">Controlling Speed</a></p></li>
+<li><p><a class="reference internal" href="#controlling-direction" id="id30">Controlling Direction</a></p></li>
+<li><p><a class="reference internal" href="#dcc-functions" id="id31">DCC Functions</a></p>
+<ul>
+<li><p><a class="reference internal" href="#activating-the-dcc-function-via-the-function-buttons" id="id32">Activating the DCC Function via the Function Buttons</a></p></li>
 </ul>
 </li>
-<li><p><a class="reference internal" href="#turnouts-points" id="id32">Turnouts / Points</a></p></li>
-<li><p><a class="reference internal" href="#routes" id="id33">Routes</a></p></li>
-<li><p><a class="reference internal" href="#panels-and-web-pages" id="id34">Panels and Web Pages</a></p></li>
-<li><p><a class="reference internal" href="#pushing-the-app-to-the-background" id="id35">Pushing the app to the Background</a></p></li>
-<li><p><a class="reference internal" href="#exiting-engine-driver" id="id36">Exiting Engine Driver</a></p></li>
+<li><p><a class="reference internal" href="#virtual-sounds-in-phone-loco-sounds-ipls" id="id33">Virtual Sounds - In Phone Loco Sounds (IPLS)</a></p>
+<ul>
+<li><p><a class="reference internal" href="#automatic-loco-speed-step-sounds" id="id34">Automatic Loco Speed Step Sounds</a></p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#action-bar-and-menu" id="id35">Action Bar and Menu</a></p>
+<ul>
+<li><p><a class="reference internal" href="#menu" id="id36">Menu</a></p>
+<ul>
+<li><p><a class="reference internal" href="#common-menu-items" id="id37">Common Menu Items</a></p></li>
+<li><p><a class="reference internal" href="#screen-specific-menu-items" id="id38">Screen Specific Menu Items</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#action-bar" id="id39">Action Bar</a></p>
+<ul>
+<li><p><a class="reference internal" href="#track-power-action-bar-button" id="id40">Track Power Action Bar Button</a></p></li>
+<li><p><a class="reference internal" href="#in-phone-loco-sounds-ipls-button" id="id41">In Phone Loco Sounds (IPLS) Button</a></p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#turnouts-points" id="id42">Turnouts / Points</a></p>
+<ul>
+<li><p><a class="reference internal" href="#dcc-address" id="id43">DCC Address</a></p></li>
+<li><p><a class="reference internal" href="#jmri-defined-turnout-point-list" id="id44">JMRI Defined Turnout/Point list</a></p></li>
+<li><p><a class="reference internal" href="#recent-turnout-point-list" id="id45">Recent Turnout/Point list</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#routes" id="id46">Routes</a></p>
+<ul>
+<li><p><a class="reference internal" href="#from-the-withrottle-server" id="id47">From the WiThrottle server</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#panels-and-web-pages" id="id48">Panels and Web Pages</a></p>
+<ul>
+<li><p><a class="reference internal" href="#throttle-web-view-vs-web-screen" id="id49">Throttle Web View VS Web Screen</a></p></li>
+<li><p><a class="reference internal" href="#menu-to-web-view-screen" id="id50">Menu (to Web View Screen)</a></p></li>
+<li><p><a class="reference internal" href="#swipe-to-web-view-screen" id="id51">Swipe (to Web View Screen)</a></p></li>
+<li><p><a class="reference internal" href="#auto-web-orientation" id="id52">Auto Web Orientation</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#pushing-the-app-to-the-background" id="id53">Pushing the app to the Background</a></p></li>
+<li><p><a class="reference internal" href="#exiting-engine-driver" id="id54">Exiting Engine Driver</a></p></li>
 </ul>
 </div>
 </aside>
 <section id="connecting">
-<h2><a class="toc-backref" href="#id16">Connecting</a><a class="headerlink" href="#connecting" title="Permalink to this heading"></a></h2>
+<h2><a class="toc-backref" href="#id17">Connecting</a><a class="headerlink" href="#connecting" title="Permalink to this heading"></a></h2>
 <p>Connecting has two aspects:</p>
 <ol class="arabic simple">
 <li><p>Connecting to the WiFi network, which uses Android’s built in capabilities (not <strong>Engine Driver’s</strong>)</p></li>
 <li><p>Connecting <strong>Engine Driver</strong> to the WiThrottle server</p></li>
 </ol>
 <section id="connecting-to-the-wifi-network">
-<h3><a class="toc-backref" href="#id17">Connecting to the WiFi network</a><a class="headerlink" href="#connecting-to-the-wifi-network" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id18">Connecting to the WiFi network</a><a class="headerlink" href="#connecting-to-the-wifi-network" title="Permalink to this heading"></a></h3>
 <aside class="sidebar-no-background sidebar">
 <a class="reference internal image-reference" href="../_images/network1.png"><img alt="../_images/network1.png" class="align-right" src="../_images/network1.png" style="width: 43.8px; height: 56.699999999999996px;" /></a>
 <p><br /></p>
@@ -735,7 +809,7 @@
 </div>
 </section>
 <section id="connecting-engine-driver-to-the-withrottle-server">
-<h3><a class="toc-backref" href="#id18">Connecting Engine Driver to the WiThrottle server</a><a class="headerlink" href="#connecting-engine-driver-to-the-withrottle-server" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id19">Connecting Engine Driver to the WiThrottle server</a><a class="headerlink" href="#connecting-engine-driver-to-the-withrottle-server" title="Permalink to this heading"></a></h3>
 <aside class="sidebar-no-background sidebar">
 <a class="reference internal image-reference" href="../_images/connecting_ip_address.png" id="ip-address"><img alt="../_images/connecting_ip_address.png" class="align-right" id="ip-address" src="../_images/connecting_ip_address.png" style="width: 145.79999999999998px; height: 24.3px;" /></a>
 <p><br /></p>
@@ -743,24 +817,36 @@
 <p><br /></p>
 <a class="reference internal image-reference" href="../_images/connecting_recent_servers.png" id="recent-severs"><img alt="../_images/connecting_recent_servers.png" class="align-right" id="recent-severs" src="../_images/connecting_recent_servers.png" style="width: 144.0px; height: 50.699999999999996px;" /></a>
 </aside>
-<ul>
+<ul class="simple">
 <li><p>Start Engine Driver <br />You will be presented with the Connection Screen</p></li>
 <li><p>On the Connection Screen there are three ways you can select a WiThrottle server to connect to:</p>
-<ul class="simple">
+<ul>
 <li><p>IP Address and Port</p></li>
 <li><p>Discovered Servers</p></li>
 <li><p>Recent servers</p></li>
 </ul>
-<p><strong>Discover Servers</strong></p>
-<p>This is the most common way to connect. If the server you want to connect to is in the list, simply click on it and you will be taken to the Throttle screen.</p>
+</li>
+</ul>
+<section id="discover-servers">
+<h4><a class="toc-backref" href="#id20">Discover Servers</a><a class="headerlink" href="#discover-servers" title="Permalink to this heading"></a></h4>
+<blockquote>
+<div><p>This is the most common way to connect. If the server you want to connect to is in the list, simply click on it and you will be taken to the Throttle screen.</p>
 <p>If the server does not appear in the recent list try one of the other two methods.
 Your server not appearing in the recent list is not necessarily a problem  See <a class="reference external" href="./wifi_issues.html">Connection issues</a> for more information.</p>
-<p><strong>Recent Server List</strong></p>
-<p>If the server you want to connect to is in the list, simply click on it and you will be taken to the Throttle screen.</p>
+</div></blockquote>
+</section>
+<section id="recent-server-list">
+<h4><a class="toc-backref" href="#id21">Recent Server List</a><a class="headerlink" href="#recent-server-list" title="Permalink to this heading"></a></h4>
+<blockquote>
+<div><p>If the server you want to connect to is in the list, simply click on it and you will be taken to the Throttle screen.</p>
 <p>A server being in this list <em>does not</em> necessarily mean that you will be able to connect it <em>now</em>. It just means that you have successfully connected to it in the past.</p>
 <p>There is also a ‘demo’ server at <strong>jmri.mstevetodd.com</strong>, port <strong>44444</strong> in this list that you can connect to for testing. (If your device/phone has an internet connection.)</p>
-<p><strong>IP Address and Port</strong></p>
-<p>Type in the <strong>IP address</strong> and <strong>Port</strong> of the WiThrottle server and press <span class="guilabel">Connect</span>.</p>
+</div></blockquote>
+</section>
+<section id="ip-address-and-port">
+<h4><a class="toc-backref" href="#id22">IP Address and Port</a><a class="headerlink" href="#ip-address-and-port" title="Permalink to this heading"></a></h4>
+<blockquote>
+<div><p>Type in the <strong>IP address</strong> and <strong>Port</strong> of the WiThrottle server and press <span class="guilabel">Connect</span>.</p>
 <p>To find your server’s IP address and Port:</p>
 <blockquote>
 <div><ul class="simple">
@@ -769,15 +855,15 @@ Your server not appearing in the recent list is not necessarily a problem  See <
 </ul>
 </div></blockquote>
 <p>If you only ever connect to one WiThrottle server you can effectively bypass this screen by setting the <a class="reference external" href="../configuration/preferences.html#auto-connect-to-withrottle-server">Auto-Connect to WiThrottle Server?</a> preference.</p>
-</li>
-</ul>
+</div></blockquote>
 <div class="note-ed-hidden-title admonition note">
 <p class="admonition-title">Note</p>
 <p>Also see <a class="reference external" href="./wifi_issues.html">Connection issues</a> if you are having difficulties.</p>
 </div>
 </section>
+</section>
 <section id="disconnections">
-<h3><a class="toc-backref" href="#id19">Disconnections</a><a class="headerlink" href="#disconnections" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id23">Disconnections</a><a class="headerlink" href="#disconnections" title="Permalink to this heading"></a></h3>
 <p><strong>Engine Driver</strong> and/or the Android device can occasionally lose the connection even after it successfully connected.  There can be a lot of causes.  If ED does lose connection it will buzz, vibrate and take you to <em>Reconnecting Screen</em>.   It will repeatedly and indefinitely attempt to reconnect.</p>
 <p>If JMRI does not receive any feedback from your device/phone within a configured period, JMRI will stop all the locos you have selected on you device/phone.</p>
 <div class="note-ed-hidden-title admonition note">
@@ -788,7 +874,7 @@ Your server not appearing in the recent list is not necessarily a problem  See <
 </section>
 </section>
 <section id="turn-track-power-on">
-<h2><a class="toc-backref" href="#id20">Turn Track Power On</a><a class="headerlink" href="#turn-track-power-on" title="Permalink to this heading"></a></h2>
+<h2><a class="toc-backref" href="#id24">Turn Track Power On</a><a class="headerlink" href="#turn-track-power-on" title="Permalink to this heading"></a></h2>
 <p>Some DCC Command Stations need to be instructed to turn the Track Power on before you can use them.  This is not required by all Command Stations so check your manufacturer’s instructions.</p>
 <p>There are two ways to turn the Track Power on/off:</p>
 <ul class="simple">
@@ -805,11 +891,11 @@ Your server not appearing in the recent list is not necessarily a problem  See <
 </section>
 <hr class="docutils" />
 <section id="selecting-releasing-locos">
-<h2><a class="toc-backref" href="#id21">Selecting &amp; Releasing Locos</a><a class="headerlink" href="#selecting-releasing-locos" title="Permalink to this heading"></a></h2>
+<h2><a class="toc-backref" href="#id25">Selecting &amp; Releasing Locos</a><a class="headerlink" href="#selecting-releasing-locos" title="Permalink to this heading"></a></h2>
 <p>Selecting and releasing locos and Consists/Multiple Units is initiated from the Throttle Screen, by clicking on the <span class="guilabel">Select</span> button of one of the Throttles on the screen.</p>
 <p>(The Throttle screen may have from 1 to 6 throttles on it, depending on the <a class="reference external" href="../configuration/preferences.html#throttle-screen-appearance-preferences">Throttle Screen Layout preferences</a> you have chosen.)</p>
 <section id="selecting-a-single-loco">
-<h3><a class="toc-backref" href="#id22">Selecting a Single loco</a><a class="headerlink" href="#selecting-a-single-loco" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id26">Selecting a Single loco</a><a class="headerlink" href="#selecting-a-single-loco" title="Permalink to this heading"></a></h3>
 <p>There three ways select a loco:</p>
 <ul>
 <li><p>By entering a DCC Address</p></li>
@@ -828,7 +914,7 @@ Your server not appearing in the recent list is not necessarily a problem  See <
 </ul>
 </section>
 <section id="on-the-fly-in-phone-consists-multiple-units">
-<h3><a class="toc-backref" href="#id23">On the fly / In Phone Consists (Multiple Units)</a><a class="headerlink" href="#on-the-fly-in-phone-consists-multiple-units" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id27">On the fly / In Phone Consists (Multiple Units)</a><a class="headerlink" href="#on-the-fly-in-phone-consists-multiple-units" title="Permalink to this heading"></a></h3>
 <p>There two ways create a Consist / Multiple Unit train:</p>
 <ul>
 <li><p><strong>Selecting additional locos, one loco ‘at a time’ (as above)</strong></p>
@@ -861,7 +947,7 @@ Your server not appearing in the recent list is not necessarily a problem  See <
 </section>
 </section>
 <section id="running-trains">
-<h2><a class="toc-backref" href="#id24">Running Trains</a><a class="headerlink" href="#running-trains" title="Permalink to this heading"></a></h2>
+<h2><a class="toc-backref" href="#id28">Running Trains</a><a class="headerlink" href="#running-trains" title="Permalink to this heading"></a></h2>
 <p>Once you have selected a loco or consist / multiple unit for a throttle, the names or addresses of the locos will be shown in the <span class="guilabel">Select</span> button of the throttle.</p>
 <p>From here you can:</p>
 <ul>
@@ -876,7 +962,7 @@ Your server not appearing in the recent list is not necessarily a problem  See <
 </li>
 </ul>
 <section id="controlling-speed">
-<h3><a class="toc-backref" href="#id25">Controlling Speed</a><a class="headerlink" href="#controlling-speed" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id29">Controlling Speed</a><a class="headerlink" href="#controlling-speed" title="Permalink to this heading"></a></h3>
 <p>There are eight ways you can control the speed of of your loco or consist /multiple unit train:</p>
 <ul>
 <li><p>Sliders (if available in the Throttle layout)</p></li>
@@ -954,7 +1040,7 @@ Your server not appearing in the recent list is not necessarily a problem  See <
 </ul>
 </section>
 <section id="controlling-direction">
-<h3><a class="toc-backref" href="#id26">Controlling Direction</a><a class="headerlink" href="#controlling-direction" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id30">Controlling Direction</a><a class="headerlink" href="#controlling-direction" title="Permalink to this heading"></a></h3>
 <p>There are three ways you can control the direction of your loco or consist /multiple unit train:</p>
 <ul>
 <li><p>Direction Buttons - for throttle screen layouts with direction buttons</p></li>
@@ -996,18 +1082,21 @@ Your server not appearing in the recent list is not necessarily a problem  See <
 </ul>
 </section>
 <section id="dcc-functions">
-<h3><a class="toc-backref" href="#id27">DCC Functions</a><a class="headerlink" href="#dcc-functions" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id31">DCC Functions</a><a class="headerlink" href="#dcc-functions" title="Permalink to this heading"></a></h3>
 <p>There are two ways you can activate the DCC Functions of the decoder in your loco or consist /multiple unit train:</p>
 <ul class="simple">
 <li><p>Function buttons</p></li>
 <li><p>Gamepads keys (if connected)</p></li>
 </ul>
 <p>The DCC functions can be impacted depending on the settings and preferences you have selected:</p>
-<ul>
+<ul class="simple">
 <li><p>Function Labels</p></li>
-<li><p>Functions in consists</p>
-<p><strong>Activating the DCC Function via the Function Buttons</strong></p>
-<p>Most (all bar one) Throttle Layouts show a number of DCC Function Buttons below or beside the Sliders for the individual Throttles on the Screen.  Clicking a button will send that function to the Loco (or lead loco of a Consist / Multiple Unit.)  This behaviour can be altered in the preferences.</p>
+<li><p>Functions in consists</p></li>
+</ul>
+<section id="activating-the-dcc-function-via-the-function-buttons">
+<h4><a class="toc-backref" href="#id32">Activating the DCC Function via the Function Buttons</a><a class="headerlink" href="#activating-the-dcc-function-via-the-function-buttons" title="Permalink to this heading"></a></h4>
+<blockquote>
+<div><p>Most (all bar one) Throttle Layouts show a number of DCC Function Buttons below or beside the Sliders for the individual Throttles on the Screen.  Clicking a button will send that function to the Loco (or lead loco of a Consist / Multiple Unit.)  This behaviour can be altered in the preferences.</p>
 <div class="note-ed-hidden-title admonition note">
 <p class="admonition-title">Note</p>
 <p>See the <a class="reference external" href="./gamepads.html">Functions page</a> for information on changing the Functions.</p>
@@ -1052,11 +1141,11 @@ Your server not appearing in the recent list is not necessarily a problem  See <
 <p>See the <a class="reference external" href="./preferences.html#consist-function-follow-preferences">Consist Follow Functions in the Preferences page</a> and the
 <a class="reference external" href="advanced.html#consist-follow-functions">Consist Follow Functions om the Advanced Operation page</a> for more details.</p>
 </div>
-</li>
-</ul>
+</div></blockquote>
+</section>
 </section>
 <section id="virtual-sounds-in-phone-loco-sounds-ipls">
-<h3><a class="toc-backref" href="#id28">Virtual Sounds - In Phone Loco Sounds (IPLS)</a><a class="headerlink" href="#virtual-sounds-in-phone-loco-sounds-ipls" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id33">Virtual Sounds - In Phone Loco Sounds (IPLS)</a><a class="headerlink" href="#virtual-sounds-in-phone-loco-sounds-ipls" title="Permalink to this heading"></a></h3>
 <p><strong>Engine Driver</strong> can play synchronised loco sounds through the speaker of your Android device / phone, or through BlueTooth speakers connected to it.</p>
 <p>There is built in Support for a number of different type of locos:</p>
 <ul class="simple">
@@ -1066,12 +1155,13 @@ Your server not appearing in the recent list is not necessarily a problem  See <
 </ul>
 <p>To enable In Phone Loco Sounds (IPLS) for a throttle (only the first two throttles on an given throttle screen) select an option in <a class="reference external" href="../configuration/preferences.html#throttle-1-loco-sounds">Throttle 1 Loco Sounds</a> or <a class="reference external" href="../configuration/preferences.html#throttle-2-loco-sounds">Throttle 2 Loco Sounds</a> (or both) preferences. Once enabled for either throttle a new menu option will be available from Throttle Screen to make subsequent changes easier: <span class="menuselection">Menu ‣ Loco Sounds</span></p>
 <p>To make it easy to switch sound profiles we recommend enabling the Action Bar button by setting the <a class="reference external" href="../configuration/preferences.html#in-phone-sounds-button">In phone sounds button</a> preferences: <span class="menuselection">Menu ‣ Preferences ‣ Throttle Screen Action Bar Preferences ‣ In phone sounds button</span></p>
-<p><strong>Automatic Loco Speed Step Sounds</strong></p>
+<section id="automatic-loco-speed-step-sounds">
+<h4><a class="toc-backref" href="#id34">Automatic Loco Speed Step Sounds</a><a class="headerlink" href="#automatic-loco-speed-step-sounds" title="Permalink to this heading"></a></h4>
 <p>Each IPLS Profile has a different number of speed steps. As the loco speed increases or decreases to a certain point a different sound will repeatedly play.  To try to emulate the momentum of the loco, there is a preset delay, and an option to not lip the sounds (which enforces a minimum delay) These can be altered with the <a class="reference external" href="../configuration/preferences.html#in-phone-momentum">In Phone Momentum</a> and the <a class="reference external" href="../configuration/preferences.html#don-t-clip-loco-step-sounds">Don’t clip loco step sounds</a> preferences.</p>
 <p>The volume of the Loco Sounds, the Bell Sounds and the Horn/Whistle sound can be altered independently with the <a class="reference external" href="../configuration/preferences.html#in-phone-loco-sounds-volume">In Phone Loco Sounds Volume</a>, the <a class="reference external" href="../configuration/preferences.html#in-phone-bell-sounds-volume">In Phone Bell Sounds Volume</a> and the <a class="reference external" href="../configuration/preferences.html#in-phone-horn-whistle-sounds-volume">In Phone Horn/Whistle Sounds Volume</a> preferences.</p>
-<p><strong>Playing sounds</strong></p>
 <blockquote>
-<div><p>Other than the speed steps sounds, which are automatic, there are three ways to play the additional sounds:</p>
+<div><p><strong>Playing sounds</strong></p>
+<p>Other than the speed steps sounds, which are automatic, there are three ways to play the additional sounds:</p>
 <ul class="simple">
 <li><p>IPLS specific buttons</p></li>
 <li><p>Via the DCC F0, F1, F2 DCC Functions (if set in the preferences)</p></li>
@@ -1094,9 +1184,9 @@ Your server not appearing in the recent list is not necessarily a problem  See <
 <p>Clicking this will continuously play a horn or whistle sound (depending on the profile) until the button is released (non-latched)</p>
 <p><strong>Short Horn / Whistle button</strong></p>
 <p>Clicking this will play a horn or whistle sound (depending on the profile) ones, regardless of how long the button is held down.</p>
+<p><strong>Activating the IPLS Sounds via DCC Functions / Function Buttons</strong></p>
 </li>
 </ul>
-<p><strong>Activating the IPLS Sounds via DCC Functions / Function Buttons</strong></p>
 <p>The Bell and Horn/Whistle (long) can be activated by the DCC Function buttons (F1 and F2) if the <a class="reference external" href="../configuration/preferences.html#f1-and-f2-activate-bell-and-horn">F1 and F2 activate Bell and Horn?</a> preference is set.</p>
 <p><strong>Activating the IPLS Sounds via Gamepad keys</strong></p>
 <p>Any keys and/or the any DPad directions can be configured to activate play the IPLS sounds.</p>
@@ -1108,13 +1198,15 @@ Your server not appearing in the recent list is not necessarily a problem  See <
 </div></blockquote>
 </section>
 </section>
+</section>
 <section id="action-bar-and-menu">
-<h2><a class="toc-backref" href="#id29">Action Bar and Menu</a><a class="headerlink" href="#action-bar-and-menu" title="Permalink to this heading"></a></h2>
+<h2><a class="toc-backref" href="#id35">Action Bar and Menu</a><a class="headerlink" href="#action-bar-and-menu" title="Permalink to this heading"></a></h2>
 <p><div style="color:red">TODO</div></p>
 <section id="menu">
-<h3><a class="toc-backref" href="#id30">Menu</a><a class="headerlink" href="#menu" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id36">Menu</a><a class="headerlink" href="#menu" title="Permalink to this heading"></a></h3>
 <p><div style="color:red">TODO</div></p>
-<p><strong>Common Menu Items</strong></p>
+<section id="common-menu-items">
+<h4><a class="toc-backref" href="#id37">Common Menu Items</a><a class="headerlink" href="#common-menu-items" title="Permalink to this heading"></a></h4>
 <p>These menu items appear on a number of different  Screens (most ‘Main Screens’):</p>
 <ul class="simple">
 <li><p>Throttle</p></li>
@@ -1127,7 +1219,9 @@ Your server not appearing in the recent list is not necessarily a problem  See <
 <li><p>Exit</p></li>
 <li><p>Power</p></li>
 </ul>
-<p><strong>Screen Specific Menu Items</strong></p>
+</section>
+<section id="screen-specific-menu-items">
+<h4><a class="toc-backref" href="#id38">Screen Specific Menu Items</a><a class="headerlink" href="#screen-specific-menu-items" title="Permalink to this heading"></a></h4>
 <p>These menu items only appear on specific Screens or under specific Conditions:</p>
 <ul class="simple">
 <li><p>Intro/Setup Wizard</p></li>
@@ -1136,8 +1230,9 @@ Your server not appearing in the recent list is not necessarily a problem  See <
 <li><p>Gamepads</p></li>
 </ul>
 </section>
+</section>
 <section id="action-bar">
-<h3><a class="toc-backref" href="#id31">Action Bar</a><a class="headerlink" href="#action-bar" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id39">Action Bar</a><a class="headerlink" href="#action-bar" title="Permalink to this heading"></a></h3>
 <a class="reference internal image-reference" href="../_images/action_bar.png"><img alt="../_images/action_bar.png" class="align-right" src="../_images/action_bar.png" style="width: 237.60000000000002px; height: 33.0px;" /></a>
 <p>The <em>Action Bar</em> provides for a number of common and specific information and functions. It can display:</p>
 <ul class="simple">
@@ -1151,50 +1246,72 @@ Your server not appearing in the recent list is not necessarily a problem  See <
 <li><p>WiThrottle Server Name</p></li>
 </ul>
 <p>Optionally configured buttons:</p>
-<ul>
+<ul class="simple">
 <li><p>Emergency Stop (EStop)</p></li>
 <li><p>Track Power</p></li>
 <li><p>Flashlight</p></li>
 <li><p>Throttle Web View</p></li>
 <li><p>Throttle Layout Switching</p></li>
 <li><p>In Phone Loco Sound</p></li>
-<li><p>Children’s Timer</p>
-<p><strong>Track Power Action Bar Button</strong></p>
-<p><div style="color:red">TODO</div></p>
+<li><p>Children’s Timer</p></li>
+</ul>
+<section id="track-power-action-bar-button">
+<h4><a class="toc-backref" href="#id40">Track Power Action Bar Button</a><a class="headerlink" href="#track-power-action-bar-button" title="Permalink to this heading"></a></h4>
+<blockquote>
+<div><p><div style="color:red">TODO</div></p>
 <p>Accessed from the <span class="menuselection">Menu ‣ Power</span> from most screens.</p>
 <ul class="simple">
 <li><p>Menu item</p></li>
 <li><p>Action Bar button</p></li>
 </ul>
-<p><strong>In Phone Loco Sounds (IPLS) Button</strong></p>
-<p><div style="color:red">TODO</div></p>
+<div class="note-ed-hidden-title admonition note">
+<p class="admonition-title">Note</p>
+<p>See the ??? prefernces…</p>
+<p>See the <a class="reference external" href="./interface.html#action-bar">Action Bar on the User Interface page</a> for information on the Action bar buttons.</p>
+</div>
+</div></blockquote>
+</section>
+<section id="in-phone-loco-sounds-ipls-button">
+<h4><a class="toc-backref" href="#id41">In Phone Loco Sounds (IPLS) Button</a><a class="headerlink" href="#in-phone-loco-sounds-ipls-button" title="Permalink to this heading"></a></h4>
+<blockquote>
+<div><p><div style="color:red">TODO</div></p>
 <ul class="simple">
 <li><p>Preferences</p></li>
 <li><p>Action Bar Button</p></li>
 </ul>
 <div class="note-ed-hidden-title admonition note">
 <p class="admonition-title">Note</p>
+<p>See the ??? prefernces…</p>
 <p>See the <a class="reference external" href="./interface.html#action-bar">Action Bar on the User Interface page</a> for information on the Action bar buttons.</p>
 <p>See IPLS page</p>
 </div>
-</li>
-</ul>
+</div></blockquote>
+</section>
 </section>
 </section>
 <section id="turnouts-points">
-<h2><a class="toc-backref" href="#id32">Turnouts / Points</a><a class="headerlink" href="#turnouts-points" title="Permalink to this heading"></a></h2>
+<h2><a class="toc-backref" href="#id42">Turnouts / Points</a><a class="headerlink" href="#turnouts-points" title="Permalink to this heading"></a></h2>
 <p><div style="color:red">TODO</div></p>
 <p><strong>Engine Driver</strong> can control DCC controlled Turnouts / Points on your layout if configured in you WiThrottle server.</p>
 <p>To get the <em>Turnouts / Points</em> screen you can use the menu <span class="menuselection">Menu ‣ Turnouts/Points</span> from the main screens.  You can also swipe right from the Throttle Screen (if enabled in the preference).</p>
 <p>The WiThrottle Server must have Turnouts / Points enabled.</p>
 <p>If you’ve defined your turnouts and routes in a panel file, make sure to specify “user names” for those you’d like to see listed on your throttle. You can also “filter” the turnouts shown using the WiThrottle-&gt;Filter Controls option in the WiThrottle window.</p>
 <p><em>Turnouts/Points</em> can be operated three ways</p>
-<ul>
+<ul class="simple">
 <li><p>By entering their DCC Address</p></li>
 <li><p>From the JMRI Defined Turnout/Point list provided by the WiThrottle Server (JMRI)</p></li>
-<li><p>From the recent Turnout/Point list</p>
-<p><strong>DCC Address</strong></p>
-<p>Enter the DCC address of the Turnout / Points you wish to control.</p>
+<li><p>From the recent Turnout/Point list</p></li>
+</ul>
+<p>The <em>Turnouts/Points Screen</em> can be accessed three ways:</p>
+<ul class="simple">
+<li><p>Menu</p></li>
+<li><p>Swipe</p></li>
+<li><p>Auto Web Orientation</p></li>
+</ul>
+<section id="dcc-address">
+<h3><a class="toc-backref" href="#id43">DCC Address</a><a class="headerlink" href="#dcc-address" title="Permalink to this heading"></a></h3>
+<blockquote>
+<div><p>Enter the DCC address of the Turnout / Points you wish to control.</p>
 <p>Three buttons will be available</p>
 <ul class="simple">
 <li><p>Throw</p></li>
@@ -1202,65 +1319,92 @@ Your server not appearing in the recent list is not necessarily a problem  See <
 <li><p>Toggle</p></li>
 </ul>
 <p><div style="color:red">TODO</div></p>
-<p><strong>JMRI Defined Turnout/Point list</strong></p>
-<p>Server must</p>
+</div></blockquote>
+</section>
+<section id="jmri-defined-turnout-point-list">
+<h3><a class="toc-backref" href="#id44">JMRI Defined Turnout/Point list</a><a class="headerlink" href="#jmri-defined-turnout-point-list" title="Permalink to this heading"></a></h3>
+<blockquote>
+<div><p>Server must</p>
 <ul class="simple">
 <li><p>Filtering</p></li>
 <li><p>Must be named???</p></li>
 </ul>
 <p><div style="color:red">TODO</div></p>
 <p>see delimiter preference</p>
-<p><strong>Recent Turnout/Point list</strong></p>
-<p><div style="color:red">TODO</div></p>
-</li>
-</ul>
+</div></blockquote>
+</section>
+<section id="recent-turnout-point-list">
+<h3><a class="toc-backref" href="#id45">Recent Turnout/Point list</a><a class="headerlink" href="#recent-turnout-point-list" title="Permalink to this heading"></a></h3>
+<blockquote>
+<div><p><div style="color:red">TODO</div></p>
+</div></blockquote>
 <div class="note-ed-hidden-title admonition note">
 <p class="admonition-title">Note</p>
 <p>See the <a class="reference external" href="./configuration/preferences.html#left-right-swipe-preferences">Left/Right Swipe preferences on the Preferences page</a> for information on enabling or disabling the swipe though Turnouts/Points.</p>
 </div>
 </section>
+</section>
 <section id="routes">
-<h2><a class="toc-backref" href="#id33">Routes</a><a class="headerlink" href="#routes" title="Permalink to this heading"></a></h2>
+<h2><a class="toc-backref" href="#id46">Routes</a><a class="headerlink" href="#routes" title="Permalink to this heading"></a></h2>
 <p><div style="color:red">TODO</div></p>
 <p><strong>Engine Driver</strong> can control <em>Routes</em> on your layout if configured in you WiThrottle server.</p>
 <p>When using DC++EX as your WiThrottle server, <em>Routes</em> can be used to activate <em>Automations</em>.</p>
 <p>To get the <em>Turnouts / Points</em> screen you can use the menu <span class="menuselection">Menu ‣ Routes</span> from the main screens.  You can also swipe left from the Throttle Screen (if enabled in the preference).</p>
 <p>If you’ve defined your turnouts and routes in a panel file, make sure to specify “user names” for those you’d like to see listed on your throttle. You can also “filter” the turnouts shown using the WiThrottle-&gt;Filter Controls option in the WiThrottle window.</p>
+<p>The <em>Routes Screen</em> can be accessed three ways:</p>
 <ul class="simple">
-<li><p>From the WiThrottle server</p></li>
+<li><p>Menu</p></li>
+<li><p>Swipe</p></li>
+<li><p>Auto Web Orientation</p></li>
 </ul>
+<section id="from-the-withrottle-server">
+<h3><a class="toc-backref" href="#id47">From the WiThrottle server</a><a class="headerlink" href="#from-the-withrottle-server" title="Permalink to this heading"></a></h3>
 <div class="note-ed-hidden-title admonition note">
 <p class="admonition-title">Note</p>
 <p>See the <a class="reference external" href="./configuration/preferences.html#left-right-swipe-preferences">Left/Right Swipe preferences on the Preferences page</a> for information on enabling or disabling the swipe though Routes.</p>
 <p>See the <a class="reference external" href="https://dcc-ex.com/automation/index.html">Automation (EX-RAIL) page on the DCC++EX website</a> for more information on using Automations in DCC++EX.</p>
 </div>
 </section>
+</section>
 <section id="panels-and-web-pages">
-<h2><a class="toc-backref" href="#id34">Panels and Web Pages</a><a class="headerlink" href="#panels-and-web-pages" title="Permalink to this heading"></a></h2>
+<h2><a class="toc-backref" href="#id48">Panels and Web Pages</a><a class="headerlink" href="#panels-and-web-pages" title="Permalink to this heading"></a></h2>
 <p><div style="color:red">TODO</div></p>
-<p><strong>Throttle Web View VS Web Screen</strong></p>
-<p><strong>Engine Driver</strong> has two distinct ways you view web pages.</p>
+<section id="throttle-web-view-vs-web-screen">
+<h3><a class="toc-backref" href="#id49">Throttle Web View VS Web Screen</a><a class="headerlink" href="#throttle-web-view-vs-web-screen" title="Permalink to this heading"></a></h3>
+<p><strong>Engine Driver</strong> has two distinct ways you can view web pages.</p>
 <ul class="simple">
 <li><p>Throttle Web View</p></li>
 <li><p>Web Screen</p></li>
 </ul>
-<p>This section describes the <em>Web Screen</em>, which is a full screen web browser.  The <em>Throttle Web View</em> is a half Screen web browser that optionally shares the screen with the Throttle Screen. See the <a class="reference external" href="./interface.html#web-view-area">Throttle Web View section on the User Interface page</a> from more information Throttle Web View.</p>
-<p>The <em>Web Screen</em> can be accessed three ways:</p>
-<ul>
+<p>This section describes the <em>Web Screen</em>, which is a full screen web browser.  The <em>Throttle Web View</em> is a half Screen web browser that optionally shares the screen with the <em>Throttle Screen</em>. See the <a class="reference external" href="./interface.html#web-view-area">Throttle Web View section on the User Interface page</a> from more information on the Throttle Web View.</p>
+<p>The <em>Web View Screen</em> can be accessed three ways:</p>
+<ul class="simple">
 <li><p>Menu</p></li>
 <li><p>Swipe</p></li>
-<li><p>Auto Web Orientation</p>
-<p><strong>Menu</strong></p>
-<p><div style="color:red">TODO</div></p>
+<li><p>Auto Web Orientation</p></li>
+</ul>
+</section>
+<section id="menu-to-web-view-screen">
+<h3><a class="toc-backref" href="#id50">Menu (to Web View Screen)</a><a class="headerlink" href="#menu-to-web-view-screen" title="Permalink to this heading"></a></h3>
+<blockquote>
+<div><p><div style="color:red">TODO</div></p>
 <p>To get the <em>Web</em> screen you can use the menu <span class="menuselection">Menu ‣ Web</span> from the main screens.  You can also swipe left from the Throttle Screen (if enabled in the preference).</p>
-<p><strong>Swipe</strong></p>
-<p><div style="color:red">TODO</div></p>
+</div></blockquote>
+</section>
+<section id="swipe-to-web-view-screen">
+<h3><a class="toc-backref" href="#id51">Swipe (to Web View Screen)</a><a class="headerlink" href="#swipe-to-web-view-screen" title="Permalink to this heading"></a></h3>
+<blockquote>
+<div><p><div style="color:red">TODO</div></p>
 <ul class="simple">
 <li><p>If enabled</p></li>
 <li><p>Not allowed if Auto Web orientation is enabled.  (Preference is automatically disabled)</p></li>
 </ul>
-<p><strong>Auto Web Orientation</strong></p>
-<ul class="simple">
+</div></blockquote>
+</section>
+<section id="auto-web-orientation">
+<h3><a class="toc-backref" href="#id52">Auto Web Orientation</a><a class="headerlink" href="#auto-web-orientation" title="Permalink to this heading"></a></h3>
+<blockquote>
+<div><ul class="simple">
 <li><p>If enabled</p></li>
 <li><p>Swipe preference is automatically disabled on selection</p></li>
 </ul>
@@ -1269,11 +1413,11 @@ Your server not appearing in the recent list is not necessarily a problem  See <
 <p class="admonition-title">Note</p>
 <p>See the <a class="reference external" href="./configuration/preferences.html#left-right-swipe-preferences">Left/Right Swipe preferences on the Preferences page</a> for information on enabling or disabling the swipe though Web.</p>
 </div>
-</li>
-</ul>
+</div></blockquote>
+</section>
 </section>
 <section id="pushing-the-app-to-the-background">
-<h2><a class="toc-backref" href="#id35">Pushing the app to the Background</a><a class="headerlink" href="#pushing-the-app-to-the-background" title="Permalink to this heading"></a></h2>
+<h2><a class="toc-backref" href="#id53">Pushing the app to the Background</a><a class="headerlink" href="#pushing-the-app-to-the-background" title="Permalink to this heading"></a></h2>
 <p>By using the Android <span class="guilabel">Home</span> ( ○ ) or <span class="guilabel">Recent Tasks</span> ( □ ) navigation buttons, or if you press the <code class="docutils literal notranslate"><span class="pre">Power</span></code> physical button, it is possible to push the <strong>Engine Driver</strong> app into the background.  <strong>Engine Driver</strong> will give a sound, warning and will add an entry to the Notification Shade when this happens.</p>
 <p>Clicking on the Notification Shade entry or the app icon will return you the same screen your were in when to pushed the app to the background.</p>
 <p><strong>Engine Driver</strong> <em>is not designed to run in background and its performance is not predictable.</em></p>
@@ -1287,7 +1431,7 @@ Your server not appearing in the recent list is not necessarily a problem  See <
 </div>
 </section>
 <section id="exiting-engine-driver">
-<h2><a class="toc-backref" href="#id36">Exiting Engine Driver</a><a class="headerlink" href="#exiting-engine-driver" title="Permalink to this heading"></a></h2>
+<h2><a class="toc-backref" href="#id54">Exiting Engine Driver</a><a class="headerlink" href="#exiting-engine-driver" title="Permalink to this heading"></a></h2>
 <p>To exit <strong>Engine Driver</strong>, you can:</p>
 <ul class="simple">
 <li><p>Press the Android <span class="guilabel">Back</span> button once from the main screens (more than once if you are on one of the secondary screens) <br />OR</p></li>
