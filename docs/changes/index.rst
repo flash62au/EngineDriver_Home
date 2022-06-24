@@ -13,19 +13,6 @@ Production Version Changes
  
 Include:
 
-* 'In Device' loco sounds (first two throttles only). (Many thanks to Robert Posener for testing.)
-* Support longer text on Route buttons.
-* Move to Scoped Storage. (Enforced by Google for Android 11.) Engine Driver's data files are now stored in ../Android/data/jmri.enginedriver/files
-* Update target API from 29 to 30
-* Improvements when switching layouts in the preference screens
-* 'Limit Speed' and 'Pause' added to the Horizontal Layouts
-* Show roster lists from unknown servers
-
-Changes for the Beta Version
-----------------------------
-
-Changes in this version include:
-
 * More improvements to In-Phone Loco Sounds
 * Option for haptic feedback on button presses
 * Option to select a local image for roster locos
@@ -46,6 +33,14 @@ Changes in this version include:
 * Fix: TTS speed bugs
 * Fix: Issue with Route buttons
 * Fix: Correct log file path shown, and include in log
+
+Changes for the Beta Version
+----------------------------
+
+Changes in this version include:
+
+* 'Stop' button cancels 'Pause' if stationary
+* Volume 'Pause' and 'Mute' hardware buttons stop then toggle direction
 
 Full Change History
 -------------------
