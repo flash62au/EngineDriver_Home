@@ -247,14 +247,21 @@ Speed Slider Area
 Speed Buttons
 ''''''''''''''''''''''''''''''''
 
-   |todo|
+   The Throttles may optionally be configured have simple buttons that allow you to increase or decrease the loco's speed in pre-defined steps. The buttons are displayed at either end of the *speed sliders*.
+   
+   When enabled:
+   
+   * the :guilabel:`++` will **increase** the throttle speed by the `Speed Button Change Amount <../configuration/preferences.html#speed-button-change-amount>`_.
+   * the :guilabel:`--` will **decrease** the throttle speed by the `Speed Button Change Amount <../configuration/preferences.html#speed-button-change-amount>`_.
 
-   The Throttle may configured have simple buttons that allow you to increase or decrease the loco's speed in pre-defined steps.  
+   For the Horizontal Sliders only, The position of these buttons in relation to the speed sliders (the space between), can be altered with the `Speed Slider Margin <configuration/preferences.html#throttle-speed-slider-margin>`_ preference.
 
    .. note:: 
      :class: note-ed-hidden-title
 
-     See the `Display Speed Buttons? <../configuration/preferences.html#display-speed-buttons>`_ preference for more information.
+     See the `Display Speed Buttons? <../configuration/preferences.html#display-speed-buttons>`_ preference for more information o enabling these buttons.
+
+     See the `Speed Button Change Amount <../configuration/preferences.html#speed-button-change-amount>`_ preference for information on the abount that 
 
 Direction Buttons Area
 '''''''''''''''''''''''
