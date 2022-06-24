@@ -161,6 +161,7 @@
 <li class="toctree-l6"><a class="reference internal" href="../operation/interface.html#loco-select-button">Loco Select Button</a></li>
 <li class="toctree-l6"><a class="reference internal" href="../operation/interface.html#speed-indicator">Speed indicator</a></li>
 <li class="toctree-l6"><a class="reference internal" href="../operation/interface.html#speed-slider-area">Speed Slider Area</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../operation/interface.html#stop-button">Stop Button</a></li>
 <li class="toctree-l6"><a class="reference internal" href="../operation/interface.html#speed-buttons">Speed Buttons</a></li>
 <li class="toctree-l6"><a class="reference internal" href="../operation/interface.html#direction-buttons-area">Direction Buttons Area</a></li>
 <li class="toctree-l6"><a class="reference internal" href="../operation/interface.html#function-buttons-scroll-area">Function Buttons Scroll Area</a></li>
@@ -701,19 +702,6 @@
 <h2>Production Version Changes<a class="headerlink" href="#production-version-changes" title="Permalink to this heading"></a></h2>
 <p>Include:</p>
 <ul class="simple">
-<li><p>‘In Device’ loco sounds (first two throttles only). (Many thanks to Robert Posener for testing.)</p></li>
-<li><p>Support longer text on Route buttons.</p></li>
-<li><p>Move to Scoped Storage. (Enforced by Google for Android 11.) Engine Driver’s data files are now stored in ../Android/data/jmri.enginedriver/files</p></li>
-<li><p>Update target API from 29 to 30</p></li>
-<li><p>Improvements when switching layouts in the preference screens</p></li>
-<li><p>‘Limit Speed’ and ‘Pause’ added to the Horizontal Layouts</p></li>
-<li><p>Show roster lists from unknown servers</p></li>
-</ul>
-</section>
-<section id="changes-for-the-beta-version">
-<h2>Changes for the Beta Version<a class="headerlink" href="#changes-for-the-beta-version" title="Permalink to this heading"></a></h2>
-<p>Changes in this version include:</p>
-<ul class="simple">
 <li><p>More improvements to In-Phone Loco Sounds</p></li>
 <li><p>Option for haptic feedback on button presses</p></li>
 <li><p>Option to select a local image for roster locos</p></li>
@@ -734,6 +722,14 @@
 <li><p>Fix: TTS speed bugs</p></li>
 <li><p>Fix: Issue with Route buttons</p></li>
 <li><p>Fix: Correct log file path shown, and include in log</p></li>
+</ul>
+</section>
+<section id="changes-for-the-beta-version">
+<h2>Changes for the Beta Version<a class="headerlink" href="#changes-for-the-beta-version" title="Permalink to this heading"></a></h2>
+<p>Changes in this version include:</p>
+<ul class="simple">
+<li><p>‘Stop’ button cancels ‘Pause’ if stationary</p></li>
+<li><p>Volume ‘Pause’ and ‘Mute’ hardware buttons stop then toggle direction</p></li>
 </ul>
 </section>
 <section id="full-change-history">

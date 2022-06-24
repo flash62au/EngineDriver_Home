@@ -220,6 +220,8 @@ Speed indicator
 
 Speed Slider Area
 '''''''''''''''''
+   .. image:: ../_static/images/parts/slider_horizontal.png
+      :scale: 100 %
 
    The Throttle areas can be configured with a *Speed Slider*.  (All Throttle Screen layouts except the 'Big Button' layouts include sliders by default.) Dragging you finger along the slider will increase or decrease the speed of the loco(s) selected for the that Throttle. Pressing and holding your finger at one spot on the slider will cause |ED| to slowly increase or decrease the speed of the loco(s) selected for that Throttle till it gets to that point.
    
@@ -243,9 +245,20 @@ Speed Slider Area
 
    .. [#PCT] The actual amounts shown in the *Speed Indicator* will depend on the ``Speed Units`` chosen in the  `Speed Units preference <../configuration/preferences.html#speed-units>`_.
 
+Stop Button
+''''''''''''''''''''''''''''''''
+
+   .. image:: ../_static/images/parts/stop_button_horizontal.png
+      :scale: 80 %
+
+   |todo|
+
 
 Speed Buttons
 ''''''''''''''''''''''''''''''''
+
+   .. image:: ../_static/images/parts/speed_buttons_horizontal.png
+      :scale: 100 %
 
    The Throttles may optionally be configured have simple buttons that allow you to increase or decrease the loco's speed in pre-defined steps. The buttons are displayed at either end of the *speed sliders*.
    
@@ -267,6 +280,9 @@ Direction Buttons Area
 '''''''''''''''''''''''
 
    |todo|
+
+   .. image:: ../_static/images/parts/direction_buttons.png
+      :scale: 80 %
 
    Each Throttle on the Throttle Screen will display :guilabel:`Forward` and :guilabel:`Reverse` direction buttons, depending on the ``Throttle Screen Layout`` in the  `Throttle Screen Layout <../configuration/preferences.html#throttle-screen-layout>`_ preference.  'Shunting/Switching' layouts do not show the direction buttons.
 
@@ -406,11 +422,11 @@ This screen allows you to display all Turnouts/Points that have been defined in 
 
 Turnouts/Points can be changed from Closed to Thrown and vice versa be pressing on either the ``Closed`` or ``Thrown`` buttons
 
-List
-Filter
+List from wiThrottle
 
-|todo|
-
+* Filter
+* Throw
+* CLose
 
 Entry
 
@@ -533,7 +549,7 @@ The follow additional screens will be shown at different times and for various r
 ----
 
 Intro/Setup Wizard Screen
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The *Setup Wizard* will start automatically the first time you run |ed| after you install it.  It sets some basic preferences and asks for the necessary permissions.  These preferences can be subsequently be changed use the : :menuselection:`Menu --> Preferences`, or by re-running the wizard, which can only be done from the menu on the *Connection screen*.
 
@@ -545,7 +561,7 @@ The *Setup Wizard* will start automatically the first time you run |ed| after yo
 ----
 
 Loco Select Screen
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^
 
 |todo|
 
