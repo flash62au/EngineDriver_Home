@@ -786,28 +786,38 @@ Menu (to Web View Screen)
 
   |todo|
 
-  To get the *Web* screen you can use the menu :menuselection:`Menu --> Web` from the main screens.  You can also swipe left from the Throttle Screen (if enabled in the preference).
+  To get the *Web* screen you can use the menu :menuselection:`Menu --> Web` from the main screens.  
 
 Swipe (to Web View Screen)
 """"""""""""""""""""""""""
 
-  |todo|
+  You can swipe left or right twice from the *Throttle Screen* (if enabled in the preference).
+  You can also swipe left from the *Turnouts/Points Screen* (if enabled in the preference).
+  You can also swipe right from the *Routes Screen* (if enabled in the preference).
 
-  * If enabled
-  * Not allowed if Auto Web orientation is enabled.  (Preference is automatically disabled)
-
-Auto Web Orientation
-""""""""""""""""""""
-
-  * If enabled
-  * Swipe preference is automatically disabled on selection
-
-  |todo|
+  Note that 'Swipe Through Web' is automatically disabled if ``Auto-Web`` orientation is enabled in the `Screen Orientation <configuration/preferences.html#screen-orientation>` preference.
 
   .. note:: 
     :class: note-ed-hidden-title
 
-    See the `Left/Right Swipe preferences on the Preferences page <./configuration/preferences.html#left-right-swipe-preferences>`_ for information on enabling or disabling the swipe though Web.
+    See the `Left/Right Swipe preferences on the Preferences page <./configuration/preferences.html#left-right-swipe-preferences>`_ for information on enabling or disabling the 'swipe though Web', 'Swipe through Routes' and 'Swipe through Turnouts/Points'.
+
+    See the `Screen Orientation <configuration/preferences.html#screen-orientation>` preference for more information on ``Auto-Web`` orientation option.
+
+Auto Web Orientation
+""""""""""""""""""""
+
+  if ``Auto-Web`` orientation is enabled in the `Screen Orientation <configuration/preferences.html#screen-orientation>` preference is enabled, when you rotate you Android device/Phone from portrait to Landscape, the *Web View Screen* is automatically shown.  Rotating it back will automatically show he *Throttle Screen*. 
+
+  Note that 'Swipe Through Web' is automatically disabled if ``Auto-Web`` orientation is enabled in the `Screen Orientation <configuration/preferences.html#screen-orientation>` preference.  It is not automatically re-enabled you fo select a different orientation.  i.e. you will need to manually tun the preference back on if you chnage from ``Auto-Web`` to another orientation.
+
+  .. note:: 
+    :class: note-ed-hidden-title
+
+    See the `Screen Orientation <configuration/preferences.html#screen-orientation>` preference for more information on ``Auto-Web`` orientation option.
+
+    See the `Left/Right Swipe preferences on the Preferences page <./configuration/preferences.html#left-right-swipe-preferences>`_ for information on enabling or disabling the 'swipe though Web', 'Swipe through Routes' and 'Swipe through Turnouts/Points'.
+
 
 Pushing the app to the Background
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
