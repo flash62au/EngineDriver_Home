@@ -11,12 +11,12 @@ Changes / Updates
 Production Version Changes
 --------------------------
  
-Include:
+Changes in this version include:
 
 * More improvements to In-Phone Loco Sounds
 * Option for haptic feedback on button presses
 * Option to select a local image for roster locos
-* Option to use a normal keyboard (bluetooth or USB) as a gamepad type
+* Option to use a normal keyboard (Bluetooth or USB) as a gamepad type
 * Option to link F1&F2 to the IPLS Bell and Horn
 * Option for Server Description on the Action bar
 * Several additional TTS options
