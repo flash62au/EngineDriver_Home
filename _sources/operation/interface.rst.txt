@@ -600,9 +600,11 @@ The *Setup Wizard* will start automatically the first time you run |ed| after yo
 Loco Select Screen
 ^^^^^^^^^^^^^^^^^^
 
-|todo|
+The *Loco Select Screen* allows you add locos to a (one of) throttle on the *Throttle Screen*.  It also provides access to the additional screens for 'Editing the Consist', 'Editing Lights' and editing the 'In Phone Locos Sounds'.
 
-Shown when you click a :guilabel:`Select` button on the *Throttle Screen*.
+The *Loco Select Screen* is only shown when you click a :guilabel:`Select` button on the *Throttle Screen*.
+
+Not that the :guilabel:`Select` button will should the Address(es) or the Name(s) of a Loco or Consist/Multiple Unit Train only the first loco is selected.  Click on the button will (while it is in this state) will again take to this screen to allow to you add additional Locos to the Consist/Multiple Unit Train, or make other changes to the  Consist/Multiple Unit Train.
 
 Selection Method
 """"""""""""""""
