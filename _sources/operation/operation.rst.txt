@@ -480,7 +480,7 @@ Activating the DCC Function via the Function Buttons
 
     * Which function buttons, how many function buttons and what labels are displayed, can be changed via the :menuselection:`Menu --> Function Defaults` from the Throttle Screen
   
-  * If you select a Loco from the Recent Locos or Recent Consists lists that was originally selected from a roster, |ed| will attempt to show the Labels from the server roster entry.
+  * If you select a Loco from the Recent Locos or Recent Consists lists that was originally selected from a roster, |ed| will attempt to show the Labels from the wiThrottle server roster entry.
 
   .. note:: 
     :class: note-ed-hidden-title
@@ -610,7 +610,7 @@ Optionally configured buttons:
 .. note:: 
   :class: note-ed-hidden-title
 
-  See the `Action Bar section of the User Interface page <../interface.html#action-bar>` for more information.
+  See the `Action Bar section of the User Interface page <../interface.html#action-bar>`_ for more information.
 
 Overflow Menu (Throttle Screen)
 '''''''''''''''''''''''''''''''
@@ -618,22 +618,8 @@ Overflow Menu (Throttle Screen)
   The *Overflow Menu* (or simply '*Menu*') appears in the Action Bar at the top of most of the main screens is normally three dots (⁞) or three bars (≡).
   It will show different options depending on a) the particular screen, b) preferences you have set and c) the state of certain elements in the app.
 
-  These menu items appear on a number of different Screens (most 'Main Screens'):
+  These menu items only appear on the *Throttle Screen*:
 
-  * Throttle
-  * Turnouts/Points
-  * Routes
-  * Web
-  * Preferences
-  * View Log
-  * About
-  * Exit
-  * Power
-
-  These menu items only appear on specific Screens or under specific Conditions:
-
-  * Intro/Setup Wizard
-  * Clear Recent List
   * Function Defaults
   * Gamepads
 
@@ -645,7 +631,7 @@ Overflow Menu (Throttle Screen)
   .. note:: 
     :class: note-ed-hidden-title
 
-    See the `Overflow Menu section of the User Interface page <../interface.html#overflow-menu>` for more information.
+    See the `Overflow Menu section of the User Interface page <../interface.html#overflow-menu>`_ for more information.
 
 Turnouts / Points
 ^^^^^^^^^^^^^^^^^
@@ -707,6 +693,19 @@ Recent Turnout/Point list
 
   See the `Left/Right Swipe preferences on the Preferences page <./configuration/preferences.html#left-right-swipe-preferences>`_ for information on enabling or disabling the swipe though Turnouts/Points.
 
+Overflow Menu (Turnouts/Points Screen)
+""""""""""""""""""""""""""""""""""""""
+
+  To get the *Web View Screen* you can use the menu :menuselection:`Menu --> Web` from the main screens.  
+
+  The *Overflow Menu* (or simply '*Menu*') appears in the Action Bar at the top of most of the main screens is normally three dots (⁞) or three bars (≡).
+  It will show different options depending on a) the particular screen, b) preferences you have set and c) the state of certain elements in the app.
+
+  .. note:: 
+    :class: note-ed-hidden-title
+
+    See the `Overflow Menu section of the User Interface page <../interface.html#overflow-menu>`_ for more information.
+
 Routes
 ^^^^^^
 
@@ -736,6 +735,19 @@ From the WiThrottle server
 
   See the `Automation (EX-RAIL) page on the DCC++EX website <https://dcc-ex.com/automation/index.html>`_ for more information on using Automations in DCC++EX.
 
+Overflow Menu (Routes Screen)
+"""""""""""""""""""""""""""""""
+
+  To get the *Web View Screen* you can use the menu :menuselection:`Menu --> Web` from the main screens.  
+
+  The *Overflow Menu* (or simply '*Menu*') appears in the Action Bar at the top of most of the main screens is normally three dots (⁞) or three bars (≡).
+  It will show different options depending on a) the particular screen, b) preferences you have set and c) the state of certain elements in the app.
+
+  .. note:: 
+    :class: note-ed-hidden-title
+
+    See the `Overflow Menu section of the User Interface page <../interface.html#overflow-menu>`_ for more information.
+
 Panels and Web Pages
 ^^^^^^^^^^^^^^^^^^^^^^
 
@@ -744,17 +756,17 @@ Panels and Web Pages
 |ed| can show any web page via an embedded Web Browser.  You can use the Web Browser to show anything that JMRI can present including:
 
 * Panels
-* 
 
-Throttle Web View VS Web Screen
-"""""""""""""""""""""""""""""""
+
+Throttle Web View VS Web View Screen
+""""""""""""""""""""""""""""""""""""
 
 |ed| has two distinct ways you can view web pages.
 
 * Throttle Web View 
-* Web Screen
+* Web View Screen
 
-This section describes the *Web Screen*, which is a full screen web browser.  The *Throttle Web View* is a half Screen web browser that optionally shares the screen with the *Throttle Screen*. See the `Throttle Web View section on the User Interface page <./interface.html#web-view-area>`_ from more information on the Throttle Web View.
+This section describes the *Web View Screen*, which is a full screen web browser.  The *Throttle Web View* is a half Screen web browser that optionally shares the screen with the *Throttle Screen*. See the `Throttle Web View section on the User Interface page <./interface.html#web-view-area>`_ from more information on the Throttle Web View.
 
 The *Web View Screen* can be accessed three ways:
 
@@ -762,51 +774,46 @@ The *Web View Screen* can be accessed three ways:
 * Swipe
 * Auto Web Orientation
 
-Menu (to Web View Screen)
-"""""""""""""""""""""""""
+Overflow Menu (Web View Screen)
+"""""""""""""""""""""""""""""""
 
-  |todo|
+  To get the *Web View Screen* you can use the menu :menuselection:`Menu --> Web` from the main screens.  
 
-  To get the *Web* screen you can use the menu :menuselection:`Menu --> Web` from the main screens.  
+  The *Overflow Menu* (or simply '*Menu*') appears in the Action Bar at the top of most of the main screens is normally three dots (⁞) or three bars (≡).
+  It will show different options depending on a) the particular screen, b) preferences you have set and c) the state of certain elements in the app.
 
-  Options available in the menu while on the *Web View Screen* include
-  
-  * Throttle
-  * Turnouts/Points
-  * Routes
-  * Power
-  * Preferences
-  * View Log
-  * Exit
-  * About
+  .. note:: 
+    :class: note-ed-hidden-title
 
-Swipe (to Web View Screen)
-""""""""""""""""""""""""""
+    See the `Overflow Menu section of the User Interface page <../interface.html#overflow-menu>`_ for more information.
+
+Swipe (Web View Screen)
+"""""""""""""""""""""""
 
   You can swipe left or right twice from the *Throttle Screen* (if enabled in the preference).
   You can also swipe left from the *Turnouts/Points Screen* (if enabled in the preference).
   You can also swipe right from the *Routes Screen* (if enabled in the preference).
 
-  Note that 'Swipe Through Web' is automatically disabled if ``Auto-Web`` orientation is enabled in the `Screen Orientation <configuration/preferences.html#screen-orientation>` preference.
+  Note that 'Swipe Through Web' is automatically disabled if ``Auto-Web`` orientation is enabled in the `Screen Orientation <configuration/preferences.html#screen-orientation>`_ preference.
 
   .. note:: 
     :class: note-ed-hidden-title
 
     See the `Left/Right Swipe preferences on the Preferences page <./configuration/preferences.html#left-right-swipe-preferences>`_ for information on enabling or disabling the 'swipe though Web', 'Swipe through Routes' and 'Swipe through Turnouts/Points'.
 
-    See the `Screen Orientation <configuration/preferences.html#screen-orientation>` preference for more information on ``Auto-Web`` orientation option.
+    See the `Screen Orientation <configuration/preferences.html#screen-orientation>`_ preference for more information on ``Auto-Web`` orientation option.
 
 Auto Web Orientation
 """"""""""""""""""""
 
-  if ``Auto-Web`` orientation is enabled in the `Screen Orientation <configuration/preferences.html#screen-orientation>` preference is enabled, when you rotate you Android device/Phone from portrait to Landscape, the *Web View Screen* is automatically shown.  Rotating it back will automatically show he *Throttle Screen*. 
+  if ``Auto-Web`` orientation is selected in the `Screen Orientation <configuration/preferences.html#screen-orientation>`_ preference, when you rotate you Android device/Phone from portrait to landscape, the *Web View Screen* is automatically shown.  Rotating it back will automatically show the *Throttle Screen*. 
 
-  Note that 'Swipe Through Web' is automatically disabled if ``Auto-Web`` orientation is enabled in the `Screen Orientation <configuration/preferences.html#screen-orientation>` preference.  It is not automatically re-enabled you fo select a different orientation.  i.e. you will need to manually tun the preference back on if you chnage from ``Auto-Web`` to another orientation.
+  Note that `Swipe Through Web <../configuration/preferences.html#swipe-through-web>`_ preference is automatically disabled if ``Auto-Web`` orientation is selelected in the `Screen Orientation <configuration/preferences.html#screen-orientation>`_ preference.  It is not automatically re-enabled if you later select a different orientation.  i.e. you will need to manually turn the preference back on if you change from ``Auto-Web`` to another orientation.
 
   .. note:: 
     :class: note-ed-hidden-title
 
-    See the `Screen Orientation <configuration/preferences.html#screen-orientation>` preference for more information on ``Auto-Web`` orientation option.
+    See the `Screen Orientation <configuration/preferences.html#screen-orientation>`_ preference for more information on ``Auto-Web`` orientation option.
 
     See the `Left/Right Swipe preferences on the Preferences page <./configuration/preferences.html#left-right-swipe-preferences>`_ for information on enabling or disabling the 'swipe though Web', 'Swipe through Routes' and 'Swipe through Turnouts/Points'.
 
@@ -816,7 +823,7 @@ Pushing the app to the Background
 
 By using the Android :guilabel:`Home` ( ○ ) or :guilabel:`Recent Tasks` ( □ ) navigation buttons, or if you press the ``Power`` physical button, it is possible to push the |ed| app into the background.  |ed| will give a sound, warning and will add an entry to the Notification Shade when this happens.
 
-Clicking on the Notification Shade entry or the app icon will return you the same screen your were in when to pushed the app to the background.
+Clicking on the Notification Shade entry or the app icon will return you to the same screen your were in when you pushed the app to the background.
 
 |ed| *is not designed to run in background and its performance is not predictable.*
 
