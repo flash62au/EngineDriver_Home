@@ -865,7 +865,7 @@ Action Bar
    :align: right
    :scale: 50%
 
-The Action Bar appears at the top of all screen. It will show different information and different buttons depending on a\) the particular screen and b\) preferences you have set.
+The Action Bar appears at the top of all screens. It will show different information and different buttons depending on a\) the particular screen and b\) preferences you have set.
 
 The Action Bar can display:
 
@@ -1017,10 +1017,12 @@ WiThrottle Server Name
 Overflow Menu
 ^^^^^^^^^^^^^
 
+|todo|
+
 The *Overflow Menu* (or simply '*Menu*') appears in the Action Bar at the top of most of the main screens is normally three dots (⁞) or three bars (≡).
 It will show different options depending on a) the particular screen, b) preferences you have set and c) the state of certain elements in the app.
 
-The Overflow Menu can display
+The Overflow Menu can display:
 
 * Throttle
 * Turnouts/Points

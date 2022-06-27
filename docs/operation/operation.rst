@@ -565,7 +565,7 @@ The volume of the Loco Sounds, the Bell Sounds and the Horn/Whistle sound can be
 
   **Activating the IPLS Sounds via Gamepad keys**
 
-  Any keys and/or the any DPad directions can be configured to activate play the IPLS sounds.
+  Any keys and/or the any DPad directions can be configured to activate/play the IPLS sounds.
 
   .. note:: 
     :class: note-ed-hidden-title
@@ -575,46 +575,16 @@ The volume of the Loco Sounds, the Bell Sounds and the Horn/Whistle sound can be
     See the `Gamepads Configuration page <../configuration/gamepads.html>`_ for information on configuring the keys of the gamepad.
 
 Action Bar and Menu
-^^^^^^^^^^^^^^^^^^^
-
-|todo|
-
-Menu
-""""
-
-|todo|
-
-Common Menu Items
-'''''''''''''''''
-
-These menu items appear on a number of different  Screens (most 'Main Screens'):
-
-* Throttle
-* Turnouts/Points
-* Routes
-* Web
-* Preferences
-* View Log
-* About
-* Exit
-* Power
-
-Screen Specific Menu Items 
-''''''''''''''''''''''''''
-
-These menu items only appear on specific Screens or under specific Conditions:
-
-* Intro/Setup Wizard
-* Clear Recent List
-* Function Defaults
-* Gamepads
+"""""""""""""""""""
 
 Action Bar
-""""""""""
+''''''''''
 
 .. image:: ../_static/images/parts/action_bar.png
   :align: right
-  :scale: 33%
+  :scale: 50%
+
+The Action Bar appears at the top of all screens. It will show different information and different buttons depending on the preferences you have set.
 
 The *Action Bar* provides for a number of common and specific information and functions. It can display:
 
@@ -630,46 +600,52 @@ Optionally configured information:
 Optionally configured buttons:
 
 * Emergency Stop (EStop)
-* Track Power
+* `Track Power <./interface.html#action-bar>`_
 * Flashlight
 * Throttle Web View
 * Throttle Layout Switching
-* In Phone Loco Sound
+* `In Phone Loco Sounds <./interface.html#action-bar>`_
 * Children's Timer
 
-Track Power Action Bar Button 
-'''''''''''''''''''''''''''''
+.. note:: 
+  :class: note-ed-hidden-title
 
-  |todo|
+  See the `Action Bar section of the User Interface page <../interface.html#action-bar>` for more information.
 
-  Accessed from the :menuselection:`Menu --> Power` from most screens.
+Overflow Menu (Throttle Screen)
+'''''''''''''''''''''''''''''''
+ 
+  The *Overflow Menu* (or simply '*Menu*') appears in the Action Bar at the top of most of the main screens is normally three dots (⁞) or three bars (≡).
+  It will show different options depending on a) the particular screen, b) preferences you have set and c) the state of certain elements in the app.
 
-  * Menu item
-  * Action Bar button
+  These menu items appear on a number of different Screens (most 'Main Screens'):
 
-  .. note:: 
-    :class: note-ed-hidden-title
-
-    See the ??? prefernces...
-
-    See the `Action Bar on the User Interface page <./interface.html#action-bar>`_ for information on the Action bar buttons.
-
-In Phone Loco Sounds (IPLS) Button
-''''''''''''''''''''''''''''''''''
-
-  |todo|
-
+  * Throttle
+  * Turnouts/Points
+  * Routes
+  * Web
   * Preferences
-  * Action Bar Button
+  * View Log
+  * About
+  * Exit
+  * Power
+
+  These menu items only appear on specific Screens or under specific Conditions:
+
+  * Intro/Setup Wizard
+  * Clear Recent List
+  * Function Defaults
+  * Gamepads
+
+    * Gamepad Test 1
+    * Gamepad Test ...
+
+  * Loco Sounds
 
   .. note:: 
     :class: note-ed-hidden-title
 
-    See the ??? prefernces...
-
-    See the `Action Bar on the User Interface page <./interface.html#action-bar>`_ for information on the Action bar buttons.
-
-    See IPLS page
+    See the `Overflow Menu section of the User Interface page <../interface.html#overflow-menu>` for more information.
 
 Turnouts / Points
 ^^^^^^^^^^^^^^^^^
@@ -765,6 +741,11 @@ Panels and Web Pages
 
 |todo|
 
+|ed| can show any web page via an embedded Web Browser.  You can use the Web Browser to show anything that JMRI can present including:
+
+* Panels
+* 
+
 Throttle Web View VS Web Screen
 """""""""""""""""""""""""""""""
 
@@ -787,6 +768,17 @@ Menu (to Web View Screen)
   |todo|
 
   To get the *Web* screen you can use the menu :menuselection:`Menu --> Web` from the main screens.  
+
+  Options available in the menu while on the *Web View Screen* include
+  
+  * Throttle
+  * Turnouts/Points
+  * Routes
+  * Power
+  * Preferences
+  * View Log
+  * Exit
+  * About
 
 Swipe (to Web View Screen)
 """"""""""""""""""""""""""
