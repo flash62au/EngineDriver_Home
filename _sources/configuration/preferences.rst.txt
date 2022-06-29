@@ -1127,12 +1127,22 @@ Choose the action when you press the :guilabel:`X` button on the gamepad.
 
 Note: depending on the gamepad type you are using, this may have a different label and or location.
 
+  .. note:: 
+    :class: note-ed-hidden-title
+
+    See the `Configuring the buttons <../configuration/gamepads.html#configuring-the-buttons>`_ section of the Gamepads page for information on the available options.
+
 Gamepad button action <!-- Y -->
 ''''''''''''''''''''''''''''''''
 
 Choose the action when you press the :guilabel:`Y` button on the gamepad.
 
 Note: depending on the gamepad type you are using, this may have a different label and or location.
+
+  .. note:: 
+    :class: note-ed-hidden-title
+
+    See the `Configuring the buttons <../configuration/gamepads.html#configuring-the-buttons>`_ section of the Gamepads page for information on the available options.
 
 Gamepad button action <!-- A -->
 ''''''''''''''''''''''''''''''''
@@ -1141,6 +1151,11 @@ Choose the action when you press the :guilabel:`A` button on the gamepad.
 
 Note: depending on the gamepad type you are using, this may have a different label and or location.
 
+  .. note:: 
+    :class: note-ed-hidden-title
+
+    See the `Configuring the buttons <../configuration/gamepads.html#configuring-the-buttons>`_ section of the Gamepads page for information on the available options.
+
 Gamepad button action <!-- B -->
 ''''''''''''''''''''''''''''''''
 
@@ -1148,12 +1163,22 @@ Choose the action when you press the :guilabel:`B` button on the gamepad.
 
 Note: depending on the gamepad type you are using, this may have a different label and or location.
 
+  .. note:: 
+    :class: note-ed-hidden-title
+
+    See the `Configuring the buttons <../configuration/gamepads.html#configuring-the-buttons>`_ section of the Gamepads page for information on the available options.
+
 Gamepad button action <!-- Start(Lower) -->
 '''''''''''''''''''''''''''''''''''''''''''
 
 Choose the action when you press the :guilabel:`Start(lower)` button on the gamepad.
 
 Note: depending on the gamepad type you are using, this may have a different label and or location.
+
+  .. note:: 
+    :class: note-ed-hidden-title
+
+    See the `Configuring the buttons <../configuration/gamepads.html#configuring-the-buttons>`_ section of the Gamepads page for information on the available options.
 
 Gamepad button action <!-- Return(Upper) -->
 ''''''''''''''''''''''''''''''''''''''''''''
@@ -1165,20 +1190,40 @@ Gamepad DPAD Up action
 
 Choose the action when you press the :guilabel:`DPAD Up` on the gamepad.
 
+  .. note:: 
+    :class: note-ed-hidden-title
+
+    See the `Configuring the buttons <../configuration/gamepads.html#configuring-the-buttons>`_ section of the Gamepads page for information on the available options.
+
 Gamepad DPAD Right action
 '''''''''''''''''''''''''
 
 Choose the action when you press the :guilabel:`DPAD Right` on the gamepad.
+
+  .. note:: 
+    :class: note-ed-hidden-title
+
+    See the `Configuring the buttons <../configuration/gamepads.html#configuring-the-buttons>`_ section of the Gamepads page for information on the available options.
 
 Gamepad DPAD Down action
 ''''''''''''''''''''''''
 
 Choose the action when you press the :guilabel:`DPAD Down`` on the gamepad.
 
+  .. note:: 
+    :class: note-ed-hidden-title
+
+    See the `Configuring the buttons <../configuration/gamepads.html#configuring-the-buttons>`_ section of the Gamepads page for information on the available options.
+
 Gamepad DPAD Left action
 '''''''''''''''''''''''''''''''''''
 
 Choose the action when you press the :guilabel:`DPAD Left`` on the gamepad.
+
+  .. note:: 
+    :class: note-ed-hidden-title
+
+    See the `Configuring the buttons <../configuration/gamepads.html#configuring-the-buttons>`_ section of the Gamepads page for information on the available options.
 
 Swap Direction buttons with Screen buttons?
 '''''''''''''''''''''''''''''''''''''''''''
@@ -1226,7 +1271,7 @@ Enable Short Press
 
 |todo|
 
-A 'short-press' pauses the currently controlled locomotive/consist. Will revert to original speed when operations resume.
+A 'short-press' pauses the currently controlled loco/consist. Will revert to original speed when operations resume.
 
 Device side button options
 """"""""""""""""""""""""""
@@ -1240,12 +1285,22 @@ Top-left button action
 
 Choose the action when you press the button
 
+  .. note:: 
+    :class: note-ed-hidden-title
+
+    See the `Configuring the buttons <../configuration/gamepads.html#configuring-the-buttons>`_ section of the Gamepads page for information on the available options.
+
 Bottom-left button action
 '''''''''''''''''''''''''''''''''''
 
 |todo|
 
 Choose the action when you press the button
+
+  .. note:: 
+    :class: note-ed-hidden-title
+
+    See the `Configuring the buttons <../configuration/gamepads.html#configuring-the-buttons>`_ section of the Gamepads page for information on the available options.
 
 Top-right button action
 '''''''''''''''''''''''''''''''''''
@@ -1254,12 +1309,22 @@ Top-right button action
 
 Choose the action when you press the button
 
+  .. note:: 
+    :class: note-ed-hidden-title
+
+    See the `Configuring the buttons <../configuration/gamepads.html#configuring-the-buttons>`_ section of the Gamepads page for information on the available options.
+
 Bottom-right button action
 '''''''''''''''''''''''''''''''''''
 
 |todo|
 
 Choose the action when you press the button
+
+  .. note:: 
+    :class: note-ed-hidden-title
+
+    See the `Configuring the buttons <../configuration/gamepads.html#configuring-the-buttons>`_ section of the Gamepads page for information on the available options.
 
 Button repeat delay
 '''''''''''''''''''''''''''''''''''
@@ -1436,8 +1501,6 @@ Filter Roster
 |todo|
 
 Only show roster entries containing…
-
-----
 
 In Phone Loco Sounds
 --------------------
