@@ -1198,6 +1198,8 @@ Use Simple Test?
 
 If this preference is enabled, when a gamepad is used for the first time in a session, you will only test that you can reduce speed, not have to test all eight standard buttons.  (Normally the :guilabel:`DPAD Down`.)
 
+----
+
 ESU MobileControl II Options
 """"""""""""""""""""""""""""
 
@@ -1284,99 +1286,124 @@ Direction Change at end-stop
 Allow Loco direction to change when control knob at counter-clockwise end-stop position
 
 Show disable Knob button
-'''''''''''''''''''''''''''''''''''
+''''''''''''''''''''''''
 
 |todo|
 
 Allow the control knob to be disabled by an action button on the throttle screen
 
+----
+
 Additional selected loco Indicator
 """"""""""""""""""""""""""""""""""
 
-|todo|
+If this preference is enabled an additional highlight of the Loco Select button is displayed.
 
-Additional highlight of the Loco Select button based on the selection method
+Options include:
+
+* none
+* Both Volume and Gamepad 1
+* Gamepad 1 only
 
 Voice Response Preferences
 """"""""""""""""""""""""""
 
-|todo|
+|ed| can 'speak' certain events, most related to the use of the gamepads, where you may not be looking at the screen.  These can also be helpful for the visually challenged. This is also referred to as 'Text to Speech' (TTS).
 
 Voice Response
 '''''''''''''''''''''''''''''''''''
 
-|todo|
+This preference allows to configure when |ed| should speak using Text to Speech (TTS).
 
-When to speak key events and actions using Text to Speech (TTS)
+Note: Effectively it is either 'on' or 'off', and you can use the following preferences to control what is actually spoken.
+
+Options include:
+
+* none
+* Key Events Only
 
 On Gamepad Throttle change
 '''''''''''''''''''''''''''''''''''
 
-|todo|
+Enable this preference if you wish |ed| to speak when you select a different throttle on the gamepad.
 
-When you select a different throttle on the gamepad
+Options include:
+
+* None
+* Throttle
+* Throttle + Loco
+* Throttle + Speed
+* Throttle + Loco + Speed
 
 On Gamepad Speeds
 '''''''''''''''''''''''''''''''''''
 
-|todo|
+Enable this preference if you wish |ed| to speak when the speed hits certain speeds when using a gamepad.
 
-When the speed hits certain speeds when using a gamepad
+Speeds that will be spoken are:
+
+* None
+* Zero and Max
+* Zero and (Max + Speed)
+
+Note that third option is mainly relevant when using the optional :guilabel:`Limit Speed` button where the 'Max' speed may not be 100%.
 
 On Gamepad Test start
-'''''''''''''''''''''''''''''''''''
+'''''''''''''''''''''
 
-|todo|
-
-When the gamepad test screen is launched
+Enable this preference if you wish |ed| to speak when the gamepad test screen is launched.
 
 On Gamepad Test complete
-'''''''''''''''''''''''''''''''''''
+''''''''''''''''''''''''
 
-|todo|
+Enable this preference if you wish |ed| to speak when the gamepad test screen is successfully finished.
 
-When the gamepad test screen is finished 
+Note that what constitutes a successful finish of the test will change depending on the `Use Simple Test? <..//configuration/preferences.html#use-simple-test>`_ preference.
 
 On Gamepad Test key press
-'''''''''''''''''''''''''''''''''''
+'''''''''''''''''''''''''
 
-|todo|
-
-When each buttons is pressed in the gamepad test screen
+Enable this preference if you wish |ed| to speak when each buttons is pressed in the gamepad test screen.  |ed| will speak the name of the button and the function assigned to it.
 
 
 Select Loco Preferences
 -----------------------
 
-|todo|
+The following preferences affect how the :guilabel:`Select` button appears and behaves.
 
 Stop on Release?
 """""""""""""""""""""""""
 
-If the preference is enabled |ed| will *stop* a loco(s) when it release from a throttle.
+If this preference is enabled |ed| will *stop* a loco(s) when it release from a throttle.
 
 Drop Loco before acquire?
 """""""""""""""""""""""""
 
-If the preference is enabled |ed| will *Drop* / &=*release* the current loco before acquiring new loco.
+If this preference is enabled |ed| will *Drop* and *release* the current loco before acquiring new loco.
 i.e A throttle can only control one loco at a time.
 i.e. It is not possible to create an on-the-fly (in-phone) consist/multiple unit train.
 
 Allow loco select while moving?
 """""""""""""""""""""""""""""""
 
-If the preference is enabled the :guilabel:`Select` button is *Disabled* if the loco(s) is moving.
+If this preference is enabled the :guilabel:`Select` button is *Disabled* if the loco(s) is moving.
 i.e. It is not possible to Select (add or remove) locos if they are moving.
 
 Default Address Length
-"""""""""""""""""""""""""
+""""""""""""""""""""""
 
-|todo|
+Use this preference to set the default Loco Address Length. 
 
-Default Loco Address Length, (Auto will set based on # of digits)
+``Auto`` will set the length based on if the Address entered. If it is less that 127, |ed| will assume it 'Short' Address.  127 an higher will default to 'Long'.
+
+Options 
+
+* Short
+* Long
+* Auto
 
 Roster in Recent Locos?
-"""""""""""""""""""""""""
+"""""""""""""""""""""""
 
 Enable this preference to include roster selections in *Recent Locos list*.
 
@@ -1385,7 +1412,7 @@ Roster Names in Recent Locos?
 
 |todo|
 
-Include Loco names from the roster in Recent list if a matching address is found
+Enable this preference to include Loco names from the witServer roster in *Recent list* if a matching address is found.
 
 Maximum Recent Locos
 """""""""""""""""""""""""
@@ -1405,6 +1432,8 @@ Filter Roster
 |todo|
 
 Only show roster entries containing…
+
+----
 
 In Phone Loco Sounds
 --------------------
@@ -1435,38 +1464,30 @@ Additional In Phone Loco Sounds preferences
 In Phone Momentum
 '''''''''''''''''
 
-|todo|
+|ed| can't tell the actual speed of your loco, only the throttle setting.  This is most apparent when the loco has momentum configured in the decoder.  This preference allows you to approximate the momentum of your loco for the IPLS in |ed|.
 
-Delay (momentum) per step change in milliseconds (0-2000)
+Enter a delay (momentum) per step change in milliseconds (0-2000).
+
 
 Don't clip loco step sounds
 '''''''''''''''''''''''''''
 
-|todo|
-
-Loco step sounds will play till their end when changing step.  Momentum amount (above) becomes a minimum time only.
-
+If this preference is enabled, the Loco step sounds will play till their end, before changing step.  The `In Phone Momentum`_ amount (above) becomes a minimum time only.
 
 In Phone Loco Sounds Volume
 '''''''''''''''''''''''''''
 
-|todo|
-
-Volume for Loco engine sounds in the phone (1-100)
+Use this preference to set the volume for *Loco/Engine sounds* in the phone (1-100) when using the `In Phone Loco Sounds <../operation.html#virtual-sounds-in-phone-loco-sounds-ipls>`_. This is a percentage of the media volume you have set for you Android Device/Phone (outside of |ed|).
 
 In Phone Bell Sounds Volume
 '''''''''''''''''''''''''''
 
-|todo|
-
-Volume for bell sounds in the phone (1-100)
+Use this preference to set the volume for *Bell sounds* in the phone (1-100) when using the `In Phone Loco Sounds <../operation.html#virtual-sounds-in-phone-loco-sounds-ipls>`_. This is a percentage of the media volume you have set for you Android Device/Phone (outside of |ed|).
 
 In Phone Horn/Whistle Sounds Volume
 '''''''''''''''''''''''''''''''''''
 
-|todo|
-
-Volume for Horn/Whistle sounds in the phone (1-100)
+Use this preference to set the volume for *Horn/Whistle sounds* in the phone (1-100) when using the `In Phone Loco Sounds <../operation.html#virtual-sounds-in-phone-loco-sounds-ipls>`_. This is a percentage of the media volume you have set for you Android Device/Phone (outside of |ed|).
 
 Bell button Latching/Momentary
 ''''''''''''''''''''''''''''''
@@ -1481,6 +1502,7 @@ F1 and F2 activate Bell and Horn?
 |todo|
 
 F1 and F2 also activate IPLS Bell and Horn
+
 
 
 Connect Preferences

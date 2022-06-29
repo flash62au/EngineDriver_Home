@@ -609,9 +609,7 @@ Not that the :guilabel:`Select` button will should the Address(es) or the Name(s
 Selection Method
 """"""""""""""""
 
-|todo|
-
-Options:
+There are four ways you can choose a loco for the Throttle.  Select one of the radio buttons depending on how you want to the choose the loco:
 
 * DCC Address
 * Server Roster
