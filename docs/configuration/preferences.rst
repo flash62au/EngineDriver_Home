@@ -1052,10 +1052,12 @@ Volume keys follow touch?
 
 Enable this preference if you want the Volume keys speed control to follow the last touched throttle.  Otherwise you need to touch the speed amount area of a Throttle to change the Volume keys to control that throttle.
 
+----
+
 Gamepad Preferences
 """""""""""""""""""
 
-|ed| will allows you to use the inexpensive gamepads to control speed. The following preferences allow you change options relating to these.
+|ed| will allows you to use the inexpensive gamepads to control speed. The following preferences allow you change options relating to these (if connected).
 
 .. note:: 
   :class: note-ed-hidden-title
@@ -1063,7 +1065,7 @@ Gamepad Preferences
    See the `Gamepad Operation page <../operation/gamepads.html>`_ page for more information on using gamepads.
 
 Gamepad type
-'''''''''''''''''''''''''''''''''''
+''''''''''''
 
 |ed| supports the following gamepad types and modes:
 
@@ -1093,7 +1095,7 @@ Choose the option that best supports your gamepad, 'None' to disable gamepad sup
    See the `Gamepads page <../operation/gamepads.html#example-gamepads>`_ page for more information on selecting a gamepad.
 
 Test Gamepad settings now!
-'''''''''''''''''''''''''''''''''''
+''''''''''''''''''''''''''
 
 This preference allows you to confirm that the chosen setting are working correctly.  The Gamepad Test screen will launch IMMEDIATELY on selection.
 
@@ -1109,7 +1111,7 @@ Use this preference to set the amount, as a percentage (\%), of the throttle tha
 Only relevant is the `Gamepad Type`_ preference is set to other than 'None' and you have configured any of the gamepad's buttons to speed up or down.
 
 Gamepad Button Click Volume %
-'''''''''''''''''''''''''''''''''''
+'''''''''''''''''''''''''''''
 
 Use this preference to set the volume, as a percent, for gamepad button clicks.
 
@@ -1119,28 +1121,28 @@ Speed button Repeat Delay (gamepad)
 Use this preference to set how long, in milliseconds, between repeats on Gamepad speed buttons.  Smaller is faster.
 
 Gamepad button action <!-- X -->
-'''''''''''''''''''''''''''''''''''
+''''''''''''''''''''''''''''''''
 
 Choose the action when you press the :guilabel:`X` button on the gamepad.
 
 Note: depending on the gamepad type you are using, this may have a different label and or location.
 
 Gamepad button action <!-- Y -->
-'''''''''''''''''''''''''''''''''''
+''''''''''''''''''''''''''''''''
 
 Choose the action when you press the :guilabel:`Y` button on the gamepad.
 
 Note: depending on the gamepad type you are using, this may have a different label and or location.
 
 Gamepad button action <!-- A -->
-'''''''''''''''''''''''''''''''''''
+''''''''''''''''''''''''''''''''
 
 Choose the action when you press the :guilabel:`A` button on the gamepad.
 
 Note: depending on the gamepad type you are using, this may have a different label and or location.
 
 Gamepad button action <!-- B -->
-'''''''''''''''''''''''''''''''''''
+''''''''''''''''''''''''''''''''
 
 Choose the action when you press the :guilabel:`B` button on the gamepad.
 
@@ -1159,17 +1161,17 @@ Gamepad button action <!-- Return(Upper) -->
 Choose the action when you press the :guilabel:`Return (Upper)` button on the gamepad.
 
 Gamepad DPAD Up action
-'''''''''''''''''''''''''''''''''''
+''''''''''''''''''''''
 
 Choose the action when you press the :guilabel:`DPAD Up` on the gamepad.
 
 Gamepad DPAD Right action
-'''''''''''''''''''''''''''''''''''
+'''''''''''''''''''''''''
 
 Choose the action when you press the :guilabel:`DPAD Right` on the gamepad.
 
 Gamepad DPAD Down action
-'''''''''''''''''''''''''''''''''''
+''''''''''''''''''''''''
 
 Choose the action when you press the :guilabel:`DPAD Down`` on the gamepad.
 
@@ -1203,12 +1205,12 @@ If this preference is enabled, when a gamepad is used for the first time in a se
 ESU MobileControl II Options
 """"""""""""""""""""""""""""
 
-|todo|
+The following preferences allow you to change the way a ESU MobileControl II behaves (if connected).
 
 Device Stop button options
 """"""""""""""""""""""""""
 
-|todo|
+The following preferences allow you to change the way the *Device Stop button* on a ESU MobileControl II behaves (if connected).
 
 Stop Button long-press delay
 '''''''''''''''''''''''''''''''''''
@@ -1229,7 +1231,7 @@ A 'short-press' pauses the currently controlled locomotive/consist. Will revert 
 Device side button options
 """"""""""""""""""""""""""
 
-|todo|
+The following preferences allow you to change the way the *Device Side button* on a ESU MobileControl II behaves (if connected).
 
 Top-left button action
 '''''''''''''''''''''''''''''''''''
@@ -1269,7 +1271,7 @@ How long between repeats on device side buttons. Smaller is faster.
 Control Knob options
 """""""""""""""""""""""""
 
-|todo|
+The following preferences allow you to change the way the *Control Knob* on a ESU MobileControl II behaves (if connected).
 
 Control Knob Zero Trim
 '''''''''''''''''''''''''''''''''''
@@ -1309,6 +1311,8 @@ Voice Response Preferences
 """"""""""""""""""""""""""
 
 |ed| can 'speak' certain events, most related to the use of the gamepads, where you may not be looking at the screen.  These can also be helpful for the visually challenged. This is also referred to as 'Text to Speech' (TTS).
+
+The following preferences allow you to change the way the Voice Responses behave.
 
 Voice Response
 '''''''''''''''''''''''''''''''''''
@@ -1438,7 +1442,20 @@ Only show roster entries containing…
 In Phone Loco Sounds
 --------------------
 
-|todo|
+|ed| can play synchronised loco sounds through the speaker of your Android device / phone, or through BlueTooth speakers connected to it.
+
+There is built in Support for a number of different type of locos:
+
+* Steam - 4 in-built profiles
+* Diesel - 3 in-built profiles
+* Plus you can create you own Custom profiles
+
+The following preferences provide options for the In Phone Loco Sounds (IPLS).
+
+  .. note:: 
+    :class: note-ed-hidden-title
+
+    For additional information see the `In Phone Loco Sounds (IPLS) <../operation.html#virtual-sounds-in-phone-loco-sounds-ipls>`_ page.
 
 Throttle 1 Loco Sounds
 """"""""""""""""""""""
@@ -1457,9 +1474,7 @@ Play basic loco sounds in the phone for Throttle 2
 Additional Preferences
 """"""""""""""""""""""
 
-|todo|
-
-Additional In Phone Loco Sounds preferences
+The following preferences provide additional options for how the In Phone Loco Sounds behave.
 
 In Phone Momentum
 '''''''''''''''''
@@ -1467,7 +1482,6 @@ In Phone Momentum
 |ed| can't tell the actual speed of your loco, only the throttle setting.  This is most apparent when the loco has momentum configured in the decoder.  This preference allows you to approximate the momentum of your loco for the IPLS in |ed|.
 
 Enter a delay (momentum) per step change in milliseconds (0-2000).
-
 
 Don't clip loco step sounds
 '''''''''''''''''''''''''''
@@ -1477,17 +1491,17 @@ If this preference is enabled, the Loco step sounds will play till their end, be
 In Phone Loco Sounds Volume
 '''''''''''''''''''''''''''
 
-Use this preference to set the volume for *Loco/Engine sounds* in the phone (1-100) when using the `In Phone Loco Sounds <../operation.html#virtual-sounds-in-phone-loco-sounds-ipls>`_. This is a percentage of the media volume you have set for you Android Device/Phone (outside of |ed|).
+Use this preference to set the volume for *Loco/Engine sounds* in the phone (1-100) when using the `In Phone Loco Sounds (IPLS) <../operation.html#virtual-sounds-in-phone-loco-sounds-ipls>`_. This is a percentage of the media volume you have set for you Android Device/Phone (outside of |ed|).
 
 In Phone Bell Sounds Volume
 '''''''''''''''''''''''''''
 
-Use this preference to set the volume for *Bell sounds* in the phone (1-100) when using the `In Phone Loco Sounds <../operation.html#virtual-sounds-in-phone-loco-sounds-ipls>`_. This is a percentage of the media volume you have set for you Android Device/Phone (outside of |ed|).
+Use this preference to set the volume for *Bell sounds* in the phone (1-100) when using the `In Phone Loco Sounds (IPLS) <../operation.html#virtual-sounds-in-phone-loco-sounds-ipls>`_. This is a percentage of the media volume you have set for you Android Device/Phone (outside of |ed|).
 
 In Phone Horn/Whistle Sounds Volume
 '''''''''''''''''''''''''''''''''''
 
-Use this preference to set the volume for *Horn/Whistle sounds* in the phone (1-100) when using the `In Phone Loco Sounds <../operation.html#virtual-sounds-in-phone-loco-sounds-ipls>`_. This is a percentage of the media volume you have set for you Android Device/Phone (outside of |ed|).
+Use this preference to set the volume for *Horn/Whistle sounds* in the phone (1-100) when using the `In Phone Loco Sounds (IPLS) <../operation.html#virtual-sounds-in-phone-loco-sounds-ipls>`_. This is a percentage of the media volume you have set for you Android Device/Phone (outside of |ed|).
 
 Bell button Latching/Momentary
 ''''''''''''''''''''''''''''''
@@ -1499,16 +1513,14 @@ Bell button is momentary (not latching)?
 F1 and F2 activate Bell and Horn?
 '''''''''''''''''''''''''''''''''
 
-|todo|
+If this preference is enabled, F1 and F2 DCC Functions also activate the IPLS Bell and Horn.
 
-F1 and F2 also activate IPLS Bell and Horn
-
-
+i.e. The Bell and Horn/Whistle (long) can be activated by the DCC Function buttons (F1 and F2) if the the preference is enabled.
 
 Connect Preferences
 -------------------
 
-|todo|
+The following preferences allow you to change the way the *Connection Screen* appears and behaves.
 
 Maximum Recent Connections
 """"""""""""""""""""""""""
@@ -1518,13 +1530,12 @@ Use this preference to set the maximum number of *Recent Connections* to show in
 Auto-Connect to WiThrottle Server?
 """"""""""""""""""""""""""""""""""
 
-Enable this preference if you wish to connect automatically to 'first' WiThrottle Server discovered each time you start|ed|.
-
+Enable this preference if you wish to connect automatically to 'first' WiThrottle Server discovered each time you start|ed|.  This will effectively bypass the *Connection Screen*.
 
 Hide Demo Server
 """"""""""""""""
 
-Enable this preference if you wish to hide the Demo Server ('jmri.mstevetodd.com') in the connection list on the Connection page.
+Enable this preference if you wish to hide the Demo Server ('jmri.mstevetodd.com') in the connection list on the *Connection Screen*.
 
 Initial Connection Timeout
 """"""""""""""""""""""""""
@@ -1539,49 +1550,60 @@ Use this preference to set the socket read timeout in milliseconds.
 Mobile Data connection?
 """""""""""""""""""""""""
 
-|todo|
+Use this preference to allow your device to connect to JMRI, or any wiThrottle Server, using your phone's Mobile Data.
 
-Allow your device to connect to JMRI over Mobile Data
+  .. note:: 
+    :class: note-ed-hidden-title
+
+    See the `Using Mobile Data instead of WiFi <../operation/wifi_issues.html#using-mobile-data-instead-of-wifi>`_ section of the WiFi Issues page for more information on the use of this preference.
 
 Feedback on Disconnect
 """""""""""""""""""""""""
 
-|todo|
+If this preference is enabled |ed| will play a sound (Audible alert) and will vibrate if there is an unexpected disconnection from the wiThrottle server.
 
-Play sound and vibrate on unexpected disconnect
+  .. note:: 
+    :class: note-ed-hidden-title
+
+    See the `Disconnections <../operation/wifi_issues.html#disconnections>`_ section of the WiFi Issues page if you are having consistant disconnections.
 
 Background Alert
 """""""""""""""""""""""""
 
-|todo|
+If this preference is enabled |ed| will play a sound (Audible alert) when the app is sent to the background.
 
-Audible alert when the app is sent to the background
+  .. note:: 
+    :class: note-ed-hidden-title
+
+    See the `Pushing the app to the Background <../operation/operation.html#pushing-the-app-to-the-background>`_ section of the Operation - Details Instructions page for more information.
 
 Web Screen Preferences
 ----------------------
 
-|todo|
+The following preferences allow you to change the way the *Web View Screen* behaves.
 
 Web Screen Orientation
 """""""""""""""""""""""""
 
-|todo|
+This preference allows you you select the orientation for the *Web View Screen*.
 
-Select the Web Screen orientation
+Options include:
+
+* Portrait
+* Landscape
+* Auto-Rotate
 
 Initial Web Screen Page
 """""""""""""""""""""""""
 
-|todo|
+Use this preference to enter the initial Web Page (such as '/panel') for the *Web View Screen*.  i.e. The page that will open the first time you open the Web View Screen, for each session that you use |ed|.
 
-Enter the initial Web Page (such as '/panel') for the Web Screen
-
-Different to the 'Throttle Web View' initial Web Page.
+Note that this is different/separate to the 'Throttle Web View' initial Web Page which is set with the `Initial throttle Web Page`_ preference.
 
 Turnouts/Points and Routes Preferences
 --------------------------------------
 
-|todo|
+The following preferences allow you to change the way the *Turnouts/Points* behave.
 
 Hide Sys Route Names?
 """""""""""""""""""""""""
@@ -1623,6 +1645,7 @@ Recommendations:
 - Disable 'Swipe Through Routes'
 - Disable EStop
 
+The following preferences allow you to change the way the *Children's (Timer)* behave.
 
 Time limited running
 """""""""""""""""""""""""
@@ -1681,6 +1704,8 @@ Note this can be different to the default time if use the menus to activate the 
 
 Import/Export/Reset & Log Preferences
 -------------------------------------
+
+The following preferences allow you to change the way the *Imports/Exports/Reset* behave.
 
 Import, Export or Reset
 """""""""""""""""""""""""

@@ -559,7 +559,7 @@ The volume of the Loco Sounds, the Bell Sounds and the Horn/Whistle sound can be
 
     Clicking this will play a horn or whistle sound (depending on the profile) ones, regardless of how long the button is held down.
 
-    **Activating the IPLS Sounds via DCC Functions / Function Buttons**
+  **Activating the IPLS Sounds via DCC Functions / Function Buttons**
 
   The Bell and Horn/Whistle (long) can be activated by the DCC Function buttons (F1 and F2) if the `F1 and F2 activate Bell and Horn? <../configuration/preferences.html#f1-and-f2-activate-bell-and-horn>`_ preference is set.
 
