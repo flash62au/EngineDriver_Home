@@ -441,13 +441,17 @@ Turnouts/Points can be changed from Closed to Thrown and vice versa be pressing 
 
 List from wiThrottle
 
-* Filter
 * Throw
 * CLose
 
 Entry
 
-|todo|
+Filter by location
+
+Location delimiter preference
+
+Hide if no user name? preference
+
 
 Swipe Left / Right (From Turnouts/Points)
 """""""""""""""""""""""""""""""""""""""""
@@ -476,9 +480,17 @@ Accessed from any of the main screens by the menu :menuselection:`Menu --> Route
 
 This screen allows you to display all Routes that have been defined in JMRI or DCC++EX.
 
+Enter
 
 List
-Filter
+
+Filter by location
+
+Location delimiter preference
+
+Hide Sys Route Names? preference 
+
+Hide if no user name? preference
 
 |todo|
 

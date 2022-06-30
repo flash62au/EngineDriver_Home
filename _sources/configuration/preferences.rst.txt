@@ -1443,7 +1443,7 @@ The following preferences affect how the :guilabel:`Select` button appears and b
 Stop on Release?
 """""""""""""""""""""""""
 
-If this preference is enabled |ed| will *stop* a loco(s) when it release from a throttle.
+If this preference is enabled |ed| will *stop* a loco(s) when it released from a throttle.
 
 Drop Loco before acquire?
 """""""""""""""""""""""""
@@ -1518,21 +1518,39 @@ The following preferences provide options for the In Phone Loco Sounds (IPLS).
   .. note:: 
     :class: note-ed-hidden-title
 
-    For additional information see the `In Phone Loco Sounds (IPLS) <../operation.html#virtual-sounds-in-phone-loco-sounds-ipls>`_ page.
+    For additional information see the `In Phone Loco Sounds (IPLS) section <../operation/operation.html#virtual-sounds-in-phone-loco-sounds-ipls>`_ of the Operations page.
 
 Throttle 1 Loco Sounds
 """"""""""""""""""""""
 
-|todo|
+This preference allows you to select which profile of loco sounds in the phone for locos controlled by Throttle 1 on the *Throttle Screen*.
 
-Play basic loco sounds in the phone for Throttle 1
+Options include:
+
+* Generic Steam (Fast)
+* Generic Steam (Slow)
+* Steam (Class 64)
+* Steam (Class 94)
+* Diesel (EMD 645 Turbo)
+* Diesel (GE 7FDL)
+* Diesel (EMD NW2)
+* \+ any custom .IPLS files loaded on the Device/Phone
 
 Throttle 2 Loco Sounds
 """"""""""""""""""""""
 
-|todo|
+This preference allows you to select which profile of loco sounds in the phone for locos controlled by Throttle 2 on the *Throttle Screen* (if the chosen `Throttle Screen layout`_ supports more than one throttle).
 
-Play basic loco sounds in the phone for Throttle 2
+Options include:
+
+* Generic Steam (Fast)
+* Generic Steam (Slow)
+* Steam (Class 64)
+* Steam (Class 94)
+* Diesel (EMD 645 Turbo)
+* Diesel (GE 7FDL)
+* Diesel (EMD NW2)
+* \+ any custom .IPLS files loaded on the Device/Phone
 
 Additional Preferences
 """"""""""""""""""""""
@@ -1569,9 +1587,7 @@ Use this preference to set the volume for *Horn/Whistle sounds* in the phone (1-
 Bell button Latching/Momentary
 ''''''''''''''''''''''''''''''
 
-|todo|
-
-Bell button is momentary (not latching)?
+If this preference is enabled, the :guilabel:`Bell` button will be momentary (not latching).  i.e. That the Bell sound will only play while the button is being clicked. As apposed the default state where the Bell starts playing on the first press and stops in the next click.
 
 F1 and F2 activate Bell and Horn?
 '''''''''''''''''''''''''''''''''
@@ -1702,42 +1718,55 @@ Options for young children. Time controlled running.
  
 Recommendations:
 
-- Enable the Action Bar button
-- Disable the volume keys
-- Disable 'Swipe Through Turnouts' 
-- Disable 'Swipe Through Routes'
-- Disable EStop
+- Enable the Action Bar button (`Show Timer button?`_)
+- Disable the hardware volume keys (`Disable Volume keys?`_)
+- Disable `Swipe Through Turnouts/Points?`_ 
+- Disable `Swipe Through Routes?`_
+- Disable the `Emergency Stop button?`_
 
 The following preferences allow you to change the way the *Children's (Timer)* behave.
 
 Time limited running
-"""""""""""""""""""""""""
+""""""""""""""""""""
 
 |todo|
 
 Restrict the time that the loco will run. e.g. Each child (operator) will get an equal amount of time.
 
+options:
+
+* Disabled
+* 1 minute
+* 2 minutes
+* 5 minutes
+* 10 minutes
+* Run complete  *Should not be manually selected - used by* |ed|
+
 Restart Password
-"""""""""""""""""""""""""
+""""""""""""""""
 
 |todo|
 
-Password to restart the children's timer with the current settings
+Password to restart the children's timer with the current settings.
+
+Defaults to "0000"
 
 Reset/Disable Password
-"""""""""""""""""""""""""
+""""""""""""""""""""""
 
 |todo|
 
 Password to reset/disable the children's timer settings
 
+Defaults to "9999"
+
 Allow Reverse?
-"""""""""""""""""""""""""
+""""""""""""""
 
 Enable this preference if you wish to enable the :guilabel:`Forward` and :guilabel:`Reverse` buttons while the children's timer is running. i.e. if you want them to be able to reverse the locos.
 
 Show Timer button?
-"""""""""""""""""""""""""
+""""""""""""""""""
 
 .. image:: ../_static/images/parts/timer.png
    :align: right
@@ -1747,11 +1776,9 @@ Show Timer button?
 Enable this preference if you wish display the Timer Button on the Action Bar of the Throttle Screen, to easily activate the Children's timer.
 
 Default time for Button
-"""""""""""""""""""""""""
+"""""""""""""""""""""""
 
-|todo|
-
-Use this preference to set the default time if using the Action Bar Button to activate the timer.
+Use this preference to set the default time if using the Action Bar Button (`Show Timer button?`_) to activate the timer.  
 
 Options:
 
@@ -1760,10 +1787,9 @@ Options:
 * 2 minutes
 * 5 minutes
 * 10 minutes
-* Run completed   *Only really used by the system*
+* Run completed  *Should not be manually selected - used by* |ed|
 
-Note this can be different to the default time if use the menus to activate the timer.
-
+Note this is independent of the value set in the `Time limited running`_ preference. i.e It  can be different to the default time if use the menus to activate the timer.
 
 Import/Export/Reset & Log Preferences
 -------------------------------------
@@ -1773,7 +1799,8 @@ The following preferences allow you to change the way the *Imports/Exports/Reset
 Import, Export or Reset
 """""""""""""""""""""""""
 
-|todo|
+You can use this preference to a) `Export` preferences to a file in the ``/Android/data/jmri.enginedriver/files/`` folder (``exported_preferences.ed``), b) `Import` you saved preferences from a file in the ``/Android/data/jmri.enginedriver/files/`` folder, or c) `Reset` all the preferences to a state similar to when |ed| was initially installed.
+or `Reset` them.
 
 options: 
 
@@ -1782,10 +1809,15 @@ options:
 * Import
 * Reset
 
-`Import` or `Export` preferences to the ``/Android/data/jmri.enginedriver/files/`` folder, or `Reset` them.
-Will occur IMMEDIATELY on selecting the option.
-WARNING! With 'Reset' and 'Import', Engine Driver will restart!
-(You can transfer the preferences to a different phone by copying the file.)
+WARNINGS:
+
+* The action will occur IMMEDIATELY on selecting the option and confirming the dialog.
+* With `Reset`` and `Import`, Engine Driver will restart!
+
+.. note:: 
+  :class: note-ed-hidden-title
+
+  You can transfer the preferences to a different phone by copying the file. See the `Moving to a New Device/Phone <../configuration/new_device.html>`_ page for more information.
 
 Auto import from all Servers?
 """""""""""""""""""""""""""""
