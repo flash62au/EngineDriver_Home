@@ -27,12 +27,12 @@ Q. I can't connect to my Server /Railroad
   A1. Check the following:
 
   * Check that you are connected to a WiFi network
-  * Check that you are connected to the same WiFi network as your WiThrottle server
-  * Check that JMRI and its WiThrottle Server feature are started
+  * Check that you are connected to the same WiFi network as your |wts|
+  * Check that JMRI and its |wts| feature are started
 
   A2. Possible Mobile data connection problem
 
-  If |ed| can see the WiThrottle server but displays an error when you try to connect to it… If you are using a phone with a SIM, and the WiFi network your JMRI server is on does not have internet access. You may have to turn 'mobile data' off on your device.  See `[here] for more information <./wifi_issues.html>`_.
+  If |ed| can see the |wts| but displays an error when you try to connect to it… If you are using a phone with a SIM, and the WiFi network your JMRI server is on does not have internet access. You may have to turn 'mobile data' off on your device.  See `[here] for more information <./wifi_issues.html>`_.
 
 Q. |ed| Connects, but I can't control any locos
 
@@ -45,7 +45,7 @@ Q. |ed| Connects, but I can't control any locos
 
     See the `Turn Track Power On <../operation/operation.html#turn-track-power-on>`_ notes for more information.
 
-Q. Why doesn't |ed| automatically find my wiThrottle server?
+Q. Why doesn't |ed| automatically find my |wts|?
 
   I can manually connect to my Server / Railroad by entering an IP address, but it never finds it automatically.
 
@@ -171,7 +171,7 @@ Q. No Locomotive Icons appear in the Roster
 
   A. The Roster List, and Recent Locos List on the Select Loco screen will automatically show icons for your locos only if:
 
-    * The **Web Server** (not just the WiThrottle server) is running on the JMRI server
+    * The **Web Server** (not just the |wts|) is running on the JMRI server
     * The loco itself has an icon added for it in the JMRI roster |br|\ OR
     * A locally cached or manually chosen image is available for the loco (see 'Locomotive Icons' on the `Operation screen <../operations/index.html>`_)
 

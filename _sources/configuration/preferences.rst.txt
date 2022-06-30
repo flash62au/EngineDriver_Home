@@ -1609,7 +1609,7 @@ Use this preference to set the maximum number of *Recent Connections* to show in
 Auto-Connect to WiThrottle Server?
 """"""""""""""""""""""""""""""""""
 
-Enable this preference if you wish to connect automatically to 'first' WiThrottle Server discovered each time you start|ed|.  This will effectively bypass the *Connection Screen*.
+Enable this preference if you wish to connect automatically to 'first' |wts| discovered each time you start|ed|.  This will effectively bypass the *Connection Screen*.
 
 Hide Demo Server
 """"""""""""""""
@@ -1629,7 +1629,7 @@ Use this preference to set the socket read timeout in milliseconds.
 Mobile Data connection?
 """""""""""""""""""""""""
 
-Use this preference to allow your device to connect to JMRI, or any wiThrottle Server, using your phone's Mobile Data.
+Use this preference to allow your device to connect to JMRI, or any |wts|, using your phone's Mobile Data.
 
   .. note:: 
     :class: note-ed-hidden-title
@@ -1639,7 +1639,7 @@ Use this preference to allow your device to connect to JMRI, or any wiThrottle S
 Feedback on Disconnect
 """""""""""""""""""""""""
 
-If this preference is enabled |ed| will play a sound (Audible alert) and will vibrate if there is an unexpected disconnection from the wiThrottle server.
+If this preference is enabled |ed| will play a sound (Audible alert) and will vibrate if there is an unexpected disconnection from the |wts|.
 
   .. note:: 
     :class: note-ed-hidden-title
@@ -1687,42 +1687,29 @@ The following preferences allow you to change the way the *Turnouts/Points* beha
 Hide Sys Route Names?
 """""""""""""""""""""""""
 
-|todo|
-
-Hide system names for Routes, used to save space on Route list
+If this preference is enabled, the 'system names' for the Routes are not shown in the Routes List.  This is a cosmetic change only and can be used to save space on 'Route list'.
 
 Location Delimiter
-"""""""""""""""""""""""""
+""""""""""""""""""
 
-|todo|
+The 'Turnout/Points List' and the 'Routes List' can be filtered.  The filtering relies on the idea that the first part of every Turnout/Point name and every Route name is a 'Location', followed by a common separator, then the actual name for the Turnout/Point or Route name.  The 'filter' then allows you to select one of those locations and |ed| can just show the Turnout/Points or Routes at the 'Location'.
 
-Set the character that marks the end of the Location portion of Turnout/Point and Route names
+This preference allows you to set the character that marks the end of the Location portion of Turnout/Point and Route names.  By default it is a colon (":") but any character can be used.
 
 Hide if no user name?
 """""""""""""""""""""""""
 
-|todo|
-
-Omit Turnout/Point/Route from list if the user name is empty
+If this preference is enabled |ed| will omit any Turnout/Point/Route from list if the user name is empty.
 
 Children's (Timer) Preferences
 ------------------------------
 
-|todo|
+|ED| provides options for time controlled running.  This was originally intended for providing a way to have children have a fair share of the use of a loco, but can be used for timed control for any purpose.
 
-Options for young children. Time controlled running.
+.. note:: 
+  :class: note-ed-hidden-title
 
-- select the loco first.
-- Timer will start with the first increase in speed.
-- You must come back to this preference to reset the time (or clear it) after the timeout.
- 
-Recommendations:
-
-- Enable the Action Bar button (`Show Timer button?`_)
-- Disable the hardware volume keys (`Disable Volume keys?`_)
-- Disable `Swipe Through Turnouts/Points?`_ 
-- Disable `Swipe Through Routes?`_
-- Disable the `Emergency Stop button?`_
+  See the `Children's Timer <operation/advanced.html#children-s-timer>`_ page for more information on how to use the timer.
 
 The following preferences allow you to change the way the *Children's (Timer)* behave.
 
@@ -1733,7 +1720,7 @@ Time limited running
 
 Restrict the time that the loco will run. e.g. Each child (operator) will get an equal amount of time.
 
-options:
+Options:
 
 * Disabled
 * 1 minute
@@ -1742,21 +1729,19 @@ options:
 * 10 minutes
 * Run complete  *Should not be manually selected - used by* |ed|
 
+Note this is independent of the value set in the `Default time for Button`_ preference. i.e It can be different to the default time if use the button to activate the timer.
+
 Restart Password
 """"""""""""""""
 
-|todo|
-
-Password to restart the children's timer with the current settings.
+Use this preference to set the password to restart the children's timer with the current settings.
 
 Defaults to "0000"
 
 Reset/Disable Password
 """"""""""""""""""""""
 
-|todo|
-
-Password to reset/disable the children's timer settings
+Use this preference to set the password to reset/disable the children's timer settings.
 
 Defaults to "9999"
 
@@ -1789,7 +1774,7 @@ Options:
 * 10 minutes
 * Run completed  *Should not be manually selected - used by* |ed|
 
-Note this is independent of the value set in the `Time limited running`_ preference. i.e It  can be different to the default time if use the menus to activate the timer.
+Note this is independent of the value set in the `Time limited running`_ preference. i.e It can be different to the default time if use the menus to activate the timer.
 
 Import/Export/Reset & Log Preferences
 -------------------------------------
@@ -1802,14 +1787,14 @@ Import, Export or Reset
 You can use this preference to a) `Export` preferences to a file in the ``/Android/data/jmri.enginedriver/files/`` folder (``exported_preferences.ed``), b) `Import` you saved preferences from a file in the ``/Android/data/jmri.enginedriver/files/`` folder, or c) `Reset` all the preferences to a state similar to when |ed| was initially installed.
 or `Reset` them.
 
-options: 
+Options: 
 
 * None
 * Export
 * Import
 * Reset
 
-WARNINGS:
+**WARNINGS:**
 
 * The action will occur IMMEDIATELY on selecting the option and confirming the dialog.
 * With `Reset`` and `Import`, Engine Driver will restart!
@@ -1817,15 +1802,14 @@ WARNINGS:
 .. note:: 
   :class: note-ed-hidden-title
 
-  You can transfer the preferences to a different phone by copying the file. See the `Moving to a New Device/Phone <../configuration/new_device.html>`_ page for more information.
+  You can transfer the preferences to a different phone by copying the file. See the :doc:`Moving to a New Device/Phone <../configuration/new_device>` page for more information.
 
 Auto import from all Servers?
 """""""""""""""""""""""""""""
 
-|todo|
+|ed| is able to automatically import a preference file from a JMRI |wts| if it exists.
 
-Automatically import the preferences from servers on connection.
-(If the file ``/Android/data/jmri.enginedriver/files/auto_preferences.ed`` is on the server and if it is more recent that the last time checked.)
+Enable this preference to automatically import the preferences from all servers (if they exists) on connection.  i.e. If the file ``<jmri railroad base folder>/prefs/engine_driver/auto_preferences.ed`` is on the server and if it is more recent that the last time checked.
 
 Include recent loco list?
 """""""""""""""""""""""""
@@ -1835,10 +1819,23 @@ Enable this preference if you wish to include the locos in the recent loco list 
 Auto host specific import/export?
 """""""""""""""""""""""""""""""""
 
-|todo|
+Enable this preference if you wish, on every connection to a host, to AUTOMATICALLY 'Import' preferences for that host, and optionally 'Export' them on disconnect. 
 
-On every connection to a host, AUTOMATICALLY 'Import' preferences for that host, and optionally 'Export' them on disconnect. 
-(To constantly reset back to a known state, set to 'Auto import on connect only' after the first time, or after a manual save (below).)
+Options:
+
+* None
+* Auto import/export on connect/disconnect
+* Auto import on connect only
+
+When enabled:
+
+* on connection to a |wts|, |ed| will save a file to the  ``/Android/data/jmri.enginedriver/files/`` folder in a file named ``<witServer Name>.ed``.
+
+
+**IMPORTANT!**
+
+* To constantly reset back to a known state, set to ``Auto import on connect only`` only **after** the first time you have connected to that server and exited |ed|, or after a `Manual host specific export <Manual host specific import/export>`_.
+
 
 Manual host specific import/export
 """"""""""""""""""""""""""""""""""
@@ -1846,8 +1843,13 @@ Manual host specific import/export
 |todo|
 
 'Import' or 'Export' your preferences for a specific host to the  ``/Android/data/jmri.enginedriver/files/`` folder. The host must be in your recent connection list.
-Will occur IMMEDIATELY on selecting the option.
-(Only available when not currently connected.)
+
+Note: this preference is only available when not currently connected to a |wts|.
+
+**WARNINGS:**
+
+* The action will occur IMMEDIATELY on selecting the option and confirming the dialog.
+
 
 Show Timestamps on Log?
 """""""""""""""""""""""""

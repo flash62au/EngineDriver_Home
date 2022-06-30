@@ -2382,7 +2382,7 @@ i.e. It is not possible to Select (add or remove) locos if they are moving.</p>
 </section>
 <section id="mobile-data-connection">
 <h3><a class="toc-backref" href="#id187">Mobile Data connection?</a><a class="headerlink" href="#mobile-data-connection" title="Permalink to this heading"></a></h3>
-<p>Use this preference to allow your device to connect to JMRI, or any wiThrottle Server, using your phone’s Mobile Data.</p>
+<p>Use this preference to allow your device to connect to JMRI, or any WiThrottle Server, using your phone’s Mobile Data.</p>
 <blockquote>
 <div><div class="note-ed-hidden-title admonition note">
 <p class="admonition-title">Note</p>
@@ -2392,7 +2392,7 @@ i.e. It is not possible to Select (add or remove) locos if they are moving.</p>
 </section>
 <section id="feedback-on-disconnect">
 <h3><a class="toc-backref" href="#id188">Feedback on Disconnect</a><a class="headerlink" href="#feedback-on-disconnect" title="Permalink to this heading"></a></h3>
-<p>If this preference is enabled <strong>Engine Driver</strong> will play a sound (Audible alert) and will vibrate if there is an unexpected disconnection from the wiThrottle server.</p>
+<p>If this preference is enabled <strong>Engine Driver</strong> will play a sound (Audible alert) and will vibrate if there is an unexpected disconnection from the WiThrottle Server.</p>
 <blockquote>
 <div><div class="note-ed-hidden-title admonition note">
 <p class="admonition-title">Note</p>
@@ -2435,43 +2435,31 @@ i.e. It is not possible to Select (add or remove) locos if they are moving.</p>
 <p>The following preferences allow you to change the way the <em>Turnouts/Points</em> behave.</p>
 <section id="hide-sys-route-names">
 <h3><a class="toc-backref" href="#id194">Hide Sys Route Names?</a><a class="headerlink" href="#hide-sys-route-names" title="Permalink to this heading"></a></h3>
-<p><div style="color:red">TODO</div></p>
-<p>Hide system names for Routes, used to save space on Route list</p>
+<p>If this preference is enabled, the ‘system names’ for the Routes are not shown in the Routes List.  This is a cosmetic change only and can be used to save space on ‘Route list’.</p>
 </section>
 <section id="location-delimiter">
 <h3><a class="toc-backref" href="#id195">Location Delimiter</a><a class="headerlink" href="#location-delimiter" title="Permalink to this heading"></a></h3>
-<p><div style="color:red">TODO</div></p>
-<p>Set the character that marks the end of the Location portion of Turnout/Point and Route names</p>
+<p>The ‘Turnout/Points List’ and the ‘Routes List’ can be filtered.  The filtering relies on the idea that the first part of every Turnout/Point name and every Route name is a ‘Location’, followed by a common separator, then the actual name for the Turnout/Point or Route name.  The ‘filter’ then allows you to select one of those locations and <strong>Engine Driver</strong> can just show the Turnout/Points or Routes at the ‘Location’.</p>
+<p>This preference allows you to set the character that marks the end of the Location portion of Turnout/Point and Route names.  By default it is a colon (“:”) but any character can be used.</p>
 </section>
 <section id="hide-if-no-user-name">
 <h3><a class="toc-backref" href="#id196">Hide if no user name?</a><a class="headerlink" href="#hide-if-no-user-name" title="Permalink to this heading"></a></h3>
-<p><div style="color:red">TODO</div></p>
-<p>Omit Turnout/Point/Route from list if the user name is empty</p>
+<p>If this preference is enabled <strong>Engine Driver</strong> will omit any Turnout/Point/Route from list if the user name is empty.</p>
 </section>
 </section>
 <section id="children-s-timer-preferences">
 <h2><a class="toc-backref" href="#id197">Children’s (Timer) Preferences</a><a class="headerlink" href="#children-s-timer-preferences" title="Permalink to this heading"></a></h2>
-<p><div style="color:red">TODO</div></p>
-<p>Options for young children. Time controlled running.</p>
-<ul class="simple">
-<li><p>select the loco first.</p></li>
-<li><p>Timer will start with the first increase in speed.</p></li>
-<li><p>You must come back to this preference to reset the time (or clear it) after the timeout.</p></li>
-</ul>
-<p>Recommendations:</p>
-<ul class="simple">
-<li><p>Enable the Action Bar button (<a class="reference internal" href="#show-timer-button">Show Timer button?</a>)</p></li>
-<li><p>Disable the hardware volume keys (<a class="reference internal" href="#disable-volume-keys">Disable Volume keys?</a>)</p></li>
-<li><p>Disable <a class="reference internal" href="#swipe-through-turnouts-points">Swipe Through Turnouts/Points?</a></p></li>
-<li><p>Disable <a class="reference internal" href="#swipe-through-routes">Swipe Through Routes?</a></p></li>
-<li><p>Disable the <a class="reference internal" href="#emergency-stop-button">Emergency Stop button?</a></p></li>
-</ul>
+<p><strong>Engine Driver</strong> provides options for time controlled running.  This was originally intended for providing a way to have children have a fair share of the use of a loco, but can be used for timed control for any purpose.</p>
+<div class="note-ed-hidden-title admonition note">
+<p class="admonition-title">Note</p>
+<p>See the <a class="reference external" href="operation/advanced.html#children-s-timer">Children’s Timer</a> page for more information on how to use the timer.</p>
+</div>
 <p>The following preferences allow you to change the way the <em>Children’s (Timer)</em> behave.</p>
 <section id="time-limited-running">
 <h3><a class="toc-backref" href="#id198">Time limited running</a><a class="headerlink" href="#time-limited-running" title="Permalink to this heading"></a></h3>
 <p><div style="color:red">TODO</div></p>
 <p>Restrict the time that the loco will run. e.g. Each child (operator) will get an equal amount of time.</p>
-<p>options:</p>
+<p>Options:</p>
 <ul class="simple">
 <li><p>Disabled</p></li>
 <li><p>1 minute</p></li>
@@ -2480,17 +2468,16 @@ i.e. It is not possible to Select (add or remove) locos if they are moving.</p>
 <li><p>10 minutes</p></li>
 <li><p>Run complete  <em>Should not be manually selected - used by</em> <strong>Engine Driver</strong></p></li>
 </ul>
+<p>Note this is independent of the value set in the <a class="reference internal" href="#default-time-for-button">Default time for Button</a> preference. i.e It can be different to the default time if use the button to activate the timer.</p>
 </section>
 <section id="restart-password">
 <h3><a class="toc-backref" href="#id199">Restart Password</a><a class="headerlink" href="#restart-password" title="Permalink to this heading"></a></h3>
-<p><div style="color:red">TODO</div></p>
-<p>Password to restart the children’s timer with the current settings.</p>
+<p>Use this preference to set the password to restart the children’s timer with the current settings.</p>
 <p>Defaults to “0000”</p>
 </section>
 <section id="reset-disable-password">
 <h3><a class="toc-backref" href="#id200">Reset/Disable Password</a><a class="headerlink" href="#reset-disable-password" title="Permalink to this heading"></a></h3>
-<p><div style="color:red">TODO</div></p>
-<p>Password to reset/disable the children’s timer settings</p>
+<p>Use this preference to set the password to reset/disable the children’s timer settings.</p>
 <p>Defaults to “9999”</p>
 </section>
 <section id="allow-reverse">
@@ -2514,7 +2501,7 @@ i.e. It is not possible to Select (add or remove) locos if they are moving.</p>
 <li><p>10 minutes</p></li>
 <li><p>Run completed  <em>Should not be manually selected - used by</em> <strong>Engine Driver</strong></p></li>
 </ul>
-<p>Note this is independent of the value set in the <a class="reference internal" href="#time-limited-running">Time limited running</a> preference. i.e It  can be different to the default time if use the menus to activate the timer.</p>
+<p>Note this is independent of the value set in the <a class="reference internal" href="#time-limited-running">Time limited running</a> preference. i.e It can be different to the default time if use the menus to activate the timer.</p>
 </section>
 </section>
 <section id="import-export-reset-log-preferences">
@@ -2524,28 +2511,27 @@ i.e. It is not possible to Select (add or remove) locos if they are moving.</p>
 <h3><a class="toc-backref" href="#id205">Import, Export or Reset</a><a class="headerlink" href="#import-export-or-reset" title="Permalink to this heading"></a></h3>
 <p>You can use this preference to a) <cite>Export</cite> preferences to a file in the <code class="docutils literal notranslate"><span class="pre">/Android/data/jmri.enginedriver/files/</span></code> folder (<code class="docutils literal notranslate"><span class="pre">exported_preferences.ed</span></code>), b) <cite>Import</cite> you saved preferences from a file in the <code class="docutils literal notranslate"><span class="pre">/Android/data/jmri.enginedriver/files/</span></code> folder, or c) <cite>Reset</cite> all the preferences to a state similar to when <strong>Engine Driver</strong> was initially installed.
 or <cite>Reset</cite> them.</p>
-<p>options:</p>
+<p>Options:</p>
 <ul class="simple">
 <li><p>None</p></li>
 <li><p>Export</p></li>
 <li><p>Import</p></li>
 <li><p>Reset</p></li>
 </ul>
-<p>WARNINGS:</p>
+<p><strong>WARNINGS:</strong></p>
 <ul class="simple">
 <li><p>The action will occur IMMEDIATELY on selecting the option and confirming the dialog.</p></li>
 <li><p>With <cite>Reset`</cite> and <cite>Import</cite>, Engine Driver will restart!</p></li>
 </ul>
 <div class="note-ed-hidden-title admonition note">
 <p class="admonition-title">Note</p>
-<p>You can transfer the preferences to a different phone by copying the file. See the <a class="reference external" href="../configuration/new_device.html">Moving to a New Device/Phone</a> page for more information.</p>
+<p>You can transfer the preferences to a different phone by copying the file. See the <a class="reference internal" href="new_device.html"><span class="doc">Moving to a New Device/Phone</span></a> page for more information.</p>
 </div>
 </section>
 <section id="auto-import-from-all-servers">
 <h3><a class="toc-backref" href="#id206">Auto import from all Servers?</a><a class="headerlink" href="#auto-import-from-all-servers" title="Permalink to this heading"></a></h3>
-<p><div style="color:red">TODO</div></p>
-<p>Automatically import the preferences from servers on connection.
-(If the file <code class="docutils literal notranslate"><span class="pre">/Android/data/jmri.enginedriver/files/auto_preferences.ed</span></code> is on the server and if it is more recent that the last time checked.)</p>
+<p><strong>Engine Driver</strong> is able to automatically import a preference file from a JMRI WiThrottle Server if it exists.</p>
+<p>Enable this preference to automatically import the preferences from all servers (if they exists) on connection.  i.e. If the file <code class="docutils literal notranslate"><span class="pre">&lt;jmri</span> <span class="pre">railroad</span> <span class="pre">base</span> <span class="pre">folder&gt;/prefs/engine_driver/auto_preferences.ed</span></code> is on the server and if it is more recent that the last time checked.</p>
 </section>
 <section id="include-recent-loco-list">
 <h3><a class="toc-backref" href="#id207">Include recent loco list?</a><a class="headerlink" href="#include-recent-loco-list" title="Permalink to this heading"></a></h3>
@@ -2553,16 +2539,31 @@ or <cite>Reset</cite> them.</p>
 </section>
 <section id="auto-host-specific-import-export">
 <h3><a class="toc-backref" href="#id208">Auto host specific import/export?</a><a class="headerlink" href="#auto-host-specific-import-export" title="Permalink to this heading"></a></h3>
-<p><div style="color:red">TODO</div></p>
-<p>On every connection to a host, AUTOMATICALLY ‘Import’ preferences for that host, and optionally ‘Export’ them on disconnect.
-(To constantly reset back to a known state, set to ‘Auto import on connect only’ after the first time, or after a manual save (below).)</p>
+<p>Enable this preference if you wish, on every connection to a host, to AUTOMATICALLY ‘Import’ preferences for that host, and optionally ‘Export’ them on disconnect.</p>
+<p>Options:</p>
+<ul class="simple">
+<li><p>None</p></li>
+<li><p>Auto import/export on connect/disconnect</p></li>
+<li><p>Auto import on connect only</p></li>
+</ul>
+<p>When enabled:</p>
+<ul class="simple">
+<li><p>on connection to a WiThrottle Server, <strong>Engine Driver</strong> will save a file to the  <code class="docutils literal notranslate"><span class="pre">/Android/data/jmri.enginedriver/files/</span></code> folder in a file named <code class="docutils literal notranslate"><span class="pre">&lt;witServer</span> <span class="pre">Name&gt;.ed</span></code>.</p></li>
+</ul>
+<p><strong>IMPORTANT!</strong></p>
+<ul class="simple">
+<li><p>To constantly reset back to a known state, set to <code class="docutils literal notranslate"><span class="pre">Auto</span> <span class="pre">import</span> <span class="pre">on</span> <span class="pre">connect</span> <span class="pre">only</span></code> only <strong>after</strong> the first time you have connected to that server and exited <strong>Engine Driver</strong>, or after a <a class="reference external" href="Manualhostspecificimport/export">Manual host specific export</a>.</p></li>
+</ul>
 </section>
 <section id="manual-host-specific-import-export">
 <h3><a class="toc-backref" href="#id209">Manual host specific import/export</a><a class="headerlink" href="#manual-host-specific-import-export" title="Permalink to this heading"></a></h3>
 <p><div style="color:red">TODO</div></p>
-<p>‘Import’ or ‘Export’ your preferences for a specific host to the  <code class="docutils literal notranslate"><span class="pre">/Android/data/jmri.enginedriver/files/</span></code> folder. The host must be in your recent connection list.
-Will occur IMMEDIATELY on selecting the option.
-(Only available when not currently connected.)</p>
+<p>‘Import’ or ‘Export’ your preferences for a specific host to the  <code class="docutils literal notranslate"><span class="pre">/Android/data/jmri.enginedriver/files/</span></code> folder. The host must be in your recent connection list.</p>
+<p>Note: this preference is only available when not currently connected to a WiThrottle Server.</p>
+<p><strong>WARNINGS:</strong></p>
+<ul class="simple">
+<li><p>The action will occur IMMEDIATELY on selecting the option and confirming the dialog.</p></li>
+</ul>
 </section>
 <section id="show-timestamps-on-log">
 <h3><a class="toc-backref" href="#id210">Show Timestamps on Log?</a><a class="headerlink" href="#show-timestamps-on-log" title="Permalink to this heading"></a></h3>

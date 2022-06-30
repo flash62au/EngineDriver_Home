@@ -18,7 +18,7 @@ Quick Start / Getting Started
 
 * **On your Android device/phone** 
   
-  * Make sure you are connected to same network as the WiThrottle server's network.
+  * Make sure you are connected to same network as the |wts|'s network.
 
   * Start |ED| 
 
@@ -30,8 +30,8 @@ Quick Start / Getting Started
 
   * Click on the Discovered server
 
-    * If your wiThrottle server does not show up, check that are on the same network as the WiThrottle server.   
-    * If the server *never* appears in the discovered list, type in the IP address and Port of the WiThrottle server (Using the values shown on the JMRI WiThrottle window) and press :guilabel:`Connect`. |br|\ Note: this situation is sometimes possible even if you are on the same network. |br|\ |br|\ See the `WiFi connection <./wifi_issues.html>`_ page for more assistance if you have connection issues. |br|\ |br|\ 
+    * If your |wts| does not show up, check that are on the same network as the |wts|.   
+    * If the server *never* appears in the discovered list, type in the IP address and Port of the |wts| (Using the values shown on the JMRI WiThrottle window) and press :guilabel:`Connect`. |br|\ Note: this situation is sometimes possible even if you are on the same network. |br|\ |br|\ See the `WiFi connection <./wifi_issues.html>`_ page for more assistance if you have connection issues. |br|\ |br|\ 
 
   * If needed, turn the track power on with :menuselection:`Menu --> Power` and confirm the button is 'green'  (This is not required by all DCC Command Stations.)
   

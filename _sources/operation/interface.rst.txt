@@ -43,9 +43,9 @@ Connection Screen
 
 This screen is the first screen you normally see when starting |ED|. 
 
-It allows you choose which WiThrottle Server to connect to, which you must do to control your trains.
+It allows you choose which |wts| to connect to, which you must do to control your trains.
 
-There are three ways you can select a wiThrottle server to connect to:
+There are three ways you can select a |wts| to connect to:
 
 * IP Address and Port
 * Discovered Servers
@@ -53,7 +53,7 @@ There are three ways you can select a wiThrottle server to connect to:
 
 Once you select a server the 'Throttle Screen' will be automatically displayed.
 
-If you only ever connect to one WiThrottle server you can effectively bypass this screen by enabling the `Auto-Connect to WiThrottle Server? <../configuration/preferences.html#auto-connect-to-withrottle-server>`_ preference.
+If you only ever connect to one |wts| you can effectively bypass this screen by enabling the `Auto-Connect to WiThrottle Server? <../configuration/preferences.html#auto-connect-to-withrottle-server>`_ preference.
 
 IP Address and Port
 """"""""""""""""""""
@@ -77,9 +77,9 @@ Discovered Servers
 
 This is the most common way to connect.
 
-Your wiThrottle server will attempt to broadcast its details so that apps like |ed| can automatically find it.  If |ed| does find it, it will be listed here.
+Your |wts| will attempt to broadcast its details so that apps like |ed| can automatically find it.  If |ed| does find it, it will be listed here.
 
-To connect to any wiThrottle Server in this list, simply click on the row.  |ed| will attempt to connect to it, and the *Throttle Screen* will be displayed.
+To connect to any |wts| in this list, simply click on the row.  |ed| will attempt to connect to it, and the *Throttle Screen* will be displayed.
 
 failed connections...
 
@@ -94,7 +94,7 @@ Recent servers
 
 |todo|
 
-To connect to any wiThrottle Server in this list, simply click on the row.  |ed| will attempt to connect to it.  If successful the *Throttle Screen* will be displayed.
+To connect to any |wts| in this list, simply click on the row.  |ed| will attempt to connect to it.  If successful the *Throttle Screen* will be displayed.
 
 Note that, just because it is in this list, it does not mean that you can connect to it now. It only means that you have successfully connected to it in the past.
 
@@ -315,7 +315,7 @@ Function Buttons Scroll Area
    * labels provided from the roster
    * The default labels for |ed|  (which can be changed)
 
-   For roster Entries you need to edit the Function buttons in the wiThrottle Server, or configure |ed| to use the default labels.
+   For roster Entries you need to edit the Function buttons in the |wts|, or configure |ed| to use the default labels.
 
    The *Function Button area* can also show:
 
@@ -439,18 +439,22 @@ This screen allows you to display all Turnouts/Points that have been defined in 
 
 Turnouts/Points can be changed from Closed to Thrown and vice versa be pressing on either the ``Closed`` or ``Thrown`` buttons
 
-List from wiThrottle
+**List from wiThrottle**
 
 * Throw
 * CLose
 
-Entry
+**Entry**
 
-Filter by location
+|todo|
 
-Location delimiter preference
+**Filter by location**
 
-Hide if no user name? preference
+The 'Turnout/Points List' can be filtered.  The filtering relies on the idea that the first part of every Turnout/Point name is a 'Location', followed by a common separator, then the actual name for the Turnout/Point name.  The 'filter' then allows you to select one of those locations and |ed| can just show the Turnout/Points at the 'Location'.
+
+The `Location Delimiter <../configuration/preferences.html#location-delimiter>`_ preference allows you to set the character that marks the end of the Location portion of Turnout/Point and Route names.  By default it is a colon (":") but any character can be used.
+
+**Hide if no user name? preference**
 
 
 Swipe Left / Right (From Turnouts/Points)
@@ -480,13 +484,19 @@ Accessed from any of the main screens by the menu :menuselection:`Menu --> Route
 
 This screen allows you to display all Routes that have been defined in JMRI or DCC++EX.
 
-Enter
+**Enter**
 
-List
+|todo|
 
-Filter by location
+**List**
 
-Location delimiter preference
+|todo|
+
+**Filter by location**
+
+The 'Routes List' can be filtered.  The filtering relies on the idea that the first part of every Route name is a 'Location', followed by a common separator, then the actual name for the Route name.  The 'filter' then allows you to select one of those locations and |ed| can just show the Routes at the 'Location'.
+
+The `Location Delimiter <../configuration/preferences.html#location-delimiter>`_ preference allows you to set the character that marks the end of the Location portion of Turnout/Point and Route names.  By default it is a colon (":") but any character can be used.
 
 Hide Sys Route Names? preference 
 
@@ -817,7 +827,7 @@ About Screen
 This screen displays 
 
 * Information about |ed| 
-* Information about the WiThrottle Server it is currently connected to (if any)
+* Information about the |wts| it is currently connected to (if any)
 * A page of basic information about |ed|
 
 |todo| 
@@ -827,7 +837,7 @@ This screen displays
 Reconnecting Screen
 ^^^^^^^^^^^^^^^^^^^
 
-This screen displays if |ed| has not been able to communicate with the wiThrottle server within a specified time.
+This screen displays if |ed| has not been able to communicate with the |wts| within a specified time.
 
 |todo| 
 
@@ -924,7 +934,7 @@ The Action Bar can display:
   * Fast Clock
   * Children's Timer Status and Countdown
   * Full Screen or Action Bar Only left/right swipe
-  * WiThrottle Server Name
+  * |wts| Name
 
 * Optionally configured buttons:
 
