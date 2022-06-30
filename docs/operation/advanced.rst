@@ -54,4 +54,29 @@ Conserving Power
 Children's Timer
 ----------------
 
-|todo|
+|ED| provides options for time controlled running.  This was originally intended for providing a way to have children have a fair share of the use of a loco, but can be used for timed control for any purpose.
+
+Instructions:
+
+- select the loco first.
+- enable the time limited running to the desired time, using either:
+  
+  - the `Time limited running <../configuration/preferences.html#time-limited-running>`_ preference, (then return to the *Throttle Screen*) |br| *or* 
+  - the action button (`Show Timer button? <../configuration/preferences.html#show-timer-button>`_)
+  
+- The timer will start with the first increase in speed
+- When the timer runs out:
+
+  - You must come back to this preference to reset the time (or clear it) |br| *or* 
+  - click the action button again.
+ 
+Recommendations:
+
+- Enable the Action Bar button (`Show Timer button? <../configuration/preferences.html#show-timer-button>`_)
+- Disable the hardware volume keys (`Disable Volume keys? <./configuration/preferences.html#disable-volume-keys>`_)
+- Disable `Swipe Through Turnouts/Points? <./configuration/preferences.html#swipe-through-turnouts-points>`_ 
+- Disable `Swipe Through Routes? <./configuration/preferences.html#swipe-through-routes>`_
+- Disable the `Emergency Stop button? <./configuration/preferences.html#throttle-screen-action-bar-preferences>`_
+
+The following preferences allow you to change the way the *Children's (Timer)* behave.
+

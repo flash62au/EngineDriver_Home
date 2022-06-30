@@ -23,7 +23,7 @@ Wrong Network
 
 Recent versions of Android have a very confusing *feature*, sometimes called 'Smart Network Switching', that will ignore a connected WiFi network if that network cannot reach the Internet. 
 
-This can cause problems if you sometimes use your device to connect to the internet on one network, but you WiThrottle server is on a different network that does not have an internet connection. 
+This can cause problems if you sometimes use your device to connect to the internet on one network, but you |wts| is on a different network that does not have an internet connection. 
 
 Some devices have a setting to turn off this feature, some do not. 
 Some provide a notification that "Wi-Fi has no internet access, Tap for options", followed by "This network has no internet access. Stay connected?" that can be used to disable this feature and remain connected to the WiFi. 

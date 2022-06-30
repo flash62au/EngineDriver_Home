@@ -19,7 +19,7 @@ Connecting
 Connecting has two aspects:
 
 1. Connecting to the WiFi network, which uses Android's built in capabilities (not |EDs|)
-2. Connecting |ED| to the WiThrottle server
+2. Connecting |ED| to the |wts|
 
 Connecting to the WiFi network
 """"""""""""""""""""""""""""""
@@ -37,7 +37,7 @@ Connecting to the WiFi network
     :scale: 30 %
     :align: right
 
-* Use Android's Network - Wifi settings to connect to the same network as your WiThrottle server
+* Use Android's Network - Wifi settings to connect to the same network as your |wts|
 * With some exceptions, your device's IP Address should be similar to the server's IP address (the first three blocks of numbers will be identical)
 
   * For your Android device / phone, you can see its address in the |EDs| 'About Screen' (:menuselection:`Menu --> About`), at the top of the screen
@@ -75,7 +75,7 @@ Connecting Engine Driver to the WiThrottle server
     :name: Recent Severs
 
 * Start Engine Driver |br|\ You will be presented with the Connection Screen
-* On the Connection Screen there are three ways you can select a WiThrottle server to connect to:
+* On the Connection Screen there are three ways you can select a |wts| to connect to:
 
   - IP Address and Port
   - Discovered Servers
@@ -101,14 +101,14 @@ Recent Server List
 IP Address and Port
 '''''''''''''''''''
 
-  Type in the **IP address** and **Port** of the WiThrottle server and press :guilabel:`Connect`.
+  Type in the **IP address** and **Port** of the |wts| and press :guilabel:`Connect`.
 
   To find your server's IP address and Port:
 
     * For a JMRI server, see the WiThrottle screen for its address 
     * For other devices, see the instructions for that device
 
-  If you only ever connect to one WiThrottle server you can effectively bypass this screen by setting the `Auto-Connect to WiThrottle Server? <../configuration/preferences.html#auto-connect-to-withrottle-server>`_ preference.
+  If you only ever connect to one |wts| you can effectively bypass this screen by setting the `Auto-Connect to WiThrottle Server? <../configuration/preferences.html#auto-connect-to-withrottle-server>`_ preference.
 
 .. note:: 
   :class: note-ed-hidden-title
@@ -176,7 +176,7 @@ There three ways select a loco:
 
   If the loco you want to control is in the list, simply click on it and you will be taken back to the Throttle screen with that loco selected.
 
-  The Loco you want to control needs to be in the roster of the WiThrottle server.  Not all WiThrottle server support rosters.  Refer to the JMRI documentation or you WiThrottle server device's documentation for creating a roster.
+  The Loco you want to control needs to be in the roster of the |wts|.  Not all |wts| support rosters.  Refer to the JMRI documentation or you |wts| device's documentation for creating a roster.
 
   Also see `Locomotive Icons <#locomotive-icons-in-the-roster>`_ below.
 
@@ -480,7 +480,7 @@ Activating the DCC Function via the Function Buttons
 
     * Which function buttons, how many function buttons and what labels are displayed, can be changed via the :menuselection:`Menu --> Function Defaults` from the Throttle Screen
   
-  * If you select a Loco from the Recent Locos or Recent Consists lists that was originally selected from a roster, |ed| will attempt to show the Labels from the wiThrottle server roster entry.
+  * If you select a Loco from the Recent Locos or Recent Consists lists that was originally selected from a roster, |ed| will attempt to show the Labels from the |wts| roster entry.
 
   .. note:: 
     :class: note-ed-hidden-title
@@ -595,7 +595,7 @@ Optionally configured information:
 * Fast Clock
 * Children’s Timer Status and Countdown
 * Full Screen or Action Bar Only left/right swipe
-* WiThrottle Server Name
+* |wts| Name
 
 Optionally configured buttons:
 
@@ -638,7 +638,7 @@ Turnouts / Points
 
 |todo|
 
-|ed| can control DCC controlled Turnouts / Points on your layout if configured in you WiThrottle server.
+|ed| can control DCC controlled Turnouts / Points on your layout if configured in you |wts|.
 
 To get the *Turnouts / Points* screen you can use the menu :menuselection:`Menu --> Turnouts/Points` from the main screens.  You can also swipe right from the Throttle Screen (if enabled in the preference).
 
@@ -649,7 +649,7 @@ If you've defined your turnouts and routes in a panel file, make sure to specify
 *Turnouts/Points* can be operated three ways
 
 * By entering their DCC Address
-* From the JMRI Defined Turnout/Point list provided by the WiThrottle Server (JMRI)
+* From the JMRI Defined Turnout/Point list provided by the |wts| (JMRI)
 * From the recent Turnout/Point list
 
 The *Turnouts/Points Screen* can be accessed three ways:
@@ -681,7 +681,13 @@ JMRI Defined Turnout/Point list
 
   |todo|
 
-  see delimiter preference
+  **Filter by location**
+
+  The 'Turnout/Points List' and the 'Routes List' can be filtered.  The filtering relies on the idea that the first part of every Turnout/Point name and ever Route name is a 'Location', followed by a common separator, then the actual name for the Turnout/Point or Route name.  The 'filter' then allows you to select one of those locations and |ed| can just show the Turnout/Points or Routes at the 'Location'.
+
+  The `Location Delimiter <../configuration/preferences.html#location-delimiter>`_ preference allows you to set the character that marks the end of the Location portion of Turnout/Point and Route names.  By default it is a colon (":") but any character can be used.
+
+
 
 Recent Turnout/Point list
 """""""""""""""""""""""""
@@ -711,9 +717,9 @@ Routes
 
 |todo|
 
-|ed| can control *Routes* on your layout if configured in you WiThrottle server.
+|ed| can control *Routes* on your layout if configured in you |wts|.
 
-When using DC++EX as your WiThrottle server, *Routes* can be used to activate *Automations*.
+When using DC++EX as your |wts|, *Routes* can be used to activate *Automations*.
 
 To get the *Turnouts / Points* screen you can use the menu :menuselection:`Menu --> Routes` from the main screens.  You can also swipe left from the Throttle Screen (if enabled in the preference).
 
@@ -734,6 +740,12 @@ From the WiThrottle server
   See the `Left/Right Swipe preferences on the Preferences page <./configuration/preferences.html#left-right-swipe-preferences>`_ for information on enabling or disabling the swipe though Routes.
 
   See the `Automation (EX-RAIL) page on the DCC++EX website <https://dcc-ex.com/automation/index.html>`_ for more information on using Automations in DCC++EX.
+
+  **Filter by location**
+
+  The 'Turnout/Points List' and the 'Routes List' can be filtered.  The filtering relies on the idea that the first part of every Turnout/Point name and ever Route name is a 'Location', followed by a common separator, then the actual name for the Turnout/Point or Route name.  The 'filter' then allows you to select one of those locations and |ed| can just show the Turnout/Points or Routes at the 'Location'.
+
+  The `Location Delimiter <../configuration/preferences.html#location-delimiter>`_ preference allows you to set the character that marks the end of the Location portion of Turnout/Point and Route names.  By default it is a colon (":") but any character can be used.
 
 Overflow Menu (Routes Screen)
 """""""""""""""""""""""""""""""
@@ -850,5 +862,5 @@ To exit |ed|, you can:
 
 Exiting |ed|:
 
-* Disconnects from the WiThrottle server.
+* Disconnects from the |wts|.
 * Stops playing all In Phone Loco Sounds (if any were configured).

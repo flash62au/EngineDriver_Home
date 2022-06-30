@@ -14,6 +14,8 @@
 ..
 .. |wts| replace:: WiThrottle Server
 ..
+.. |wtss| replace:: WiThrottle Servers
+..
 .. Use |ED|\ to remove the leading space if you need to follow it by a comma etc.
 ..
 .. |todo| raw:: html
