@@ -930,42 +930,25 @@ Only relevant is the `Show 'Pause' button?`_ preference is enabled.
 Consist Function Follow Preferences
 -----------------------------------
 
-These preferences allow for change the way DCC functions will behave in a consist.
+These preferences allow for change the way DCC functions will behave in a consist/multiple unit train.
 
 Consist Functions - Follow Rule Style
 """""""""""""""""""""""""""""""""""""
 
 |todo|
 
+See the `Advanced Consist Function Mapping <./configuration/functions.html#advanced-consist-function-mapping>` section of the Functions page for more information.
+
 Which style of rules to follow in a consist when function buttons are pressed.
 
 Note: If 'Use Default function labels' is enabled, 'Special...' will also apply to the lead (or only) loco.
 
+Options
 
-You can now arrange the labels on ED any way you want, and as long as the equivalent function has a similar name it doesn't matter what function number it is, it will activate it correctly.
-
-I have added two new options to the menu " Special Exact" and "Special Partial"
-These options override the Original and Complex options completely and ignore the string matching preferences (it disables them)
-
-Their behaviour is:
-
-* for every loco in the consist
-  
-  * for every function in the locos roster entries
-
-    * if the string of the function label exactly matches (or partially matches) the label of the function the ED is currently showing for the pressed function button
-
-      * the function will be activated on that loco
-  
-Note
-
-* There is no lead trail checking.  any matching function will be activated in any loco
-* If no matching function on a particular loco (including the lead) nothing will happen for that loco
-* It will use the ED default function labels if you have set them
-* OR whatever labels have been loaded for the lead loco.
-* Partial patching is a bit so-so.  I have a couple of sound decoders that allow me to change the bell and whistle tones in the function buttons.  Those functions also get activated when I just press 'Bell' or 'Whistle' as that text was also in the labels for the functions..  
-
-
+* Simple text matching (original)
+* Complex text matching - Lead loco always activated, Trail follows rules below
+* Special Exact - Lead and All Trail activated if they exactly match the function labels
+* Special Partial - Lead and All Trail activated if they partially match the function labels
 
 
 Selective Lead Unit Sound?
@@ -998,12 +981,16 @@ If All matches Fail Action
 
 Which locos in the consist should react to the function buttons if none of the rules below are meet.
 
+For the 'Simple' and 'Complex' options only.
+
 Headlight specific String 1
 """""""""""""""""""""""""""
 
 |todo|
 
 Comma separated string(s) to look for in the function labels of the locos in the consist to recognise the \'Headlight\' function (normally F0).
+
+For the 'Simple' and 'Complex' options only.
 
 Headlight specific Action 1
 """""""""""""""""""""""""""
@@ -1012,16 +999,21 @@ Headlight specific Action 1
 
 Which locos in the consist should react to the found headlight functions.
 
+For the 'Simple' and 'Complex' options only.
+
 String 2, 3, 4, 5
 """""""""""""""""
 
 |todo|
+
+For the 'Simple' and 'Complex' options only.
 
 Action for String 2, 3, 4, 5
 """"""""""""""""""""""""""""
 
 |todo|
 
+For the 'Simple' and 'Complex' options only.
 
 Additional Throttle Control Source Preferences
 ----------------------------------------------
@@ -1756,7 +1748,6 @@ Show Timer button?
 .. image:: ../_static/images/parts/timer.png
    :align: right
    :scale: 50%
-
 
 Enable this preference if you wish display the Timer Button on the Action Bar of the Throttle Screen, to easily activate the Children's timer.
 
