@@ -66,7 +66,7 @@ There are four options to choose from:
       - Auto-Rotate |br|\ will switch between |br|\ Portrait and |br|\ landscape when |br|\ you rotate the |br|\ screen
     * - .. image:: ../_static/images/screenshots/auto_web.png
           :scale: 8%
-      - Auto-Web |br|\ will show the |br|\ Web Screen when |br|\ you rotate the |br|\ screen
+      - Auto-Web |br|\ will show the |br|\ |WV-S| when |br|\ you rotate the |br|\ screen
 
 Theme/Style
 """""""""""
@@ -109,7 +109,7 @@ Localisation
 
 Changing the *Localisation* primarily changes the language used in the menus, buttons and messages throughout |ED|.
 
-For English, it also changes the railroad/railway terminology (eg, Selecting 'Use Phone's global setting' and having this set to 'English (Australia)' or 'English (UK)' results in the term 'Points' to be displayed rather than 'Turnouts' which is displayed when 'English (US)' is selected). In the Preferences screen and the Throttle Screen Layout selection screen (where 'shunting' is displayed rather than 'switching').  This is not guaranteed to operate on all text on all screens. 
+For English, it also changes the railroad/railway terminology (eg, Selecting 'Use Phone's global setting' and having this set to 'English (Australia)' or 'English (UK)' results in the term 'Points' to be displayed rather than 'Turnouts' which is displayed when 'English (US)' is selected). In the Preferences screen and the Throttle Screen Layout selection preference (where 'shunting' is displayed rather than 'switching').  This is not guaranteed to operate on all text on all screens. 
 
 Supported localisations are:
 
@@ -142,22 +142,22 @@ If this preference is enabled, only the Action Bar can be swiped to change scree
 Swipe through Web?
 '''''''''''''''''''''''''''''''''''
 
-If this preference is enabled, the Web Screen is included in the list of screens when swiping left/right between screens.
+If this preference is enabled, the |WV-S| is included in the list of screens when swiping left/right between screens.
 
 Swipe Through Turnouts/Points?
 '''''''''''''''''''''''''''''''''''
 
-If this preference is enabled, the Turnouts/Points Screen is included in the list of screens when swiping left/right between screens.
+If this preference is enabled, the |TP-S| is included in the list of screens when swiping left/right between screens.
 
 Swipe through Routes?
 '''''''''''''''''''''''''''''''''''
 
-If this preference is enabled, the Routes Screen is included in the list of screens when swiping left/right between screens.
+If this preference is enabled, the |R-S| is included in the list of screens when swiping left/right between screens.
 
 Throttle Screen Appearance Preferences
 --------------------------------------
 
-The following preferences provide options for the appearance of the Throttle Screen.
+The following preferences provide options for the appearance of the |T-S|.
 
 Throttle Screen Layout
 """"""""""""""""""""""
@@ -298,12 +298,12 @@ Notes:
 * The number is brackets after the Throttle Screen Layout name is the number of throttles that the layout can support.
 * The 'Simple' Throttle Screen Layout is designed to allow for up to 6 throttles simultaneously.  |br|\ It is recommended that this be used on a tablet device, because of the screen real estate demands that 6 throttles requires. |br|\ When this Throttle Screen Layout is selected, the `Number of Throttles`_ preferences options is activated.  You can then use this to restrict the number of throttles being displayed on the 'Simple' Throttle Screen Layout.  |br|\ Also the `Function Buttons Area size`_ preferences options is activated.  You can then use this to control how many Function Buttons are displayed with each throttle.  By default, no Function buttons will be shown. |br|\ If you have selected In Phone Loco Sounds, then you may want to set this to three or four (for Mute, Bell and Whistle/Horn, Short Horn/whistle).
 
-|ed| will automatically reload the throttle screen after closing the preferences screen. 
+|ed| will automatically reload the |T-S| after closing the preferences screen. 
 
 Number of throttles 
 """""""""""""""""""
 
-This preference allows you to set how many throttles to display on the Throttle Screen. (Limited by the selected Throttle Screen Layout.)
+This preference allows you to set how many throttles to display on the |T-S|. (Limited by the selected Throttle Screen Layout.)
 
 Only available for the following Throttle Screen Layouts:
 
@@ -317,7 +317,7 @@ All other layouts will automatically change this preference to the fixed number 
 Speed Slider and Buttons Preferences
 """"""""""""""""""""""""""""""""""""
 
-The following preference allows you to adjust aspects of the Throttle Areas on the Throttle Screen.
+The following preference allows you to adjust aspects of the Throttle Areas on the |T-S|.
 
 Increase Slider/Speed Height?
 '''''''''''''''''''''''''''''''''''
@@ -489,7 +489,7 @@ You can use this preference to have |ed| use smaller buttons for the Loco Number
 Loco Address instead of Name?
 """""""""""""""""""""""""""""
 
-You can use this preference to have |ed| to show loco DCC Address(es) instead of the Roster Name(s) on the Throttle screen.  It will ignore the Roster name for the :guilabel:`Select` button label.  This changes the label only.  It has no other functional effect.
+You can use this preference to have |ed| to show loco DCC Address(es) instead of the Roster Name(s) on the |T-S|.  It will ignore the Roster name for the :guilabel:`Select` button label.  This changes the label only.  It has no other functional effect.
 
 Default Function Preferences
 """"""""""""""""""""""""""""
@@ -530,7 +530,7 @@ The *Throttle Web View* is a smaller (approximately half page) Web browser windo
 Throttle Web View?
 '''''''''''''''''''''''''''''''''''
 
-You can use this preference to have |ed| to show a *Web View* area on the Throttle screen which is essentially a Web Browser.
+You can use this preference to have |ed| to show a *Web View* area on the |T-S| which is essentially a Web Browser.
 
 Larger Throttle Web View?
 '''''''''''''''''''''''''''''''''''
@@ -542,14 +542,14 @@ Initial throttle Web Page
 
 You can use this preference to set the initial throttle Web Page (such as '/panel/') for when the *Throttle Web View* first opens.
 
-Enter the initial Web Page (such as '/panel') for the Web Screen
+Enter the initial Web Page (such as '/panel') for the |WV-S|
 
-Note that this is different to the 'Web Screen' initial Web Page which is set with the `Initial Web Screen Page`_ preference.
+Note that this is different to the 'Web View Screen' initial Web Page which is set with the `Initial Web Screen Page`_ preference.
 
 Swipe Up-Down Preferences
 """""""""""""""""""""""""
 
-The following preferences provide options for options for swipe up or down on the Throttle screen
+The following preferences provide options for options for swipe up or down on the |T-S|
 
 Use Immersive Mode for Throttle view?
 '''''''''''''''''''''''''''''''''''''
@@ -566,7 +566,7 @@ It is essential, that you can set `Swipe down action in the Throttle view?`_ or 
 Swipe down action in the Throttle view?
 '''''''''''''''''''''''''''''''''''''''
 
-This preference allows you to select what should happen when you *swipe down* on the Throttle screen.
+This preference allows you to select what should happen when you *swipe down* on the |T-S|.
 
 Options:
 
@@ -582,7 +582,7 @@ Options:
 Swipe up action in the Throttle screen?
 '''''''''''''''''''''''''''''''''''''''
 
-This preference allows you to select what should happen when you *swipe up* on the Throttle screen.
+This preference allows you to select what should happen when you *swipe up* on the |T-S|.
 
 Options:
 
@@ -608,7 +608,7 @@ Requires that one of the following preferences is set to ``Lock and Dim Screen``
 Accelerometer (Shake) Preferences
 """""""""""""""""""""""""""""""""
 
-The following preferences provide options for options for what happens when you shake your device / phone while on the Throttle screen.
+The following preferences provide options for options for what happens when you shake your device / phone while on the |T-S|.
 
 Shake Action
 '''''''''''''''''''''''''''''''''''
@@ -637,17 +637,17 @@ Background Image Preferences
   :align: right
   :scale: 12%
 
-The following preferences provide options for showing a background image on the Throttle screen.
+The following preferences provide options for showing a background image on the |T-S|.
 
 Background Image
 '''''''''''''''''''''''''''''''''''
 
-Enabling this preference will cause |ed| to show a background image on the Throttle screen, as long as one is selected in the `Background Image File Name`_ preference.
+Enabling this preference will cause |ed| to show a background image on the |T-S|, as long as one is selected in the `Background Image File Name`_ preference.
 
 Background Image File Name
 '''''''''''''''''''''''''''''''''''
 
-This preference allows you to select a image file that will be used as the background o the Throttle Screen.  This has no effect unless the `Background Image`_ preference is enabled.
+This preference allows you to select a image file that will be used as the background o the |T-S|.  This has no effect unless the `Background Image`_ preference is enabled.
 
 Clicking on this preference launches your image chooser app.  As this can be different on different devices / manufacturers, it is impossible to describe the required steps here.  In general, use the app's navigation features to find the image you want and select it.
 
@@ -702,7 +702,7 @@ Throttle Screen Action Bar Preferences
    :align: right
    :scale: 40%
 
-The following preferences provide options for showing additional buttons on the Action Bar, primarily at the top of the Throttle Screen though some will show on many screens.
+The following preferences provide options for showing additional buttons on the Action Bar, primarily at the top of the |T-S| though some will show on many screens.
 
 Emergency Stop button?
 """"""""""""""""""""""
@@ -737,7 +737,7 @@ Flashlight button?
    :align: right
    :scale: 50%
 
-Setting this preference will display a *Flashlight* button in action bar of the Throttle Screen.
+Setting this preference will display a *Flashlight* button in action bar of the |T-S|.
 
 Clicking this button will turn on/off the Device's camera light.
 
@@ -763,9 +763,9 @@ Throttle Web View button?
    :align: right
    :scale: 50%
 
-Setting this preference will display a button in action bar of the Throttle Screen to show/hide *Throttle Web View*. Requires `Throttle Web View?`_ preference to be enabled.
+Setting this preference will display a button in action bar of the |T-S| to show/hide *Throttle Web View*. Requires `Throttle Web View?`_ preference to be enabled.
 
-Clicking this button will show / hide the *Throttle Web View* on the Throttle Screen.
+Clicking this button will show / hide the *Throttle Web View* on the |T-S|.
 
 Note: If the `Throttle Web View?`_ preference is not enabled the button will do nothing.
 
@@ -781,9 +781,9 @@ Show Layout Switch button?
    :align: right
    :scale: 50%
 
-Enabling this preference shows the Throttle Layout Switch button in the Throttle Screen action bar to allow quick changing between to preset Throttle Layouts.
+Enabling this preference shows the Throttle Layout Switch button in the |T-S| Action Bar to allow quick changing between to preset Throttle Layouts.
 
-Clicking on this button will immediately change the layout of the Throttle Screen between the layouts select in the `First Screen Layout`_ and `Second Screen Layout`_ preferences.
+Clicking on this button will immediately change the layout of the |T-S| between the layouts select in the `First Screen Layout`_ and `Second Screen Layout`_ preferences.
 
 First Screen Layout
 '''''''''''''''''''''''''''''''''''
@@ -806,7 +806,7 @@ In phone sounds button
    :align: right
    :scale: 50%
 
-Enabling this preference shows an action bar button on the Throttle Screen to easily change the in *phone loco sounds* options.  
+Enabling this preference shows an action bar button on the |T-S| to easily change the in *phone loco sounds* options.  
 
 Clicking the button shows the `In Phone Loco Sounds Screen <../operation/interface.html#in-phone-loco-sounds-screen>`_. 
 
@@ -822,12 +822,12 @@ Setting this preference will display the description of the current server on th
 Throttle Control Preferences
 ----------------------------
 
-The following preferences provide options for how the throttle on the Throttle Screen will behave.
+The following preferences provide options for how the throttle on the |T-S| will behave.
 
 Speed Units
 """""""""""
 
-Use this preference to change how the speed is displayed and functions on all the throttles on the Throttle Screen.
+Use this preference to change how the speed is displayed and functions on all the throttles on the |T-S|.
 
 Options:
 
@@ -844,12 +844,12 @@ Note that the `Speed button Change Amount`_ preference will work in the units th
 Maximum throttle Percentage
 """""""""""""""""""""""""""
 
-This preference allows you to set the maximum allowed throttle slider value in % on all the throttles on the Throttle Screen.
+This preference allows you to set the maximum allowed throttle slider value in % on all the throttles on the |T-S|.
 
 Maximum throttle Change
 """""""""""""""""""""""
 
-This preference allows you to set the Maximum allowed throttle change in % on all the throttles on the Throttle Screen.  
+This preference allows you to set the Maximum allowed throttle change in % on all the throttles on the |T-S|.  
 
 |todo| *Can't remember when this is used.*
 
@@ -890,12 +890,12 @@ If the preference is enabled, |ed| will stop the locos controlled by a throttle 
 'Limit Speed' & 'Pause' button Preferences
 """"""""""""""""""""""""""""""""""""""""""
 
-These preferences allow for additional buttons to appear in the Function Button area of each Throttle on the Throttle Screen, but are not related to DCC Functions.
+These preferences allow for additional buttons to appear in the Function Button area of each Throttle on the |T-S|, but are not related to DCC Functions.
 
 Show 'Limit Speed' button?
 '''''''''''''''''''''''''''''''''''
 
-If this preference is enabled, |ed| will show a :guilabel:`Limit Speed` button in all the throttles in the Throttle Screen. 
+If this preference is enabled, |ed| will show a :guilabel:`Limit Speed` button in all the throttles in the |T-S|. 
 
 When clicked, |ED| will temporarily restrict the maximum speed on the individual throttle.  The speed tat it limits to is set with the `'Limit Speed' button`_ preference.
 
@@ -1091,7 +1091,7 @@ Test Gamepad settings now!
 
 This preference allows you to confirm that the chosen setting are working correctly.  The Gamepad Test screen will launch IMMEDIATELY on selection.
 
-Note: that you may need to repeat the test process when you return to the *Throttle Screen* and use the gamepad for the first time.
+Note: that you may need to repeat the test process when you return to the |T-S| and use the gamepad for the first time.
 
 Speed button Change Amount (Gamepad)
 ''''''''''''''''''''''''''''''''''''
@@ -1343,7 +1343,7 @@ Show disable Knob button
 
 |todo|
 
-Allow the control knob to be disabled by an action button on the throttle screen
+Allow the control knob to be disabled by an action button on the |T-S|
 
 ----
 
@@ -1512,7 +1512,7 @@ The following preferences provide options for the In Phone Loco Sounds (IPLS).
 Throttle 1 Loco Sounds
 """"""""""""""""""""""
 
-This preference allows you to select which profile of loco sounds in the phone for locos controlled by Throttle 1 on the *Throttle Screen*.
+This preference allows you to select which profile of loco sounds in the phone for locos controlled by Throttle 1 on the |T-S|.
 
 Options include:
 
@@ -1528,7 +1528,7 @@ Options include:
 Throttle 2 Loco Sounds
 """"""""""""""""""""""
 
-This preference allows you to select which profile of loco sounds in the phone for locos controlled by Throttle 2 on the *Throttle Screen* (if the chosen `Throttle Screen layout`_ supports more than one throttle).
+This preference allows you to select which profile of loco sounds in the phone for locos controlled by Throttle 2 on the |T-S| (if the chosen `Throttle Screen layout`_ supports more than one throttle).
 
 Options include:
 
@@ -1588,22 +1588,22 @@ i.e. The Bell and Horn/Whistle (long) can be activated by the DCC Function butto
 Connect Preferences
 -------------------
 
-The following preferences allow you to change the way the *Connection Screen* appears and behaves.
+The following preferences allow you to change the way the |C-S| appears and behaves.
 
 Maximum Recent Connections
 """"""""""""""""""""""""""
 
-Use this preference to set the maximum number of *Recent Connections* to show in list on the *Connection Screen*.
+Use this preference to set the maximum number of *Recent Connections* to show in list on the |C-S|.
 
 Auto-Connect to WiThrottle Server?
 """"""""""""""""""""""""""""""""""
 
-Enable this preference if you wish to connect automatically to 'first' |wts| discovered each time you start|ed|.  This will effectively bypass the *Connection Screen*.
+Enable this preference if you wish to connect automatically to 'first' |WTS| discovered each time you start|ed|.  This will effectively bypass the |C-S|.
 
 Hide Demo Server
 """"""""""""""""
 
-Enable this preference if you wish to hide the Demo Server ('jmri.mstevetodd.com') in the connection list on the *Connection Screen*.
+Enable this preference if you wish to hide the Demo Server ('jmri.mstevetodd.com') in the connection list on the |C-S|.
 
 Initial Connection Timeout
 """"""""""""""""""""""""""
@@ -1618,7 +1618,7 @@ Use this preference to set the socket read timeout in milliseconds.
 Mobile Data connection?
 """""""""""""""""""""""""
 
-Use this preference to allow your device to connect to JMRI, or any |wts|, using your phone's Mobile Data.
+Use this preference to allow your device to connect to JMRI, or any |WTS|, using your phone's Mobile Data.
 
   .. note:: 
     :class: note-ed-hidden-title
@@ -1628,7 +1628,7 @@ Use this preference to allow your device to connect to JMRI, or any |wts|, using
 Feedback on Disconnect
 """""""""""""""""""""""""
 
-If this preference is enabled |ed| will play a sound (Audible alert) and will vibrate if there is an unexpected disconnection from the |wts|.
+If this preference is enabled |ed| will play a sound (Audible alert) and will vibrate if there is an unexpected disconnection from the |WTS|.
 
   .. note:: 
     :class: note-ed-hidden-title
@@ -1648,12 +1648,12 @@ If this preference is enabled |ed| will play a sound (Audible alert) when the ap
 Web Screen Preferences
 ----------------------
 
-The following preferences allow you to change the way the *Web View Screen* behaves.
+The following preferences allow you to change the way the |WV-S| behaves.
 
 Web Screen Orientation
 """""""""""""""""""""""""
 
-This preference allows you you select the orientation for the *Web View Screen*.
+This preference allows you you select the orientation for the |WV-S|.
 
 Options include:
 
@@ -1664,7 +1664,7 @@ Options include:
 Initial Web Screen Page
 """""""""""""""""""""""""
 
-Use this preference to enter the initial Web Page (such as '/panel') for the *Web View Screen*.  i.e. The page that will open the first time you open the Web View Screen, for each session that you use |ed|.
+Use this preference to enter the initial Web Page (such as '/panel') for the |WV-S|.  i.e. The page that will open the first time you open the Web View Screen, for each session that you use |ed|.
 
 Note that this is different/separate to the 'Throttle Web View' initial Web Page which is set with the `Initial throttle Web Page`_ preference.
 
@@ -1744,7 +1744,7 @@ Show Timer button?
    :align: right
    :scale: 50%
 
-Enable this preference if you wish display the Timer Button on the Action Bar of the Throttle Screen, to easily activate the Children's timer.
+Enable this preference if you wish display the Timer Button on the Action Bar of the |T-S|, to easily activate the Children's timer.
 
 Default time for Button
 """""""""""""""""""""""
@@ -1793,7 +1793,7 @@ Options:
 Auto import from all Servers?
 """""""""""""""""""""""""""""
 
-|ed| is able to automatically import a preference file from a JMRI |wts| if it exists.
+|ed| is able to automatically import a preference file from a JMRI |WTS| if it exists.
 
 Enable this preference to automatically import the preferences from all servers (if they exists) on connection.  i.e. If the file ``<jmri railroad base folder>/prefs/engine_driver/auto_preferences.ed`` is on the server and if it is more recent that the last time checked.
 
@@ -1805,7 +1805,7 @@ Enable this preference if you wish to include the locos in the recent loco list 
 Auto host specific import/export?
 """""""""""""""""""""""""""""""""
 
-You can set up different preferences for different server/railroads and have them automatically load when you connect to that |wts|.
+You can set up different preferences for different server/railroads and have them automatically load when you connect to that |WTS|.
 The most common use of this (so far) is to remember the locos relevant to that railroad.  e.g. I run N scale and HO Scale.  When I connect to one of the N Scale layouts I use it shows me my N Scale locos in the recent locos list, but when I connect to one of the HO layouts I use, it shows me the my recently used HO locos.
 
 Enable this preference if you wish, on every connection to a host, to AUTOMATICALLY 'Import' preferences for that host, and optionally 'Export' them on disconnect. 
@@ -1818,7 +1818,7 @@ Options:
 
 When enabled:
 
-* on connection to a |wts|, |ed| will save a file to the  ``/Android/data/jmri.enginedriver/files/`` folder in a file named ``<witServer Name>.ed``.
+* on connection to a |WTS|, |ed| will save a file to the  ``/Android/data/jmri.enginedriver/files/`` folder in a file named ``<witServer Name>.ed``.
 
 **IMPORTANT!**
 
@@ -1832,7 +1832,7 @@ Manual host specific import/export
 
 'Import' or 'Export' your preferences for a specific host to the  ``/Android/data/jmri.enginedriver/files/`` folder. The host must be in your recent connection list.
 
-Note: this preference is only available when not currently connected to a |wts|.  i.e. On the *Connection Screen*.
+Note: this preference is only available when not currently connected to a |WTS|.  i.e. On the |C-S|.
 
 **WARNINGS:**
 

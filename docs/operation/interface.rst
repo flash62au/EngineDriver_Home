@@ -3,7 +3,7 @@ User Interface
 *******************************************
 
 .. meta::
-   :keywords: user interface ui
+   :keywords: user interface UI
 
 .. include:: ../include.rst
 
@@ -43,24 +43,24 @@ Connection Screen
 
 This screen is the first screen you normally see when starting |ED|. 
 
-It allows you choose which |wts| to connect to, which you must do to control your trains.
+It allows you choose which |WTS| to connect to, which you must do to control your trains.
 
-There are three ways you can select a |wts| to connect to:
+There are three ways you can select a |WTS| to connect to:
 
 * IP Address and Port
 * Discovered Servers
 * Recent servers
 
-Once you select a server the 'Throttle Screen' will be automatically displayed.
+Once you select a server the |T-S| will be automatically displayed.
 
-If you only ever connect to one |wts| you can effectively bypass this screen by enabling the `Auto-Connect to WiThrottle Server? <../configuration/preferences.html#auto-connect-to-withrottle-server>`_ preference.
+If you only ever connect to one |WTS| you can effectively bypass this screen by enabling the `Auto-Connect to WiThrottle Server? <../configuration/preferences.html#auto-connect-to-withrottle-server>`_ preference.
 
 IP Address and Port
 """"""""""""""""""""
 
 |todo|
 
-Enter the IP address or URI of the server in the first field, and the port in the second field, then click :guilabel:`Connect`. |ed| will attempt to connect to it, and the *Throttle Screen* will be displayed.
+Enter the IP address or URI of the server in the first field, and the port in the second field, then click :guilabel:`Connect`. |ed| will attempt to connect to it, and the |T-S| will be displayed.
 
 failed connections...
 
@@ -77,9 +77,9 @@ Discovered Servers
 
 This is the most common way to connect.
 
-Your |wts| will attempt to broadcast its details so that apps like |ed| can automatically find it.  If |ed| does find it, it will be listed here.
+Your |WTS| will attempt to broadcast its details so that apps like |ED| can automatically find it.  If |ED| does find it, it will be listed here.
 
-To connect to any |wts| in this list, simply click on the row.  |ed| will attempt to connect to it, and the *Throttle Screen* will be displayed.
+To connect to any |WTS| in this list, simply click on the row.  |ed| will attempt to connect to it, and the |T-S| will be displayed.
 
 failed connections...
 
@@ -94,7 +94,7 @@ Recent servers
 
 |todo|
 
-To connect to any |wts| in this list, simply click on the row.  |ed| will attempt to connect to it.  If successful the *Throttle Screen* will be displayed.
+To connect to any |WTS| in this list, simply click on the row.  |ed| will attempt to connect to it.  If successful the |T-S| will be displayed.
 
 Note that, just because it is in this list, it does not mean that you can connect to it now. It only means that you have successfully connected to it in the past.
 
@@ -103,9 +103,13 @@ failed connections...
 Action Bar (Connection Screen)
 """"""""""""""""""""""""""""""
 
-|todo|
+The Action Bar appears at the top of all screens. It will show different information and different buttons depending on a\) the particular screen and b\) preferences you have set.
 
-Only shows the app name.
+In the |C-S| the Action Bar only displays:
+
+* The app name (|ed|)
+
+See the `Action Bar`_ section of this page for more information.
 
 Overflow Menu (Connection Screen)
 """""""""""""""""""""""""""""""""
@@ -121,30 +125,30 @@ Throttle Screen
    :scale: 8 %
    :align: right
 
-The *Throttle Screen* has two distinct areas:
+The |T-S| has two distinct areas:
 
 * The Action Bar
 * One or more Throttle Areas
 
-There are also some settings that impact the whole Throttle Screen which described towards the end of this section:
+There are also some settings that impact the whole |T-S| which described towards the end of this section:
 
 * Background
 * Immersive Mode (Full Screen)
 * Swipe Up / Down
 * Accelerometer (Shake)  
  
-The *Throttle Screen* allows you to control:
+The |T-S| allows you to control:
 
 - Access common functions from the Action Bar and Menu
 - Control one or more locos
 
-The *Throttle Screen* contains between 1 and 6 Throttle areas depending on the Throttle layout chosen and the number of throttles for that layout (only some allow this to be changed).  
+The |T-S| contains between 1 and 6 Throttle areas depending on the Throttle layout chosen and the number of throttles for that layout (only some allow this to be changed).  
 
 
 Throttle Area
 """"""""""""""""""""""""""""""""""""
 
-Each Throttle on the Throttle Screen will display different information and buttons depending on the ``Throttle Screen Layout`` in the  `Throttle Screen Layout <../configuration/preferences.html#throttle-screen-layout>`_ preference.
+Each Throttle on the |T-S| will display different information and buttons depending on the ``Throttle Screen Layout`` in the  `Throttle Screen Layout <../configuration/preferences.html#throttle-screen-layout>`_ preference.
 
 Each *Throttle Area* allows you to:
 
@@ -158,7 +162,7 @@ Loco Select Button
 
    The loco :guilabel:`Select` button in the Throttle Area allows to select or release locos for that particular Throttle.  Click on the button and you will be taken to the Select Loco screen.
 
-   Once you have selected a loco, the label on the button change to the DCC Address(s) or the Roster name(s) of the Loco depending on how you select the loco in the Loco Select Screen, and if you have the enabled the `Loco Address instead of Name? <../preferences.html#loco-address-instead-of-name>`_ preference.
+   Once you have selected a loco, the label on the button change to the DCC Address(s) or the Roster name(s) of the Loco depending on how you select the loco in the |LS-S|, and if you have the enabled the `Loco Address instead of Name? <../preferences.html#loco-address-instead-of-name>`_ preference.
 
    When the button is displaying DCC Address(s) or the Roster name(s), click on the button again and you will be taken to the Select Loco screen where you can de-select the loco(s), select additional locos to make a consist / multiple unit train, edit the locos in the consist, or edit the lights of the locos in the consist / multiple unit.
 
@@ -170,7 +174,7 @@ Loco Select Button
 Speed indicator
 ''''''''''''''''''''''''''''''''
 
-   The *Speed Indicator* or *Speed* area of each throttle of the *Throttle Screen* indicates the throttle amount/setting (rather than the actual speed of the locos controlled by the the throttle).
+   The *Speed Indicator* or *Speed* area of each throttle of the |T-S| indicates the throttle amount/setting (rather than the actual speed of the locos controlled by the the throttle).
    
    Depending on the `Speed Units Preference <../configuration/preferences.html#speed-units>`_ the upper value show will be different: 
 
@@ -237,7 +241,7 @@ Speed Slider Area
 
    The Throttle areas can be configured with a *Speed Slider*.  (All Throttle Screen layouts except the 'Big Button' layouts include sliders by default.) Dragging you finger along the slider will increase or decrease the speed of the loco(s) selected for the that Throttle. Pressing and holding your finger at one spot on the slider will cause |ED| to slowly increase or decrease the speed of the loco(s) selected for that Throttle till it gets to that point.
    
-   Depending on the ``Throttle Screen Layout`` chosen in the  `Throttle Screen Layout <../configuration/preferences.html#throttle-screen-layout>`_ preference, all sliders on the *Throttle Screen* will be either:
+   Depending on the ``Throttle Screen Layout`` chosen in the  `Throttle Screen Layout <../configuration/preferences.html#throttle-screen-layout>`_ preference, all sliders on the |T-S| will be either:
    
    * one-directional (0% - 100%) [#PCT]_  |br|\ or 
    * bi-directional (-100% - 0 - +100%) |br| |br|
@@ -250,7 +254,7 @@ Speed Slider Area
    * `Throttle Speed Slider Margin <../configuration/preferences.html#throttle-speed-slider-margin>`_ |br| When set, this changes the space between either the edge of the screen and the ends of the Slider, or if the Speed Buttons are enabled, the edge of the Speed Buttons and the ends of the Slider. Specific in pixels haw far to offset
    * `Hide Speed Slider? <../configuration/preferences.html#hide-speed-slider>`_ |br| When this preferences is set, |ed| will not show speed slider, use speed buttons instead
    * `Tick Marks on Speed Sliders? <../configuration/preferences.html#tick-marks-on-speed-sliders>`_ |br| When this preferences is set, Engine Driver will show tick marks on the background of the Speed Sliders
-   * `Switching throttle Dead Zone <../configuration/preferences.html#switching-throttle-dead-zone>`_ |br| When this preferences is set, Engine Driver will set the size of the dead zone, or detent, on the slider of the Switching/Shunting Throttle Screen
+   * `Switching throttle Dead Zone <../configuration/preferences.html#switching-throttle-dead-zone>`_ |br| When this preferences is set, Engine Driver will set the size of the dead zone, or detent, on the slider of the Switching/Shunting |T-S|
    * `Stop Button Vertical Margins <../configuration/preferences.html#stop-button-vertical-margins>`_ |br| When this preferences is set, Engine Driver will add the entered number of pixels to offset margins of the stop button from the speed buttons and bottom of screen
 
    |br|
@@ -296,7 +300,7 @@ Direction Buttons Area
    .. image:: ../_static/images/parts/direction_buttons.png
       :scale: 80 %
 
-   Each Throttle on the Throttle Screen will display :guilabel:`Forward` and :guilabel:`Reverse` direction buttons, depending on the ``Throttle Screen Layout`` in the  `Throttle Screen Layout <../configuration/preferences.html#throttle-screen-layout>`_ preference.  'Shunting/Switching' layouts do not show the direction buttons.
+   Each Throttle on the |T-S| will display :guilabel:`Forward` and :guilabel:`Reverse` direction buttons, depending on the ``Throttle Screen Layout`` in the  `Throttle Screen Layout <../configuration/preferences.html#throttle-screen-layout>`_ preference.  'Shunting/Switching' layouts do not show the direction buttons.
 
    Change direction while moving preference.
 
@@ -315,7 +319,7 @@ Function Buttons Scroll Area
    * labels provided from the roster
    * The default labels for |ed|  (which can be changed)
 
-   For roster Entries you need to edit the Function buttons in the |wts|, or configure |ed| to use the default labels.
+   For roster Entries you need to edit the Function buttons in the |WTS|, or configure |ed| to use the default labels.
 
    The *Function Button area* can also show:
 
@@ -340,7 +344,7 @@ Web View Area (Throttle Web View)
    
    |todo|
 
-   Shows a web browser in the lower half of the *throttle Screen*.
+   Shows a web browser in the lower half of the |T-S|.
 
    Your JMRI Layout panels can be displayed here if you have configured them in JMRI. 
 
@@ -364,23 +368,35 @@ Action Bar (Throttle Screen)
   :align: right
   :scale: 33%
 
-|todo|
+The Action Bar appears at the top of all screens. It will show different information and different buttons depending on a\) the particular screen and b\) preferences you have set.
 
-While common across all the screens, the Action bar and menus have some options that are only available from the Throttle Screen. |br|\ These include:
+In the |T-S| the Action Bar can display:
 
-  * Flashlight (if enabled)
-  * Throttle Web View (if enabled)
-  * Throttle Layout Switching (if enabled)
-  * In Phone Loco Sound (if enabled)
+* The app name (|ed|)
+* Optionally configured information:
 
-Common options include:
+  * Fast Clock
+  * Children's Timer Status and Countdown
+  * Full Screen or Action Bar Only left/right swipe
+  * |WTS| Name
 
-  * Emergency Stop (if enabled)
-  * Track Power (if enabled)
+* Optionally configured buttons:
 
-      The optional buttons are enabled via the :menuselection:`Menu --> Preferences --> Throttle Screen Status Row Preferences`.
+  * Emergency Stop  (EStop)
+  * Track Power
+  * Flashlight
+  * Throttle Web View
+  * Throttle Layout Switching
+  * In Phone Loco Sound
+  * Children's Timer
 
-      See ??? preferences for mor information.
+.. note:: 
+   :class: note-ed-hidden-title
+
+   The optional buttons are enabled via the :menuselection:`Menu --> Preferences --> Throttle Screen Status Row Preferences`.  
+    
+   See the `Action Bar`_ section of this page for more information.
+
 
 Overflow Menu (Throttle Screen)
 """""""""""""""""""""""""""""""
@@ -392,19 +408,19 @@ Overflow Menu (Throttle Screen)
 The *Overflow Menu* (or simply '*Menu*') appears in the Action Bar at the top of most of the `main screens <../operation/interface.html#main-screens>`_ is normally three dots (⁞) or three bars (≡).
 It will show different options depending on a) the particular screen, b) preferences you have set and c) the state of certain elements in the app.
 
-Specific to the *Throttle Screen*, the Overflow Menu can display:
+Specific to the |T-S|, the Overflow Menu can display:
 
 * `Turnouts/Points <../operation/interface.html#turnouts-points-screen>`_ (All except the *Turnout/Points Screen* only)
-* `Routes <../operation/interface.html#routes-screen>`_ (All except the *Routes Screen* only)
+* `Routes <../operation/interface.html#routes-screen>`_ (All except the |R-S| only)
 * `Power <../operation/operation.html#turn-track-power-on>`_
 * `Preferences <../configuration/preferences.html>`_
-* `Function Defaults <../operation/interface.html#function-defaults-screen>`_ (*Throttle Screen* only)
-* Gamepads (*Throttle Screen* only)
+* `Function Defaults <../operation/interface.html#function-defaults-screen>`_ (|T-S| only)
+* Gamepads (|T-S| only)
 
   * `Gamepad Test 1 <../operation/interface.html#gamepad-test-screen>`_
   * `Gamepad Test ... <../operation/interface.html#gamepad-test-screen>`_
 
-* `Loco Sounds <../operation/interface.html#in-phone-loco-sounds-screen>`_ (*Throttle Screen* only)
+* `Loco Sounds <../operation/interface.html#in-phone-loco-sounds-screen>`_ (|T-S| only)
 * `View Log <../operation/interface.html#view-log-screen>`_
 * `Exit <../operation/operation.html#exiting-engine-driver>`_
 * `About <../operation/interface.html#about-screen>`_
@@ -421,7 +437,7 @@ Specific to the *Throttle Screen*, the Overflow Menu can display:
 Background
 """"""""""
 
-|ed| can show a background image of your choosing on the Throttle screen.  Any image/photo on your device/phone can be used.
+|ed| can show a background image of your choosing on the |T-S|.  Any image/photo on your device/phone can be used.
 
 .. note:: 
    :class: note-ed-hidden-title
@@ -437,11 +453,11 @@ Immersive Mode (Full Screen)
 Swipe Left / Right (From Throttle)
 """"""""""""""""""""""""""""""""""
 
-Swiping Left from the Throttle screen will take you to the `Routes Screen`_, unless it has been disabled in the preferences
+Swiping Left from the |T-S| will take you to the `Routes Screen`_, unless it has been disabled in the preferences
 
-Swiping Right from the Throttle screen will take you to the `Turnouts/Points Screen`_, unless it has been disabled in the preferences
+Swiping Right from the |T-S| will take you to the `Turnouts/Points Screen`_, unless it has been disabled in the preferences
 
-By default, you can Left/Right Swipe from any part of the screen, but this can be changed to just the Action Bar in the preferences. This can be useful if Left/Right swipes in the *Web View Screen* and *Throttle Web view* causes problems. 
+By default, you can Left/Right Swipe from any part of the screen, but this can be changed to just the Action Bar in the preferences. This can be useful if Left/Right swipes in the |WV-S| and *Throttle Web view* causes problems. 
 
 .. note:: 
    :class: note-ed-hidden-title
@@ -473,7 +489,7 @@ This screen allows you to display all Turnouts/Points that have been defined in 
 
 Turnouts/Points can be changed from Closed to Thrown and vice versa be pressing on either the ``Closed`` or ``Thrown`` buttons
 
-**List from wiThrottle**
+**List from WiThrottle**
 
 * Throw
 * CLose
@@ -494,8 +510,33 @@ The `Location Delimiter <../configuration/preferences.html#location-delimiter>`_
 Action Bar (Turnouts/Points Screen)
 """""""""""""""""""""""""""""""""""
 
-|todo|
+.. image:: ../_static/images/parts/action_bar.png
+  :align: right
+  :scale: 33%
 
+The Action Bar appears at the top of all screens. It will show different information and different buttons depending on a\) the particular screen and b\) preferences you have set.
+
+In the |TP-S| the Action Bar can display:
+
+* The app name (|ed|)
+* Optionally configured information:
+
+  * Fast Clock
+  * Full Screen or Action Bar Only left/right swipe
+  * |WTS| Name
+
+* Optionally configured buttons:
+
+  * Emergency Stop  (EStop)
+  * Track Power
+  * Flashlight
+
+.. note:: 
+   :class: note-ed-hidden-title
+
+   The optional buttons are enabled via the :menuselection:`Menu --> Preferences --> Throttle Screen Status Row Preferences`.  
+    
+   See the `Action Bar`_ section of this page for more information.
 
 Overflow Menu (Turnouts/Points Screen)
 """"""""""""""""""""""""""""""""""""""
@@ -505,8 +546,8 @@ It will show different options depending on a) the particular screen, b) prefere
 
 Specific to the *Turnouts/Points  Screen*, the Overflow Menu can display:
 
-* `Throttle <../operation/interface.html#throttle-screen>`_ (All except the *Throttle Screen* only)
-* `Routes <../operation/interface.html#routes-screen>`_ (All except the *Routes Screen* only)
+* `Throttle <../operation/interface.html#throttle-screen>`_ (All except the |T-S| only)
+* `Routes <../operation/interface.html#routes-screen>`_ (All except the |R-S| only)
 * `Power <../operation/operation.html#turn-track-power-on>`_
 * `Preferences <../configuration/preferences.html>`_
 * `View Log <../operation/interface.html#view-log-screen>`_
@@ -521,11 +562,11 @@ Specific to the *Turnouts/Points  Screen*, the Overflow Menu can display:
 Swipe Left / Right (From Turnouts/Points)
 """""""""""""""""""""""""""""""""""""""""
 
-Swiping Left from the Turnouts/Points screen will take you to the `Throttle Screen`_, unless it has been disabled in the preferences
+Swiping Left from the |TP-S| will take you to the `Throttle Screen`_, unless it has been disabled in the preferences
 
-Swiping Right from the Throttle screen will take you to the `Web View Screen`_, unless it has been disabled in the preferences
+Swiping Right from the |T-S| will take you to the `Web View Screen`_, unless it has been disabled in the preferences
 
-By default, you can Left/Right Swipe from any part of the screen, but this can be changed to just the Action Bar in the preferences. This can be useful if Left/Right swipes in the *Web View Screen* and *Throttle Web view* causes problems. 
+By default, you can Left/Right Swipe from any part of the screen, but this can be changed to just the Action Bar in the preferences. This can be useful if Left/Right swipes in the |WV-S| and *Throttle Web view* causes problems. 
 
 .. note:: 
    :class: note-ed-hidden-title
@@ -568,7 +609,33 @@ Hide if no user name? preference
 Action Bar (Routes Screen)
 """"""""""""""""""""""""""
 
-|todo|
+
+.. image:: ../_static/images/parts/action_bar.png
+  :align: right
+  :scale: 33%
+
+The Action Bar appears at the top of all screens. It will show different information and different buttons depending on a\) the particular screen and b\) preferences you have set.
+
+In the |R-S| the Action Bar can display:
+
+* The app name (|ed|)
+* Optionally configured information:
+
+  * Fast Clock
+  * Full Screen or Action Bar Only left/right swipe
+  * |WTS| Name
+
+* Optionally configured buttons:
+
+  * Emergency Stop  (EStop)
+  * Track Power
+
+.. note:: 
+   :class: note-ed-hidden-title
+
+   The optional buttons are enabled via the :menuselection:`Menu --> Preferences --> Throttle Screen Status Row Preferences`.  
+    
+   See `Action Bar`_ section of this page for more information.
 
 Overflow Menu (Routes Screen)
 """""""""""""""""""""""""""""
@@ -576,9 +643,9 @@ Overflow Menu (Routes Screen)
 The *Overflow Menu* (or simply '*Menu*') appears in the Action Bar at the top of most of the `main screens <../operation/interface.html#main-screens>`_ is normally three dots (⁞) or three bars (≡).
 It will show different options depending on a) the particular screen, b) preferences you have set and c) the state of certain elements in the app.
 
-Specific to the *Routes Screen*, the Overflow Menu can display:
+Specific to the |R-S|, the Overflow Menu can display:
 
-* `Throttle <../operation/interface.html#throttle-screen>`_ (All except the *Throttle Screen* only)
+* `Throttle <../operation/interface.html#throttle-screen>`_ (All except the |T-S| only)
 * `Turnouts/Points <../operation/interface.html#turnouts-points-screen>`_ (All except the *Turnout/Points Screen* only)
 * `Power <../operation/operation.html#turn-track-power-on>`_
 * `Preferences <../configuration/preferences.html>`_
@@ -595,11 +662,11 @@ Specific to the *Routes Screen*, the Overflow Menu can display:
 Swipe Left / Right (From Routes)
 """"""""""""""""""""""""""""""""
 
-Swiping Left from the Routes screen will take you to the `Web View Screen`_, unless it has been disabled in the preferences
+Swiping Left from the |R-S| will take you to the `Web View Screen`_, unless it has been disabled in the preferences
 
-Swiping Right from the Routes screen will take you to the `Throttle Screen`_, unless it has been disabled in the preferences
+Swiping Right from the |R-S| will take you to the `Throttle Screen`_, unless it has been disabled in the preferences
 
-By default, you can Left/Right Swipe from any part of the screen, but this can be changed to just the Action Bar in the preferences. This can be useful if Left/Right swipes in the *Web View Screen* and *Throttle Web view* causes problems. 
+By default, you can Left/Right Swipe from any part of the screen, but this can be changed to just the Action Bar in the preferences. This can be useful if Left/Right swipes in the |WV-S| and *Throttle Web view* causes problems. 
 
 .. note:: 
    :class: note-ed-hidden-title
@@ -623,7 +690,7 @@ Web View Screen
 
 |todo|
 
-Accessed from any of the main screens by the menu :menuselection:`Menu --> Web` or by swiping left or right twice from the Throttle Screen if enabled in the Left with the ``Swipe through Web?`` preference: :menuselection:`Menu --> Preferences --> Left/Right Swipe Preferences --> Swipe through Web`
+Accessed from any of the main screens by the menu :menuselection:`Menu --> Web` or by swiping left or right twice from the |T-S| if enabled in the Left with the ``Swipe through Web?`` preference: :menuselection:`Menu --> Preferences --> Left/Right Swipe Preferences --> Swipe through Web`
 It can also be accessed, if the ``Screen orientation`` preference is set to ``Auto Web``, by rotating the Android Device/Phone.
 
 This screen displays a web browser interface that lets you view any web page. Normally this will be a web page on your JMRI server. 
@@ -653,26 +720,52 @@ This can be used for:
 
 * A webThrottle screen
 * Your JMRI layout panel(s)
-* Any URL in a full screen.  This is in addition to being able to display your JMRI layout panel in a small section of the main Throttle Screen.
+* Any URL in a full screen.  This is in addition to being able to display your JMRI layout panel in a small section of the main |T-S|.
 
 Tap on any of the Open Windows to expand its view.  You can then resize the panel by pinching and zooming.  It is sometimes useful to rotate your device to landscape mode, so as to better view your layout.
 
-Action Bar (Web Screen)
+Action Bar (Web View Screen)
 """"""""""""""""""""""""""""
 
-|todo|
 
-Overflow Menu (Web Screen)
-"""""""""""""""""""""""""""""
+.. image:: ../_static/images/parts/action_bar.png
+  :align: right
+  :scale: 33%
+
+The Action Bar appears at the top of all screens. It will show different information and different buttons depending on a\) the particular screen and b\) preferences you have set.
+
+In the |WV-S| the Action Bar can display:
+
+* The app name (|ed|)
+* Optionally configured information:
+
+  * Fast Clock
+  * Full Screen or Action Bar Only left/right swipe
+  * |WTS| Name
+
+* Optionally configured buttons:
+
+  * Emergency Stop  (EStop)
+  * Track Power
+
+.. note:: 
+   :class: note-ed-hidden-title
+
+   The optional buttons are enabled via the :menuselection:`Menu --> Preferences --> Throttle Screen Status Row Preferences`.  
+    
+   See `Action Bar`_ section of this page for more information.
+
+Overflow Menu (Web View Screen)
+"""""""""""""""""""""""""""""""
 
 The *Overflow Menu* (or simply '*Menu*') appears in the Action Bar at the top of most of the `main screens <../operation/interface.html#main-screens>`_ is normally three dots (⁞) or three bars (≡).
 It will show different options depending on a) the particular screen, b) preferences you have set and c) the state of certain elements in the app.
 
-Specific to the *Web View Screen*, the Overflow Menu can display:
+Specific to the |WV-S|, the Overflow Menu can display:
 
-* `Throttle <../operation/interface.html#throttle-screen>`_ (All except the *Throttle Screen* only)
+* `Throttle <../operation/interface.html#throttle-screen>`_ (All except the |T-S| only)
 * `Turnouts/Points <../operation/interface.html#turnouts-points-screen>`_ (All except the *Turnout/Points Screen* only)
-* `Routes <../operation/interface.html#routes-screen>`_ (All except the *Routes Screen* only)
+* `Routes <../operation/interface.html#routes-screen>`_ (All except the |R-S| only)
 * `Power <../operation/operation.html#turn-track-power-on>`_
 * `Preferences <../configuration/preferences.html>`_
 * `View Log <../operation/interface.html#view-log-screen>`_
@@ -684,8 +777,8 @@ Specific to the *Web View Screen*, the Overflow Menu can display:
 
    See the `Overflow Menu`_  section for more information.
 
-Swipe Left / Right (Web Screen)
-"""""""""""""""""""""""""""""""
+Swipe Left / Right (Web View Screen)
+""""""""""""""""""""""""""""""""""""
 
 |todo|
 
@@ -713,7 +806,7 @@ The follow additional screens will be shown at different times and for various r
 Intro/Setup Wizard Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The *Setup Wizard* will start automatically the first time you run |ed| after you install it.  It sets some basic preferences and asks for the necessary permissions.  These preferences can be subsequently be changed use the : :menuselection:`Menu --> Preferences`, or by re-running the wizard, which can only be done from the menu on the *Connection screen*.
+The *Setup Wizard* will start automatically the first time you run |ed| after you install it.  It sets some basic preferences and asks for the necessary permissions.  These preferences can be subsequently be changed use the : :menuselection:`Menu --> Preferences`, or by re-running the wizard, which can only be done from the menu on the |C-S|.
 
 .. note:: 
    :class: note-ed-hidden-title
@@ -729,9 +822,9 @@ Loco Select Screen
   :align: right
   :scale: 12%
 
-The *Loco Select Screen* allows you add locos to a (one of) throttle on the *Throttle Screen*.  It also provides access to the additional screens for 'Editing the Consist', 'Editing Lights' and editing the 'In Phone Locos Sounds'.
+The |LS-S| allows you add locos to a (one of) throttle on the |T-S|.  It also provides access to the additional screens for 'Editing the Consist', 'Editing Lights' and editing the 'In Phone Locos Sounds'.
 
-The *Loco Select Screen* is only shown when you click a :guilabel:`Select` button on the *Throttle Screen*.
+The |LS-S| is only shown when you click a :guilabel:`Select` button on the |T-S|.
 
 Not that the :guilabel:`Select` button will should the Address(es) or the Name(s) of a Loco or Consist/Multiple Unit Train only the first loco is selected.  Click on the button will (while it is in this state) will again take to this screen to allow to you add additional Locos to the Consist/Multiple Unit Train, or make other changes to the  Consist/Multiple Unit Train.
 
@@ -751,6 +844,8 @@ Select by DCC Address
 |todo|
 
 Shown if you select ``DCC Address`` in the `Selection Method`_.
+
+
 
 Select from Sever Roster
 """"""""""""""""""""""""
@@ -921,7 +1016,7 @@ In Phone Loco Sounds Screen
 
 |todo|
 
-Accessed from *Throttle Screen* by the :menuselection:`Menu --> Loco Sounds` or from the Status Bar if enabled with the `In phone sounds button <./configuration/preferences.html#in-phone-sounds-button>`_ preference.
+Accessed from |T-S| by the :menuselection:`Menu --> Loco Sounds` or from the Status Bar if enabled with the `In phone sounds button <./configuration/preferences.html#in-phone-sounds-button>`_ preference.
 
 |br|
 
@@ -941,7 +1036,7 @@ Function Defaults Screen
 
 |todo|
 
-Accessed from the menu on the *Throttle Screen* as :menuselection:`Menu --> Function Defaults`.
+Accessed from the menu on the |T-S| as :menuselection:`Menu --> Function Defaults`.
 
 |br|
 
@@ -956,7 +1051,7 @@ Gamepad Test Screen
 
 |todo|
 
-Accessed from the *Throttle Screen* via the :menuselection:`Menu --> Gamepads -> Gamepad Test X`. (where 'X' is the number of the gamepad.)
+Accessed from the |T-S| via the :menuselection:`Menu --> Gamepads -> Gamepad Test X`. (where 'X' is the number of the gamepad.)
 
 |br|
 
@@ -999,7 +1094,7 @@ About Screen
 This screen displays 
 
 * Information about |ed| 
-* Information about the |wts| it is currently connected to (if any)
+* Information about the |WTS| it is currently connected to (if any)
 * A page of basic information about |ed|
 
 
@@ -1008,7 +1103,7 @@ This screen displays
 Reconnecting Screen
 ^^^^^^^^^^^^^^^^^^^
 
-This screen displays if |ed| has not been able to communicate with the |wts| within a specified time.
+This screen displays if |ed| has not been able to communicate with the |WTS| within a specified time.
 
 |todo| 
 
@@ -1105,7 +1200,7 @@ The Action Bar can display:
   * Fast Clock
   * Children's Timer Status and Countdown
   * Full Screen or Action Bar Only left/right swipe
-  * |wts| Name
+  * |WTS| Name
 
 * Optionally configured buttons:
 
@@ -1167,7 +1262,7 @@ Throttle Web View Button
 
 The *Throttle Web View* Action Bar button is enabled with the `Throttle Web View button? <../configuration/preferences.html#throttle-web-view-button>`_ preference.
 
-*Throttle Web View*, when pressed will show or hide the `Throttle Web View <../operation/interface.html#web-view-area-throttle-web-view>`_ panel on the *Throttle Screen*.
+*Throttle Web View*, when pressed will show or hide the `Throttle Web View <../operation/interface.html#web-view-area-throttle-web-view>`_ panel on the |T-S|.
 
 Note: the `Throttle Web View? <../configuration/preferences.html#throttle-web-view>` preference must be enabled for this to have an effect.
 
@@ -1281,20 +1376,20 @@ It will show different options depending on a) the particular screen, b) prefere
 
 The Overflow Menu can display:
 
-* `Intro/Setup Wizard <../operation/interface.html#intro-setup-wizard-screen>`_ (*Connection Screen* only)
-* `Clear Recent List <../operation/interface.html#connection-screen>`_ (*Connection Screen* only)
-* `Throttle <../operation/interface.html#throttle-screen>`_ (All except the *Throttle Screen* only)
+* `Intro/Setup Wizard <../operation/interface.html#intro-setup-wizard-screen>`_ (|C-S| only)
+* `Clear Recent List <../operation/interface.html#connection-screen>`_ (|C-S| only)
+* `Throttle <../operation/interface.html#throttle-screen>`_ (All except the |T-S| only)
 * `Turnouts/Points <../operation/interface.html#turnouts-points-screen>`_ (All except the *Turnout/Points Screen* only)
-* `Routes <../operation/interface.html#routes-screen>`_ (All except the *Routes Screen* only)
+* `Routes <../operation/interface.html#routes-screen>`_ (All except the |R-S| only)
 * `Power <../operation/operation.html#turn-track-power-on>`_
 * `Preferences <../configuration/preferences.html>`_
-* `Function Defaults <../operation/interface.html#function-defaults-screen>`_ (*Throttle Screen* only)
-* Gamepads (*Throttle Screen* only)
+* `Function Defaults <../operation/interface.html#function-defaults-screen>`_ (|T-S| only)
+* Gamepads (|T-S| only)
 
   * `Gamepad Test 1 <../operation/interface.html#gamepad-test-screen>`_
   * `Gamepad Test ... <../operation/interface.html#gamepad-test-screen>`_
 
-* `Loco Sounds <../operation/interface.html#in-phone-loco-sounds-screen>`_ (*Throttle Screen* only)
+* `Loco Sounds <../operation/interface.html#in-phone-loco-sounds-screen>`_ (|T-S| only)
 * `View Log <../operation/interface.html#view-log-screen>`_
 * `Exit <../operation/operation.html#exiting-engine-driver>`_
 * `About <../operation/interface.html#about-screen>`_

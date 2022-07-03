@@ -44,6 +44,7 @@ extensions = [
     'sphinx_sitemap'
 ]
 
+# Make sure the target is unique
 autosectionlabel_prefix_document = True
 
 spelling_lang='en_UK'
@@ -93,7 +94,7 @@ html_theme_options = {
     'includehidden': True,
 #    'titles_only': True,
     'collapse_navigation': False,
-    'navigation_depth': -1 
+#    'navigation_depth': -1 
 } 
 
 html_context = {

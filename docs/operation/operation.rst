@@ -19,7 +19,7 @@ Connecting
 Connecting has two aspects:
 
 1. Connecting to the WiFi network, which uses Android's built in capabilities (not |EDs|)
-2. Connecting |ED| to the |wts|
+2. Connecting |ED| to the |WTS|
 
 Connecting to the WiFi network
 """"""""""""""""""""""""""""""
@@ -37,7 +37,7 @@ Connecting to the WiFi network
     :scale: 30 %
     :align: right
 
-* Use Android's Network - Wifi settings to connect to the same network as your |wts|
+* Use Android's Network - Wifi settings to connect to the same network as your |WTS|
 * With some exceptions, your device's IP Address should be similar to the server's IP address (the first three blocks of numbers will be identical)
 
   * For your Android device / phone, you can see its address in the |EDs| 'About Screen' (:menuselection:`Menu --> About`), at the top of the screen
@@ -74,8 +74,8 @@ Connecting Engine Driver to the WiThrottle server
     :align: right
     :name: Recent Severs
 
-* Start Engine Driver |br|\ You will be presented with the Connection Screen
-* On the Connection Screen there are three ways you can select a |wts| to connect to:
+* Start Engine Driver |br|\ You will be presented with the |C-S|
+* On the |C-S| there are three ways you can select a |WTS| to connect to:
 
   - IP Address and Port
   - Discovered Servers
@@ -84,7 +84,7 @@ Connecting Engine Driver to the WiThrottle server
 Discover Servers
 ''''''''''''''''
 
-  This is the most common way to connect. If the server you want to connect to is in the list, simply click on it and you will be taken to the Throttle screen.
+  This is the most common way to connect. If the server you want to connect to is in the list, simply click on it and you will be taken to the |T-S|.
 
   If the server does not appear in the recent list try one of the other two methods.  
   Your server not appearing in the recent list is not necessarily a problem  See `Connection issues <./wifi_issues.html>`_ for more information.
@@ -92,7 +92,7 @@ Discover Servers
 Recent Server List
 ''''''''''''''''''
 
-  If the server you want to connect to is in the list, simply click on it and you will be taken to the Throttle screen.
+  If the server you want to connect to is in the list, simply click on it and you will be taken to the |T-S|.
 
   A server being in this list *does not* necessarily mean that you will be able to connect it *now*. It just means that you have successfully connected to it in the past.
 
@@ -101,14 +101,14 @@ Recent Server List
 IP Address and Port
 '''''''''''''''''''
 
-  Type in the **IP address** and **Port** of the |wts| and press :guilabel:`Connect`.
+  Type in the **IP address** and **Port** of the |WTS| and press :guilabel:`Connect`.
 
   To find your server's IP address and Port:
 
     * For a JMRI server, see the WiThrottle screen for its address 
     * For other devices, see the instructions for that device
 
-  If you only ever connect to one |wts| you can effectively bypass this screen by setting the `Auto-Connect to WiThrottle Server? <../configuration/preferences.html#auto-connect-to-withrottle-server>`_ preference.
+  If you only ever connect to one |WTS| you can effectively bypass this screen by setting the `Auto-Connect to WiThrottle Server? <../configuration/preferences.html#auto-connect-to-withrottle-server>`_ preference.
 
 .. note:: 
   :class: note-ed-hidden-title
@@ -157,7 +157,7 @@ Selecting & Releasing Locos
 
 Selecting and releasing locos and Consists/Multiple Units is initiated from the Throttle Screen, by clicking on the :guilabel:`Select` button of one of the Throttles on the screen.
 
-(The Throttle screen may have from 1 to 6 throttles on it, depending on the `Throttle Screen Layout preferences <../configuration/preferences.html#throttle-screen-appearance-preferences>`_ you have chosen.)
+(The |T-S| may have from 1 to 6 throttles on it, depending on the `Throttle Screen Layout preferences <../configuration/preferences.html#throttle-screen-appearance-preferences>`_ you have chosen.)
 
 Selecting a Single loco
 """""""""""""""""""""""
@@ -170,13 +170,13 @@ There three ways select a loco:
 
   **DCC Address**
 
-  You can enter the loco's DCC address (verify short or long), and press :guilabel:`Acquire` to select the loco.  You will then be taken back to the Throttle screen with that loco selected.
+  You can enter the loco's DCC address (verify short or long), and press :guilabel:`Acquire` to select the loco.  You will then be taken back to the |T-S| with that loco selected.
 
   **Roster**
 
-  If the loco you want to control is in the list, simply click on it and you will be taken back to the Throttle screen with that loco selected.
+  If the loco you want to control is in the list, simply click on it and you will be taken back to the |T-S| with that loco selected.
 
-  The Loco you want to control needs to be in the roster of the |wts|.  Not all |wts| support rosters.  Refer to the JMRI documentation or you |wts| device's documentation for creating a roster.
+  The Loco you want to control needs to be in the roster of the |WTS|.  Not all |WTS| support rosters.  Refer to the JMRI documentation or you |WTS| device's documentation for creating a roster.
 
   Also see `Locomotive Icons <#locomotive-icons-in-the-roster>`_ below.
 
@@ -184,7 +184,7 @@ There three ways select a loco:
 
   |ed| remembers the last 10 locos that you have selected. (That number can be increased or decreased with `Maximum Recent Locos <../configuration/preferences.html#maximum-recent-locos>`_ preference.)
 
-  If the loco you want to control to is in the list, simply click on it and you will be taken back to the Throttle screen with that loco selected.
+  If the loco you want to control to is in the list, simply click on it and you will be taken back to the |T-S| with that loco selected.
 
 On the fly / In Phone Consists (Multiple Units)
 """"""""""""""""""""""""""""""""""""""""""""""""
@@ -253,7 +253,7 @@ There are eight ways you can control the speed of of your loco or consist /multi
 
   Dragging you finger along the slider will increase or decrease the speed of the loco(s) selected for the that Throttle. Pressing and holding your finger at one spot on the slider will cause |ED| to slowly increase or decrease the speed of the loco(s) selected for the that Throttle till it gets to that point.
    
-   Depending on the `Throttle Screen Layout <../configuration/preferences.html#throttle-screen-layout>`_ chosen all sliders on the Throttle Screen will be either:
+   Depending on the `Throttle Screen Layout <../configuration/preferences.html#throttle-screen-layout>`_ chosen all sliders on the |T-S| will be either:
    
    * one-directional (0% - 100%) |br|\ or 
    * bi-directional (-100% - 0 - +100%) 
@@ -264,7 +264,7 @@ There are eight ways you can control the speed of of your loco or consist /multi
 
   **Speed buttons**
 
-  The Throttles on the Throttle Screen may configured have ``++`` and ``--`` *Speed Buttons* that allow you to increase or decrease the loco's speed.  
+  The Throttles on the Thro|T-S| may configured have ``++`` and ``--`` *Speed Buttons* that allow you to increase or decrease the loco's speed.  
 
   Click on the ``Forward`` or ``Reverse`` buttons to increase of decrease the speed in by a defined Amount.
 
@@ -281,7 +281,7 @@ There are eight ways you can control the speed of of your loco or consist /multi
 
   **Stop button**
 
-  Click on the :guilabel:`Stop` button of a Throttle on the Throttle Screen to stop all the select Locos for that Throttle.  If you have momentum configured for in the decoders in the locos, they will gradually come to a stop.
+  Click on the :guilabel:`Stop` button of a Throttle on the |T-S| to stop all the select Locos for that Throttle.  If you have momentum configured for in the decoders in the locos, they will gradually come to a stop.
 
   **Volume Keys**
 
@@ -398,7 +398,7 @@ There are three ways you can control the direction of your loco or consist /mult
     :align: right
     :scale: 40 %
 
-  Depending on the  `Throttle Screen Layout <../configuration/preferences.html#throttle-screen-layout>`_ chosen sliders on the Throttle Screen can be b-directional.  (Switching / Shunting Layouts)
+  Depending on the  `Throttle Screen Layout <../configuration/preferences.html#throttle-screen-layout>`_ chosen sliders on the |T-S| can be b-directional.  (Switching / Shunting Layouts)
 
   Switching / Shunting Layouts have 'stationary' (zero speed) at the centre of the slider.  Dragging your finger along the slider to the right (or up) from the centre will increase the speed of the loco(s) selected for that Throttle *in the forward direction*. Dragging your finger along the slider to the left (or down) from the centre will increase the speed of the loco(s) selected for the that Throttle *in the reverse direction*. 
   
@@ -476,9 +476,9 @@ Activating the DCC Function via the Function Buttons
       * F2 / Horn / Whistle
       * F3 - F28
 
-    * Which function buttons, how many function buttons and what labels are displayed, can be changed via the :menuselection:`Menu --> Function Defaults` from the Throttle Screen
+    * Which function buttons, how many function buttons and what labels are displayed, can be changed via the :menuselection:`Menu --> Function Defaults` from the |T-S|
   
-  * If you select a Loco from the Recent Locos or Recent Consists lists that was originally selected from a roster, |ed| will attempt to show the Labels from the |wts| roster entry.
+  * If you select a Loco from the Recent Locos or Recent Consists lists that was originally selected from a roster, |ed| will attempt to show the Labels from the |WTS| roster entry.
 
   .. note:: 
     :class: note-ed-hidden-title
@@ -509,7 +509,7 @@ There is built in Support for a number of different type of locos:
 * Diesel - 3 in-built profiles
 * Plus you can create you own Custom profiles
 
-To enable In Phone Loco Sounds (IPLS) for a throttle (only the first two throttles on an given throttle screen) select an option in `Throttle 1 Loco Sounds <../configuration/preferences.html#throttle-1-loco-sounds>`_ or `Throttle 2 Loco Sounds <../configuration/preferences.html#throttle-2-loco-sounds>`_ (or both) preferences. Once enabled for either throttle a new menu option will be available from Throttle Screen to make subsequent changes easier: :menuselection:`Menu --> Loco Sounds`
+To enable In Phone Loco Sounds (IPLS) for a throttle (only the first two throttles on an given throttle screen) select an option in `Throttle 1 Loco Sounds <../configuration/preferences.html#throttle-1-loco-sounds>`_ or `Throttle 2 Loco Sounds <../configuration/preferences.html#throttle-2-loco-sounds>`_ (or both) preferences. Once enabled for either throttle a new menu option will be available from |T-S| to make subsequent changes easier: :menuselection:`Menu --> Loco Sounds`
 
 To make it easy to switch sound profiles we recommend enabling the Action Bar button by setting the `In phone sounds button <../configuration/preferences.html#in-phone-sounds-button>`_ preferences: :menuselection:`Menu --> Preferences --> Throttle Screen Action Bar Preferences --> In phone sounds button`
 
@@ -593,7 +593,7 @@ Optionally configured information:
 * Fast Clock
 * Children’s Timer Status and Countdown
 * Full Screen or Action Bar Only left/right swipe
-* |wts| Name
+* |WTS| Name
 
 Optionally configured buttons:
 
@@ -616,7 +616,7 @@ Overflow Menu (Throttle Screen)
   The *Overflow Menu* (or simply '*Menu*') appears in the Action Bar at the top of most of the main screens is normally three dots (⁞) or three bars (≡).
   It will show different options depending on a) the particular screen, b) preferences you have set and c) the state of certain elements in the app.
 
-  These menu items only appear on the *Throttle Screen*:
+  These menu items only appear on the |T-S|:
 
   * Function Defaults
   * Gamepads
@@ -636,21 +636,21 @@ Turnouts / Points
 
 |todo|
 
-|ed| can control DCC controlled Turnouts / Points on your layout if configured in you |wts|.
+|ed| can control DCC controlled Turnouts / Points on your layout if configured in you |WTS|.
 
-To get the *Turnouts / Points* screen you can use the menu :menuselection:`Menu --> Turnouts/Points` from the main screens.  You can also swipe right from the Throttle Screen (if enabled in the preference).
+To get the *Turnouts / Points* screen you can use the menu :menuselection:`Menu --> Turnouts/Points` from the main screens.  You can also swipe right from the |T-S| (if enabled in the preference).
 
-The |wts| must have Turnouts / Points enabled.
+The |WTS| must have Turnouts / Points enabled.
 
 If you've defined your turnouts and routes in a panel file, make sure to specify "user names" for those you'd like to see listed on your throttle. You can also "filter" the turnouts shown using the WiThrottle->Filter Controls option in the WiThrottle window.
 
 *Turnouts/Points* can be operated three ways
 
 * By entering their DCC Address
-* From the JMRI Defined Turnout/Point list provided by the |wts| (JMRI)
+* From the JMRI Defined Turnout/Point list provided by the |WTS| (JMRI)
 * From the recent Turnout/Point list
 
-The *Turnouts/Points Screen* can be accessed three ways:
+The |TP-S| can be accessed three ways:
 
 * Menu
 * Swipe
@@ -700,7 +700,7 @@ Recent Turnout/Point list
 Overflow Menu (Turnouts/Points Screen)
 """"""""""""""""""""""""""""""""""""""
 
-  To get the *Web View Screen* you can use the menu :menuselection:`Menu --> Web` from the main screens.  
+  To get the |WV-S| you can use the menu :menuselection:`Menu --> Web` from the main screens.  
 
   The *Overflow Menu* (or simply '*Menu*') appears in the Action Bar at the top of most of the main screens is normally three dots (⁞) or three bars (≡).
   It will show different options depending on a) the particular screen, b) preferences you have set and c) the state of certain elements in the app.
@@ -715,15 +715,15 @@ Routes
 
 |todo|
 
-|ed| can control *Routes* on your layout if configured in you |wts|.
+|ed| can control *Routes* on your layout if configured in you |WTS|.
 
-When using DC++EX as your |wts|, *Routes* can be used to activate *Automations*.
+When using DC++EX as your |WTS|, *Routes* can be used to activate *Automations*.
 
-To get the *Turnouts / Points* screen you can use the menu :menuselection:`Menu --> Routes` from the main screens.  You can also swipe left from the Throttle Screen (if enabled in the preference).
+To get the *Turnouts / Points* screen you can use the menu :menuselection:`Menu --> Routes` from the main screens.  You can also swipe left from the |T-S| (if enabled in the preference).
 
 If you've defined your turnouts and routes in a panel file, make sure to specify "user names" for those you'd like to see listed on your throttle. You can also "filter" the turnouts shown using the WiThrottle->Filter Controls option in the WiThrottle window.
 
-The *Routes Screen* can be accessed three ways:
+The |R-S| can be accessed three ways:
 
 * Menu
 * Swipe
@@ -748,7 +748,7 @@ From the WiThrottle server
 Overflow Menu (Routes Screen)
 """""""""""""""""""""""""""""""
 
-  To get the *Web View Screen* you can use the menu :menuselection:`Menu --> Web` from the main screens.  
+  To get the |WV-S| you can use the menu :menuselection:`Menu --> Web` from the main screens.  
 
   The *Overflow Menu* (or simply '*Menu*') appears in the Action Bar at the top of most of the main screens is normally three dots (⁞) or three bars (≡).
   It will show different options depending on a) the particular screen, b) preferences you have set and c) the state of certain elements in the app.
@@ -791,9 +791,9 @@ Throttle Web View VS Web View Screen
 * Throttle Web View 
 * Web View Screen
 
-This section describes the *Web View Screen*, which is a full screen web browser.  The *Throttle Web View* is a half Screen web browser that optionally shares the screen with the *Throttle Screen*. See the `Throttle Web View section on the User Interface page <./interface.html#web-view-area>`_ from more information on the Throttle Web View.
+This section describes the |WV-S|, which is a full screen web browser.  The *Throttle Web View* is a half Screen web browser that optionally shares the screen with the |T-S|. See the `Throttle Web View section on the User Interface page <./interface.html#web-view-area>`_ from more information on the Throttle Web View.
 
-The *Web View Screen* can be accessed three ways:
+The |WV-S| can be accessed three ways:
 
 * Menu
 * Swipe
@@ -802,7 +802,7 @@ The *Web View Screen* can be accessed three ways:
 Overflow Menu (Web View Screen)
 """""""""""""""""""""""""""""""
 
-  To get the *Web View Screen* you can use the menu :menuselection:`Menu --> Web` from the main screens.  
+  To get the |WV-S| you can use the menu :menuselection:`Menu --> Web` from the main screens.  
 
   The *Overflow Menu* (or simply '*Menu*') appears in the Action Bar at the top of most of the main screens is normally three dots (⁞) or three bars (≡).
   It will show different options depending on a) the particular screen, b) preferences you have set and c) the state of certain elements in the app.
@@ -815,9 +815,9 @@ Overflow Menu (Web View Screen)
 Swipe (Web View Screen)
 """""""""""""""""""""""
 
-  You can swipe left or right twice from the *Throttle Screen* (if enabled in the preference).
-  You can also swipe left from the *Turnouts/Points Screen* (if enabled in the preference).
-  You can also swipe right from the *Routes Screen* (if enabled in the preference).
+  You can swipe left or right twice from the |T-S| (if enabled in the preference).
+  You can also swipe left from the |TP-S| (if enabled in the preference).
+  You can also swipe right from the |R-S| (if enabled in the preference).
 
   Note that 'Swipe Through Web' is automatically disabled if ``Auto-Web`` orientation is enabled in the `Screen Orientation <configuration/preferences.html#screen-orientation>`_ preference.
 
@@ -831,7 +831,7 @@ Swipe (Web View Screen)
 Auto Web Orientation
 """"""""""""""""""""
 
-  if ``Auto-Web`` orientation is selected in the `Screen Orientation <configuration/preferences.html#screen-orientation>`_ preference, when you rotate you Android device/Phone from portrait to landscape, the *Web View Screen* is automatically shown.  Rotating it back will automatically show the *Throttle Screen*. 
+  if ``Auto-Web`` orientation is selected in the `Screen Orientation <configuration/preferences.html#screen-orientation>`_ preference, when you rotate you Android device/Phone from portrait to landscape, the |WV-S| is automatically shown.  Rotating it back will automatically show the |T-S|. 
 
   Note that `Swipe Through Web <../configuration/preferences.html#swipe-through-web>`_ preference is automatically disabled if ``Auto-Web`` orientation is selelected in the `Screen Orientation <configuration/preferences.html#screen-orientation>`_ preference.  It is not automatically re-enabled if you later select a different orientation.  i.e. you will need to manually turn the preference back on if you change from ``Auto-Web`` to another orientation.
 
@@ -873,5 +873,5 @@ To exit |ed|, you can:
 
 Exiting |ed|:
 
-* Disconnects from the |wts|.
+* Disconnects from the |WTS|.
 * Stops playing all In Phone Loco Sounds (if any were configured).

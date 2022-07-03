@@ -16,7 +16,7 @@ Some of the many Preferences include:
 * You can turn off the `stop on release <./preferences.html#stop-on-release>`_ preference
 * You can set a Maximum value and Maximum change% for the throttle sliders
 * If the throttle slider is too small for your fingers, increase the size
-* You can set the initial web page for the full-size web panel, or enable the smaller web view on the throttle screen
+* You can set the initial web page for the full-size web panel, or enable the smaller web view on the |T-S|
 * There are also settings to help maximize the use of your device's smaller screen by hiding items not relevant to you
 
 Look around in Preferences, there are a huge number of settings to personalize |ed|, including many more if you enable `Show Advanced Preferences <./preferences:show advanced preferences>` preference.

@@ -16,12 +16,12 @@ Gamepads
 Connecting your Gamepad
 -----------------------
 
-The following instructions work for the **mocute 032** and **MagicSeeR1** gamepads. 
+The following instructions work for the **Mocute 032** and **MagicSeeR1** gamepads. 
 Other devices require similar steps, but the mechanism to change the ``mode`` may be different. 
 
 * Turn on
   
-  * For the **mocute 032** gamepads
+  * For the **Mocute 032** gamepads
   
     * On the gamepad, the small button is Start/Power. Press for a couple seconds until LED comes on. 
 
@@ -35,7 +35,7 @@ Other devices require similar steps, but the mechanism to change the ``mode`` ma
 * After pairing you should see an item in the Notifications regarding the gamepad. Click that item and make sure that “Show virtual keyboard” is ON. 
 * Set the mode of the gamepad:
 
-  * For the **mocute 032** gamepads (MTK mode)
+  * For the **Mocute 032** gamepads (MTK mode)
   
     * Turn your gamepad OFF by holding the Start/Power button for about 5 seconds until the LED goes out and stays out. 
     * Move the slide switch on the side to the ``GAME`` position (towards the joystick). 
@@ -54,19 +54,19 @@ Running Engine Driver with the Gamepad
 
 * Set up the gamepad and connect to the Android device (see above)
 * Start |ed|
-* Connect to a |wts| 
-* Select a loco as normal and return to the Throttle screen. 
+* Connect to a |WTS| 
+* Select a loco as normal and return to the |T-S|. 
 * In the |ed|
   * Select a gamepad type. |br|\ In the Gamepad section of |EDs| Preferences, select a gamepad corresponding to the gamepad mode you configured on the device (above).
 
-    * For the **mocute 032** gamepads we recommend ``MTK-rotate`` for MKT mode, and ``iCade+DPAD-rotate`` for iCade mode. 
+    * For the **Mocute 032** gamepads we recommend ``MTK-rotate`` for MKT mode, and ``iCade+DPAD-rotate`` for iCade mode. 
     * For the **MagicSeeR1** you must use ``MagicSeeR1 Android-Game B``.
 
   * You can optionally change what the gamepad buttons do. (`See Gamepad Configuration <../configuration/gamepads.html>`_ for details.)
 
 * On the Throttle Screen
 
-  * When you press any of the buttons on the gamepad for the first time, a test screen will appear.  Press all four DPad buttons in turn and the Four main buttons to pass the test, and return to the Throttle screen.
+  * When you press any of the buttons on the gamepad for the first time, a test screen will appear.  Press all four DPad buttons in turn and the Four main buttons to pass the test, and return to the |T-S|.
 
     * Pressing :guilabel:`Skip` will complete the test and allow you to use the gamepad, even if it is not functioning correctly.  (e.g. The mode is incorrect)
     * Pressing :guilabel:`Reset` will reset all the gamepads you have connected, and will force you back to the test screen when attempt to use them again.
@@ -80,7 +80,7 @@ Running Engine Driver with the Gamepad
 Remapping gamepad buttons
 -------------------------
 
-All the buttons of the gamepad that can be accessed by |ed| can be remapped to perform most of the features and functions of the Engine Driver Throttle Screen.
+All the buttons of the gamepad that can be accessed by |ed| can be remapped to perform most of the features and functions of the |ED| |T-S|.
 
 `See Gamepad Configuration <../configuration/gamepads.html>`_ for details.
 
@@ -106,7 +106,7 @@ These we have had the most success with…
 .. image:: ../_static/images/gamepads/bt_controller1.jpg
    :scale: 50 %
 
-They are available from a variety of different sellers on ebay and elsewhere. 
+They are available from a variety of different sellers on eBay and elsewhere. 
 Their quality is not brilliant which is reflected in the price, so don't expect a long life from them.
 
 **MagicSeeR1**

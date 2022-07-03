@@ -19,7 +19,7 @@ To Use Engine Driver You must...
 
 *ALSO*
 
-1. A |wts| must be available on a device connected to your model train layout for |ed| to connect to.
+1. A |WTS| must be available on a device connected to your model train layout for |ed| to connect to.
 
 Android Device/Phone
 --------------------
