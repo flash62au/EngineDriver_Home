@@ -81,18 +81,22 @@ Q. I want to switch to a different server on a different network.
 Save/load preferences for different servers
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-You can set up difference preferences for difference server/railroads and have them automatically load when you connect to that server.
-The most common use of this (so far) is to remember the locos relevant to that railroad.  E.g. I run N scale and HO Scale.  When I connect to one of the N Scale layouts I use it shows me my N Scale locos in the recent locos list, but when I connect to one of the HO layouts I use, it shows me the my recently used HO locos.
+You can set up different preferences for different server/railroads and have them automatically load when you connect to that |wts|.
+The most common use of this (so far) is to remember the locos relevant to that railroad.  e.g. I run N scale and HO Scale.  When I connect to one of the N Scale layouts I use it shows me my N Scale locos in the recent locos list, but when I connect to one of the HO layouts I use, it shows me the my recently used HO locos.
 
-* Preferences
-* Export/Imports
-* <etc>
+.. note:: 
+  :class: note-ed-hidden-title
+
+  See the `Auto Host Specific Import/Export <../configuration/preferences.html#auto-host-specific-import-export>`_ preference for more information.
 
 Q. What is this **jmri.mstevetodd.com** in the server list?
 
   A. *jmri.mstevetodd.com* is a demo server, which can be used for testing. It has roster entries, turnouts, routes and an active panel for you to try.
 
-  There is a preference to allow you to permanently remove it from the list if you wish.
+  .. note:: 
+    :class: note-ed-hidden-title
+
+    You can use the `Hide Demo Server? <../configuration/preferences.html#hide-demo-server>`_ preference to permanently remove it from the list if you wish.
 
 Q. How do I clear unwanted servers from the list
 

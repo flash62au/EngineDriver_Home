@@ -8,20 +8,36 @@
 ..
 .. usually used as |br|\ to remove the leading space of the following line
 ..
-.. |ED| replace:: **Engine Driver**
+.. |ED| raw:: html
+   
+   <span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span>
 ..
-.. |EDs| replace:: **Engine Driver's**
+.. |EDs| raw:: html
+   
+   <span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver's</span>
 ..
-.. |wts| replace:: WiThrottle Server
+.. |EDT| raw:: html
+   
+   <span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver Throttle</span>
 ..
-.. |wtss| replace:: WiThrottle Servers
+.. |JEDT| raw:: html
+   
+   <span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">JMRI Engine&nbsp;Driver Throttle</span>
+..
+.. |wts| raw:: html 
+   
+   <a href="../about/index.html#what-s-a-withrottle-server">WiThrottle Server</a>
+..
+.. |wtss| raw:: html 
+   
+   <a href="../about/index.html#what-s-a-withrottle-server">WiThrottle Servers</a>
 ..
 .. Use |ED|\ to remove the leading space if you need to follow it by a comma etc.
 ..
 .. |todo| raw:: html
    
-   <div style="color:red">TODO</div>
+   <span style="color:red">TODO</span>
 ..
 .. |tba| raw:: html
    
-   <div style="color:red">TODO</div>
+   <span style="color:red">TODO</span>

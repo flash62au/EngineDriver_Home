@@ -21,7 +21,7 @@ Engine Driver
 
 ----
   
-**JMRI Engine Driver Throttle**, more commonly known as |ed|, is a free Android application that connects to a WiThrottle™ [#WIT]_ Server to control model trains. 
+|jedt|, more commonly known as |ed|, is a free Android application that connects to a WiThrottle™ [#WIT]_ Server to control model trains. 
 
 .. image:: ./_static/images/screenshots/throttle_vertical_outline.png
    :scale: 8 %
@@ -52,5 +52,5 @@ You only need to interact with JMRI and/or your DCC command station directly whe
 
 ----
 
-.. [#WIT] 'WiThrottle' is a trademark owned by Brett Hoffman. It is also an `iOS app <https://www.withrottle.com/html/home.html>`_ developed by Brett Hoffman which has similar capabilities to |ed|. |br|\ The 'WiThrottle protocol' is a proprietary protocol developed by Brett Hoffman.  It is used JMRI, |ed| and a number of DCC Command Stations. |br|\ References in this website to a '|wts|', refer to a server that can communicate using the 'WiThrottle protocol'.
+.. [#WIT] 'WiThrottle' is a trademark owned by Brett Hoffman. It is also an `iOS app <https://www.withrottle.com/html/home.html>`_ developed by Brett Hoffman which has similar capabilities to |ed|. |br|\ The 'WiThrottle protocol' is a communications protocol developed by Brett Hoffman.  It is used JMRI, |ed|, the wiThrottle app and a number of other apps and DCC Command Stations. |br|\ References in this website to a '|wts|', refer to a server that can communicate using the 'WiThrottle protocol'.
 
