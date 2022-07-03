@@ -232,12 +232,12 @@
 <li class="toctree-l4"><a class="reference internal" href="interface.html#theme-styles">Theme / Styles</a></li>
 <li class="toctree-l4"><a class="reference internal" href="interface.html#localisation">Localisation</a></li>
 <li class="toctree-l4"><a class="reference internal" href="interface.html#action-bar">Action Bar</a><ul>
-<li class="toctree-l5"><a class="reference internal" href="interface.html#emergency-stop">Emergency Stop</a></li>
-<li class="toctree-l5"><a class="reference internal" href="interface.html#track-power">Track Power</a></li>
-<li class="toctree-l5"><a class="reference internal" href="interface.html#flashlight">Flashlight</a></li>
-<li class="toctree-l5"><a class="reference internal" href="interface.html#throttle-web-view">Throttle Web View</a></li>
-<li class="toctree-l5"><a class="reference internal" href="interface.html#layout-switch">Layout Switch</a></li>
-<li class="toctree-l5"><a class="reference internal" href="interface.html#in-phone-loco-sound">In Phone Loco Sound</a></li>
+<li class="toctree-l5"><a class="reference internal" href="interface.html#emergency-stop-button">Emergency Stop Button</a></li>
+<li class="toctree-l5"><a class="reference internal" href="interface.html#track-power-button">Track Power Button</a></li>
+<li class="toctree-l5"><a class="reference internal" href="interface.html#flashlight-button">Flashlight Button</a></li>
+<li class="toctree-l5"><a class="reference internal" href="interface.html#throttle-web-view-button">Throttle Web View Button</a></li>
+<li class="toctree-l5"><a class="reference internal" href="interface.html#layout-switch-button">Layout Switch Button</a></li>
+<li class="toctree-l5"><a class="reference internal" href="interface.html#in-phone-loco-sound-button">In Phone Loco Sound Button</a></li>
 <li class="toctree-l5"><a class="reference internal" href="interface.html#children-s-timer-button">Children’s Timer Button</a></li>
 <li class="toctree-l5"><a class="reference internal" href="interface.html#fast-clock">Fast Clock</a></li>
 <li class="toctree-l5"><a class="reference internal" href="interface.html#children-s-timer-status-and-countdown">Children’s Timer Status and Countdown</a></li>
@@ -301,7 +301,7 @@
 <li class="toctree-l4"><a class="reference internal" href="faq.html#showing-the-web-page-at-the-bottom-of-the-throttle-screen">Showing the web page at the bottom of the throttle screen</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="faq.html#changing-the-loco-selection-screen">Changing the loco selection screen</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="faq.html#loco-selection-screen">Loco selection screen</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="faq.html#locos-in-the-roster-not-showing">Locos in the roster not showing</a></li>
 </ul>
 </li>
@@ -619,6 +619,7 @@
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="../configuration/new_device.html">Moving to a new phone/device</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../configuration/conserving_power.html">Conserving Power</a></li>
 </ul>
 </li>
 </ul>
@@ -769,11 +770,11 @@ Other devices require similar steps, but the mechanism to change the <code class
 <h2><a class="toc-backref" href="#id3">Running Engine Driver with the Gamepad</a><a class="headerlink" href="#running-engine-driver-with-the-gamepad" title="Permalink to this heading"></a></h2>
 <ul>
 <li><p>Set up the gamepad and connect to the Android device (see above)</p></li>
-<li><p>Start <strong>Engine Driver</strong></p></li>
-<li><p>Connect to a WiThrottle Server</p></li>
+<li><p>Start <span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span></p></li>
+<li><p>Connect to a <a href="../about/index.html#what-s-a-withrottle-server">WiThrottle Server</a></p></li>
 <li><p>Select a loco as normal and return to the Throttle screen.</p></li>
-<li><p>In the <strong>Engine Driver</strong>
-* Select a gamepad type. <br />In the Gamepad section of <strong>Engine Driver’s</strong> Preferences, select a gamepad corresponding to the gamepad mode you configured on the device (above).</p>
+<li><p>In the <span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span>
+* Select a gamepad type. <br />In the Gamepad section of <span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver's</span> Preferences, select a gamepad corresponding to the gamepad mode you configured on the device (above).</p>
 <blockquote>
 <div><ul class="simple">
 <li><p>For the <strong>mocute 032</strong> gamepads we recommend <code class="docutils literal notranslate"><span class="pre">MTK-rotate</span></code> for MKT mode, and <code class="docutils literal notranslate"><span class="pre">iCade+DPAD-rotate</span></code> for iCade mode.</p></li>
@@ -794,21 +795,21 @@ Other devices require similar steps, but the mechanism to change the <code class
 </li>
 <li><p>By default, The DPAD (joystick) on the gamepad will control throttle up, down and direction.</p></li>
 <li><p>By default, The four individual Buttons on the gamepad will control functions F0, F1, F2 and STOP for the selected throttle.</p></li>
-<li><p>If you have engines assigned to more than one <strong>Engine Driver</strong> throttle, by default a short press of the <span class="guilabel">Start</span> Button will move the gamepad to the next assigned throttle. If you have changed the Preferences for the <span class="guilabel">Start</span> Button Action to <code class="docutils literal notranslate"><span class="pre">ESTOP</span></code>, then a short press will set the speed for all your Engine Driver throttles to zero.</p></li>
+<li><p>If you have engines assigned to more than one <span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span> throttle, by default a short press of the <span class="guilabel">Start</span> Button will move the gamepad to the next assigned throttle. If you have changed the Preferences for the <span class="guilabel">Start</span> Button Action to <code class="docutils literal notranslate"><span class="pre">ESTOP</span></code>, then a short press will set the speed for all your Engine Driver throttles to zero.</p></li>
 <li><p>If the <span class="guilabel">Select</span> Button is present on your gamepad, by default, pressing it will move the gamepad to the next assigned throttle.</p></li>
-<li><p><strong>Engine Driver’s</strong> on-screen buttons continue to function as before. Use them to add or drop locos, and to access any additional function buttons.</p></li>
+<li><p><span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver's</span> on-screen buttons continue to function as before. Use them to add or drop locos, and to access any additional function buttons.</p></li>
 </ul>
 </li>
 </ul>
 </section>
 <section id="remapping-gamepad-buttons">
 <h2><a class="toc-backref" href="#id4">Remapping gamepad buttons</a><a class="headerlink" href="#remapping-gamepad-buttons" title="Permalink to this heading"></a></h2>
-<p>All the buttons of the gamepad that can be accessed by <strong>Engine Driver</strong> can be remapped to perform most of the features and functions of the Engine Driver Throttle Screen.</p>
+<p>All the buttons of the gamepad that can be accessed by <span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span> can be remapped to perform most of the features and functions of the Engine Driver Throttle Screen.</p>
 <p><a class="reference external" href="../configuration/gamepads.html">See Gamepad Configuration</a> for details.</p>
 </section>
 <section id="multiple-gamepads">
 <h2><a class="toc-backref" href="#id5">Multiple gamepads</a><a class="headerlink" href="#multiple-gamepads" title="Permalink to this heading"></a></h2>
-<p><strong>Engine Driver</strong> supports up to 4 gamepads at the same time.  All the gamepads must be of the same type.</p>
+<p><span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span> supports up to 4 gamepads at the same time.  All the gamepads must be of the same type.</p>
 <p>As you connect each gamepad, you will be force to go to the gamepad test screen.  The new gamepad will be automatically assigned to the next throttle that does not have a gamepad assigned to it.</p>
 <p>An indicator <code class="docutils literal notranslate"><span class="pre">1</span></code>, <code class="docutils literal notranslate"><span class="pre">2</span></code> etc. will show near the throttle speed to indicate which throttle each gamepad is controlling.  Only one gamepad can be active on a single throttle at one time.</p>
 </section>
@@ -841,12 +842,12 @@ These seem to be slightly better quality than the one above, but are more expens
 <section id="not-recommended-gamepads">
 <h3><a class="toc-backref" href="#id8">Not Recommended Gamepads</a><a class="headerlink" href="#not-recommended-gamepads" title="Permalink to this heading"></a></h3>
 <p>These work, but have issues which make them not recommended.</p>
-<p><div style="color:red">TODO</div></p>
+<p><span style="color:red">TODO</span></p>
 </section>
 <section id="unsupported-gamepads">
 <h3><a class="toc-backref" href="#id9">Unsupported Gamepads</a><a class="headerlink" href="#unsupported-gamepads" title="Permalink to this heading"></a></h3>
 <p><strong>VR Box</strong></p>
-<p>Support for this type of gamepad was removed from <strong>Engine Driver</strong> as the device was so unreliable.  However is very similar to the Utopia 360, so if you have one that works, try the Utopia 360 options.</p>
+<p>Support for this type of gamepad was removed from <span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span> as the device was so unreliable.  However is very similar to the Utopia 360, so if you have one that works, try the Utopia 360 options.</p>
 <a class="reference internal image-reference" href="../_images/vrbox.png"><img alt="../_images/vrbox.png" src="../_images/vrbox.png" style="width: 219.79999999999998px; height: 119.69999999999999px;" /></a>
 </section>
 </section>

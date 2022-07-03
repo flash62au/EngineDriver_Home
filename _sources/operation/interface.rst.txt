@@ -869,6 +869,8 @@ Consist Lights Edit Screen
 
 |br|
 
+|br|
+
 ----
 
 Power Screen
@@ -1117,8 +1119,8 @@ The Action Bar can display:
 
 The optional buttons are enabled and configured via the corresponding preferences in the `Throttle Screen Action Bar <../configuration/preferences.html#throttle-screen-action-bar-preferences>`_ preference group.  (Other than the Children's Timer which is configured in the `Children's Timer <../configuration/preferences.html#children-s-timer-preferences>`_ preference group.)
 
-Emergency Stop
-""""""""""""""
+Emergency Stop Button
+"""""""""""""""""""""
 
 .. image:: ../_static/images/parts/estop.png
    :align: right
@@ -1128,8 +1130,8 @@ The *Emergency Stop* Action Bar button is enabled with the `Emergency Stop butto
 
 Clicking this button will attempt to quickly stop all locos controlled by the device / phone.  Locos controlled by other people/devices are not stopped.
 
-Track Power
-"""""""""""
+Track Power Button
+""""""""""""""""""
 
 .. image:: ../_static/images/parts/power_green.png
    :align: right
@@ -1143,8 +1145,8 @@ The *Track Power* Action Bar button is enabled with the `Layout Power button? <.
 * 'Red' = Power is Off
 * 'Green' = Power is On
 
-Flashlight
-""""""""""
+Flashlight Button
+"""""""""""""""""
 
 .. image:: ../_static/images/parts/flashlight_on.png
    :align: right
@@ -1156,8 +1158,8 @@ The *Flashlight* Action Bar button is enabled with the `Flashlight button? <../c
 
 The device / phone must have a camera to be able to use this feature.
 
-Throttle Web View
-"""""""""""""""""
+Throttle Web View Button
+""""""""""""""""""""""""
 
 .. image:: ../_static/images/parts/web_view.png
    :align: right
@@ -1169,8 +1171,8 @@ The *Throttle Web View* Action Bar button is enabled with the `Throttle Web View
 
 Note: the `Throttle Web View? <../configuration/preferences.html#throttle-web-view>` preference must be enabled for this to have an effect.
 
-Layout Switch 
-"""""""""""""
+Layout Switch Button
+""""""""""""""""""""
 
 .. image:: ../_static/images/parts/throttle_switch_button.png
    :align: right
@@ -1183,8 +1185,8 @@ The *Layout Switch* Action Bar button is enabled with the `Show Layout Switch bu
 The *Layout Switch* buttons, when pressed ...
 
 
-In Phone Loco Sound
-"""""""""""""""""""
+In Phone Loco Sound Button
+""""""""""""""""""""""""""
 
 |todo|
 
@@ -1205,20 +1207,30 @@ Children's Timer Button
 
 The *Children's Timer Button* Action Bar button is enabled with the `Show Timer Button? <../configuration/preferences.html#show-timer-button>`_ preference.
 
-*Children's Timer Button*, when pressed ...
+The *Children's Timer Button*, when pressed will activate the Timer for the preset time period.
+
+.. note:: 
+   :class: note-ed-hidden-title
+
+   See the `Children's Timer section <../operation/advanced.html#children-s-timer>`_ of the Advance Operation page for more information.
 
 Fast Clock
 """"""""""
-
-|todo|
 
 .. image:: ../_static/images/parts/fast_clock.png
    :align: right
    :scale: 50%
 
+|todo|
+
 The *Fast Clock* Action Bar button is enabled with the `Fast Clock Display <../configuration/preferences.html#fast-clock-display>`_ preference.
 
-*Fast Clock*, when pressed ...
+.. note:: 
+   :class: note-ed-hidden-title
+
+   See `JMRI's Fast Clock page <https://www.jmri.org/help/en/package/jmri/jmrit/simpleclock/SimpleClockFrame.shtml>`_ for information on how to set up a Fast Clock.
+
+|br|
 
 Children's Timer Status and Countdown
 """""""""""""""""""""""""""""""""""""
@@ -1227,8 +1239,14 @@ Children's Timer Status and Countdown
    :align: right
    :scale: 50%
 
-
 |todo|
+
+.. note:: 
+   :class: note-ed-hidden-title
+
+   See the `Children's Timer part <../operation/advanced.html#children-s-timer>`_ of the Advance Operation page for more information.
+
+|br|
 
 Full Screen or Action Bar Only left/right swipe
 """""""""""""""""""""""""""""""""""""""""""""""
@@ -1238,13 +1256,25 @@ Full Screen or Action Bar Only left/right swipe
 WiThrottle Server Name
 """"""""""""""""""""""
 
+.. image:: ../_static/images/parts/action_bar_server_name.png
+   :align: right
+   :scale: 50%
+
 |todo|
+
+|br|
+
+|br|
 
 
 ----
 
 Overflow Menu
 ^^^^^^^^^^^^^
+
+.. image:: ../_static/images/parts/menu_throttle.png
+  :align: right
+  :scale: 50%
 
 The *Overflow Menu* (or simply '*Menu*') appears in the Action Bar at the top of most of the `main screens <../operation/interface.html#main-screens>`_ is normally three dots (⁞) or three bars (≡).
 It will show different options depending on a) the particular screen, b) preferences you have set and c) the state of certain elements in the app.

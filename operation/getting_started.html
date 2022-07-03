@@ -232,12 +232,12 @@
 <li class="toctree-l4"><a class="reference internal" href="interface.html#theme-styles">Theme / Styles</a></li>
 <li class="toctree-l4"><a class="reference internal" href="interface.html#localisation">Localisation</a></li>
 <li class="toctree-l4"><a class="reference internal" href="interface.html#action-bar">Action Bar</a><ul>
-<li class="toctree-l5"><a class="reference internal" href="interface.html#emergency-stop">Emergency Stop</a></li>
-<li class="toctree-l5"><a class="reference internal" href="interface.html#track-power">Track Power</a></li>
-<li class="toctree-l5"><a class="reference internal" href="interface.html#flashlight">Flashlight</a></li>
-<li class="toctree-l5"><a class="reference internal" href="interface.html#throttle-web-view">Throttle Web View</a></li>
-<li class="toctree-l5"><a class="reference internal" href="interface.html#layout-switch">Layout Switch</a></li>
-<li class="toctree-l5"><a class="reference internal" href="interface.html#in-phone-loco-sound">In Phone Loco Sound</a></li>
+<li class="toctree-l5"><a class="reference internal" href="interface.html#emergency-stop-button">Emergency Stop Button</a></li>
+<li class="toctree-l5"><a class="reference internal" href="interface.html#track-power-button">Track Power Button</a></li>
+<li class="toctree-l5"><a class="reference internal" href="interface.html#flashlight-button">Flashlight Button</a></li>
+<li class="toctree-l5"><a class="reference internal" href="interface.html#throttle-web-view-button">Throttle Web View Button</a></li>
+<li class="toctree-l5"><a class="reference internal" href="interface.html#layout-switch-button">Layout Switch Button</a></li>
+<li class="toctree-l5"><a class="reference internal" href="interface.html#in-phone-loco-sound-button">In Phone Loco Sound Button</a></li>
 <li class="toctree-l5"><a class="reference internal" href="interface.html#children-s-timer-button">Children’s Timer Button</a></li>
 <li class="toctree-l5"><a class="reference internal" href="interface.html#fast-clock">Fast Clock</a></li>
 <li class="toctree-l5"><a class="reference internal" href="interface.html#children-s-timer-status-and-countdown">Children’s Timer Status and Countdown</a></li>
@@ -301,7 +301,7 @@
 <li class="toctree-l4"><a class="reference internal" href="faq.html#showing-the-web-page-at-the-bottom-of-the-throttle-screen">Showing the web page at the bottom of the throttle screen</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="faq.html#changing-the-loco-selection-screen">Changing the loco selection screen</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="faq.html#loco-selection-screen">Loco selection screen</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="faq.html#locos-in-the-roster-not-showing">Locos in the roster not showing</a></li>
 </ul>
 </li>
@@ -619,6 +619,7 @@
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="../configuration/new_device.html">Moving to a new phone/device</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../configuration/conserving_power.html">Conserving Power</a></li>
 </ul>
 </li>
 </ul>
@@ -703,7 +704,7 @@
   <section id="quick-start-getting-started">
 <h1>Quick Start / Getting Started<a class="headerlink" href="#quick-start-getting-started" title="Permalink to this heading"></a></h1>
 <ul>
-<li><p>Install <strong>Engine Driver</strong> from the <a class="reference external" href="https://play.google.com/store/apps/details?id=jmri.enginedriver">Google Play Store</a> or by <a class="reference external" href="../downloads/index.html">direct download</a>.</p></li>
+<li><p>Install <span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span> from the <a class="reference external" href="https://play.google.com/store/apps/details?id=jmri.enginedriver">Google Play Store</a> or by <a class="reference external" href="../downloads/index.html">direct download</a>.</p></li>
 <li><p>Confirm that your devices meet the <a class="reference external" href="../prerequisites/index.html">Prerequisites</a></p></li>
 <li><p><strong>Start your WiThrottle server</strong></p>
 <ul>
@@ -715,10 +716,10 @@
 </li>
 <li><p><strong>On your Android device/phone</strong></p>
 <ul>
-<li><p>Make sure you are connected to same network as the WiThrottle Server’s network.</p></li>
-<li><p>Start <strong>Engine Driver</strong></p>
+<li><p>Make sure you are connected to same network as the <a href="../about/index.html#what-s-a-withrottle-server">WiThrottle Server</a>’s network.</p></li>
+<li><p>Start <span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span></p>
 <ul>
-<li><p>The first time you run <strong>Engine Driver</strong> you will need to go through the Setup Wizard to agree to the permissions and select a few key preferences</p>
+<li><p>The first time you run <span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span> you will need to go through the Setup Wizard to agree to the permissions and select a few key preferences</p>
 <p>See the <a class="reference external" href="../configuration/setup_wizard.html">Setup Wizard</a> page for more information.</p>
 </li>
 </ul>
@@ -726,8 +727,8 @@
 <li><p>Wait for your server’s address to show up in ‘Discovered Servers’</p></li>
 <li><p>Click on the Discovered server</p>
 <ul class="simple">
-<li><p>If your WiThrottle Server does not show up, check that are on the same network as the WiThrottle Server.</p></li>
-<li><p>If the server <em>never</em> appears in the discovered list, type in the IP address and Port of the WiThrottle Server (Using the values shown on the JMRI WiThrottle window) and press <span class="guilabel">Connect</span>. <br />Note: this situation is sometimes possible even if you are on the same network. <br /><br />See the <a class="reference external" href="./wifi_issues.html">WiFi connection</a> page for more assistance if you have connection issues. <br /><br /></p></li>
+<li><p>If your <a href="../about/index.html#what-s-a-withrottle-server">WiThrottle Server</a> does not show up, check that are on the same network as the <a href="../about/index.html#what-s-a-withrottle-server">WiThrottle Server</a>.</p></li>
+<li><p>If the server <em>never</em> appears in the discovered list, type in the IP address and Port of the <a href="../about/index.html#what-s-a-withrottle-server">WiThrottle Server</a> (Using the values shown on the JMRI WiThrottle window) and press <span class="guilabel">Connect</span>. <br />Note: this situation is sometimes possible even if you are on the same network. <br /><br />See the <a class="reference external" href="./wifi_issues.html">WiFi connection</a> page for more assistance if you have connection issues. <br /><br /></p></li>
 </ul>
 </li>
 <li><p>If needed, turn the track power on with <span class="menuselection">Menu ‣ Power</span> and confirm the button is ‘green’  (This is not required by all DCC Command Stations.)</p></li>

@@ -15,11 +15,11 @@ Prerequisites for Using Engine Driver
 To Use Engine Driver You must...
 --------------------------------
 
-1. Have a Android device/phone. |ed| can only be installed on an Android Device/Phone.
+1. Have a Android device/phone. |br| |ed| can only be installed on an Android device/phone.
 
 *ALSO*
 
-2. A *WiThrottle Server* must be available on a device connected to your model train layout for |ed| to connect to.
+1. A |wts| must be available on a device connected to your model train layout for |ed| to connect to.
 
 Android Device/Phone
 --------------------

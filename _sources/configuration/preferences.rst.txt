@@ -1252,18 +1252,14 @@ The following preferences allow you to change the way the *Device Stop button* o
 Stop Button long-press delay
 '''''''''''''''''''''''''''''''''''
 
-|todo|
-
-How long for a 'long-press' of the Stop button. 
+Alter this preference to adjust how long a 'long-press' is required to be considered a long press for the Stop button. 
 
 A 'long-press' stops all active throttles; a 'short-press' pauses the current throttle. Smaller is faster.
 
 Enable Short Press
 '''''''''''''''''''''''''''''''''''
 
-|todo|
-
-A 'short-press' pauses the currently controlled loco/consist. Will revert to original speed when operations resume.
+Enable this preference to enable a 'short-press' to pause the currently controlled loco/consist. It ill revert to original speed when operations resume.
 
 Device side button options
 """"""""""""""""""""""""""
@@ -1321,9 +1317,7 @@ Choose the action when you press the button
 Button repeat delay
 '''''''''''''''''''''''''''''''''''
 
-|todo|
-
-How long between repeats on device side buttons. Smaller is faster.
+Alter this preference to adjust how long is required between repeats on device side buttons. Smaller is faster.
 
 Control Knob options
 """""""""""""""""""""""""
@@ -1490,9 +1484,12 @@ Note this only will work while the :guilabel:`Select` button is *Enabled*.  If t
 Filter Roster
 """""""""""""
 
-|todo|
+Enter text into this preference to only show roster entries with names containing that text only.  
 
-Only show roster entries containing…
+  .. note:: 
+    :class: note-ed-hidden-title
+
+    Note this is that same as entering text in the `filter field <../operation/interface.html#select-from-sever-roster>`_ on the *Select Loco Screen*.  i.e. changing it here will change it there and vice-versa.
 
 In Phone Loco Sounds
 --------------------
@@ -1708,9 +1705,7 @@ The following preferences allow you to change the way the *Children's (Timer)* b
 Time limited running
 """"""""""""""""""""
 
-|todo|
-
-Restrict the time that the loco will run. e.g. Each child (operator) will get an equal amount of time.
+Use this preference to restrict the amount of time that the loco will run.
 
 Options:
 
@@ -1810,6 +1805,9 @@ Enable this preference if you wish to include the locos in the recent loco list 
 Auto host specific import/export?
 """""""""""""""""""""""""""""""""
 
+You can set up different preferences for different server/railroads and have them automatically load when you connect to that |wts|.
+The most common use of this (so far) is to remember the locos relevant to that railroad.  e.g. I run N scale and HO Scale.  When I connect to one of the N Scale layouts I use it shows me my N Scale locos in the recent locos list, but when I connect to one of the HO layouts I use, it shows me the my recently used HO locos.
+
 Enable this preference if you wish, on every connection to a host, to AUTOMATICALLY 'Import' preferences for that host, and optionally 'Export' them on disconnect. 
 
 Options:
@@ -1821,7 +1819,6 @@ Options:
 When enabled:
 
 * on connection to a |wts|, |ed| will save a file to the  ``/Android/data/jmri.enginedriver/files/`` folder in a file named ``<witServer Name>.ed``.
-
 
 **IMPORTANT!**
 
@@ -1835,7 +1832,7 @@ Manual host specific import/export
 
 'Import' or 'Export' your preferences for a specific host to the  ``/Android/data/jmri.enginedriver/files/`` folder. The host must be in your recent connection list.
 
-Note: this preference is only available when not currently connected to a |wts|.
+Note: this preference is only available when not currently connected to a |wts|.  i.e. On the *Connection Screen*.
 
 **WARNINGS:**
 
