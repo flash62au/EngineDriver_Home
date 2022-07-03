@@ -20,6 +20,7 @@ Detailed Information
        loco_icons
        setup_wizard
        new_device
+       conserving_power
 
 See:
 
@@ -29,3 +30,4 @@ See:
 * The :doc:`./gamepads` page for information on configuring gamepads  |br|\ |br|\ 
 * The :doc:`./loco_icons` page for information on managing the Loco Icons on the Select Loco page |br|\ |br|\ 
 * The :doc:`./new_device` page for information on moving |ed| to a new Android Device / Phone from one where you already have |ed| installed|br|\ |br|\ 
+* The :doc:`./conserving_power` page for information on conserving power on your Android device/phone when using |ed| |br|\ |br|\ 
