@@ -46,14 +46,14 @@ Info on minSDKVersion available in the `Engine Driver manifest <https://develope
 What's a 'WiThrottle Server'?
 -----------------------------
 
-WiThrottle stands for 'WiFi Throttle', and a '|wts|' is just software running on your JMRI computer, DCC-EX Command Station, or dedicated device. It's called a 'Server' because it allows you to connect to it and it 'serves', or services, requests from another application. That application is called a 'Client'. So |ed| in this case is the client.
+WiThrottle stands for 'WiFi Throttle', and a 'WiThrottle Server' is just software running on your JMRI computer, DCC-EX Command Station, or dedicated device. It's called a 'Server' because it allows you to connect to it and it 'serves', or services, requests from another application. That application is called a 'Client'. So in this case |ed| is the client.
 
-The WiThrottle Protocol itself is a standard for how WiFi throttles can communicate with the |wts|, much like the DCC standard is a standard for how data packets communicate with decoders. What this means for you, is that |ed| can talk to any WiThrottle compatible server, which in turn can talks to your DCC encoders in your locos.
+The WiThrottle Protocol itself is a standard for how WiFi throttles can communicate with the WiThrottle Server, much like the DCC standard is a standard for how data packets communicate with decoders. What this means for you, is that |ed| can talk to any WiThrottle compatible server, which in turn can talks to your DCC encoders in your locos.
 
 .. note:: 
   :class: note-ed-hidden-title
 
-  See the `WiThrottle Servers <../prerequisites/index.html#withrottle-servers>`_ section of the Prerequisites page for information on the different WiThrottle Servers.
+  See the :ref:`WiThrottle Servers <prerequisites/index:withrottle servers>` section of the Prerequisites page for information on the different WiThrottle Servers.
 
 ----
 

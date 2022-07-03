@@ -61,7 +61,7 @@ Instructions:
 - select the loco first.
 - enable the time limited running to the desired time, using either:
   
-  - the `Time limited running <../configuration/preferences.html#time-limited-running>`_ preference, (then return to the *Throttle Screen*) |br| *or* 
+  - the `Time limited running <../configuration/preferences.html#time-limited-running>`_ preference, (then return to the |T-S|) |br| *or* 
   - the action button (`Show Timer button? <../configuration/preferences.html#show-timer-button>`_)
   
 - The timer will start with the first increase in speed

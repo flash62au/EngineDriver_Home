@@ -18,7 +18,7 @@ Quick Start / Getting Started
 
 * **On your Android device/phone** 
   
-  * Make sure you are connected to same network as the |wts|'s network.
+  * Make sure you are connected to same network as the |WTS|'s network.
 
   * Start |ED| 
 
@@ -30,8 +30,8 @@ Quick Start / Getting Started
 
   * Click on the Discovered server
 
-    * If your |wts| does not show up, check that are on the same network as the |wts|.   
-    * If the server *never* appears in the discovered list, type in the IP address and Port of the |wts| (Using the values shown on the JMRI WiThrottle window) and press :guilabel:`Connect`. |br|\ Note: this situation is sometimes possible even if you are on the same network. |br|\ |br|\ See the `WiFi connection <./wifi_issues.html>`_ page for more assistance if you have connection issues. |br|\ |br|\ 
+    * If your |WTS| does not show up, check that are on the same network as the |WTS|.   
+    * If the server *never* appears in the discovered list, type in the IP address and Port of the |WTS| (Using the values shown on the JMRI WiThrottle window) and press :guilabel:`Connect`. |br|\ Note: this situation is sometimes possible even if you are on the same network. |br|\ |br|\ See the `WiFi connection <./wifi_issues.html>`_ page for more assistance if you have connection issues. |br|\ |br|\ 
 
   * If needed, turn the track power on with :menuselection:`Menu --> Power` and confirm the button is 'green'  (This is not required by all DCC Command Stations.)
   
@@ -42,7 +42,7 @@ Quick Start / Getting Started
     * Click on a loco from the Roster or Recent lists |br|\ or
     * Enter the loco address (verify short or long), and press :guilabel:`Acquire`
 
-      You will be returned to the Throttle screen.
+      You will be returned to the |T-S|.
 
       For Consists / multiple units, see the note below.
 

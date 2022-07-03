@@ -11,7 +11,7 @@ Loco Icons in the Roster
 
 The **Roster List**, and **Recent Locos List** on the Select Loco screen will automatically show icons for your locos only if:
 
-* The **Web Server** (not just the |wts|) is running on the JMRI server
+* The **Web Server** (not just the |WTS|) is running on the JMRI server
 * The loco itself has an icon added for it in the JMRI roster |br|\ OR
 * A locally cached or manually chosen image is available for the loco (see below)
 * For the **Recent Locos list**, the loco was originally selected from a roster and the loco had an icon. (i.e. Not entered as a DCC Address)
@@ -23,9 +23,9 @@ There are three ways to load & store your Locomotive Icon Image in Engine Driver
 1. **Automatically from your existing JMRI Roster & Media**
   
   * Start JMRI and capture and load your images into JMRI Roster & Media panel as normal
-  * Start the |wts|.
+  * Start the |WTS|.
   * Start the Web Server.
-  * Connect |ed| to JMRI |wts| Discovered Server 'My JMRI Railroad' or type in the IP address : Port# 
+  * Connect |ed| to JMRI |WTS| Discovered Server 'My JMRI Railroad' or type in the IP address : Port# 
   * Click ``Select`` and load your Locos then ``Release`` and repeat until you've loaded all the locomotives you require with Icons into a throttle. 
  
   These Loco Icons will automatically be saved/cached on the Android device/phone in a new '/Android/data/jmri.enginedriver/files/recent_engine_list/**recent_engine_list**' folder for you.
@@ -61,8 +61,8 @@ There are three ways to load & store your Locomotive Icon Image in Engine Driver
 
 **General Notes on the Local Loco Icons:**
 
-* If the loco already has an image in the JMRI Roster (of the currently connected |wts|), you won't be able to choose a local image.
-* If you later add an image in the JMRI Roster for the loco (or later connect to a |wts| that has an image), it will automatically overwrite the local image with the one on the server.
+* If the loco already has an image in the JMRI Roster (of the currently connected |WTS|), you won't be able to choose a local image.
+* If you later add an image in the JMRI Roster for the loco (or later connect to a |WTS| that has an image), it will automatically overwrite the local image with the one on the server.
 * In the Recent Locos list you *can not* add images to locos entered by a DCC address. (i.e. not from the roster)  
 
 

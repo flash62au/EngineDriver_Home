@@ -24,20 +24,49 @@
    
    <span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">JMRI Engine&nbsp;Driver Throttle</span>
 ..
-.. |wts| raw:: html 
+.. |WTS| raw:: html 
    
    <a href="../about/index.html#what-s-a-withrottle-server">WiThrottle Server</a>
 ..
-.. |wtss| raw:: html 
+.. |WTSS| raw:: html 
    
    <a href="../about/index.html#what-s-a-withrottle-server">WiThrottle Servers</a>
 ..
 .. Use |ED|\ to remove the leading space if you need to follow it by a comma etc.
 ..
-.. |todo| raw:: html
+.. |TODO| raw:: html
    
    <span style="color:red">TODO</span>
 ..
-.. |tba| raw:: html
+.. |TBA| raw:: html
    
    <span style="color:red">TODO</span>
+..
+.. |T-S| replace:: 
+   
+   :ref:`Throttle Screen <operation/interface:throttle screen>`
+..
+.. |TP-S| replace:: 
+   
+   :ref:`Turnouts/Points Screen <operation/interface:turnouts/points screen>`
+..
+.. |R-S| replace:: 
+   
+   :ref:`Routes Screen <operation/interface:routes screen>`
+..
+.. |WV-S| replace:: 
+   
+   :ref:`Web View Screen <operation/interface:web view screen>`
+..
+.. |LS-S| replace:: 
+   
+   :ref:`Loco Select Screen <operation/interface:loco select screen>`
+..
+.. |C-S| replace:: 
+   
+   :ref:`Connection Screen <operation/interface:connection screen>`
+..
+.. |ISW-S| replace:: 
+   
+   :ref:`Intro/Setup Wizard Screen <operation/interface:Intro/Setup Wizard Screen>`
+..

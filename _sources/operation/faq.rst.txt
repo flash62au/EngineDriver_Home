@@ -27,12 +27,12 @@ Q. I can't connect to my Server /Railroad
   A1. Check the following:
 
   * Check that you are connected to a WiFi network
-  * Check that you are connected to the same WiFi network as your |wts|
-  * Check that JMRI and its |wts| feature are started
+  * Check that you are connected to the same WiFi network as your |WTS|
+  * Check that JMRI and its |WTS| feature are started
 
   A2. Possible Mobile data connection problem
 
-  If |ed| can see the |wts| but displays an error when you try to connect to it… If you are using a phone with a SIM, and the WiFi network your JMRI server is on does not have internet access. You may have to turn 'mobile data' off on your device.  See `[here] for more information <./wifi_issues.html>`_.
+  If |ed| can see the |WTS| but displays an error when you try to connect to it… If you are using a phone with a SIM, and the WiFi network your JMRI server is on does not have internet access. You may have to turn 'mobile data' off on your device.  See `[here] for more information <./wifi_issues.html>`_.
 
 Q. |ed| Connects, but I can't control any locos
 
@@ -45,7 +45,7 @@ Q. |ed| Connects, but I can't control any locos
 
     See the `Turn Track Power On <../operation/operation.html#turn-track-power-on>`_ notes for more information.
 
-Q. Why doesn't |ed| automatically find my |wts|?
+Q. Why doesn't |ed| automatically find my |WTS|?
 
   I can manually connect to my Server / Railroad by entering an IP address, but it never finds it automatically.
 
@@ -81,7 +81,7 @@ Q. I want to switch to a different server on a different network.
 Save/load preferences for different servers
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-You can set up different preferences for different server/railroads and have them automatically load when you connect to that |wts|.
+You can set up different preferences for different server/railroads and have them automatically load when you connect to that |WTS|.
 The most common use of this (so far) is to remember the locos relevant to that railroad.  e.g. I run N scale and HO Scale.  When I connect to one of the N Scale layouts I use it shows me my N Scale locos in the recent locos list, but when I connect to one of the HO layouts I use, it shows me the my recently used HO locos.
 
 .. note:: 
@@ -175,7 +175,7 @@ Q. No Locomotive Icons appear in the Roster
 
   A. The Roster List, and Recent Locos List on the Select Loco screen will automatically show icons for your locos only if:
 
-    * The **Web Server** (not just the |wts|) is running on the JMRI server
+    * The **Web Server** (not just the |WTS|) is running on the JMRI server
     * The loco itself has an icon added for it in the JMRI roster |br|\ OR
     * A locally cached or manually chosen image is available for the loco (see 'Locomotive Icons' on the `Operation screen <../operations/index.html>`_)
 
@@ -204,9 +204,9 @@ Q. I want to change the appearance of the app
 Changing the Throttle screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Q. I want to change the appearance of Throttle Screen
+Q. I want to change the appearance of |T-S|
 
-  A. There are a number of different Throttle Screen designs.  Look at the `Operation <../operaion/index.html>`_ screen for details
+  A. There are a number of different |T-S| designs/layouts.  Look at the `Operation <../operaion/index.html>`_ screen for details
 
     * Default / Original /Horizontal
     * Simple  
@@ -227,7 +227,7 @@ Q. I want vertical sliders, not horizontal
 
 Q. I want to control more than one train 
 
-  A. You can control between one and six trains with |ed|, depending on which Throttle Screen type (see above) you have chosen. Each train can have one or more locomotives in consist. 
+  A. You can control between one and six trains with |ed|, depending on which |T-S| type (see above) you have chosen. Each train can have one or more locomotives in consist. 
 
      The screen space is shared between throttles, so set the “Number of Throttles” appropriately.
 
