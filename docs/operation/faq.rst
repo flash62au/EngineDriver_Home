@@ -131,9 +131,9 @@ Q. How do I work with Consists
 
   Note: Make sure that the ``Drop Loco before acquire?`` preference is set to 'No'.
 
-  A2. Normal Consists
+  A2. DCC 'Advanced Consists' (CV19)
  
-  Note you can't create a normal consist with |ed|, but you can control one if it has already been setup.
+  Note you can't create a DCC 'Advanced Consists' (CV19) with |ed|, but you can control one if it has already been setup.
 
   |todo|
 
@@ -141,9 +141,9 @@ Q. How do I work with Consists
 
   A3. JMRI Consists
 
-  <stuff goes here>
+  |todo|
 
-  Will appear in the loco list as… 
+  Creating consists in JMRI effectively create DCC 'Advanced Consists' (CV19) and appear in the loco list in |ed| much like any other loco. 
 
 Q. I can't create on-the-fly consists?
 
@@ -314,9 +314,13 @@ Showing the web page at the bottom of the throttle screen
 
 |todo|
 
+See the Web Throttle view 
+
+See the Web Throttle view preference  
+
 <also point to the swipe up option>
 
-Changing the loco selection screen
+Loco selection screen
 --------------------------------------------
 
 |todo|
@@ -328,12 +332,19 @@ Locos in the roster not showing
 
 |todo|
 
+  A1. check you don't have a filter 
+
+  A2. ???
+
+
 Changing the connection screen
 --------------------------------------------
 
-|todo|
+Q. You can't remove test server by swiping right
 
-Can't remove test server
+  A. you can't remove it with a swipe, but there is a preference to remove it.  
+
+  See the `Hide Demo Server <../configuration/preferences.html#hide-demo-server>`_ preference for more information.
 
 Changing the turnouts screen
 --------------------------------------------
@@ -349,9 +360,14 @@ Q. My Phone/table runs out of power too quickly
 
   * Keep the brightness of the device as low as practical
   * Disable Bluetooth and NFC if you are not using them
-  * You can also 
+  * You can also try:
 
     * Set the preference to dim screen on swipe up.  If you are not using the throttle temporarily (i.e the train does not need any control for a little while), dim the screen until you need it back.
     * Set the preference to dim screen on shake.  If you are not using the throttle temporarily (i.e the train does not need any control for a little while), dim the screen until you need it back.
 
   If your device has an AMOLED display, theoretically, the High Contrast Outline theme should use less power (though this is unproven).
+
+.. note:: 
+  :class: note-ed-hidden-title
+
+  See the :doc:`../configuration/conserving_power` page for more information.

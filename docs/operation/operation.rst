@@ -236,7 +236,7 @@ From here you can:
     See `Selecting / Releasing Locos and Consists/Multiple Units <#selecting-releasing-locos>`_ for more information.
 
 Controlling Speed
-""""""""""""""""""""""""""""""""""
+"""""""""""""""""
 
 There are eight ways you can control the speed of of your loco or consist /multiple unit train:
 
@@ -445,10 +445,9 @@ Activating the DCC Function via the Function Buttons
   .. note:: 
     :class: note-ed-hidden-title
 
-    See the `Functions page <./gamepads.html>`_ for information on changing the Functions.
+    See the :doc:`Functions page <../configuration/functions>` for information on changing the Functions and Function Labels.
 
     See the `Consist Function Follow Preferences on the Preferences page <../configuration/preferences.html#consist-function-follow-preferences>`_ for information on changing the behaviour of the functions in consists / multiple units.
-
 
   **Activating the DCC Function via the Gamepad Keys**
   
@@ -460,7 +459,6 @@ Activating the DCC Function via the Function Buttons
     See the `Gamepads Operation page <./gamepads.html>`_ for information on selecting and using a gamepad.
 
     See the `Gamepads Configuration page <../configuration/gamepads.html>`_ for information on configuring the keys of the gamepad.
-
 
   **Function Labels**
 
@@ -485,7 +483,7 @@ Activating the DCC Function via the Function Buttons
   .. note:: 
     :class: note-ed-hidden-title
 
-    See the `Functions page <./gamepads.html>`_ for information on changing the Functions and Function Labels.
+    See the :doc:`Functions page <../configuration/functions>` for information on changing the Functions and Function Labels.
 
   **Functions in consists**
 
@@ -763,11 +761,26 @@ Overflow Menu (Routes Screen)
 Panels and Web Pages
 ^^^^^^^^^^^^^^^^^^^^^^
 
-|todo|
-
 |ed| can show any web page via an embedded Web Browser.  You can use the Web Browser to show anything that JMRI can present including:
 
-* Panels
+* Rosters
+* Operations
+* Trains
+* Tables
+* Turnouts/Points
+* Sensors
+* Routes
+* Reporters
+* Memories
+* Blocks
+* Layout Blocks
+* Lights
+* Signal Masts
+* Signal Heads
+* Locations
+* Cars
+* Engines
+* ID Tags
 
 
 Throttle Web View VS Web View Screen
@@ -846,9 +859,7 @@ In general avoid letting |ED| try to run in background.
 .. note:: 
   :class: note-ed-hidden-title
 
-  |todo|
-
-  If you are concerned about preserving the battery, there are options.  See ??? for more information.
+  If you are concerned about preserving the battery, there are options.  See the :doc:`Conserving Power <../configuration/conserving_power>` page for more information.
 
   See the `Background Alert in the Preference page <./preferences.html#background-alert>`_ for information on disabling the alert.
 
