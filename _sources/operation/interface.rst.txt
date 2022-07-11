@@ -55,50 +55,34 @@ Once you select a server the |T-S| will be automatically displayed.
 
 If you only ever connect to one |WTS| you can effectively bypass this screen by enabling the `Auto-Connect to WiThrottle Server? <../configuration/preferences.html#auto-connect-to-withrottle-server>`_ preference.
 
-IP Address and Port
-""""""""""""""""""""
-
-|todo|
-
-Enter the IP address or URI of the server in the first field, and the port in the second field, then click :guilabel:`Connect`. |ed| will attempt to connect to it, and the |T-S| will be displayed.
-
-failed connections...
-
 .. note:: 
   :class: note-ed-hidden-title
 
   See :doc:`wifi_issues` for more assistance with connection difficulties.
 
+Connection Method Options
+"""""""""""""""""""""""""
+
+IP Address and Port
+'''''''''''''''''''
+
+  Enter the IP address or URI of the server in the first field, and the port in the second field, then click :guilabel:`Connect`. |ed| will attempt to connect to it, and the |T-S| will be displayed.
 
 Discovered Servers
-""""""""""""""""""
+''''''''''''''''''
 
-|todo|
+  This is the most common way to connect.
 
-This is the most common way to connect.
+  Your |WTS| will attempt to broadcast its details so that apps like |ED| can automatically find it.  If |ED| does find it, it will be listed here.
 
-Your |WTS| will attempt to broadcast its details so that apps like |ED| can automatically find it.  If |ED| does find it, it will be listed here.
-
-To connect to any |WTS| in this list, simply click on the row.  |ed| will attempt to connect to it, and the |T-S| will be displayed.
-
-failed connections...
-
-.. note:: 
-  :class: note-ed-hidden-title
-
-  See :doc:`wifi_issues` for more assistance with connection difficulties.
-
+  To connect to any |WTS| in this list, simply click on the row.  |ed| will attempt to connect to it, and the |T-S| will be displayed.
 
 Recent servers
-""""""""""""""
+''''''''''''''
 
-|todo|
+  To connect to any |WTS| in this list, simply click on the row.  |ed| will attempt to connect to it.  If successful the |T-S| will be displayed.
 
-To connect to any |WTS| in this list, simply click on the row.  |ed| will attempt to connect to it.  If successful the |T-S| will be displayed.
-
-Note that, just because it is in this list, it does not mean that you can connect to it now. It only means that you have successfully connected to it in the past.
-
-failed connections...
+  Note that, just because it is in this list, it does not mean that you can connect to it now. It only means that you have successfully connected to it in the past.
 
 Action Bar (Connection Screen)
 """"""""""""""""""""""""""""""
@@ -114,7 +98,20 @@ See the `Action Bar`_ section of this page for more information.
 Overflow Menu (Connection Screen)
 """""""""""""""""""""""""""""""""
 
-|todo|
+The *Overflow Menu* (or simply '*Menu*') appears in the Action Bar at the top of most of the `main screens <../operation/interface.html#main-screens>`_ is normally three dots (⁞) or three bars (≡).
+It will show different options depending on a) the particular screen, b) preferences you have set and c) the state of certain elements in the app.
+
+Specific to the |C-S|, the Overflow Menu can display:
+
+* `Preferences <../configuration/preferences.html>`_
+* `View Log <../operation/interface.html#view-log-screen>`_
+* `Exit <../operation/operation.html#exiting-engine-driver>`_
+* `About <../operation/interface.html#about-screen>`_
+
+.. note:: 
+   :class: note-ed-hidden-title
+
+   See the `Overflow Menu`_  section for more information.
 
 ----
 
@@ -257,9 +254,7 @@ Speed Slider Area
    * `Switching throttle Dead Zone <../configuration/preferences.html#switching-throttle-dead-zone>`_ |br| When this preferences is set, Engine Driver will set the size of the dead zone, or detent, on the slider of the Switching/Shunting |T-S|
    * `Stop Button Vertical Margins <../configuration/preferences.html#stop-button-vertical-margins>`_ |br| When this preferences is set, Engine Driver will add the entered number of pixels to offset margins of the stop button from the speed buttons and bottom of screen
 
-   |br|
-
-   .. [#PCT] The actual amounts shown in the *Speed Indicator* will depend on the ``Speed Units`` chosen in the  `Speed Units preference <../configuration/preferences.html#speed-units>`_.
+    .. [#PCT] The actual amounts shown in the *Speed Indicator* will depend on the ``Speed Units`` chosen in the  `Speed Units preference <../configuration/preferences.html#speed-units>`_.
 
 Stop Button
 ''''''''''''''''''''''''''''''''
@@ -267,8 +262,12 @@ Stop Button
    .. image:: ../_static/images/parts/stop_button_horizontal.png
       :scale: 80 %
 
-   |todo|
+  Clicking the ``Stop`` button of a throttle will the loco or consists / multiple unit controlled by that throttle.  If the locos have momentum configured in the decoded it/they will slow then stop. 
 
+   .. note:: 
+      :class: note-ed-hidden-title
+
+      See the `Emergeny Stop Action Bar button <emergency stop button>`_ for information on stopping locos immediately, overriding the momentum setting.
 
 Speed Buttons
 ''''''''''''''''''''''''''''''''
@@ -288,14 +287,12 @@ Speed Buttons
    .. note:: 
      :class: note-ed-hidden-title
 
-     See the `Display Speed Buttons? <../configuration/preferences.html#display-speed-buttons>`_ preference for more information o enabling these buttons.
+     See the `Display Speed Buttons? <../configuration/preferences.html#display-speed-buttons>`_ preference for more information on enabling these buttons.
 
      See the `Speed Button Change Amount <../configuration/preferences.html#speed-button-change-amount>`_ preference for information on the abount that 
 
 Direction Buttons Area
 '''''''''''''''''''''''
-
-   |todo|
 
    .. image:: ../_static/images/parts/direction_buttons.png
       :scale: 80 %
@@ -304,17 +301,18 @@ Direction Buttons Area
 
    Change direction while moving preference.
 
+   .. note:: 
+     :class: note-ed-hidden-title
+
+     See the `Direction change while moving? <../configuration/preferences.html#direction-change-while-moving>`_  and `Stop on Direction chnage? <../configuration/preferences.html#stop-on-direction-change>`_ preferences for information on preferences which alter when the buttons are available and the way the they work.
+
 
 Function Buttons Scroll Area
 ''''''''''''''''''''''''''''
 
-   |todo|
+|todo|
 
-   DCC Function Buttons are displayed here.  If there are too many to display in the screen area allocated, then the area becomes scrollable (without scroll bars) so that they can all be viewed and pressed as needed.  
-   
-   All throttle layouts other the the 'Simple' layout show a *Function Buttons Scroll Area* by default.  For the 'Simple' layout it must be enable in the preferences if required.
-
-   Will show 0-26 function buttons, which show either:
+   The *Function Buttons Scroll Area* will show 0-26 function buttons, which show either:
 
    * labels provided from the roster
    * The default labels for |ed|  (which can be changed)
@@ -332,23 +330,62 @@ Function Buttons Scroll Area
 
      see IPLS
 
-     see Defualt Functions
+     see Default Functions
 
      see pause and Limit speed
 
      see the function button size preference for the simple layout
 
+DCC Function buttons
+''''''''''''''''''''
+
+|todo|
+
+   DCC Function Buttons are displayed here.  If there are too many to display in the screen area allocated, then the area becomes scrollable (without scroll bars) so that they can all be viewed and pressed as needed.  
+   
+   All throttle layouts other the the 'Simple' layout show a *Function Buttons Scroll Area* by default.  For the 'Simple' layout it must be enable in the preferences if required.
+
+   Will show from 0 to 26 DCC function buttons, which show either:
+
+   * labels provided from the roster
+   * The default labels for |ed|  (which can be changed)
+
+   For roster Entries you need to edit the Function buttons in the |WTS|, or configure |ed| to use the default labels.
+
+   .. note:: 
+     :class: note-ed-hidden-title
+
+     See the `Function Defaults Screen <Function Defaults Screen>`_ section for more information on configuring the labels and number of *default function* buttons.
+
+     See the :doc:`Function Buttons <../configuration/functions>` page for more information on the DCC Function buttons.
+
+
+Pause and Limit Speed buttons
+'''''''''''''''''''''''''''''
+
+|todo|
+
+   The *Function Button area* can also show:
+   * Pause
+   * Limit Speed
+
+In Phone Loco Sounds buttons 
+''''''''''''''''''''''''''''
+
+|todo|
+
+   The *Function Button area* can also show the IPLS buttons  (In Phone Loco Sounds)
 
 Web View Area (Throttle Web View)
 """""""""""""""""""""""""""""""""
    
-   |todo|
+|todo|
 
-   Shows a web browser in the lower half of the |T-S|.
+Shows a web browser in the lower half of the |T-S|.
 
-   Your JMRI Layout panels can be displayed here if you have configured them in JMRI. 
+Your JMRI Layout panels can be displayed here if you have configured them in JMRI. 
 
-   Anything that can be shown in the `Web View Screen <./operation/interface.html#web-view-screen>`_ can equally be shown here, just in a smaller space.
+Anything that can be shown in the `Web View Screen <./operation/interface.html#web-view-screen>`_ can equally be shown here, just in a smaller space.
 
 .. note:: 
      :class: note-ed-hidden-title

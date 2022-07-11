@@ -1269,9 +1269,7 @@ The following preferences allow you to change the way the *Device Side button* o
 Top-left button action
 '''''''''''''''''''''''''''''''''''
 
-|todo|
-
-Choose the action when you press the button
+Use this preference to choose the action when you press the Top-left button.
 
   .. note:: 
     :class: note-ed-hidden-title
@@ -1281,9 +1279,7 @@ Choose the action when you press the button
 Bottom-left button action
 '''''''''''''''''''''''''''''''''''
 
-|todo|
-
-Choose the action when you press the button
+Use this preference to choose the action when you press the Bottom-left button.
 
   .. note:: 
     :class: note-ed-hidden-title
@@ -1293,9 +1289,7 @@ Choose the action when you press the button
 Top-right button action
 '''''''''''''''''''''''''''''''''''
 
-|todo|
-
-Choose the action when you press the button
+Use this preference to choose the action when you press the Top-right button.
 
   .. note:: 
     :class: note-ed-hidden-title
@@ -1305,9 +1299,7 @@ Choose the action when you press the button
 Bottom-right button action
 '''''''''''''''''''''''''''''''''''
 
-|todo|
-
-Choose the action when you press the button
+Use this preference to choose the action when you press the Bottom-right button.
 
   .. note:: 
     :class: note-ed-hidden-title
@@ -1327,23 +1319,17 @@ The following preferences allow you to change the way the *Control Knob* on a ES
 Control Knob Zero Trim
 '''''''''''''''''''''''''''''''''''
 
-|todo|
-
-Set the Control Knob zero trim setting. Smaller is closer to counter-clockwise end-stop position.  Permitted range 0-255.
+Use this preference to set the Control Knob zero trim setting. Smaller is closer to counter-clockwise end-stop position.  Permitted range 0-255.
 
 Direction Change at end-stop
 '''''''''''''''''''''''''''''''''''
 
-|todo|
-
-Allow Loco direction to change when control knob at counter-clockwise end-stop position
+Enable this preference to allow Loco direction to change when control knob at counter-clockwise end-stop position
 
 Show disable Knob button
 ''''''''''''''''''''''''
 
-|todo|
-
-Allow the control knob to be disabled by an action button on the |T-S|
+Enable this preference to allow the control knob to be disabled by an action button on the |T-S|
 
 ----
 
@@ -1465,12 +1451,10 @@ Enable this preference to include roster selections in *Recent Locos list*.
 Roster Names in Recent Locos?
 """""""""""""""""""""""""""""
 
-|todo|
-
-Enable this preference to include Loco names from the witServer roster in *Recent list* if a matching address is found.
+Enable this preference to include Loco names from the witServer roster in *Recent list* in the |LS-S| screen.
 
 Maximum Recent Locos
-"""""""""""""""""""""""""
+""""""""""""""""""""
 
 Use the preference to set the maximum number of *Recent Locos* to show in the Recent Locos list on the *Loco Select* screen.
 
@@ -1611,12 +1595,12 @@ Initial Connection Timeout
 Use this preference to set the initial connection timeout in milliseconds.
 
 Socket Timeout
-"""""""""""""""""""""""""
+""""""""""""""
 
 Use this preference to set the socket read timeout in milliseconds.
 
 Mobile Data connection?
-"""""""""""""""""""""""""
+"""""""""""""""""""""""
 
 Use this preference to allow your device to connect to JMRI, or any |WTS|, using your phone's Mobile Data.
 

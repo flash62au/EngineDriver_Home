@@ -51,6 +51,8 @@ Conserving Power
 
 |todo|
 
+See :doc:`Conserving Power <../configuration/conserving_power>` for more information.
+
 Children's Timer
 ----------------
 
@@ -77,6 +79,4 @@ Recommendations:
 - Disable `Swipe Through Turnouts/Points? <./configuration/preferences.html#swipe-through-turnouts-points>`_ 
 - Disable `Swipe Through Routes? <./configuration/preferences.html#swipe-through-routes>`_
 - Disable the `Emergency Stop button? <./configuration/preferences.html#throttle-screen-action-bar-preferences>`_
-
-The following preferences allow you to change the way the *Children's (Timer)* behave.
 

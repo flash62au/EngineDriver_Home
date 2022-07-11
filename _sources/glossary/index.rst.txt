@@ -24,7 +24,7 @@ Glossary
 Command Station / DCC Command Station / DCC Base Station
   |todo|
 
-Consist  / Multiple Units
+Consist / Multiple Units
   Multiple locos hauling a singe train
 
 DC
