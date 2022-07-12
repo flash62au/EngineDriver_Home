@@ -282,14 +282,14 @@ Speed Buttons
    * the :guilabel:`++` will **increase** the throttle speed by the `Speed Button Change Amount <../configuration/preferences.html#speed-button-change-amount>`_.
    * the :guilabel:`--` will **decrease** the throttle speed by the `Speed Button Change Amount <../configuration/preferences.html#speed-button-change-amount>`_.
 
-   For the Horizontal Sliders only, The position of these buttons in relation to the speed sliders (the space between), can be altered with the `Speed Slider Margin <configuration/preferences.html#throttle-speed-slider-margin>`_ preference.
+   For the Horizontal Sliders only, The position of these buttons in relation to the speed sliders (the space between), can be altered with the :ref:`Speed Slider Margin <configuration/preferences:throttle speed slider margin>` preference.
 
    .. note:: 
      :class: note-ed-hidden-title
 
-     See the `Display Speed Buttons? <../configuration/preferences.html#display-speed-buttons>`_ preference for more information on enabling these buttons.
+     See the :ref:`Display Speed Buttons? <configuration/preferences:display speed buttons?>` preference for more information on enabling these buttons.
 
-     See the `Speed Button Change Amount <../configuration/preferences.html#speed-button-change-amount>`_ preference for information on the abount that 
+     See the :ref:`Speed Button Change Amount <configuration/preferences:speed button change amount>` preference for information on the abount that 
 
 Direction Buttons Area
 '''''''''''''''''''''''
@@ -297,27 +297,23 @@ Direction Buttons Area
    .. image:: ../_static/images/parts/direction_buttons.png
       :scale: 80 %
 
-   Each Throttle on the |T-S| will display :guilabel:`Forward` and :guilabel:`Reverse` direction buttons, depending on the ``Throttle Screen Layout`` in the  `Throttle Screen Layout <../configuration/preferences.html#throttle-screen-layout>`_ preference.  'Shunting/Switching' layouts do not show the direction buttons.
+   Each Throttle on the |T-S| will display :guilabel:`Forward` and :guilabel:`Reverse` direction buttons, depending on the ``Throttle Screen Layout`` in the  :ref:`Throttle Screen Layout <configuration/preferences:throttle screen layout>` preference.  'Shunting/Switching' layouts do not show the direction buttons.
 
    Change direction while moving preference.
 
    .. note:: 
      :class: note-ed-hidden-title
 
-     See the `Direction change while moving? <../configuration/preferences.html#direction-change-while-moving>`_  and `Stop on Direction chnage? <../configuration/preferences.html#stop-on-direction-change>`_ preferences for information on preferences which alter when the buttons are available and the way the they work.
+     See the :ref:`Direction change while moving? <configuration/preferences:direction change while moving?>`  and :ref:`Stop on Direction change? <configuration/preferences:stop on direction change?>` preferences for information on preferences which alter when the buttons are available and the way the they work.
 
 
 Function Buttons Scroll Area
 ''''''''''''''''''''''''''''
 
-|todo|
+   The *Function Buttons Scroll Area* will show form 0 (zero) to 26 function buttons depending on a number of factors. Each button will show either:
 
-   The *Function Buttons Scroll Area* will show 0-26 function buttons, which show either:
-
-   * labels provided from the roster
+   * labels provided from the roster, which can be individually specfied for each loco in the roster
    * The default labels for |ed|  (which can be changed)
-
-   For roster Entries you need to edit the Function buttons in the |WTS|, or configure |ed| to use the default labels.
 
    The *Function Button area* can also show:
 
@@ -325,16 +321,12 @@ Function Buttons Scroll Area
    * Pause
    * Limit Speed
 
+   The *Function Buttons Scroll Area* is shown by default on all Throttle Screen layouts except ``Simple``.  It can be enable fot the ``Simple`` layout
+
    .. note:: 
      :class: note-ed-hidden-title
 
-     see IPLS
-
-     see Default Functions
-
-     see pause and Limit speed
-
-     see the function button size preference for the simple layout
+     See the :ref:`Function Button Area Size <configuration/preferences:function buttons area size>` preference for information on how to show the *Function Button Scroll Area* on the simple layout.
 
 DCC Function buttons
 ''''''''''''''''''''
@@ -345,12 +337,19 @@ DCC Function buttons
    
    All throttle layouts other the the 'Simple' layout show a *Function Buttons Scroll Area* by default.  For the 'Simple' layout it must be enable in the preferences if required.
 
-   Will show from 0 to 26 DCC function buttons, which show either:
+   Will show from 0 (zero) to 26 DCC function buttons, depending on a number of factors. Each button will show either:
 
-   * labels provided from the roster
+   * labels provided from the roster, which can be individually specfied for each loco in the roster
    * The default labels for |ed|  (which can be changed)
 
-   For roster Entries you need to edit the Function buttons in the |WTS|, or configure |ed| to use the default labels.
+   
+   If the loco (or first loco of a consist/multiple unit) was seleted from the |WTS| roster, then (by default) the number of functions and labels on the buttons will be whatever is configured for that loco in the |WTS|.  This is also trun if the loco is selected from the Recent Locos list or the Recent Consist/Multiple Units list.
+   
+   If the loco (or first loco of a consist/multiple unit) was added by entering its DCC Address, then the number of functions and labels on the buttons will be whatever is configured in |ED| in the Default Functions.
+
+   The behaviour of the Function Buttons for locos selected from the |WTS| roster can be overridden with the :ref:`Use default function labels? <configuration/preferences:use default function labels?>` preference.  If this is enabled, the locos selected from the |WTS| roster will also show the Default Functions labels.
+
+   Clicking on any button will instruct the loco to activate that DCC Function in the loco.  By default this is only sent to the Lead loco, however this can be overridden in a number of differnt ways.
 
    .. note:: 
      :class: note-ed-hidden-title
@@ -359,6 +358,7 @@ DCC Function buttons
 
      See the :doc:`Function Buttons <../configuration/functions>` page for more information on the DCC Function buttons.
 
+     For labels from Roster Entries you need to edit the Function buttons in the |WTS|, or configure |ed| to use the default labels.
 
 Pause and Limit Speed buttons
 '''''''''''''''''''''''''''''
@@ -369,12 +369,29 @@ Pause and Limit Speed buttons
    * Pause
    * Limit Speed
 
+  These are optional buttons 
+
+
+   .. note:: 
+     :class: note-ed-hidden-title
+
+     See the :ref:`'Limit Speed' & 'Pause' button Preferences <configuration/preferences:'Limit Speed' & 'Pause' button Preferences>` section on the Preferences page for more information on these buttons.
+
+
 In Phone Loco Sounds buttons 
 ''''''''''''''''''''''''''''
 
 |todo|
 
    The *Function Button area* can also show the IPLS buttons  (In Phone Loco Sounds)
+
+  These are optional buttons
+
+   .. note:: 
+     :class: note-ed-hidden-title
+
+     See the `In Phone Loco Sounds (IPLS) <../configuration/ipls.html>`_ page for more information on the IPLS buttons
+
 
 Web View Area (Throttle Web View)
 """""""""""""""""""""""""""""""""

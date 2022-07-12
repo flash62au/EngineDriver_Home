@@ -19,7 +19,12 @@ DCC Functions
 * Latching
 * Non Latching
 
+
 * default function buttons
+
+  * Labels
+  * Order
+  * override |WTS| roster labels
 
 Linking Functions to IPLS buttons
 =================================
