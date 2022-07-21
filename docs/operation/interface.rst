@@ -312,7 +312,7 @@ Function Buttons Scroll Area
 
    The *Function Buttons Scroll Area* will show form 0 (zero) to 26 function buttons depending on a number of factors. Each button will show either:
 
-   * labels provided from the roster, which can be individually specfied for each loco in the roster
+   * Labels provided from the roster, which can be individually specfied for each loco in the roster
    * The default labels for |ed|  (which can be changed)
 
    The *Function Button area* can also show:
@@ -335,11 +335,11 @@ DCC Function buttons
 
    DCC Function Buttons are displayed here.  If there are too many to display in the screen area allocated, then the area becomes scrollable (without scroll bars) so that they can all be viewed and pressed as needed.  
    
-   All throttle layouts other the the 'Simple' layout show a *Function Buttons Scroll Area* by default.  For the 'Simple' layout it must be enable in the preferences if required.
+   All throttle layouts other than the 'Simple' layout show a *Function Buttons Scroll Area* by default.  For the 'Simple' layout it must be enable in the preferences if required.
 
    Will show from 0 (zero) to 26 DCC function buttons, depending on a number of factors. Each button will show either:
 
-   * labels provided from the roster, which can be individually specfied for each loco in the roster
+   * Labels provided from the roster, which can be individually specfied for each loco in the roster
    * The default labels for |ed|  (which can be changed)
 
    

@@ -21,13 +21,13 @@ Engine Driver
 
 ----
   
-|jedt|, more commonly known as |ed|, is a free Android application that connects to a WiThrottle™ [#WIT]_ Server to control model trains. 
+|JEDT|, more commonly known as |ed|, is a free Android application that connects to a WiThrottle™ [#WIT]_ Server to control model trains. 
 
 .. image:: ./_static/images/screenshots/throttle_vertical_outline.png
    :scale: 8 %
    :align: right
 
-Supported servers include `JMRI <https://jmri.org/>`_, `DCC-EX <https://dcc-ex.com/>`_, `MRC Prodigy WiFi <https://www.modelrectifier.com/category-s/332.htm>`_, `Digitrax LnWi <https://www.digitrax.com/products/wireless/lnwi/>`_, and `WifiTrax (for NCE) <http://wifitrax.com/products/product-WFD-30-detail.html>`_. 
+Supported servers include `JMRI <https://jmri.org/>`_, `DCC-EX Command Station <https://dcc-ex.com/>`_, `MRC Prodigy WiFi <https://www.modelrectifier.com/category-s/332.htm>`_, `Digitrax LnWi <https://www.digitrax.com/products/wireless/lnwi/>`_, and `WifiTrax (for NCE) <http://wifitrax.com/products/product-WFD-30-detail.html>`_. 
 Once connected, you can control the speed direction and up to 29 DCC functions of your DCC enabled locomotives (locos). From one to six locos or consists / multiple units can be controlled at the same time.  
 You can easily create and edit on-the-fly consists / multiple units (software-defined). 
 You can also control layout power, turnouts/points, routes, and access JMRI web panels and windows.
@@ -52,5 +52,5 @@ You only need to interact with JMRI and/or your DCC command station directly whe
 
 ----
 
-.. [#WIT] 'WiThrottle' is a trademark owned by Brett Hoffman. It is also an `iOS app <https://www.withrottle.com/html/home.html>`_ developed by Brett Hoffman which has similar capabilities to |ed|. |br|\ The 'WiThrottle protocol' is a communications protocol developed by Brett Hoffman.  It is used JMRI, |ed|, the wiThrottle app and a number of other apps and DCC Command Stations. |br|\ References in this website to a '|WTS|', refer to a server that can communicate using the 'WiThrottle protocol'.
+.. [#WIT] 'WiThrottle' is a trademark owned by Brett Hoffman. It is also an `iOS app <https://www.withrottle.com/html/home.html>`_ developed by Brett Hoffman which has similar capabilities to |ed|. |br|\ The 'WiThrottle protocol' is a communications protocol developed by Brett Hoffman.  It is used by JMRI, |ed|, the wiThrottle app and a number of other apps and DCC Command Stations. |br|\ References in this website to a '|WTS|', refer to a server that can communicate using the 'WiThrottle protocol'.
 
