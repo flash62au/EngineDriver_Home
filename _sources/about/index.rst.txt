@@ -16,7 +16,7 @@ What is 'Engine Driver'
 Supported |WTSS| include:
 
 * `JMRI <https://jmri.org/>`_,
-*  `DCC-EX <https://dcc-ex.com/>`_
+*  `DCC++EX Command Station <https://dcc-ex.com/>`_
 *  `MRC Prodigy WiFi <https://www.modelrectifier.com/category-s/332.htm>`_
 *  `Digitrax LnWi <https://www.digitrax.com/products/wireless/lnwi/>`_
 *  `WifiTrax (for NCE) <http://wifitrax.com/products/product-WFD-30-detail.html>`_ 
@@ -46,7 +46,7 @@ Info on minSDKVersion available in the `Engine Driver manifest <https://develope
 What's a 'WiThrottle Server'?
 -----------------------------
 
-WiThrottle stands for 'WiFi Throttle', and a 'WiThrottle Server' is just software running on your JMRI computer, DCC-EX Command Station, or dedicated device. It's called a 'Server' because it allows you to connect to it and it 'serves', or services, requests from another application. That application is called a 'Client'. So in this case |ed| is the client.
+WiThrottle stands for 'WiFi Throttle', and a 'WiThrottle Server' is just software running on your JMRI computer, DCC++EX Command Station, or dedicated device. It's called a 'Server' because it allows you to connect to it and it 'serves', or services, requests from another application. That application is called a 'Client'. So in this case |ed| is the client.
 
 The WiThrottle Protocol itself is a standard for how WiFi throttles can communicate with the WiThrottle Server, much like the DCC standard is a standard for how data packets communicate with decoders. What this means for you, is that |ed| can talk to any WiThrottle compatible server, which in turn can talks to your DCC encoders in your locos.
 
@@ -57,7 +57,7 @@ The WiThrottle Protocol itself is a standard for how WiFi throttles can communic
 
 ----
 
-.. [#WIT] 'WiThrottle' is a trademark owned by Brett Hoffman. It is also an `iOS app <https://www.withrottle.com/html/home.html>`_ developed by Brett Hoffman which has similar capabilities to Engine Driver. |br|\ The 'WiThrottle protocol' is a communications protocol developed by Brett Hoffman.  It is used JMRI, |ed|, the wiThrottle app and a number of other apps and DCC Command Stations. |br|\ References in this website to a '|WTS|', refer to a server that can communicate using the 'WiThrottle protocol'.
+.. [#WIT] 'WiThrottle' is a trademark owned by Brett Hoffman. It is also an `iOS app <https://www.withrottle.com/html/home.html>`_ developed by Brett Hoffman which has similar capabilities to Engine Driver. |br|\ The 'WiThrottle protocol' is a communications protocol developed by Brett Hoffman.  It is used by JMRI, |ed|, the wiThrottle app and a number of other apps and DCC Command Stations. |br|\ References in this website to a '|WTS|', refer to a server that can communicate using the 'WiThrottle protocol'.
 
 Roadmap
 -----------
@@ -75,7 +75,7 @@ See the :doc:`/contact/index` page if you are having problems or wish to make a 
 Alternates to Engine Driver
 ---------------------------
 
-|ed| is not the only app that can connect to JMRI, |WTSS| or DCC++EX, so it is worth your time to investigate to alternates.
+|ed| is not the only app that can connect to JMRI, |WTSS| or DCC++EX Command Station, so it is worth your time to investigate to alternates.
 
 See the `JMRI WiThrottle page <https://www.jmri.org/help/en/package/jmri/jmrit/withrottle/UserInterface.shtml>`_ for a list of similar or related apps.
 

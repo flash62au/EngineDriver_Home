@@ -1086,6 +1086,13 @@ Choose the option that best supports your gamepad, 'None' to disable gamepad sup
 
    See the `Gamepads page <../operation/gamepads.html#example-gamepads>`_ page for more information on selecting a gamepad.
 
+Only One Gamepad?
+'''''''''''''''''
+
+|todo|
+
+If enabled Engine Driver will not check for multiple gamepads.
+
 Test Gamepad settings now!
 ''''''''''''''''''''''''''
 
