@@ -176,7 +176,7 @@ There three ways select a loco:
 
   If the loco you want to control is in the list, simply click on it and you will be taken back to the |T-S| with that loco selected.
 
-  The Loco you want to control needs to be in the roster of the |WTS|.  Not all |WTS| support rosters.  Refer to the JMRI documentation or you |WTS| device's documentation for creating a roster.
+  For this to be possible, the Loco you want to control needs to be in the roster of the |WTS|.  Not all |WTS| support rosters.  Refer to the JMRI documentation or your |WTS| device's documentation for creating a roster.
 
   Also see `Locomotive Icons <#locomotive-icons-in-the-roster>`_ below.
 
@@ -203,7 +203,7 @@ There two ways create a Consist / Multiple Unit train:
 
   Adding additional locos the Consist / Multiple Unit train is identical to the process of selecting a single loco.  Simply click on the :guilabel:`Select` button, which will be showing the name or address of any locos already selected.
 
-  After selecting each additional loco, you the Consist Edit screen will be shown. This allows you to:
+  After selecting each additional loco, the Consist Edit screen will be shown. This allows you to:
 
   * Change the facing of each loco (except the front loco)
   * Change the order of the locos in the Consist / Multiple Unit
@@ -760,6 +760,10 @@ Overflow Menu (Routes Screen)
 
 Panels and Web Pages
 ^^^^^^^^^^^^^^^^^^^^^^
+
+.. image:: ../_static/images/screenshots/web_view_screen.png
+  :align: right
+  :scale: 12%
 
 |ed| can show any web page via an embedded Web Browser.  You can use the Web Browser to show anything that JMRI can present including:
 
