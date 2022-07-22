@@ -663,7 +663,6 @@ Hide if no user name? preference
 Action Bar (Routes Screen)
 """"""""""""""""""""""""""
 
-
 .. image:: ../_static/images/parts/action_bar.png
   :align: right
   :scale: 33%
@@ -780,7 +779,6 @@ Tap on any of the Open Windows to expand its view.  You can then resize the pane
 
 Action Bar (Web View Screen)
 """"""""""""""""""""""""""""
-
 
 .. image:: ../_static/images/parts/action_bar.png
   :align: right
@@ -899,7 +897,7 @@ Select by DCC Address
 
 Shown if you select ``DCC Address`` in the `Selection Method`_.
 
-
+You can enter the loco's DCC address (verify short or long), and press :guilabel:`Acquire` to select the loco.  You will then be taken back to the |T-S| with that loco selected.
 
 Select from Sever Roster
 """"""""""""""""""""""""
@@ -908,60 +906,83 @@ Select from Sever Roster
 
 Shown if you select ``Server Roster`` in the `Selection Method`_.
 
+If the loco you want to control is in the list, simply click on it and you will be taken back to the |T-S| with that loco selected.
 
-Filter
+For this to be possible, the Loco you want to control needs to be in the roster of the |WTS|.  Not all |WTS| support rosters.  Refer to the JMRI documentation or your |WTS| device's documentation for creating a roster.
 
-Icons
+  Filter
+
+  Icons
+
+  Icons - adding a local image
+
+  Long Press to see details... (and add icon)
 
 Select from Recent Locos List
 """""""""""""""""""""""""""""
 
 |todo|
 
-
 Shown if you select ``Recent Locos`` in the `Selection Method`_.
 
-Icons
+|ed| remembers the last 10 locos that you have selected. (That number can be increased or decreased with `Maximum Recent Locos <../configuration/preferences.html#maximum-recent-locos>`_ preference.)
+
+If the loco you want to control to is in the list, simply click on it and you will be taken back to the |T-S| with that loco selected.
+
+  Icons - From Roster
+
+  Long Press to see details...
+
+  Swipe to remove entry...
 
 Select from Recent Consists List
 """"""""""""""""""""""""""""""""
 
 |todo|
 
-
 Shown if you select ``Recent Consists`` in the `Selection Method`_.
 
+Selecting a Consist / Multiple Unit in the Recent Consists list will automatically add all the remembered locos, including their facing.
+
+  Swipe to remove entry...
 
 Select Loco On Screen Buttons
 """""""""""""""""""""""""""""
 
-|todo|
-
 Acquire
 '''''''
 
-  |todo|
+  Shown if you select ``DCC Address`` in the `Selection Method`_.
+
+  After you enter a loco's DCC address you press :guilabel:`Acquire` to select the loco.  You will then be taken back to the |T-S| with that loco selected.
 
 Release
 '''''''
 
-  |todo|
+  Shown if you have one or locos already selected (acquired) for that throttle.
+
+  Clicking this button will release all the locos currently controlled by the throttle.
 
 Edit Order & Facing
 '''''''''''''''''''
 
-  |todo|
+  Shown if you have one or locos already selected (acquired) for that throttle.
+
+  Clicking this button will show the `<Consist Edit Screen>`_.
 
 Edit Lights
 '''''''''''
 
-  |todo|
+  Shown if you have one or locos already selected (acquired) for that throttle.
+
+  Clicking this button will show the `<Consist Lights Edit Screen>`_.
 
 Loco Sounds
 ''''''''''''
 
-  |todo|
+  Shown if you have one or locos already selected (acquired) for that throttle.
 
+  Clicking this button will show `<In Phone Loco Sounds Screen>`_.
 
 ----
 
