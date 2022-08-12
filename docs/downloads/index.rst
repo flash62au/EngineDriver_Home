@@ -21,6 +21,7 @@ Current published version
 Older or other versions
 -----------------------
 
+* `EngineDriver-2.33.152.apk alpha <../_static/apk/EngineDriver-2.33.152.apk>`_
 * `EngineDriver-2.31.139.apk <../_static/apk/EngineDriver-2.31.139.apk>`_
 * `EngineDriver-2.32.149.apk <../_static/apk/EngineDriver-2.32.149.apk>`_
 * `EngineDriver-2.31.139.apk <../_static/apk/EngineDriver-2.31.139.apk>`_

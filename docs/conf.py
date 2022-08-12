@@ -114,9 +114,6 @@ todo_include_todos = False
 
 html_css_files = [
     'css/engine_driver_home_theme.css',
-#    'css/layout.css',
-#    'css/roundslider.min.css',
-#    'css/throttle.css'
 ] 
 
 html_js_files = [

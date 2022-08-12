@@ -15,7 +15,7 @@ if "%1" == "" goto help
 
 if "%1" == "github" (
     %SPHINXBUILD% -M html %SOURCEDIR% %BUILDDIR% %SPHINXOPTS%
-	echo "web_x_test" /y > docs\_build\html\CNAME
+	echo "EngineDriver_Home" /y > docs\_build\html\CNAME
 	echo "" /y > docs\_build\html\.nojekyll
     goto end
 )
@@ -24,7 +24,7 @@ if "%1" == "clean" (
     echo.CLEAN BUILD with -E -a
 REM    %SPHINXOPTS% = "-E -a"
     %SPHINXBUILD% -M html %SOURCEDIR% %BUILDDIR% -E -a
-	echo "web_x_test" /y > docs\_build\html\CNAME
+	echo "EngineDriver_Home" /y > docs\_build\html\CNAME
 	echo "" /y > docs\_build\html\.nojekyll
     goto end
 )
