@@ -39,7 +39,7 @@ Other devices require similar steps, but the mechanism to change the ``mode`` ma
   
     * Turn your gamepad OFF by holding the Start/Power button for about 5 seconds until the LED goes out and stays out. 
     * Move the slide switch on the side to the ``GAME`` position (towards the joystick). 
-    * Hold down the button specified in your gamepad instructions for MTK mode. Typically this is the :guilabel:`Y` button. While still holding that button down, press the Start/Power button until the LED turns on. Release the buttons as soon as the LED turns on. |br|\ |br|\ This configuration procedure should only be required once. In the future your gamepad should be in MTK mode when you turn it on. |br|\  *(This not true of the MagicSeeR1 which must be set every time you turn it on)* |br|\ |br|\
+    * Hold down the button specified in your gamepad instructions for MTK mode. (Typically this is the :guilabel:`Triangle` button but can be different on different devices.) While still holding that button down, press the Start/Power button until the LED turns on. Release the buttons as soon as the LED turns on. |br|\ |br|\ This configuration procedure should only be required once. In the future your gamepad should be in MTK mode when you turn it on. |br|\  *(This not true of the MagicSeeR1 which must be set every time you turn it on)* |br|\ |br|\
   
   * For the **MagicSeeR1** gamepads (Mode B)
   
