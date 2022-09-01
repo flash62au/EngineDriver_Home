@@ -59,7 +59,7 @@ Running Engine Driver with the Gamepad
 * In the |ed|
   * Select a gamepad type. |br|\ In the Gamepad section of |EDs| Preferences, select a gamepad corresponding to the gamepad mode you configured on the device (above).
 
-    * For the **Mocute 032** gamepads we recommend ``MTK-rotate`` for MKT mode, and ``iCade+DPAD-rotate`` for iCade mode. 
+    * For the **Mocute 032** gamepads we recommend ``Mocute MTK`` for MKT mode, (or ``Mocute iCade+DPAD`` for iCade mode). 
     * For the **MagicSeeR1** you must use ``MagicSeeR1 Android-Game B``.
 
   * You can optionally change what the gamepad buttons do. (`See Gamepad Configuration <../configuration/gamepads.html>`_ for details.)
