@@ -119,7 +119,7 @@ Q. The JMRI loco list is too long, I can't find my locos easily
 
   A. You can use the filter option to reduce the list 
 
-|todo|
+  .. todo:: Selecting locomotives to control
 
 Q. How do I work with Consists
 
@@ -127,7 +127,7 @@ Q. How do I work with Consists
 
   |ed| can create consists on-the-fly by simply select multiple locos, one after the other...
 
-  |todo|
+  .. todo:: How do I work with Consists
 
   Note: Make sure that the ``Drop Loco before acquire?`` preference is set to 'No'.
 
@@ -135,13 +135,13 @@ Q. How do I work with Consists
  
   Note you can't create a DCC 'Advanced Consists' (CV19) with |ed|, but you can control one if it has already been setup.
 
-  |todo|
+  .. todo:: DCC 'Advanced Consists' (CV19)
 
   Remember that this type of consist can cause problems later if the loco has not been removed from the consist first and you want to control it as an individual loco. 
 
   A3. JMRI Consists
 
-  |todo|
+  .. todo:: JMRI Consists
 
   Creating consists in JMRI effectively create DCC 'Advanced Consists' (CV19) and appear in the loco list in |ed| much like any other loco. 
 
@@ -295,24 +295,24 @@ Q. I don't like the direction buttons in that order
 Hiding the title bar and navigation bar
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-|todo|
+.. todo:: Hiding the title bar and navigation bar
 
 Immersive mode (Full Screen)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-|todo|
+.. todo:: Immersive mode (Full Screen)
 
 Swiping up or Down
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-|todo|
+.. todo:: Swiping up or Down
 
 ----
 
 Showing the web page at the bottom of the throttle screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-|todo|
+.. todo:: Showing the web page at the bottom of the throttle screen
 
 See the Web Throttle view 
 
@@ -323,14 +323,14 @@ See the Web Throttle view preference
 Loco selection screen
 --------------------------------------------
 
-|todo|
+.. todo:: Loco selection screen
 
 ----
 
 Locos in the roster not showing
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-|todo|
+.. todo:: Locos in the roster not showing
 
   A1. check you don't have a filter 
 
@@ -349,7 +349,7 @@ Q. You can't remove test server by swiping right
 Changing the turnouts screen
 --------------------------------------------
 
-|todo|
+.. todo:: Changing the turnouts screen
 
 Conserving power on your phone/tablet
 -------------------------------------

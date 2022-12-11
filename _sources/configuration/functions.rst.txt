@@ -6,12 +6,12 @@ Function Buttons
 
 ----
 
-|todo|
+.. todo:: Function Buttons
 
 DCC Functions
 =============
 
-|todo|
+.. todo:: DCC Functions
 
 * Roster
 * DCC Addresses
@@ -29,18 +29,18 @@ DCC Functions
 Linking Functions to IPLS buttons
 =================================
 
-|todo|
+.. todo:: Linking Functions to IPLS buttons
 
 Functions and Gamepads
 ======================
 
-|todo|
+.. todo:: Functions and Gamepads
 
 Advanced Consist Function Mapping
 =================================
 
 
-|todo|
+.. todo:: Advanced Consist Function Mapping
 
 Which style of rules to follow in a consist when function buttons are pressed.
 

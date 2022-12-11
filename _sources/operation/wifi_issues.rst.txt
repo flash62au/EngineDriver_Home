@@ -19,7 +19,7 @@ Below are several common problems.
 Wrong Network
 -------------
 
-|todo|
+.. todo:: Wrong Network
 
 Recent versions of Android have a very confusing *feature*, sometimes called 'Smart Network Switching', that will ignore a connected WiFi network if that network cannot reach the Internet. 
 
@@ -32,7 +32,7 @@ If you missed the prompt, you can 'forget' the network, and reenter your WiFi cr
 Firewalls
 ---------
 
-|todo|
+.. todo:: Firewalls
 
 Your PC's firewall software can prevent |ed| from connecting. You may need to add an exception in your firewall software for JMRI or disable the firewall to allow |ed| to connect.
 
@@ -60,7 +60,7 @@ Workaround: If you are unable to turn off the feature, you can enable 'Airplane 
 Disconnections
 --------------
 
-|todo|
+.. todo:: Disconnections
 
 
 |ed| and/or the Android device can occasionally lose the connection even after it successfully connected.  There can be a lot of causes.  If ED does lose connection it will buzz, vibrate and take you to *Reconnecting Screen*.   It will repeatedly and indefinitely attempt to reconnect.

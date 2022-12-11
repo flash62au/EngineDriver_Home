@@ -89,13 +89,13 @@ Multiple gamepads
 
 |ed| supports up to 4 gamepads at the same time.  All the gamepads must be of the same type.
 
-|todo| As of version 4.???, by default |ed| assumes you will only use 1 gamepad.  To allow for more than one you must...
+.. todo:: As of version 4.???, by default |ed| assumes you will only use 1 gamepad.  To allow for more than one you must...
 
 As you connect each gamepad, you will be force to go to the gamepad test screen.  The new gamepad will be automatically assigned to the next throttle that does not have a gamepad assigned to it.
 
 An indicator ``1``, ``2`` etc. will show near the throttle speed to indicate which throttle each gamepad is controlling.  Only one gamepad can be active on a single throttle at one time.
 
-|todo| If you turn the gamepad off...
+.. todo:: If you turn the gamepad off...
 
 Example Gamepads 
 -----------------
@@ -153,7 +153,7 @@ Not Recommended Gamepads
 
 These work, but have issues which make them not recommended. 
 
-|todo|
+.. todo:: Not Recommended Gamepads
 
 Unsupported Gamepads
 ^^^^^^^^^^^^^^^^^^^^

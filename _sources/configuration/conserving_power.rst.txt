@@ -9,7 +9,7 @@ Conserving Power
 
 ----
 
-|todo|
+.. todo:: Conserving Power
 
 if you  Android device/phone runs out of power too quickly you can try the folowing things to help conserve power:
 
