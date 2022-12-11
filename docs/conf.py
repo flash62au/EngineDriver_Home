@@ -94,19 +94,19 @@ html_theme_options = {
     'includehidden': True,
 #    'titles_only': True,
     'collapse_navigation': False,
-#    'navigation_depth': -1 
+    'navigation_depth': -1 
 } 
 
 html_context = {
     'display_github': True,
     'github_user': 'flash62au',
     'github_repo': 'EngineDriver_Home',
-    'github_version': 'main/docs/',
+    'github_version': 'main/docs/', 
 } 
 
 #leave this off to have todos invisible, set to true to render them and make the easy to see
 #A list of all the todos in the document can be shown in the about page
-todo_include_todos = False
+todo_include_todos = True
 
 #html_additional_pages = {
 #    'exwebthrottle': 'exwebthrottle/index.html',
