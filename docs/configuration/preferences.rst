@@ -851,7 +851,7 @@ Maximum throttle Change
 
 This preference allows you to set the Maximum allowed throttle change in % on all the throttles on the |T-S|.  
 
-|todo| *Can't remember when this is used.*
+.. todo::  Maximum throttle Change *Can't remember when this is used.*
 
 Speed button Change Amount
 """"""""""""""""""""""""""
@@ -935,7 +935,7 @@ These preferences allow for change the way DCC functions will behave in a consis
 Consist Functions - Follow Rule Style
 """""""""""""""""""""""""""""""""""""
 
-|todo|
+.. todo::  Consist Functions - Follow Rule Style
 
 See the `Advanced Consist Function Mapping <./configuration/functions.html#advanced-consist-function-mapping>` section of the Functions page for more information.
 
@@ -954,7 +954,7 @@ Options
 Selective Lead Unit Sound?
 """"""""""""""""""""""""""
 
-|todo|
+.. todo:: Selective Lead Unit Sound?
 
 Send Horn/Bell functions to only the Lead unit in an EngineDriver consist. 
 
@@ -963,21 +963,21 @@ Send Horn/Bell functions to only the Lead unit in an EngineDriver consist.
 Always treat F1 as Sound?
 """""""""""""""""""""""""
 
-|todo|
+.. todo:: Always treat F1 as Sound?
 
 For the 'Selective Lead Unit Sound' option
 
 Always treat F2 as Sound?
 """""""""""""""""""""""""
 
-|todo|
+.. todo:: Always treat F2 as Sound?
 
 For the 'Selective Lead Unit Sound' option
 
 If All matches Fail Action
 """"""""""""""""""""""""""
 
-|todo|
+.. todo:: If All matches Fail Action
 
 Which locos in the consist should react to the function buttons if none of the rules below are meet.
 
@@ -986,7 +986,7 @@ For the 'Simple' and 'Complex' options only.
 Headlight specific String 1
 """""""""""""""""""""""""""
 
-|todo|
+.. todo:: Headlight specific String 1
 
 Comma separated string(s) to look for in the function labels of the locos in the consist to recognise the \'Headlight\' function (normally F0).
 
@@ -995,7 +995,7 @@ For the 'Simple' and 'Complex' options only.
 Headlight specific Action 1
 """""""""""""""""""""""""""
 
-|todo|
+.. todo:: Headlight specific Action 1
 
 Which locos in the consist should react to the found headlight functions.
 
@@ -1004,14 +1004,14 @@ For the 'Simple' and 'Complex' options only.
 String 2, 3, 4, 5
 """""""""""""""""
 
-|todo|
+.. todo:: String 2, 3, 4, 5
 
 For the 'Simple' and 'Complex' options only.
 
 Action for String 2, 3, 4, 5
 """"""""""""""""""""""""""""
 
-|todo|
+.. todo:: Action for String 2, 3, 4, 5
 
 For the 'Simple' and 'Complex' options only.
 
@@ -1089,7 +1089,7 @@ Choose the option that best supports your gamepad, 'None' to disable gamepad sup
 Only One Gamepad?
 '''''''''''''''''
 
-|todo|
+.. todo:: Only One Gamepad?
 
 If enabled Engine Driver will not check for multiple gamepads.
 
@@ -1819,7 +1819,7 @@ When enabled:
 Manual host specific import/export
 """"""""""""""""""""""""""""""""""
 
-|todo|
+.. todo:: Manual host specific import/export
 
 'Import' or 'Export' your preferences for a specific host to the  ``/Android/data/jmri.enginedriver/files/`` folder. The host must be in your recent connection list.
 

@@ -15,13 +15,13 @@ Advanced Operation
 
 ----
  
-|todo|
+.. todo:: Advanced Operation 
 
 
 Consist Follow Functions
 ------------------------
 
-|todo|
+.. todo:: Consist Follow Functions
 
 * see Functions in the Configuration
 
@@ -29,18 +29,18 @@ Consist Follow Functions
 Direction Buttons
 -----------------
 
-|todo|
+.. todo:: Direction Buttons
 
 
 Renaming Direction Buttons
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-|todo|
+.. todo:: Renaming Direction Buttons
 
 Swapping Direction Buttons
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-|todo|
+.. todo:: Swapping Direction Buttons
 
 * Preferences
 * long press
@@ -50,7 +50,7 @@ different settings
 Conserving Power 
 ^^^^^^^^^^^^^^^^
 
-|todo|
+.. todo:: Conserving Power 
 
 See :doc:`Conserving Power <../configuration/conserving_power>` for more information.
 

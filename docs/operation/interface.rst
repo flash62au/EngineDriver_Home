@@ -312,7 +312,7 @@ Function Buttons Scroll Area
 
    The *Function Buttons Scroll Area* will show form 0 (zero) to 26 function buttons depending on a number of factors. Each button will show either:
 
-   * Labels provided from the roster, which can be individually specfied for each loco in the roster
+   * Labels provided from the roster, which can be individually specified for each loco in the roster
    * The default labels for |ed|  (which can be changed)
 
    The *Function Button area* can also show:
@@ -331,7 +331,7 @@ Function Buttons Scroll Area
 DCC Function buttons
 ''''''''''''''''''''
 
-|todo|
+.. todo:: DCC Function buttons
 
    DCC Function Buttons are displayed here.  If there are too many to display in the screen area allocated, then the area becomes scrollable (without scroll bars) so that they can all be viewed and pressed as needed.  
    
@@ -339,11 +339,11 @@ DCC Function buttons
 
    Will show from 0 (zero) to 26 DCC function buttons, depending on a number of factors. Each button will show either:
 
-   * Labels provided from the roster, which can be individually specfied for each loco in the roster
+   * Labels provided from the roster, which can be individually specified for each loco in the roster
    * The default labels for |ed|  (which can be changed)
 
    
-   If the loco (or first loco of a consist/multiple unit) was seleted from the |WTS| roster, then (by default) the number of functions and labels on the buttons will be whatever is configured for that loco in the |WTS|.  This is also trun if the loco is selected from the Recent Locos list or the Recent Consist/Multiple Units list.
+   If the loco (or first loco of a consist/multiple unit) was selected from the |WTS| roster, then (by default) the number of functions and labels on the buttons will be whatever is configured for that loco in the |WTS|.  This is also trun if the loco is selected from the Recent Locos list or the Recent Consist/Multiple Units list.
    
    If the loco (or first loco of a consist/multiple unit) was added by entering its DCC Address, then the number of functions and labels on the buttons will be whatever is configured in |ED| in the Default Functions.
 
@@ -363,7 +363,7 @@ DCC Function buttons
 Pause and Limit Speed buttons
 '''''''''''''''''''''''''''''
 
-|todo|
+.. todo:: Pause and Limit Speed buttons
 
    The *Function Button area* can also show:
    * Pause
@@ -381,7 +381,7 @@ Pause and Limit Speed buttons
 In Phone Loco Sounds buttons 
 ''''''''''''''''''''''''''''
 
-|todo|
+.. todo:: In Phone Loco Sounds buttons 
 
    The *Function Button area* can also show the IPLS buttons  (In Phone Loco Sounds)
 
@@ -396,7 +396,7 @@ In Phone Loco Sounds buttons
 Web View Area (Throttle Web View)
 """""""""""""""""""""""""""""""""
    
-|todo|
+.. todo:: Web View Area (Throttle Web View)
 
 Shows a web browser in the lower half of the |T-S|.
 
@@ -502,7 +502,7 @@ Background
 Immersive Mode (Full Screen)
 """"""""""""""""""""""""""""
 
-|todo|
+.. todo:: Immersive Mode (Full Screen)
 
 Swipe Left / Right (From Throttle)
 """"""""""""""""""""""""""""""""""
@@ -523,19 +523,19 @@ By default, you can Left/Right Swipe from any part of the screen, but this can b
 Swipe Up / Down
 """""""""""""""
 
-|todo|
+.. todo:: Swipe Up / Down
 
 Accelerometer (Shake)  
 """""""""""""""""""""
 
-|todo|
+.. todo:: Accelerometer (Shake)  
 
 ----
 
 Turnouts/Points Screen
 ^^^^^^^^^^^^^^^^^^^^^^
 
-|todo|
+.. todo:: Turnouts/Points Screen
 
 Accessed from any of the main screens by the :menuselection:`Menu --> Turnouts`` or :menuselection:`Menu --> Points` or by swiping right from the Throttle Screen if enabled in the Left with the ``Swipe through Turnouts?`` or ``Swipe through Points?`` preference: :menuselection:`Menu --> Preferences --> Left/Right Swipe Preferences --> Swipe through Turnouts/Points`
 
@@ -550,7 +550,7 @@ Turnouts/Points can be changed from Closed to Thrown and vice versa be pressing 
 
 **Entry**
 
-|todo|
+.. todo:: Turnouts/Points Screen - Entry
 
 **Filter by location**
 
@@ -634,7 +634,7 @@ By default, you can Left/Right Swipe from any part of the screen, but this can b
 Routes Screen
 ^^^^^^^^^^^^^
 
-|todo|
+.. todo:: Routes Screen
 
 Accessed from any of the main screens by the menu :menuselection:`Menu --> Routes` or by swiping left from the Throttle Screen if enabled in the Left with the ``Swipe through Routes?`` preference: :menuselection:`Menu --> Preferences --> Left/Right Swipe Preferences --> Swipe through Routes`
 
@@ -642,11 +642,11 @@ This screen allows you to display all Routes that have been defined in JMRI or D
 
 **Enter**
 
-|todo|
+.. todo:: Routes Screen - Enter
 
 **List**
 
-|todo|
+.. todo:: Routes Screen - List
 
 **Filter by location**
 
@@ -658,7 +658,7 @@ Hide Sys Route Names? preference
 
 Hide if no user name? preference
 
-|todo|
+.. todo:: Routes Screen - Filter
 
 Action Bar (Routes Screen)
 """"""""""""""""""""""""""
@@ -741,7 +741,7 @@ Web View Screen
   :align: right
   :scale: 12%
 
-|todo|
+.. todo:: Web View Screen
 
 Accessed from any of the main screens by the menu :menuselection:`Menu --> Web` or by swiping left or right twice from the |T-S| if enabled in the Left with the ``Swipe through Web?`` preference: :menuselection:`Menu --> Preferences --> Left/Right Swipe Preferences --> Swipe through Web`
 It can also be accessed, if the ``Screen orientation`` preference is set to ``Auto Web``, by rotating the Android Device/Phone.
@@ -832,7 +832,7 @@ Specific to the |WV-S|, the Overflow Menu can display:
 Swipe Left / Right (Web View Screen)
 """"""""""""""""""""""""""""""""""""
 
-|todo|
+.. todo:: Swipe Left / Right (Web View Screen)
 
 
 Secondary / Support Screens
@@ -893,7 +893,7 @@ There are four ways you can choose a loco for the Throttle.  Select one of the r
 Select by DCC Address 
 """""""""""""""""""""
 
-|todo|
+.. todo:: Select by DCC Address
 
 Shown if you select ``DCC Address`` in the `Selection Method`_.
 
@@ -902,7 +902,7 @@ You can enter the loco's DCC address (verify short or long), and press :guilabel
 Select from Sever Roster
 """"""""""""""""""""""""
 
-|todo|
+.. todo:: Select from Sever Roster
 
 Shown if you select ``Server Roster`` in the `Selection Method`_.
 
@@ -921,7 +921,7 @@ For this to be possible, the Loco you want to control needs to be in the roster 
 Select from Recent Locos List
 """""""""""""""""""""""""""""
 
-|todo|
+.. todo:: Select from Recent Locos List
 
 Shown if you select ``Recent Locos`` in the `Selection Method`_.
 
@@ -938,7 +938,7 @@ If the loco you want to control to is in the list, simply click on it and you wi
 Select from Recent Consists List
 """"""""""""""""""""""""""""""""
 
-|todo|
+.. todo:: Select from Recent Consists List
 
 Shown if you select ``Recent Consists`` in the `Selection Method`_.
 
@@ -994,7 +994,7 @@ Consist Edit Screen
   :scale: 12%
 
 
-|todo|
+.. todo:: Consist Edit Screen
 
 Shown if you add a second, or subsequent, loco to a throttle via the :guilabel:`Select` button, or if you click on the :guilabel:`Edit Order & Facing` button on the *Select Loco Screen* (which will only be available if you have already acquired more than one loco on the throttle.)
 
@@ -1005,17 +1005,17 @@ Shown if you add a second, or subsequent, loco to a throttle via the :guilabel:`
 Lead Loco
 """""""""
 
-|todo|
+.. todo:: Lead Loco
 
 Trailing Loco
 """""""""""""
 
-|todo|
+.. todo:: Trailing Loco
 
 Consist Top
 """""""""""
 
-|todo|
+.. todo:: Consist Top
 
 * Change Facing
 
@@ -1029,7 +1029,7 @@ Consist Lights Edit Screen
   :align: right
   :scale: 12%
 
-|todo|
+.. todo:: Consist Lights Edit Screen
 
 * Unknown
 * Follow Fn Btn
@@ -1089,7 +1089,7 @@ In Phone Loco Sounds Screen
   :align: right
   :scale: 12%
 
-|todo|
+.. todo:: In Phone Loco Sounds Screen
 
 Accessed from |T-S| by the :menuselection:`Menu --> Loco Sounds` or from the Status Bar if enabled with the `In phone sounds button <./configuration/preferences.html#in-phone-sounds-button>`_ preference.
 
@@ -1109,7 +1109,7 @@ Function Defaults Screen
   :align: right
   :scale: 12%
 
-|todo|
+.. todo:: Function Defaults Screen
 
 Accessed from the menu on the |T-S| as :menuselection:`Menu --> Function Defaults`.
 
@@ -1124,7 +1124,7 @@ Accessed from the menu on the |T-S| as :menuselection:`Menu --> Function Default
 Gamepad Test Screen
 ^^^^^^^^^^^^^^^^^^^
 
-|todo|
+.. todo:: Gamepad Test Screen
 
 Accessed from the |T-S| via the :menuselection:`Menu --> Gamepads -> Gamepad Test X`. (where 'X' is the number of the gamepad.)
 
@@ -1142,7 +1142,7 @@ View Log Screen
   :align: right
   :scale: 12%
 
-|todo|
+.. todo:: View Log Screen
 
 Accessed from any of the main screens via :menuselection:`Menu --> View Log`.
 
@@ -1164,7 +1164,7 @@ About Screen
   :align: right
   :scale: 12%
 
-|todo| 
+.. todo:: About Screen
 
 This screen displays 
 
@@ -1180,7 +1180,7 @@ Reconnecting Screen
 
 This screen displays if |ed| has not been able to communicate with the |WTS| within a specified time.
 
-|todo| 
+.. todo:: Reconnecting Screen
 
 Common Elements and Features
 ----------------------------
@@ -1348,7 +1348,7 @@ Layout Switch Button
    :align: right
    :scale: 50%
 
-|todo|
+.. todo:: Layout Switch Button
 
 The *Layout Switch* Action Bar button is enabled with the `Show Layout Switch button <../configuration/preferences.html#show-layout-switch-button>`_ preference.
 
@@ -1358,7 +1358,7 @@ The *Layout Switch* buttons, when pressed ...
 In Phone Loco Sound Button
 """"""""""""""""""""""""""
 
-|todo|
+.. todo:: In Phone Loco Sound Button
 
 .. image:: ../_static/images/parts/in_device_sounds_outline.png
    :align: right
@@ -1391,7 +1391,7 @@ Fast Clock
    :align: right
    :scale: 50%
 
-|todo|
+.. todo:: Fast Clock
 
 The *Fast Clock* Action Bar button is enabled with the `Fast Clock Display <../configuration/preferences.html#fast-clock-display>`_ preference.
 
@@ -1409,7 +1409,7 @@ Children's Timer Status and Countdown
    :align: right
    :scale: 50%
 
-|todo|
+.. todo:: Children's Timer Status and Countdown
 
 .. note:: 
    :class: note-ed-hidden-title
@@ -1421,7 +1421,7 @@ Children's Timer Status and Countdown
 Full Screen or Action Bar Only left/right swipe
 """""""""""""""""""""""""""""""""""""""""""""""
 
-|todo|
+.. todo:: Full Screen or Action Bar Only left/right swipe
 
 WiThrottle Server Name
 """"""""""""""""""""""
@@ -1430,7 +1430,7 @@ WiThrottle Server Name
    :align: right
    :scale: 50%
 
-|todo|
+.. todo:: WiThrottle Server Name
 
 |br|
 

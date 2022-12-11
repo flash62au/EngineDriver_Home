@@ -201,7 +201,7 @@ There two ways create a Consist / Multiple Unit train:
 
   **One at a time**
 
-  Adding additional locos the Consist / Multiple Unit train is identical to the process of selecting a single loco.  Simply click on the :guilabel:`Select` button, which will be showing the name or address of any locos already selected.
+  Adding additional locos to the Consist / Multiple Unit train is identical to the process of selecting a single loco.  Simply click on the :guilabel:`Select` button, which will be showing the name or address of any locos already selected.
 
   After selecting each additional loco, the Consist Edit screen will be shown. This allows you to:
 
@@ -634,7 +634,7 @@ Overflow Menu (Throttle Screen)
 Turnouts / Points
 ^^^^^^^^^^^^^^^^^
 
-|todo|
+.. todo:: Turnouts / Points
 
 |ed| can control DCC controlled Turnouts / Points on your layout if configured in you |WTS|.
 
@@ -667,7 +667,7 @@ DCC Address
   * Close
   * Toggle
 
-  |TODO|
+  .. todo:: DCC Address
 
 JMRI Defined Turnout/Point list
 """""""""""""""""""""""""""""""
@@ -677,7 +677,7 @@ JMRI Defined Turnout/Point list
   * Filtering
   * Must be named???
 
-  |todo|
+  .. todo:: JMRI Defined Turnout/Point list
 
   **Filter by location**
 
@@ -690,7 +690,7 @@ JMRI Defined Turnout/Point list
 Recent Turnout/Point list
 """""""""""""""""""""""""
 
-  |todo|
+  .. todo:: Recent Turnout/Point list
 
 .. note:: 
   :class: note-ed-hidden-title
@@ -713,7 +713,7 @@ Overflow Menu (Turnouts/Points Screen)
 Routes
 ^^^^^^
 
-|todo|
+.. todo:: Routes
 
 |ed| can control *Routes* on your layout if configured in you |WTS|.
 

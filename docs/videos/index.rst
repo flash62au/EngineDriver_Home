@@ -14,7 +14,7 @@ Videos
 Connecting
 ==============================
 
-|todo|
+.. todo:: Connecting
 
 Preferences
 ==============================
@@ -54,7 +54,7 @@ Gamepads
 Turnouts/Points and Routes
 ==================================
 
-|todo|
+.. todo:: Turnouts/Points and Routes
 
 Default Functions
 ==========================
@@ -67,10 +67,10 @@ Import/Export/Reset Preferences
 Server Specific Preferences
 ---------------------------
 
-|todo|
+.. todo:: Server Specific Preferences
 
 Preserving the battery in your device
 ===========================================    
 
-|todo|
+.. todo:: Preserving the battery in your device
 

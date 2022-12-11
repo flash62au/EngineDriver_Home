@@ -20,17 +20,17 @@ To make it easy to switch sound profiles we recommend enabling the Action Bar bu
 Loco Sounds
 -----------
 
-|todo|
+.. todo:: Loco Sounds
 
 Bell, Horn/Whistle
 ------------------
 
-|todo|
+.. todo:: Bell, Horn/Whistle
 
 Custom IPLS Files
 =================
 
-|todo|
+.. todo:: Custom IPLS Files
 
 You can add custom IPLS files in the ``../Android/data/jmri.enginedriver/files/`` folder. They will appear in the list of profiles that can be selected in the ``Throttle 1 Loco Sounds`` or ``Throttle 2 Loco Sounds`` preferences.
 
