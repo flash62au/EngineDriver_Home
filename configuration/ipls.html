@@ -606,7 +606,7 @@
 <li class="toctree-l5"><a class="reference internal" href="#bell-horn-whistle">Bell, Horn/Whistle</a></li>
 </ul>
 </li>
-<li class="toctree-l4"><a class="reference internal" href="#custom-ipls-files">Custom IPLS Files</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#custom-ipls-files">Custom .ipls Files</a><ul>
 <li class="toctree-l5"><a class="reference internal" href="#ipls-file-format">.ipls File Format</a></li>
 <li class="toctree-l5"><a class="reference internal" href="#sample-ipls">Sample .ipls</a></li>
 </ul>
@@ -740,16 +740,16 @@
 <p class="admonition-title">Todo</p>
 <p>Bell, Horn/Whistle</p>
 </div>
-<p>The Bell and Horn/Whistle (long) can also be set to be activated by the DCC Function buttons (F1 and F2) if the <a class="reference external" href="../configuration/preferences.html#f1-and-f2-activate-bell-and-horn">F1 and F2 activate Bell and Horn?</a> preference is set.</p>
+<p>The Bell and Horn/Whistle (long) can also be configureated to be activated by the DCC Function buttons (F1 and F2) if the <a class="reference external" href="../configuration/preferences.html#f1-and-f2-activate-bell-and-horn">F1 and F2 activate Bell and Horn?</a> preference is set.</p>
 <p>See <a class="reference external" href="../operation/operation.html#virtual-sounds-in-phone-loco-sounds-ipls">In Phone Loco Sounds (IPLS)</a> for details on how to activate and us the In Phone Loco sounds.</p>
 </section>
 </section>
 <section id="custom-ipls-files">
-<h2>Custom IPLS Files<a class="headerlink" href="#custom-ipls-files" title="Permalink to this heading"></a></h2>
-<p>You can add custom IPLS files in the <code class="docutils literal notranslate"><span class="pre">../Android/data/jmri.enginedriver/files/</span></code> folder of you ndroid device. They will appear in the list of profiles that can be selected in the <code class="docutils literal notranslate"><span class="pre">Throttle</span> <span class="pre">1</span> <span class="pre">Loco</span> <span class="pre">Sounds</span></code> or <code class="docutils literal notranslate"><span class="pre">Throttle</span> <span class="pre">2</span> <span class="pre">Loco</span> <span class="pre">Sounds</span></code> preferences.</p>
-<p>To create a custom IPLS you need to have at least the following Files:</p>
+<h2>Custom .ipls Files<a class="headerlink" href="#custom-ipls-files" title="Permalink to this heading"></a></h2>
+<p>You can add custom IPLS files in the <code class="docutils literal notranslate"><span class="pre">../Android/data/jmri.enginedriver/files/</span></code> folder of you android device. They will appear in the list of profiles that can be selected in the <code class="docutils literal notranslate"><span class="pre">Throttle</span> <span class="pre">1</span> <span class="pre">Loco</span> <span class="pre">Sounds</span></code> or <code class="docutils literal notranslate"><span class="pre">Throttle</span> <span class="pre">2</span> <span class="pre">Loco</span> <span class="pre">Sounds</span></code> preferences.</p>
+<p>To create a custom .ipls you need to have at least the following files:</p>
 <ul class="simple">
-<li><p>the .ipls file (which is a text file of instructions)</p></li>
+<li><p>an .ipls file (which is a text file of instructions that you create)</p></li>
 <li><p>an engine idle sound</p></li>
 <li><p>at least one engine running sound (up to 16)</p></li>
 </ul>
@@ -760,11 +760,12 @@
 <li><p>Horn/Whistle sounds</p></li>
 </ul>
 <p>In the case of the Bell and Horn/Whistle sounds you can optionally include start-up and end sounds.</p>
-<p>The .ipls file, which you will need to create, includes the instruction on which sounds to use in which circumstances, along with the name for this .ipls that should appear in the drop down lists.</p>
+<p>The .ipls file, which you will need to create, includes the instructions on which sounds to use in which circumstances, along with the name for this .ipls that will appear in the drop down lists.</p>
 <section id="ipls-file-format">
 <h3>.ipls File Format<a class="headerlink" href="#ipls-file-format" title="Permalink to this heading"></a></h3>
 <p>The first character of each line is the instruction/sound type.</p>
-<p>Lines starting with “/” are comments.</p>
+<p>Lines starting with <strong>“/”</strong> are comments.</p>
+<p>Avoid additional spaces (it will try to trim leading and trailing spaces) i.e don’t put a space before or after the colon.</p>
 <p><strong>n:</strong> - Mandatory = name that will appear in the drop lists in Engine Driver</p>
 <p><strong>b0:</strong> - Optional = Bell start sound  (optional even if the b1: sound is included) <br />
 <strong>b1:</strong> - Optional = Bell loop sound <br />
@@ -784,7 +785,7 @@
 <div><p>Maximum of 16 steps <br />
 Not all 16 are required, but there must not be any missing steps between 0 and the last provided step</p>
 </div></blockquote>
-<p><strong>l+:</strong> Loco Startup Sound   MAX 12 seconds</p>
+<p><strong>l+:</strong> - Optional = Loco Startup Sound   MAX 12 seconds</p>
 <p>Sounds files can be .wav or .mp3 format.  Other formats may usable but are untested.</p>
 <p>Each sound is internally limited to one megabyte storage, which represents approximately 5.6 seconds at 44.1kHz stereo, however all sounds have a time limit maximum of around 12 seconds.</p>
 <p>By default, the sound files are expected to be in <code class="docutils literal notranslate"><span class="pre">../Android/data/jmri.enginedriver/files/</span></code> however you can put them in subfolders by prepending the sound file name with <code class="docutils literal notranslate"><span class="pre">&lt;folder</span> <span class="pre">name&gt;&lt;forward</span> <span class="pre">slash&gt;</span></code>.
