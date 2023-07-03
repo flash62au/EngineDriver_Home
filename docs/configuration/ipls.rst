@@ -71,7 +71,7 @@ The first character of each line is the instruction/sound type.
 
 Lines starting with **"/"** are comments.
 
-Avoid additional spaces (it will try to trim leading and trailing spaces) i.e don't put a space before or after the colon.
+*Avoid additional spaces* i.e don't put a space before or after the colon. (ED will try to trim any leading and trailing spaces, but best to avoid them.)
 
 **n:** - Mandatory = name that will appear in the drop lists in Engine Driver
 
@@ -96,20 +96,20 @@ Avoid additional spaces (it will try to trim leading and trailing spaces) i.e do
    Maximum of 16 steps |BR|
    Not all 16 are required, but there must not be any missing steps between 0 and the last provided step
 
-**l+:** - Optional = Loco Startup Sound   MAX 12 seconds 
+**l+:** - Optional = Loco Start-up Sound   *MAX 12 seconds* 
 
 Sounds files can be .wav or .mp3 format.  Other formats may usable but are untested.
 
-Each sound is internally limited to one megabyte storage, which represents approximately 5.6 seconds at 44.1kHz stereo, however all sounds have a time limit maximum of around 12 seconds.
+Each sound is internally limited to one megabyte storage, which represents approximately 5.6 seconds at 44.1kHz stereo, however all sounds have a time limit maximum of approximately 12 seconds.
 
-By default, the sound files are expected to be in ``../Android/data/jmri.enginedriver/files/`` however you can put them in subfolders by prepending the sound file name with ``<folder name><forward slash>``. 
-e.g. sample/bell_start.mp3     - will look for ../Android/jmri.enginedriver/files/sample/bell_start.mp3
+By default, the sound files are expected to be in ``../Android/data/jmri.enginedriver/files/`` (i.e the same folder the .ips file is in) however you can put them in subfolders by prepending the sound file name with ``<folder name><forward slash>``. 
+e.g. **sample/bell_start.mp3**     - will look for **../Android/jmri.enginedriver/files/sample/bell_start.mp3**
 
 
 Sample .ipls
 ------------
 
-The `sample files are available here <../_static/ipls/sample.zip>`_.
+The `sample files are available here <../_static/ipls/sample.zip>`_ as a compressed zip file.  To use it extract the files, including the subfolder to ``../Android/data/jmri.enginedriver/files/`` on your Android device.
 
 ::
 
@@ -161,3 +161,11 @@ The `sample files are available here <../_static/ipls/sample.zip>`_.
     /
     l+:sample/diesel_645turbo_start.mp3
 
+----
+
+Sourcing sound files to use in custom .ipls
+-------------------------------------------
+
+Sourcing suitable sound files can be difficult. Sounds files for decoders can generally be converted to a suitable format, but as these are usually proprietary in nature so I advise against doing so unless they are clearly open source.
+
+`Zimo has a large collection of sound files <http://www.zimo.at/web2010/sound/tableindex_EN.htm>`_, many of which are described as 'Free' (the ones with .zip files), which are suitable to be used to create .ipls, though the legalities of doing so for this purpose are unclear.
