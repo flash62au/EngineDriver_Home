@@ -516,7 +516,7 @@ To make it easy to switch sound profiles we recommend enabling the Action Bar bu
 Automatic Loco Speed Step Sounds
 ''''''''''''''''''''''''''''''''
 
-Each IPLS Profile has a different number of speed steps. As the loco speed increases or decreases to a certain point a different sound will repeatedly play.  To try to emulate the momentum of the loco, there is a preset delay, and an option to not lip the sounds (which enforces a minimum delay) These can be altered with the `In Phone Momentum <../configuration/preferences.html#in-phone-momentum>`_ and the `Don't clip loco step sounds <../configuration/preferences.html#don-t-clip-loco-step-sounds>`_ preferences.
+Each IPLS Profile has a different number of speed steps. As the loco speed increases or decreases to a certain point a different sound will repeatedly play.  To try to emulate the momentum of the loco, there is a preset delay, and an option to not clip the sounds (which enforces a minimum delay) These can be altered with the `In Phone Momentum <../configuration/preferences.html#in-phone-momentum>`_ and the `Don't clip loco step sounds <../configuration/preferences.html#don-t-clip-loco-step-sounds>`_ preferences.
 
 The volume of the Loco Sounds, the Bell Sounds and the Horn/Whistle sound can be altered independently with the `In Phone Loco Sounds Volume <../configuration/preferences.html#in-phone-loco-sounds-volume>`_, the `In Phone Bell Sounds Volume <../configuration/preferences.html#in-phone-bell-sounds-volume>`_ and the `In Phone Horn/Whistle Sounds Volume <../configuration/preferences.html#in-phone-horn-whistle-sounds-volume>`_ preferences.
 
