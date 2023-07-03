@@ -37,20 +37,20 @@ Bell, Horn/Whistle
 
 .. todo:: Bell, Horn/Whistle
 
-The Bell and Horn/Whistle (long) can also be set to be activated by the DCC Function buttons (F1 and F2) if the `F1 and F2 activate Bell and Horn? <../configuration/preferences.html#f1-and-f2-activate-bell-and-horn>`_ preference is set.
+The Bell and Horn/Whistle (long) can also be configureated to be activated by the DCC Function buttons (F1 and F2) if the `F1 and F2 activate Bell and Horn? <../configuration/preferences.html#f1-and-f2-activate-bell-and-horn>`_ preference is set.
 
 See `In Phone Loco Sounds (IPLS) <../operation/operation.html#virtual-sounds-in-phone-loco-sounds-ipls>`_ for details on how to activate and us the In Phone Loco sounds.
 
 
-Custom IPLS Files
-=================
+Custom .ipls Files
+==================
 
-You can add custom IPLS files in the ``../Android/data/jmri.enginedriver/files/`` folder of you ndroid device. They will appear in the list of profiles that can be selected in the ``Throttle 1 Loco Sounds`` or ``Throttle 2 Loco Sounds`` preferences.
+You can add custom IPLS files in the ``../Android/data/jmri.enginedriver/files/`` folder of you android device. They will appear in the list of profiles that can be selected in the ``Throttle 1 Loco Sounds`` or ``Throttle 2 Loco Sounds`` preferences.
 
-To create a custom IPLS you need to have at least the following Files:
+To create a custom .ipls you need to have at least the following files:
 
-* the .ipls file (which is a text file of instructions)
-* an engine idle sound 
+* an .ipls file (which is a text file of instructions that you create)
+* an engine idle sound
 * at least one engine running sound (up to 16)
 
 Optionally you can also have:
@@ -62,14 +62,16 @@ Optionally you can also have:
 In the case of the Bell and Horn/Whistle sounds you can optionally include start-up and end sounds.
 
 
-The .ipls file, which you will need to create, includes the instruction on which sounds to use in which circumstances, along with the name for this .ipls that should appear in the drop down lists.
+The .ipls file, which you will need to create, includes the instructions on which sounds to use in which circumstances, along with the name for this .ipls that will appear in the drop down lists.
 
 .ipls File Format
 -----------------
 
 The first character of each line is the instruction/sound type.
 
-Lines starting with "/" are comments.
+Lines starting with **"/"** are comments.
+
+Avoid additional spaces (it will try to trim leading and trailing spaces) i.e don't put a space before or after the colon.
 
 **n:** - Mandatory = name that will appear in the drop lists in Engine Driver
 
@@ -94,7 +96,7 @@ Lines starting with "/" are comments.
    Maximum of 16 steps |BR|
    Not all 16 are required, but there must not be any missing steps between 0 and the last provided step
 
-**l+:** Loco Startup Sound   MAX 12 seconds 
+**l+:** - Optional = Loco Startup Sound   MAX 12 seconds 
 
 Sounds files can be .wav or .mp3 format.  Other formats may usable but are untested.
 
