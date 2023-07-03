@@ -606,7 +606,11 @@
 <li class="toctree-l5"><a class="reference internal" href="#bell-horn-whistle">Bell, Horn/Whistle</a></li>
 </ul>
 </li>
-<li class="toctree-l4"><a class="reference internal" href="#custom-ipls-files">Custom IPLS Files</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#custom-ipls-files">Custom IPLS Files</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="#ipls-file-format">.ipls File Format</a></li>
+<li class="toctree-l5"><a class="reference internal" href="#sample-ipls">Sample .ipls</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="gamepads.html">Gamepads</a><ul>
@@ -717,13 +721,18 @@
 <h2>Virtual Sounds / In Phone Loco Sounds (IPLS)<a class="headerlink" href="#virtual-sounds-in-phone-loco-sounds-ipls" title="Permalink to this heading"></a></h2>
 <p><span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span> can play synchronised locomotive sounds through your Android device/phones or through a BlueTooth speaker connected to it.</p>
 <p>To enable In Phone Loco Sounds (IPLS) select an option in <a class="reference external" href="./preferences.html#throttle-1-loco-sounds">Throttle 1 Loco Sounds</a> or <a class="reference external" href="./preferences.html#throttle-2-loco-sounds">Throttle 2 Loco Sounds</a> (or both) preferences. Once enabled for either throttle a new menu option will be available from Throttle Screen to make subsequent changes easier: <span class="menuselection">Menu ‣ Loco Sounds</span></p>
-<p>To make it easy to switch sound profiles we recommend enabling the Action Bar button by setting the <a class="reference external" href="./preferences#in-phone-sounds-button">In phone sounds button</a> preferences: <span class="menuselection">Menu ‣ Preferences ‣ Throttle Screen Action Bar Preferences ‣ In phone sounds button</span></p>
+<p>To make it easy to switch sound profiles we recommend enabling the Action Bar button by setting the <a class="reference external" href="./preferences.html#in-phone-sounds-button">In phone sounds button</a> preferences: <span class="menuselection">Menu ‣ Preferences ‣ Throttle Screen Action Bar Preferences ‣ In phone sounds button</span></p>
 <section id="loco-sounds">
 <h3>Loco Sounds<a class="headerlink" href="#loco-sounds" title="Permalink to this heading"></a></h3>
-<div class="admonition-todo admonition" id="id1">
-<p class="admonition-title">Todo</p>
-<p>Loco Sounds</p>
-</div>
+<p>There is built in Support for a number of different type of locos:</p>
+<ul class="simple">
+<li><p>Steam - 4 in-built profiles</p></li>
+<li><p>Diesel - 3 in-built profiles</p></li>
+<li><p>Plus you can create you own Custom profiles (see below)</p></li>
+</ul>
+<p>Each IPLS Profile has a different number of speed steps. As the loco speed increases or decreases to a certain point a different sound will repeatedly play.  <span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span> can’t tell the actual speed of your loco, only the throttle setting.  This is most apparent when the loco has momentum configured in the decoder.  There is a preference that allows you to approximate the momentum of your loco for the IPLS in <span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span> and an option to not clip the sounds (which enforces a minimum delay) These can be altered with the <a class="reference external" href="../configuration/preferences.html#in-phone-momentum">In Phone Momentum</a> and the <a class="reference external" href="../configuration/preferences.html#don-t-clip-loco-step-sounds">Don’t clip loco step sounds</a> preferences.</p>
+<p>The volume of the Loco Sounds, the Bell Sounds and the Horn/Whistle sound can be altered independently with the <a class="reference external" href="../configuration/preferences.html#in-phone-loco-sounds-volume">In Phone Loco Sounds Volume</a>, the <a class="reference external" href="../configuration/preferences.html#in-phone-bell-sounds-volume">In Phone Bell Sounds Volume</a> and the <a class="reference external" href="../configuration/preferences.html#in-phone-horn-whistle-sounds-volume">In Phone Horn/Whistle Sounds Volume</a> preferences.</p>
+<p>See <a class="reference external" href="../operation/operation.html#virtual-sounds-in-phone-loco-sounds-ipls">In Phone Loco Sounds (IPLS)</a> for details on how to activate and use the In Phone Loco sounds.</p>
 </section>
 <section id="bell-horn-whistle">
 <h3>Bell, Horn/Whistle<a class="headerlink" href="#bell-horn-whistle" title="Permalink to this heading"></a></h3>
@@ -731,15 +740,59 @@
 <p class="admonition-title">Todo</p>
 <p>Bell, Horn/Whistle</p>
 </div>
+<p>The Bell and Horn/Whistle (long) can also be set to be activated by the DCC Function buttons (F1 and F2) if the <a class="reference external" href="../configuration/preferences.html#f1-and-f2-activate-bell-and-horn">F1 and F2 activate Bell and Horn?</a> preference is set.</p>
+<p>See <a class="reference external" href="../operation/operation.html#virtual-sounds-in-phone-loco-sounds-ipls">In Phone Loco Sounds (IPLS)</a> for details on how to activate and us the In Phone Loco sounds.</p>
 </section>
 </section>
 <section id="custom-ipls-files">
 <h2>Custom IPLS Files<a class="headerlink" href="#custom-ipls-files" title="Permalink to this heading"></a></h2>
-<div class="admonition-todo admonition" id="id3">
-<p class="admonition-title">Todo</p>
-<p>Custom IPLS Files</p>
-</div>
-<p>You can add custom IPLS files in the <code class="docutils literal notranslate"><span class="pre">../Android/data/jmri.enginedriver/files/</span></code> folder. They will appear in the list of profiles that can be selected in the <code class="docutils literal notranslate"><span class="pre">Throttle</span> <span class="pre">1</span> <span class="pre">Loco</span> <span class="pre">Sounds</span></code> or <code class="docutils literal notranslate"><span class="pre">Throttle</span> <span class="pre">2</span> <span class="pre">Loco</span> <span class="pre">Sounds</span></code> preferences.</p>
+<p>You can add custom IPLS files in the <code class="docutils literal notranslate"><span class="pre">../Android/data/jmri.enginedriver/files/</span></code> folder of you ndroid device. They will appear in the list of profiles that can be selected in the <code class="docutils literal notranslate"><span class="pre">Throttle</span> <span class="pre">1</span> <span class="pre">Loco</span> <span class="pre">Sounds</span></code> or <code class="docutils literal notranslate"><span class="pre">Throttle</span> <span class="pre">2</span> <span class="pre">Loco</span> <span class="pre">Sounds</span></code> preferences.</p>
+<p>To create a custom IPLS you need to have at least the following Files:</p>
+<ul class="simple">
+<li><p>the .ipls file (which is a text file of instructions)</p></li>
+<li><p>an engine idle sound</p></li>
+<li><p>at least one engine running sound (up to 16)</p></li>
+</ul>
+<p>Optionally you can also have:</p>
+<ul class="simple">
+<li><p>An Engine start-up sound</p></li>
+<li><p>Bell sounds</p></li>
+<li><p>Horn/Whistle sounds</p></li>
+</ul>
+<p>In the case of the Bell and Horn/Whistle sounds you can optionally include start-up and end sounds.</p>
+<p>The .ipls file, which you will need to create, includes the instruction on which sounds to use in which circumstances, along with the name for this .ipls that should appear in the drop down lists.</p>
+<section id="ipls-file-format">
+<h3>.ipls File Format<a class="headerlink" href="#ipls-file-format" title="Permalink to this heading"></a></h3>
+<p>The first character of each line is the instruction/sound type.</p>
+<p>Lines starting with “/” are comments.</p>
+<p><strong>n:</strong> - Mandatory = name that will appear in the drop lists in Engine Driver</p>
+<p><strong>b0:</strong> - Optional = Bell start sound  (optional even if the b1: sound is included) <br />
+<strong>b1:</strong> - Optional = Bell loop sound <br />
+<strong>b2:</strong> - Optional = Bell end sound  (optional even if the b1: sound is included)</p>
+<p><strong>h0:</strong> - Optional = Horn/Whistle start sound  (optional even if the h1: sound is included) <br />
+<strong>h1:</strong> - Optional = Horn/Whistle loop sound <br />
+<strong>h2:</strong> - Optional = Horn/Whistle end sound  (optional even if the h1: sound is included)</p>
+<p><strong>h+:</strong> - Optional = short horn / whistle</p>
+<p><strong>l0:</strong> - Mandatory = Loco idle <br />
+<strong>l1:</strong> - Mandatory = loco running, low speed <br />
+<strong>l2:</strong> - Optional = loco running, next speed <br />
+<strong>l3:</strong> - Optional = loco running, etc. <br />
+<strong>..</strong> <br />
+<strong>l15:</strong> - Optional = loco running, etc. <br />
+<strong>l16:</strong> - Optional = loco running, etc.</p>
+<blockquote>
+<div><p>Maximum of 16 steps <br />
+Not all 16 are required, but there must not be any missing steps between 0 and the last provided step</p>
+</div></blockquote>
+<p><strong>l+:</strong> Loco Startup Sound   MAX 12 seconds</p>
+<p>Sounds files can be .wav or .mp3 format.  Other formats may usable but are untested.</p>
+<p>Each sound is internally limited to one megabyte storage, which represents approximately 5.6 seconds at 44.1kHz stereo, however all sounds have a time limit maximum of around 12 seconds.</p>
+<p>By default, the sound files are expected to be in <code class="docutils literal notranslate"><span class="pre">../Android/data/jmri.enginedriver/files/</span></code> however you can put them in subfolders by prepending the sound file name with <code class="docutils literal notranslate"><span class="pre">&lt;folder</span> <span class="pre">name&gt;&lt;forward</span> <span class="pre">slash&gt;</span></code>.
+e.g. sample/bell_start.mp3     - will look for ../Android/jmri.enginedriver/files/sample/bell_start.mp3</p>
+</section>
+<section id="sample-ipls">
+<h3>Sample .ipls<a class="headerlink" href="#sample-ipls" title="Permalink to this heading"></a></h3>
+<p>The <a class="reference external" href="../_static/ipls/sample.zip">sample files are available here</a>.</p>
 <div class="highlight-none notranslate"><div class="highlight"><pre><span></span>/ sample custom &#39;In-Phone Loco Sounds&#39; (.ipls) file
 /
 / - the first character of each line is the instruction/sound type
@@ -789,6 +842,7 @@ l4:sample/diesel_645turbo_d4.mp3
 l+:sample/diesel_645turbo_start.mp3
 </pre></div>
 </div>
+</section>
 </section>
 </section>
 

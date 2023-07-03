@@ -1552,17 +1552,17 @@ If this preference is enabled, the Loco step sounds will play till their end, be
 In Phone Loco Sounds Volume
 '''''''''''''''''''''''''''
 
-Use this preference to set the volume for *Loco/Engine sounds* in the phone (1-100) when using the `In Phone Loco Sounds (IPLS) <../operation.html#virtual-sounds-in-phone-loco-sounds-ipls>`_. This is a percentage of the media volume you have set for you Android Device/Phone (outside of |ed|).
+Use this preference to set the volume for *Loco/Engine sounds* in the phone (1-100) when using the `In Phone Loco Sounds (IPLS) <../operation/operation.html#virtual-sounds-in-phone-loco-sounds-ipls>`_. This is a percentage of the media volume you have set for you Android Device/Phone (outside of |ed|).
 
 In Phone Bell Sounds Volume
 '''''''''''''''''''''''''''
 
-Use this preference to set the volume for *Bell sounds* in the phone (1-100) when using the `In Phone Loco Sounds (IPLS) <../operation.html#virtual-sounds-in-phone-loco-sounds-ipls>`_. This is a percentage of the media volume you have set for you Android Device/Phone (outside of |ed|).
+Use this preference to set the volume for *Bell sounds* in the phone (1-100) when using the `In Phone Loco Sounds (IPLS) <../operation/operation.html#virtual-sounds-in-phone-loco-sounds-ipls>`_. This is a percentage of the media volume you have set for you Android Device/Phone (outside of |ed|).
 
 In Phone Horn/Whistle Sounds Volume
 '''''''''''''''''''''''''''''''''''
 
-Use this preference to set the volume for *Horn/Whistle sounds* in the phone (1-100) when using the `In Phone Loco Sounds (IPLS) <../operation.html#virtual-sounds-in-phone-loco-sounds-ipls>`_. This is a percentage of the media volume you have set for you Android Device/Phone (outside of |ed|).
+Use this preference to set the volume for *Horn/Whistle sounds* in the phone (1-100) when using the `In Phone Loco Sounds (IPLS) <../operation/operation.html#virtual-sounds-in-phone-loco-sounds-ipls>`_. This is a percentage of the media volume you have set for you Android Device/Phone (outside of |ed|).
 
 Bell button Latching/Momentary
 ''''''''''''''''''''''''''''''
