@@ -609,6 +609,7 @@
 <li class="toctree-l4"><a class="reference internal" href="#custom-ipls-files">Custom .ipls Files</a><ul>
 <li class="toctree-l5"><a class="reference internal" href="#ipls-file-format">.ipls File Format</a></li>
 <li class="toctree-l5"><a class="reference internal" href="#sample-ipls">Sample .ipls</a></li>
+<li class="toctree-l5"><a class="reference internal" href="#sourcing-sound-files-to-use-in-custom-ipls">Sourcing sound files to use in custom .ipls</a></li>
 </ul>
 </li>
 </ul>
@@ -765,7 +766,7 @@
 <h3>.ipls File Format<a class="headerlink" href="#ipls-file-format" title="Permalink to this heading"></a></h3>
 <p>The first character of each line is the instruction/sound type.</p>
 <p>Lines starting with <strong>“/”</strong> are comments.</p>
-<p>Avoid additional spaces (it will try to trim leading and trailing spaces) i.e don’t put a space before or after the colon.</p>
+<p><em>Avoid additional spaces</em> i.e don’t put a space before or after the colon. (ED will try to trim any leading and trailing spaces, but best to avoid them.)</p>
 <p><strong>n:</strong> - Mandatory = name that will appear in the drop lists in Engine Driver</p>
 <p><strong>b0:</strong> - Optional = Bell start sound  (optional even if the b1: sound is included) <br />
 <strong>b1:</strong> - Optional = Bell loop sound <br />
@@ -785,15 +786,15 @@
 <div><p>Maximum of 16 steps <br />
 Not all 16 are required, but there must not be any missing steps between 0 and the last provided step</p>
 </div></blockquote>
-<p><strong>l+:</strong> - Optional = Loco Startup Sound   MAX 12 seconds</p>
+<p><strong>l+:</strong> - Optional = Loco Start-up Sound   <em>MAX 12 seconds</em></p>
 <p>Sounds files can be .wav or .mp3 format.  Other formats may usable but are untested.</p>
-<p>Each sound is internally limited to one megabyte storage, which represents approximately 5.6 seconds at 44.1kHz stereo, however all sounds have a time limit maximum of around 12 seconds.</p>
-<p>By default, the sound files are expected to be in <code class="docutils literal notranslate"><span class="pre">../Android/data/jmri.enginedriver/files/</span></code> however you can put them in subfolders by prepending the sound file name with <code class="docutils literal notranslate"><span class="pre">&lt;folder</span> <span class="pre">name&gt;&lt;forward</span> <span class="pre">slash&gt;</span></code>.
-e.g. sample/bell_start.mp3     - will look for ../Android/jmri.enginedriver/files/sample/bell_start.mp3</p>
+<p>Each sound is internally limited to one megabyte storage, which represents approximately 5.6 seconds at 44.1kHz stereo, however all sounds have a time limit maximum of approximately 12 seconds.</p>
+<p>By default, the sound files are expected to be in <code class="docutils literal notranslate"><span class="pre">../Android/data/jmri.enginedriver/files/</span></code> (i.e the same folder the .ips file is in) however you can put them in subfolders by prepending the sound file name with <code class="docutils literal notranslate"><span class="pre">&lt;folder</span> <span class="pre">name&gt;&lt;forward</span> <span class="pre">slash&gt;</span></code>.
+e.g. <strong>sample/bell_start.mp3</strong>     - will look for <strong>../Android/jmri.enginedriver/files/sample/bell_start.mp3</strong></p>
 </section>
 <section id="sample-ipls">
 <h3>Sample .ipls<a class="headerlink" href="#sample-ipls" title="Permalink to this heading"></a></h3>
-<p>The <a class="reference external" href="../_static/ipls/sample.zip">sample files are available here</a>.</p>
+<p>The <a class="reference external" href="../_static/ipls/sample.zip">sample files are available here</a> as a compressed zip file.  To use it extract the files, including the subfolder to <code class="docutils literal notranslate"><span class="pre">../Android/data/jmri.enginedriver/files/</span></code> on your Android device.</p>
 <div class="highlight-none notranslate"><div class="highlight"><pre><span></span>/ sample custom &#39;In-Phone Loco Sounds&#39; (.ipls) file
 /
 / - the first character of each line is the instruction/sound type
@@ -843,6 +844,12 @@ l4:sample/diesel_645turbo_d4.mp3
 l+:sample/diesel_645turbo_start.mp3
 </pre></div>
 </div>
+</section>
+<hr class="docutils" />
+<section id="sourcing-sound-files-to-use-in-custom-ipls">
+<h3>Sourcing sound files to use in custom .ipls<a class="headerlink" href="#sourcing-sound-files-to-use-in-custom-ipls" title="Permalink to this heading"></a></h3>
+<p>Sourcing suitable sound files can be difficult. Sounds files for decoders can generally be converted to a suitable format, but as these are usually proprietary in nature so I advise against doing so unless they are clearly open source.</p>
+<p><a class="reference external" href="http://www.zimo.at/web2010/sound/tableindex_EN.htm">Zimo has a large collection of sound files</a>, many of which are described as ‘Free’ (the ones with .zip files), which are suitable to be used to create .ipls, though the legalities of doing so for this purpose are unclear.</p>
 </section>
 </section>
 </section>
