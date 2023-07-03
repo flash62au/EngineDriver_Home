@@ -20,19 +20,88 @@ To make it easy to switch sound profiles we recommend enabling the Action Bar bu
 Loco Sounds
 -----------
 
-.. todo:: Loco Sounds
+There is built in Support for a number of different type of locos:
+
+* Steam - 4 in-built profiles
+* Diesel - 3 in-built profiles
+* Plus you can create you own Custom profiles (see below)
+
+See `In Phone Loco Sounds (IPLS) <../operation/operation.html#virtual-sounds-in-phone-loco-sounds-ipls>`_ for details on how to activate and us the In Phone Loco sounds.
 
 Bell, Horn/Whistle
 ------------------
 
 .. todo:: Bell, Horn/Whistle
 
+See `In Phone Loco Sounds (IPLS) <../operation/operation.html#virtual-sounds-in-phone-loco-sounds-ipls>`_ for details on how to activate and us the In Phone Loco sounds.
+
+
 Custom IPLS Files
 =================
 
-.. todo:: Custom IPLS Files
+You can add custom IPLS files in the ``../Android/data/jmri.enginedriver/files/`` folder of you ndroid device. They will appear in the list of profiles that can be selected in the ``Throttle 1 Loco Sounds`` or ``Throttle 2 Loco Sounds`` preferences.
 
-You can add custom IPLS files in the ``../Android/data/jmri.enginedriver/files/`` folder. They will appear in the list of profiles that can be selected in the ``Throttle 1 Loco Sounds`` or ``Throttle 2 Loco Sounds`` preferences.
+To create a custom IPLS you need to have at least the following Files:
+
+* the .ipls file (which is a text file of instructions)
+* an engine idle sound 
+* at least one engine running sound (up to 16)
+
+Optionally you can also have:
+
+* An Engine start-up sound
+* Bell sounds
+* Horn/Whistle sounds
+
+In the case of the Bell and Horn/Whistle sounds you can optionally include start-up and end sounds.
+
+
+The .ipls file, which you will need to create, includes the instruction on which sounds to use in which circumstances, along with the name for this .ipls that should appear in the drop down lists.
+
+.ipls File Format
+-----------------
+
+The first character of each line is the instruction/sound type.
+
+Lines starting with "/" are comments.
+
+**n:** - Mandatory = name that will appear in the drop lists in Engine Driver
+
+**b0:** - Optional = Bell start sound  (optional even if the b1: sound is included) |BR|
+**b1:** - Optional = Bell loop sound |BR|
+**b2:** - Optional = Bell end sound  (optional even if the b1: sound is included)
+
+**h0:** - Optional = Horn/Whistle start sound  (optional even if the h1: sound is included) |BR|
+**h1:** - Optional = Horn/Whistle loop sound |BR|
+**h2:** - Optional = Horn/Whistle end sound  (optional even if the h1: sound is included)
+
+**h+:** - Optional = short horn / whistle
+
+**l0:** - Mandatory = Loco idle |BR|
+**l1:** - Mandatory = loco running, low speed |BR|
+**l2:** - Optional = loco running, next speed |BR|
+**l3:** - Optional = loco running, etc. |BR|
+**\.\.** |BR|
+**l15:** - Optional = loco running, etc. |BR|
+**l16:** - Optional = loco running, etc. 
+
+   Maximum of 16 steps |BR|
+   Not all 16 are required, but there must not be any missing steps between 0 and the last provided step
+
+**l+:** Loco Startup Sound   MAX 12 seconds 
+
+Sounds files can be .wav or .mp3 format.  Other formats may usable but are untested.
+
+Each sound is internally limited to one megabyte storage, which represents approximately 5.6 seconds at 44.1kHz stereo, however all sounds have a time limit maximum of around 12 seconds.
+
+By default, the sound files are expected to be in ``../Android/data/jmri.enginedriver/files/`` however you can put them in subfolders by prepending the sound file name with ``<folder name><forward slash>``. 
+e.g. sample/bell_start.mp3     - will look for ../Android/jmri.enginedriver/files/sample/bell_start.mp3
+
+
+Sample .ipls
+------------
+
+The `sample files are available here <../_static/ipls/sample.zip>`_.
 
 ::
 
