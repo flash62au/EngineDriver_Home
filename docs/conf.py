@@ -41,7 +41,8 @@ extensions = [
    # 'sphinx_sitemap',
    # 'sphinx.ext.inheritance_diagram',
     'sphinxcontrib.spelling',
-    'sphinx_sitemap'
+    'sphinx_sitemap',    
+    'sphinx_rtd_dark_mode'
 ]
 
 # Make sure the target is unique
