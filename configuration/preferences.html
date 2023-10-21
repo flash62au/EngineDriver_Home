@@ -11,6 +11,8 @@
       <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
       <link rel="stylesheet" href="../_static/css/engine_driver_home_theme.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/dark_mode_css/general.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/dark_mode_css/dark.css" type="text/css" />
     <link rel="shortcut icon" href="../_static/favicon.ico"/>
     <link rel="canonical" href="https://flash62au.github.io/EngineDriver_Home/configuration/preferences.html" />
   <!--[if lt IE 9]>
@@ -25,6 +27,8 @@
         <script src="../_static/sphinx_highlight.js"></script>
         <script src="../_static/js/platform.js"></script>
         <script src="../_static/js/extra.js"></script>
+        <script src="../_static/dark_mode_js/default_dark.js"></script>
+        <script src="../_static/dark_mode_js/theme_switcher.js"></script>
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
@@ -75,7 +79,7 @@
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../prerequisites/index.html#withrottle-servers">WiThrottle Servers</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="../prerequisites/index.html#for-jmri">For JMRI</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../prerequisites/index.html#for-dcc-ex-wifi">For DCC++EX WiFi</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../prerequisites/index.html#for-dcc-ex-wifi">For DCC-EX WiFi</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../prerequisites/index.html#for-mrc-wifi">For MRC WiFi</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../prerequisites/index.html#for-digitrax-lnwi">For Digitrax LnWi</a></li>
 </ul>
@@ -140,6 +144,7 @@
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="../operation/operation.html#pushing-the-app-to-the-background">Pushing the app to the Background</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../operation/operation.html#dcc-ex-ex-commandstation-features-when-using-the-native-dcc-ex-protocol">DCC-EX EX-CommandStation- Features when using the Native DCC-EX Protocol</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../operation/operation.html#exiting-engine-driver">Exiting Engine Driver</a></li>
 </ul>
 </li>
@@ -323,7 +328,7 @@
 <li class="toctree-l2"><a class="reference internal" href="configuration.html">Configuring Engine Driver</a></li>
 <li class="toctree-l2"><a class="reference internal" href="configuration_withrottle.html">Configuring the WiThrottle server</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="configuration_withrottle.html#jmri">JMRI</a></li>
-<li class="toctree-l3"><a class="reference internal" href="configuration_withrottle.html#dcc-ex-wifi">DCC++EX WiFi</a></li>
+<li class="toctree-l3"><a class="reference internal" href="configuration_withrottle.html#dcc-ex-wifi">DCC-EX WiFi</a></li>
 <li class="toctree-l3"><a class="reference internal" href="configuration_withrottle.html#mrc-wifi">MRC WiFi</a></li>
 <li class="toctree-l3"><a class="reference internal" href="configuration_withrottle.html#digitrax-lnwi">Digitrax LnWi</a></li>
 <li class="toctree-l3"><a class="reference internal" href="configuration_withrottle.html#wifitrax">WifiTrax</a></li>
@@ -429,6 +434,7 @@
 </li>
 <li class="toctree-l5"><a class="reference internal" href="#in-phone-sounds-button">In phone sounds button</a></li>
 <li class="toctree-l5"><a class="reference internal" href="#show-server-description">Show Server Description</a></li>
+<li class="toctree-l5"><a class="reference internal" href="#dcc-ex-button">DCC-EX button?</a></li>
 </ul>
 </li>
 <li class="toctree-l4"><a class="reference internal" href="#throttle-control-preferences">Throttle Control Preferences</a><ul>
@@ -560,6 +566,11 @@
 <li class="toctree-l5"><a class="reference internal" href="#mobile-data-connection">Mobile Data connection?</a></li>
 <li class="toctree-l5"><a class="reference internal" href="#feedback-on-disconnect">Feedback on Disconnect</a></li>
 <li class="toctree-l5"><a class="reference internal" href="#background-alert">Background Alert</a></li>
+<li class="toctree-l5"><a class="reference internal" href="#dcc-ex-ex-commandstation-preferences">DCC-EX EX-CommandStation Preferences</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="#use-native-dcc-ex-command">Use Native DCC-EX command</a></li>
+<li class="toctree-l6"><a class="reference internal" href="#show-protocol-option">Show protocol option</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toctree-l4"><a class="reference internal" href="#web-screen-preferences">Web Screen Preferences</a><ul>
@@ -834,184 +845,191 @@
 </li>
 <li><p><a class="reference internal" href="#in-phone-sounds-button" id="id98">In phone sounds button</a></p></li>
 <li><p><a class="reference internal" href="#show-server-description" id="id99">Show Server Description</a></p></li>
+<li><p><a class="reference internal" href="#dcc-ex-button" id="id100">DCC-EX button?</a></p></li>
 </ul>
 </li>
-<li><p><a class="reference internal" href="#throttle-control-preferences" id="id100">Throttle Control Preferences</a></p>
+<li><p><a class="reference internal" href="#throttle-control-preferences" id="id101">Throttle Control Preferences</a></p>
 <ul>
-<li><p><a class="reference internal" href="#speed-units" id="id101">Speed Units</a></p></li>
-<li><p><a class="reference internal" href="#maximum-throttle-percentage" id="id102">Maximum throttle Percentage</a></p></li>
-<li><p><a class="reference internal" href="#maximum-throttle-change" id="id103">Maximum throttle Change</a></p></li>
-<li><p><a class="reference internal" href="#speed-button-change-amount" id="id104">Speed button Change Amount</a></p></li>
-<li><p><a class="reference internal" href="#speed-button-repeat-delay" id="id105">Speed button Repeat Delay</a></p></li>
-<li><p><a class="reference internal" href="#speed-step-on-decrement" id="id106">Speed step on Decrement?</a></p></li>
-<li><p><a class="reference internal" href="#stop-on-phone-call" id="id107">Stop on Phone call?</a></p></li>
-<li><p><a class="reference internal" href="#direction-change-while-moving" id="id108">Direction change while moving?</a></p></li>
-<li><p><a class="reference internal" href="#stop-on-direction-change" id="id109">Stop on direction change?</a></p></li>
-<li><p><a class="reference internal" href="#limit-speed-pause-button-preferences" id="id110">‘Limit Speed’ &amp; ‘Pause’ button Preferences</a></p>
+<li><p><a class="reference internal" href="#speed-units" id="id102">Speed Units</a></p></li>
+<li><p><a class="reference internal" href="#maximum-throttle-percentage" id="id103">Maximum throttle Percentage</a></p></li>
+<li><p><a class="reference internal" href="#maximum-throttle-change" id="id104">Maximum throttle Change</a></p></li>
+<li><p><a class="reference internal" href="#speed-button-change-amount" id="id105">Speed button Change Amount</a></p></li>
+<li><p><a class="reference internal" href="#speed-button-repeat-delay" id="id106">Speed button Repeat Delay</a></p></li>
+<li><p><a class="reference internal" href="#speed-step-on-decrement" id="id107">Speed step on Decrement?</a></p></li>
+<li><p><a class="reference internal" href="#stop-on-phone-call" id="id108">Stop on Phone call?</a></p></li>
+<li><p><a class="reference internal" href="#direction-change-while-moving" id="id109">Direction change while moving?</a></p></li>
+<li><p><a class="reference internal" href="#stop-on-direction-change" id="id110">Stop on direction change?</a></p></li>
+<li><p><a class="reference internal" href="#limit-speed-pause-button-preferences" id="id111">‘Limit Speed’ &amp; ‘Pause’ button Preferences</a></p>
 <ul>
-<li><p><a class="reference internal" href="#show-limit-speed-button" id="id111">Show ‘Limit Speed’ button?</a></p></li>
-<li><p><a class="reference internal" href="#limit-speed-button" id="id112">‘Limit Speed’ button</a></p></li>
-<li><p><a class="reference internal" href="#show-pause-button" id="id113">Show ‘Pause’ button?</a></p></li>
-<li><p><a class="reference internal" href="#pause-button-rate" id="id114">‘Pause’ button Rate</a></p></li>
-<li><p><a class="reference internal" href="#pause-button-step" id="id115">‘Pause’ button Step</a></p></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p><a class="reference internal" href="#consist-function-follow-preferences" id="id116">Consist Function Follow Preferences</a></p>
-<ul>
-<li><p><a class="reference internal" href="#consist-functions-follow-rule-style" id="id117">Consist Functions - Follow Rule Style</a></p></li>
-<li><p><a class="reference internal" href="#selective-lead-unit-sound" id="id118">Selective Lead Unit Sound?</a></p></li>
-<li><p><a class="reference internal" href="#always-treat-f1-as-sound" id="id119">Always treat F1 as Sound?</a></p></li>
-<li><p><a class="reference internal" href="#always-treat-f2-as-sound" id="id120">Always treat F2 as Sound?</a></p></li>
-<li><p><a class="reference internal" href="#if-all-matches-fail-action" id="id121">If All matches Fail Action</a></p></li>
-<li><p><a class="reference internal" href="#headlight-specific-string-1" id="id122">Headlight specific String 1</a></p></li>
-<li><p><a class="reference internal" href="#headlight-specific-action-1" id="id123">Headlight specific Action 1</a></p></li>
-<li><p><a class="reference internal" href="#string-2-3-4-5" id="id124">String 2, 3, 4, 5</a></p></li>
-<li><p><a class="reference internal" href="#action-for-string-2-3-4-5" id="id125">Action for String 2, 3, 4, 5</a></p></li>
-</ul>
-</li>
-<li><p><a class="reference internal" href="#additional-throttle-control-source-preferences" id="id126">Additional Throttle Control Source Preferences</a></p>
-<ul>
-<li><p><a class="reference internal" href="#volume-button-preferences" id="id127">Volume Button Preferences</a></p>
-<ul>
-<li><p><a class="reference internal" href="#speed-button-change-amount-volume" id="id128">Speed button Change Amount (Volume)</a></p></li>
-<li><p><a class="reference internal" href="#disable-volume-keys" id="id129">Disable Volume keys?</a></p></li>
-<li><p><a class="reference internal" href="#volume-keys-follow-touch" id="id130">Volume keys follow touch?</a></p></li>
-</ul>
-</li>
-<li><p><a class="reference internal" href="#gamepad-preferences" id="id131">Gamepad Preferences</a></p>
-<ul>
-<li><p><a class="reference internal" href="#gamepad-type" id="id132">Gamepad type</a></p></li>
-<li><p><a class="reference internal" href="#only-one-gamepad" id="id133">Only One Gamepad?</a></p></li>
-<li><p><a class="reference internal" href="#test-gamepad-settings-now" id="id134">Test Gamepad settings now!</a></p></li>
-<li><p><a class="reference internal" href="#speed-button-change-amount-gamepad" id="id135">Speed button Change Amount (Gamepad)</a></p></li>
-<li><p><a class="reference internal" href="#gamepad-button-click-volume" id="id136">Gamepad Button Click Volume %</a></p></li>
-<li><p><a class="reference internal" href="#speed-button-repeat-delay-gamepad" id="id137">Speed button Repeat Delay (gamepad)</a></p></li>
-<li><p><a class="reference internal" href="#gamepad-button-action-x" id="id138">Gamepad button action &lt;!– X –&gt;</a></p></li>
-<li><p><a class="reference internal" href="#gamepad-button-action-y" id="id139">Gamepad button action &lt;!– Y –&gt;</a></p></li>
-<li><p><a class="reference internal" href="#gamepad-button-action-a" id="id140">Gamepad button action &lt;!– A –&gt;</a></p></li>
-<li><p><a class="reference internal" href="#gamepad-button-action-b" id="id141">Gamepad button action &lt;!– B –&gt;</a></p></li>
-<li><p><a class="reference internal" href="#gamepad-button-action-start-lower" id="id142">Gamepad button action &lt;!– Start(Lower) –&gt;</a></p></li>
-<li><p><a class="reference internal" href="#gamepad-button-action-return-upper" id="id143">Gamepad button action &lt;!– Return(Upper) –&gt;</a></p></li>
-<li><p><a class="reference internal" href="#gamepad-dpad-up-action" id="id144">Gamepad DPAD Up action</a></p></li>
-<li><p><a class="reference internal" href="#gamepad-dpad-right-action" id="id145">Gamepad DPAD Right action</a></p></li>
-<li><p><a class="reference internal" href="#gamepad-dpad-down-action" id="id146">Gamepad DPAD Down action</a></p></li>
-<li><p><a class="reference internal" href="#gamepad-dpad-left-action" id="id147">Gamepad DPAD Left action</a></p></li>
-<li><p><a class="reference internal" href="#swap-direction-buttons-with-screen-buttons" id="id148">Swap Direction buttons with Screen buttons?</a></p></li>
-<li><p><a class="reference internal" href="#enforce-gamepad-testing" id="id149">Enforce Gamepad Testing?</a></p></li>
-<li><p><a class="reference internal" href="#use-simple-test" id="id150">Use Simple Test?</a></p></li>
-</ul>
-</li>
-<li><p><a class="reference internal" href="#esu-mobilecontrol-ii-options" id="id151">ESU MobileControl II Options</a></p></li>
-<li><p><a class="reference internal" href="#device-stop-button-options" id="id152">Device Stop button options</a></p>
-<ul>
-<li><p><a class="reference internal" href="#stop-button-long-press-delay" id="id153">Stop Button long-press delay</a></p></li>
-<li><p><a class="reference internal" href="#enable-short-press" id="id154">Enable Short Press</a></p></li>
-</ul>
-</li>
-<li><p><a class="reference internal" href="#device-side-button-options" id="id155">Device side button options</a></p>
-<ul>
-<li><p><a class="reference internal" href="#top-left-button-action" id="id156">Top-left button action</a></p></li>
-<li><p><a class="reference internal" href="#bottom-left-button-action" id="id157">Bottom-left button action</a></p></li>
-<li><p><a class="reference internal" href="#top-right-button-action" id="id158">Top-right button action</a></p></li>
-<li><p><a class="reference internal" href="#bottom-right-button-action" id="id159">Bottom-right button action</a></p></li>
-<li><p><a class="reference internal" href="#button-repeat-delay" id="id160">Button repeat delay</a></p></li>
-</ul>
-</li>
-<li><p><a class="reference internal" href="#control-knob-options" id="id161">Control Knob options</a></p>
-<ul>
-<li><p><a class="reference internal" href="#control-knob-zero-trim" id="id162">Control Knob Zero Trim</a></p></li>
-<li><p><a class="reference internal" href="#direction-change-at-end-stop" id="id163">Direction Change at end-stop</a></p></li>
-<li><p><a class="reference internal" href="#show-disable-knob-button" id="id164">Show disable Knob button</a></p></li>
-</ul>
-</li>
-<li><p><a class="reference internal" href="#additional-selected-loco-indicator" id="id165">Additional selected loco Indicator</a></p></li>
-<li><p><a class="reference internal" href="#voice-response-preferences" id="id166">Voice Response Preferences</a></p>
-<ul>
-<li><p><a class="reference internal" href="#voice-response" id="id167">Voice Response</a></p></li>
-<li><p><a class="reference internal" href="#on-gamepad-throttle-change" id="id168">On Gamepad Throttle change</a></p></li>
-<li><p><a class="reference internal" href="#on-gamepad-speeds" id="id169">On Gamepad Speeds</a></p></li>
-<li><p><a class="reference internal" href="#on-gamepad-test-start" id="id170">On Gamepad Test start</a></p></li>
-<li><p><a class="reference internal" href="#on-gamepad-test-complete" id="id171">On Gamepad Test complete</a></p></li>
-<li><p><a class="reference internal" href="#on-gamepad-test-key-press" id="id172">On Gamepad Test key press</a></p></li>
+<li><p><a class="reference internal" href="#show-limit-speed-button" id="id112">Show ‘Limit Speed’ button?</a></p></li>
+<li><p><a class="reference internal" href="#limit-speed-button" id="id113">‘Limit Speed’ button</a></p></li>
+<li><p><a class="reference internal" href="#show-pause-button" id="id114">Show ‘Pause’ button?</a></p></li>
+<li><p><a class="reference internal" href="#pause-button-rate" id="id115">‘Pause’ button Rate</a></p></li>
+<li><p><a class="reference internal" href="#pause-button-step" id="id116">‘Pause’ button Step</a></p></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><p><a class="reference internal" href="#select-loco-preferences" id="id173">Select Loco Preferences</a></p>
+<li><p><a class="reference internal" href="#consist-function-follow-preferences" id="id117">Consist Function Follow Preferences</a></p>
 <ul>
-<li><p><a class="reference internal" href="#stop-on-release" id="id174">Stop on Release?</a></p></li>
-<li><p><a class="reference internal" href="#drop-loco-before-acquire" id="id175">Drop Loco before acquire?</a></p></li>
-<li><p><a class="reference internal" href="#allow-loco-select-while-moving" id="id176">Allow loco select while moving?</a></p></li>
-<li><p><a class="reference internal" href="#default-address-length" id="id177">Default Address Length</a></p></li>
-<li><p><a class="reference internal" href="#roster-in-recent-locos" id="id178">Roster in Recent Locos?</a></p></li>
-<li><p><a class="reference internal" href="#roster-names-in-recent-locos" id="id179">Roster Names in Recent Locos?</a></p></li>
-<li><p><a class="reference internal" href="#maximum-recent-locos" id="id180">Maximum Recent Locos</a></p></li>
-<li><p><a class="reference internal" href="#control-consist-lights-on-long-click" id="id181">Control consist Lights on long click</a></p></li>
-<li><p><a class="reference internal" href="#filter-roster" id="id182">Filter Roster</a></p></li>
+<li><p><a class="reference internal" href="#consist-functions-follow-rule-style" id="id118">Consist Functions - Follow Rule Style</a></p></li>
+<li><p><a class="reference internal" href="#selective-lead-unit-sound" id="id119">Selective Lead Unit Sound?</a></p></li>
+<li><p><a class="reference internal" href="#always-treat-f1-as-sound" id="id120">Always treat F1 as Sound?</a></p></li>
+<li><p><a class="reference internal" href="#always-treat-f2-as-sound" id="id121">Always treat F2 as Sound?</a></p></li>
+<li><p><a class="reference internal" href="#if-all-matches-fail-action" id="id122">If All matches Fail Action</a></p></li>
+<li><p><a class="reference internal" href="#headlight-specific-string-1" id="id123">Headlight specific String 1</a></p></li>
+<li><p><a class="reference internal" href="#headlight-specific-action-1" id="id124">Headlight specific Action 1</a></p></li>
+<li><p><a class="reference internal" href="#string-2-3-4-5" id="id125">String 2, 3, 4, 5</a></p></li>
+<li><p><a class="reference internal" href="#action-for-string-2-3-4-5" id="id126">Action for String 2, 3, 4, 5</a></p></li>
 </ul>
 </li>
-<li><p><a class="reference internal" href="#in-phone-loco-sounds" id="id183">In Phone Loco Sounds</a></p>
+<li><p><a class="reference internal" href="#additional-throttle-control-source-preferences" id="id127">Additional Throttle Control Source Preferences</a></p>
 <ul>
-<li><p><a class="reference internal" href="#throttle-1-loco-sounds" id="id184">Throttle 1 Loco Sounds</a></p></li>
-<li><p><a class="reference internal" href="#throttle-2-loco-sounds" id="id185">Throttle 2 Loco Sounds</a></p></li>
-<li><p><a class="reference internal" href="#additional-preferences" id="id186">Additional Preferences</a></p>
+<li><p><a class="reference internal" href="#volume-button-preferences" id="id128">Volume Button Preferences</a></p>
 <ul>
-<li><p><a class="reference internal" href="#in-phone-momentum" id="id187">In Phone Momentum</a></p></li>
-<li><p><a class="reference internal" href="#don-t-clip-loco-step-sounds" id="id188">Don’t clip loco step sounds</a></p></li>
-<li><p><a class="reference internal" href="#in-phone-loco-sounds-volume" id="id189">In Phone Loco Sounds Volume</a></p></li>
-<li><p><a class="reference internal" href="#in-phone-bell-sounds-volume" id="id190">In Phone Bell Sounds Volume</a></p></li>
-<li><p><a class="reference internal" href="#in-phone-horn-whistle-sounds-volume" id="id191">In Phone Horn/Whistle Sounds Volume</a></p></li>
-<li><p><a class="reference internal" href="#bell-button-latching-momentary" id="id192">Bell button Latching/Momentary</a></p></li>
-<li><p><a class="reference internal" href="#f1-and-f2-activate-bell-and-horn" id="id193">F1 and F2 activate Bell and Horn?</a></p></li>
+<li><p><a class="reference internal" href="#speed-button-change-amount-volume" id="id129">Speed button Change Amount (Volume)</a></p></li>
+<li><p><a class="reference internal" href="#disable-volume-keys" id="id130">Disable Volume keys?</a></p></li>
+<li><p><a class="reference internal" href="#volume-keys-follow-touch" id="id131">Volume keys follow touch?</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#gamepad-preferences" id="id132">Gamepad Preferences</a></p>
+<ul>
+<li><p><a class="reference internal" href="#gamepad-type" id="id133">Gamepad type</a></p></li>
+<li><p><a class="reference internal" href="#only-one-gamepad" id="id134">Only One Gamepad?</a></p></li>
+<li><p><a class="reference internal" href="#test-gamepad-settings-now" id="id135">Test Gamepad settings now!</a></p></li>
+<li><p><a class="reference internal" href="#speed-button-change-amount-gamepad" id="id136">Speed button Change Amount (Gamepad)</a></p></li>
+<li><p><a class="reference internal" href="#gamepad-button-click-volume" id="id137">Gamepad Button Click Volume %</a></p></li>
+<li><p><a class="reference internal" href="#speed-button-repeat-delay-gamepad" id="id138">Speed button Repeat Delay (gamepad)</a></p></li>
+<li><p><a class="reference internal" href="#gamepad-button-action-x" id="id139">Gamepad button action &lt;!– X –&gt;</a></p></li>
+<li><p><a class="reference internal" href="#gamepad-button-action-y" id="id140">Gamepad button action &lt;!– Y –&gt;</a></p></li>
+<li><p><a class="reference internal" href="#gamepad-button-action-a" id="id141">Gamepad button action &lt;!– A –&gt;</a></p></li>
+<li><p><a class="reference internal" href="#gamepad-button-action-b" id="id142">Gamepad button action &lt;!– B –&gt;</a></p></li>
+<li><p><a class="reference internal" href="#gamepad-button-action-start-lower" id="id143">Gamepad button action &lt;!– Start(Lower) –&gt;</a></p></li>
+<li><p><a class="reference internal" href="#gamepad-button-action-return-upper" id="id144">Gamepad button action &lt;!– Return(Upper) –&gt;</a></p></li>
+<li><p><a class="reference internal" href="#gamepad-dpad-up-action" id="id145">Gamepad DPAD Up action</a></p></li>
+<li><p><a class="reference internal" href="#gamepad-dpad-right-action" id="id146">Gamepad DPAD Right action</a></p></li>
+<li><p><a class="reference internal" href="#gamepad-dpad-down-action" id="id147">Gamepad DPAD Down action</a></p></li>
+<li><p><a class="reference internal" href="#gamepad-dpad-left-action" id="id148">Gamepad DPAD Left action</a></p></li>
+<li><p><a class="reference internal" href="#swap-direction-buttons-with-screen-buttons" id="id149">Swap Direction buttons with Screen buttons?</a></p></li>
+<li><p><a class="reference internal" href="#enforce-gamepad-testing" id="id150">Enforce Gamepad Testing?</a></p></li>
+<li><p><a class="reference internal" href="#use-simple-test" id="id151">Use Simple Test?</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#esu-mobilecontrol-ii-options" id="id152">ESU MobileControl II Options</a></p></li>
+<li><p><a class="reference internal" href="#device-stop-button-options" id="id153">Device Stop button options</a></p>
+<ul>
+<li><p><a class="reference internal" href="#stop-button-long-press-delay" id="id154">Stop Button long-press delay</a></p></li>
+<li><p><a class="reference internal" href="#enable-short-press" id="id155">Enable Short Press</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#device-side-button-options" id="id156">Device side button options</a></p>
+<ul>
+<li><p><a class="reference internal" href="#top-left-button-action" id="id157">Top-left button action</a></p></li>
+<li><p><a class="reference internal" href="#bottom-left-button-action" id="id158">Bottom-left button action</a></p></li>
+<li><p><a class="reference internal" href="#top-right-button-action" id="id159">Top-right button action</a></p></li>
+<li><p><a class="reference internal" href="#bottom-right-button-action" id="id160">Bottom-right button action</a></p></li>
+<li><p><a class="reference internal" href="#button-repeat-delay" id="id161">Button repeat delay</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#control-knob-options" id="id162">Control Knob options</a></p>
+<ul>
+<li><p><a class="reference internal" href="#control-knob-zero-trim" id="id163">Control Knob Zero Trim</a></p></li>
+<li><p><a class="reference internal" href="#direction-change-at-end-stop" id="id164">Direction Change at end-stop</a></p></li>
+<li><p><a class="reference internal" href="#show-disable-knob-button" id="id165">Show disable Knob button</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#additional-selected-loco-indicator" id="id166">Additional selected loco Indicator</a></p></li>
+<li><p><a class="reference internal" href="#voice-response-preferences" id="id167">Voice Response Preferences</a></p>
+<ul>
+<li><p><a class="reference internal" href="#voice-response" id="id168">Voice Response</a></p></li>
+<li><p><a class="reference internal" href="#on-gamepad-throttle-change" id="id169">On Gamepad Throttle change</a></p></li>
+<li><p><a class="reference internal" href="#on-gamepad-speeds" id="id170">On Gamepad Speeds</a></p></li>
+<li><p><a class="reference internal" href="#on-gamepad-test-start" id="id171">On Gamepad Test start</a></p></li>
+<li><p><a class="reference internal" href="#on-gamepad-test-complete" id="id172">On Gamepad Test complete</a></p></li>
+<li><p><a class="reference internal" href="#on-gamepad-test-key-press" id="id173">On Gamepad Test key press</a></p></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><p><a class="reference internal" href="#connect-preferences" id="id194">Connect Preferences</a></p>
+<li><p><a class="reference internal" href="#select-loco-preferences" id="id174">Select Loco Preferences</a></p>
 <ul>
-<li><p><a class="reference internal" href="#maximum-recent-connections" id="id195">Maximum Recent Connections</a></p></li>
-<li><p><a class="reference internal" href="#auto-connect-to-withrottle-server" id="id196">Auto-Connect to WiThrottle Server?</a></p></li>
-<li><p><a class="reference internal" href="#hide-demo-server" id="id197">Hide Demo Server</a></p></li>
-<li><p><a class="reference internal" href="#initial-connection-timeout" id="id198">Initial Connection Timeout</a></p></li>
-<li><p><a class="reference internal" href="#socket-timeout" id="id199">Socket Timeout</a></p></li>
-<li><p><a class="reference internal" href="#mobile-data-connection" id="id200">Mobile Data connection?</a></p></li>
-<li><p><a class="reference internal" href="#feedback-on-disconnect" id="id201">Feedback on Disconnect</a></p></li>
-<li><p><a class="reference internal" href="#background-alert" id="id202">Background Alert</a></p></li>
+<li><p><a class="reference internal" href="#stop-on-release" id="id175">Stop on Release?</a></p></li>
+<li><p><a class="reference internal" href="#drop-loco-before-acquire" id="id176">Drop Loco before acquire?</a></p></li>
+<li><p><a class="reference internal" href="#allow-loco-select-while-moving" id="id177">Allow loco select while moving?</a></p></li>
+<li><p><a class="reference internal" href="#default-address-length" id="id178">Default Address Length</a></p></li>
+<li><p><a class="reference internal" href="#roster-in-recent-locos" id="id179">Roster in Recent Locos?</a></p></li>
+<li><p><a class="reference internal" href="#roster-names-in-recent-locos" id="id180">Roster Names in Recent Locos?</a></p></li>
+<li><p><a class="reference internal" href="#maximum-recent-locos" id="id181">Maximum Recent Locos</a></p></li>
+<li><p><a class="reference internal" href="#control-consist-lights-on-long-click" id="id182">Control consist Lights on long click</a></p></li>
+<li><p><a class="reference internal" href="#filter-roster" id="id183">Filter Roster</a></p></li>
 </ul>
 </li>
-<li><p><a class="reference internal" href="#web-screen-preferences" id="id203">Web Screen Preferences</a></p>
+<li><p><a class="reference internal" href="#in-phone-loco-sounds" id="id184">In Phone Loco Sounds</a></p>
 <ul>
-<li><p><a class="reference internal" href="#web-screen-orientation" id="id204">Web Screen Orientation</a></p></li>
-<li><p><a class="reference internal" href="#initial-web-screen-page" id="id205">Initial Web Screen Page</a></p></li>
+<li><p><a class="reference internal" href="#throttle-1-loco-sounds" id="id185">Throttle 1 Loco Sounds</a></p></li>
+<li><p><a class="reference internal" href="#throttle-2-loco-sounds" id="id186">Throttle 2 Loco Sounds</a></p></li>
+<li><p><a class="reference internal" href="#additional-preferences" id="id187">Additional Preferences</a></p>
+<ul>
+<li><p><a class="reference internal" href="#in-phone-momentum" id="id188">In Phone Momentum</a></p></li>
+<li><p><a class="reference internal" href="#don-t-clip-loco-step-sounds" id="id189">Don’t clip loco step sounds</a></p></li>
+<li><p><a class="reference internal" href="#in-phone-loco-sounds-volume" id="id190">In Phone Loco Sounds Volume</a></p></li>
+<li><p><a class="reference internal" href="#in-phone-bell-sounds-volume" id="id191">In Phone Bell Sounds Volume</a></p></li>
+<li><p><a class="reference internal" href="#in-phone-horn-whistle-sounds-volume" id="id192">In Phone Horn/Whistle Sounds Volume</a></p></li>
+<li><p><a class="reference internal" href="#bell-button-latching-momentary" id="id193">Bell button Latching/Momentary</a></p></li>
+<li><p><a class="reference internal" href="#f1-and-f2-activate-bell-and-horn" id="id194">F1 and F2 activate Bell and Horn?</a></p></li>
 </ul>
 </li>
-<li><p><a class="reference internal" href="#turnouts-points-and-routes-preferences" id="id206">Turnouts/Points and Routes Preferences</a></p>
-<ul>
-<li><p><a class="reference internal" href="#hide-sys-route-names" id="id207">Hide Sys Route Names?</a></p></li>
-<li><p><a class="reference internal" href="#location-delimiter" id="id208">Location Delimiter</a></p></li>
-<li><p><a class="reference internal" href="#hide-if-no-user-name" id="id209">Hide if no user name?</a></p></li>
 </ul>
 </li>
-<li><p><a class="reference internal" href="#children-s-timer-preferences" id="id210">Children’s (Timer) Preferences</a></p>
+<li><p><a class="reference internal" href="#connect-preferences" id="id195">Connect Preferences</a></p>
 <ul>
-<li><p><a class="reference internal" href="#time-limited-running" id="id211">Time limited running</a></p></li>
-<li><p><a class="reference internal" href="#restart-password" id="id212">Restart Password</a></p></li>
-<li><p><a class="reference internal" href="#reset-disable-password" id="id213">Reset/Disable Password</a></p></li>
-<li><p><a class="reference internal" href="#allow-reverse" id="id214">Allow Reverse?</a></p></li>
-<li><p><a class="reference internal" href="#show-timer-button" id="id215">Show Timer button?</a></p></li>
-<li><p><a class="reference internal" href="#default-time-for-button" id="id216">Default time for Button</a></p></li>
+<li><p><a class="reference internal" href="#maximum-recent-connections" id="id196">Maximum Recent Connections</a></p></li>
+<li><p><a class="reference internal" href="#auto-connect-to-withrottle-server" id="id197">Auto-Connect to WiThrottle Server?</a></p></li>
+<li><p><a class="reference internal" href="#hide-demo-server" id="id198">Hide Demo Server</a></p></li>
+<li><p><a class="reference internal" href="#initial-connection-timeout" id="id199">Initial Connection Timeout</a></p></li>
+<li><p><a class="reference internal" href="#socket-timeout" id="id200">Socket Timeout</a></p></li>
+<li><p><a class="reference internal" href="#mobile-data-connection" id="id201">Mobile Data connection?</a></p></li>
+<li><p><a class="reference internal" href="#feedback-on-disconnect" id="id202">Feedback on Disconnect</a></p></li>
+<li><p><a class="reference internal" href="#background-alert" id="id203">Background Alert</a></p></li>
+<li><p><a class="reference internal" href="#dcc-ex-ex-commandstation-preferences" id="id204">DCC-EX EX-CommandStation Preferences</a></p>
+<ul>
+<li><p><a class="reference internal" href="#use-native-dcc-ex-command" id="id205">Use Native DCC-EX command</a></p></li>
+<li><p><a class="reference internal" href="#show-protocol-option" id="id206">Show protocol option</a></p></li>
 </ul>
 </li>
-<li><p><a class="reference internal" href="#import-export-reset-log-preferences" id="id217">Import/Export/Reset &amp; Log Preferences</a></p>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#web-screen-preferences" id="id207">Web Screen Preferences</a></p>
 <ul>
-<li><p><a class="reference internal" href="#import-export-or-reset" id="id218">Import, Export or Reset</a></p></li>
-<li><p><a class="reference internal" href="#auto-import-from-all-servers" id="id219">Auto import from all Servers?</a></p></li>
-<li><p><a class="reference internal" href="#include-recent-loco-list" id="id220">Include recent loco list?</a></p></li>
-<li><p><a class="reference internal" href="#auto-host-specific-import-export" id="id221">Auto host specific import/export?</a></p></li>
-<li><p><a class="reference internal" href="#manual-host-specific-import-export" id="id222">Manual host specific import/export</a></p></li>
-<li><p><a class="reference internal" href="#show-timestamps-on-log" id="id223">Show Timestamps on Log?</a></p></li>
+<li><p><a class="reference internal" href="#web-screen-orientation" id="id208">Web Screen Orientation</a></p></li>
+<li><p><a class="reference internal" href="#initial-web-screen-page" id="id209">Initial Web Screen Page</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#turnouts-points-and-routes-preferences" id="id210">Turnouts/Points and Routes Preferences</a></p>
+<ul>
+<li><p><a class="reference internal" href="#hide-sys-route-names" id="id211">Hide Sys Route Names?</a></p></li>
+<li><p><a class="reference internal" href="#location-delimiter" id="id212">Location Delimiter</a></p></li>
+<li><p><a class="reference internal" href="#hide-if-no-user-name" id="id213">Hide if no user name?</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#children-s-timer-preferences" id="id214">Children’s (Timer) Preferences</a></p>
+<ul>
+<li><p><a class="reference internal" href="#time-limited-running" id="id215">Time limited running</a></p></li>
+<li><p><a class="reference internal" href="#restart-password" id="id216">Restart Password</a></p></li>
+<li><p><a class="reference internal" href="#reset-disable-password" id="id217">Reset/Disable Password</a></p></li>
+<li><p><a class="reference internal" href="#allow-reverse" id="id218">Allow Reverse?</a></p></li>
+<li><p><a class="reference internal" href="#show-timer-button" id="id219">Show Timer button?</a></p></li>
+<li><p><a class="reference internal" href="#default-time-for-button" id="id220">Default time for Button</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#import-export-reset-log-preferences" id="id221">Import/Export/Reset &amp; Log Preferences</a></p>
+<ul>
+<li><p><a class="reference internal" href="#import-export-or-reset" id="id222">Import, Export or Reset</a></p></li>
+<li><p><a class="reference internal" href="#auto-import-from-all-servers" id="id223">Auto import from all Servers?</a></p></li>
+<li><p><a class="reference internal" href="#include-recent-loco-list" id="id224">Include recent loco list?</a></p></li>
+<li><p><a class="reference internal" href="#auto-host-specific-import-export" id="id225">Auto host specific import/export?</a></p></li>
+<li><p><a class="reference internal" href="#manual-host-specific-import-export" id="id226">Manual host specific import/export</a></p></li>
+<li><p><a class="reference internal" href="#show-timestamps-on-log" id="id227">Show Timestamps on Log?</a></p></li>
 </ul>
 </li>
 </ul>
@@ -1728,12 +1746,17 @@ Requires restart of engine Driver after changing to take effect.</p>
 <a class="reference internal image-reference" href="../_images/server_description.png"><img alt="../_images/server_description.png" class="align-right" src="../_images/server_description.png" style="width: 307.0px; height: 32.5px;" /></a>
 <p>Setting this preference will display the description of the current server on the Action Bar.</p>
 </section>
+<section id="dcc-ex-button">
+<h3><a class="toc-backref" href="#id100">DCC-EX button?</a><a class="headerlink" href="#dcc-ex-button" title="Permalink to this heading"></a></h3>
+<p>Enabling this preference will cause <span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span> to show an additional button on the Action Bar that allows to to quickly to the DCC-EX screen.</p>
+<p>Refer to <a class="reference internal" href="../operation/dcc-ex-native-protocol.html"><span class="doc">this page</span></a> additional information.</p>
+</section>
 </section>
 <section id="throttle-control-preferences">
-<h2><a class="toc-backref" href="#id100">Throttle Control Preferences</a><a class="headerlink" href="#throttle-control-preferences" title="Permalink to this heading"></a></h2>
+<h2><a class="toc-backref" href="#id101">Throttle Control Preferences</a><a class="headerlink" href="#throttle-control-preferences" title="Permalink to this heading"></a></h2>
 <p>The following preferences provide options for how the throttle on the <a class="reference internal" href="../operation/interface.html#throttle-screen"><span class="std std-ref">Throttle Screen</span></a> will behave.</p>
 <section id="speed-units">
-<h3><a class="toc-backref" href="#id101">Speed Units</a><a class="headerlink" href="#speed-units" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id102">Speed Units</a><a class="headerlink" href="#speed-units" title="Permalink to this heading"></a></h3>
 <p>Use this preference to change how the speed is displayed and functions on all the throttles on the <a class="reference internal" href="../operation/interface.html#throttle-screen"><span class="std std-ref">Throttle Screen</span></a>.</p>
 <p>Options:</p>
 <blockquote>
@@ -1750,11 +1773,11 @@ Requires restart of engine Driver after changing to take effect.</p>
 <p>Note that the <a class="reference internal" href="#speed-button-change-amount">Speed button Change Amount</a> preference will work in the units that you choose here.</p>
 </section>
 <section id="maximum-throttle-percentage">
-<h3><a class="toc-backref" href="#id102">Maximum throttle Percentage</a><a class="headerlink" href="#maximum-throttle-percentage" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id103">Maximum throttle Percentage</a><a class="headerlink" href="#maximum-throttle-percentage" title="Permalink to this heading"></a></h3>
 <p>This preference allows you to set the maximum allowed throttle slider value in % on all the throttles on the <a class="reference internal" href="../operation/interface.html#throttle-screen"><span class="std std-ref">Throttle Screen</span></a>.</p>
 </section>
 <section id="maximum-throttle-change">
-<h3><a class="toc-backref" href="#id103">Maximum throttle Change</a><a class="headerlink" href="#maximum-throttle-change" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id104">Maximum throttle Change</a><a class="headerlink" href="#maximum-throttle-change" title="Permalink to this heading"></a></h3>
 <p>This preference allows you to set the Maximum allowed throttle change in % on all the throttles on the <a class="reference internal" href="../operation/interface.html#throttle-screen"><span class="std std-ref">Throttle Screen</span></a>.</p>
 <div class="admonition-todo admonition" id="id1">
 <p class="admonition-title">Todo</p>
@@ -1762,66 +1785,66 @@ Requires restart of engine Driver after changing to take effect.</p>
 </div>
 </section>
 <section id="speed-button-change-amount">
-<h3><a class="toc-backref" href="#id104">Speed button Change Amount</a><a class="headerlink" href="#speed-button-change-amount" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id105">Speed button Change Amount</a><a class="headerlink" href="#speed-button-change-amount" title="Permalink to this heading"></a></h3>
 <p>This preference allows you to set how much the Speed buttons jump/change the speed.</p>
 <p>Note that this works in the units chosen in the <cite>Speed Units</cite> preference.i.e. If your Speed Units are ‘8 Steps’ and your Speed button change amount is ‘4’ then just two click will get you from zero to 100% speed.</p>
 </section>
 <section id="speed-button-repeat-delay">
-<h3><a class="toc-backref" href="#id105">Speed button Repeat Delay</a><a class="headerlink" href="#speed-button-repeat-delay" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id106">Speed button Repeat Delay</a><a class="headerlink" href="#speed-button-repeat-delay" title="Permalink to this heading"></a></h3>
 <p>Use this preference to change how long between repeats on speed buttons. Smaller is faster. Excludes gamepad buttons.</p>
 <p>Note that this is independent of the equivalent gamepad preference. (<a class="reference internal" href="#speed-button-repeat-delay-gamepad">Speed button Repeat Delay (gamepad)</a>)</p>
 </section>
 <section id="speed-step-on-decrement">
-<h3><a class="toc-backref" href="#id106">Speed step on Decrement?</a><a class="headerlink" href="#speed-step-on-decrement" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id107">Speed step on Decrement?</a><a class="headerlink" href="#speed-step-on-decrement" title="Permalink to this heading"></a></h3>
 <p>Use this preference to force the <a class="reference internal" href="#speed-button-change-amount">Speed button Change Amount</a> to be used when long pressing a lower speed on the slider. If not enabled, the speed will immediately jump to the touched speed.</p>
 </section>
 <section id="stop-on-phone-call">
-<h3><a class="toc-backref" href="#id107">Stop on Phone call?</a><a class="headerlink" href="#stop-on-phone-call" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id108">Stop on Phone call?</a><a class="headerlink" href="#stop-on-phone-call" title="Permalink to this heading"></a></h3>
 <p>If the preference is enabled, <span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span> will stop all loco(s) controlled by the device /phone when a phone call is answered or placed.</p>
 </section>
 <section id="direction-change-while-moving">
-<h3><a class="toc-backref" href="#id108">Direction change while moving?</a><a class="headerlink" href="#direction-change-while-moving" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id109">Direction change while moving?</a><a class="headerlink" href="#direction-change-while-moving" title="Permalink to this heading"></a></h3>
 <p>If the preference is enabled, <span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span> will allow you to change the direction of the locos controlled by a throttle to instantly change direction.  i.e. Both directions buttons are allows available.</p>
 </section>
 <section id="stop-on-direction-change">
-<h3><a class="toc-backref" href="#id109">Stop on direction change?</a><a class="headerlink" href="#stop-on-direction-change" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id110">Stop on direction change?</a><a class="headerlink" href="#stop-on-direction-change" title="Permalink to this heading"></a></h3>
 <p>If the preference is enabled, <span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span> will stop the locos controlled by a throttle if you click the opposite direction while the loco(s) are moving.  Effectively this means that the ‘opposite’ direction will (also) act like a stop button.</p>
 </section>
 <section id="limit-speed-pause-button-preferences">
-<h3><a class="toc-backref" href="#id110">‘Limit Speed’ &amp; ‘Pause’ button Preferences</a><a class="headerlink" href="#limit-speed-pause-button-preferences" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id111">‘Limit Speed’ &amp; ‘Pause’ button Preferences</a><a class="headerlink" href="#limit-speed-pause-button-preferences" title="Permalink to this heading"></a></h3>
 <p>These preferences allow for additional buttons to appear in the Function Button area of each Throttle on the <a class="reference internal" href="../operation/interface.html#throttle-screen"><span class="std std-ref">Throttle Screen</span></a>, but are not related to DCC Functions.</p>
 <section id="show-limit-speed-button">
-<h4><a class="toc-backref" href="#id111">Show ‘Limit Speed’ button?</a><a class="headerlink" href="#show-limit-speed-button" title="Permalink to this heading"></a></h4>
+<h4><a class="toc-backref" href="#id112">Show ‘Limit Speed’ button?</a><a class="headerlink" href="#show-limit-speed-button" title="Permalink to this heading"></a></h4>
 <p>If this preference is enabled, <span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span> will show a <span class="guilabel">Limit Speed</span> button in all the throttles in the <a class="reference internal" href="../operation/interface.html#throttle-screen"><span class="std std-ref">Throttle Screen</span></a>.</p>
 <p>When clicked, <span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span> will temporarily restrict the maximum speed on the individual throttle.  The speed tat it limits to is set with the <a class="reference internal" href="#limit-speed-button">‘Limit Speed’ button</a> preference.</p>
 </section>
 <section id="limit-speed-button">
-<h4><a class="toc-backref" href="#id112">‘Limit Speed’ button</a><a class="headerlink" href="#limit-speed-button" title="Permalink to this heading"></a></h4>
+<h4><a class="toc-backref" href="#id113">‘Limit Speed’ button</a><a class="headerlink" href="#limit-speed-button" title="Permalink to this heading"></a></h4>
 <p>Use this preference to set the amount, as a percentage (%), of the throttle that the speed will be temporarily limited to when you click the <span class="guilabel">Limit Speed</span> button.</p>
 <p>Note: If the <a class="reference internal" href="#show-limit-speed-button">Show ‘Limit Speed’ button?</a> preference is not enabled this has no effect.</p>
 </section>
 <section id="show-pause-button">
-<h4><a class="toc-backref" href="#id113">Show ‘Pause’ button?</a><a class="headerlink" href="#show-pause-button" title="Permalink to this heading"></a></h4>
+<h4><a class="toc-backref" href="#id114">Show ‘Pause’ button?</a><a class="headerlink" href="#show-pause-button" title="Permalink to this heading"></a></h4>
 <p>If this preference is enabled, <span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span> will show a <span class="guilabel">Pause</span> button in all the throttles in the Throttle Screen.</p>
 <p>When clicked, <span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span> will gradually slow and stop the loco(s) of a throttle. When pressed again <span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span> will return the loco(s) to original speed.</p>
 </section>
 <section id="pause-button-rate">
-<h4><a class="toc-backref" href="#id114">‘Pause’ button Rate</a><a class="headerlink" href="#pause-button-rate" title="Permalink to this heading"></a></h4>
+<h4><a class="toc-backref" href="#id115">‘Pause’ button Rate</a><a class="headerlink" href="#pause-button-rate" title="Permalink to this heading"></a></h4>
 <p>Use this preference to set the number of milliseconds between speed step changes for the Pause action.</p>
 <p>Only relevant is the <a class="reference internal" href="#show-pause-button">Show ‘Pause’ button?</a> preference is enabled.</p>
 </section>
 <section id="pause-button-step">
-<h4><a class="toc-backref" href="#id115">‘Pause’ button Step</a><a class="headerlink" href="#pause-button-step" title="Permalink to this heading"></a></h4>
+<h4><a class="toc-backref" href="#id116">‘Pause’ button Step</a><a class="headerlink" href="#pause-button-step" title="Permalink to this heading"></a></h4>
 <p>Use this preference to set amount, as a percentage (%), of the throttle that the speed will change by (step) each time after the <code class="docutils literal notranslate"><span class="pre">Pause</span></code> is clicked.</p>
 <p>Only relevant is the <a class="reference internal" href="#show-pause-button">Show ‘Pause’ button?</a> preference is enabled.</p>
 </section>
 </section>
 </section>
 <section id="consist-function-follow-preferences">
-<h2><a class="toc-backref" href="#id116">Consist Function Follow Preferences</a><a class="headerlink" href="#consist-function-follow-preferences" title="Permalink to this heading"></a></h2>
+<h2><a class="toc-backref" href="#id117">Consist Function Follow Preferences</a><a class="headerlink" href="#consist-function-follow-preferences" title="Permalink to this heading"></a></h2>
 <p>These preferences allow for change the way DCC functions will behave in a consist/multiple unit train.</p>
 <section id="consist-functions-follow-rule-style">
-<h3><a class="toc-backref" href="#id117">Consist Functions - Follow Rule Style</a><a class="headerlink" href="#consist-functions-follow-rule-style" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id118">Consist Functions - Follow Rule Style</a><a class="headerlink" href="#consist-functions-follow-rule-style" title="Permalink to this heading"></a></h3>
 <div class="admonition-todo admonition" id="id2">
 <p class="admonition-title">Todo</p>
 <p>Consist Functions - Follow Rule Style</p>
@@ -1838,7 +1861,7 @@ Requires restart of engine Driver after changing to take effect.</p>
 </ul>
 </section>
 <section id="selective-lead-unit-sound">
-<h3><a class="toc-backref" href="#id118">Selective Lead Unit Sound?</a><a class="headerlink" href="#selective-lead-unit-sound" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id119">Selective Lead Unit Sound?</a><a class="headerlink" href="#selective-lead-unit-sound" title="Permalink to this heading"></a></h3>
 <div class="admonition-todo admonition" id="id3">
 <p class="admonition-title">Todo</p>
 <p>Selective Lead Unit Sound?</p>
@@ -1847,7 +1870,7 @@ Requires restart of engine Driver after changing to take effect.</p>
 <p>(Only/any function with a ‘label’ that includes ‘bell’, ‘horn’ or ‘whistle’ as part of the label.)</p>
 </section>
 <section id="always-treat-f1-as-sound">
-<h3><a class="toc-backref" href="#id119">Always treat F1 as Sound?</a><a class="headerlink" href="#always-treat-f1-as-sound" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id120">Always treat F1 as Sound?</a><a class="headerlink" href="#always-treat-f1-as-sound" title="Permalink to this heading"></a></h3>
 <div class="admonition-todo admonition" id="id4">
 <p class="admonition-title">Todo</p>
 <p>Always treat F1 as Sound?</p>
@@ -1855,7 +1878,7 @@ Requires restart of engine Driver after changing to take effect.</p>
 <p>For the ‘Selective Lead Unit Sound’ option</p>
 </section>
 <section id="always-treat-f2-as-sound">
-<h3><a class="toc-backref" href="#id120">Always treat F2 as Sound?</a><a class="headerlink" href="#always-treat-f2-as-sound" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id121">Always treat F2 as Sound?</a><a class="headerlink" href="#always-treat-f2-as-sound" title="Permalink to this heading"></a></h3>
 <div class="admonition-todo admonition" id="id5">
 <p class="admonition-title">Todo</p>
 <p>Always treat F2 as Sound?</p>
@@ -1863,7 +1886,7 @@ Requires restart of engine Driver after changing to take effect.</p>
 <p>For the ‘Selective Lead Unit Sound’ option</p>
 </section>
 <section id="if-all-matches-fail-action">
-<h3><a class="toc-backref" href="#id121">If All matches Fail Action</a><a class="headerlink" href="#if-all-matches-fail-action" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id122">If All matches Fail Action</a><a class="headerlink" href="#if-all-matches-fail-action" title="Permalink to this heading"></a></h3>
 <div class="admonition-todo admonition" id="id6">
 <p class="admonition-title">Todo</p>
 <p>If All matches Fail Action</p>
@@ -1872,7 +1895,7 @@ Requires restart of engine Driver after changing to take effect.</p>
 <p>For the ‘Simple’ and ‘Complex’ options only.</p>
 </section>
 <section id="headlight-specific-string-1">
-<h3><a class="toc-backref" href="#id122">Headlight specific String 1</a><a class="headerlink" href="#headlight-specific-string-1" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id123">Headlight specific String 1</a><a class="headerlink" href="#headlight-specific-string-1" title="Permalink to this heading"></a></h3>
 <div class="admonition-todo admonition" id="id7">
 <p class="admonition-title">Todo</p>
 <p>Headlight specific String 1</p>
@@ -1881,7 +1904,7 @@ Requires restart of engine Driver after changing to take effect.</p>
 <p>For the ‘Simple’ and ‘Complex’ options only.</p>
 </section>
 <section id="headlight-specific-action-1">
-<h3><a class="toc-backref" href="#id123">Headlight specific Action 1</a><a class="headerlink" href="#headlight-specific-action-1" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id124">Headlight specific Action 1</a><a class="headerlink" href="#headlight-specific-action-1" title="Permalink to this heading"></a></h3>
 <div class="admonition-todo admonition" id="id8">
 <p class="admonition-title">Todo</p>
 <p>Headlight specific Action 1</p>
@@ -1890,7 +1913,7 @@ Requires restart of engine Driver after changing to take effect.</p>
 <p>For the ‘Simple’ and ‘Complex’ options only.</p>
 </section>
 <section id="string-2-3-4-5">
-<h3><a class="toc-backref" href="#id124">String 2, 3, 4, 5</a><a class="headerlink" href="#string-2-3-4-5" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id125">String 2, 3, 4, 5</a><a class="headerlink" href="#string-2-3-4-5" title="Permalink to this heading"></a></h3>
 <div class="admonition-todo admonition" id="id9">
 <p class="admonition-title">Todo</p>
 <p>String 2, 3, 4, 5</p>
@@ -1898,7 +1921,7 @@ Requires restart of engine Driver after changing to take effect.</p>
 <p>For the ‘Simple’ and ‘Complex’ options only.</p>
 </section>
 <section id="action-for-string-2-3-4-5">
-<h3><a class="toc-backref" href="#id125">Action for String 2, 3, 4, 5</a><a class="headerlink" href="#action-for-string-2-3-4-5" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id126">Action for String 2, 3, 4, 5</a><a class="headerlink" href="#action-for-string-2-3-4-5" title="Permalink to this heading"></a></h3>
 <div class="admonition-todo admonition" id="id10">
 <p class="admonition-title">Todo</p>
 <p>Action for String 2, 3, 4, 5</p>
@@ -1907,29 +1930,29 @@ Requires restart of engine Driver after changing to take effect.</p>
 </section>
 </section>
 <section id="additional-throttle-control-source-preferences">
-<h2><a class="toc-backref" href="#id126">Additional Throttle Control Source Preferences</a><a class="headerlink" href="#additional-throttle-control-source-preferences" title="Permalink to this heading"></a></h2>
+<h2><a class="toc-backref" href="#id127">Additional Throttle Control Source Preferences</a><a class="headerlink" href="#additional-throttle-control-source-preferences" title="Permalink to this heading"></a></h2>
 <p><span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span> allows for methods, other than the touch screen, to control locos.  The following preferences allow you change options relating to these.</p>
 <section id="volume-button-preferences">
-<h3><a class="toc-backref" href="#id127">Volume Button Preferences</a><a class="headerlink" href="#volume-button-preferences" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id128">Volume Button Preferences</a><a class="headerlink" href="#volume-button-preferences" title="Permalink to this heading"></a></h3>
 <p><span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span> will allows you to use the device/phone’s hardware <span class="guilabel">Volume Up</span> and <span class="guilabel">Volume Down</span> buttons to control speed. The following preferences allow you change options relating to these.</p>
 <section id="speed-button-change-amount-volume">
-<h4><a class="toc-backref" href="#id128">Speed button Change Amount (Volume)</a><a class="headerlink" href="#speed-button-change-amount-volume" title="Permalink to this heading"></a></h4>
+<h4><a class="toc-backref" href="#id129">Speed button Change Amount (Volume)</a><a class="headerlink" href="#speed-button-change-amount-volume" title="Permalink to this heading"></a></h4>
 <p>Use this preference to set amount, as a percentage (%), of the throttle that the speed will change by (step) each time the device/phone’s hardware <span class="guilabel">Volume Up</span> and <span class="guilabel">Volume Down</span> buttons are clicked.</p>
 <p>Only relevant is the <a class="reference internal" href="#disable-volume-keys">Disable Volume keys?</a> preference is DISABLED.</p>
 </section>
 <section id="disable-volume-keys">
-<h4><a class="toc-backref" href="#id129">Disable Volume keys?</a><a class="headerlink" href="#disable-volume-keys" title="Permalink to this heading"></a></h4>
+<h4><a class="toc-backref" href="#id130">Disable Volume keys?</a><a class="headerlink" href="#disable-volume-keys" title="Permalink to this heading"></a></h4>
 <p>Enable this preference if you need to DISABLE the hardware Volume keys on the phone/tablet that would otherwise control speed</p>
 <p>If this preference is DISABLED, <span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span> will allows you to use the device/phone’s hardware <span class="guilabel">Volume Up</span> and <span class="guilabel">Volume Down</span> buttons to control speed of the selected loco (indicated by a ‘v’ in the Speed Amount area of the Throttle.</p>
 </section>
 <section id="volume-keys-follow-touch">
-<h4><a class="toc-backref" href="#id130">Volume keys follow touch?</a><a class="headerlink" href="#volume-keys-follow-touch" title="Permalink to this heading"></a></h4>
+<h4><a class="toc-backref" href="#id131">Volume keys follow touch?</a><a class="headerlink" href="#volume-keys-follow-touch" title="Permalink to this heading"></a></h4>
 <p>Enable this preference if you want the Volume keys speed control to follow the last touched throttle.  Otherwise you need to touch the speed amount area of a Throttle to change the Volume keys to control that throttle.</p>
 </section>
 </section>
 <hr class="docutils" />
 <section id="gamepad-preferences">
-<h3><a class="toc-backref" href="#id131">Gamepad Preferences</a><a class="headerlink" href="#gamepad-preferences" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id132">Gamepad Preferences</a><a class="headerlink" href="#gamepad-preferences" title="Permalink to this heading"></a></h3>
 <p><span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span> will allows you to use the inexpensive gamepads to control speed. The following preferences allow you change options relating to these (if connected).</p>
 <div class="note-ed-hidden-title admonition note">
 <p class="admonition-title">Note</p>
@@ -1938,7 +1961,7 @@ Requires restart of engine Driver after changing to take effect.</p>
 </div></blockquote>
 </div>
 <section id="gamepad-type">
-<h4><a class="toc-backref" href="#id132">Gamepad type</a><a class="headerlink" href="#gamepad-type" title="Permalink to this heading"></a></h4>
+<h4><a class="toc-backref" href="#id133">Gamepad type</a><a class="headerlink" href="#gamepad-type" title="Permalink to this heading"></a></h4>
 <p><span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span> supports the following gamepad types and modes:</p>
 <ul class="simple">
 <li><p>None  =   <em>disable gamepad support</em></p></li>
@@ -1968,7 +1991,7 @@ Requires restart of engine Driver after changing to take effect.</p>
 </div>
 </section>
 <section id="only-one-gamepad">
-<h4><a class="toc-backref" href="#id133">Only One Gamepad?</a><a class="headerlink" href="#only-one-gamepad" title="Permalink to this heading"></a></h4>
+<h4><a class="toc-backref" href="#id134">Only One Gamepad?</a><a class="headerlink" href="#only-one-gamepad" title="Permalink to this heading"></a></h4>
 <div class="admonition-todo admonition" id="id11">
 <p class="admonition-title">Todo</p>
 <p>Only One Gamepad?</p>
@@ -1976,26 +1999,26 @@ Requires restart of engine Driver after changing to take effect.</p>
 <p>If enabled Engine Driver will not check for multiple gamepads.</p>
 </section>
 <section id="test-gamepad-settings-now">
-<h4><a class="toc-backref" href="#id134">Test Gamepad settings now!</a><a class="headerlink" href="#test-gamepad-settings-now" title="Permalink to this heading"></a></h4>
+<h4><a class="toc-backref" href="#id135">Test Gamepad settings now!</a><a class="headerlink" href="#test-gamepad-settings-now" title="Permalink to this heading"></a></h4>
 <p>This preference allows you to confirm that the chosen setting are working correctly.  The Gamepad Test screen will launch IMMEDIATELY on selection.</p>
 <p>Note: that you may need to repeat the test process when you return to the <a class="reference internal" href="../operation/interface.html#throttle-screen"><span class="std std-ref">Throttle Screen</span></a> and use the gamepad for the first time.</p>
 </section>
 <section id="speed-button-change-amount-gamepad">
-<h4><a class="toc-backref" href="#id135">Speed button Change Amount (Gamepad)</a><a class="headerlink" href="#speed-button-change-amount-gamepad" title="Permalink to this heading"></a></h4>
+<h4><a class="toc-backref" href="#id136">Speed button Change Amount (Gamepad)</a><a class="headerlink" href="#speed-button-change-amount-gamepad" title="Permalink to this heading"></a></h4>
 <p>How much each press of the Gamepad buttons changes the throttle speed</p>
 <p>Use this preference to set the amount, as a percentage (%), of the throttle that the speed will change by (step) each time a gamepad’s buttons are pressed.</p>
 <p>Only relevant is the <a class="reference internal" href="#gamepad-type">Gamepad Type</a> preference is set to other than ‘None’ and you have configured any of the gamepad’s buttons to speed up or down.</p>
 </section>
 <section id="gamepad-button-click-volume">
-<h4><a class="toc-backref" href="#id136">Gamepad Button Click Volume %</a><a class="headerlink" href="#gamepad-button-click-volume" title="Permalink to this heading"></a></h4>
+<h4><a class="toc-backref" href="#id137">Gamepad Button Click Volume %</a><a class="headerlink" href="#gamepad-button-click-volume" title="Permalink to this heading"></a></h4>
 <p>Use this preference to set the volume, as a percent, for gamepad button clicks.</p>
 </section>
 <section id="speed-button-repeat-delay-gamepad">
-<h4><a class="toc-backref" href="#id137">Speed button Repeat Delay (gamepad)</a><a class="headerlink" href="#speed-button-repeat-delay-gamepad" title="Permalink to this heading"></a></h4>
+<h4><a class="toc-backref" href="#id138">Speed button Repeat Delay (gamepad)</a><a class="headerlink" href="#speed-button-repeat-delay-gamepad" title="Permalink to this heading"></a></h4>
 <p>Use this preference to set how long, in milliseconds, between repeats on Gamepad speed buttons.  Smaller is faster.</p>
 </section>
 <section id="gamepad-button-action-x">
-<h4><a class="toc-backref" href="#id138">Gamepad button action &lt;!– X –&gt;</a><a class="headerlink" href="#gamepad-button-action-x" title="Permalink to this heading"></a></h4>
+<h4><a class="toc-backref" href="#id139">Gamepad button action &lt;!– X –&gt;</a><a class="headerlink" href="#gamepad-button-action-x" title="Permalink to this heading"></a></h4>
 <p>Choose the action when you press the <span class="guilabel">X</span> button on the gamepad.</p>
 <p>Note: depending on the gamepad type you are using, this may have a different label and or location.</p>
 <blockquote>
@@ -2006,7 +2029,7 @@ Requires restart of engine Driver after changing to take effect.</p>
 </div></blockquote>
 </section>
 <section id="gamepad-button-action-y">
-<h4><a class="toc-backref" href="#id139">Gamepad button action &lt;!– Y –&gt;</a><a class="headerlink" href="#gamepad-button-action-y" title="Permalink to this heading"></a></h4>
+<h4><a class="toc-backref" href="#id140">Gamepad button action &lt;!– Y –&gt;</a><a class="headerlink" href="#gamepad-button-action-y" title="Permalink to this heading"></a></h4>
 <p>Choose the action when you press the <span class="guilabel">Y</span> button on the gamepad.</p>
 <p>Note: depending on the gamepad type you are using, this may have a different label and or location.</p>
 <blockquote>
@@ -2017,7 +2040,7 @@ Requires restart of engine Driver after changing to take effect.</p>
 </div></blockquote>
 </section>
 <section id="gamepad-button-action-a">
-<h4><a class="toc-backref" href="#id140">Gamepad button action &lt;!– A –&gt;</a><a class="headerlink" href="#gamepad-button-action-a" title="Permalink to this heading"></a></h4>
+<h4><a class="toc-backref" href="#id141">Gamepad button action &lt;!– A –&gt;</a><a class="headerlink" href="#gamepad-button-action-a" title="Permalink to this heading"></a></h4>
 <p>Choose the action when you press the <span class="guilabel">A</span> button on the gamepad.</p>
 <p>Note: depending on the gamepad type you are using, this may have a different label and or location.</p>
 <blockquote>
@@ -2028,7 +2051,7 @@ Requires restart of engine Driver after changing to take effect.</p>
 </div></blockquote>
 </section>
 <section id="gamepad-button-action-b">
-<h4><a class="toc-backref" href="#id141">Gamepad button action &lt;!– B –&gt;</a><a class="headerlink" href="#gamepad-button-action-b" title="Permalink to this heading"></a></h4>
+<h4><a class="toc-backref" href="#id142">Gamepad button action &lt;!– B –&gt;</a><a class="headerlink" href="#gamepad-button-action-b" title="Permalink to this heading"></a></h4>
 <p>Choose the action when you press the <span class="guilabel">B</span> button on the gamepad.</p>
 <p>Note: depending on the gamepad type you are using, this may have a different label and or location.</p>
 <blockquote>
@@ -2039,7 +2062,7 @@ Requires restart of engine Driver after changing to take effect.</p>
 </div></blockquote>
 </section>
 <section id="gamepad-button-action-start-lower">
-<h4><a class="toc-backref" href="#id142">Gamepad button action &lt;!– Start(Lower) –&gt;</a><a class="headerlink" href="#gamepad-button-action-start-lower" title="Permalink to this heading"></a></h4>
+<h4><a class="toc-backref" href="#id143">Gamepad button action &lt;!– Start(Lower) –&gt;</a><a class="headerlink" href="#gamepad-button-action-start-lower" title="Permalink to this heading"></a></h4>
 <p>Choose the action when you press the <span class="guilabel">Start(lower)</span> button on the gamepad.</p>
 <p>Note: depending on the gamepad type you are using, this may have a different label and or location.</p>
 <blockquote>
@@ -2050,11 +2073,11 @@ Requires restart of engine Driver after changing to take effect.</p>
 </div></blockquote>
 </section>
 <section id="gamepad-button-action-return-upper">
-<h4><a class="toc-backref" href="#id143">Gamepad button action &lt;!– Return(Upper) –&gt;</a><a class="headerlink" href="#gamepad-button-action-return-upper" title="Permalink to this heading"></a></h4>
+<h4><a class="toc-backref" href="#id144">Gamepad button action &lt;!– Return(Upper) –&gt;</a><a class="headerlink" href="#gamepad-button-action-return-upper" title="Permalink to this heading"></a></h4>
 <p>Choose the action when you press the <span class="guilabel">Return (Upper)</span> button on the gamepad.</p>
 </section>
 <section id="gamepad-dpad-up-action">
-<h4><a class="toc-backref" href="#id144">Gamepad DPAD Up action</a><a class="headerlink" href="#gamepad-dpad-up-action" title="Permalink to this heading"></a></h4>
+<h4><a class="toc-backref" href="#id145">Gamepad DPAD Up action</a><a class="headerlink" href="#gamepad-dpad-up-action" title="Permalink to this heading"></a></h4>
 <p>Choose the action when you press the <span class="guilabel">DPAD Up</span> on the gamepad.</p>
 <blockquote>
 <div><div class="note-ed-hidden-title admonition note">
@@ -2064,7 +2087,7 @@ Requires restart of engine Driver after changing to take effect.</p>
 </div></blockquote>
 </section>
 <section id="gamepad-dpad-right-action">
-<h4><a class="toc-backref" href="#id145">Gamepad DPAD Right action</a><a class="headerlink" href="#gamepad-dpad-right-action" title="Permalink to this heading"></a></h4>
+<h4><a class="toc-backref" href="#id146">Gamepad DPAD Right action</a><a class="headerlink" href="#gamepad-dpad-right-action" title="Permalink to this heading"></a></h4>
 <p>Choose the action when you press the <span class="guilabel">DPAD Right</span> on the gamepad.</p>
 <blockquote>
 <div><div class="note-ed-hidden-title admonition note">
@@ -2074,7 +2097,7 @@ Requires restart of engine Driver after changing to take effect.</p>
 </div></blockquote>
 </section>
 <section id="gamepad-dpad-down-action">
-<h4><a class="toc-backref" href="#id146">Gamepad DPAD Down action</a><a class="headerlink" href="#gamepad-dpad-down-action" title="Permalink to this heading"></a></h4>
+<h4><a class="toc-backref" href="#id147">Gamepad DPAD Down action</a><a class="headerlink" href="#gamepad-dpad-down-action" title="Permalink to this heading"></a></h4>
 <p>Choose the action when you press the <span class="guilabel">DPAD Down`</span> on the gamepad.</p>
 <blockquote>
 <div><div class="note-ed-hidden-title admonition note">
@@ -2084,7 +2107,7 @@ Requires restart of engine Driver after changing to take effect.</p>
 </div></blockquote>
 </section>
 <section id="gamepad-dpad-left-action">
-<h4><a class="toc-backref" href="#id147">Gamepad DPAD Left action</a><a class="headerlink" href="#gamepad-dpad-left-action" title="Permalink to this heading"></a></h4>
+<h4><a class="toc-backref" href="#id148">Gamepad DPAD Left action</a><a class="headerlink" href="#gamepad-dpad-left-action" title="Permalink to this heading"></a></h4>
 <p>Choose the action when you press the <span class="guilabel">DPAD Left`</span> on the gamepad.</p>
 <blockquote>
 <div><div class="note-ed-hidden-title admonition note">
@@ -2094,7 +2117,7 @@ Requires restart of engine Driver after changing to take effect.</p>
 </div></blockquote>
 </section>
 <section id="swap-direction-buttons-with-screen-buttons">
-<h4><a class="toc-backref" href="#id148">Swap Direction buttons with Screen buttons?</a><a class="headerlink" href="#swap-direction-buttons-with-screen-buttons" title="Permalink to this heading"></a></h4>
+<h4><a class="toc-backref" href="#id149">Swap Direction buttons with Screen buttons?</a><a class="headerlink" href="#swap-direction-buttons-with-screen-buttons" title="Permalink to this heading"></a></h4>
 <p>Use this preference to set if <span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span> should swap the two Gamepad Direction buttons if the Screen Direction buttons are swapped.</p>
 <div class="note-ed-hidden-title admonition note">
 <p class="admonition-title">Note</p>
@@ -2102,37 +2125,37 @@ Requires restart of engine Driver after changing to take effect.</p>
 </div>
 </section>
 <section id="enforce-gamepad-testing">
-<h4><a class="toc-backref" href="#id149">Enforce Gamepad Testing?</a><a class="headerlink" href="#enforce-gamepad-testing" title="Permalink to this heading"></a></h4>
+<h4><a class="toc-backref" href="#id150">Enforce Gamepad Testing?</a><a class="headerlink" href="#enforce-gamepad-testing" title="Permalink to this heading"></a></h4>
 <p>If this preference is enabled you will be forced to test each gamepad every time they are connected.</p>
 </section>
 <section id="use-simple-test">
-<h4><a class="toc-backref" href="#id150">Use Simple Test?</a><a class="headerlink" href="#use-simple-test" title="Permalink to this heading"></a></h4>
+<h4><a class="toc-backref" href="#id151">Use Simple Test?</a><a class="headerlink" href="#use-simple-test" title="Permalink to this heading"></a></h4>
 <p>If this preference is enabled, when a gamepad is used for the first time in a session, you will only test that you can reduce speed, not have to test all eight standard buttons.  (Normally the <span class="guilabel">DPAD Down</span>.)</p>
 </section>
 </section>
 <hr class="docutils" />
 <section id="esu-mobilecontrol-ii-options">
-<h3><a class="toc-backref" href="#id151">ESU MobileControl II Options</a><a class="headerlink" href="#esu-mobilecontrol-ii-options" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id152">ESU MobileControl II Options</a><a class="headerlink" href="#esu-mobilecontrol-ii-options" title="Permalink to this heading"></a></h3>
 <p>The following preferences allow you to change the way a ESU MobileControl II behaves (if connected).</p>
 </section>
 <section id="device-stop-button-options">
-<h3><a class="toc-backref" href="#id152">Device Stop button options</a><a class="headerlink" href="#device-stop-button-options" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id153">Device Stop button options</a><a class="headerlink" href="#device-stop-button-options" title="Permalink to this heading"></a></h3>
 <p>The following preferences allow you to change the way the <em>Device Stop button</em> on a ESU MobileControl II behaves (if connected).</p>
 <section id="stop-button-long-press-delay">
-<h4><a class="toc-backref" href="#id153">Stop Button long-press delay</a><a class="headerlink" href="#stop-button-long-press-delay" title="Permalink to this heading"></a></h4>
+<h4><a class="toc-backref" href="#id154">Stop Button long-press delay</a><a class="headerlink" href="#stop-button-long-press-delay" title="Permalink to this heading"></a></h4>
 <p>Alter this preference to adjust how long a ‘long-press’ is required to be considered a long press for the Stop button.</p>
 <p>A ‘long-press’ stops all active throttles; a ‘short-press’ pauses the current throttle. Smaller is faster.</p>
 </section>
 <section id="enable-short-press">
-<h4><a class="toc-backref" href="#id154">Enable Short Press</a><a class="headerlink" href="#enable-short-press" title="Permalink to this heading"></a></h4>
+<h4><a class="toc-backref" href="#id155">Enable Short Press</a><a class="headerlink" href="#enable-short-press" title="Permalink to this heading"></a></h4>
 <p>Enable this preference to enable a ‘short-press’ to pause the currently controlled loco/consist. It ill revert to original speed when operations resume.</p>
 </section>
 </section>
 <section id="device-side-button-options">
-<h3><a class="toc-backref" href="#id155">Device side button options</a><a class="headerlink" href="#device-side-button-options" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id156">Device side button options</a><a class="headerlink" href="#device-side-button-options" title="Permalink to this heading"></a></h3>
 <p>The following preferences allow you to change the way the <em>Device Side button</em> on a ESU MobileControl II behaves (if connected).</p>
 <section id="top-left-button-action">
-<h4><a class="toc-backref" href="#id156">Top-left button action</a><a class="headerlink" href="#top-left-button-action" title="Permalink to this heading"></a></h4>
+<h4><a class="toc-backref" href="#id157">Top-left button action</a><a class="headerlink" href="#top-left-button-action" title="Permalink to this heading"></a></h4>
 <p>Use this preference to choose the action when you press the Top-left button.</p>
 <blockquote>
 <div><div class="note-ed-hidden-title admonition note">
@@ -2142,7 +2165,7 @@ Requires restart of engine Driver after changing to take effect.</p>
 </div></blockquote>
 </section>
 <section id="bottom-left-button-action">
-<h4><a class="toc-backref" href="#id157">Bottom-left button action</a><a class="headerlink" href="#bottom-left-button-action" title="Permalink to this heading"></a></h4>
+<h4><a class="toc-backref" href="#id158">Bottom-left button action</a><a class="headerlink" href="#bottom-left-button-action" title="Permalink to this heading"></a></h4>
 <p>Use this preference to choose the action when you press the Bottom-left button.</p>
 <blockquote>
 <div><div class="note-ed-hidden-title admonition note">
@@ -2152,7 +2175,7 @@ Requires restart of engine Driver after changing to take effect.</p>
 </div></blockquote>
 </section>
 <section id="top-right-button-action">
-<h4><a class="toc-backref" href="#id158">Top-right button action</a><a class="headerlink" href="#top-right-button-action" title="Permalink to this heading"></a></h4>
+<h4><a class="toc-backref" href="#id159">Top-right button action</a><a class="headerlink" href="#top-right-button-action" title="Permalink to this heading"></a></h4>
 <p>Use this preference to choose the action when you press the Top-right button.</p>
 <blockquote>
 <div><div class="note-ed-hidden-title admonition note">
@@ -2162,7 +2185,7 @@ Requires restart of engine Driver after changing to take effect.</p>
 </div></blockquote>
 </section>
 <section id="bottom-right-button-action">
-<h4><a class="toc-backref" href="#id159">Bottom-right button action</a><a class="headerlink" href="#bottom-right-button-action" title="Permalink to this heading"></a></h4>
+<h4><a class="toc-backref" href="#id160">Bottom-right button action</a><a class="headerlink" href="#bottom-right-button-action" title="Permalink to this heading"></a></h4>
 <p>Use this preference to choose the action when you press the Bottom-right button.</p>
 <blockquote>
 <div><div class="note-ed-hidden-title admonition note">
@@ -2172,29 +2195,29 @@ Requires restart of engine Driver after changing to take effect.</p>
 </div></blockquote>
 </section>
 <section id="button-repeat-delay">
-<h4><a class="toc-backref" href="#id160">Button repeat delay</a><a class="headerlink" href="#button-repeat-delay" title="Permalink to this heading"></a></h4>
+<h4><a class="toc-backref" href="#id161">Button repeat delay</a><a class="headerlink" href="#button-repeat-delay" title="Permalink to this heading"></a></h4>
 <p>Alter this preference to adjust how long is required between repeats on device side buttons. Smaller is faster.</p>
 </section>
 </section>
 <section id="control-knob-options">
-<h3><a class="toc-backref" href="#id161">Control Knob options</a><a class="headerlink" href="#control-knob-options" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id162">Control Knob options</a><a class="headerlink" href="#control-knob-options" title="Permalink to this heading"></a></h3>
 <p>The following preferences allow you to change the way the <em>Control Knob</em> on a ESU MobileControl II behaves (if connected).</p>
 <section id="control-knob-zero-trim">
-<h4><a class="toc-backref" href="#id162">Control Knob Zero Trim</a><a class="headerlink" href="#control-knob-zero-trim" title="Permalink to this heading"></a></h4>
+<h4><a class="toc-backref" href="#id163">Control Knob Zero Trim</a><a class="headerlink" href="#control-knob-zero-trim" title="Permalink to this heading"></a></h4>
 <p>Use this preference to set the Control Knob zero trim setting. Smaller is closer to counter-clockwise end-stop position.  Permitted range 0-255.</p>
 </section>
 <section id="direction-change-at-end-stop">
-<h4><a class="toc-backref" href="#id163">Direction Change at end-stop</a><a class="headerlink" href="#direction-change-at-end-stop" title="Permalink to this heading"></a></h4>
+<h4><a class="toc-backref" href="#id164">Direction Change at end-stop</a><a class="headerlink" href="#direction-change-at-end-stop" title="Permalink to this heading"></a></h4>
 <p>Enable this preference to allow Loco direction to change when control knob at counter-clockwise end-stop position</p>
 </section>
 <section id="show-disable-knob-button">
-<h4><a class="toc-backref" href="#id164">Show disable Knob button</a><a class="headerlink" href="#show-disable-knob-button" title="Permalink to this heading"></a></h4>
+<h4><a class="toc-backref" href="#id165">Show disable Knob button</a><a class="headerlink" href="#show-disable-knob-button" title="Permalink to this heading"></a></h4>
 <p>Enable this preference to allow the control knob to be disabled by an action button on the <a class="reference internal" href="../operation/interface.html#throttle-screen"><span class="std std-ref">Throttle Screen</span></a></p>
 </section>
 </section>
 <hr class="docutils" />
 <section id="additional-selected-loco-indicator">
-<h3><a class="toc-backref" href="#id165">Additional selected loco Indicator</a><a class="headerlink" href="#additional-selected-loco-indicator" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id166">Additional selected loco Indicator</a><a class="headerlink" href="#additional-selected-loco-indicator" title="Permalink to this heading"></a></h3>
 <p>If this preference is enabled an additional highlight of the Loco Select button is displayed.</p>
 <p>Options include:</p>
 <ul class="simple">
@@ -2204,11 +2227,11 @@ Requires restart of engine Driver after changing to take effect.</p>
 </ul>
 </section>
 <section id="voice-response-preferences">
-<h3><a class="toc-backref" href="#id166">Voice Response Preferences</a><a class="headerlink" href="#voice-response-preferences" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id167">Voice Response Preferences</a><a class="headerlink" href="#voice-response-preferences" title="Permalink to this heading"></a></h3>
 <p><span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span> can ‘speak’ certain events, most related to the use of the gamepads, where you may not be looking at the screen.  These can also be helpful for the visually challenged. This is also referred to as ‘Text to Speech’ (TTS).</p>
 <p>The following preferences allow you to change the way the Voice Responses behave.</p>
 <section id="voice-response">
-<h4><a class="toc-backref" href="#id167">Voice Response</a><a class="headerlink" href="#voice-response" title="Permalink to this heading"></a></h4>
+<h4><a class="toc-backref" href="#id168">Voice Response</a><a class="headerlink" href="#voice-response" title="Permalink to this heading"></a></h4>
 <p>This preference allows to configure when <span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span> should speak using Text to Speech (TTS).</p>
 <p>Note: Effectively it is either ‘on’ or ‘off’, and you can use the following preferences to control what is actually spoken.</p>
 <p>Options include:</p>
@@ -2218,7 +2241,7 @@ Requires restart of engine Driver after changing to take effect.</p>
 </ul>
 </section>
 <section id="on-gamepad-throttle-change">
-<h4><a class="toc-backref" href="#id168">On Gamepad Throttle change</a><a class="headerlink" href="#on-gamepad-throttle-change" title="Permalink to this heading"></a></h4>
+<h4><a class="toc-backref" href="#id169">On Gamepad Throttle change</a><a class="headerlink" href="#on-gamepad-throttle-change" title="Permalink to this heading"></a></h4>
 <p>Enable this preference if you wish <span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span> to speak when you select a different throttle on the gamepad.</p>
 <p>Options include:</p>
 <ul class="simple">
@@ -2230,7 +2253,7 @@ Requires restart of engine Driver after changing to take effect.</p>
 </ul>
 </section>
 <section id="on-gamepad-speeds">
-<h4><a class="toc-backref" href="#id169">On Gamepad Speeds</a><a class="headerlink" href="#on-gamepad-speeds" title="Permalink to this heading"></a></h4>
+<h4><a class="toc-backref" href="#id170">On Gamepad Speeds</a><a class="headerlink" href="#on-gamepad-speeds" title="Permalink to this heading"></a></h4>
 <p>Enable this preference if you wish <span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span> to speak when the speed hits certain speeds when using a gamepad.</p>
 <p>Speeds that will be spoken are:</p>
 <ul class="simple">
@@ -2241,40 +2264,40 @@ Requires restart of engine Driver after changing to take effect.</p>
 <p>Note that third option is mainly relevant when using the optional <span class="guilabel">Limit Speed</span> button where the ‘Max’ speed may not be 100%.</p>
 </section>
 <section id="on-gamepad-test-start">
-<h4><a class="toc-backref" href="#id170">On Gamepad Test start</a><a class="headerlink" href="#on-gamepad-test-start" title="Permalink to this heading"></a></h4>
+<h4><a class="toc-backref" href="#id171">On Gamepad Test start</a><a class="headerlink" href="#on-gamepad-test-start" title="Permalink to this heading"></a></h4>
 <p>Enable this preference if you wish <span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span> to speak when the gamepad test screen is launched.</p>
 </section>
 <section id="on-gamepad-test-complete">
-<h4><a class="toc-backref" href="#id171">On Gamepad Test complete</a><a class="headerlink" href="#on-gamepad-test-complete" title="Permalink to this heading"></a></h4>
+<h4><a class="toc-backref" href="#id172">On Gamepad Test complete</a><a class="headerlink" href="#on-gamepad-test-complete" title="Permalink to this heading"></a></h4>
 <p>Enable this preference if you wish <span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span> to speak when the gamepad test screen is successfully finished.</p>
 <p>Note that what constitutes a successful finish of the test will change depending on the <a class="reference external" href="..//configuration/preferences.html#use-simple-test">Use Simple Test?</a> preference.</p>
 </section>
 <section id="on-gamepad-test-key-press">
-<h4><a class="toc-backref" href="#id172">On Gamepad Test key press</a><a class="headerlink" href="#on-gamepad-test-key-press" title="Permalink to this heading"></a></h4>
+<h4><a class="toc-backref" href="#id173">On Gamepad Test key press</a><a class="headerlink" href="#on-gamepad-test-key-press" title="Permalink to this heading"></a></h4>
 <p>Enable this preference if you wish <span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span> to speak when each buttons is pressed in the gamepad test screen.  <span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span> will speak the name of the button and the function assigned to it.</p>
 </section>
 </section>
 </section>
 <section id="select-loco-preferences">
-<h2><a class="toc-backref" href="#id173">Select Loco Preferences</a><a class="headerlink" href="#select-loco-preferences" title="Permalink to this heading"></a></h2>
+<h2><a class="toc-backref" href="#id174">Select Loco Preferences</a><a class="headerlink" href="#select-loco-preferences" title="Permalink to this heading"></a></h2>
 <p>The following preferences affect how the <span class="guilabel">Select</span> button appears and behaves.</p>
 <section id="stop-on-release">
-<h3><a class="toc-backref" href="#id174">Stop on Release?</a><a class="headerlink" href="#stop-on-release" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id175">Stop on Release?</a><a class="headerlink" href="#stop-on-release" title="Permalink to this heading"></a></h3>
 <p>If this preference is enabled <span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span> will <em>stop</em> a loco(s) when it released from a throttle.</p>
 </section>
 <section id="drop-loco-before-acquire">
-<h3><a class="toc-backref" href="#id175">Drop Loco before acquire?</a><a class="headerlink" href="#drop-loco-before-acquire" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id176">Drop Loco before acquire?</a><a class="headerlink" href="#drop-loco-before-acquire" title="Permalink to this heading"></a></h3>
 <p>If this preference is enabled <span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span> will <em>Drop</em> and <em>release</em> the current loco before acquiring new loco.
 i.e A throttle can only control one loco at a time.
 i.e. It is not possible to create an on-the-fly (in-phone) consist/multiple unit train.</p>
 </section>
 <section id="allow-loco-select-while-moving">
-<h3><a class="toc-backref" href="#id176">Allow loco select while moving?</a><a class="headerlink" href="#allow-loco-select-while-moving" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id177">Allow loco select while moving?</a><a class="headerlink" href="#allow-loco-select-while-moving" title="Permalink to this heading"></a></h3>
 <p>If this preference is enabled the <span class="guilabel">Select</span> button is <em>Disabled</em> if the loco(s) is moving.
 i.e. It is not possible to Select (add or remove) locos if they are moving.</p>
 </section>
 <section id="default-address-length">
-<h3><a class="toc-backref" href="#id177">Default Address Length</a><a class="headerlink" href="#default-address-length" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id178">Default Address Length</a><a class="headerlink" href="#default-address-length" title="Permalink to this heading"></a></h3>
 <p>Use this preference to set the default Loco Address Length.</p>
 <p><code class="docutils literal notranslate"><span class="pre">Auto</span></code> will set the length based on if the Address entered. If it is less that 127, <span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span> will assume it ‘Short’ Address.  127 an higher will default to ‘Long’.</p>
 <p>Options</p>
@@ -2285,24 +2308,24 @@ i.e. It is not possible to Select (add or remove) locos if they are moving.</p>
 </ul>
 </section>
 <section id="roster-in-recent-locos">
-<h3><a class="toc-backref" href="#id178">Roster in Recent Locos?</a><a class="headerlink" href="#roster-in-recent-locos" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id179">Roster in Recent Locos?</a><a class="headerlink" href="#roster-in-recent-locos" title="Permalink to this heading"></a></h3>
 <p>Enable this preference to include roster selections in <em>Recent Locos list</em>.</p>
 </section>
 <section id="roster-names-in-recent-locos">
-<h3><a class="toc-backref" href="#id179">Roster Names in Recent Locos?</a><a class="headerlink" href="#roster-names-in-recent-locos" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id180">Roster Names in Recent Locos?</a><a class="headerlink" href="#roster-names-in-recent-locos" title="Permalink to this heading"></a></h3>
 <p>Enable this preference to include Loco names from the witServer roster in <em>Recent list</em> in the <a class="reference internal" href="../operation/interface.html#loco-select-screen"><span class="std std-ref">Loco Select Screen</span></a> screen.</p>
 </section>
 <section id="maximum-recent-locos">
-<h3><a class="toc-backref" href="#id180">Maximum Recent Locos</a><a class="headerlink" href="#maximum-recent-locos" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id181">Maximum Recent Locos</a><a class="headerlink" href="#maximum-recent-locos" title="Permalink to this heading"></a></h3>
 <p>Use the preference to set the maximum number of <em>Recent Locos</em> to show in the Recent Locos list on the <em>Loco Select</em> screen.</p>
 </section>
 <section id="control-consist-lights-on-long-click">
-<h3><a class="toc-backref" href="#id181">Control consist Lights on long click</a><a class="headerlink" href="#control-consist-lights-on-long-click" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id182">Control consist Lights on long click</a><a class="headerlink" href="#control-consist-lights-on-long-click" title="Permalink to this heading"></a></h3>
 <p>If this preference is enabled you can change the Lights of the individual locos in a Consist with a long click on the Loco Select button.  You will be taken to the <a class="reference external" href="../operation/interface.html#consist-lights-edit-screen">Consist Lights Edit Screen</a>.</p>
 <p>Note this only will work while the <span class="guilabel">Select</span> button is <em>Enabled</em>.  If the <a class="reference internal" href="#allow-loco-select-while-moving">Allow loco select while moving?</a> preference is disabled, the <span class="guilabel">Select</span> button is <em>Disabled</em> while the throttle is greater than zero.</p>
 </section>
 <section id="filter-roster">
-<h3><a class="toc-backref" href="#id182">Filter Roster</a><a class="headerlink" href="#filter-roster" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id183">Filter Roster</a><a class="headerlink" href="#filter-roster" title="Permalink to this heading"></a></h3>
 <p>Enter text into this preference to only show roster entries with names containing that text only.</p>
 <blockquote>
 <div><div class="note-ed-hidden-title admonition note">
@@ -2313,7 +2336,7 @@ i.e. It is not possible to Select (add or remove) locos if they are moving.</p>
 </section>
 </section>
 <section id="in-phone-loco-sounds">
-<h2><a class="toc-backref" href="#id183">In Phone Loco Sounds</a><a class="headerlink" href="#in-phone-loco-sounds" title="Permalink to this heading"></a></h2>
+<h2><a class="toc-backref" href="#id184">In Phone Loco Sounds</a><a class="headerlink" href="#in-phone-loco-sounds" title="Permalink to this heading"></a></h2>
 <p><span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span> can play synchronised loco sounds through the speaker of your Android device / phone, or through BlueTooth speakers connected to it.</p>
 <p>There is built in Support for a number of different type of locos:</p>
 <ul class="simple">
@@ -2329,7 +2352,7 @@ i.e. It is not possible to Select (add or remove) locos if they are moving.</p>
 </div>
 </div></blockquote>
 <section id="throttle-1-loco-sounds">
-<h3><a class="toc-backref" href="#id184">Throttle 1 Loco Sounds</a><a class="headerlink" href="#throttle-1-loco-sounds" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id185">Throttle 1 Loco Sounds</a><a class="headerlink" href="#throttle-1-loco-sounds" title="Permalink to this heading"></a></h3>
 <p>This preference allows you to select which profile of loco sounds in the phone for locos controlled by Throttle 1 on the <a class="reference internal" href="../operation/interface.html#throttle-screen"><span class="std std-ref">Throttle Screen</span></a>.</p>
 <p>Options include:</p>
 <ul class="simple">
@@ -2344,7 +2367,7 @@ i.e. It is not possible to Select (add or remove) locos if they are moving.</p>
 </ul>
 </section>
 <section id="throttle-2-loco-sounds">
-<h3><a class="toc-backref" href="#id185">Throttle 2 Loco Sounds</a><a class="headerlink" href="#throttle-2-loco-sounds" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id186">Throttle 2 Loco Sounds</a><a class="headerlink" href="#throttle-2-loco-sounds" title="Permalink to this heading"></a></h3>
 <p>This preference allows you to select which profile of loco sounds in the phone for locos controlled by Throttle 2 on the <a class="reference internal" href="../operation/interface.html#throttle-screen"><span class="std std-ref">Throttle Screen</span></a> (if the chosen <a class="reference internal" href="#throttle-screen-layout">Throttle Screen layout</a> supports more than one throttle).</p>
 <p>Options include:</p>
 <ul class="simple">
@@ -2359,65 +2382,65 @@ i.e. It is not possible to Select (add or remove) locos if they are moving.</p>
 </ul>
 </section>
 <section id="additional-preferences">
-<h3><a class="toc-backref" href="#id186">Additional Preferences</a><a class="headerlink" href="#additional-preferences" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id187">Additional Preferences</a><a class="headerlink" href="#additional-preferences" title="Permalink to this heading"></a></h3>
 <p>The following preferences provide additional options for how the In Phone Loco Sounds behave.</p>
 <section id="in-phone-momentum">
-<h4><a class="toc-backref" href="#id187">In Phone Momentum</a><a class="headerlink" href="#in-phone-momentum" title="Permalink to this heading"></a></h4>
+<h4><a class="toc-backref" href="#id188">In Phone Momentum</a><a class="headerlink" href="#in-phone-momentum" title="Permalink to this heading"></a></h4>
 <p><span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span> can’t tell the actual speed of your loco, only the throttle setting.  This is most apparent when the loco has momentum configured in the decoder.  This preference allows you to approximate the momentum of your loco for the IPLS in <span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span>.</p>
 <p>Enter a delay (momentum) per step change in milliseconds (0-2000).</p>
 </section>
 <section id="don-t-clip-loco-step-sounds">
-<h4><a class="toc-backref" href="#id188">Don’t clip loco step sounds</a><a class="headerlink" href="#don-t-clip-loco-step-sounds" title="Permalink to this heading"></a></h4>
+<h4><a class="toc-backref" href="#id189">Don’t clip loco step sounds</a><a class="headerlink" href="#don-t-clip-loco-step-sounds" title="Permalink to this heading"></a></h4>
 <p>If this preference is enabled, the Loco step sounds will play till their end, before changing step.  The <a class="reference internal" href="#in-phone-momentum">In Phone Momentum</a> amount (above) becomes a minimum time only.</p>
 </section>
 <section id="in-phone-loco-sounds-volume">
-<h4><a class="toc-backref" href="#id189">In Phone Loco Sounds Volume</a><a class="headerlink" href="#in-phone-loco-sounds-volume" title="Permalink to this heading"></a></h4>
+<h4><a class="toc-backref" href="#id190">In Phone Loco Sounds Volume</a><a class="headerlink" href="#in-phone-loco-sounds-volume" title="Permalink to this heading"></a></h4>
 <p>Use this preference to set the volume for <em>Loco/Engine sounds</em> in the phone (1-100) when using the <a class="reference external" href="../operation/operation.html#virtual-sounds-in-phone-loco-sounds-ipls">In Phone Loco Sounds (IPLS)</a>. This is a percentage of the media volume you have set for you Android Device/Phone (outside of <span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span>).</p>
 </section>
 <section id="in-phone-bell-sounds-volume">
-<h4><a class="toc-backref" href="#id190">In Phone Bell Sounds Volume</a><a class="headerlink" href="#in-phone-bell-sounds-volume" title="Permalink to this heading"></a></h4>
+<h4><a class="toc-backref" href="#id191">In Phone Bell Sounds Volume</a><a class="headerlink" href="#in-phone-bell-sounds-volume" title="Permalink to this heading"></a></h4>
 <p>Use this preference to set the volume for <em>Bell sounds</em> in the phone (1-100) when using the <a class="reference external" href="../operation/operation.html#virtual-sounds-in-phone-loco-sounds-ipls">In Phone Loco Sounds (IPLS)</a>. This is a percentage of the media volume you have set for you Android Device/Phone (outside of <span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span>).</p>
 </section>
 <section id="in-phone-horn-whistle-sounds-volume">
-<h4><a class="toc-backref" href="#id191">In Phone Horn/Whistle Sounds Volume</a><a class="headerlink" href="#in-phone-horn-whistle-sounds-volume" title="Permalink to this heading"></a></h4>
+<h4><a class="toc-backref" href="#id192">In Phone Horn/Whistle Sounds Volume</a><a class="headerlink" href="#in-phone-horn-whistle-sounds-volume" title="Permalink to this heading"></a></h4>
 <p>Use this preference to set the volume for <em>Horn/Whistle sounds</em> in the phone (1-100) when using the <a class="reference external" href="../operation/operation.html#virtual-sounds-in-phone-loco-sounds-ipls">In Phone Loco Sounds (IPLS)</a>. This is a percentage of the media volume you have set for you Android Device/Phone (outside of <span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span>).</p>
 </section>
 <section id="bell-button-latching-momentary">
-<h4><a class="toc-backref" href="#id192">Bell button Latching/Momentary</a><a class="headerlink" href="#bell-button-latching-momentary" title="Permalink to this heading"></a></h4>
+<h4><a class="toc-backref" href="#id193">Bell button Latching/Momentary</a><a class="headerlink" href="#bell-button-latching-momentary" title="Permalink to this heading"></a></h4>
 <p>If this preference is enabled, the <span class="guilabel">Bell</span> button will be momentary (not latching).  i.e. That the Bell sound will only play while the button is being clicked. As apposed the default state where the Bell starts playing on the first press and stops in the next click.</p>
 </section>
 <section id="f1-and-f2-activate-bell-and-horn">
-<h4><a class="toc-backref" href="#id193">F1 and F2 activate Bell and Horn?</a><a class="headerlink" href="#f1-and-f2-activate-bell-and-horn" title="Permalink to this heading"></a></h4>
+<h4><a class="toc-backref" href="#id194">F1 and F2 activate Bell and Horn?</a><a class="headerlink" href="#f1-and-f2-activate-bell-and-horn" title="Permalink to this heading"></a></h4>
 <p>If this preference is enabled, F1 and F2 DCC Functions also activate the IPLS Bell and Horn.</p>
 <p>i.e. The Bell and Horn/Whistle (long) can be activated by the DCC Function buttons (F1 and F2) if the the preference is enabled.</p>
 </section>
 </section>
 </section>
 <section id="connect-preferences">
-<h2><a class="toc-backref" href="#id194">Connect Preferences</a><a class="headerlink" href="#connect-preferences" title="Permalink to this heading"></a></h2>
+<h2><a class="toc-backref" href="#id195">Connect Preferences</a><a class="headerlink" href="#connect-preferences" title="Permalink to this heading"></a></h2>
 <p>The following preferences allow you to change the way the <a class="reference internal" href="../operation/interface.html#connection-screen"><span class="std std-ref">Connection Screen</span></a> appears and behaves.</p>
 <section id="maximum-recent-connections">
-<h3><a class="toc-backref" href="#id195">Maximum Recent Connections</a><a class="headerlink" href="#maximum-recent-connections" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id196">Maximum Recent Connections</a><a class="headerlink" href="#maximum-recent-connections" title="Permalink to this heading"></a></h3>
 <p>Use this preference to set the maximum number of <em>Recent Connections</em> to show in list on the <a class="reference internal" href="../operation/interface.html#connection-screen"><span class="std std-ref">Connection Screen</span></a>.</p>
 </section>
 <section id="auto-connect-to-withrottle-server">
-<h3><a class="toc-backref" href="#id196">Auto-Connect to WiThrottle Server?</a><a class="headerlink" href="#auto-connect-to-withrottle-server" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id197">Auto-Connect to WiThrottle Server?</a><a class="headerlink" href="#auto-connect-to-withrottle-server" title="Permalink to this heading"></a></h3>
 <p>Enable this preference if you wish to connect automatically to ‘first’ <a href="../about/index.html#what-s-a-withrottle-server">WiThrottle Server</a> discovered each time you start|ed|.  This will effectively bypass the <a class="reference internal" href="../operation/interface.html#connection-screen"><span class="std std-ref">Connection Screen</span></a>.</p>
 </section>
 <section id="hide-demo-server">
-<h3><a class="toc-backref" href="#id197">Hide Demo Server</a><a class="headerlink" href="#hide-demo-server" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id198">Hide Demo Server</a><a class="headerlink" href="#hide-demo-server" title="Permalink to this heading"></a></h3>
 <p>Enable this preference if you wish to hide the Demo Server (‘jmri.mstevetodd.com’) in the connection list on the <a class="reference internal" href="../operation/interface.html#connection-screen"><span class="std std-ref">Connection Screen</span></a>.</p>
 </section>
 <section id="initial-connection-timeout">
-<h3><a class="toc-backref" href="#id198">Initial Connection Timeout</a><a class="headerlink" href="#initial-connection-timeout" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id199">Initial Connection Timeout</a><a class="headerlink" href="#initial-connection-timeout" title="Permalink to this heading"></a></h3>
 <p>Use this preference to set the initial connection timeout in milliseconds.</p>
 </section>
 <section id="socket-timeout">
-<h3><a class="toc-backref" href="#id199">Socket Timeout</a><a class="headerlink" href="#socket-timeout" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id200">Socket Timeout</a><a class="headerlink" href="#socket-timeout" title="Permalink to this heading"></a></h3>
 <p>Use this preference to set the socket read timeout in milliseconds.</p>
 </section>
 <section id="mobile-data-connection">
-<h3><a class="toc-backref" href="#id200">Mobile Data connection?</a><a class="headerlink" href="#mobile-data-connection" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id201">Mobile Data connection?</a><a class="headerlink" href="#mobile-data-connection" title="Permalink to this heading"></a></h3>
 <p>Use this preference to allow your device to connect to JMRI, or any <a href="../about/index.html#what-s-a-withrottle-server">WiThrottle Server</a>, using your phone’s Mobile Data.</p>
 <blockquote>
 <div><div class="note-ed-hidden-title admonition note">
@@ -2427,7 +2450,7 @@ i.e. It is not possible to Select (add or remove) locos if they are moving.</p>
 </div></blockquote>
 </section>
 <section id="feedback-on-disconnect">
-<h3><a class="toc-backref" href="#id201">Feedback on Disconnect</a><a class="headerlink" href="#feedback-on-disconnect" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id202">Feedback on Disconnect</a><a class="headerlink" href="#feedback-on-disconnect" title="Permalink to this heading"></a></h3>
 <p>If this preference is enabled <span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span> will play a sound (Audible alert) and will vibrate if there is an unexpected disconnection from the <a href="../about/index.html#what-s-a-withrottle-server">WiThrottle Server</a>.</p>
 <blockquote>
 <div><div class="note-ed-hidden-title admonition note">
@@ -2437,7 +2460,7 @@ i.e. It is not possible to Select (add or remove) locos if they are moving.</p>
 </div></blockquote>
 </section>
 <section id="background-alert">
-<h3><a class="toc-backref" href="#id202">Background Alert</a><a class="headerlink" href="#background-alert" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id203">Background Alert</a><a class="headerlink" href="#background-alert" title="Permalink to this heading"></a></h3>
 <p>If this preference is enabled <span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span> will play a sound (Audible alert) when the app is sent to the background.</p>
 <blockquote>
 <div><div class="note-ed-hidden-title admonition note">
@@ -2446,12 +2469,27 @@ i.e. It is not possible to Select (add or remove) locos if they are moving.</p>
 </div>
 </div></blockquote>
 </section>
+<section id="dcc-ex-ex-commandstation-preferences">
+<h3><a class="toc-backref" href="#id204">DCC-EX EX-CommandStation Preferences</a><a class="headerlink" href="#dcc-ex-ex-commandstation-preferences" title="Permalink to this heading"></a></h3>
+<section id="use-native-dcc-ex-command">
+<h4><a class="toc-backref" href="#id205">Use Native DCC-EX command</a><a class="headerlink" href="#use-native-dcc-ex-command" title="Permalink to this heading"></a></h4>
+<p>If this preference is enabled <span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span> will attempt to connect to all Command Stations using the DCC-EX Native Protocol not the WiThrottle protocol.</p>
+<p>This can ONLY when connecting to a DCC-EX EX-CommandStation. Using this with any other brand of Command Station will cause <span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span> to fail to connect.</p>
+<p>When enabled, this provides additional features specific the DCC-EX EX-CommandStation.</p>
+<p>Refer to <a class="reference internal" href="../operation/dcc-ex-native-protocol.html"><span class="doc">this page</span></a> for details on how to use the <span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span> features that are only available when using the Native DCC-EX Protocol when connecting to a <strong>DCC-EX EX-CommandStation</strong>.</p>
+</section>
+<section id="show-protocol-option">
+<h4><a class="toc-backref" href="#id206">Show protocol option</a><a class="headerlink" href="#show-protocol-option" title="Permalink to this heading"></a></h4>
+<p>Enabling this preference will cause <span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span> to show and additional question on the <a class="reference internal" href="../operation/interface.html#connection-screen"><span class="std std-ref">Connection Screen</span></a> which allows you to easily change the <cite>Use Native DCC-EX command</cite> preference when connecting to different brands of Command Station.</p>
+<p>Refer to <a class="reference internal" href="../operation/dcc-ex-native-protocol.html"><span class="doc">this page</span></a> additional information.</p>
+</section>
+</section>
 </section>
 <section id="web-screen-preferences">
-<h2><a class="toc-backref" href="#id203">Web Screen Preferences</a><a class="headerlink" href="#web-screen-preferences" title="Permalink to this heading"></a></h2>
+<h2><a class="toc-backref" href="#id207">Web Screen Preferences</a><a class="headerlink" href="#web-screen-preferences" title="Permalink to this heading"></a></h2>
 <p>The following preferences allow you to change the way the <a class="reference internal" href="../operation/interface.html#id46"><span class="std std-ref">Web View Screen</span></a> behaves.</p>
 <section id="web-screen-orientation">
-<h3><a class="toc-backref" href="#id204">Web Screen Orientation</a><a class="headerlink" href="#web-screen-orientation" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id208">Web Screen Orientation</a><a class="headerlink" href="#web-screen-orientation" title="Permalink to this heading"></a></h3>
 <p>This preference allows you you select the orientation for the <a class="reference internal" href="../operation/interface.html#id46"><span class="std std-ref">Web View Screen</span></a>.</p>
 <p>Options include:</p>
 <ul class="simple">
@@ -2461,30 +2499,30 @@ i.e. It is not possible to Select (add or remove) locos if they are moving.</p>
 </ul>
 </section>
 <section id="initial-web-screen-page">
-<h3><a class="toc-backref" href="#id205">Initial Web Screen Page</a><a class="headerlink" href="#initial-web-screen-page" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id209">Initial Web Screen Page</a><a class="headerlink" href="#initial-web-screen-page" title="Permalink to this heading"></a></h3>
 <p>Use this preference to enter the initial Web Page (such as ‘/panel’) for the <a class="reference internal" href="../operation/interface.html#id46"><span class="std std-ref">Web View Screen</span></a>.  i.e. The page that will open the first time you open the Web View Screen, for each session that you use <span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span>.</p>
 <p>Note that this is different/separate to the ‘Throttle Web View’ initial Web Page which is set with the <a class="reference internal" href="#initial-throttle-web-page">Initial throttle Web Page</a> preference.</p>
 </section>
 </section>
 <section id="turnouts-points-and-routes-preferences">
-<h2><a class="toc-backref" href="#id206">Turnouts/Points and Routes Preferences</a><a class="headerlink" href="#turnouts-points-and-routes-preferences" title="Permalink to this heading"></a></h2>
+<h2><a class="toc-backref" href="#id210">Turnouts/Points and Routes Preferences</a><a class="headerlink" href="#turnouts-points-and-routes-preferences" title="Permalink to this heading"></a></h2>
 <p>The following preferences allow you to change the way the <em>Turnouts/Points</em> behave.</p>
 <section id="hide-sys-route-names">
-<h3><a class="toc-backref" href="#id207">Hide Sys Route Names?</a><a class="headerlink" href="#hide-sys-route-names" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id211">Hide Sys Route Names?</a><a class="headerlink" href="#hide-sys-route-names" title="Permalink to this heading"></a></h3>
 <p>If this preference is enabled, the ‘system names’ for the Routes are not shown in the Routes List.  This is a cosmetic change only and can be used to save space on ‘Route list’.</p>
 </section>
 <section id="location-delimiter">
-<h3><a class="toc-backref" href="#id208">Location Delimiter</a><a class="headerlink" href="#location-delimiter" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id212">Location Delimiter</a><a class="headerlink" href="#location-delimiter" title="Permalink to this heading"></a></h3>
 <p>The ‘Turnout/Points List’ and the ‘Routes List’ can be filtered.  The filtering relies on the idea that the first part of every Turnout/Point name and every Route name is a ‘Location’, followed by a common separator, then the actual name for the Turnout/Point or Route name.  The ‘filter’ then allows you to select one of those locations and <span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span> can just show the Turnout/Points or Routes at the ‘Location’.</p>
 <p>This preference allows you to set the character that marks the end of the Location portion of Turnout/Point and Route names.  By default it is a colon (“:”) but any character can be used.</p>
 </section>
 <section id="hide-if-no-user-name">
-<h3><a class="toc-backref" href="#id209">Hide if no user name?</a><a class="headerlink" href="#hide-if-no-user-name" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id213">Hide if no user name?</a><a class="headerlink" href="#hide-if-no-user-name" title="Permalink to this heading"></a></h3>
 <p>If this preference is enabled <span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span> will omit any Turnout/Point/Route from list if the user name is empty.</p>
 </section>
 </section>
 <section id="children-s-timer-preferences">
-<h2><a class="toc-backref" href="#id210">Children’s (Timer) Preferences</a><a class="headerlink" href="#children-s-timer-preferences" title="Permalink to this heading"></a></h2>
+<h2><a class="toc-backref" href="#id214">Children’s (Timer) Preferences</a><a class="headerlink" href="#children-s-timer-preferences" title="Permalink to this heading"></a></h2>
 <p><span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span> provides options for time controlled running.  This was originally intended for providing a way to have children have a fair share of the use of a loco, but can be used for timed control for any purpose.</p>
 <div class="note-ed-hidden-title admonition note">
 <p class="admonition-title">Note</p>
@@ -2492,7 +2530,7 @@ i.e. It is not possible to Select (add or remove) locos if they are moving.</p>
 </div>
 <p>The following preferences allow you to change the way the <em>Children’s (Timer)</em> behave.</p>
 <section id="time-limited-running">
-<h3><a class="toc-backref" href="#id211">Time limited running</a><a class="headerlink" href="#time-limited-running" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id215">Time limited running</a><a class="headerlink" href="#time-limited-running" title="Permalink to this heading"></a></h3>
 <p>Use this preference to restrict the amount of time that the loco will run.</p>
 <p>Options:</p>
 <ul class="simple">
@@ -2506,26 +2544,26 @@ i.e. It is not possible to Select (add or remove) locos if they are moving.</p>
 <p>Note this is independent of the value set in the <a class="reference internal" href="#default-time-for-button">Default time for Button</a> preference. i.e It can be different to the default time if use the button to activate the timer.</p>
 </section>
 <section id="restart-password">
-<h3><a class="toc-backref" href="#id212">Restart Password</a><a class="headerlink" href="#restart-password" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id216">Restart Password</a><a class="headerlink" href="#restart-password" title="Permalink to this heading"></a></h3>
 <p>Use this preference to set the password to restart the children’s timer with the current settings.</p>
 <p>Defaults to “0000”</p>
 </section>
 <section id="reset-disable-password">
-<h3><a class="toc-backref" href="#id213">Reset/Disable Password</a><a class="headerlink" href="#reset-disable-password" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id217">Reset/Disable Password</a><a class="headerlink" href="#reset-disable-password" title="Permalink to this heading"></a></h3>
 <p>Use this preference to set the password to reset/disable the children’s timer settings.</p>
 <p>Defaults to “9999”</p>
 </section>
 <section id="allow-reverse">
-<h3><a class="toc-backref" href="#id214">Allow Reverse?</a><a class="headerlink" href="#allow-reverse" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id218">Allow Reverse?</a><a class="headerlink" href="#allow-reverse" title="Permalink to this heading"></a></h3>
 <p>Enable this preference if you wish to enable the <span class="guilabel">Forward</span> and <span class="guilabel">Reverse</span> buttons while the children’s timer is running. i.e. if you want them to be able to reverse the locos.</p>
 </section>
 <section id="show-timer-button">
-<h3><a class="toc-backref" href="#id215">Show Timer button?</a><a class="headerlink" href="#show-timer-button" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id219">Show Timer button?</a><a class="headerlink" href="#show-timer-button" title="Permalink to this heading"></a></h3>
 <a class="reference internal image-reference" href="../_images/timer.png"><img alt="../_images/timer.png" class="align-right" src="../_images/timer.png" style="width: 48.0px; height: 48.0px;" /></a>
 <p>Enable this preference if you wish display the Timer Button on the Action Bar of the <a class="reference internal" href="../operation/interface.html#throttle-screen"><span class="std std-ref">Throttle Screen</span></a>, to easily activate the Children’s timer.</p>
 </section>
 <section id="default-time-for-button">
-<h3><a class="toc-backref" href="#id216">Default time for Button</a><a class="headerlink" href="#default-time-for-button" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id220">Default time for Button</a><a class="headerlink" href="#default-time-for-button" title="Permalink to this heading"></a></h3>
 <p>Use this preference to set the default time if using the Action Bar Button (<a class="reference internal" href="#show-timer-button">Show Timer button?</a>) to activate the timer.</p>
 <p>Options:</p>
 <ul class="simple">
@@ -2540,10 +2578,10 @@ i.e. It is not possible to Select (add or remove) locos if they are moving.</p>
 </section>
 </section>
 <section id="import-export-reset-log-preferences">
-<h2><a class="toc-backref" href="#id217">Import/Export/Reset &amp; Log Preferences</a><a class="headerlink" href="#import-export-reset-log-preferences" title="Permalink to this heading"></a></h2>
+<h2><a class="toc-backref" href="#id221">Import/Export/Reset &amp; Log Preferences</a><a class="headerlink" href="#import-export-reset-log-preferences" title="Permalink to this heading"></a></h2>
 <p>The following preferences allow you to change the way the <em>Imports/Exports/Reset</em> behave.</p>
 <section id="import-export-or-reset">
-<h3><a class="toc-backref" href="#id218">Import, Export or Reset</a><a class="headerlink" href="#import-export-or-reset" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id222">Import, Export or Reset</a><a class="headerlink" href="#import-export-or-reset" title="Permalink to this heading"></a></h3>
 <p>You can use this preference to a) <cite>Export</cite> preferences to a file in the <code class="docutils literal notranslate"><span class="pre">/Android/data/jmri.enginedriver/files/</span></code> folder (<code class="docutils literal notranslate"><span class="pre">exported_preferences.ed</span></code>), b) <cite>Import</cite> you saved preferences from a file in the <code class="docutils literal notranslate"><span class="pre">/Android/data/jmri.enginedriver/files/</span></code> folder, or c) <cite>Reset</cite> all the preferences to a state similar to when <span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span> was initially installed.
 or <cite>Reset</cite> them.</p>
 <p>Options:</p>
@@ -2564,16 +2602,16 @@ or <cite>Reset</cite> them.</p>
 </div>
 </section>
 <section id="auto-import-from-all-servers">
-<h3><a class="toc-backref" href="#id219">Auto import from all Servers?</a><a class="headerlink" href="#auto-import-from-all-servers" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id223">Auto import from all Servers?</a><a class="headerlink" href="#auto-import-from-all-servers" title="Permalink to this heading"></a></h3>
 <p><span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span> is able to automatically import a preference file from a JMRI <a href="../about/index.html#what-s-a-withrottle-server">WiThrottle Server</a> if it exists.</p>
 <p>Enable this preference to automatically import the preferences from all servers (if they exists) on connection.  i.e. If the file <code class="docutils literal notranslate"><span class="pre">&lt;jmri</span> <span class="pre">railroad</span> <span class="pre">base</span> <span class="pre">folder&gt;/prefs/engine_driver/auto_preferences.ed</span></code> is on the server and if it is more recent that the last time checked.</p>
 </section>
 <section id="include-recent-loco-list">
-<h3><a class="toc-backref" href="#id220">Include recent loco list?</a><a class="headerlink" href="#include-recent-loco-list" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id224">Include recent loco list?</a><a class="headerlink" href="#include-recent-loco-list" title="Permalink to this heading"></a></h3>
 <p>Enable this preference if you wish to include the locos in the recent loco list in <cite>Imports</cite> and <cite>Exports</cite>.</p>
 </section>
 <section id="auto-host-specific-import-export">
-<h3><a class="toc-backref" href="#id221">Auto host specific import/export?</a><a class="headerlink" href="#auto-host-specific-import-export" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id225">Auto host specific import/export?</a><a class="headerlink" href="#auto-host-specific-import-export" title="Permalink to this heading"></a></h3>
 <p>You can set up different preferences for different server/railroads and have them automatically load when you connect to that <a href="../about/index.html#what-s-a-withrottle-server">WiThrottle Server</a>.
 The most common use of this (so far) is to remember the locos relevant to that railroad.  e.g. I run N scale and HO Scale.  When I connect to one of the N Scale layouts I use it shows me my N Scale locos in the recent locos list, but when I connect to one of the HO layouts I use, it shows me the my recently used HO locos.</p>
 <p>Enable this preference if you wish, on every connection to a host, to AUTOMATICALLY ‘Import’ preferences for that host, and optionally ‘Export’ them on disconnect.</p>
@@ -2593,7 +2631,7 @@ The most common use of this (so far) is to remember the locos relevant to that r
 </ul>
 </section>
 <section id="manual-host-specific-import-export">
-<h3><a class="toc-backref" href="#id222">Manual host specific import/export</a><a class="headerlink" href="#manual-host-specific-import-export" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id226">Manual host specific import/export</a><a class="headerlink" href="#manual-host-specific-import-export" title="Permalink to this heading"></a></h3>
 <div class="admonition-todo admonition" id="id27">
 <p class="admonition-title">Todo</p>
 <p>Manual host specific import/export</p>
@@ -2606,7 +2644,7 @@ The most common use of this (so far) is to remember the locos relevant to that r
 </ul>
 </section>
 <section id="show-timestamps-on-log">
-<h3><a class="toc-backref" href="#id223">Show Timestamps on Log?</a><a class="headerlink" href="#show-timestamps-on-log" title="Permalink to this heading"></a></h3>
+<h3><a class="toc-backref" href="#id227">Show Timestamps on Log?</a><a class="headerlink" href="#show-timestamps-on-log" title="Permalink to this heading"></a></h3>
 <p>Enable this preference to show Date Time for each entry on the <em>Log Screen</em>.</p>
 </section>
 </section>

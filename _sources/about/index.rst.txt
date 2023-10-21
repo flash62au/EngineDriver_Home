@@ -16,7 +16,7 @@ What is 'Engine Driver'
 Supported |WTSS| include:
 
 * `JMRI <https://jmri.org/>`_,
-*  `DCC++EX Command Station <https://dcc-ex.com/>`_
+*  `DCC-EX EX-CommandStation <https://dcc-ex.com/>`_
 *  `MRC Prodigy WiFi <https://www.modelrectifier.com/category-s/332.htm>`_
 *  `Digitrax LnWi <https://www.digitrax.com/products/wireless/lnwi/>`_
 *  `WifiTrax (for NCE) <http://wifitrax.com/products/product-WFD-30-detail.html>`_ 
@@ -31,7 +31,7 @@ Supported |WTSS| include:
 
 You can customise |ed| extensively to meet your needs.
 
-Generally the |WTSS| that |ed| connects to are either DCC Command Stations, or are designed to talk to DCC Command Stations (e.g. JMRI) to subsequently talk to DCC Decoder equipped locos on a layout.  However DCC++EX is currently experimenting with the possibility of controlling DC locos or even Slot cars instead.
+Generally the |WTSS| that |ed| connects to are either DCC Command Stations, or are designed to talk to DCC Command Stations (e.g. JMRI) to subsequently talk to DCC Decoder equipped locos on a layout.  DCC-EX EX-CommandStation also allows controlling DC locos or even Slot cars instead.
 
 .. note:: 
   :class: note-ed-hidden-title
@@ -46,7 +46,7 @@ Info on minSDKVersion available in the `Engine Driver manifest <https://develope
 What's a 'WiThrottle Server'?
 -----------------------------
 
-WiThrottle stands for 'WiFi Throttle', and a 'WiThrottle Server' is just software running on your JMRI computer, DCC++EX Command Station, or dedicated device. It's called a 'Server' because it allows you to connect to it and it 'serves', or services, requests from another application. That application is called a 'Client'. So in this case |ed| is the client.
+WiThrottle stands for 'WiFi Throttle', and a 'WiThrottle Server' is just software running on your JMRI computer, DCC-EX EX-CommandStation, or dedicated device. It's called a 'Server' because it allows you to connect to it and it 'serves', or services, requests from another application. That application is called a 'Client'. So in this case |ed| is the client.
 
 The WiThrottle Protocol itself is a standard for how WiFi throttles can communicate with the WiThrottle Server, much like the DCC standard is a standard for how data packets communicate with decoders. What this means for you, is that |ed| can talk to any WiThrottle compatible server, which in turn can talks to your DCC encoders in your locos.
 
@@ -75,8 +75,8 @@ See the :doc:`/contact/index` page if you are having problems or wish to make a 
 Alternates to Engine Driver
 ---------------------------
 
-|ed| is not the only app that can connect to JMRI, |WTSS| or DCC++EX Command Station, so it is worth your time to investigate to alternates.
+|ed| is not the only app that can connect to JMRI, |WTSS| or DCC-EX EX-CommandStation, so it is worth your time to investigate to alternates.
 
 See the `JMRI WiThrottle page <https://www.jmri.org/help/en/package/jmri/jmrit/withrottle/UserInterface.shtml>`_ for a list of similar or related apps.
 
-See the `DCC++EX page <https://dcc-ex.com/throttles/index.html>`_ for a list of similar or related apps.
+See the `DCC-EX page <https://dcc-ex.com/throttles/index.html>`_ for a list of similar or related apps.

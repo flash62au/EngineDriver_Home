@@ -638,7 +638,7 @@ Routes Screen
 
 Accessed from any of the main screens by the menu :menuselection:`Menu --> Routes` or by swiping left from the Throttle Screen if enabled in the Left with the ``Swipe through Routes?`` preference: :menuselection:`Menu --> Preferences --> Left/Right Swipe Preferences --> Swipe through Routes`
 
-This screen allows you to display all Routes that have been defined in JMRI or DCC++EX.
+This screen allows you to display all Routes that have been defined in JMRI or DCC-EX EX-CommandStation.
 
 **Enter**
 

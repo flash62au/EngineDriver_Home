@@ -16,7 +16,7 @@ The **Roster List**, and **Recent Locos List** on the Select Loco screen will au
 * A locally cached or manually chosen image is available for the loco (see below)
 * For the **Recent Locos list**, the loco was originally selected from a roster and the loco had an icon. (i.e. Not entered as a DCC Address)
 
-**For WiThrottle servers that do support a roster but don't support Locomotive Icons**  (e.g. DCC++EX)
+**For WiThrottle servers that do support a roster but don't support Locomotive Icons**  (e.g. DCC-EX EX-CommandStation)
 
 There are three ways to load & store your Locomotive Icon Image in Engine Driver 2.32.142 and above.
 
@@ -32,7 +32,7 @@ There are three ways to load & store your Locomotive Icon Image in Engine Driver
 
   Requirements for this to work:
 
-    * Have identical names (from JMRI Roster ID to DCC++EX EXRAIL Roster ID)  example ID;    "PE 1225"
+    * Have identical names (from JMRI Roster ID to DCC-EX EXRAIL Roster ID)  example ID;    "PE 1225"
     * Have image icons displayed for the locomotives
 
 2. **Manually entered directly into your Android Engine Driver folder**
@@ -69,4 +69,4 @@ There are three ways to load & store your Locomotive Icon Image in Engine Driver
 .. note:: 
   :class: note-ed-hidden-title
   
-  For adding a roster to DCC++EX see `Roster Entries <https://dcc-ex.com/automation/EX-RAIL-intro.html#roster-entries>`_.
+  For adding a roster to DCC-EX see `Roster Entries <https://dcc-ex.com/automation/EX-RAIL-intro.html#roster-entries>`_.

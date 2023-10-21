@@ -10,6 +10,8 @@
       <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
       <link rel="stylesheet" href="../_static/css/engine_driver_home_theme.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/dark_mode_css/general.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/dark_mode_css/dark.css" type="text/css" />
     <link rel="shortcut icon" href="../_static/favicon.ico"/>
     <link rel="canonical" href="https://flash62au.github.io/EngineDriver_Home/about/index.html" />
   <!--[if lt IE 9]>
@@ -24,6 +26,8 @@
         <script src="../_static/sphinx_highlight.js"></script>
         <script src="../_static/js/platform.js"></script>
         <script src="../_static/js/extra.js"></script>
+        <script src="../_static/dark_mode_js/default_dark.js"></script>
+        <script src="../_static/dark_mode_js/theme_switcher.js"></script>
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
@@ -74,7 +78,7 @@
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../prerequisites/index.html#withrottle-servers">WiThrottle Servers</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="../prerequisites/index.html#for-jmri">For JMRI</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../prerequisites/index.html#for-dcc-ex-wifi">For DCC++EX WiFi</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../prerequisites/index.html#for-dcc-ex-wifi">For DCC-EX WiFi</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../prerequisites/index.html#for-mrc-wifi">For MRC WiFi</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../prerequisites/index.html#for-digitrax-lnwi">For Digitrax LnWi</a></li>
 </ul>
@@ -139,6 +143,7 @@
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="../operation/operation.html#pushing-the-app-to-the-background">Pushing the app to the Background</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../operation/operation.html#dcc-ex-ex-commandstation-features-when-using-the-native-dcc-ex-protocol">DCC-EX EX-CommandStation- Features when using the Native DCC-EX Protocol</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../operation/operation.html#exiting-engine-driver">Exiting Engine Driver</a></li>
 </ul>
 </li>
@@ -322,7 +327,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../configuration/configuration.html">Configuring Engine Driver</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../configuration/configuration_withrottle.html">Configuring the WiThrottle server</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="../configuration/configuration_withrottle.html#jmri">JMRI</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../configuration/configuration_withrottle.html#dcc-ex-wifi">DCC++EX WiFi</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../configuration/configuration_withrottle.html#dcc-ex-wifi">DCC-EX WiFi</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../configuration/configuration_withrottle.html#mrc-wifi">MRC WiFi</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../configuration/configuration_withrottle.html#digitrax-lnwi">Digitrax LnWi</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../configuration/configuration_withrottle.html#wifitrax">WifiTrax</a></li>
@@ -428,6 +433,7 @@
 </li>
 <li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#in-phone-sounds-button">In phone sounds button</a></li>
 <li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#show-server-description">Show Server Description</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#dcc-ex-button">DCC-EX button?</a></li>
 </ul>
 </li>
 <li class="toctree-l4"><a class="reference internal" href="../configuration/preferences.html#throttle-control-preferences">Throttle Control Preferences</a><ul>
@@ -559,6 +565,11 @@
 <li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#mobile-data-connection">Mobile Data connection?</a></li>
 <li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#feedback-on-disconnect">Feedback on Disconnect</a></li>
 <li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#background-alert">Background Alert</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../configuration/preferences.html#dcc-ex-ex-commandstation-preferences">DCC-EX EX-CommandStation Preferences</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../configuration/preferences.html#use-native-dcc-ex-command">Use Native DCC-EX command</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../configuration/preferences.html#show-protocol-option">Show protocol option</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toctree-l4"><a class="reference internal" href="../configuration/preferences.html#web-screen-preferences">Web Screen Preferences</a><ul>
@@ -722,7 +733,7 @@
 <p>Supported <a href="../about/index.html#what-s-a-withrottle-server">WiThrottle Servers</a> include:</p>
 <ul class="simple">
 <li><p><a class="reference external" href="https://jmri.org/">JMRI</a>,</p></li>
-<li><p><a class="reference external" href="https://dcc-ex.com/">DCC++EX Command Station</a></p></li>
+<li><p><a class="reference external" href="https://dcc-ex.com/">DCC-EX EX-CommandStation</a></p></li>
 <li><p><a class="reference external" href="https://www.modelrectifier.com/category-s/332.htm">MRC Prodigy WiFi</a></p></li>
 <li><p><a class="reference external" href="https://www.digitrax.com/products/wireless/lnwi/">Digitrax LnWi</a></p></li>
 <li><p><a class="reference external" href="http://wifitrax.com/products/product-WFD-30-detail.html">WifiTrax (for NCE)</a></p></li>
@@ -736,7 +747,7 @@
 <li><p>Play virtual loco sounds</p></li>
 </ul>
 <p>You can customise <span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span> extensively to meet your needs.</p>
-<p>Generally the <a href="../about/index.html#what-s-a-withrottle-server">WiThrottle Servers</a> that <span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span> connects to are either DCC Command Stations, or are designed to talk to DCC Command Stations (e.g. JMRI) to subsequently talk to DCC Decoder equipped locos on a layout.  However DCC++EX is currently experimenting with the possibility of controlling DC locos or even Slot cars instead.</p>
+<p>Generally the <a href="../about/index.html#what-s-a-withrottle-server">WiThrottle Servers</a> that <span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span> connects to are either DCC Command Stations, or are designed to talk to DCC Command Stations (e.g. JMRI) to subsequently talk to DCC Decoder equipped locos on a layout.  DCC-EX EX-CommandStation also allows controlling DC locos or even Slot cars instead.</p>
 <div class="note-ed-hidden-title admonition note">
 <p class="admonition-title">Note</p>
 <p>See the <a class="reference internal" href="../operation/index.html"><span class="doc">Operation - Using Engine Driver</span></a> page for details on how to use <span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span>.</p>
@@ -747,7 +758,7 @@ Info on minSDKVersion available in the <a class="reference external" href="https
 </section>
 <section id="what-s-a-withrottle-server">
 <h2>What’s a ‘WiThrottle Server’?<a class="headerlink" href="#what-s-a-withrottle-server" title="Permalink to this heading"></a></h2>
-<p>WiThrottle stands for ‘WiFi Throttle’, and a ‘WiThrottle Server’ is just software running on your JMRI computer, DCC++EX Command Station, or dedicated device. It’s called a ‘Server’ because it allows you to connect to it and it ‘serves’, or services, requests from another application. That application is called a ‘Client’. So in this case <span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span> is the client.</p>
+<p>WiThrottle stands for ‘WiFi Throttle’, and a ‘WiThrottle Server’ is just software running on your JMRI computer, DCC-EX EX-CommandStation, or dedicated device. It’s called a ‘Server’ because it allows you to connect to it and it ‘serves’, or services, requests from another application. That application is called a ‘Client’. So in this case <span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span> is the client.</p>
 <p>The WiThrottle Protocol itself is a standard for how WiFi throttles can communicate with the WiThrottle Server, much like the DCC standard is a standard for how data packets communicate with decoders. What this means for you, is that <span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span> can talk to any WiThrottle compatible server, which in turn can talks to your DCC encoders in your locos.</p>
 <div class="note-ed-hidden-title admonition note">
 <p class="admonition-title">Note</p>
@@ -773,9 +784,9 @@ Info on minSDKVersion available in the <a class="reference external" href="https
 </section>
 <section id="alternates-to-engine-driver">
 <h2>Alternates to Engine Driver<a class="headerlink" href="#alternates-to-engine-driver" title="Permalink to this heading"></a></h2>
-<p><span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span> is not the only app that can connect to JMRI, <a href="../about/index.html#what-s-a-withrottle-server">WiThrottle Servers</a> or DCC++EX Command Station, so it is worth your time to investigate to alternates.</p>
+<p><span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span> is not the only app that can connect to JMRI, <a href="../about/index.html#what-s-a-withrottle-server">WiThrottle Servers</a> or DCC-EX EX-CommandStation, so it is worth your time to investigate to alternates.</p>
 <p>See the <a class="reference external" href="https://www.jmri.org/help/en/package/jmri/jmrit/withrottle/UserInterface.shtml">JMRI WiThrottle page</a> for a list of similar or related apps.</p>
-<p>See the <a class="reference external" href="https://dcc-ex.com/throttles/index.html">DCC++EX page</a> for a list of similar or related apps.</p>
+<p>See the <a class="reference external" href="https://dcc-ex.com/throttles/index.html">DCC-EX page</a> for a list of similar or related apps.</p>
 </section>
 </section>
 

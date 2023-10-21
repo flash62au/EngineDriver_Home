@@ -119,3 +119,140 @@ li.toctree-l3, li.toctree-l4 {
   font-size: 90% !important;
   line-height: 120% !important;
 }
+
+.wy-nav-top {
+  font-size: 80% !important; 
+}
+
+.wy-nav-top a {
+  font-family: Audiowide,Helvetica,Arial,sans-serif !important;
+  font-weight: 100 !important;
+}
+
+.wy-nav-content {
+  max-width: 1024px;
+}
+
+.wy-breadcrumbs {
+  font-family: Roboto,Helvetica,Arial,sans-serif !important;
+  font-size: 80% !important;
+}
+
+.wy-side-nav-search>a img.logo {
+    width: 60%;
+}
+
+/* sidebar level 3 bullet points */
+nav#on-this-page ul.simple li ul li p {
+  font-family: Roboto,Helvetica,Arial,sans-serif !important;
+  font-size: 80% !important;
+  line-height: 120% !important;
+  margin-bottom: 0px !important;
+}
+
+/* sidebar level 3 bullet points */
+nav#on-this-page ul.simple li ul li {
+  font-family: Roboto,Helvetica,Arial,sans-serif !important;
+  line-height: 120% !important;
+  margin-bottom: 0px !important;
+}
+
+/* sidebar level 2 bullet points */
+nav#on-this-page ul.simple li p {
+  font-family: Roboto,Helvetica,Arial,sans-serif !important;
+  font-size: 80% !important;
+  line-height: 120% !important;
+  margin-bottom: 0px !important;
+}
+
+/* sidebar level 2 bullet points */
+nav#on-this-page ul.simple li {
+  font-family: Roboto,Helvetica,Arial,sans-serif !important;
+  line-height: 120% !important;
+  margin-bottom: 0px !important;
+}
+
+nav#on-this-page ul.simple {
+  font-family: Roboto,Helvetica,Arial,sans-serif !important;
+  margin-bottom: 0px !important;
+}
+
+nav#on-this-page p {
+  font-family: Roboto,Helvetica,Arial,sans-serif !important;
+  margin-top: 0px !important;
+  margin-bottom: 6px !important;
+}
+
+nav#on-this-page {
+  margin-bottom: 10px !important;
+}
+
+
+/* in-this-section level 3 bullet points */
+nav.in-this-section ul.simple li ul li p {
+  font-family: Roboto,Helvetica,Arial,sans-serif !important;
+  font-size: 80% !important;
+  line-height: 120% !important;
+  margin-bottom: 0px !important;
+}
+
+/* in-this-section level 3 bullet points */
+nav.in-this-section ul.simple li ul li {
+  font-family: Roboto,Helvetica,Arial,sans-serif !important;
+  line-height: 120% !important;
+  margin-bottom: 0px !important;
+}
+
+/* in-this-section level 2 bullet points */
+nav.in-this-section ul.simple li p {
+  font-family: Roboto,Helvetica,Arial,sans-serif !important;
+  font-size: 80% !important;
+  line-height: 120% !important;
+  margin-bottom: 0px !important;
+}
+
+/* in-this-section level 2 bullet points */
+nav.in-this-section ul.simple li {
+  font-family: Roboto,Helvetica,Arial,sans-serif !important;
+  line-height: 120% !important;
+  margin-bottom: 0px !important;
+}
+
+nav.in-this-section ul.simple {
+  font-family: Roboto,Helvetica,Arial,sans-serif !important;
+  margin-bottom: 0px !important;
+}
+
+nav.in-this-section p {
+  font-family: Roboto,Helvetica,Arial,sans-serif !important;
+  font-style: italic;
+  font-size: 90%;
+  margin-top: 0px !important;
+  margin-bottom: 6px !important;
+  margin-left: -30px;
+}
+
+nav.in-this-section {
+  margin-bottom: 20px !important;
+  margin-left: 30px;
+}
+
+/* sidebars */
+.rst-content .sidebar {
+  padding: 12px 24px 12px 24px !important;
+  border-radius: 10px;
+}
+
+html[data-theme='dark'] .rst-content .sidebar {
+  background: #000000ff !important;
+  border:#000000ff !important;
+}
+
+.sidebar-title {
+  border-radius: 10px;
+}
+
+html[data-theme='dark'] .sidebar-title {
+  background: #002735 !important;
+}
+

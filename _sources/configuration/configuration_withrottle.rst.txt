@@ -22,8 +22,8 @@ JMRI
 * Entering roster entries, and defining routes and turnouts on the server will all make your |ed| throttle more powerful and easier to use (though not required). 
 * |ed| will show additional info if the JMRI Web Server is started (such as roster details and icon images).
 
-DCC++EX WiFi
-^^^^^^^^^^^^
+DCC-EX WiFi
+^^^^^^^^^^^
 
 Refer to the `developer's instructions <https://dcc-ex.com/advanced-setup/wifi-config.html>`_.
 

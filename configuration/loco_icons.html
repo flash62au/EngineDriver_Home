@@ -11,6 +11,8 @@
       <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
       <link rel="stylesheet" href="../_static/css/engine_driver_home_theme.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/dark_mode_css/general.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/dark_mode_css/dark.css" type="text/css" />
     <link rel="shortcut icon" href="../_static/favicon.ico"/>
     <link rel="canonical" href="https://flash62au.github.io/EngineDriver_Home/configuration/loco_icons.html" />
   <!--[if lt IE 9]>
@@ -25,6 +27,8 @@
         <script src="../_static/sphinx_highlight.js"></script>
         <script src="../_static/js/platform.js"></script>
         <script src="../_static/js/extra.js"></script>
+        <script src="../_static/dark_mode_js/default_dark.js"></script>
+        <script src="../_static/dark_mode_js/theme_switcher.js"></script>
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
@@ -75,7 +79,7 @@
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../prerequisites/index.html#withrottle-servers">WiThrottle Servers</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="../prerequisites/index.html#for-jmri">For JMRI</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../prerequisites/index.html#for-dcc-ex-wifi">For DCC++EX WiFi</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../prerequisites/index.html#for-dcc-ex-wifi">For DCC-EX WiFi</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../prerequisites/index.html#for-mrc-wifi">For MRC WiFi</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../prerequisites/index.html#for-digitrax-lnwi">For Digitrax LnWi</a></li>
 </ul>
@@ -140,6 +144,7 @@
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="../operation/operation.html#pushing-the-app-to-the-background">Pushing the app to the Background</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../operation/operation.html#dcc-ex-ex-commandstation-features-when-using-the-native-dcc-ex-protocol">DCC-EX EX-CommandStation- Features when using the Native DCC-EX Protocol</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../operation/operation.html#exiting-engine-driver">Exiting Engine Driver</a></li>
 </ul>
 </li>
@@ -323,7 +328,7 @@
 <li class="toctree-l2"><a class="reference internal" href="configuration.html">Configuring Engine Driver</a></li>
 <li class="toctree-l2"><a class="reference internal" href="configuration_withrottle.html">Configuring the WiThrottle server</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="configuration_withrottle.html#jmri">JMRI</a></li>
-<li class="toctree-l3"><a class="reference internal" href="configuration_withrottle.html#dcc-ex-wifi">DCC++EX WiFi</a></li>
+<li class="toctree-l3"><a class="reference internal" href="configuration_withrottle.html#dcc-ex-wifi">DCC-EX WiFi</a></li>
 <li class="toctree-l3"><a class="reference internal" href="configuration_withrottle.html#mrc-wifi">MRC WiFi</a></li>
 <li class="toctree-l3"><a class="reference internal" href="configuration_withrottle.html#digitrax-lnwi">Digitrax LnWi</a></li>
 <li class="toctree-l3"><a class="reference internal" href="configuration_withrottle.html#wifitrax">WifiTrax</a></li>
@@ -429,6 +434,7 @@
 </li>
 <li class="toctree-l5"><a class="reference internal" href="preferences.html#in-phone-sounds-button">In phone sounds button</a></li>
 <li class="toctree-l5"><a class="reference internal" href="preferences.html#show-server-description">Show Server Description</a></li>
+<li class="toctree-l5"><a class="reference internal" href="preferences.html#dcc-ex-button">DCC-EX button?</a></li>
 </ul>
 </li>
 <li class="toctree-l4"><a class="reference internal" href="preferences.html#throttle-control-preferences">Throttle Control Preferences</a><ul>
@@ -560,6 +566,11 @@
 <li class="toctree-l5"><a class="reference internal" href="preferences.html#mobile-data-connection">Mobile Data connection?</a></li>
 <li class="toctree-l5"><a class="reference internal" href="preferences.html#feedback-on-disconnect">Feedback on Disconnect</a></li>
 <li class="toctree-l5"><a class="reference internal" href="preferences.html#background-alert">Background Alert</a></li>
+<li class="toctree-l5"><a class="reference internal" href="preferences.html#dcc-ex-ex-commandstation-preferences">DCC-EX EX-CommandStation Preferences</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="preferences.html#use-native-dcc-ex-command">Use Native DCC-EX command</a></li>
+<li class="toctree-l6"><a class="reference internal" href="preferences.html#show-protocol-option">Show protocol option</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toctree-l4"><a class="reference internal" href="preferences.html#web-screen-preferences">Web Screen Preferences</a><ul>
@@ -726,7 +737,7 @@
 <li><p>A locally cached or manually chosen image is available for the loco (see below)</p></li>
 <li><p>For the <strong>Recent Locos list</strong>, the loco was originally selected from a roster and the loco had an icon. (i.e. Not entered as a DCC Address)</p></li>
 </ul>
-<p><strong>For WiThrottle servers that do support a roster but don’t support Locomotive Icons</strong>  (e.g. DCC++EX)</p>
+<p><strong>For WiThrottle servers that do support a roster but don’t support Locomotive Icons</strong>  (e.g. DCC-EX EX-CommandStation)</p>
 <p>There are three ways to load &amp; store your Locomotive Icon Image in Engine Driver 2.32.142 and above.</p>
 <ol class="arabic simple">
 <li><p><strong>Automatically from your existing JMRI Roster &amp; Media</strong></p></li>
@@ -743,7 +754,7 @@
 <p>Requirements for this to work:</p>
 <blockquote>
 <div><ul class="simple">
-<li><p>Have identical names (from JMRI Roster ID to DCC++EX EXRAIL Roster ID)  example ID;    “PE 1225”</p></li>
+<li><p>Have identical names (from JMRI Roster ID to DCC-EX EXRAIL Roster ID)  example ID;    “PE 1225”</p></li>
 <li><p>Have image icons displayed for the locomotives</p></li>
 </ul>
 </div></blockquote>
@@ -790,7 +801,7 @@
 </ul>
 <div class="note-ed-hidden-title admonition note">
 <p class="admonition-title">Note</p>
-<p>For adding a roster to DCC++EX see <a class="reference external" href="https://dcc-ex.com/automation/EX-RAIL-intro.html#roster-entries">Roster Entries</a>.</p>
+<p>For adding a roster to DCC-EX see <a class="reference external" href="https://dcc-ex.com/automation/EX-RAIL-intro.html#roster-entries">Roster Entries</a>.</p>
 </div>
 </section>
 
