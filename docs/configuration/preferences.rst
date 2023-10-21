@@ -819,6 +819,13 @@ Show Server Description
 
 Setting this preference will display the description of the current server on the Action Bar.
 
+DCC-EX button?
+""""""""""""""
+
+Enabling this preference will cause |ED| to show an additional button on the Action Bar that allows to to quickly to the DCC-EX screen.
+
+Refer to :doc:`this page <../operation/dcc-ex-native-protocol>` additional information.
+
 Throttle Control Preferences
 ----------------------------
 
@@ -1635,6 +1642,27 @@ If this preference is enabled |ed| will play a sound (Audible alert) when the ap
     :class: note-ed-hidden-title
 
     See the `Pushing the app to the Background <../operation/operation.html#pushing-the-app-to-the-background>`_ section of the Operation - Details Instructions page for more information.
+
+DCC-EX EX-CommandStation Preferences
+""""""""""""""""""""""""""""""""""""
+
+Use Native DCC-EX command
+'''''''''''''''''''''''''
+
+If this preference is enabled |ED| will attempt to connect to all Command Stations using the DCC-EX Native Protocol not the WiThrottle protocol.
+
+This can ONLY when connecting to a DCC-EX EX-CommandStation. Using this with any other brand of Command Station will cause |ED| to fail to connect. 
+
+When enabled, this provides additional features specific the DCC-EX EX-CommandStation.
+
+Refer to :doc:`this page <../operation/dcc-ex-native-protocol>` for details on how to use the |ED| features that are only available when using the Native DCC-EX Protocol when connecting to a **DCC-EX EX-CommandStation**.
+
+Show protocol option
+''''''''''''''''''''
+
+Enabling this preference will cause |ED| to show and additional question on the |C-S| which allows you to easily change the `Use Native DCC-EX command` preference when connecting to different brands of Command Station.
+
+Refer to :doc:`this page <../operation/dcc-ex-native-protocol>` additional information.
 
 Web Screen Preferences
 ----------------------

@@ -1,6 +1,6 @@
-*******************************************
+**********************
 Detailed Instructions
-*******************************************
+**********************
 
 .. meta::
    :keywords: operation
@@ -737,7 +737,7 @@ From the WiThrottle server
 
   See the `Left/Right Swipe preferences on the Preferences page <./configuration/preferences.html#left-right-swipe-preferences>`_ for information on enabling or disabling the swipe though Routes.
 
-  See the `Automation (EX-RAIL) page on the DCC++EX website <https://dcc-ex.com/automation/index.html>`_ for more information on using Automations in DCC++EX.
+  See the `Automation (EX-RAIL) page on the DCC-EX website <https://dcc-ex.com/automation/index.html>`_ for more information on using Automations in DCC-EX EX-CommandStations.
 
   **Filter by location**
 
@@ -867,8 +867,14 @@ In general avoid letting |ED| try to run in background.
 
   See the `Background Alert in the Preference page <./preferences.html#background-alert>`_ for information on disabling the alert.
 
+DCC-EX EX-CommandStation- Features when using the Native DCC-EX Protocol
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Refer to :doc:`this page <./dcc-ex-native-protocol>` for details on how to use the |ED| features that are only available when using the Native DCC-EX Protocol when connecting to a **DCC-EX EX-CommandStation**.
+
+
 Exiting Engine Driver
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^
 
 To exit |ed|, you can:
 
