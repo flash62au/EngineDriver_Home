@@ -867,10 +867,10 @@ In general avoid letting |ED| try to run in background.
 
   See the `Background Alert in the Preference page <./preferences.html#background-alert>`_ for information on disabling the alert.
 
-DCC-EX EX-CommandStation- Features when using the Native DCC-EX Protocol
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+DCC-EX - Features when using the Native DCC-EX Protocol
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Refer to :doc:`this page <./dcc-ex-native-protocol>` for details on how to use the |ED| features that are only available when using the Native DCC-EX Protocol when connecting to a **DCC-EX EX-CommandStation**.
+Refer to :doc:`this page <./dcc-ex-native-protocol>` for details on how to use the |ED| features that are only available when using the **Native DCC-EX Protocol** when connecting to a **EX-CommandStation**.
 
 
 Exiting Engine Driver
