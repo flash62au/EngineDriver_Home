@@ -136,4 +136,4 @@ Note that if you select `DC` or `DC reversed polarity (DCX)` you must also enter
 
 e.g. if you select `DC` and enter address `10` for track 'A', then in the |ED| Select Loco screen, you would need to enter the 'DCC Address' of `10` to control the DC loco on the track which would normally have been the 'Main' track if you were using DCC.
 
-Note, only one track can ever be selected as 'DCC PROG'
+Note that only one track can ever be selected as 'DCC PROG'
