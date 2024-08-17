@@ -21,9 +21,11 @@ Advanced Operation
 Consist Follow Functions
 ------------------------
 
-.. todo:: Consist Follow Functions
+By default, in |ed|, if you activate a DCC function while controlling a Consist/Multiple Unit train only the function on the lead loco will actually be activated.
+Engine Driver provides options (preferences) that will activate the functions on the other locos in the consist/multiple unit train given a number of possible rules.
+The following document provides information on the different rule types and how to use them.
 
-* see Functions in the Configuration
+See the :doc:`Consist Follow Functions <consist-follow-functions>` page for details.
 
 
 Direction Buttons
