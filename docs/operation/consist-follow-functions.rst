@@ -342,7 +342,7 @@ Which locos in the consist should react to the function buttons if none of the r
 For the 'Complex' option only. This preference is ignored if 'Simple' or 'Special' options are selected in the 'Consist Functions - Follow Rule Style' preference.
 
 'Headlight specific String 1' Preference
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. todo:: 'Headlight specific String 1' Preference
 
@@ -350,7 +350,7 @@ Comma separated string(s) to look for in the function labels of the locos in the
 For the 'Complex' option only. This preference is ignored if 'Simple' or 'Special' options are selected in the 'Consist Functions - Follow Rule Style' preference.
  
 'Headlight specific Action 1' Preference
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. todo:: 'Headlight specific Action 1' Preference
 
