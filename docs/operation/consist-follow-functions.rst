@@ -400,18 +400,18 @@ The loco (or locos in a consist) must be selected from the roster
 Note: If 'Use Default function labels' is enabled, 'Special…' will also apply to the lead (or only) loco.
 
 
-'Special - Exact Matching' Option
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+'Special - Exact Matching' Options
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. todo:: 'Special - Exact Matching' Option
 
-'Special Partial Matching' Option
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+'Special Partial Matching' Options
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. todo:: 'Special Partial Matching' Option
 
-'Special Partial - Contains Only' Option
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+'Special Partial - Contains Only' Options
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. todo:: 'Special Partial - Contains Only' Option
 
