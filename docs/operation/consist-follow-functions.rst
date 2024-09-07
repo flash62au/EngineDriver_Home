@@ -45,12 +45,12 @@ By default:
 * If you select a loco from a WiThrottle, or DCC-EX, Roster Entry, it will show the labels on the buttons as they have been configured in the Roster Entry on the server.
 
   * If you enter the DCC address of the loco, it will show Engine Driver's 'Default Function Labels'.
-  * All 29 functions will be shown. They are:
+  * All 32 functions will be shown. They are:
 
     * F0 / Light
     * F1 / Bell
     * F2 / Horn / Whistle
-    * F3 - F28
+    * F3 - F31
 
   * Which function buttons, how many function buttons and what labels are displayed, can be changed via the Menu ‣ Function Defaults from the Throttle Screen
   * If you select a Loco from the Recent Locos or Recent Consists lists that was originally selected from a roster, |ed| will attempt to show the Labels from the WiThrottle Server roster entry.
