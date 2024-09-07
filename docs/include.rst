@@ -6,7 +6,13 @@
 
    <br />
 ..
-.. usually used as |br|\ to remove the leading space of the following line
+.. |hr-dashed| raw:: html
+
+   <hr class="hr-dashed" />
+..
+.. |hr-heavy| raw:: html
+
+   <hr class="hr-heavy" />
 ..
 .. |ED| raw:: html
    

@@ -24,10 +24,10 @@ By default, in |ed|, if you activate a DCC function while controlling a Consist/
 
 The following document provides information on the different rule types and how to use them.
 
-This document is in two distinct sections
-
-* Overview
-* Consist Function Follow Preferences - Detailed Reference
+.. contents:: This document is in two distinct sections
+    :depth: 2
+    :local:
+    :class: in-this-section
 
 Overview
 ========
@@ -183,6 +183,8 @@ Options for 'Consist Functions - Follow Rule Styles' preference are:
 
 *Note: For all Text Matching, case sensitivity is not required, meaning Lower and Uppercase labels will result in a successful match for a given function.*
 
+|HR-DASHED|
+
 'Simple Text Matching (original)' Option
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -198,6 +200,8 @@ The following additional preferences are enabled if the 'Simple Text Matching (o
 
 This form of |ed| consisting is very simple to use and covers a large majority of situations in which the key functions restricted to the lead loco are Lights/Horn/Bell and the remainder are not propagated (or not used).
 
+|HR-DASHED|
+
 'Complex' Matching
 ~~~~~~~~~~~~~~~~~~
 
@@ -209,6 +213,8 @@ This form of |ed| consist function matching allows you to specify the labels of 
 
 * The loco (or locos in a consist) must be selected from the roster.
 * Some or all the rules need to be configured
+
+|HR-DASHED|
 
 The three 'Special' Matching Options
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -271,7 +277,9 @@ e.g.
 * "Light" (the base) will partially match to "Headlight" or "Ditch Light" (the compared).
 * "Headlight" (the base) WILL NOT partially match to "Light" (the compared).
 
-----
+|HR-HEAVY|
+
+|HR-HEAVY|
 
 Consist Function Follow Preferences - Detailed Reference
 ========================================================
@@ -310,6 +318,8 @@ Options:
 
 These options are described below in detail.
 
+|HR-DASHED|
+
 Simple Consisting Option and Related Preferences
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -342,6 +352,8 @@ This preference is ignored if 'Complex' or 'Special' options are selected in the
 If this preference is enabled, F2 one is always treated as a sound and is always propagated to all locos in a consist.
 
 This preference is ignored if 'Complex' or 'Special' options are selected in the 'Consist Functions - Follow Rule Style' preference.
+
+|HR-DASHED|
 
 'Complex' Text matching Option
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -422,6 +434,8 @@ Action for String 2, 3, 4, 5 Preferences
 This applies to Action for String 2, Action for String 3, Action for String 4, Action for String 5.
 
 For the 'Complex' option only. This preference is ignored if 'Simple' or 'Special' options are selected in the 'Consist Functions - Follow Rule Style' preference.
+
+|HR-DASHED|
 
 'Special' Consist Function Matching Options
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

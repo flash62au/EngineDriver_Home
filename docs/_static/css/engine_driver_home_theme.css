@@ -92,6 +92,20 @@ div#on-this-page ul.simple li ul li p {
   line-height: 120% !important;
 }
 
+.hr-dashed {
+  margin: -10px 0px -10px 0px; 
+  border-top: 1px dashed #d2dfe3;
+}
+
+.hr-heavy {
+  margin: -10px 0px -10px 0px; 
+  border-top: 5px solid #d2dfe3;
+}
+
+html[data-theme='dark'] .hr-dashed {
+  border-top: 1px dashed #114759;
+}
+
 /* sidebar level 3 bullet points */
 div#on-this-page ul.simple li ul li {
   line-height: 120% !important;
@@ -256,3 +270,55 @@ html[data-theme='dark'] .sidebar-title {
   background: #002735 !important;
 }
 
+/* in-this-section level 3 bullet points */
+nav.in-this-section ul.simple li ul li p {
+  font-family: Roboto,Helvetica,Arial,sans-serif !important;
+  font-size: 80% !important;
+  line-height: 120% !important;
+  margin-bottom: 0px !important;
+  text-indent: 25px !important;
+}
+
+/* in-this-section level 3 bullet points */
+nav.in-this-section ul.simple li ul li {
+  font-family: Roboto,Helvetica,Arial,sans-serif !important;
+  line-height: 120% !important;
+  margin-bottom: 0px !important;
+  text-indent: 25px !important;
+}
+
+/* in-this-section level 2 bullet points */
+nav.in-this-section ul.simple li p {
+  font-family: Roboto,Helvetica,Arial,sans-serif !important;
+  font-size: 80% !important;
+  line-height: 120% !important;
+  margin-bottom: 0px !important;
+  text-indent: 25px !important;
+}
+
+/* in-this-section level 2 bullet points */
+nav.in-this-section ul.simple li {
+  font-family: Roboto,Helvetica,Arial,sans-serif !important;
+  line-height: 120% !important;
+  margin-bottom: 0px !important;
+  text-indent: 25px !important;
+}
+
+nav.in-this-section ul.simple {
+  font-family: Roboto,Helvetica,Arial,sans-serif !important;
+  margin-bottom: 0px !important;
+}
+
+nav.in-this-section p {
+  font-family: Roboto,Helvetica,Arial,sans-serif !important;
+  font-style: italic;
+  font-size: 90%;
+  margin-top: 0px !important;
+  margin-bottom: 6px !important;
+  margin-left: -30px;
+}
+
+nav.in-this-section {
+  margin-bottom: 20px !important;
+  margin-left: 30px;
+}
