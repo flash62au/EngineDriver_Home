@@ -84,6 +84,11 @@ Roster Entry Function Labels or Roster Functions: These are the function labels 
 Default Function Labels or Default Functions: 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+.. figure:: /_static/images/consist_follow_functions/default_function_labels.png
+   :alt: Default Function Labels
+   :scale: 50%
+   :class: align-right
+
 |ed| allows the definition of a set of default function labels which are used in the throttle display. The Default Function Labels can be used in place of loco Roster Function Labels or can be used when loco Roster Function Labels have not been defined. Default Function Labels can be defined manually in |ed| or copied from the Roster Function Labels of a given loco. 
 
 These Default Function Labels exist only in |ed| and do not affect the JMRI Roster Function Labels.
@@ -99,6 +104,16 @@ In addition, when Default Functions are used, |ed| provides the ability to map a
 
 Function Label Matching: 
 ~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. figure:: /_static/images/consist_follow_functions/consist_follow_function_preference2.png
+   :alt: Preferences
+   :scale: 40%
+   :class: align-right
+
+.. figure:: /_static/images/consist_follow_functions/consist_follow_function_preference1.png
+   :alt: Preferences
+   :scale: 40%
+   :class: align-right
 
 Engine Driver's Function Label Matching allows each Throttle Function to be mapped to a Function Label in the Roster Entry for each/any loco, based on a one of several label matching 'rules'. 
 
@@ -261,6 +276,16 @@ e.g.
 Consist Function Follow Preferences - Detailed Reference
 ========================================================
 
+.. figure:: /_static/images/consist_follow_functions/consist_follow_function_preference2.png
+   :alt: Preferences
+   :scale: 40%
+   :class: align-right
+
+.. figure:: /_static/images/consist_follow_functions/consist_follow_function_preference1.png
+   :alt: Preferences
+   :scale: 40%
+   :class: align-right
+
 These preferences allow you to specify the way DCC functions will behave in a consist / multiple unit train.
 
 Consist Functions - Follow Rule Style Preference
@@ -269,6 +294,11 @@ Consist Functions - Follow Rule Style Preference
 .. todo:: See the XXX page for more information.
 
 This preference sets which style of rules to follow in a consist /  multiple unit train when function buttons are pressed in |ed|.
+
+.. figure:: /_static/images/consist_follow_functions/consist_follow_function_options.png
+   :alt: Options
+   :scale: 80%
+   :class: align-right
 
 Options:
 
@@ -285,7 +315,7 @@ Simple Consisting Option and Related Preferences
 
 If you select the 'Simple' option in the 'Consist Functions - Follow Rule Style' preference…
 
-# The behavior of F0 (Headlight) is determined by the Edit Consist Lights control on the throttle (select the consist on the throttle and then "Edit Lights" or simply long press on the consist to be taken directly to the 'Edit Lights' control.
+# The behaviour of F0 (Headlight) is determined by the Edit Consist Lights control on the throttle (select the consist on the throttle and then "Edit Lights" or simply long press on the consist to be taken directly to the 'Edit Lights' control.
 # The 'Selective Lead Unit Sound' preference prevents any Throttle Function Label of 'Horn', 'Bell' and 'Whistler' (in this case these specific labels are built into the software and cannot be changed) from being propagated.
 # The 'Always Treat F1 as Sound' preference will prevent F1 from being propagated regardless of function label.
 # The 'Always Treat F2 as Sound' preference will prevent F2 from being propagated regardless of function label.
