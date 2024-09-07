@@ -334,7 +334,6 @@ These preferences (which are explained below) are only available to edit/change 
 
 *Note, for this option to have any effect:*
 
-* The 'Use default function labels' preference must be enabled.
 * The loco (or locos in a consist) must be selected from the roster.
 * One or more of the preferences below must be set
 
