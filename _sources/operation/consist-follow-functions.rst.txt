@@ -62,6 +62,8 @@ By default DCC Functions are only sent to the first loco in a Consist / Multiple
 
 There are a number of preferences, explained in this document, that can be used to override this default behaviour.
 
+----
+
 Terminology
 -----------
 
@@ -106,6 +108,8 @@ So rather than remapping all locos in a roster to a standard function assignment
 
 In the case of consists, Function Label Matching can be used to associate a given Throttle Function to a Loco Function via its match to its Roster Entry Function Label so that a particular function (or functions) can be activated on all locos in a consist.  
 
+----
+
 Default Function Label Preferences
 ----------------------------------
 
@@ -141,14 +145,16 @@ You can use this preference to limit the Throttle Function Labels shown for when
 
 *See below for the meaning of these.*
 
+----
+
 Function Label Matching
 -----------------------
 
 NOTE: |ed| only uses Function Label Matching for the 'Special' options when:
 
-# The 'Use default function labels' preference is enabled.
-# The loco (or locos in a consist) are selected from the roster and 
-# One of the 'Consist Functions - Follow Rule Styles' preference is enabled. 
+1. The 'Use default function labels' preference is enabled.
+2. The loco (or locos in a consist) are selected from the roster and 
+3. One of the 'Consist Functions - Follow Rule Styles' preference is enabled. 
 
 *If not all the above is true, the functions are activated purely #based on the function number.*
 
