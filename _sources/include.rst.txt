@@ -37,6 +37,19 @@
 .. |WTSS| raw:: html 
    
    <a href="../about/index.html#what-s-a-withrottle-server">WiThrottle Servers</a>
+
+.. |EX-CS| raw:: html
+   
+   <a href="https://dcc-ex.com/">DCC-EX EX-CommandStation</a>
+
+.. |EX-CSS| raw:: html
+   
+   <a href="https://dcc-ex.com/">DCC-EX EX-CommandStations</a>
+
+.. |JMRI| raw:: html
+   
+   <a href="https://jmri.org/">DCC-EX EX-CommandStations</a>
+
 ..
 .. Use |ED|\ to remove the leading space if you need to follow it by a comma etc.
 ..

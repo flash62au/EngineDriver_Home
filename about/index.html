@@ -729,25 +729,34 @@
 <section id="what-is-engine-driver">
 <h2>What is ‘Engine Driver’<a class="headerlink" href="#what-is-engine-driver" title="Permalink to this heading"></a></h2>
 <a class="reference internal image-reference" href="../_images/throttle_horizontal_switching_colorful.png"><img alt="../_images/throttle_horizontal_switching_colorful.png" class="align-right" src="../_images/throttle_horizontal_switching_colorful.png" style="width: 115.2px; height: 204.8px;" /></a>
-<p><span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver Throttle</span> (normally just referred to as <span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span> or just <strong>ED</strong>) is a free Android application that connects to a <a class="reference external" href="https://jmri.org/help/en/package/jmri/jmrit/withrottle/UserInterface.shtml">WiThrottle™ Server</a> <a class="footnote-reference brackets" href="#wit" id="id1">1</a> to control model trains.</p>
+<p><span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver Throttle</span> (normally just referred to as <span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span> or just <strong>ED</strong>) is a free Android application that connects to a <a class="reference external" href="https://jmri.org/help/en/package/jmri/jmrit/withrottle/UserInterface.shtml">WiThrottle™ Server</a> <a class="footnote-reference brackets" href="#wit" id="id1">1</a>  or <a class="reference external" href="https://dcc-ex.com/">DCC-EX EX-CommandStation</a> to control model trains.</p>
 <p>Supported <a href="../about/index.html#what-s-a-withrottle-server">WiThrottle Servers</a> include:</p>
 <ul class="simple">
-<li><p><a class="reference external" href="https://jmri.org/">JMRI</a>,</p></li>
-<li><p><a class="reference external" href="https://dcc-ex.com/">DCC-EX EX-CommandStation</a></p></li>
+<li><p><a href="https://jmri.org/">DCC-EX EX-CommandStations</a>,</p></li>
+<li><p><a href="https://dcc-ex.com/">DCC-EX EX-CommandStation</a> (Using either the WiThrottle protocol or the Native DCC-EX protocol)</p></li>
 <li><p><a class="reference external" href="https://www.modelrectifier.com/category-s/332.htm">MRC Prodigy WiFi</a></p></li>
 <li><p><a class="reference external" href="https://www.digitrax.com/products/wireless/lnwi/">Digitrax LnWi</a></p></li>
 <li><p><a class="reference external" href="http://wifitrax.com/products/product-WFD-30-detail.html">WifiTrax (for NCE)</a></p></li>
 </ul>
 <p><span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span> can:</p>
 <ul class="simple">
-<li><p>Control the speed direction and up to 29 DCC functions of you DCC enabled your locos</p></li>
+<li><p>Control the speed direction and up to 32 DCC functions of your DCC enabled your locos</p></li>
 <li><p>Control from one to six locos or consists / multiple units can be controlled at the same time</p></li>
 <li><p>Easily create and edit on-the-fly consists / multiple units (software-defined)</p></li>
 <li><p>Control layout power, turnouts/points, routes, and access JMRI web panels and windows</p></li>
 <li><p>Play virtual loco sounds</p></li>
+<li><p>Specific to the DCC-EX EX-CommandStation, when using the Native DCC-EX Protocol, <span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span> can also:</p></li>
 </ul>
+<blockquote>
+<div><ul class="simple">
+<li><p>Program CVs (Service Mode and Operation Mode)</p></li>
+<li><p>Control the TrackManager features.</p></li>
+<li><p>Use some extend Route capabilities</p></li>
+<li><p>Use the ‘Request Loco ID’ &amp; ‘Drive Away’ feature from a Program track onto Mainline track</p></li>
+</ul>
+</div></blockquote>
 <p>You can customise <span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span> extensively to meet your needs.</p>
-<p>Generally the <a href="../about/index.html#what-s-a-withrottle-server">WiThrottle Servers</a> that <span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span> connects to are either DCC Command Stations, or are designed to talk to DCC Command Stations (e.g. JMRI) to subsequently talk to DCC Decoder equipped locos on a layout.  DCC-EX EX-CommandStation also allows controlling DC locos or even Slot cars instead.</p>
+<p>Generally the <a href="../about/index.html#what-s-a-withrottle-server">WiThrottle Servers</a> that <span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span> connects to are either DCC Command Stations, or are designed to talk to DCC Command Stations (e.g. JMRI) to subsequently talk to DCC Decoder equipped locos on a layout.  <a href="https://dcc-ex.com/">DCC-EX EX-CommandStation</a> also allows controlling DC locos or even Slot cars instead.</p>
 <div class="note-ed-hidden-title admonition note">
 <p class="admonition-title">Note</p>
 <p>See the <a class="reference internal" href="../operation/index.html"><span class="doc">Operation - Using Engine Driver</span></a> page for details on how to use <span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span>.</p>
@@ -784,7 +793,7 @@ Info on minSDKVersion available in the <a class="reference external" href="https
 </section>
 <section id="alternates-to-engine-driver">
 <h2>Alternates to Engine Driver<a class="headerlink" href="#alternates-to-engine-driver" title="Permalink to this heading"></a></h2>
-<p><span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span> is not the only app that can connect to JMRI, <a href="../about/index.html#what-s-a-withrottle-server">WiThrottle Servers</a> or DCC-EX EX-CommandStation, so it is worth your time to investigate to alternates.</p>
+<p><span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span> is not the only app that can connect to JMRI, <a href="../about/index.html#what-s-a-withrottle-server">WiThrottle Servers</a> or <a href="https://dcc-ex.com/">DCC-EX EX-CommandStations</a>, so it is worth your time to investigate to alternates.</p>
 <p>See the <a class="reference external" href="https://www.jmri.org/help/en/package/jmri/jmrit/withrottle/UserInterface.shtml">JMRI WiThrottle page</a> for a list of similar or related apps.</p>
 <p>See the <a class="reference external" href="https://dcc-ex.com/throttles/index.html">DCC-EX page</a> for a list of similar or related apps.</p>
 </section>

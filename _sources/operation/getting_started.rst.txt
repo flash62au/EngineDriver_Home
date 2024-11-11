@@ -12,13 +12,13 @@ Quick Start / Getting Started
 * **Start your WiThrottle server**
 
   * For JMRI, Start the `WiThrottle <https://www.jmri.org/help/en/package/jmri/jmrit/withrottle/Protocol.shtml>`_ function of JMRI, located in DecoderPro under Tools, Throttles. |br|\ It is also highly recommended that you start the `JMRI Web Server function <https://www.jmri.org/help/en/html/web/index.shtml>`_ (Tools, Start JMRI Web Server). 
-  * For other devices, turning them on and waiting a minute or two should be sufficient.
+  * For other server devices, turning them on and waiting a minute or two should be sufficient.
 
     See the `Prerequisites <../prerequisites/index.html>`_ page for more information.
 
 * **On your Android device/phone** 
   
-  * Make sure you are connected to same network as the |WTS|'s network.
+  * In you Android Devices system network and WiFi settings, make sure you are connected to same network as the |WTS|'s or |EX-CS|'s network.
 
   * Start |ED| 
 
@@ -30,7 +30,7 @@ Quick Start / Getting Started
 
   * Click on the Discovered server
 
-    * If your |WTS| does not show up, check that are on the same network as the |WTS|.   
+    * If your |WTS| does not show up, check that are on the same network as the |WTS| or |EX-CS|.   
     * If the server *never* appears in the discovered list, type in the IP address and Port of the |WTS| (Using the values shown on the JMRI WiThrottle window) and press :guilabel:`Connect`. |br|\ Note: this situation is sometimes possible even if you are on the same network. |br|\ |br|\ See the `WiFi connection <./wifi_issues.html>`_ page for more assistance if you have connection issues. |br|\ |br|\ 
 
   * If needed, turn the track power on with :menuselection:`Menu --> Power` and confirm the button is 'green'  (This is not required by all DCC Command Stations.)
@@ -39,7 +39,7 @@ Quick Start / Getting Started
 
   * On the next (Loco Select) screen, either:
 
-    * Click on a loco from the Roster or Recent lists |br|\ or
+    * Click on a loco from the Roster or Recent lists |BR| or
     * Enter the loco address (verify short or long), and press :guilabel:`Acquire`
 
       You will be returned to the |T-S|.
