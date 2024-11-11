@@ -11,27 +11,33 @@ What is 'Engine Driver'
    :scale: 8 %
    :align: right
 
-|EDT| (normally just referred to as |ed| or just **ED**) is a free Android application that connects to a `WiThrottle™ Server <https://jmri.org/help/en/package/jmri/jmrit/withrottle/UserInterface.shtml>`_ [#WIT]_ to control model trains. 
+|EDT| (normally just referred to as |ed| or just **ED**) is a free Android application that connects to a `WiThrottle™ Server <https://jmri.org/help/en/package/jmri/jmrit/withrottle/UserInterface.shtml>`_ [#WIT]_  or `DCC-EX EX-CommandStation <https://dcc-ex.com/>`_ to control model trains. 
 
 Supported |WTSS| include:
 
-* `JMRI <https://jmri.org/>`_,
-*  `DCC-EX EX-CommandStation <https://dcc-ex.com/>`_
-*  `MRC Prodigy WiFi <https://www.modelrectifier.com/category-s/332.htm>`_
-*  `Digitrax LnWi <https://www.digitrax.com/products/wireless/lnwi/>`_
-*  `WifiTrax (for NCE) <http://wifitrax.com/products/product-WFD-30-detail.html>`_ 
+* |JMRI|,
+* |EX-CS| (Using either the WiThrottle protocol or the Native DCC-EX protocol)
+* `MRC Prodigy WiFi <https://www.modelrectifier.com/category-s/332.htm>`_
+* `Digitrax LnWi <https://www.digitrax.com/products/wireless/lnwi/>`_
+* `WifiTrax (for NCE) <http://wifitrax.com/products/product-WFD-30-detail.html>`_ 
 
 |ed| can: 
 
-* Control the speed direction and up to 29 DCC functions of you DCC enabled your locos
+* Control the speed direction and up to 32 DCC functions of your DCC enabled your locos
 * Control from one to six locos or consists / multiple units can be controlled at the same time
 * Easily create and edit on-the-fly consists / multiple units (software-defined)
 * Control layout power, turnouts/points, routes, and access JMRI web panels and windows
 * Play virtual loco sounds 
+* Specific to the DCC-EX EX-CommandStation, when using the Native DCC-EX Protocol, |ED| can also:
+ 
+ * Program CVs (Service Mode and Operation Mode)
+ * Control the TrackManager features.
+ * Use some extend Route capabilities
+ * Use the 'Request Loco ID' & 'Drive Away' feature from a Program track onto Mainline track
 
 You can customise |ed| extensively to meet your needs.
 
-Generally the |WTSS| that |ed| connects to are either DCC Command Stations, or are designed to talk to DCC Command Stations (e.g. JMRI) to subsequently talk to DCC Decoder equipped locos on a layout.  DCC-EX EX-CommandStation also allows controlling DC locos or even Slot cars instead.
+Generally the |WTSS| that |ed| connects to are either DCC Command Stations, or are designed to talk to DCC Command Stations (e.g. JMRI) to subsequently talk to DCC Decoder equipped locos on a layout.  |EX-CS| also allows controlling DC locos or even Slot cars instead.
 
 .. note:: 
   :class: note-ed-hidden-title
@@ -75,7 +81,7 @@ See the :doc:`/contact/index` page if you are having problems or wish to make a 
 Alternates to Engine Driver
 ---------------------------
 
-|ed| is not the only app that can connect to JMRI, |WTSS| or DCC-EX EX-CommandStation, so it is worth your time to investigate to alternates.
+|ed| is not the only app that can connect to JMRI, |WTSS| or |EX-CSS|, so it is worth your time to investigate to alternates.
 
 See the `JMRI WiThrottle page <https://www.jmri.org/help/en/package/jmri/jmrit/withrottle/UserInterface.shtml>`_ for a list of similar or related apps.
 

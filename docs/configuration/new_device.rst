@@ -34,6 +34,19 @@ Moving to a new phone/device
 
 * Use the ``Import`` function in the preferences: :menuselection:`Menu --> Preferences --> Import/Export/Reset & Log Preferences --> Import/Export --> Import, Export or Reset`
 
+|hr-dashed|
+
+**Primary files (in the 'files' folder)** |BR|
+exported_preferences.ed |BR|
+recent_engine_list.txt |BR|
+recent_consist_list.txt |BR|
+recent_turnouts_list.txt |BR|
+function_settings.txt
+
+**Other Files:** |BR|
+connections_list.txt |BR|
+connections_log.txt
+
 .. note:: 
   :class: note-ed-hidden-title
 

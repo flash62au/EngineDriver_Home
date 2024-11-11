@@ -1809,6 +1809,7 @@ Options:
 
   You can transfer the preferences to a different phone by copying the file. See the :doc:`Moving to a New Device/Phone <../configuration/new_device>` page for more information.
 
+
 Auto import from all Servers?
 """""""""""""""""""""""""""""
 

@@ -21,13 +21,13 @@ Engine Driver
 
 ----
   
-|JEDT|, more commonly known as |ed|, is a free Android application that connects to a WiThrottle™ [#WIT]_ Server to control model trains. 
+|JEDT|, more commonly known as |ed|, is a free Android application that connects to a WiThrottle™ [#WIT]_ Server or `DCC-EX EX-CommandStation <https://dcc-ex.com/>`_ to control model trains. 
 
 .. image:: ./_static/images/screenshots/throttle_vertical_outline.png
    :scale: 8 %
    :align: right
 
-Supported servers include `JMRI <https://jmri.org/>`_, `DCC-EX Command Station <https://dcc-ex.com/>`_, `MRC Prodigy WiFi <https://www.modelrectifier.com/category-s/332.htm>`_, `Digitrax LnWi <https://www.digitrax.com/products/wireless/lnwi/>`_, and `WifiTrax (for NCE) <http://wifitrax.com/products/product-WFD-30-detail.html>`_. 
+Supported servers include |JMRI|, |EX-CS|, `MRC Prodigy WiFi <https://www.modelrectifier.com/category-s/332.htm>`_, `Digitrax LnWi <https://www.digitrax.com/products/wireless/lnwi/>`_, and `WifiTrax (for NCE) <http://wifitrax.com/products/product-WFD-30-detail.html>`_. 
 Once connected, you can control the speed direction and up to 29 DCC functions of your DCC enabled locomotives (locos). From one to six locos or consists / multiple units can be controlled at the same time.  
 You can easily create and edit on-the-fly consists / multiple units (software-defined). 
 You can also control layout power, turnouts/points, routes, and access JMRI web panels and windows.

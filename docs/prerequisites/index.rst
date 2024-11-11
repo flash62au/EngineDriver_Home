@@ -19,7 +19,11 @@ To Use Engine Driver You must...
 
 *ALSO*
 
-1. A |WTS| must be available on a device connected to your model train layout for |ed| to connect to.
+2a. A |WTS| must be available on a device connected to your model train layout for |ed| to connect to.
+
+**OR**
+
+2b. A |EX-CS| must be available on a device connected to your model train layout for |ed| to connect to.
 
 Android Device/Phone
 --------------------
@@ -62,7 +66,9 @@ Both of these should be added to Preferences, Start Up as well.
 For DCC-EX WiFi
 """""""""""""""
 
-`DCC-EX <https://dcc-ex.com/index.html>`_ includes a built-in `WiThrottle Server <https://dcc-ex.com/throttles/protocols.html#the-withrottle-server>`_. Build your `DCC-EX Command Station <https://dcc-ex.com/get-started/index.html>`_, add `WiFi <https://dcc-ex.com/get-started/wifi-setup.html>`_, then connect EngineDriver following `these steps <https://dcc-ex.com/throttles/protocols.html#the-withrottle-server>`_.
+|EX-CS| includes a built-in `WiThrottle Server <https://dcc-ex.com/throttles/protocols.html#the-withrottle-server>`_. Build your `DCC-EX Command Station <https://dcc-ex.com/get-started/index.html>`_, add `WiFi <https://dcc-ex.com/get-started/wifi-setup.html>`_, then connect EngineDriver following `these steps <https://dcc-ex.com/throttles/protocols.html#the-withrottle-server>`_.
+
+|ED| can communicate with |EX-CSS| using either WiThrottle protocol or the Native DCC-EX protocol. By default |ED| will use the Native DCC-EX protocol if the name of the server includes "DCC-EX" or "DCCEX" (upper or lower case).
 
 For MRC WiFi
 """"""""""""

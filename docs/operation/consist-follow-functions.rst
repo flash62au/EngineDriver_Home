@@ -24,8 +24,8 @@ By default, in |ed|, if you activate a DCC function while controlling a Consist/
 
 The following document provides information on the different rule types and how to use them.
 
-.. contents:: This document is in two distinct sections
-    :depth: 2
+.. contents:: This document is in two distinct sections:
+    :depth: 1
     :local:
     :class: in-this-section
 
