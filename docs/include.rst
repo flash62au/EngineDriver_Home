@@ -46,9 +46,25 @@
    
    <a href="https://dcc-ex.com/">DCC-EX EX-CommandStations</a>
 
+.. |DCC-EX| raw:: html
+   
+   <a href="https://dcc-ex.com/">DCC-EX</a>
+
 .. |JMRI| raw:: html
    
-   <a href="https://jmri.org/">DCC-EX EX-CommandStations</a>
+   <a href="https://jmri.org/">JMRI</a>
+
+.. |NATIVE| replace::
+   
+   :ref:`DCC-EX Native Protocol <about/index:withrottle protocol vs dcc-ex native protocol>`
+
+.. |NATIVE_SERVER| replace::
+
+   :ref:`DCC-EX Native Protocol server <about/index:withrottle protocol vs dcc-ex native protocol>`
+
+.. |WIT| replace::
+
+   :ref:`WiThrottle Protocol <about/index:what's a 'withrottle server'?>`
 
 ..
 .. Use |ED|\ to remove the leading space if you need to follow it by a comma etc.
