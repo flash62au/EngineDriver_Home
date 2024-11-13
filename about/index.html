@@ -66,6 +66,7 @@
 <li class="toctree-l1 current"><a class="current reference internal" href="#">About Engine Driver</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#what-is-engine-driver">What is ‘Engine Driver’</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#what-s-a-withrottle-server">What’s a ‘WiThrottle Server’?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#withrottle-protocol-vs-dcc-ex-native-protocol">WiThrottle protocol VS DCC-EX Native protocol</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#roadmap">Roadmap</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#alternates-to-engine-driver">Alternates to Engine Driver</a></li>
 </ul>
@@ -732,7 +733,7 @@
 <p><span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver Throttle</span> (normally just referred to as <span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span> or just <strong>ED</strong>) is a free Android application that connects to a <a class="reference external" href="https://jmri.org/help/en/package/jmri/jmrit/withrottle/UserInterface.shtml">WiThrottle™ Server</a> <a class="footnote-reference brackets" href="#wit" id="id1">1</a>  or <a class="reference external" href="https://dcc-ex.com/">DCC-EX EX-CommandStation</a> to control model trains.</p>
 <p>Supported <a href="../about/index.html#what-s-a-withrottle-server">WiThrottle Servers</a> include:</p>
 <ul class="simple">
-<li><p><a href="https://jmri.org/">DCC-EX EX-CommandStations</a>,</p></li>
+<li><p><a href="https://jmri.org/">JMRI</a> (Using either the WiThrottle protocol or the Native DCC-EX protocol)</p></li>
 <li><p><a href="https://dcc-ex.com/">DCC-EX EX-CommandStation</a> (Using either the WiThrottle protocol or the Native DCC-EX protocol)</p></li>
 <li><p><a class="reference external" href="https://www.modelrectifier.com/category-s/332.htm">MRC Prodigy WiFi</a></p></li>
 <li><p><a class="reference external" href="https://www.digitrax.com/products/wireless/lnwi/">Digitrax LnWi</a></p></li>
@@ -780,6 +781,12 @@ Info on minSDKVersion available in the <a class="reference external" href="https
 </dd>
 </dl>
 </section>
+<section id="withrottle-protocol-vs-dcc-ex-native-protocol">
+<h2>WiThrottle protocol VS DCC-EX Native protocol<a class="headerlink" href="#withrottle-protocol-vs-dcc-ex-native-protocol" title="Permalink to this heading"></a></h2>
+<p><span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span> traditionally used the WiThrottle Protocol (described above). When the <a href="https://dcc-ex.com/">DCC-EX</a> team designed the <a href="https://dcc-ex.com/">DCC-EX EX-CommandStation</a> they found the WiThrottle Protocol too limiting and came up with a new protocol referred to originally as <strong>DCC++</strong> but later as <strong>DCC-EX Native Protocol</strong>.</p>
+<p><span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span> can use either protocol and by default will try to use the more powerful <strong>DCC-EX Native Protocol</strong> when connecting to a <a href="https://dcc-ex.com/">DCC-EX EX-CommandStation</a>.</p>
+<p><span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span> can also us the Native Protocol to connect to a <a href="https://dcc-ex.com/">DCC-EX EX-CommandStation</a> via <a href="https://jmri.org/">JMRI</a> but you need to enable the “DCC++ over TCP Server” in the “DCC++” menu on Decoder-Pro.</p>
+</section>
 <section id="roadmap">
 <h2>Roadmap<a class="headerlink" href="#roadmap" title="Permalink to this heading"></a></h2>
 <p><span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span> doesn’t really have a roadmap.  Code changes (bug fixes and features) are done depending on several factors, including:</p>
@@ -793,7 +800,7 @@ Info on minSDKVersion available in the <a class="reference external" href="https
 </section>
 <section id="alternates-to-engine-driver">
 <h2>Alternates to Engine Driver<a class="headerlink" href="#alternates-to-engine-driver" title="Permalink to this heading"></a></h2>
-<p><span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span> is not the only app that can connect to JMRI, <a href="../about/index.html#what-s-a-withrottle-server">WiThrottle Servers</a> or <a href="https://dcc-ex.com/">DCC-EX EX-CommandStations</a>, so it is worth your time to investigate to alternates.</p>
+<p><span style="font-weight: bold; font-style: italic; font-size: 110%; color: #db4700;">Engine&nbsp;Driver</span> is not the only app that can connect to JMRI, <a href="../about/index.html#what-s-a-withrottle-server">WiThrottle Servers</a> or <a href="https://dcc-ex.com/">DCC-EX EX-CommandStations</a>, so it is worth your time to investigate the alternates.</p>
 <p>See the <a class="reference external" href="https://www.jmri.org/help/en/package/jmri/jmrit/withrottle/UserInterface.shtml">JMRI WiThrottle page</a> for a list of similar or related apps.</p>
 <p>See the <a class="reference external" href="https://dcc-ex.com/throttles/index.html">DCC-EX page</a> for a list of similar or related apps.</p>
 </section>

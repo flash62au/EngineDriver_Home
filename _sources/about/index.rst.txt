@@ -15,7 +15,7 @@ What is 'Engine Driver'
 
 Supported |WTSS| include:
 
-* |JMRI|,
+* |JMRI| (Using either the WiThrottle protocol or the Native DCC-EX protocol)
 * |EX-CS| (Using either the WiThrottle protocol or the Native DCC-EX protocol)
 * `MRC Prodigy WiFi <https://www.modelrectifier.com/category-s/332.htm>`_
 * `Digitrax LnWi <https://www.digitrax.com/products/wireless/lnwi/>`_
@@ -65,6 +65,17 @@ The WiThrottle Protocol itself is a standard for how WiFi throttles can communic
 
 .. [#WIT] 'WiThrottle' is a trademark owned by Brett Hoffman. It is also an `iOS app <https://www.withrottle.com/html/home.html>`_ developed by Brett Hoffman which has similar capabilities to Engine Driver. |br|\ The 'WiThrottle protocol' is a communications protocol developed by Brett Hoffman.  It is used by JMRI, |ed|, the wiThrottle app and a number of other apps and DCC Command Stations. |br|\ References in this website to a '|WTS|', refer to a server that can communicate using the 'WiThrottle protocol'.
 
+
+WiThrottle protocol VS DCC-EX Native protocol
+---------------------------------------------
+
+|ED| traditionally used the WiThrottle Protocol (described above). When the |DCC-EX| team designed the |EX-CS| they found the WiThrottle Protocol too limiting and came up with a new protocol referred to originally as **DCC++** but later as **DCC-EX Native Protocol**.
+
+|ED| can use either protocol and by default will try to use the more powerful **DCC-EX Native Protocol** when connecting to a |EX-CS|.
+
+|ED| can also us the Native Protocol to connect to a |EX-CS| via |JMRI| but you need to enable the "DCC++ over TCP Server" in the "DCC++" menu on Decoder-Pro.
+
+
 Roadmap
 -----------
 
@@ -81,7 +92,7 @@ See the :doc:`/contact/index` page if you are having problems or wish to make a 
 Alternates to Engine Driver
 ---------------------------
 
-|ed| is not the only app that can connect to JMRI, |WTSS| or |EX-CSS|, so it is worth your time to investigate to alternates.
+|ed| is not the only app that can connect to JMRI, |WTSS| or |EX-CSS|, so it is worth your time to investigate the alternates.
 
 See the `JMRI WiThrottle page <https://www.jmri.org/help/en/package/jmri/jmrit/withrottle/UserInterface.shtml>`_ for a list of similar or related apps.
 
