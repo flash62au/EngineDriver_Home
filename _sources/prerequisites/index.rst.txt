@@ -44,8 +44,8 @@ ESU MobileControl II
   
   See the `ESU MobileControl II <../operation/esu_mcii.html>`_ page for more information.
 
-WiThrottle Servers
-------------------
+WiThrottle and DCC-EX Native Servers
+------------------------------------
 
 For JMRI
 """"""""

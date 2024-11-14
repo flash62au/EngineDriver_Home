@@ -1121,6 +1121,24 @@ Accessed from the menu on the |T-S| as :menuselection:`Menu --> Function Default
 
 ----
 
+DCC-EX Function Settings Screen
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. todo:: DCC-EX Function Settings Screen
+
+Accessed from the menu on the |T-S| as :menuselection:`Menu --> DCC-EX Function Settings`.
+
+----
+
+DCC-EX Screen
+^^^^^^^^^^^^^
+
+.. todo:: DCC-EX Screen
+
+Accessed from the menu on the |T-S| as :menuselection:`Menu --> DCC-EX`.
+
+----
+
 Gamepad Test Screen
 ^^^^^^^^^^^^^^^^^^^
 

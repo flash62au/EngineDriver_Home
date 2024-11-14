@@ -59,11 +59,11 @@ The WiThrottle Protocol itself is a standard for how WiFi throttles can communic
 .. note:: 
   :class: note-ed-hidden-title
 
-  See the :ref:`WiThrottle Servers <prerequisites/index:withrottle servers>` section of the Prerequisites page for information on the different WiThrottle Servers.
+  See the :ref:`WiThrottle / DCC-EX Native Servers <prerequisites/index:withrottle and dcc-ex native servers>` section of the Prerequisites page for information on the different WiThrottle Servers.
 
 ----
 
-.. [#WIT] 'WiThrottle' is a trademark owned by Brett Hoffman. It is also an `iOS app <https://www.withrottle.com/html/home.html>`_ developed by Brett Hoffman which has similar capabilities to Engine Driver. |br|\ The 'WiThrottle protocol' is a communications protocol developed by Brett Hoffman.  It is used by JMRI, |ed|, the wiThrottle app and a number of other apps and DCC Command Stations. |br|\ References in this website to a '|WTS|', refer to a server that can communicate using the 'WiThrottle protocol'.
+.. [#WIT] 'WiThrottle' is a trademark owned by Brett Hoffman. It is also an `iOS app <https://www.withrottle.com/html/home.html>`_ developed by Brett Hoffman which has similar capabilities to Engine Driver. |BR|\ The 'WiThrottle protocol' is a communications protocol developed by Brett Hoffman.  It is used by JMRI, |ed|, the WiThrottle app and a number of other apps and DCC Command Stations. |BR|\ References in this website to a '|WTS|', refer to a server that can communicate using the 'WiThrottle protocol'.
 
 
 WiThrottle protocol VS DCC-EX Native protocol
@@ -71,7 +71,7 @@ WiThrottle protocol VS DCC-EX Native protocol
 
 |ED| traditionally used the WiThrottle Protocol (described above). When the |DCC-EX| team designed the |EX-CS| they found the WiThrottle Protocol too limiting and came up with a new protocol referred to originally as **DCC++** but later as **DCC-EX Native Protocol**.
 
-|ED| can use either protocol and by default will try to use the more powerful **DCC-EX Native Protocol** when connecting to a |EX-CS|.
+|ED| can use either protocol and, by default, will try to use the more powerful **DCC-EX Native Protocol** when connecting to a |EX-CS|.
 
 |ED| can also us the Native Protocol to connect to a |EX-CS| via |JMRI| but you need to enable the "DCC++ over TCP Server" in the "DCC++" menu on Decoder-Pro.
 
