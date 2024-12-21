@@ -250,6 +250,27 @@ Throttle Screen Layout
       - see note
       - 0-100
       - ✓
+    * - Tablet Shunting Left
+      - 1 \- 6
+      - V
+      - ✓
+      - ✓
+      - \-100 - 0 - +100
+      - 🗴
+    * - Tablet Vertical Left
+      - 1 \- 6
+      - V
+      - ✓
+      - ✓
+      - 0-100
+      - ✓
+    * - Semi-Realistic Left
+      - 1
+      - V
+      - ✓
+      - 🗴
+      - 0-100
+      - ✓
 
 
 .. list-table::
