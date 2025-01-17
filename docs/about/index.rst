@@ -28,7 +28,7 @@ Supported |WTSS| include:
 * Easily create and edit on-the-fly consists / multiple units (software-defined)
 * Control layout power, turnouts/points, routes, and access JMRI web panels and windows
 * Play virtual loco sounds 
-* Specific to the `DCC-EX EX-CommandStation <https://dcc-ec.com>`_ can also use the Native DCC-EX Protocol to communicate. |BR| When using the Native DCC-EX Protocol, |ED| can also:
+* Specific to the DCC-EX EX-CommandStation can also use the Native DCC-EX Protocol to communicate. |BR| When using the Native DCC-EX Protocol, |ED| can also:
  
  * Program CVs (Service Mode and Operation Mode)
  * Control the TrackManager features.
