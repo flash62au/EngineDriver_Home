@@ -28,7 +28,7 @@ Engine Driver
    :align: right
 
 Supported servers include |JMRI|, |EX-CS|, `MRC Prodigy WiFi <https://www.modelrectifier.com/category-s/332.htm>`_, `Digitrax LnWi <https://www.digitrax.com/products/wireless/lnwi/>`_, and `WifiTrax (for NCE) <http://wifitrax.com/products/product-WFD-30-detail.html>`_. 
-Once connected, you can control the speed direction and up to 29 DCC functions of your DCC enabled locomotives (locos). From one to six locos or consists / multiple units can be controlled at the same time.  
+Once connected, you can control the speed direction and up to 32 DCC functions of your DCC enabled locomotives (locos). From one to six locos or consists / multiple units can be controlled at the same time.  
 You can easily create and edit on-the-fly consists / multiple units (software-defined). 
 You can also control layout power, turnouts/points, routes, and access JMRI web panels and windows.
 

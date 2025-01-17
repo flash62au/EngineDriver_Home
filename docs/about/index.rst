@@ -28,7 +28,7 @@ Supported |WTSS| include:
 * Easily create and edit on-the-fly consists / multiple units (software-defined)
 * Control layout power, turnouts/points, routes, and access JMRI web panels and windows
 * Play virtual loco sounds 
-* Specific to the DCC-EX EX-CommandStation, when using the Native DCC-EX Protocol, |ED| can also:
+* Specific to the `DCC-EX EX-CommandStation <https://dcc-ec.com>`_ can also use the Native DCC-EX Protocol to communicate. |BR| When using the Native DCC-EX Protocol, |ED| can also:
  
  * Program CVs (Service Mode and Operation Mode)
  * Control the TrackManager features.
@@ -69,11 +69,11 @@ The WiThrottle Protocol itself is a standard for how WiFi throttles can communic
 WiThrottle protocol VS DCC-EX Native protocol
 ---------------------------------------------
 
-|ED| traditionally used the WiThrottle Protocol (described above). When the |DCC-EX| team designed the |EX-CS| they found the WiThrottle Protocol too limiting and came up with a new protocol referred to originally as **DCC++** but later as **DCC-EX Native Protocol**.
+|ED| traditionally used the WiThrottle Protocol (described above). When the |DCC-EX| team designed the |EX-CS| they found the WiThrottle Protocol too limiting and came up with a new protocol referred to originally as **DCC++** but later as **Native DCC-EX Protocol**.
 
-|ED| can use either protocol and, by default, will try to use the more powerful **DCC-EX Native Protocol** when connecting to a |EX-CS|.
+|ED| can use either protocol and, by default, will try to use the more powerful **Native DCC-EX Protocol** when connecting to a |EX-CS|.
 
-|ED| can also us the Native Protocol to connect to a |EX-CS| via |JMRI| but you need to enable the "DCC++ over TCP Server" in the "DCC++" menu on Decoder-Pro.
+|ED| can also us the Native DCC-EX Protocol to connect to a |EX-CS| via |JMRI| but you need to enable the "DCC++ over TCP Server" in the "DCC++" menu in Decoder-Pro.
 
 
 Roadmap
