@@ -137,5 +137,6 @@ redirects = {
     "contact/index": "https://enginedriver2.mstevetodd.com/index.html"
     "downloads/index": "https://enginedriver2.mstevetodd.com/index.html"
     "videos/index": "https://enginedriver2.mstevetodd.com/index.html"
+    "operation/getting_started": "https://enginedriver2.mstevetodd.com/operation/getting_started.html"
 }
 
