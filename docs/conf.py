@@ -42,7 +42,8 @@ extensions = [
    # 'sphinx.ext.inheritance_diagram',
     'sphinxcontrib.spelling',
     'sphinx_sitemap',    
-    'sphinx_rtd_dark_mode'
+    'sphinx_rtd_dark_mode',
+    'sphinx_reredirects'
 ]
 
 # Make sure the target is unique
@@ -127,3 +128,8 @@ html_js_files = [
 #    'js/roundslider.min.js',
 #    'js/storageController.js'
 ]
+
+redirects = {
+    "index": "https://enginedriver2.mstevetodd.com/index.html",
+}
+
