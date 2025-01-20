@@ -130,13 +130,13 @@ html_js_files = [
 ]
 
 redirects = {
-    "index": "https://enginedriver2.mstevetodd.com/index.html",
-    "about/index": "https://enginedriver2.mstevetodd.com/index.html",
-    "configuration/index": "https://enginedriver2.mstevetodd.com/index.html",
-    "operation/index": "https://enginedriver2.mstevetodd.com/index.html",
-    "contact/index": "https://enginedriver2.mstevetodd.com/index.html",
-    "downloads/index": "https://enginedriver2.mstevetodd.com/index.html",
-    "videos/index": "https://enginedriver2.mstevetodd.com/index.html",
-    "operation/getting_started": "https://enginedriver2.mstevetodd.com/operation/getting_started.html"
+    "index": "https://enginedriver.mstevetodd.com/index.html",
+    "about/index": "https://enginedriver.mstevetodd.com/index.html",
+    "configuration/index": "https://enginedriver.mstevetodd.com/index.html",
+    "operation/index": "https://enginedriver.mstevetodd.com/index.html",
+    "contact/index": "https://enginedriver.mstevetodd.com/index.html",
+    "downloads/index": "https://enginedriver.mstevetodd.com/index.html",
+    "videos/index": "https://enginedriver.mstevetodd.com/index.html",
+    "operation/getting_started": "https://enginedriver.mstevetodd.com/operation/getting_started.html"
 }
 
